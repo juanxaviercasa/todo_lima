@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "createdAt": "2026-09-08T04:52:33.387Z",
+  "lastUpdated": "2026-09-08T04:52:59.159Z",
+  "totalCompleted": 1,
+  "categories": {
+    "dentistas": {
+      "lastScraped": "2026-09-08T04:52:59.158Z",
+      "status": "success",
+      "resultsCount": 10,
+      "error": null
+    }
+  }
+}
