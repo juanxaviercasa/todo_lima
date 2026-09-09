@@ -1,0 +1,928 @@
+{
+  "category": "spas",
+  "searchQuery": "spas y masajes relajantes en Lima",
+  "totalResults": 100,
+  "updatedAt": "2026-09-09T18:53:28.771Z",
+  "topBusinessContext": {
+    "id": "biz_11",
+    "name": "Spa poder en rosa",
+    "rating": 5,
+    "reviewsCount": null,
+    "category": "Spa y gimnasio",
+    "address": "Huaycan Zona \"A\" UCV \"20\" lote \"2 Lima, 15400",
+    "url": "https://www.google.com/maps/place/Spa+poder+en+rosa/data=!4m7!3m6!1s0x9105e9f8ae8975f9:0x48777f18ca3aef5b!8m2!3d-12.0130687!4d-76.8253859!16s%2Fg%2F11m95wzndc!19sChIJ-XWJrvjpBZERW-86yhh_d0g"
+  },
+  "pageContent": {
+    "headline": "Los Mejores Expertos en SPAS en Lima: Conoce a Spa poder en rosa",
+    "subtitles": [
+      "Garantiza resultados hoy mismo. Ubicados en Huaycan Zona \"A\" UCV \"20\" lote \"2 Lima, 15400, destacan como la opción número uno validada por usuarios reales.",
+      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
+    ],
+    "ctas": [
+      "Contactar por WhatsApp Ahora",
+      "Ver Directorio Completo"
+    ]
+  },
+  "businesses": [
+    {
+      "id": "biz_11",
+      "name": "Spa poder en rosa",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Spa y gimnasio",
+      "address": "Huaycan Zona \"A\" UCV \"20\" lote \"2 Lima, 15400",
+      "url": "https://www.google.com/maps/place/Spa+poder+en+rosa/data=!4m7!3m6!1s0x9105e9f8ae8975f9:0x48777f18ca3aef5b!8m2!3d-12.0130687!4d-76.8253859!16s%2Fg%2F11m95wzndc!19sChIJ-XWJrvjpBZERW-86yhh_d0g"
+    },
+    {
+      "id": "biz_14",
+      "name": "Body Balance | Masajes | Massage",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Ca. José Toribio Polo 327, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Body+Balance+%7C+Masajes+%7C+Massage/data=!4m7!3m6!1s0x9105c9d7cbb51ba7:0xb87b1adc3f024107!8m2!3d-12.1134733!4d-77.047755!16s%2Fg%2F11ks0321x7!19sChIJpxu1y9fJBZERB0ECP9wae7g"
+    },
+    {
+      "id": "biz_17",
+      "name": "Masajes Los Olivos Cielo Spa - Masajes Tantra para mujeres - Masajes Relajantes - Masajes tantricos para mujeres",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Av. Carlos Izaguirre 888, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/Masajes+Los+Olivos+Cielo+Spa+-+Masajes+Tantra+para+mujeres+-+Masajes+Relajantes+-+Masajes+tantricos+para+mujeres/data=!4m7!3m6!1s0x9105cfe3f22e0a4f:0xdf90d0b7ae5ed524!8m2!3d-11.9912011!4d-77.0712086!16s%2Fg%2F11z1300r4q!19sChIJTwou8uPPBZERJNVerrfQkN8"
+    },
+    {
+      "id": "biz_19",
+      "name": "Mano Santa. Massage Miraflores.",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Masajista",
+      "address": "Mal. 28 de Julio 535, Miraflores 15076",
+      "url": "https://www.google.com/maps/place/Mano+Santa.+Massage+Miraflores./data=!4m7!3m6!1s0x9105c9dccee7de71:0x644a0b88d1a46253!8m2!3d-12.1272894!4d-77.0342409!16s%2Fg%2F11p04r6k6c!19sChIJcd7nztzJBZERU2Kk0YgLSmQ"
+    },
+    {
+      "id": "biz_20",
+      "name": "Body Balance | Masajes | Massage",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "C. Monte Rosa 128, Santiago de Surco 15036",
+      "url": "https://www.google.com/maps/place/Body+Balance+%7C+Masajes+%7C+Massage/data=!4m7!3m6!1s0x9105c702c63adf39:0x45c3f560741affe5!8m2!3d-12.1123795!4d-76.9914428!16s%2Fg%2F11fn7zwqpt!19sChIJOd86xgLHBZER5f8adGD1w0U"
+    },
+    {
+      "id": "biz_27",
+      "name": "Bambú Massage Monterrico",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Av La Encalada 799, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/Bamb%C3%BA+Massage+Monterrico/data=!4m7!3m6!1s0x9105c7efc8bd83ed:0x1af1aa818cc386af!8m2!3d-12.1079394!4d-76.9721966!16s%2Fg%2F11y_r_crcd!19sChIJ7YO9yO_HBZERr4bDjIGq8Ro"
+    },
+    {
+      "id": "biz_28",
+      "name": "Bambu Massage Pedro Venturo - Masajes",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Spa y gimnasio",
+      "address": "Av. Pedro Venturo 456, Santiago de Surco 15038",
+      "url": "https://www.google.com/maps/place/Bambu+Massage+Pedro+Venturo+-+Masajes/data=!4m7!3m6!1s0x9105c7275f06b379:0x9aad092b40e2bedb!8m2!3d-12.1217036!4d-76.9932259!16s%2Fg%2F11stds2bqx!19sChIJebMGXyfHBZER277iQCsJrZo"
+    },
+    {
+      "id": "biz_30",
+      "name": "Sentidos Thai Massage",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Masajista tailandés",
+      "address": "Pje. Pedro Solari 106, Barranco 15063",
+      "url": "https://www.google.com/maps/place/Sentidos+Thai+Massage/data=!4m7!3m6!1s0x9105b792b16cdbf3:0x8d990641703ad3f7!8m2!3d-12.152629!4d-77.0232296!16s%2Fg%2F11bxdz255x!19sChIJ89tssZK3BZER99M6cEEGmY0"
+    },
+    {
+      "id": "biz_31",
+      "name": "Bambú Massage La Molina - Masajes",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Alameda del Corregidor 1198, La Molina 12175",
+      "url": "https://www.google.com/maps/place/Bamb%C3%BA+Massage+La+Molina+-+Masajes/data=!4m7!3m6!1s0x9105c79794fc9e47:0xcb9e536ea314a09b!8m2!3d-12.0926907!4d-76.9529136!16s%2Fg%2F11w1qxp_17!19sChIJR578lJfHBZERm6AUo25Tnss"
+    },
+    {
+      "id": "biz_34",
+      "name": "Body Balance | Massage Miraflores | Masajes",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Calle Alcanfores 393, Miraflores 15046",
+      "url": "https://www.google.com/maps/place/Body+Balance+%7C+Massage+Miraflores+%7C+Masajes/data=!4m7!3m6!1s0x9105c91f9fe75155:0x7ecd554616093b36!8m2!3d-12.1230421!4d-77.0277673!16s%2Fg%2F11wtk49h3y!19sChIJVVHnnx_JBZERNjsJFkZVzX4"
+    },
+    {
+      "id": "biz_35",
+      "name": "Peace Spa Masajes Tántricos en Lima",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Masaje erótico",
+      "address": "Av. San Borja Sur 15036, San Borja 15036",
+      "url": "https://www.google.com/maps/place/Peace+Spa+Masajes+T%C3%A1ntricos+en+Lima/data=!4m7!3m6!1s0x9105c750f5801afd:0x7eadaaa0c3229fdd!8m2!3d-12.1013438!4d-77.0041099!16s%2Fg%2F11nc7g268f!19sChIJ_RqA9VDHBZER3Z8iw6CqrX4"
+    },
+    {
+      "id": "biz_39",
+      "name": "Salvador SPA",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Esteticista",
+      "address": "Centro Comercial Santa Rosa, Sta. Rosa 5092 #70, Santiago de Surco 15038",
+      "url": "https://www.google.com/maps/place/Salvador+SPA/data=!4m7!3m6!1s0x9105c7d022882065:0x968c12fc738ea3ad!8m2!3d-12.1369223!4d-77.0117612!16s%2Fg%2F11r3jvr4ff!19sChIJZSCIItDHBZERraOOc_wSjJY"
+    },
+    {
+      "id": "biz_46",
+      "name": "Masajes Relajantes Lima",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Av. Miguel Iglesias 121, Lima 15036",
+      "url": "https://www.google.com/maps/place/Masajes+Relajantes+Lima/data=!4m7!3m6!1s0x9105b96c74117551:0x6fe7941e1dc5634d!8m2!3d-12.1721584!4d-76.9622616!16s%2Fg%2F11sy_008qc!19sChIJUXURdGy5BZERTWPFHR6U528"
+    },
+    {
+      "id": "biz_47",
+      "name": "Mi Espacio Mar Spa",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Spa y gimnasio",
+      "address": "Av. Javier Prado Oeste 2039, San Isidro 15076",
+      "url": "https://www.google.com/maps/place/Mi+Espacio+Mar+Spa/data=!4m7!3m6!1s0x9105c8524a1171a1:0x1bf4b9eaafa323d2!8m2!3d-12.0951987!4d-77.0521872!16s%2Fg%2F11ngtlkmx9!19sChIJoXERSlLIBZER0iOjr-q59Bs"
+    },
+    {
+      "id": "biz_57",
+      "name": "Masajes SpaDeportivo",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Masajista",
+      "address": "Osaka, Centro Comercial, Av. El Polo 670, El Polo II, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/Masajes+SpaDeportivo/data=!4m7!3m6!1s0x9105c791cf3c7fbb:0x3cf4110cb9110e69!8m2!3d-12.1013902!4d-76.970967!16s%2Fg%2F11wqvcjr7b!19sChIJu388z5HHBZERaQ4RuQwR9Dw"
+    },
+    {
+      "id": "biz_61",
+      "name": "Bambu Massage Chacarilla - masajes & terapias",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Spa terapéutico",
+      "address": "C. Monte Rosa 168, Santiago de Surco 15038",
+      "url": "https://www.google.com/maps/place/Bambu+Massage+Chacarilla+-+masajes+%26+terapias/data=!4m7!3m6!1s0x9105c777a0d8522b:0x168e69f365fc688c!8m2!3d-12.1123494!4d-76.9910673!16s%2Fg%2F11sg9zqyr4!19sChIJK1LYoHfHBZERjGj8ZfNpjhY"
+    },
+    {
+      "id": "biz_63",
+      "name": "Le Malé Spa| Masajes relajantes en Lima",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Av. José Pardo 771, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Le+Mal%C3%A9+Spa%7C+Masajes+relajantes+en+Lima/data=!4m7!3m6!1s0x9105c9e676fcb75b:0x28d9e70d6968657a!8m2!3d-12.1192272!4d-77.0363281!16s%2Fg%2F11z5q01xbg!19sChIJW7f8dubJBZERemVoaQ3n2Sg"
+    },
+    {
+      "id": "biz_66",
+      "name": "Sasha Massage",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Jirón Morro Solar 2576, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Sasha+Massage/data=!4m7!3m6!1s0x9105b9e8597edbcb:0xf9fe760e9f524106!8m2!3d-12.1461425!4d-76.9824959!16s%2Fg%2F11t401_r21!19sChIJy9t-Wei5BZERBkFSnw52_vk"
+    },
+    {
+      "id": "biz_78",
+      "name": "Lima Float",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Spa y gimnasio",
+      "address": "Av. Hipólito Unanue 225, Miraflores LIMA 18",
+      "url": "https://www.google.com/maps/place/Lima+Float/data=!4m7!3m6!1s0x9105c907fb5d84eb:0xe3c81ea4243ad829!8m2!3d-12.1111961!4d-77.0485973!16s%2Fg%2F11h5vzdxpt!19sChIJ64Rd-wfJBZERKdg6JKQeyOM"
+    },
+    {
+      "id": "biz_81",
+      "name": "Masajes Los Olivos Hindu Spa - Masajes Tantrico - Masaje Relajantes - Masajes Sensitivos",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Av. Carlos Izaguirre 892, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/Masajes+Los+Olivos+Hindu+Spa+-+Masajes+Tantrico+-+Masaje+Relajantes+-+Masajes+Sensitivos/data=!4m7!3m6!1s0x9105cfb0577517e9:0xdf2746961050ddbd!8m2!3d-11.9908596!4d-77.0715261!16s%2Fg%2F11yhgl6h78!19sChIJ6Rd1V7DPBZERvd1QEJZGJ98"
+    },
+    {
+      "id": "biz_88",
+      "name": "Zest Spa",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Mal. de la Reserva 1035, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Zest+Spa/data=!4m7!3m6!1s0x9105b71b855c9b27:0xaf671ebea70f8d0e!8m2!3d-12.1353173!4d-77.0272731!16s%2Fg%2F11lkgqkmrc!19sChIJJ5tchRu3BZERDo0Pp74eZ68"
+    },
+    {
+      "id": "biz_96",
+      "name": "GioSol Spa & Masajes",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Centro de salud y bienestar",
+      "address": "Ca. William Gilbert 151, Lima 15036",
+      "url": "https://www.google.com/maps/place/GioSol+Spa+%26+Masajes/data=!4m7!3m6!1s0x9105c7d712c15555:0xa9c8998c89d0e1a8!8m2!3d-12.1053246!4d-77.0103719!16s%2Fg%2F11pxx62kt6!19sChIJVVXBEtfHBZERqOHQiYyZyKk"
+    },
+    {
+      "id": "biz_1",
+      "name": "Haniel La Molina / Masajes, Faciales, terapias",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "C. las Caobas 170, La Molina 15024",
+      "url": "https://www.google.com/maps/place/Haniel+La+Molina+%2F+Masajes,+Faciales,+terapias/data=!4m7!3m6!1s0x9105c76476a47d31:0x7251a1232dfc60a!8m2!3d-12.091301!4d-76.949391!16s%2Fg%2F11sx3f_0d8!19sChIJMX2kdmTHBZERCsbfMhIaJQc"
+    },
+    {
+      "id": "biz_4",
+      "name": "Massage Spa Mónica Cabrera",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Jr, Jr. Enrique Salazar Barreto 261, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Massage+Spa+M%C3%B3nica+Cabrera/data=!4m7!3m6!1s0x9105c8192ddd530d:0xbe867f9e3e438dc7!8m2!3d-12.1303863!4d-76.9925112!16s%2Fg%2F11bvtryz17!19sChIJDVPdLRnIBZERx41DPp5_hr4"
+    },
+    {
+      "id": "biz_8",
+      "name": "Mandira Massage & Spa",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa y gimnasio",
+      "address": "La Aldea, Av. Alfredo Benavides 250, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Mandira+Massage+%26+Spa/data=!4m7!3m6!1s0x9105c9cebe749a23:0x66e420456399019!8m2!3d-12.1245606!4d-77.0309788!16s%2Fg%2F11h3sn8v5d!19sChIJI5p0vs7JBZERGZA5VgRCbgY"
+    },
+    {
+      "id": "biz_9",
+      "name": "Life y Peace spa | Massage Miraflores",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Av. José Larco 680, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Life+y+Peace+spa+%7C+Massage+Miraflores/data=!4m7!3m6!1s0x9105c97eacb46bad:0x4e0b6c5b9de79ef!8m2!3d-12.1242697!4d-77.0295514!16s%2Fg%2F11s2nkmt4n!19sChIJrWu0rH7JBZER73neucW24AQ"
+    },
+    {
+      "id": "biz_10",
+      "name": "Inka Massage Lima",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa terapéutico",
+      "address": "Edificio Porta, Calle Porta 172, Miraflores 00511",
+      "url": "https://www.google.com/maps/place/Inka+Massage+Lima/data=!4m7!3m6!1s0x9105c818cedd6669:0xdd452aa29139c404!8m2!3d-12.1236642!4d-77.0315534!16s%2Fg%2F11f1wvx1wg!19sChIJaWbdzhjIBZERBMQ5kaIqRd0"
+    },
+    {
+      "id": "biz_12",
+      "name": "Liria spa",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Tienda de belleza y salud",
+      "address": "MIRAFLORES |, Ca. San Martín 461, Miraflores 15046",
+      "url": "https://www.google.com/maps/place/Liria+spa/data=!4m7!3m6!1s0x9105c9b8052a9afd:0x7da8cac180d8c352!8m2!3d-12.1257122!4d-77.0298822!16s%2Fg%2F11rv56ysx0!19sChIJ_ZoqBbjJBZERUsPYgMHKqH0"
+    },
+    {
+      "id": "biz_21",
+      "name": "Bambu Massage San Isidro – Masajes & Terapias",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa terapéutico",
+      "address": "Av. República de Colombia 167, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Bambu+Massage+San+Isidro+%E2%80%93+Masajes+%26+Terapias/data=!4m7!3m6!1s0x9105c95a0267fe39:0xe419a1ad33596baf!8m2!3d-12.0986388!4d-77.0316557!16s%2Fg%2F11sgl4mhzz!19sChIJOf5nAlrJBZERr2tZM62hGeQ"
+    },
+    {
+      "id": "biz_23",
+      "name": "Spa Henko",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa de día",
+      "address": "Av. Ricardo Palma 248, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Spa+Henko/data=!4m7!3m6!1s0x9105c99777488d7d:0x5e48f0502c3d63d0!8m2!3d-12.1192884!4d-77.0280892!16s%2Fg%2F11rqcmhj9p!19sChIJfY1Id5fJBZER0GM9LFDwSF4"
+    },
+    {
+      "id": "biz_25",
+      "name": "Bambu Massage San Borja - masajes & terapias",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Av. del Parque Sur 699, San Borja 15036",
+      "url": "https://www.google.com/maps/place/Bambu+Massage+San+Borja+-+masajes+%26+terapias/data=!4m7!3m6!1s0x9105c876293ed739:0xac19e0610dad5d34!8m2!3d-12.0991892!4d-77.0108124!16s%2Fg%2F11b6llp159!19sChIJOdc-KXbIBZERNF2tDWHgGaw"
+    },
+    {
+      "id": "biz_29",
+      "name": "Japanese Head Spa Lima | Spa Capilar Lima",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Av. Los Conquistadores 679, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Japanese+Head+Spa+Lima+%7C+Spa+Capilar+Lima/data=!4m7!3m6!1s0x9105c9b902cfc813:0x3e75f464cfc591d2!8m2!3d-12.10282!4d-77.0367619!16s%2Fg%2F11z7jz4d2p!19sChIJE8jPArnJBZER0pHFz2T0dT4"
+    },
+    {
+      "id": "biz_38",
+      "name": "Bambú Massage Jesús Maria - Masajes & Terapias",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa y gimnasio",
+      "address": "Av Ricardo Tizón y Bueno 190, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Bamb%C3%BA+Massage+Jes%C3%BAs+Maria+-+Masajes+%26+Terapias/data=!4m7!3m6!1s0x9105c9057811b9e9:0x317a62dfb4be918f!8m2!3d-12.0768588!4d-77.053798!16s%2Fg%2F11thnkmj4x!19sChIJ6bkReAXJBZERj5G-tN9iejE"
+    },
+    {
+      "id": "biz_41",
+      "name": "Haniel Wellness - Spa Médico / Masajes / Massage / estetica",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa y gimnasio",
+      "address": "Av Juan de Arona 425, San Isidro 15047",
+      "url": "https://www.google.com/maps/place/Haniel+Wellness+-+Spa+M%C3%A9dico+%2F+Masajes+%2F+Massage+%2F+estetica/data=!4m7!3m6!1s0x9105c86541e35ea7:0xc22d7ce4dbcceb5b!8m2!3d-12.0966726!4d-77.0304842!16s%2Fg%2F11h42xwhzs!19sChIJp17jQWXIBZERW-vM2-R8LcI"
+    },
+    {
+      "id": "biz_53",
+      "name": "VIDASTHANA SPA",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Masajista",
+      "address": "Av. Argentina cdra 6, Lima 15001",
+      "url": "https://www.google.com/maps/place/VIDASTHANA+SPA/data=!4m7!3m6!1s0x9105c9e4ef3aaf63:0x6e6988176dd4cb44!8m2!3d-12.043732!4d-77.0509739!16s%2Fg%2F11gm92nyzh!19sChIJY6867-TJBZERRMvUbReIaW4"
+    },
+    {
+      "id": "biz_54",
+      "name": "Handa Massage y Spa",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Calle Porta 130, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Handa+Massage+y+Spa/data=!4m7!3m6!1s0x9105c94aee372dcf:0xf555612ddd1199f1!8m2!3d-12.1232147!4d-77.0313435!16s%2Fg%2F11l5pgwql1!19sChIJzy037krJBZER8ZkR3S1hVfU"
+    },
+    {
+      "id": "biz_58",
+      "name": "Qoeurs Spa - Masajes, Depilaciones y Tratamientos",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Jr. Cuzco 120, Magdalena del Mar 15086",
+      "url": "https://www.google.com/maps/place/Qoeurs+Spa+-+Masajes,+Depilaciones+y+Tratamientos/data=!4m7!3m6!1s0x9105c9807c43ba23:0xc2b16b65a3f8333d!8m2!3d-12.0902759!4d-77.0669899!16s%2Fg%2F11ng6yvvth!19sChIJI7pDfIDJBZERPTP4o2VrscI"
+    },
+    {
+      "id": "biz_60",
+      "name": "Haniel La Molina / Masajes, Faciales, terapias",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "C. las Caobas 170, La Molina 15024",
+      "url": "https://www.google.com/maps/place/Haniel+La+Molina+%2F+Masajes,+Faciales,+terapias/data=!4m7!3m6!1s0x9105c76476a47d31:0x7251a1232dfc60a!8m2!3d-12.0913009!4d-76.9493908!16s%2Fg%2F11sx3f_0d8!19sChIJMX2kdmTHBZERCsbfMhIaJQc"
+    },
+    {
+      "id": "biz_62",
+      "name": "OASIS SPA",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Esteticista facial",
+      "address": "Los Rosales AH, San Juan de Miraflores",
+      "url": "https://www.google.com/maps/place/OASIS+SPA/data=!4m7!3m6!1s0x9105c77ed73601db:0xaab41994f212c4f5!8m2!3d-12.1887913!4d-76.9760811!16s%2Fg%2F11wc12wc6_!19sChIJ2wE2137HBZER9cQS8pQZtKo"
+    },
+    {
+      "id": "biz_68",
+      "name": "Luna Estética Lima",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Esteticista",
+      "address": "Villasol, Av. Central 377, Los Olivos 15001",
+      "url": "https://www.google.com/maps/place/Luna+Est%C3%A9tica+Lima/data=!4m7!3m6!1s0x9105cfd071369bcf:0x4303b5cf54b2b2e9!8m2!3d-11.9591607!4d-77.0714648!16s%2Fg%2F11sdmqfry6!19sChIJz5s2cdDPBZER6bKyVM-1A0M"
+    },
+    {
+      "id": "biz_72",
+      "name": "Body Wellness | Massages | Miraflores",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Ca. José Gonzáles 556, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Body+Wellness+%7C+Massages+%7C+Miraflores/data=!4m7!3m6!1s0x9105c96684258bf3:0xd49fe3278d3fcb78!8m2!3d-12.1291229!4d-77.0287846!16s%2Fg%2F11t16ct55z!19sChIJ84slhGbJBZEReMs_jSfjn9Q"
+    },
+    {
+      "id": "biz_74",
+      "name": "masajes manos angelicales",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Masajista",
+      "address": "Jr. Risso 278, Lince 15046",
+      "url": "https://www.google.com/maps/place/masajes+manos+angelicales/data=!4m7!3m6!1s0x9105c90343b9e7dd:0x695268e7ce5759b1!8m2!3d-12.0856737!4d-77.0334336!16s%2Fg%2F11xcv3gv15!19sChIJ3ee5QwPJBZERsVlXzudoUmk"
+    },
+    {
+      "id": "biz_85",
+      "name": "Vanidades Salon y Spa",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av Central nro 100 Interior 219B Urb Cinco Estrellas Lima, 15487",
+      "url": "https://www.google.com/maps/place/Vanidades+Salon+y+Spa/data=!4m7!3m6!1s0x9105c357956c2925:0xf050d0cc18dbb071!8m2!3d-12.0172447!4d-76.8844632!16s%2Fg%2F11kglggm_b!19sChIJJSlslVfDBZERcbDbGMzQUPA"
+    },
+    {
+      "id": "biz_87",
+      "name": "Masajistas Invidentes Y Podología | Blue Session",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Masajista",
+      "address": "Jr. Mrcal. William Miller 2312, Lince 15073",
+      "url": "https://www.google.com/maps/place/Masajistas+Invidentes+Y+Podolog%C3%ADa+%7C+Blue+Session/data=!4m7!3m6!1s0x9105c85f0e65bc41:0xfce5947ed72f3d1c!8m2!3d-12.0876182!4d-77.0369312!16s%2Fg%2F11c1tj2c5_!19sChIJQbxlDl_IBZERHD0v136U5fw"
+    },
+    {
+      "id": "biz_13",
+      "name": "Respira Spa",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Jr. Ismael Bielich Flores 310, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Respira+Spa/data=!4m7!3m6!1s0x9105c9aebf0aa6bd:0xba7cb69948b7ec69!8m2!3d-12.1337276!4d-76.9912442!16s%2Fg%2F11v6381pjg!19sChIJvaYKv67JBZERaey3SJm2fLo"
+    },
+    {
+      "id": "biz_16",
+      "name": "Masajes Blue Spa - Masajes Relajantes - Masajes para parejas - Masajes Deportivos",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Spa terapéutico",
+      "address": "Av. Jose Santos Chocano 1290, Los Olivos LIMA 39",
+      "url": "https://www.google.com/maps/place/Masajes+Blue+Spa+-+Masajes+Relajantes+-+Masajes+para+parejas+-+Masajes+Deportivos/data=!4m7!3m6!1s0x9105cf3921234161:0xf128cdd2f7ca2a37!8m2!3d-11.9876029!4d-77.0710232!16s%2Fg%2F11grtyjj19!19sChIJYUEjITnPBZERNyrK99LNKPE"
+    },
+    {
+      "id": "biz_18",
+      "name": "SPA MASAJES LIMA",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Avenida Aviación, Cuadra 4809 null Santiago de Surco, Lima 15038",
+      "url": "https://www.google.com/maps/place/SPA+MASAJES+LIMA/data=!4m7!3m6!1s0x9105c913ba041e2b:0xc572d63f3807e6ef!8m2!3d-12.12505!4d-76.99972!16s%2Fg%2F11h960fbr3!19sChIJKx4EuhPJBZER7-YHOD_WcsU"
+    },
+    {
+      "id": "biz_32",
+      "name": "SAUNA KUNTE SPA LIMA SUR",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Av 7 de Junio 381, Lima 15817",
+      "url": "https://www.google.com/maps/place/SAUNA+KUNTE+SPA+LIMA+SUR/data=!4m7!3m6!1s0x9105b9424f62325d:0x9a58d8d533e0986b!8m2!3d-12.1744609!4d-76.9372141!16s%2Fg%2F11s0pr_1zb!19sChIJXTJiT0K5BZERa5jgM9XYWJo"
+    },
+    {
+      "id": "biz_49",
+      "name": "EUNOIA SPA",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Spa y gimnasio",
+      "address": "Av Diagonal 340, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/EUNOIA+SPA/data=!4m7!3m6!1s0x9105c99d104b8bbf:0x35b68760512cc6ca!8m2!3d-12.1210422!4d-77.030486!16s%2Fg%2F11lyngg7m5!19sChIJv4tLEJ3JBZERysYsUWCHtjU"
+    },
+    {
+      "id": "biz_56",
+      "name": "Masajes Tántricos - Dulce spa Miraflores - Tantra Massage Miraflores",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Av. Ernesto Diez Canseco 442, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Masajes+T%C3%A1ntricos+-+Dulce+spa+Miraflores+-+Tantra+Massage+Miraflores/data=!4m7!3m6!1s0x9105c937f57a3745:0x4b6b99610b1ea5dd!8m2!3d-12.1223157!4d-77.0260433!16s%2Fg%2F11rkmvpdny!19sChIJRTd69TfJBZER3aUeC2GZa0s"
+    },
+    {
+      "id": "biz_71",
+      "name": "MadreSelva Spa - Local, Domicilio y hoteles en Lima",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "por Plaza Vea, Av. Óscar R. Benavides cdra 49, Bellavista 07011",
+      "url": "https://www.google.com/maps/place/MadreSelva+Spa+-+Local,+Domicilio+y+hoteles+en+Lima/data=!4m7!3m6!1s0xf0a3ae4117e9b0d:0xfdbb5874778599e2!8m2!3d-12.0518096!4d-77.0931844!16s%2Fg%2F11v5zft1tr!19sChIJDZt-EeQ6Cg8R4pmFd3RYu_0"
+    },
+    {
+      "id": "biz_89",
+      "name": "Masajes Tántricos Kaori",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Masaje erótico",
+      "address": "Jorge Chávez 115, Miraflores 15046",
+      "url": "https://www.google.com/maps/place/Masajes+T%C3%A1ntricos+Kaori/data=!4m7!3m6!1s0x9105c994eaf649e1:0xf65fc0873be7ffd7!8m2!3d-12.1193289!4d-77.0366922!16s%2Fg%2F11rhtfb75q!19sChIJ4Un26pTJBZER1__nO4fAX_Y"
+    },
+    {
+      "id": "biz_2",
+      "name": "Essenza Massage",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Masajista",
+      "address": "C. las Camelias 741, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Essenza+Massage/data=!4m7!3m6!1s0x9105c941dafdc84f:0x5637c30efa3cb0ff!8m2!3d-12.097147!4d-77.02854!16s%2Fg%2F11sv7by0hp!19sChIJT8j92kHJBZER_7A8-g7DN1Y"
+    },
+    {
+      "id": "biz_3",
+      "name": "Q Spa & Wellness",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Bolognesi 191, Lima 15074",
+      "url": "https://www.google.com/maps/place/Q+Spa+%26+Wellness/data=!4m7!3m6!1s0x9105c90d67ad26b1:0x554d1dbb917b4471!8m2!3d-12.1200378!4d-77.0357466!16s%2Fg%2F11rfdh1n12!19sChIJsSatZw3JBZERcUR7kbsdTVU"
+    },
+    {
+      "id": "biz_5",
+      "name": "Vita Lima | Spa | Masajes | Miraflores",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Spa terapéutico",
+      "address": "Av. José Larco 812, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Vita+Lima+%7C+Spa+%7C+Masajes+%7C+Miraflores/data=!4m7!3m6!1s0x9105c81ee8331947:0xb35bcfd27675656d!8m2!3d-12.1261079!4d-77.0296234!16s%2Fg%2F11bbrpnc9z!19sChIJRxkz6B7IBZERbWV1dtLPW7M"
+    },
+    {
+      "id": "biz_6",
+      "name": "Walwa Spa",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Av. Cerro de Camacho 500, Santiago de Surco 33",
+      "url": "https://www.google.com/maps/place/Walwa+Spa/data=!4m7!3m6!1s0x9105c707473c2acb:0x711f1b9f91c91c89!8m2!3d-12.0886095!4d-76.9627983!16s%2Fg%2F11gd4jcstl!19sChIJyyo8RwfHBZERiRzJkZ8bH3E"
+    },
+    {
+      "id": "biz_24",
+      "name": "Spa para parejas, masajes y sauna - El Álamo Secreto",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Sauna",
+      "address": "Jirón el Alamo 243, Santiago de Surco 15074",
+      "url": "https://www.google.com/maps/place/Spa+para+parejas,+masajes+y+sauna+-+El+%C3%81lamo+Secreto/data=!4m7!3m6!1s0x9105c79fd4a7c839:0xebf3607858758647!8m2!3d-12.1084139!4d-76.9712573!16s%2Fg%2F11j2fh27bp!19sChIJOcin1J_HBZERR4Z1WHhg8-s"
+    },
+    {
+      "id": "biz_26",
+      "name": "Spa Miraflores (Massage Studio)",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Calle Porta 170, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Spa+Miraflores+%28Massage+Studio%29/data=!4m7!3m6!1s0x9105c818c437c10f:0xb960ff499f8c35fb!8m2!3d-12.1234476!4d-77.0314587!16s%2Fg%2F11bz0chjd7!19sChIJD8E3xBjIBZER-zWMn0n_YLk"
+    },
+    {
+      "id": "biz_36",
+      "name": "José Antonio Salón & Spa",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Javier Prado Oeste 627, Magdalena del Mar 15076",
+      "url": "https://www.google.com/maps/place/Jos%C3%A9+Antonio+Sal%C3%B3n+%26+Spa/data=!4m7!3m6!1s0x9105c9a9540d68e9:0xb382d835ad90d72f!8m2!3d-12.0922904!4d-77.0624903!16s%2Fg%2F11b6gns1q9!19sChIJ6WgNVKnJBZERL9eQrTXYgrM"
+    },
+    {
+      "id": "biz_37",
+      "name": "Samara Spa",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Manuel Arrisueño 632a, La Victoria 15034",
+      "url": "https://www.google.com/maps/place/Samara+Spa/data=!4m7!3m6!1s0x9105c9a7cf1bc3e7:0xba2973330c62b507!8m2!3d-12.087447!4d-77.0195421!16s%2Fg%2F11ryt4z2cx!19sChIJ58Mbz6fJBZERB7ViDDNzKbo"
+    },
+    {
+      "id": "biz_40",
+      "name": "Essenza Massage",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Masajista",
+      "address": "C. las Camelias 741, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Essenza+Massage/data=!4m7!3m6!1s0x9105c941dafdc84f:0x5637c30efa3cb0ff!8m2!3d-12.0971472!4d-77.0285395!16s%2Fg%2F11sv7by0hp!19sChIJT8j92kHJBZER_7A8-g7DN1Y"
+    },
+    {
+      "id": "biz_48",
+      "name": "Yaku Spa",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Ca. Los Eucaliptos 574, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Yaku+Spa/data=!4m7!3m6!1s0x9105c84e3327a007:0xbc340f96baf1168b!8m2!3d-12.0978685!4d-77.0483972!16s%2Fg%2F11cjj6dsxg!19sChIJB6AnM07IBZERixbxupYPNLw"
+    },
+    {
+      "id": "biz_50",
+      "name": "Massalia Spa -masajes tántricos",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Av. República de Chile 2, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Massalia+Spa+-masajes+t%C3%A1ntricos/data=!4m7!3m6!1s0x9105c912628e6343:0x80cc019546b685fc!8m2!3d-12.067004!4d-77.0381357!16s%2Fg%2F11np4hxrsz!19sChIJQ2OOYhLJBZER_IW2RpUBzIA"
+    },
+    {
+      "id": "biz_52",
+      "name": "Masajes L'Carol Spa",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Av. José Larco 743, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Masajes+L%27Carol+Spa/data=!4m7!3m6!1s0x9105c9c5dc4b37b5:0x19793094ab6d4053!8m2!3d-12.1250174!4d-77.0293539!16s%2Fg%2F11h7f_mpl4!19sChIJtTdL3MXJBZERU0Btq5QweRk"
+    },
+    {
+      "id": "biz_69",
+      "name": "Masajes y faciales Spa Maggy Therapy",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Spa de día",
+      "address": "Av. Los Olivos 260, San Martín de Porres 15109",
+      "url": "https://www.google.com/maps/place/Masajes+y+faciales+Spa+Maggy+Therapy/data=!4m7!3m6!1s0x9105ce23d0df165d:0x8ab3fc40bc898128!8m2!3d-11.9879367!4d-77.0832211!16s%2Fg%2F11hckd3jfy!19sChIJXRbf0CPOBZERKIGJvED8s4o"
+    },
+    {
+      "id": "biz_91",
+      "name": "Masajes Total Relax",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Masajista",
+      "address": "Av. Angamos Este 1874, Surquillo 15038",
+      "url": "https://www.google.com/maps/place/Masajes+Total+Relax/data=!4m7!3m6!1s0x9105c7b874691cb3:0xeb339d58fcd120ff!8m2!3d-12.1128856!4d-77.0102419!16s%2Fg%2F11gx_vxr9y!19sChIJsxxpdLjHBZER_yDR_FidM-s"
+    },
+    {
+      "id": "biz_92",
+      "name": "Healing Vibes Centro de Terapias Spa Masajes HIDROLIPOCLASIA CARBOXITERAPIA Quemadores Dermoabrasion Peptonas Dermapen",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Terapeuta de reiki",
+      "address": "Av. las Alondras 329, Santa Anita 15009",
+      "url": "https://www.google.com/maps/place/Healing+Vibes+Centro+de+Terapias+Spa+Masajes+HIDROLIPOCLASIA+CARBOXITERAPIA+Quemadores+Dermoabrasion+Peptonas+Dermapen/data=!4m7!3m6!1s0x9105c739b64352ab:0x36d4cd1f6b752a66!8m2!3d-12.0534686!4d-76.9623678!16s%2Fg%2F11qg3jsmd6!19sChIJq1JDtjnHBZERZip1ax_N1DY"
+    },
+    {
+      "id": "biz_97",
+      "name": "Tomyko Spa",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Esteban Campodónico 640, La Victoria 15034",
+      "url": "https://www.google.com/maps/place/Tomyko+Spa/data=!4m7!3m6!1s0x9105c87cc3bcfe0f:0xfa7a9619bbb385e5!8m2!3d-12.088141!4d-77.0208134!16s%2Fg%2F12ml2vrfn!19sChIJD_68w3zIBZER5YWzuxmWevo"
+    },
+    {
+      "id": "biz_99",
+      "name": "Dosha Spa - Limpieza Facial, Masajes y Estetica en Surco Miraflores",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Simón Salguero 565, Lima 15048",
+      "url": "https://www.google.com/maps/place/Dosha+Spa+-+Limpieza+Facial,+Masajes+y+Estetica+en+Surco+Miraflores/data=!4m7!3m6!1s0x9105b800641e2bef:0x9a49fa3bf8b984f2!8m2!3d-12.1302398!4d-77.0079014!16s%2Fg%2F11b7ztxv_n!19sChIJ7yseZAC4BZER8oS5-Dv6SZo"
+    },
+    {
+      "id": "biz_7",
+      "name": "Perú Wellbeing - Massage Miraflores Lima",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Hotel Ibis Budget, Calle Alcanfores 677, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Per%C3%BA+Wellbeing+-+Massage+Miraflores+Lima/data=!4m7!3m6!1s0x9105c81f201dafd7:0x5b1bf0016d7895d7!8m2!3d-12.126388!4d-77.027898!16s%2Fg%2F11b6glzm7t!19sChIJ168dIB_IBZER15V4bQHwG1s"
+    },
+    {
+      "id": "biz_15",
+      "name": "Heavenly Spa by Westin",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Spa y gimnasio",
+      "address": "Av. las Begonias 450, San Isidro L27",
+      "url": "https://www.google.com/maps/place/Heavenly+Spa+by+Westin/data=!4m7!3m6!1s0x9105c864633b5473:0x3aed4d450aba0965!8m2!3d-12.0915711!4d-77.0248397!16s%2Fg%2F11dxbd7s8b!19sChIJc1Q7Y2TIBZERZQm6CkVN7To"
+    },
+    {
+      "id": "biz_22",
+      "name": "Alma Wellness Spa Boutique|Massage Miraflores",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Ca. José Gálvez 585, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Alma+Wellness+Spa+Boutique%7CMassage+Miraflores/data=!4m7!3m6!1s0x9105c9712af4c0e7:0x519f3447ce818ef8!8m2!3d-12.1212567!4d-77.0355624!16s%2Fg%2F11vjcfkk4z!19sChIJ58D0KnHJBZER-I6Bzkc0n1E"
+    },
+    {
+      "id": "biz_42",
+      "name": "Akira Spa",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Av. Alfredo Benavides 1330, Miraflores 15048",
+      "url": "https://www.google.com/maps/place/Akira+Spa/data=!4m7!3m6!1s0x9105c81bd2b3357b:0xab18151b9bafd3ad!8m2!3d-12.1265443!4d-77.0186816!16s%2Fg%2F11fqpv6n2_!19sChIJezWz0hvIBZERrdOvmxsVGKs"
+    },
+    {
+      "id": "biz_44",
+      "name": "Masajes en Lima y Jesus Maria \"El Punto Relajante Spa\"",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Av. Francisco Javier Mariátegui 1277, Jesús María 02002",
+      "url": "https://www.google.com/maps/place/Masajes+en+Lima+y+Jesus+Maria+%22El+Punto+Relajante+Spa%22/data=!4m7!3m6!1s0x9105c9dd2bc84de3:0x3914588aaad2b522!8m2!3d-12.0776134!4d-77.0483734!16s%2Fg%2F11twh6dps2!19sChIJ403IK93JBZERIrXSqopYFDk"
+    },
+    {
+      "id": "biz_45",
+      "name": "Fortaleza spa",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Centro de salud y bienestar",
+      "address": "Av. Santiago de Surco 4040, Santiago de Surco 15038",
+      "url": "https://www.google.com/maps/place/Fortaleza+spa/data=!4m7!3m6!1s0x9105b86ac42ef0a9:0x9a0b3dafe3776129!8m2!3d-12.1386623!4d-76.9944872!16s%2Fg%2F11f01v6sw8!19sChIJqfAuxGq4BZERKWF34689C5o"
+    },
+    {
+      "id": "biz_51",
+      "name": "Maeli Spa",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. de las Artes Sur 387, Lima 15036",
+      "url": "https://www.google.com/maps/place/Maeli+Spa/data=!4m7!3m6!1s0x9105c7d93fd470d5:0x435dce5900988194!8m2!3d-12.0998467!4d-77.0061283!16s%2Fg%2F11c1w133fh!19sChIJ1XDUP9nHBZERlIGYAFnOXUM"
+    },
+    {
+      "id": "biz_70",
+      "name": "Divina's Belleza & Spa",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Av. Gral. Eugenio Garzón 1741, Jesús María LIMA 11",
+      "url": "https://www.google.com/maps/place/Divina%27s+Belleza+%26+Spa/data=!4m7!3m6!1s0x9105c8fd1ce66d65:0x4bbaa0c636e3d2ca!8m2!3d-12.0774413!4d-77.0537783!16s%2Fg%2F11dylznnms!19sChIJZW3mHP3IBZERytLjNsaguks"
+    },
+    {
+      "id": "biz_73",
+      "name": "Fabulosa Bienestar Spa ,Masajes en Surco, Masajes en Bolichera",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Av. Los Próceres 139, Santiago de Surco 15056",
+      "url": "https://www.google.com/maps/place/Fabulosa+Bienestar+Spa+,Masajes+en+Surco,+Masajes+en+Bolichera/data=!4m7!3m6!1s0x9105b9ff8f400283:0xe96857793ed5025c!8m2!3d-12.1487914!4d-76.9864135!16s%2Fg%2F11h00jlj_h!19sChIJgwJAj_-5BZERXALVPnlXaOk"
+    },
+    {
+      "id": "biz_76",
+      "name": "masajes relajantes antiestres D'DIVINAS SPA",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Frente al parque zonal Mayta capac, Av. Angélica Gamarra 2324, San Martín de Porres 15109",
+      "url": "https://www.google.com/maps/place/masajes+relajantes+antiestres+D%27DIVINAS+SPA/data=!4m7!3m6!1s0x9105cf8d722de5a1:0x1eeb5a2b9b0aec23!8m2!3d-12.0081694!4d-77.0863205!16s%2Fg%2F11j11zcy9y!19sChIJoeUtco3PBZERI-wKmyta6x4"
+    },
+    {
+      "id": "biz_77",
+      "name": "Masajes En Braille",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "C. Ramón Ribeyro 916, Lima 15047",
+      "url": "https://www.google.com/maps/place/Masajes+En+Braille/data=!4m7!3m6!1s0x9105b7fda8e69f4d:0x7880c6bbb458b96f!8m2!3d-12.1320102!4d-77.0188732!16s%2Fg%2F11cs1vt626!19sChIJTZ_mqP23BZERb7lYtLvGgHg"
+    },
+    {
+      "id": "biz_59",
+      "name": "Nieves Masajes & spa",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Masajista",
+      "address": "Jr. Áncash 2400, Lima 15006",
+      "url": "https://www.google.com/maps/place/Nieves+Masajes+%26+spa/data=!4m7!3m6!1s0x9105c6077461750f:0x96e5e34df7671fcf!8m2!3d-12.0407433!4d-77.0021284!16s%2Fg%2F11df82jjqf!19sChIJD3VhdAfGBZERzx9n903j5ZY"
+    },
+    {
+      "id": "biz_65",
+      "name": "Therapy Spa | Masajes",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Balneario",
+      "address": "Av. Alfredo Benavides 250, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Therapy+Spa+%7C+Masajes/data=!4m7!3m6!1s0x9105c818d4064d0f:0x4b090c41ad99cb39!8m2!3d-12.1245915!4d-77.0310563!16s%2Fg%2F1q5bvl9vj!19sChIJD00G1BjIBZEROcuZrUEMCUs"
+    },
+    {
+      "id": "biz_82",
+      "name": "Masajes SoluDistress",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Tda. A-203 CC. El Polo, Av La Encalada 1587, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/Masajes+SoluDistress/data=!4m7!3m6!1s0x9105c7a3d9a6aa01:0x610590a34e25fdec!8m2!3d-12.1012441!4d-76.9703395!16s%2Fg%2F11c20pdn3g!19sChIJAaqm2aPHBZER7P0lTqOQBWE"
+    },
+    {
+      "id": "biz_67",
+      "name": "D'Cleor Salon Spa",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Esteticista facial",
+      "address": "Av. Alfredo Benavides 2197, Miraflores 15048",
+      "url": "https://www.google.com/maps/place/D%27Cleor+Salon+Spa/data=!4m7!3m6!1s0x9105c7ffd970b8e3:0xc144c99dd8e9c068!8m2!3d-12.127336!4d-77.0100258!16s%2Fg%2F11b6glw07z!19sChIJ47hw2f_HBZERaMDp2J3JRME"
+    },
+    {
+      "id": "biz_79",
+      "name": "Bio Masajes",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Ca. Teniente 3812, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/Bio+Masajes/data=!4m7!3m6!1s0x9105ce5db51a81db:0x2f3ae761b4b388ca!8m2!3d-11.9911704!4d-77.0766794!16s%2Fg%2F1ptx3kzlf!19sChIJ24EatV3OBZERyoiztGHnOi8"
+    },
+    {
+      "id": "biz_93",
+      "name": "Bio Energy Masajes Spa - San Borja",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Masajista",
+      "address": "Avenida Aviación 2515 San Borja Municipalidad Metropolitana de Lima LIMA, Callao 15037",
+      "url": "https://www.google.com/maps/place/Bio+Energy+Masajes+Spa+-+San+Borja/data=!4m7!3m6!1s0x9105c7a0b598a4e1:0x3b6220591fae18f1!8m2!3d-12.0911651!4d-77.0028837!16s%2Fg%2F11r_pnbvm5!19sChIJ4aSYtaDHBZER8RiuH1kgYjs"
+    },
+    {
+      "id": "biz_94",
+      "name": "Harmony Massage spa",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Masajista",
+      "address": "Jr. San Martín 720, Magdalena del Mar 15086",
+      "url": "https://www.google.com/maps/place/Harmony+Massage+spa/data=!4m7!3m6!1s0x9105c9ed81acbb69:0xda6fd3b3f762833c!8m2!3d-12.0891005!4d-77.0734145!16s%2Fg%2F11fmrj_0jq!19sChIJabusge3JBZERPINi97PTb9o"
+    },
+    {
+      "id": "biz_33",
+      "name": "Seven Spa",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Av Antonio José de Sucre 1420, Lima 15086",
+      "url": "https://www.google.com/maps/place/Seven+Spa/data=!4m7!3m6!1s0x9105c9080b3af0b5:0xe7243026930f46ca!8m2!3d-12.0859256!4d-77.0681786!16s%2Fg%2F11c5rt01nn!19sChIJtfA6CwjJBZERykYPkyYwJOc"
+    },
+    {
+      "id": "biz_55",
+      "name": "Spa Vida",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Av. Las Palmeras N`4187-Los Olivos, Av. Las Palmeras, Lima",
+      "url": "https://www.google.com/maps/place/Spa+Vida/data=!4m7!3m6!1s0x9105ce4768207efd:0x13e0f81093c96b9d!8m2!3d-11.9855545!4d-77.0725757!16s%2Fg%2F11bxdyzy8c!19sChIJ_X4gaEfOBZERnWvJkxD44BM"
+    },
+    {
+      "id": "biz_90",
+      "name": "KAIZEN SPA",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Balneario",
+      "address": "Av Antonio José de Sucre 157, Pueblo Libre 15086",
+      "url": "https://www.google.com/maps/place/KAIZEN+SPA/data=!4m7!3m6!1s0x9105c96aec20dc1f:0xa2a0994b02423be5!8m2!3d-12.0732656!4d-77.0621293!16s%2Fg%2F11lkv0y872!19sChIJH9wg7GrJBZER5TtCAkuZoKI"
+    },
+    {
+      "id": "biz_95",
+      "name": "Kinereth Bienestar SPA",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Spa con piedras calientes",
+      "address": "Av. Brasil 1747, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Kinereth+Bienestar+SPA/data=!4m7!3m6!1s0x9105c8fd3f6cd781:0xdc833f18e9b7a003!8m2!3d-12.0767001!4d-77.0548211!16s%2Fg%2F11f12vsp6n!19sChIJgddsP_3IBZERA6C36Rg_g9w"
+    },
+    {
+      "id": "biz_98",
+      "name": "Relax Center Perú - Clínica de Masajes",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Sauna",
+      "address": "C. 2 de Mayo 689, Miraflores 13",
+      "url": "https://www.google.com/maps/place/Relax+Center+Per%C3%BA+-+Cl%C3%ADnica+de+Masajes/data=!4m7!3m6!1s0x9105c921456b4ddb:0x90d67b9e6f2c3300!8m2!3d-12.1180551!4d-77.0356302!16s%2Fg%2F11fr16qwf9!19sChIJ201rRSHJBZERADMsb5571pA"
+    },
+    {
+      "id": "biz_100",
+      "name": "Placeres spa & masajes",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Masajista deportivo",
+      "address": "Jr Ramón Castilla 718 al costado de inkafarma,4to piso Magdalena del Mar Municipalidad Metropolitana de Lima, LIMA 01",
+      "url": "https://www.google.com/maps/place/Placeres+spa+%26+masajes/data=!4m7!3m6!1s0x9105c94fd88f5e5d:0x25d225cc74e64720!8m2!3d-12.0900388!4d-77.073282!16s%2Fg%2F11fn1sxj94!19sChIJXV6P2E_JBZERIEfmdMwl0iU"
+    },
+    {
+      "id": "biz_83",
+      "name": "Nieves Masajes y Spa - gamarra Lima Perú",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Spa y gimnasio",
+      "address": "Agustín Gamarra 1303, La Victoria 15018",
+      "url": "https://www.google.com/maps/place/Nieves+Masajes+y+Spa+-+gamarra+Lima+Per%C3%BA/data=!4m7!3m6!1s0x9105c89e632e9e67:0xef59f16bee9840bc!8m2!3d-12.0714786!4d-77.0129565!16s%2Fg%2F11dzystq9v!19sChIJZ54uY57IBZERvECY7mvxWe8"
+    },
+    {
+      "id": "biz_84",
+      "name": "Matsue Spa",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Av. San Luis 2239, Lima 15037",
+      "url": "https://www.google.com/maps/place/Matsue+Spa/data=!4m7!3m6!1s0x9105c7e9c13326a3:0xd0f5a06f780f43a4!8m2!3d-12.0942097!4d-76.9953723!16s%2Fg%2F11qp_jhm7h!19sChIJoyYzwenHBZERpEMPeG-g9dA"
+    },
+    {
+      "id": "biz_43",
+      "name": "Revive Massage",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Av. Alfredo Benavides 347, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Revive+Massage/data=!4m7!3m6!1s0x9105c8192fe8359d:0xb9d2124ada07bad8!8m2!3d-12.1240743!4d-77.0300126!16s%2Fg%2F11g81ck35c!19sChIJnTXoLxnIBZER2LoH2koS0rk"
+    },
+    {
+      "id": "biz_64",
+      "name": "Urban Relax Masajes",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "C. Independencia 753, Miraflores LIMA 01",
+      "url": "https://www.google.com/maps/place/Urban+Relax+Masajes/data=!4m7!3m6!1s0x9105c9330ad411e1:0xf5857e1a48194bc3!8m2!3d-12.1121766!4d-77.0325248!16s%2Fg%2F11rqttg6yb!19sChIJ4RHUCjPJBZERw0sZSBp-hfU"
+    },
+    {
+      "id": "biz_75",
+      "name": "Kalos Baños Turcos Sauna Spa",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Spa de día",
+      "address": "Av. Perú 3873, Lima 15106",
+      "url": "https://www.google.com/maps/place/Kalos+Ba%C3%B1os+Turcos+Sauna+Spa/data=!4m7!3m6!1s0x9105cea54a7165f9:0x1ad7ef4f156af83f!8m2!3d-12.0308474!4d-77.0912037!16s%2Fg%2F1tj7g3fp!19sChIJ-WVxSqXOBZERP_hqFU_v1xo"
+    },
+    {
+      "id": "biz_80",
+      "name": "Vitalis Spa masaje Surco",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Calle: Teniente José Bolognesi Mz G Lt 15 Urbanización Villa Alegre Santiago de Surco Municipalidad Metropolitana de Lima LIMA, 01",
+      "url": "https://www.google.com/maps/place/Vitalis+Spa+masaje+Surco/data=!4m7!3m6!1s0x9105b92dc289f245:0xc5275937d85a11ce!8m2!3d-12.1644655!4d-76.9898335!16s%2Fg%2F11rjbdyh3p!19sChIJRfKJwi25BZERzhFa2DdZJ8U"
+    },
+    {
+      "id": "biz_86",
+      "name": "Ananda Spa - Masajes Tántricos en Surquillo - San Borja - Miraflores",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Av. Angamos Este 1648, Surquillo 15048",
+      "url": "https://www.google.com/maps/place/Ananda+Spa+-+Masajes+T%C3%A1ntricos+en+Surquillo+-+San+Borja+-+Miraflores/data=!4m7!3m6!1s0x9105c809609e27b9:0xbd69fae134491784!8m2!3d-12.112923!4d-77.014251!16s%2Fg%2F11c1mzk0yy!19sChIJuSeeYAnIBZERhBdJNOH6ab0"
+    }
+  ]
+}
