@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "createdAt": "2026-09-08T04:52:33.387Z",
-  "lastUpdated": "2026-09-08T05:04:35.080Z",
-  "totalCompleted": 2,
+  "lastUpdated": "2026-09-09T21:10:22.228Z",
+  "totalCompleted": 21,
   "categories": {
     "dentistas": {
       "lastScraped": "2026-09-08T04:52:59.158Z",
@@ -11,9 +11,123 @@
       "error": null
     },
     "cerrajeros": {
-      "lastScraped": "2026-09-08T05:04:35.080Z",
+      "lastScraped": "2026-09-09T20:36:18.910Z",
       "status": "success",
-      "resultsCount": 10,
+      "resultsCount": 95,
+      "error": null
+    },
+    "reparacion-celulares": {
+      "lastScraped": "2026-09-09T20:22:30.920Z",
+      "status": "success",
+      "resultsCount": 100,
+      "error": null
+    },
+    "camaras-de-seguridad": {
+      "lastScraped": "2026-09-09T21:10:22.228Z",
+      "status": "success",
+      "resultsCount": 97,
+      "error": null
+    },
+    "veterinarias": {
+      "lastScraped": "2026-09-09T20:28:27.373Z",
+      "status": "success",
+      "resultsCount": 70,
+      "error": null
+    },
+    "fisioterapia": {
+      "lastScraped": "2026-09-09T20:29:48.549Z",
+      "status": "success",
+      "resultsCount": 76,
+      "error": null
+    },
+    "ginecologos": {
+      "lastScraped": "2026-09-09T20:30:37.094Z",
+      "status": "success",
+      "resultsCount": 75,
+      "error": null
+    },
+    "gasfiteros": {
+      "lastScraped": "2026-09-09T20:41:43.797Z",
+      "status": "success",
+      "resultsCount": 81,
+      "error": null
+    },
+    "electricistas": {
+      "lastScraped": "2026-09-09T20:45:17.056Z",
+      "status": "success",
+      "resultsCount": 3,
+      "error": null
+    },
+    "pintores": {
+      "lastScraped": "2026-09-09T20:49:59.102Z",
+      "status": "success",
+      "resultsCount": 100,
+      "error": null
+    },
+    "fumigacion": {
+      "lastScraped": "2026-09-09T20:52:29.316Z",
+      "status": "success",
+      "resultsCount": 31,
+      "error": null
+    },
+    "reparacion-lavadoras": {
+      "lastScraped": "2026-09-09T20:53:03.101Z",
+      "status": "success",
+      "resultsCount": 78,
+      "error": null
+    },
+    "reparacion-refrigeradoras": {
+      "lastScraped": "2026-09-09T20:55:05.882Z",
+      "status": "success",
+      "resultsCount": 73,
+      "error": null
+    },
+    "carpinteros": {
+      "lastScraped": "2026-09-09T21:00:00.297Z",
+      "status": "success",
+      "resultsCount": 100,
+      "error": null
+    },
+    "contadores": {
+      "lastScraped": "2026-09-09T21:00:35.127Z",
+      "status": "success",
+      "resultsCount": 79,
+      "error": null
+    },
+    "agentes-inmobiliarios": {
+      "lastScraped": "2026-09-09T21:01:52.256Z",
+      "status": "success",
+      "resultsCount": 70,
+      "error": null
+    },
+    "talleres-mecanicos": {
+      "lastScraped": "2026-09-09T21:03:11.312Z",
+      "status": "success",
+      "resultsCount": 74,
+      "error": null
+    },
+    "car-wash": {
+      "lastScraped": "2026-09-09T21:04:28.272Z",
+      "status": "success",
+      "resultsCount": 74,
+      "error": null
+    },
+    "llanterias": {
+      "lastScraped": "2026-09-09T21:06:53.886Z",
+      "status": "success",
+      "resultsCount": 51,
+      "error": null
+    },
+    "auxilio-mecanico": {
+      "lastScraped": "2026-09-09T21:08:02.248Z",
+      "status": "success",
+      "resultsCount": 71,
+      "error": null
+    },
+    "catering": {
+      "lastScraped": "2026-09-09T21:09:58.150Z",
+      "status": "success",
+      "resultsCount": 70,
       "error": null
     }
   }

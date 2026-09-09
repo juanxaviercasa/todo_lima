@@ -19,6 +19,34 @@ function normalizePlaceUrl(url) {
   return (url || '').split('?')[0].split('#')[0].replace(/\/$/, '');
 }
 
+function buildQueryVariants(query) {
+  const variants = [
+    query,
+    query.replace(/\ba domicilio\b/gi, '').replace(/\s+/g, ' ').trim(),
+    query.replace(/\b24 horas\b/gi, '').replace(/\s+/g, ' ').trim(),
+    query.replace(/\ben Lima\b/gi, ' Lima').replace(/\s+/g, ' ').trim()
+  ];
+
+  return [...new Set(variants)].filter(Boolean);
+}
+
+function isUsableBusiness(business, slug) {
+  const normalizedName = business.name.toLowerCase().replace(/[^a-z0-9áéíóúñü ]/gi, '').trim();
+  const normalizedSlug = slug.replace(/-/g, ' ').toLowerCase();
+  const genericNames = new Set([
+    normalizedSlug,
+    'sin nombre',
+    'servicios',
+    'servicio tecnico',
+    'empresa'
+  ]);
+
+  return normalizedName.length >= 4
+    && !genericNames.has(normalizedName)
+    && Boolean(business.address)
+    && business.address !== 'Lima, Perú';
+}
+
 /**
  * Scraper especializado en Google Maps para directorios locales
  * @param {string} query Término de búsqueda (ej. "doctores en Lima")
@@ -48,7 +76,8 @@ export async function scrapeCategory(query = 'doctores en Lima', slug = 'doctore
 
   const existingUrls = new Set(existingBusinesses.map((business) => normalizePlaceUrl(business.url)));
   const missingResults = Math.max(maxResults - existingBusinesses.length, 0);
-  const candidateLimit = maxResults + missingResults + 25;
+  const candidateLimit = Math.min(missingResults + 25, 125);
+  const queryVariants = buildQueryVariants(query);
 
   const browser = await chromium.launch({
     headless: true,
@@ -72,76 +101,80 @@ export async function scrapeCategory(query = 'doctores en Lima', slug = 'doctore
   const page = await context.newPage();
 
   try {
-    const searchUrl = `https://www.google.com/maps/search/${encodeURIComponent(query)}?hl=es`;
-    console.log(`🌐 Navegando a: ${searchUrl}`);
-    await page.goto(searchUrl, { waitUntil: 'domcontentloaded', timeout: 45000 });
-
-    // 1. Manejo de cookies / Consentimiento de Google si aparece
-    try {
-      const consentButtons = [
-        'button:has-text("Aceptar todo")',
-        'button:has-text("Rechazar todo")',
-        'button:has-text("Acepto")',
-        'form[action*="consent"] button'
-      ];
-      for (const btnSelector of consentButtons) {
-        const btn = page.locator(btnSelector).first();
-        if (await btn.isVisible({ timeout: 2000 })) {
-          console.log(`🍪 Diálogo de consentimiento detectado. Aceptando...`);
-          await btn.click();
-          await page.waitForTimeout(2000);
-          break;
-        }
-      }
-    } catch {
-      // Continuar si no se requiere consentimiento
-    }
-
-    // 2. Esperar contenedor de resultados (feed)
-    console.log('⏳ Esperando lista de resultados...');
-    const feedSelector = 'div[role="feed"]';
-    
-    try {
-      await page.waitForSelector(feedSelector, { timeout: 20000 });
-    } catch {
-      console.warn('⚠️ No se encontró feed directo.');
-    }
-
-    // 3. Scroll progresivo para recolectar al menos maxResults enlaces a fichas
-    console.log(`📜 Scrolleando feed para cargar al menos ${maxResults} resultados...`);
     const placeUrls = new Set();
-    let scrollAttempts = 0;
-    const maxScrollAttempts = 40;
 
-    while (placeUrls.size < candidateLimit && scrollAttempts < maxScrollAttempts) {
-      scrollAttempts++;
-      
-      const urls = await page.$$eval('a[href*="/maps/place/"]', links => 
-        links.map(l => l.href).filter(href => href.includes('/maps/place/'))
-      );
-
-      for (const u of urls) {
-        const cleanUrl = u.split('?')[0];
-        placeUrls.add(cleanUrl);
-      }
-
-      console.log(`   [Scroll ${scrollAttempts}] Enlaces encontrados: ${placeUrls.size}/${candidateLimit}`);
-
+    for (const searchQuery of queryVariants) {
       if (placeUrls.size >= candidateLimit) break;
 
-      const scrolled = await page.evaluate(() => {
-        const feed = document.querySelector('div[role="feed"]');
-        if (feed) {
-          feed.scrollBy(0, 1000);
-          return true;
-        }
-        return false;
-      });
+      const searchUrl = `https://www.google.com/maps/search/${encodeURIComponent(searchQuery)}?hl=es`;
+      console.log(`🌐 Navegando a: ${searchUrl}`);
+      await page.goto(searchUrl, { waitUntil: 'domcontentloaded', timeout: 45000 });
 
-      if (!scrolled) {
-        await page.mouse.wheel(0, 1000);
+      // 1. Manejo de cookies / Consentimiento de Google si aparece
+      try {
+        const consentButtons = [
+          'button:has-text("Aceptar todo")',
+          'button:has-text("Rechazar todo")',
+          'button:has-text("Acepto")',
+          'form[action*="consent"] button'
+        ];
+        for (const btnSelector of consentButtons) {
+          const btn = page.locator(btnSelector).first();
+          if (await btn.isVisible({ timeout: 2000 })) {
+            console.log(`🍪 Diálogo de consentimiento detectado. Aceptando...`);
+            await btn.click();
+            await page.waitForTimeout(2000);
+            break;
+          }
+        }
+      } catch {
+        // Continuar si no se requiere consentimiento
       }
-      await page.waitForTimeout(1500);
+
+      // 2. Esperar contenedor de resultados (feed)
+      console.log('⏳ Esperando lista de resultados...');
+      const feedSelector = 'div[role="feed"]';
+      try {
+        await page.waitForSelector(feedSelector, { timeout: 20000 });
+      } catch {
+        console.warn('⚠️ No se encontró feed directo.');
+      }
+
+      // 3. Scroll progresivo acumulando candidatos de cada variante
+      console.log(`📜 Scrolleando feed para cargar hasta ${candidateLimit} candidatos...`);
+      let scrollAttempts = 0;
+      const maxScrollAttempts = 40;
+
+      while (placeUrls.size < candidateLimit && scrollAttempts < maxScrollAttempts) {
+        scrollAttempts++;
+
+        const urls = await page.$$eval('a[href*="/maps/place/"]', links =>
+          links.map(l => l.href).filter(href => href.includes('/maps/place/'))
+        );
+
+        for (const u of urls) {
+          const cleanUrl = u.split('?')[0];
+          placeUrls.add(cleanUrl);
+        }
+
+        console.log(`   [${searchQuery}] Scroll ${scrollAttempts}: ${placeUrls.size}/${candidateLimit}`);
+
+        if (placeUrls.size >= candidateLimit) break;
+
+        const scrolled = await page.evaluate(() => {
+          const feed = document.querySelector('div[role="feed"]');
+          if (feed) {
+            feed.scrollBy(0, 1000);
+            return true;
+          }
+          return false;
+        });
+
+        if (!scrolled) {
+          await page.mouse.wheel(0, 1000);
+        }
+        await page.waitForTimeout(1500);
+      }
     }
 
     const targetUrls = Array.from(placeUrls)
@@ -200,10 +233,14 @@ export async function scrapeCategory(query = 'doctores en Lima', slug = 'doctore
 
           // Teléfono
           let phone = '';
-          const phoneBtn = document.querySelector('button[data-item-id^="phone:"], [data-tooltip="Copiar el número de teléfono"]');
-          if (phoneBtn) {
-            phone = phoneBtn.innerText;
-          }
+          const phoneButtons = [...document.querySelectorAll('button[data-item-id^="phone:"], a[href^="tel:"], [data-tooltip="Copiar el número de teléfono"], [aria-label*="Teléfono"], [aria-label*="teléfono"]')];
+          const phoneValues = phoneButtons.flatMap((button) => [
+            button.getAttribute('data-item-id')?.replace(/^phone:/, ''),
+            button.getAttribute('href')?.replace(/^tel:/, ''),
+            button.getAttribute('aria-label'),
+            button.innerText
+          ]).filter((value) => value && /\d{5,}/.test(value));
+          phone = phoneValues[0] || '';
 
           // Sitio Web
           let website = '';
@@ -250,13 +287,18 @@ export async function scrapeCategory(query = 'doctores en Lima', slug = 'doctore
           rating: rawData.rating,
           reviewsCount: rawData.reviewsCount,
           category: rawData.category || slug,
-          address: cleanAddress || 'Lima, Perú',
+          address: cleanAddress,
           phone: cleanPhone || null,
           website: rawData.website || null,
           url: currentUrl,
           latitude,
           longitude
         };
+
+        if (!isUsableBusiness(businessRecord, slug)) {
+          console.warn(`   ⚠️ Ficha descartada por calidad: ${businessRecord.name || 'Sin nombre'}`);
+          continue;
+        }
 
         console.log(`   ✅ ${businessRecord.name}`);
         console.log(`      ⭐ ${businessRecord.rating ?? 'N/A'} (${businessRecord.reviewsCount ?? 0} rev) | 📞 ${businessRecord.phone || 'Sin tel.'} | 📍 ${businessRecord.address}`);
@@ -293,7 +335,15 @@ export async function scrapeCategory(query = 'doctores en Lima', slug = 'doctore
       fs.mkdirSync(dataDir, { recursive: true });
     }
 
+    let existingPayload = {};
+    try {
+      existingPayload = JSON.parse(fs.readFileSync(outputFilePath, 'utf-8'));
+    } catch {
+      // Se crea un payload nuevo cuando no existe un JSON válido.
+    }
+
     const outputPayload = {
+      ...existingPayload,
       category: slug,
       searchQuery: query,
       totalResults: finalResults.length,

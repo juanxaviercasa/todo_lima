@@ -171,12 +171,10 @@ async function runMasterCycle() {
   console.log('🚀 INICIANDO MODO HEADLESS (MAPS -> JSON -> VERCEL)');
   const mapeo = JSON.parse(fs.readFileSync(MAPEO_PATH, 'utf-8'));
   
-  // headless: false te permite ver el navegador trabajando. Cámbialo a true cuando quieras que corra en 2do plano.
-  const browser = await chromium.launch({ headless: false }); 
+  const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext();
 
-  // LÍMITE MVP: Solo las 3 primeras categorías
-  const queue = Object.keys(mapeo).slice(0, 3);
+  const queue = Object.keys(mapeo);
 
   for (const slug of queue) {
     // Memoria: Salta si ya existe

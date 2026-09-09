@@ -1,6 +1,6 @@
 import { getCategoryData } from '../../lib/getData.js';
 import Navbar from '../../components/Navbar.js';
-import HeroGHL from '../../components/HeroGHL.js';
+import RandomHero from '../../components/RandomHero.js';
 import BusinessCard from '../../components/BusinessCard.js';
 import GHLConversionSections from '../../components/GHLConversionSections.js';
 import Footer from '../../components/Footer.js';
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }) {
 
 export default function SubdomainPage({ params }) {
   const { subdomain } = params;
-  const { meta, businesses, updatedAt, totalResults, hasData } = getCategoryData(subdomain);
+  const { meta, pageContent, businesses, updatedAt, totalResults, hasData } = getCategoryData(subdomain);
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50">
@@ -33,14 +33,15 @@ export default function SubdomainPage({ params }) {
 
       <main className="flex-grow">
         {/* Héroe persuasivo con estructura Go High Level */}
-        <HeroGHL
+        <RandomHero
           category={meta}
+          pageContent={pageContent}
           totalResults={totalResults}
           updatedAt={updatedAt}
         />
 
         {/* Sección de Fichas de Negocios */}
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+        <section id="directorio" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8 pb-4 border-b border-slate-200">
             <div>
               <h2 className="text-2xl font-black text-slate-900">

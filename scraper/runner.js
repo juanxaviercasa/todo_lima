@@ -8,6 +8,7 @@ import { syncWithGit } from './utils/gitSync.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const stateFilePath = path.join(__dirname, 'state.json');
+const dataDir = path.resolve(__dirname, '../data');
 
 // Configuración por defecto
 const CONFIG = {
@@ -57,11 +58,27 @@ function sleepWithJitter(minSec = CONFIG.minDelaySeconds, maxSec = CONFIG.maxDel
 /**
  * Determina si una categoría necesita actualización según la antigüedad
  */
-function needsScraping(state, slug, force = false) {
+function getStoredResultCount(slug) {
+  const filePath = path.join(dataDir, `${slug}.json`);
+  if (!fs.existsSync(filePath)) return 0;
+
+  try {
+    const payload = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    return Array.isArray(payload.businesses) ? payload.businesses.length : 0;
+  } catch {
+    return 0;
+  }
+}
+
+function needsScraping(state, slug, maxResults, force = false) {
   if (force) return true;
+
+  const storedResultCount = getStoredResultCount(slug);
+  if (storedResultCount < maxResults) return true;
+
   const catState = state.categories[slug];
   if (!catState || catState.status !== 'success' || !catState.lastScraped) {
-    return true;
+    return false;
   }
   const lastScrapedDate = new Date(catState.lastScraped);
   const diffDays = (Date.now() - lastScrapedDate.getTime()) / (1000 * 60 * 60 * 24);
@@ -106,7 +123,12 @@ async function runOrchestrator() {
     }
 
     // Filtrar las que requieren scraping
-    let pendingCategories = queue.filter(cat => needsScraping(state, cat.slug, isForce));
+    let pendingCategories = queue.filter(cat => needsScraping(
+      state,
+      cat.slug,
+      CONFIG.maxResultsPerCategory,
+      isForce
+    ));
 
     if (limitCount !== Infinity) {
       pendingCategories = pendingCategories.slice(0, limitCount);
