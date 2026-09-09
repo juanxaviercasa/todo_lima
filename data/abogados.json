@@ -1,0 +1,928 @@
+{
+  "category": "abogados",
+  "searchQuery": "estudios de abogados en Lima",
+  "totalResults": 100,
+  "updatedAt": "2026-09-09T18:21:47.079Z",
+  "topBusinessContext": {
+    "id": "biz_9",
+    "name": "Estudio Juridico Nexa",
+    "rating": 5,
+    "reviewsCount": null,
+    "category": "Bufete",
+    "address": "Av. Garcilaso de la Vega 732, Lima 15001",
+    "url": "https://www.google.com/maps/place/Estudio+Juridico+Nexa/data=!4m7!3m6!1s0x89210298137f2ba7:0x954333983c4af696!8m2!3d-12.0493632!4d-77.0391294!16s%2Fg%2F11z3ltfrw3!19sChIJpyt_E5gCIYkRlvZKPJgzQ5U"
+  },
+  "pageContent": {
+    "headline": "Los Mejores Expertos en ABOGADOS en Lima: Conoce a Estudio Juridico Nexa",
+    "subtitles": [
+      "Garantiza resultados hoy mismo. Ubicados en Av. Garcilaso de la Vega 732, Lima 15001, destacan como la opción número uno validada por usuarios reales.",
+      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
+    ],
+    "ctas": [
+      "Contactar por WhatsApp Ahora",
+      "Ver Directorio Completo"
+    ]
+  },
+  "businesses": [
+    {
+      "id": "biz_9",
+      "name": "Estudio Juridico Nexa",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. Garcilaso de la Vega 732, Lima 15001",
+      "url": "https://www.google.com/maps/place/Estudio+Juridico+Nexa/data=!4m7!3m6!1s0x89210298137f2ba7:0x954333983c4af696!8m2!3d-12.0493632!4d-77.0391294!16s%2Fg%2F11z3ltfrw3!19sChIJpyt_E5gCIYkRlvZKPJgzQ5U"
+    },
+    {
+      "id": "biz_24",
+      "name": "Flores Ley | Abogados de Contrataciones del Estado OSCE | Abogado Laboralista SUNAFIL",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Abogado especializado en derecho laboral",
+      "address": "C. Amador Merino Reyna 460, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Flores+Ley+%7C+Abogados+de+Contrataciones+del+Estado+OSCE+%7C+Abogado+Laboralista+SUNAFIL/data=!4m7!3m6!1s0x9105c9555fcb6215:0x4ca38f30644643d4!8m2!3d-12.0925364!4d-77.0262978!16s%2Fg%2F11vym0mjxm!19sChIJFWLLX1XJBZER1ENGZDCPo0w"
+    },
+    {
+      "id": "biz_30",
+      "name": "Estudio Jurídico JYM",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Av. Gran Chimú 832, San Juan de Lurigancho 15401",
+      "url": "https://www.google.com/maps/place/Estudio+Jur%C3%ADdico+JYM/data=!4m7!3m6!1s0x9105c56f29b1a067:0xcb8b5a8af085c4!8m2!3d-12.0252781!4d-76.9996773!16s%2Fg%2F11rw7gnm1q!19sChIJZ6CxKW_FBZERxIXwilqLywA"
+    },
+    {
+      "id": "biz_33",
+      "name": "Dra. Luz Maribel López Muñoz - ABOGADAS ASOCIADAS AA",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Abogado de Derecho de familia",
+      "address": "Manuel del Pino 222, Lima 15001",
+      "url": "https://www.google.com/maps/place/Dra.+Luz+Maribel+L%C3%B3pez+Mu%C3%B1oz+-+ABOGADAS+ASOCIADAS+AA/data=!4m7!3m6!1s0x9105cf785c4be177:0x1525351fc4b3ac92!8m2!3d-12.0786276!4d-77.0348535!16s%2Fg%2F11f9zrv423!19sChIJd-FLXHjPBZERkqyzxB81JRU"
+    },
+    {
+      "id": "biz_40",
+      "name": "Estudio jurídico de abogados Arrelucea",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Ca. las Guindas 308, Lima 15007",
+      "url": "https://www.google.com/maps/place/Estudio+jur%C3%ADdico+de+abogados+Arrelucea/data=!4m7!3m6!1s0x9105c553e2eb9c5d:0x71aca9b62fca15d5!8m2!3d-12.0367246!4d-76.9913923!16s%2Fg%2F11h2l8nh0g!19sChIJXZzr4lPFBZER1RXKL7aprHE"
+    },
+    {
+      "id": "biz_42",
+      "name": "ESTUDIO JURIDICO S & M ABOGADOS E.I.R.L",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Av. Gran Chimú 1801, San Juan de Lurigancho 15427",
+      "url": "https://www.google.com/maps/place/ESTUDIO+JURIDICO+S+%26+M+ABOGADOS+E.I.R.L/data=!4m7!3m6!1s0x9105c5d06bd0e19b:0xe2523636e8c76e4f!8m2!3d-12.02418!4d-76.9836434!16s%2Fg%2F11m9psszw5!19sChIJm-HQa9DFBZERT27H6DY2UuI"
+    },
+    {
+      "id": "biz_54",
+      "name": "Estudio Gamarra & Asociados",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Asesor fiscal",
+      "address": "Jirón Cahuide 939, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Estudio+Gamarra+%26+Asociados/data=!4m7!3m6!1s0x9105c85dda90b285:0xef2340fd2e4a71df!8m2!3d-12.0790774!4d-77.0448943!16s%2Fg%2F11b_3d058v!19sChIJhbKQ2l3IBZER33FKLv1AI-8"
+    },
+    {
+      "id": "biz_61",
+      "name": "ESTUDIO ROY FREYRE ABOGADOS S. CIVIL DE R.L.",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Abogado penalista",
+      "address": "Av. Santo Toribio 115, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/ESTUDIO+ROY+FREYRE+ABOGADOS+S.+CIVIL+DE+R.L./data=!4m7!3m6!1s0x9105c91cbf67822b:0xf12592ecb667435b!8m2!3d-12.096081!4d-77.0380663!16s%2Fg%2F11gj4ys25m!19sChIJK4JnvxzJBZERW0NntuySJfE"
+    },
+    {
+      "id": "biz_62",
+      "name": "EJG Estudio Garcés Abogados",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "EDIFICIO TIME, Jirón Cruz del Sur 140, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/EJG+Estudio+Garc%C3%A9s+Abogados/data=!4m7!3m6!1s0x9105c68ba489fde5:0x6ceaaca70d2854a0!8m2!3d-12.0853094!4d-76.9727126!16s%2Fg%2F11gxscc59t!19sChIJ5f2JpIvGBZERoFQoDaes6mw"
+    },
+    {
+      "id": "biz_63",
+      "name": "Estudio Jurídico Menéndez & Asociados",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Jirón Pablo Bermudez 177, Lima 15081",
+      "url": "https://www.google.com/maps/place/Estudio+Jur%C3%ADdico+Men%C3%A9ndez+%26+Asociados/data=!4m7!3m6!1s0x9105c978f47b879b:0x4dd7478117eb7972!8m2!3d-12.0726212!4d-77.0370695!16s%2Fg%2F11l1ykcb65!19sChIJm4d79HjJBZERcnnrF4FH100"
+    },
+    {
+      "id": "biz_66",
+      "name": "Estudio Portugal Sánchez",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Bernini 332, San Borja 15036",
+      "url": "https://www.google.com/maps/place/Estudio+Portugal+S%C3%A1nchez/data=!4m7!3m6!1s0x9105c910f5b495e7:0x7bc82b3a07ae9547!8m2!3d-12.0919264!4d-77.0079329!16s%2Fg%2F11mw8bbvn2!19sChIJ55W09RDJBZERR5WuBzoryHs"
+    },
+    {
+      "id": "biz_71",
+      "name": "Estudio Jurídico Egocheaga C & Nicosht - Abogado Penal en Lima - Abogado Empresarial en Lima - Mejor Abogado en Lima",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Abogado empresarial",
+      "address": "Av. Mariscal La Mar 750, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Estudio+Jur%C3%ADdico+Egocheaga+C+%26+Nicosht+-+Abogado+Penal+en+Lima+-+Abogado+Empresarial+en+Lima+-+Mejor+Abogado+en+Lima/data=!4m7!3m6!1s0x9105c98b8843469d:0x1fc415d53f92dd13!8m2!3d-12.1135199!4d-77.0450338!16s%2Fg%2F11rb9lkz3m!19sChIJnUZDiIvJBZERE92SP9UVxB8"
+    },
+    {
+      "id": "biz_76",
+      "name": "ARFASA Abogados",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Av. Paz Soldán 170, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/ARFASA+Abogados/data=!4m7!3m6!1s0x9105c98da563e4f5:0x7dc11cd20da4b2ac!8m2!3d-12.0970409!4d-77.0333729!16s%2Fg%2F11r2r3swr5!19sChIJ9eRjpY3JBZERrLKkDdIcwX0"
+    },
+    {
+      "id": "biz_84",
+      "name": "Estudio de Abogados Ezquerra & Asociados",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Jiron, C. Bernardo de O'Higgins 899, Pueblo Libre 15086",
+      "url": "https://www.google.com/maps/place/Estudio+de+Abogados+Ezquerra+%26+Asociados/data=!4m7!3m6!1s0x9105c908a6f05c93:0xb75a9cf4ebbb8f52!8m2!3d-12.0754886!4d-77.0642925!16s%2Fg%2F11vzz4cmd3!19sChIJk1zwpgjJBZERUo-76_ScWrc"
+    },
+    {
+      "id": "biz_85",
+      "name": "Estudio Jurídico JYM",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. Eduardo de Habich 495, San Martín de Porres 15094",
+      "url": "https://www.google.com/maps/place/Estudio+Jur%C3%ADdico+JYM/data=!4m7!3m6!1s0x9105cf4746b862ef:0xc8a49316e938185f!8m2!3d-12.0274956!4d-77.0558611!16s%2Fg%2F11grv41gp8!19sChIJ72K4RkfPBZERXxg46RaTpMg"
+    },
+    {
+      "id": "biz_86",
+      "name": "Lozano & Cía. Abogados - Derecho Empresarial y Civil en Lima",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Abogado empresarial",
+      "address": "Los Ángeles 340, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Lozano+%26+C%C3%ADa.+Abogados+-+Derecho+Empresarial+y+Civil+en+Lima/data=!4m7!3m6!1s0x9105c814f66e2f45:0x2ed3910ee05b0eb!8m2!3d-12.1072023!4d-77.0332604!16s%2Fg%2F11bbrl0bpt!19sChIJRS9u9hTIBZER67AF7hA57QI"
+    },
+    {
+      "id": "biz_89",
+      "name": "Estudio Reategui Abogados",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Oficinas de empresa",
+      "address": "Jirón Cruz del Sur 140, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/Estudio+Reategui+Abogados/data=!4m7!3m6!1s0x9105c759e6f0e159:0x9863c010eeede26e!8m2!3d-12.0853094!4d-76.9727126!16s%2Fg%2F11ghn6zp9y!19sChIJWeHw5lnHBZERbuLt7hDAY5g"
+    },
+    {
+      "id": "biz_91",
+      "name": "RODRIGUEZ & ALVARADO ABOGADOS E.I.R.L",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. Tacna 329, Lima 15001",
+      "url": "https://www.google.com/maps/place/RODRIGUEZ+%26+ALVARADO+ABOGADOS+E.I.R.L/data=!4m7!3m6!1s0x9105c8cbb55f1c85:0xc9719f451bad5618!8m2!3d-12.0447842!4d-77.0362484!16s%2Fg%2F11f545bpkn!19sChIJhRxftcvIBZERGFatG0Wfcck"
+    },
+    {
+      "id": "biz_92",
+      "name": "Estudio Farfán Zambrano FZ Abogados",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Jr, Jirón Francisco de Zela 1078, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Estudio+Farf%C3%A1n+Zambrano+FZ+Abogados/data=!4m7!3m6!1s0x9105c8f1c037f0cd:0xaab67d692d95d5d0!8m2!3d-12.0760402!4d-77.040741!16s%2Fg%2F11qh389m6c!19sChIJzfA3wPHIBZER0NWVLWl9tqo"
+    },
+    {
+      "id": "biz_93",
+      "name": "Estudio Miranda Ramos & Abogados",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Jirón Francisco de Zela 1683, Lince 15073",
+      "url": "https://www.google.com/maps/place/Estudio+Miranda+Ramos+%26+Abogados/data=!4m7!3m6!1s0x9105c99507b4f5d1:0xedad459824819a6!8m2!3d-12.0819886!4d-77.0400831!16s%2Fg%2F11m0q5xgf2!19sChIJ0fW0B5XJBZERphlIglnU2g4"
+    },
+    {
+      "id": "biz_97",
+      "name": "EBS ABOGADOS",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Av. Caminos del Inca 390, Santiago de Surco 15038",
+      "url": "https://www.google.com/maps/place/EBS+ABOGADOS/data=!4m7!3m6!1s0x9105c73deb31d455:0xc4dfb6a8a7339834!8m2!3d-12.115003!4d-76.991441!16s%2Fg%2F11g3gs3930!19sChIJVdQx6z3HBZERNJgzp6i238Q"
+    },
+    {
+      "id": "biz_8",
+      "name": "Victor Contreras y Asociados - Estudio de Abogados en Lima",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Abogado penalista",
+      "address": "C. Progreso 189, Ate 15491",
+      "url": "https://www.google.com/maps/place/Victor+Contreras+y+Asociados+-+Estudio+de+Abogados+en+Lima/data=!4m7!3m6!1s0x9105cf8d7a23d8cd:0xbe9dbff268df7d8f!8m2!3d-12.0259195!4d-76.9019284!16s%2Fg%2F11h7n7g3q_!19sChIJzdgjeo3PBZERj33faPK_nb4"
+    },
+    {
+      "id": "biz_10",
+      "name": "Estudio Ugaz Zegarra & Abogados Asociados",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Abogado penalista",
+      "address": "Av. Manuel Olguín 325, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/Estudio+Ugaz+Zegarra+%26+Abogados+Asociados/data=!4m7!3m6!1s0x9105c81ca3f88eeb:0xb97e169e01a78984!8m2!3d-12.0878623!4d-76.9732888!16s%2Fg%2F11c75r5zxl!19sChIJ6474oxzIBZERhImnAZ4Wfrk"
+    },
+    {
+      "id": "biz_22",
+      "name": "Estudio de Abogados Arredondo&Jordán",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Abogado civil",
+      "address": "*WhatsApp o Cita previa llamada telefónica Lima, Avenida La Molina 905 Oficina 510 Cerca al Metro de la Av. La Molina. Cruce de Av. La Molina y, Av. Los Constructores 01, La Molina 15023",
+      "url": "https://www.google.com/maps/place/Estudio+de+Abogados+Arredondo%26Jord%C3%A1n/data=!4m7!3m6!1s0x9105c7ba870f6d31:0xe5f08bb8bd9b5e54!8m2!3d-12.0679531!4d-76.9581625!16s%2Fg%2F11y3ckj43f!19sChIJMW0Ph7rHBZERVF6bvbiL8OU"
+    },
+    {
+      "id": "biz_34",
+      "name": "Estudio Juridico Perú Justo",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "1050, Los Olivos Mza F Lte 24 -1, Los Olivos",
+      "url": "https://www.google.com/maps/place/Estudio+Juridico+Per%C3%BA+Justo/data=!4m7!3m6!1s0x693c2755589c9ec9:0x8cc60e78af0dc!8m2!3d-11.9811054!4d-77.0824692!16s%2Fg%2F11v5smf1wj!19sChIJyZ6cWFUnPGkR3PCK52DMCAA"
+    },
+    {
+      "id": "biz_37",
+      "name": "Estudio Jurídico Mondragon",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Parcela, San Juan de Miraflores 974, San Juan de Miraflores 15801",
+      "url": "https://www.google.com/maps/place/Estudio+Jur%C3%ADdico+Mondragon/data=!4m7!3m6!1s0x9105b947ab07aefb:0x726a97bb14b4c8eb!8m2!3d-12.1578113!4d-76.9749613!16s%2Fg%2F11ffl_v4cq!19sChIJ-64Hq0e5BZER68i0FLuXanI"
+    },
+    {
+      "id": "biz_4",
+      "name": "Estudio MAMANI",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Jirón Carabaya 560, Lima 15001",
+      "url": "https://www.google.com/maps/place/Estudio+MAMANI/data=!4m7!3m6!1s0x9105c8b635ade195:0x60de10f58588e104!8m2!3d-12.0491528!4d-77.0322208!16s%2Fg%2F11fd4k8dll!19sChIJleGtNbbIBZERBOGIhfUQ3mA"
+    },
+    {
+      "id": "biz_7",
+      "name": "Estudio Fuentes",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Av. Circunvalación del Golf los Incas 170, Santiago de Surco 15074",
+      "url": "https://www.google.com/maps/place/Estudio+Fuentes/data=!4m7!3m6!1s0x9105c81ae28fc751:0xbab327e3d1710daf!8m2!3d-12.0820844!4d-76.967832!16s%2Fg%2F11h_tk1gcr!19sChIJUceP4hrIBZERrw1x0eMns7o"
+    },
+    {
+      "id": "biz_11",
+      "name": "M&E Abogados",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Av. Paseo de la República 111, Lima 15001",
+      "url": "https://www.google.com/maps/place/M%26E+Abogados/data=!4m7!3m6!1s0x9105c95f583bf63d:0xcf168fa24cc0ed2f!8m2!3d-12.0559249!4d-77.035635!16s%2Fg%2F11h5w4fcct!19sChIJPfY7WF_JBZERL-3ATKKPFs8"
+    },
+    {
+      "id": "biz_12",
+      "name": "Estudio de abogados Mendoza & Rioja",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Av. Gral. Felipe Salaverry 2409, San Isidro 15076",
+      "url": "https://www.google.com/maps/place/Estudio+de+abogados+Mendoza+%26+Rioja/data=!4m7!3m6!1s0x9105c8191d8d0099:0xd4534ff3e4f13a48!8m2!3d-12.0898392!4d-77.0512743!16s%2Fg%2F11gfj48qyv!19sChIJmQCNHRnIBZERSDrx5PNPU9Q"
+    },
+    {
+      "id": "biz_15",
+      "name": "Abogadas Peru - Derecho Familia",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Abogado de Derecho de familia",
+      "address": "Av. Javier Prado Este 255, San Isidro 15027",
+      "url": "https://www.google.com/maps/place/Abogadas+Peru+-+Derecho+Familia/data=!4m7!3m6!1s0x9105cb9b917cf1f3:0xec95cec7ae17ead8!8m2!3d-12.0917838!4d-77.0315227!16s%2Fg%2F11b6s14sm1!19sChIJ8_F8kZvLBZER2OoXrsfOlew"
+    },
+    {
+      "id": "biz_16",
+      "name": "Caro & Asociados. Especialistas en Litigación y Compliance",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Av. Victor Andrés Belaunde 370, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Caro+%26+Asociados.+Especialistas+en+Litigaci%C3%B3n+y+Compliance/data=!4m7!3m6!1s0x9105c94bdc840ed5:0xb28f1c37049fa3d3!8m2!3d-12.0953297!4d-77.0393366!16s%2Fg%2F11y992d13_!19sChIJ1Q6E3EvJBZER06OfBDccj7I"
+    },
+    {
+      "id": "biz_19",
+      "name": "CMT Estudio de Abogados SAC",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Av. Santo Toribio 143, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/CMT+Estudio+de+Abogados+SAC/data=!4m7!3m6!1s0x9105c960e9b90ff3:0x1bfed8847813ed24!8m2!3d-12.0964287!4d-77.0380059!16s%2Fg%2F11g_zjcnkg!19sChIJ8w-56WDJBZERJO0TeITY_hs"
+    },
+    {
+      "id": "biz_27",
+      "name": "Dr. Alberto Miranda – Abogado para peruanos en el extranjero",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Jr. Gonzales Vigil Mz. B Lte. 30, Frente al Parque Magdalena Altura Cuadra 5 de Av. Izaguirre A 3 cuadras del Poder Judicial de Lima Norte Los Olivos Municipalidad Metropolitana de Lima, LIMA 39",
+      "url": "https://www.google.com/maps/place/Dr.+Alberto+Miranda+%E2%80%93+Abogado+para+peruanos+en+el+extranjero/data=!4m7!3m6!1s0x9105ce50a5c76adb:0x35f4e8819f271e80!8m2!3d-11.991193!4d-77.0672158!16s%2Fg%2F11g6njhzkt!19sChIJ22rHpVDOBZERgB4nn4Ho9DU"
+    },
+    {
+      "id": "biz_29",
+      "name": "Estudio Morales",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Estudio+Morales/data=!4m7!3m6!1s0x904a1a8e37c95555:0x1587509d3fb44c59!8m2!3d-8.7161448!4d-78.8735449!16s%2Fg%2F11vrjr6vq_!19sChIJVVXJN44aSpARWUy0P51QhxU"
+    },
+    {
+      "id": "biz_32",
+      "name": "Coello Abogados",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Ca, C. José Domingo Orué 521, Miraflores 15046",
+      "url": "https://www.google.com/maps/place/Coello+Abogados/data=!4m7!3m6!1s0x9105c8135c72df4b:0xc8f3f7ec9656c9d7!8m2!3d-12.1087881!4d-77.0273491!16s%2Fg%2F11b6gnnpql!19sChIJS99yXBPIBZER18lWluz388g"
+    },
+    {
+      "id": "biz_46",
+      "name": "Estudio Jurídico Abogados Calificados",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Abogado de Derecho de familia",
+      "address": "Av. de la Marina 440, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/Estudio+Jur%C3%ADdico+Abogados+Calificados/data=!4m7!3m6!1s0x9105c8d878af9bef:0x5f5daf755cb8c12a!8m2!3d-12.0833153!4d-77.0657217!16s%2Fg%2F11b6cl0bcb!19sChIJ75uveNjIBZERKsG4XHWvXV8"
+    },
+    {
+      "id": "biz_52",
+      "name": "OSCAR DIAZ ABOGADOS & ASOCIADOS",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Av. Andrés Aramburú 878, Lima 15047",
+      "url": "https://www.google.com/maps/place/OSCAR+DIAZ+ABOGADOS+%26+ASOCIADOS/data=!4m7!3m6!1s0x9105d1efa4a5d77f:0x7ac5fde30e8114ae!8m2!3d-12.1023942!4d-77.021444!16s%2Fg%2F11qh5jf6l5!19sChIJf9elpO_RBZERrhSBDuP9xXo"
+    },
+    {
+      "id": "biz_65",
+      "name": "Estudio Beltrán & Seminario Abogados",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "C. Virrey Toledo 360, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Estudio+Beltr%C3%A1n+%26+Seminario+Abogados/data=!4m7!3m6!1s0x9105c9c95e1e5223:0xdabd694a20d9aacb!8m2!3d-12.0929264!4d-77.0315443!16s%2Fg%2F11fpr9v75v!19sChIJI1IeXsnJBZERy6rZIEppvdo"
+    },
+    {
+      "id": "biz_13",
+      "name": "Iura Lex Estudio de Abogados",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Abogado civil",
+      "address": "Jr. Carlos Alayza y Roel 2635, Lince 15073",
+      "url": "https://www.google.com/maps/place/Iura+Lex+Estudio+de+Abogados/data=!4m7!3m6!1s0x9105c85fbeda8f8b:0xc1604d37ee70ce7c!8m2!3d-12.0902346!4d-77.0355556!16s%2Fg%2F11cn2m0q1m!19sChIJi4_avl_IBZERfM5w7jdNYME"
+    },
+    {
+      "id": "biz_17",
+      "name": "Arredondo&Jordán Estudio de Abogados",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Jr.Manuel Cuadros 144- Of 701 Al lado del Palacio de Justicia Edf.Los Defensores Séptimo Piso *WhatsApp o Cita previa llamada telefonica Lima, LIMA 01",
+      "url": "https://www.google.com/maps/place/Arredondo%26Jord%C3%A1n+Estudio+de+Abogados/data=!4m7!3m6!1s0x9105c8c0b64af8b3:0x3e42c76542a93f86!8m2!3d-12.0582756!4d-77.0351831!16s%2Fg%2F11hcn96_br!19sChIJs_hKtsDIBZERhj-pQmXHQj4"
+    },
+    {
+      "id": "biz_28",
+      "name": "Rebaza, Alcázar & De las Casas",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Vía Principal 133, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Rebaza,+Alc%C3%A1zar+%26+De+las+Casas/data=!4m7!3m6!1s0x9105c96e2d8827c3:0x4b21d6408ca45a7e!8m2!3d-12.0971747!4d-77.0372921!16s%2Fg%2F11g3ysl3sr!19sChIJwyeILW7JBZERflqkjEDWIUs"
+    },
+    {
+      "id": "biz_56",
+      "name": "Estudio Bazán Martos: Marcas y Patentes",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Av. Javier Prado Este 2955, Lima 15021",
+      "url": "https://www.google.com/maps/place/Estudio+Baz%C3%A1n+Martos:+Marcas+y+Patentes/data=!4m7!3m6!1s0x9105c72150e8286f:0x2fc093455a9249c3!8m2!3d-12.0863592!4d-76.9939736!16s%2Fg%2F11h6lmtfqv!19sChIJbyjoUCHHBZERw0mSWkWTwC8"
+    },
+    {
+      "id": "biz_67",
+      "name": "Rosselló Abogados",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Av. Camino Real 348, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Rossell%C3%B3+Abogados/data=!4m7!3m6!1s0x9105c85cd52fffff:0xb7e783cc2f4bc718!8m2!3d-12.0969229!4d-77.0364316!16s%2Fg%2F11g86m3_63!19sChIJ__8v1VzIBZERGMdLL8yD57c"
+    },
+    {
+      "id": "biz_43",
+      "name": "Santiváñez Abogados",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Av. República de Panamá N° 3461, Lima 15036",
+      "url": "https://www.google.com/maps/place/Santiv%C3%A1%C3%B1ez+Abogados/data=!4m7!3m6!1s0x9105c86f3b9a6159:0xedaf7d6379a47d68!8m2!3d-12.0982116!4d-77.0195155!16s%2Fg%2F1v26n52p!19sChIJWWGaO2_IBZERaH2keWN9r-0"
+    },
+    {
+      "id": "biz_50",
+      "name": "Estudio Azabache Caracciolo Abogados - AC firma",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. Reducto 1310, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Estudio+Azabache+Caracciolo+Abogados+-+AC+firma/data=!4m7!3m6!1s0x9105b7e2e5f1d3a1:0x85ee40dd275ab6a2!8m2!3d-12.1321072!4d-77.0237554!16s%2Fg%2F11b723xg0p!19sChIJodPx5eK3BZERorZaJ91A7oU"
+    },
+    {
+      "id": "biz_53",
+      "name": "Estudio Raul Canelo Abogados",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "C. Ricardo Angulo 1051, San Isidro 15036",
+      "url": "https://www.google.com/maps/place/Estudio+Raul+Canelo+Abogados/data=!4m7!3m6!1s0x9105c8741be9fcdb:0xac4b3f134bc7e40d!8m2!3d-12.101994!4d-77.0151287!16s%2Fg%2F11bzsczxz9!19sChIJ2_zpG3TIBZERDeTHSxM_S6w"
+    },
+    {
+      "id": "biz_81",
+      "name": "Garrigues",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. Victor Andrés Belaunde 332, San Isidro 15076",
+      "url": "https://www.google.com/maps/place/Garrigues/data=!4m7!3m6!1s0x9105c85b66fbe6bb:0x3e011fd1d2ad33ee!8m2!3d-12.0954751!4d-77.0386123!16s%2Fg%2F11cmmxz3qb!19sChIJu-b7ZlvIBZER7jOt0tEfAT4"
+    },
+    {
+      "id": "biz_88",
+      "name": "CPL Consultores & Asociados",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. República de Chile 478 Piso 2 y 7 Jesús María Gobierno Regional de Lima LIMA, 11",
+      "url": "https://www.google.com/maps/place/CPL+Consultores+%26+Asociados/data=!4m7!3m6!1s0x9105c9523f7548f3:0xb3ec7892228e943d!8m2!3d-12.0694229!4d-77.0385961!16s%2Fg%2F11fk78hzwq!19sChIJ80h1P1LJBZERPZSOIpJ47LM"
+    },
+    {
+      "id": "biz_3",
+      "name": "MARCELL & ASOCIADOS-ESTUDIO JURIDICO",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. José Carlos Mariátegui Mz. 5, Ate LIMA 3",
+      "url": "https://www.google.com/maps/place/MARCELL+%26+ASOCIADOS-ESTUDIO+JURIDICO/data=!4m7!3m6!1s0x9105c345f167fb69:0xb39194dbd3b53fbe!8m2!3d-12.011471!4d-76.8275877!16s%2Fg%2F11h5801ll8!19sChIJaftn8UXDBZERvj-109uUkbM"
+    },
+    {
+      "id": "biz_18",
+      "name": "Rodrigo, Elías & Medrano Abogados",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Av. Felipe Pardo y Aliaga 652, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Rodrigo,+El%C3%ADas+%26+Medrano+Abogados/data=!4m7!3m6!1s0x9105c8f933dc641f:0xe9665d27664b196f!8m2!3d-12.1059263!4d-77.0388074!16s%2Fg%2F1tdfjrkp!19sChIJH2TcM_nIBZERbxlLZiddZuk"
+    },
+    {
+      "id": "biz_21",
+      "name": "Payet, Rey, Cauvi, Pérez Abogados",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Edificio Real Tres, Edificio Real Diez, Av. Victor Andrés Belaunde 147, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Payet,+Rey,+Cauvi,+P%C3%A9rez+Abogados/data=!4m7!3m6!1s0x9105c84336c305bf:0xbef8066ef54104e8!8m2!3d-12.0974018!4d-77.03752!16s%2Fg%2F1hc2yr3c0!19sChIJvwXDNkPIBZER6ARB9W4G-L4"
+    },
+    {
+      "id": "biz_26",
+      "name": "Pérez-Llorca",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Av. José Larco 1301, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/P%C3%A9rez-Llorca/data=!4m7!3m6!1s0x9105b7e1c50f0ac7:0x30d6bf7bb153d4db!8m2!3d-12.1312319!4d-77.0295044!16s%2Fg%2F11c5fzrc5_!19sChIJxwoPxeG3BZER29RTsXu_1jA"
+    },
+    {
+      "id": "biz_31",
+      "name": "Echecopar",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. Los Conquistadores 1118, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Echecopar/data=!4m7!3m6!1s0x9105c7c048fbc60f:0x6594a6cb6727f5d2!8m2!3d-12.107581!4d-77.0372702!16s%2Fg%2F11cs5hx287!19sChIJD8b7SMDHBZER0vUnZ8umlGU"
+    },
+    {
+      "id": "biz_38",
+      "name": "Estudio Flint Abogados",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Proveedor de servicios de asistencia jurídica",
+      "address": "Ca. Mariscal Sucre 198, Miraflores 15073",
+      "url": "https://www.google.com/maps/place/Estudio+Flint+Abogados/data=!4m7!3m6!1s0x9105c839399a039b:0x4fc6c499da09c5a2!8m2!3d-12.1121802!4d-77.0399214!16s%2Fg%2F11b6gnr9vp!19sChIJmwOaOTnIBZERosUJ2pnExk8"
+    },
+    {
+      "id": "biz_48",
+      "name": "Estudio De la Flor, García Montufar, Arata & Asociados Abogados",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Abogado especializado en propiedad inmobiliaria",
+      "address": "Ca. Alfz. Mariano Santos Mateos 140, San Isidro 15047",
+      "url": "https://www.google.com/maps/place/Estudio+De+la+Flor,+Garc%C3%ADa+Montufar,+Arata+%26+Asociados+Abogados/data=!4m7!3m6!1s0x9105c8655c1a9ed9:0x3387afb09f0286d0!8m2!3d-12.0959285!4d-77.0230936!16s%2Fg%2F1ptwdcslr!19sChIJ2Z4aXGXIBZER0IYCn7CvhzM"
+    },
+    {
+      "id": "biz_60",
+      "name": "Estudio Llacza & Asociados S.Civil R.L.",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Juan de la Fuente 626, Miraflores 15047",
+      "url": "https://www.google.com/maps/place/Estudio+Llacza+%26+Asociados+S.Civil+R.L./data=!4m7!3m6!1s0x9105c802b64dcc15:0x1c56601d88bb871b!8m2!3d-12.1285749!4d-77.0214589!16s%2Fg%2F11cpn6m042!19sChIJFcxNtgLIBZERG4e7iB1gVhw"
+    },
+    {
+      "id": "biz_82",
+      "name": "Estudio Manrique Abogados",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Asesor",
+      "address": "Av. Aviación 3944, Surquillo 15038",
+      "url": "https://www.google.com/maps/place/Estudio+Manrique+Abogados/data=!4m7!3m6!1s0x9105c9ae945dcaf3:0x1fdcd27386ca3fac!8m2!3d-12.1149092!4d-76.999687!16s%2Fg%2F11v69zws86!19sChIJ88pdlK7JBZERrD_KhnPS3B8"
+    },
+    {
+      "id": "biz_87",
+      "name": "Casahierro Abogados",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Edificio Capital, Av. Ricardo Rivera Navarrete 501, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Casahierro+Abogados/data=!4m7!3m6!1s0x9105c85b19826abf:0x2690edec94baf6d2!8m2!3d-12.0926956!4d-77.0265354!16s%2Fg%2F11b6t7yscl!19sChIJv2qCGVvIBZER0va6lOztkCY"
+    },
+    {
+      "id": "biz_90",
+      "name": "Pasquel Bustamante Abogados",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Abogado especializado en propiedad inmobiliaria",
+      "address": "Jirón Castilla 813, Magdalena del Mar 15086",
+      "url": "https://www.google.com/maps/place/Pasquel+Bustamante+Abogados/data=!4m7!3m6!1s0x9105c92c37a4f9b7:0x20a00c703296c682!8m2!3d-12.0891001!4d-77.0732122!16s%2Fg%2F11j82mkdpk!19sChIJt_mkNyzJBZERgsaWMnAMoCA"
+    },
+    {
+      "id": "biz_6",
+      "name": "Estudio Muñiz",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Av. las Begonias 475, Lima 15046",
+      "url": "https://www.google.com/maps/place/Estudio+Mu%C3%B1iz/data=!4m7!3m6!1s0x9105c864fe3e1af5:0x1ea0d461828b2e19!8m2!3d-12.0934352!4d-77.0244266!16s%2Fg%2F11b6ghqjf6!19sChIJ9Ro-_mTIBZERGS6LgmHUoB4"
+    },
+    {
+      "id": "biz_35",
+      "name": "Rodríguez Angobaldo Abogados",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "C. Chinchón 601, Lima 15046",
+      "url": "https://www.google.com/maps/place/Rodr%C3%ADguez+Angobaldo+Abogados/data=!4m7!3m6!1s0x9105c866319f1009:0xd59a995e6551752d!8m2!3d-12.0957409!4d-77.0300465!16s%2Fg%2F11bxb9mq85!19sChIJCRCfMWbIBZERLXVRZV6ZmtU"
+    },
+    {
+      "id": "biz_55",
+      "name": "CMS Grau",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Sta. María 110, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/CMS+Grau/data=!4m7!3m6!1s0x9105c83f8b4b78f3:0x4bba9b34d2aed7f9!8m2!3d-12.1083907!4d-77.0348123!16s%2Fg%2F1ptxtvkcq!19sChIJ83hLiz_IBZER-deu0jSbuks"
+    },
+    {
+      "id": "biz_68",
+      "name": "Rubio Leguía Normand",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Av. Dos de Mayo 1321, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Rubio+Legu%C3%ADa+Normand/data=!4m7!3m6!1s0x9105c850a9af48b7:0x4bbd140adf791b50!8m2!3d-12.0922967!4d-77.0444295!16s%2Fg%2F11cfdpzs3!19sChIJt0ivqVDIBZERUBt53woUvUs"
+    },
+    {
+      "id": "biz_74",
+      "name": "Abogado en línea",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "C. Juan del Carpio 270, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Abogado+en+l%C3%ADnea/data=!4m7!3m6!1s0x9105c86be49c9e6b:0x123a279bba86f680!8m2!3d-12.1025605!4d-77.0285083!16s%2Fg%2F11f04b3rm3!19sChIJa56c5GvIBZERgPaGupsnOhI"
+    },
+    {
+      "id": "biz_83",
+      "name": "T & P ABOGADOS - CÉSAR TERREROS ABOGADOS",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. Venezuela 704, Breña 15082",
+      "url": "https://www.google.com/maps/place/T+%26+P+ABOGADOS+-+C%C3%89SAR+TERREROS+ABOGADOS/data=!4m7!3m6!1s0x9105dda50460dcff:0xb7a55641257add23!8m2!3d-12.0545302!4d-77.0440142!16s%2Fg%2F11h64rkcxc!19sChIJ_9xgBKXdBZERI916JUFWpbc"
+    },
+    {
+      "id": "biz_1",
+      "name": "Centro de Conciliación Romero & Nicho - San Miguel",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Av Brigida Silva de Ochoa 398, San Miguel 15087",
+      "url": "https://www.google.com/maps/place/Centro+de+Conciliaci%C3%B3n+Romero+%26+Nicho+-+San+Miguel/data=!4m7!3m6!1s0x9105c9dce0b08fbd:0xe57df83a36159bd4!8m2!3d-12.078602!4d-77.086943!16s%2Fg%2F11fhqs6f3q!19sChIJvY-w4NzJBZER1JsVNjr4feU"
+    },
+    {
+      "id": "biz_5",
+      "name": "Estudio Villanueva Abogados - Asesoría legal en todas las especialidades.",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. Javier Prado Este 210, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Estudio+Villanueva+Abogados+-+Asesor%C3%ADa+legal+en+todas+las+especialidades./data=!4m7!3m6!1s0x9105c8f32445fa8d:0x978040eec0aea8d2!8m2!3d-12.092465!4d-77.0320615!16s%2Fg%2F11g68wjbtd!19sChIJjfpFJPPIBZER0qiuwO5AgJc"
+    },
+    {
+      "id": "biz_23",
+      "name": "CVM Abogados & Asociados",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. del Parque Nte. 1160, Lima 41",
+      "url": "https://www.google.com/maps/place/CVM+Abogados+%26+Asociados/data=!4m7!3m6!1s0x9105c877d7cca5ed:0x46ada56ceb26ed3a!8m2!3d-12.0979668!4d-77.0104868!16s%2Fg%2F11gdv1pv01!19sChIJ7aXM13fIBZEROu0m62ylrUY"
+    },
+    {
+      "id": "biz_25",
+      "name": "Estudio Jorge Avendaño Abogados",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Torre Parque Mar, Av. José Larco 1301, LIMA 15074",
+      "url": "https://www.google.com/maps/place/Estudio+Jorge+Avenda%C3%B1o+Abogados/data=!4m7!3m6!1s0x9105b7e1c44dad01:0x56b83e4984dabda!8m2!3d-12.1314483!4d-77.0295492!16s%2Fg%2F11c3tr_hhk!19sChIJAa1NxOG3BZER2qtNmOSDawU"
+    },
+    {
+      "id": "biz_58",
+      "name": "Pariona Abogados",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Jr. Lampa 879, Lima 15001",
+      "url": "https://www.google.com/maps/place/Pariona+Abogados/data=!4m7!3m6!1s0x9105c8b79322f111:0x7663180bbbf6af42!8m2!3d-12.05206!4d-77.0324814!16s%2Fg%2F11f4pzw8rw!19sChIJEfEik7fIBZERQq_2uwsYY3Y"
+    },
+    {
+      "id": "biz_64",
+      "name": "Osterling Abogados",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. Santo Toribio 143, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Osterling+Abogados/data=!4m7!3m6!1s0x9105c85cba7566a3:0xd83a63bd2719001c!8m2!3d-12.096468!4d-77.0381353!16s%2Fg%2F1thnpvcr!19sChIJo2Z1ulzIBZERHAAZJ71jOtg"
+    },
+    {
+      "id": "biz_75",
+      "name": "Bedoya Abogados",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Av. República de Panamá 3591, San Isidro 15036",
+      "url": "https://www.google.com/maps/place/Bedoya+Abogados/data=!4m7!3m6!1s0x9105c803055aec73:0xd1626ceff3fe58fa!8m2!3d-12.0998654!4d-77.0188766!16s%2Fg%2F11g03j8pgn!19sChIJc-xaBQPIBZER-lj-8-9sYtE"
+    },
+    {
+      "id": "biz_79",
+      "name": "ESTUDIO DE ABOGADOS FRANCO & ASOCIADOS",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Av. Benavides 2979, Oficina 903 - Miraflores (01 cuadra Óvalo Higuereta, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/ESTUDIO+DE+ABOGADOS+FRANCO+%26+ASOCIADOS/data=!4m7!3m6!1s0x9105b8077f9b5fd1:0x9787fa31864f06e1!8m2!3d-12.1282514!4d-77.0041407!16s%2Fg%2F12qfgmq19!19sChIJ0V-bfwe4BZER4QZPhjH6h5c"
+    },
+    {
+      "id": "biz_47",
+      "name": "Linares Abogados",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Sta. María 250, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Linares+Abogados/data=!4m7!3m6!1s0x9105c83fe3fef5a5:0xebe1baff9e8d505f!8m2!3d-12.1089321!4d-77.0338738!16s%2Fg%2F12jsk7h26!19sChIJpfX-4z_IBZERX1CNnv-64es"
+    },
+    {
+      "id": "biz_70",
+      "name": "Cárdenas Díaz Asociados, Asesores y Consultores",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Jirón José de la Torre Ugarte Nro. 166, Lince 15046",
+      "url": "https://www.google.com/maps/place/C%C3%A1rdenas+D%C3%ADaz+Asociados,+Asesores+y+Consultores/data=!4m7!3m6!1s0x9105c85e2aeb7ee3:0x7f572b97261a60f2!8m2!3d-12.0892722!4d-77.0343142!16s%2Fg%2F11bwn4zw88!19sChIJ437rKl7IBZER8mAaJpcrV38"
+    },
+    {
+      "id": "biz_14",
+      "name": "Estudio Olaechea",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "C. Bernardo Monteagudo 201, San Isidro 15076",
+      "url": "https://www.google.com/maps/place/Estudio+Olaechea/data=!4m7!3m6!1s0x9105c9ad7071d787:0xd3b97cf01718393f!8m2!3d-12.0971115!4d-77.0585034!16s%2Fg%2F11bwp28lkj!19sChIJh9dxcK3JBZERPzkYF_B8udM"
+    },
+    {
+      "id": "biz_41",
+      "name": "Lexy Asesores Legales | Estudio de abogados en Lima",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Jiron Aldebarán 596, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/Lexy+Asesores+Legales+%7C+Estudio+de+abogados+en+Lima/data=!4m7!3m6!1s0x9105c7ab79ae3a2b:0xee884bff8a9025b4!8m2!3d-12.1033619!4d-76.9702145!16s%2Fg%2F11rbfnxy12!19sChIJKzqueavHBZERtCWQiv9LiO4"
+    },
+    {
+      "id": "biz_59",
+      "name": "ABOGADOS PERU - ASESORIA LEGAL POR INTERNET",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Santo Domingo 156, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/ABOGADOS+PERU+-+ASESORIA+LEGAL+POR+INTERNET/data=!4m7!3m6!1s0x9105c799669c0e61:0xa8e79db358872155!8m2!3d-12.1101436!4d-76.9718913!16s%2Fg%2F11hcd_j3j6!19sChIJYQ6cZpnHBZERVSGHWLOd56g"
+    },
+    {
+      "id": "biz_69",
+      "name": "CPB Abogados",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "",
+      "url": "https://www.google.com/maps/place/CPB+Abogados/data=!4m7!3m6!1s0x9105c7ec605bcded:0x3043d3f9f8d0762f!8m2!3d-12.0552393!4d-77.0452227!16s%2Fg%2F11ckkyg_mk!19sChIJ7c1bYOzHBZERL3bQ-PnTQzA"
+    },
+    {
+      "id": "biz_78",
+      "name": "Torres y Torres Lara Abogados",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. El Derby N° 254, Santiago de Surco 15038",
+      "url": "https://www.google.com/maps/place/Torres+y+Torres+Lara+Abogados/data=!4m7!3m6!1s0x9105c7d49303d033:0xa75d4e6a2ef3cd46!8m2!3d-12.0977623!4d-76.9727995!16s%2Fg%2F11g0j9t7c9!19sChIJM9ADk9THBZERRs3zLmpOXac"
+    },
+    {
+      "id": "biz_95",
+      "name": "Viera Abogados",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Ca. Francisco Del Castillo 236, Miraflores 15047",
+      "url": "https://www.google.com/maps/place/Viera+Abogados/data=!4m7!3m6!1s0x9105b7e1f068382d:0x8951004c57de39f1!8m2!3d-12.1286034!4d-77.0220949!16s%2Fg%2F11csqjzwrv!19sChIJLTho8OG3BZER8TneV0wAUYk"
+    },
+    {
+      "id": "biz_96",
+      "name": "Estudio Fernández & Vargas Abogados",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Oficinas de empresa",
+      "address": "Av. José Gálvez 692, Piso 3 Edificio \"Interlatin, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Estudio+Fern%C3%A1ndez+%26+Vargas+Abogados/data=!4m7!3m6!1s0x9105c822951a80db:0xb220663c3bd858f!8m2!3d-12.121151!4d-77.0367244!16s%2Fg%2F11gdkrtwkm!19sChIJ24AalSLIBZERj4W9w2MGIgs"
+    },
+    {
+      "id": "biz_99",
+      "name": "Estudio Alarcón Abogados",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Jirón Caracas 2413, Jesús María 15073",
+      "url": "https://www.google.com/maps/place/Estudio+Alarc%C3%B3n+Abogados/data=!4m7!3m6!1s0x9105c6576c7811cb:0xd94a6b936d266f02!8m2!3d-12.0855559!4d-77.0565812!16s%2Fg%2F11fx_d3qlh!19sChIJyxF4bFfGBZERAm8mbZNrStk"
+    },
+    {
+      "id": "biz_51",
+      "name": "Estudio Oropeza",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Las Codornices 285-287, Surquillo 15047",
+      "url": "https://www.google.com/maps/place/Estudio+Oropeza/data=!4m7!3m6!1s0x9105c86defe84089:0x6c3bb60dcc6a4b8!8m2!3d-12.1026738!4d-77.0226635!16s%2Fg%2F11c1rg3yzq!19sChIJiUDo723IBZERuKTG3GC7wwY"
+    },
+    {
+      "id": "biz_57",
+      "name": "Estudio jurídico Costa Abogados",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Av. Javier Prado Este 560, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Estudio+jur%C3%ADdico+Costa+Abogados/data=!4m7!3m6!1s0x9105c866a7f0ecc5:0x49cdd0f600a4d920!8m2!3d-12.0918764!4d-77.027705!16s%2Fg%2F11gbf90h73!19sChIJxezwp2bIBZERINmkAPbQzUk"
+    },
+    {
+      "id": "biz_73",
+      "name": "Estudio Jurídico López & López Abogados",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. Carlos Izaguirre 129, Lima 15311",
+      "url": "https://www.google.com/maps/place/Estudio+Jur%C3%ADdico+L%C3%B3pez+%26+L%C3%B3pez+Abogados/data=!4m7!3m6!1s0x9105ce53017c7c1f:0xfe27a3204b9c3ccf!8m2!3d-11.9892881!4d-77.0579581!16s%2Fg%2F11b6nyfscw!19sChIJH3x8AVPOBZERzzycSyCjJ_4"
+    },
+    {
+      "id": "biz_44",
+      "name": "Benites, Vargas y Ugaz Abogados",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. 28 de Julio 1044, Miraflores 15047",
+      "url": "https://www.google.com/maps/place/Benites,+Vargas+y+Ugaz+Abogados/data=!4m7!3m6!1s0x9105b7b8de3419d1:0x54976b03334d99e1!8m2!3d-12.1301019!4d-77.0219453!16s%2Fg%2F11g190c11l!19sChIJ0Rk03ri3BZER4ZlNMwNrl1Q"
+    },
+    {
+      "id": "biz_49",
+      "name": "COLEGIO DE ABOGADOS DE LIMA",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Asociación profesional",
+      "address": "Av. Sta. Cruz 255, Miraflores 15328",
+      "url": "https://www.google.com/maps/place/COLEGIO+DE+ABOGADOS+DE+LIMA/data=!4m7!3m6!1s0x9105c86a8700e17f:0x31bb3648cd87a91e!8m2!3d-12.1052742!4d-77.0327805!16s%2Fg%2F1tfc7pbp!19sChIJf-EAh2rIBZERHqmHzUg2uzE"
+    },
+    {
+      "id": "biz_100",
+      "name": "Isola Bruce Abogados",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Cobro de deudas",
+      "address": "Av. Javier Prado Oeste 355, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Isola+Bruce+Abogados/data=!4m7!3m6!1s0x9105c923e9726a9d:0x40aa7b90568e3135!8m2!3d-12.0929494!4d-77.0356219!16s%2Fg%2F11h24pj1l6!19sChIJnWpy6SPJBZERNTGOVpB7qkA"
+    },
+    {
+      "id": "biz_77",
+      "name": "Abogado Laboral Lima",
+      "rating": 3.7,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Jirón Carabaya 1159, Lima 15001",
+      "url": "https://www.google.com/maps/place/Abogado+Laboral+Lima/data=!4m7!3m6!1s0x9105c8b705871435:0x43104442088898ce!8m2!3d-12.0549116!4d-77.0355755!16s%2Fg%2F11b6qhzsqx!19sChIJNRSHBbfIBZERzpiICEJEEEM"
+    },
+    {
+      "id": "biz_39",
+      "name": "Estudio de Abogados Percovich y Asociados",
+      "rating": 3.5,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Av. República de Chile 295, Lima 15046",
+      "url": "https://www.google.com/maps/place/Estudio+de+Abogados+Percovich+y+Asociados/data=!4m7!3m6!1s0x9105c860a61f576f:0x3882aa5368ef207f!8m2!3d-12.0669422!4d-77.0378303!16s%2Fg%2F11cm4pm8ww!19sChIJb1cfpmDIBZERfyDvaFOqgjg"
+    },
+    {
+      "id": "biz_98",
+      "name": "Aponte Abogados",
+      "rating": 3.4,
+      "reviewsCount": null,
+      "category": "Abogado civil",
+      "address": "Av. las Alondras 125, Santa Anita 15009",
+      "url": "https://www.google.com/maps/place/Aponte+Abogados/data=!4m7!3m6!1s0x9105c66200434911:0x56472584c82d29d5!8m2!3d-12.0542233!4d-76.9643636!16s%2Fg%2F11b6gnssg4!19sChIJEUlDAGLGBZER1SktyIQlR1Y"
+    },
+    {
+      "id": "biz_36",
+      "name": "Estudio Jurídico Romero Dec & Asociados",
+      "rating": 3.2,
+      "reviewsCount": null,
+      "category": "Proveedor de servicios de asistencia jurídica",
+      "address": "Jr. Camaná 851, Lima 15001",
+      "url": "https://www.google.com/maps/place/Estudio+Jur%C3%ADdico+Romero+Dec+%26+Asociados/data=!4m7!3m6!1s0x9105c8c88bba5915:0xc47d6a0ac9b7c79!8m2!3d-12.051021!4d-77.0360873!16s%2Fg%2F11btmsgc7v!19sChIJFVm6i8jIBZEReXybrKDWRww"
+    },
+    {
+      "id": "biz_20",
+      "name": "Estudio Juridico Valeriano",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Av. Tacna 329, Lima 15001",
+      "url": "https://www.google.com/maps/place/Estudio+Juridico+Valeriano/data=!4m7!3m6!1s0x9105c9035fc2989b:0x749e65193c7cfad4!8m2!3d-12.044916!4d-77.0362742!16s%2Fg%2F1v_ndkq1!19sChIJm5jCXwPJBZER1Pp8PBllnnQ"
+    },
+    {
+      "id": "biz_72",
+      "name": "SANTIVÁNEZ ANTUNEZ ABOGADOS",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. El Derby 254, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/SANTIV%C3%81NEZ+ANTUNEZ+ABOGADOS/data=!4m7!3m6!1s0x9105c7a45c4ef831:0xa739872761665195!8m2!3d-12.0977116!4d-76.9726771!16s%2Fg%2F11fkqqht2t!19sChIJMfhOXKTHBZERlVFmYSeHOac"
+    },
+    {
+      "id": "biz_80",
+      "name": "Estudio Ishida,Brain & Rocca Abogados",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "CC Block C, El Polo 405, Santiago de Surco 15033",
+      "url": "https://www.google.com/maps/place/Estudio+Ishida,Brain+%26+Rocca+Abogados/data=!4m7!3m6!1s0x9105c7a3c1246cb1:0x592b7fb431187bd!8m2!3d-12.1011694!4d-76.9712987!16s%2Fg%2F11gmfbydbn!19sChIJsWwkwaPHBZERvYcRQ_u3kgU"
+    },
+    {
+      "id": "biz_2",
+      "name": "World of Associated Lawyer & Company S.A.C.",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "Av. Javier Prado Oeste 1760, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/World+of+Associated+Lawyer+%26+Company+S.A.C./data=!4m7!3m6!1s0x9105c9d9ac65c795:0xa11dfefa8d2f49fd!8m2!3d-12.094134!4d-77.049112!16s%2Fg%2F11qy88m3f1!19sChIJlcdlrNnJBZER_Ukvjfr-HaE"
+    },
+    {
+      "id": "biz_45",
+      "name": "Estudio Jurídico Salcedo & Abogados",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Av. Nicolás Ayllón 5818, Ate 15498",
+      "url": "https://www.google.com/maps/place/Estudio+Jur%C3%ADdico+Salcedo+%26+Abogados/data=!4m7!3m6!1s0x9105c505db48bcaf:0x4ca172a2a39b6949!8m2!3d-12.0274959!4d-76.9218702!16s%2Fg%2F11v15474bl!19sChIJr7xI2wXFBZERSWmbo6JyoUw"
+    },
+    {
+      "id": "biz_94",
+      "name": "ESTUDIOS SALINAS & ABOGADOS",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Bufete",
+      "address": "",
+      "url": "https://www.google.com/maps/place/ESTUDIOS+SALINAS+%26+ABOGADOS/data=!4m7!3m6!1s0x485eeb737a745025:0xe9f61df7069ba6c1!8m2!3d-12.0266383!4d-76.9877792!16s%2Fg%2F11zg1vx3t_!19sChIJJVB0enPrXkgRwaabBvcd9uk"
+    }
+  ]
+}
