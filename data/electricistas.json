@@ -1,0 +1,55 @@
+{
+  "category": "electricistas",
+  "searchQuery": "electricistas a domicilio en Lima",
+  "totalResults": 3,
+  "updatedAt": "2026-09-09T18:03:35.986Z",
+  "topBusinessContext": {
+    "id": "biz_2",
+    "name": "Yo Te Salvo EIRL - Técnicos Electricistas Profesionales a Domicilio en Lima",
+    "rating": 5,
+    "reviewsCount": null,
+    "category": "Electricista",
+    "address": "Jirón Cutervo 1818 V102 Condominio Lomas de tingmaria Lima, LIMA 01",
+    "url": "https://www.google.com/maps/place/Yo+Te+Salvo+EIRL+-+T%C3%A9cnicos+Electricistas+Profesionales+a+Domicilio+en+Lima/data=!4m7!3m6!1s0x9105c94690abcce7:0x634d15a85d2a1798!8m2!3d-12.053053!4d-77.0577435!16s%2Fg%2F11k1dm_jxh!19sChIJ58yrkEbJBZERmBcqXagVTWM"
+  },
+  "pageContent": {
+    "headline": "Los Mejores Expertos en ELECTRICISTAS en Lima: Conoce a Yo Te Salvo EIRL - Técnicos Electricistas Profesionales a Domicilio en Lima",
+    "subtitles": [
+      "Garantiza resultados hoy mismo. Ubicados en Jirón Cutervo 1818 V102 Condominio Lomas de tingmaria Lima, LIMA 01, destacan como la opción número uno validada por usuarios reales.",
+      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
+    ],
+    "ctas": [
+      "Contactar por WhatsApp Ahora",
+      "Ver Directorio Completo"
+    ]
+  },
+  "businesses": [
+    {
+      "id": "biz_2",
+      "name": "Yo Te Salvo EIRL - Técnicos Electricistas Profesionales a Domicilio en Lima",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Electricista",
+      "address": "Jirón Cutervo 1818 V102 Condominio Lomas de tingmaria Lima, LIMA 01",
+      "url": "https://www.google.com/maps/place/Yo+Te+Salvo+EIRL+-+T%C3%A9cnicos+Electricistas+Profesionales+a+Domicilio+en+Lima/data=!4m7!3m6!1s0x9105c94690abcce7:0x634d15a85d2a1798!8m2!3d-12.053053!4d-77.0577435!16s%2Fg%2F11k1dm_jxh!19sChIJ58yrkEbJBZERmBcqXagVTWM"
+    },
+    {
+      "id": "biz_3",
+      "name": "EVOLUTION - TÉCNICO ELECTRICISTA, electricista industrial, electricista a domicilio, servicio de electricista",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Electricista",
+      "address": "Av. Húsares de Junín nº 374, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/EVOLUTION+-+T%C3%89CNICO+ELECTRICISTA,+electricista+industrial,+electricista+a+domicilio,+servicio+de+electricista/data=!4m7!3m6!1s0x9105c9828eeba851:0xda52ca7d74f5c3a4!8m2!3d-12.0771041!4d-77.0514438!16s%2Fg%2F11j1fwd4kg!19sChIJUajrjoLJBZERpMP1dH3KUto"
+    },
+    {
+      "id": "biz_1",
+      "name": "Electricista a Domicilio en Lima",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Electricista",
+      "address": "Avenida Andrés Avelino Cáceres UVC 07, Ate 15483",
+      "url": "https://www.google.com/maps/place/Electricista+a+Domicilio+en+Lima/data=!4m7!3m6!1s0x9105e90e507f03db:0x3e060b3a698c620a!8m2!3d-12.0166624!4d-76.8179079!16s%2Fg%2F11qscwj54r!19sChIJ2wN_UA7pBZERCmKMaToLBj4"
+    }
+  ]
+}
