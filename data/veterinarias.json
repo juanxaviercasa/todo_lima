@@ -1,0 +1,658 @@
+{
+  "category": "veterinarias",
+  "searchQuery": "veterinarias 24 horas en Lima",
+  "totalResults": 70,
+  "updatedAt": "2026-09-09T17:48:47.098Z",
+  "topBusinessContext": {
+    "id": "biz_7",
+    "name": "veterinaria 24 horas ALBORADA",
+    "rating": 5,
+    "reviewsCount": null,
+    "category": "Servicio de urgencias veterinarias",
+    "address": "Av. la Alborada 1441, Lima 15072",
+    "url": "https://www.google.com/maps/place/veterinaria+24+horas+ALBORADA/data=!4m7!3m6!1s0x9105c95c03db919f:0x497e61ef6be9493b!8m2!3d-12.0630851!4d-77.0665839!16s%2Fg%2F11nhknmydj!19sChIJn5HbA1zJBZERO0npa-9hfkk"
+  },
+  "pageContent": {
+    "headline": "Los Mejores Expertos en VETERINARIAS en Lima: Conoce a veterinaria 24 horas ALBORADA",
+    "subtitles": [
+      "Garantiza resultados hoy mismo. Ubicados en Av. la Alborada 1441, Lima 15072, destacan como la opción número uno validada por usuarios reales.",
+      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
+    ],
+    "ctas": [
+      "Contactar por WhatsApp Ahora",
+      "Ver Directorio Completo"
+    ]
+  },
+  "businesses": [
+    {
+      "id": "biz_7",
+      "name": "veterinaria 24 horas ALBORADA",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicio de urgencias veterinarias",
+      "address": "Av. la Alborada 1441, Lima 15072",
+      "url": "https://www.google.com/maps/place/veterinaria+24+horas+ALBORADA/data=!4m7!3m6!1s0x9105c95c03db919f:0x497e61ef6be9493b!8m2!3d-12.0630851!4d-77.0665839!16s%2Fg%2F11nhknmydj!19sChIJn5HbA1zJBZERO0npa-9hfkk"
+    },
+    {
+      "id": "biz_16",
+      "name": "VETERINARIA DR. COLLIE",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicio de urgencias veterinarias",
+      "address": "Jr. Los Arándanos 782, Lima 15404",
+      "url": "https://www.google.com/maps/place/VETERINARIA+DR.+COLLIE/data=!4m7!3m6!1s0x9105cfe32263d7c7:0xa6d113054ec1e822!8m2!3d-12.0100724!4d-77.0140953!16s%2Fg%2F11sfhh7t4j!19sChIJx9djIuPPBZERIujBTgUT0aY"
+    },
+    {
+      "id": "biz_20",
+      "name": "Critical Vet Veterinaria 24 Horas Emergencias",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicio de urgencias veterinarias",
+      "address": "Urb. Elio, Jr. Teniente Arístides del Carpio 1521, Lima 15081",
+      "url": "https://www.google.com/maps/place/Critical+Vet+Veterinaria+24+Horas+Emergencias/data=!4m7!3m6!1s0x9105c9724bfd80eb:0x8560b533a794c9c8!8m2!3d-12.0565874!4d-77.0715987!16s%2Fg%2F11nc44xp5v!19sChIJ64D9S3LJBZERyMmUpzO1YIU"
+    },
+    {
+      "id": "biz_24",
+      "name": "CLINICA VETERINARIA 24 HORAS ADARDOG",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicio de urgencias veterinarias",
+      "address": "Jr. Corbeta la Unión 280, Santiago de Surco 15049 A 2.5 cuadras de la plaza mayor de Surco Santiago de Surco 15049, 15049",
+      "url": "https://www.google.com/maps/place/CLINICA+VETERINARIA+24+HORAS+ADARDOG/data=!4m7!3m6!1s0x9105b9b13b25f107:0x244644a0cd6f2412!8m2!3d-12.145221!4d-77.0078679!16s%2Fg%2F11ylbxk4l2!19sChIJB_ElO7G5BZEREiRvzaBERiQ"
+    },
+    {
+      "id": "biz_14",
+      "name": "Clinica Veterinaria Veteridoc",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "Valdez 450, La Victoria 15019",
+      "url": "https://www.google.com/maps/place/Clinica+Veterinaria+Veteridoc/data=!4m7!3m6!1s0x9105c71b45c31b3b:0x64e63fb40c525cd2!8m2!3d-12.063723!4d-77.0055989!16s%2Fg%2F11gnq00vh6!19sChIJOxvDRRvHBZER0lxSDLQ_5mQ"
+    },
+    {
+      "id": "biz_56",
+      "name": "Animalince Clínica Veterinaria",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Jr. José Gálvez 2200, Lince 15046",
+      "url": "https://www.google.com/maps/place/Animalince+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0x9105c861e0279fc3:0x7fa98e846c6e0bc8!8m2!3d-12.0856962!4d-77.0290475!16s%2Fg%2F11bw5xtxr_!19sChIJw58n4GHIBZERyAtubISOqX8"
+    },
+    {
+      "id": "biz_66",
+      "name": "CLINICA VETERINARIA CANDY",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Calle Prol. Cayetano Heredia 311 \"A, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/CLINICA+VETERINARIA+CANDY/data=!4m7!3m6!1s0x9105c900263941db:0xc05b983272bc4f9e!8m2!3d-12.0756319!4d-77.0573683!16s%2Fg%2F11x2lj9sr_!19sChIJ20E5JgDJBZERnk-8cjKYW8A"
+    },
+    {
+      "id": "biz_4",
+      "name": "Veterinaria Lolita Pet - Lince - 24 horas Emergencias Veterinarias",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Jirón Brigadier Mateo Pumacahua 2345, Lince 15073",
+      "url": "https://www.google.com/maps/place/Veterinaria+Lolita+Pet+-+Lince+-+24+horas+Emergencias+Veterinarias/data=!4m7!3m6!1s0x9105c8f7c37932b1:0xb8eb5f5b0060b4c1!8m2!3d-12.0852126!4d-77.0430649!16s%2Fg%2F11c6t8fngl!19sChIJsTJ5w_fIBZERwbRgAFtf67g"
+    },
+    {
+      "id": "biz_15",
+      "name": "Clinica Veterinaria Aristocat Sede SJL",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "Los Huertos 129, San Juan de Lurigancho 15419",
+      "url": "https://www.google.com/maps/place/Clinica+Veterinaria+Aristocat+Sede+SJL/data=!4m7!3m6!1s0x9105c588da140df7:0x98ffd5f565b50a78!8m2!3d-12.0083768!4d-77.0054222!16s%2Fg%2F119vml96l!19sChIJ9w0U2ojFBZEReAq1ZfXV_5g"
+    },
+    {
+      "id": "biz_21",
+      "name": "Pet Time Veterinaria - Surco",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Jr. Guardia Civil Sur 149, Santiago de Surco 15054",
+      "url": "https://www.google.com/maps/place/Pet+Time+Veterinaria+-+Surco/data=!4m7!3m6!1s0x9105b86adf2f3c2d:0x2aa133d45d20661d!8m2!3d-12.1639933!4d-76.9905915!16s%2Fg%2F11dfhwh7jq!19sChIJLTwv32q4BZERHWYgXdQzoSo"
+    },
+    {
+      "id": "biz_64",
+      "name": "Pet Time Veterinaria - Chorrillos",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. Ariosto Matellini 325, Chorrillos 15064",
+      "url": "https://www.google.com/maps/place/Pet+Time+Veterinaria+-+Chorrillos/data=!4m7!3m6!1s0x9105b964ec77ad05:0xa4fc57f639da97de!8m2!3d-12.177227!4d-77.0080608!16s%2Fg%2F11t31cx62r!19sChIJBa137GS5BZER3pfaOfZX_KQ"
+    },
+    {
+      "id": "biz_3",
+      "name": "ServipetSalud- Urgencias Veterinarias 24h",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. Guzmán Blanco 201, Lima 15046",
+      "url": "https://www.google.com/maps/place/ServipetSalud-+Urgencias+Veterinarias+24h/data=!4m7!3m6!1s0x9105c98be91eb747:0xae065c7846af0741!8m2!3d-12.0615813!4d-77.0406001!16s%2Fg%2F11s0k0g1l8!19sChIJR7ce6YvJBZERQQevRnhcBq4"
+    },
+    {
+      "id": "biz_23",
+      "name": "VETIVET Clínica Veterinaria - Emergencias 24 Horas",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "Av. Aviación 3001, San Borja 15037",
+      "url": "https://www.google.com/maps/place/VETIVET+Cl%C3%ADnica+Veterinaria+-+Emergencias+24+Horas/data=!4m7!3m6!1s0x9105c7afbdef8907:0x77b7ee807f834329!8m2!3d-12.0997544!4d-77.0015856!16s%2Fg%2F11lv2bkwr5!19sChIJB4nvva_HBZERKUODf4Dut3c"
+    },
+    {
+      "id": "biz_39",
+      "name": "Veterinaria MacDog",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Servicio de urgencias veterinarias",
+      "address": "Kotosh 1518, San Juan de Lurigancho 15427",
+      "url": "https://www.google.com/maps/place/Veterinaria+MacDog/data=!4m7!3m6!1s0x9105c5bea79c9ce5:0x930a7757798a314e!8m2!3d-12.0106807!4d-76.9825588!16s%2Fg%2F11b5pjqb_m!19sChIJ5Zycp77FBZERTjGKeVd3CpM"
+    },
+    {
+      "id": "biz_40",
+      "name": "VETERINARIA MASCOTILANDIA",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Calle pocitos 236 Lima, San Martín de Porres LIMA, 01",
+      "url": "https://www.google.com/maps/place/VETERINARIA+MASCOTILANDIA/data=!4m7!3m6!1s0x9105cf2c41372949:0x86a8422edc3e6fd1!8m2!3d-12.0341775!4d-77.0472871!16s%2Fg%2F11h1y9mlz4!19sChIJSSk3QSzPBZER0W8-3C5CqIY"
+    },
+    {
+      "id": "biz_59",
+      "name": "Century Pet Clínica Veterinaria Miraflores Lima | Médico Veterinario 24 Horas | Pet Shop",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av Benavides 2874 Miraflores Municipalidad Metropolitana de Lima LIMA, Av. Alfredo Benavides, 29",
+      "url": "https://www.google.com/maps/place/Century+Pet+Cl%C3%ADnica+Veterinaria+Miraflores+Lima+%7C+M%C3%A9dico+Veterinario+24+Horas+%7C+Pet+Shop/data=!4m7!3m6!1s0x9105c7dde4250e27:0x9a650e30b62274a4!8m2!3d-12.1286026!4d-77.0041663!16s%2Fg%2F11sky0s6p7!19sChIJJw4l5N3HBZERpHQitjAOZZo"
+    },
+    {
+      "id": "biz_9",
+      "name": "Clínica Veterinaria Rondón",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. Pedro Venturo 104, Santiago de Surco 15038",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Rond%C3%B3n/data=!4m7!3m6!1s0x9105c7f0606423ef:0x5ebcb5b11388f07e!8m2!3d-12.1201814!4d-76.9974612!16s%2Fg%2F1v4k7k_g!19sChIJ7yNkYPDHBZERfvCIE7G1vF4"
+    },
+    {
+      "id": "biz_17",
+      "name": "SOS Veterinaria",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. Mariscal La Mar 835, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/SOS+Veterinaria/data=!4m7!3m6!1s0x9105c839e4bc6cab:0x99d4cd8062aeddba!8m2!3d-12.1128235!4d-77.0462685!16s%2Fg%2F11b6gfhyph!19sChIJq2y85DnIBZERut2uYoDN1Jk"
+    },
+    {
+      "id": "biz_19",
+      "name": "Veterinaria NO TE OLVIDES DE MI",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Jirón Recuay 176, Lima 15082",
+      "url": "https://www.google.com/maps/place/Veterinaria+NO+TE+OLVIDES+DE+MI/data=!4m7!3m6!1s0x9105c9286686cc07:0x4d844e9e388b4475!8m2!3d-12.0554482!4d-77.0433694!16s%2Fg%2F11j4xmgsw_!19sChIJB8yGZijJBZERdUSLOJ5OhE0"
+    },
+    {
+      "id": "biz_22",
+      "name": "Veterinary vet",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. Bolivia 1082, Lima 15083",
+      "url": "https://www.google.com/maps/place/Veterinary+vet/data=!4m7!3m6!1s0x9105c9bb68d370e7:0x896c880bccd579a9!8m2!3d-12.0568959!4d-77.0503578!16s%2Fg%2F11vkts9y13!19sChIJ53DTaLvJBZERqXnVzAuIbIk"
+    },
+    {
+      "id": "biz_29",
+      "name": "Veterinaria Oyanguren | Endoscopía, Cirugía y Odontología Veterinaria en Surquillo",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "C. Juan Fuentes 250, Surquillo 15038",
+      "url": "https://www.google.com/maps/place/Veterinaria+Oyanguren+%7C+Endoscop%C3%ADa,+Cirug%C3%ADa+y+Odontolog%C3%ADa+Veterinaria+en+Surquillo/data=!4m7!3m6!1s0x9105c7caef86a111:0x9463f36ad2c825a9!8m2!3d-12.1134518!4d-77.0038931!16s%2Fg%2F11t_zq6xrb!19sChIJEaGG78rHBZERqSXI0mrzY5Q"
+    },
+    {
+      "id": "biz_37",
+      "name": "Veterinaria Ascoy",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Tienda de alimentación",
+      "address": "X3GF+CQ5, Ate 15498",
+      "url": "https://www.google.com/maps/place/Veterinaria+Ascoy/data=!4m7!3m6!1s0x9105c5a1a9dde119:0x9a2f6f85991bdda0!8m2!3d-12.0239992!4d-76.9255132!16s%2Fg%2F11hytqpfb_!19sChIJGeHdqaHFBZERoN0bmYVvL5o"
+    },
+    {
+      "id": "biz_42",
+      "name": "Veterinaria Mundo Labvet",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Jr. Lucha Reyes Mz. A Lt. 1 Urb, Bellavista 07011",
+      "url": "https://www.google.com/maps/place/Veterinaria+Mundo+Labvet/data=!4m7!3m6!1s0x9105cbe4c6c47551:0xdb52b077de0476a9!8m2!3d-12.0565874!4d-77.1099498!16s%2Fg%2F1pyqqt207!19sChIJUXXExuTLBZERqXYE3newUts"
+    },
+    {
+      "id": "biz_53",
+      "name": "Veterinaria Animal UCI",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Clínica especializada",
+      "address": "Jr. Coronel Domingo Casanova 423, Lince 15043",
+      "url": "https://www.google.com/maps/place/Veterinaria+Animal+UCI/data=!4m7!3m6!1s0x9105c958716af469:0x916de374f6b54908!8m2!3d-12.0893826!4d-77.0314375!16s%2Fg%2F11vbz4k0yg!19sChIJafRqcVjJBZERCEm19nTjbZE"
+    },
+    {
+      "id": "biz_31",
+      "name": "Cedivet Hospital",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. Carlos Izaguirre 1280, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/Cedivet+Hospital/data=!4m7!3m6!1s0x9105ce5dc0c3c669:0xa83d73323936bd78!8m2!3d-11.9913203!4d-77.0776293!16s%2Fg%2F11btwv3k7q!19sChIJacbDwF3OBZEReL02OTJzPag"
+    },
+    {
+      "id": "biz_38",
+      "name": "Clinica Veterinaria Groomers Sede Juan de Aliaga",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Servicio de urgencias veterinarias",
+      "address": "Av. Antonio Miró Quesada 410, Magdalena del Mar 15073",
+      "url": "https://www.google.com/maps/place/Clinica+Veterinaria+Groomers+Sede+Juan+de+Aliaga/data=!4m7!3m6!1s0x9105c9ada2e2975f:0xf85b4cbf840e914f!8m2!3d-12.0959052!4d-77.0594265!16s%2Fg%2F11b6gcj_l2!19sChIJX5fioq3JBZERT5EOhL9MW_g"
+    },
+    {
+      "id": "biz_45",
+      "name": "Clínica Veterinaria Mar de Colas",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. Comandante Espinar 176, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Mar+de+Colas/data=!4m7!3m6!1s0x9105c9fb48dcf947:0xde735179bf15e3e2!8m2!3d-12.1182559!4d-77.0367459!16s%2Fg%2F11lkgb43d1!19sChIJR_ncSPvJBZER4uMVv3lRc94"
+    },
+    {
+      "id": "biz_49",
+      "name": "Clínica Veterinaria Groomers La Molina",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "C. las Caobas 164, La Molina 15024",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Groomers+La+Molina/data=!4m7!3m6!1s0x9105c7752acddd25:0x9375d168a48037ad!8m2!3d-12.091159!4d-76.9494713!16s%2Fg%2F11pybnhqbj!19sChIJJd3NKnXHBZERrTeApGjRdZM"
+    },
+    {
+      "id": "biz_55",
+      "name": "Veterinaria Blasvet Surco",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. Aviación 4874, Santiago de Surco 15038",
+      "url": "https://www.google.com/maps/place/Veterinaria+Blasvet+Surco/data=!4m7!3m6!1s0x9105c798d9967159:0x422e66f3514e2c90!8m2!3d-12.1246616!4d-76.999696!16s%2Fg%2F11gpnjx9r4!19sChIJWXGW2ZjHBZERkCxOUfNmLkI"
+    },
+    {
+      "id": "biz_1",
+      "name": "HeyVet El Polo | Veterinaria en Surco",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "El Polo 348, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/HeyVet+El+Polo+%7C+Veterinaria+en+Surco/data=!4m7!3m6!1s0x9105c76216e2574d:0x7de01839692231cd!8m2!3d-12.106046!4d-76.973374!16s%2Fg%2F11yhczrvzn!19sChIJTVfiFmLHBZERzTEiaTkY4H0"
+    },
+    {
+      "id": "biz_18",
+      "name": "Clinica Veterinaria Groomers Sede Av. Benavides",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Servicio de urgencias veterinarias",
+      "address": "Av. Alfredo Benavides 1241, Miraflores 15047",
+      "url": "https://www.google.com/maps/place/Clinica+Veterinaria+Groomers+Sede+Av.+Benavides/data=!4m7!3m6!1s0x9105c82317c62cc3:0xec12c0b3d4cbe369!8m2!3d-12.1257702!4d-77.0196864!16s%2Fg%2F1tg9trj8!19sChIJwyzGFyPIBZERaePL1LPAEuw"
+    },
+    {
+      "id": "biz_32",
+      "name": "Wawow Clínica Veterinaria 24 horas",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. del Ejército 185, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Wawow+Cl%C3%ADnica+Veterinaria+24+horas/data=!4m7!3m6!1s0x9105c942ac9e0da3:0x2cf640c8221b6174!8m2!3d-12.1184513!4d-77.0436508!16s%2Fg%2F11s39vwyxx!19sChIJow2erELJBZERdGEbIshA9iw"
+    },
+    {
+      "id": "biz_35",
+      "name": "El Huron Azul Clínicas Veterinarias - Sede SMP",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. Germán Aguirre 701-739, San Martín de Porres 15103",
+      "url": "https://www.google.com/maps/place/El+Huron+Azul+Cl%C3%ADnicas+Veterinarias+-+Sede+SMP/data=!4m7!3m6!1s0x9105cf9751bccf81:0x6a6e212fe015361a!8m2!3d-12.0161386!4d-77.0720619!16s%2Fg%2F11h8bcf766!19sChIJgc-8UZfPBZERGjYV4C8hbmo"
+    },
+    {
+      "id": "biz_36",
+      "name": "ANIMAL CLINIC PERU",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Alameda Los Cedros 484 - 486 Urb. Cedros de Villa (Esq. Con Calle Tortugas Lima, 15067",
+      "url": "https://www.google.com/maps/place/ANIMAL+CLINIC+PERU/data=!4m7!3m6!1s0x9105b9e289359919:0x970b9a9038b2f8e!8m2!3d-12.2050673!4d-77.0129379!16s%2Fg%2F11bztcg1kj!19sChIJGZk1ieK5BZERji-LA6m5cAk"
+    },
+    {
+      "id": "biz_44",
+      "name": "SOCIALVET Veterinarios Especialistas | Surquillo",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Jr. María Elena Moyano 120, Surquillo 15038",
+      "url": "https://www.google.com/maps/place/SOCIALVET+Veterinarios+Especialistas+%7C+Surquillo/data=!4m7!3m6!1s0x9105c7f06c7282eb:0x969f3355bd0b3624!8m2!3d-12.1191833!4d-76.9978316!16s%2Fg%2F11g890qnj2!19sChIJ64JybPDHBZERJDYLvVUzn5Y"
+    },
+    {
+      "id": "biz_50",
+      "name": "ARIELS CLÍNIC HOSPITAL VETERINARIO",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av Brigida Silva de Ochoa 272, San Miguel 15087",
+      "url": "https://www.google.com/maps/place/ARIELS+CL%C3%8DNIC+HOSPITAL+VETERINARIO/data=!4m7!3m6!1s0x9105c9ec4812f86d:0x9bc3303a3331a359!8m2!3d-12.0804461!4d-77.0881734!16s%2Fg%2F11j1g58xr9!19sChIJbfgSSOzJBZERWaMxMzoww5s"
+    },
+    {
+      "id": "biz_51",
+      "name": "Clínica Veterinaria Groomers San Borja",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "Av. José Gálvez Barrenechea 819, San Borja 15036",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Groomers+San+Borja/data=!4m7!3m6!1s0x9105c875e1022387:0x7b7c14e1d0fc1b4f!8m2!3d-12.1021996!4d-77.0113588!16s%2Fg%2F11hb0948b_!19sChIJhyMC4XXIBZERTxv80OEUfHs"
+    },
+    {
+      "id": "biz_61",
+      "name": "CLINICA VETERINARIA DR. VISE",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "Av. Canto Grande 3343, San Juan de Lurigancho 15412",
+      "url": "https://www.google.com/maps/place/CLINICA+VETERINARIA+DR.+VISE/data=!4m7!3m6!1s0x9105c56067fbfa13:0x2d047327a3a8a542!8m2!3d-11.9740274!4d-77.0081889!16s%2Fg%2F11df06xnnw!19sChIJE_r7Z2DFBZERQqWooydzBC0"
+    },
+    {
+      "id": "biz_68",
+      "name": "El Hurón Azul Clínica Veterinaria Sede Los Olivos",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. Carlos Izaguirre 937, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/El+Hur%C3%B3n+Azul+Cl%C3%ADnica+Veterinaria+Sede+Los+Olivos/data=!4m7!3m6!1s0x9105cfe5077bd1a3:0xfe5abf6d71d050da!8m2!3d-11.9917205!4d-77.0727075!16s%2Fg%2F11qzc_6l76!19sChIJo9F7B-XPBZER2lDQcW2_Wv4"
+    },
+    {
+      "id": "biz_5",
+      "name": "Pet Salud | Clínica Veterinaria en Lima",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "Jr. Jorge Chávez 454, Breña 15082",
+      "url": "https://www.google.com/maps/place/Pet+Salud+%7C+Cl%C3%ADnica+Veterinaria+en+Lima/data=!4m7!3m6!1s0x9105c8daf5e154e3:0xbb74cefb92638db!8m2!3d-12.0545079!4d-77.0477389!16s%2Fg%2F11b6q37vcx!19sChIJ41Th9drIBZER2zgmue9Mtws"
+    },
+    {
+      "id": "biz_6",
+      "name": "MedVet Clínica Veterinaria - Lince",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. Militar 2026, Lince 15046",
+      "url": "https://www.google.com/maps/place/MedVet+Cl%C3%ADnica+Veterinaria+-+Lince/data=!4m7!3m6!1s0x9105c88a91f3752f:0x9baa4d96107050b2!8m2!3d-12.0845574!4d-77.0315061!16s%2Fg%2F11c2kkxxxw!19sChIJL3XzkYrIBZERslBwEJZNqps"
+    },
+    {
+      "id": "biz_8",
+      "name": "Ucivet",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. Arnaldo Márquez 2006, Jesús María 15073",
+      "url": "https://www.google.com/maps/place/Ucivet/data=!4m7!3m6!1s0x9105c8562988f655:0x512a53c9fdba5527!8m2!3d-12.0805431!4d-77.0554546!16s%2Fg%2F11f1jwpm21!19sChIJVfaIKVbIBZERJ1W6_clTKlE"
+    },
+    {
+      "id": "biz_12",
+      "name": "American Vet",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. República de Panamá 6584, Barranco 15047",
+      "url": "https://www.google.com/maps/place/American+Vet/data=!4m7!3m6!1s0x9105b7fdb101da89:0x16f2b9b36f7c2922!8m2!3d-12.1319629!4d-77.0181088!16s%2Fg%2F11ckvblz94!19sChIJidoBsf23BZERIil8b7O58hY"
+    },
+    {
+      "id": "biz_13",
+      "name": "Animal Hospital",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "Av. Flora Tristan 452a, La Molina 15026",
+      "url": "https://www.google.com/maps/place/Animal+Hospital/data=!4m7!3m6!1s0x9105c6e7fb6193f7:0x2c3a46c3af479d79!8m2!3d-12.0707644!4d-76.941562!16s%2Fg%2F11g8wy6m73!19sChIJ95Nh--fGBZEReZ1Hr8NGOiw"
+    },
+    {
+      "id": "biz_25",
+      "name": "Pets Place La Molina",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "Av. Raúl Ferrero 1455, Lima 15024",
+      "url": "https://www.google.com/maps/place/Pets+Place+La+Molina/data=!4m7!3m6!1s0x9105c71ab5e4f53f:0x915361b5694aad12!8m2!3d-12.0916678!4d-76.9523489!16s%2Fg%2F11c1xpwnt0!19sChIJP_XktRrHBZEREq1KabVhU5E"
+    },
+    {
+      "id": "biz_28",
+      "name": "Huellas Y Mas Huellas - Emergencias 24 horas",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Callao 07036",
+      "url": "https://www.google.com/maps/place/Huellas+Y+Mas+Huellas+-+Emergencias+24+horas/data=!4m7!3m6!1s0x9105cdacb3d250c7:0x529a7b306f2155a9!8m2!3d-12.0072806!4d-77.1029549!16s%2Fg%2F11f64czqxk!19sChIJx1DSs6zNBZERqVUhbzB7mlI"
+    },
+    {
+      "id": "biz_34",
+      "name": "Clinica Veterinaria Yogues Pets.",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "Av. Felipe Arancibia 581, Rímac 15094",
+      "url": "https://www.google.com/maps/place/Clinica+Veterinaria+Yogues+Pets./data=!4m7!3m6!1s0x9105cf3825c8dd01:0x6246e6c0b56e4ecc!8m2!3d-12.0293377!4d-77.0354646!16s%2Fg%2F11c52dq59x!19sChIJAd3IJTjPBZERzE5utcDmRmI"
+    },
+    {
+      "id": "biz_47",
+      "name": "Clinica Veterinaria Walac Chorrillos",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "Prol. P.º de la República 378, Chorrillos 15064",
+      "url": "https://www.google.com/maps/place/Clinica+Veterinaria+Walac+Chorrillos/data=!4m7!3m6!1s0x9105b783ce7277bf:0xc073100d632d0809!8m2!3d-12.1716895!4d-77.0168358!16s%2Fg%2F11c3k68_yp!19sChIJv3dyzoO3BZERCQgtYw0Qc8A"
+    },
+    {
+      "id": "biz_54",
+      "name": "Clínica veterinaria pets house",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "Av. 27 de Noviembre 731, San Martín de Porres 15106",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+veterinaria+pets+house/data=!4m7!3m6!1s0x9105cf52e43bf2dd:0x877e101205a67a4d!8m2!3d-12.0339402!4d-77.0854441!16s%2Fg%2F11j0z63c5b!19sChIJ3fI75FLPBZERTXqmBRIQfoc"
+    },
+    {
+      "id": "biz_60",
+      "name": "CLINICA VETERINARIA GROOMERS sede Jorge Chavez Miraflores",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "Jorge Chávez 258, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/CLINICA+VETERINARIA+GROOMERS+sede+Jorge+Chavez+Miraflores/data=!4m7!3m6!1s0x9105c823162a1eff:0xd09296c3723c9196!8m2!3d-12.1208075!4d-77.0372291!16s%2Fg%2F11c55rt2w8!19sChIJ_x4qFiPIBZERlpE8csOWktA"
+    },
+    {
+      "id": "biz_69",
+      "name": "Pet's Place",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. José Gálvez Barrenechea 673, San Borja 15036",
+      "url": "https://www.google.com/maps/place/Pet%27s+Place/data=!4m7!3m6!1s0x9105c87640830503:0xa815b51a4bd0a83f!8m2!3d-12.0997927!4d-77.0118722!16s%2Fg%2F11b6hw41cp!19sChIJAwWDQHbIBZERP6jQSxq1Fag"
+    },
+    {
+      "id": "biz_10",
+      "name": "Veterinaria Animal Surco 24 Horas - San Miguel",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "Auxiliar Avenida de la Marina 2300, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/Veterinaria+Animal+Surco+24+Horas+-+San+Miguel/data=!4m7!3m6!1s0x9105c90029813ed5:0x7601bf03387b764e!8m2!3d-12.0776074!4d-77.086372!16s%2Fg%2F11xmkx0qqy!19sChIJ1T6BKQDJBZERTnZ7OAO_AXY"
+    },
+    {
+      "id": "biz_11",
+      "name": "El Hurón Azul Clínica Veterinaria Colonial EMERGENCIAS 24 HORAS",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. Óscar R. Benavides 2505, Lima 15081",
+      "url": "https://www.google.com/maps/place/El+Hur%C3%B3n+Azul+Cl%C3%ADnica+Veterinaria+Colonial+EMERGENCIAS+24+HORAS/data=!4m7!3m6!1s0x9105c90c57963d53:0xb117783d7def03fe!8m2!3d-12.0498736!4d-77.074167!16s%2Fg%2F11h1qspjf0!19sChIJUz2WVwzJBZER_gPvfT14F7E"
+    },
+    {
+      "id": "biz_57",
+      "name": "VETERINARIA SAN MARCOS - SEDE PRINCIPAL",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "San Juan de Miraflores 981, San Juan de Miraflores 15801",
+      "url": "https://www.google.com/maps/place/VETERINARIA+SAN+MARCOS+-+SEDE+PRINCIPAL/data=!4m7!3m6!1s0x9105b85b0b20d03d:0x9160a7076a29aaab!8m2!3d-12.1569483!4d-76.9731122!16s%2Fg%2F1hhvq2jwn!19sChIJPdAgC1u4BZERq6opagenYJE"
+    },
+    {
+      "id": "biz_62",
+      "name": "El Hurón Azul Clínica Veterinaria",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. Víctor Raúl Haya de la Torre 410, La Perla 07016",
+      "url": "https://www.google.com/maps/place/El+Hur%C3%B3n+Azul+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0x9105cbdc42480d5b:0x8176d7d4a3322cf!8m2!3d-12.0709034!4d-77.1100969!16s%2Fg%2F11b6ss879c!19sChIJWw1IQtzLBZERzyIzSn1tFwg"
+    },
+    {
+      "id": "biz_65",
+      "name": "Veterinaria Consentidos - Los Olivos",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Taurija MZ A, Los Olivos 15302",
+      "url": "https://www.google.com/maps/place/Veterinaria+Consentidos+-+Los+Olivos/data=!4m7!3m6!1s0x9105cef0dceafe13:0xb61716d680185b0f!8m2!3d-12.0048614!4d-77.0703017!16s%2Fg%2F11b5vyb5qc!19sChIJE_7q3PDOBZERD1sYgNYWF7Y"
+    },
+    {
+      "id": "biz_27",
+      "name": "Maskoteka",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. Gran Chimú 301, San Juan de Lurigancho 15401",
+      "url": "https://www.google.com/maps/place/Maskoteka/data=!4m7!3m6!1s0x9105c5f79367966d:0xde9ecc117cbab115!8m2!3d-12.0274764!4d-77.0087954!16s%2Fg%2F11b6mmmbgd!19sChIJbZZnk_fFBZERFbG6fBHMnt4"
+    },
+    {
+      "id": "biz_43",
+      "name": "Clinica Veterinaria Animal World",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Avenida, Av. Santiago Antunez de Mayolo 954, Los Olivos",
+      "url": "https://www.google.com/maps/place/Clinica+Veterinaria+Animal+World/data=!4m7!3m6!1s0x9105ce593a8f6251:0xed700e22eea7ced6!8m2!3d-11.9942421!4d-77.0729947!16s%2Fg%2F11bttrq0ms!19sChIJUWKPOlnOBZER1s6n7iIOcO0"
+    },
+    {
+      "id": "biz_63",
+      "name": "Veterinaria DR. WIDI",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "Av. Universitaria 630, Lima 15103",
+      "url": "https://www.google.com/maps/place/Veterinaria+DR.+WIDI/data=!4m7!3m6!1s0x9105cec1db882e97:0x5c6d71795c588cd!8m2!3d-12.0202362!4d-77.0755618!16s%2Fg%2F11cp5j1h25!19sChIJly6I28HOBZERzYjFlRfXxgU"
+    },
+    {
+      "id": "biz_48",
+      "name": "El Hurón Azul Clínica Veterinaria",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av Antonio José de Sucre 688, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/El+Hur%C3%B3n+Azul+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0x9105c90503e8644f:0x349feaada9bbd277!8m2!3d-12.0783774!4d-77.065362!16s%2Fg%2F11b6twhd2v!19sChIJT2ToAwXJBZERd9K7qa3qnzQ"
+    },
+    {
+      "id": "biz_58",
+      "name": "Clínica Veterinaria Aristocat Sede Los Olivos",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "Av. Santiago Antunez de Mayolo 1650, Lima 15301",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Aristocat+Sede+Los+Olivos/data=!4m7!3m6!1s0x9105ce61759dbe3d:0x459901810e14e5cf!8m2!3d-11.9954409!4d-77.0838048!16s%2Fg%2F119w44h6d!19sChIJPb6ddWHOBZERz-UUDoEBmUU"
+    },
+    {
+      "id": "biz_70",
+      "name": "Petmedic Veterinaria",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "Av. Alfredo Mendiola 253, San Martín de Porres 15101",
+      "url": "https://www.google.com/maps/place/Petmedic+Veterinaria/data=!4m7!3m6!1s0x9105ced840ef2047:0x9ce0b9bf6aae7f78!8m2!3d-12.0294281!4d-77.0582678!16s%2Fg%2F11csbv9lq5!19sChIJRyDvQNjOBZEReH-uar-54Jw"
+    },
+    {
+      "id": "biz_2",
+      "name": "CLINICA VETERINARIA MASCOTAS EL POLO",
+      "rating": 3.7,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "El Polo 298, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/CLINICA+VETERINARIA+MASCOTAS+EL+POLO/data=!4m7!3m6!1s0x9105c79843751357:0xa94290bb9fd375e6!8m2!3d-12.107097!4d-76.973838!16s%2Fg%2F11dfy388rh!19sChIJVxN1Q5jHBZER5nXTn7uQQqk"
+    },
+    {
+      "id": "biz_33",
+      "name": "Veterinaria Animal Surco",
+      "rating": 3.7,
+      "reviewsCount": null,
+      "category": "Hospital veterinario",
+      "address": "Av. Santiago de Surco 4391, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Veterinaria+Animal+Surco/data=!4m7!3m6!1s0x9105b96b7b325ebb:0x45d75ed5506f4810!8m2!3d-12.1406222!4d-76.9924159!16s%2Fg%2F11k12p4gm2!19sChIJu14ye2u5BZEREEhvUNVe10U"
+    },
+    {
+      "id": "biz_26",
+      "name": "Centro de Urgencias Veterinarias - Cuvet Miraflores",
+      "rating": 3.6,
+      "reviewsCount": null,
+      "category": "Servicio de urgencias veterinarias",
+      "address": "Av. Alfredo Benavides 2350, Miraflores 15048",
+      "url": "https://www.google.com/maps/place/Centro+de+Urgencias+Veterinarias+-+Cuvet+Miraflores/data=!4m7!3m6!1s0x9105c7f676ac6453:0x6534b71eeb21a34a!8m2!3d-12.128126!4d-77.0083083!16s%2Fg%2F11s0th2_xz!19sChIJU2SsdvbHBZERSqMh6x63NGU"
+    },
+    {
+      "id": "biz_41",
+      "name": "Veterinaria Pet Store La Molina",
+      "rating": 3.6,
+      "reviewsCount": null,
+      "category": "Veterinario",
+      "address": "LM-119 720, Lima 15023",
+      "url": "https://www.google.com/maps/place/Veterinaria+Pet+Store+La+Molina/data=!4m7!3m6!1s0x9105c6f0a3fe680d:0x409393ca2a46e207!8m2!3d-12.0670589!4d-76.9589614!16s%2Fg%2F1whdkf1z!19sChIJDWj-o_DGBZERB-JGKsqTk0A"
+    },
+    {
+      "id": "biz_67",
+      "name": "Veterinaria Municipal del Rímac",
+      "rating": 3.5,
+      "reviewsCount": null,
+      "category": "Hospital",
+      "address": "XXCC+65W, Rímac 15094",
+      "url": "https://www.google.com/maps/place/Veterinaria+Municipal+del+R%C3%ADmac/data=!4m7!3m6!1s0x9105cf9bdcc330cb:0xb6b7275ff3420ea5!8m2!3d-12.0293984!4d-77.0295383!16s%2Fg%2F11fj10z2fb!19sChIJyzDD3JvPBZERpQ5C818nt7Y"
+    },
+    {
+      "id": "biz_46",
+      "name": "FARMACIA VETERINARIA 24 HORAS CASDAVET",
+      "rating": 3.3,
+      "reviewsCount": null,
+      "category": "Farmacia veterinaria",
+      "address": "Av. Mariano H. Cornejo 1309, Pueblo Libre 15034",
+      "url": "https://www.google.com/maps/place/FARMACIA+VETERINARIA+24+HORAS+CASDAVET/data=!4m7!3m6!1s0x9105c93141924087:0xc4d5ea6e8b6006bb!8m2!3d-12.0678039!4d-77.0639601!16s%2Fg%2F11t2q8lf_g!19sChIJh0CSQTHJBZERuwZgi27q1cQ"
+    },
+    {
+      "id": "biz_30",
+      "name": "Centro de Urgencias Veterinarias - Cuvet San Luis",
+      "rating": 2.7,
+      "reviewsCount": null,
+      "category": "Servicio de urgencias veterinarias",
+      "address": "Av. Canadá N°3947, San Luis 15021",
+      "url": "https://www.google.com/maps/place/Centro+de+Urgencias+Veterinarias+-+Cuvet+San+Luis/data=!4m7!3m6!1s0x9105c7e762554cbb:0x3f6f79a343cd05e7!8m2!3d-12.0784797!4d-76.9904714!16s%2Fg%2F11lz_m3v5c!19sChIJu0xVYufHBZER5wXNQ6N5bz8"
+    },
+    {
+      "id": "biz_52",
+      "name": "VETERINARIA SERVIVET",
+      "rating": 2.7,
+      "reviewsCount": null,
+      "category": "Servicio de urgencias veterinarias",
+      "address": "ASOCIACIÓN DE VIVIENDA LA MENACHO II LA MENACHO 2, Los Algarrobos MZ G LT 08, El Agustino 15003",
+      "url": "https://www.google.com/maps/place/VETERINARIA+SERVIVET/data=!4m7!3m6!1s0x9105c59494040ab5:0xdcc50fe8fba521d0!8m2!3d-12.0390971!4d-76.9970166!16s%2Fg%2F11s7sv6ntm!19sChIJtQoElJTFBZER0CGl--gPxdw"
+    }
+  ]
+}
