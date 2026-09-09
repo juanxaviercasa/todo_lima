@@ -1,0 +1,928 @@
+{
+  "category": "salones-de-belleza",
+  "searchQuery": "salones de belleza y peluquerias en Lima",
+  "totalResults": 100,
+  "updatedAt": "2026-09-09T18:50:58.730Z",
+  "topBusinessContext": {
+    "id": "biz_29",
+    "name": "Salón & Spa bella",
+    "rating": 5,
+    "reviewsCount": null,
+    "category": "Peluquería",
+    "address": "X25V+2QW, Av. Sta. Ana, Lima 15011",
+    "url": "https://www.google.com/maps/place/Sal%C3%B3n+%26+Spa+bella/data=!4m7!3m6!1s0x9105c7359522fe3f:0x50b9a1d8476b96c!8m2!3d-12.0426241!4d-76.9553977!16s%2Fg%2F11t9fhw6w0!19sChIJP_4ilTXHBZERbLl2hB2aCwU"
+  },
+  "pageContent": {
+    "headline": "Los Mejores Expertos en SALONES DE BELLEZA en Lima: Conoce a Salón & Spa bella",
+    "subtitles": [
+      "Garantiza resultados hoy mismo. Ubicados en X25V+2QW, Av. Sta. Ana, Lima 15011, destacan como la opción número uno validada por usuarios reales.",
+      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
+    ],
+    "ctas": [
+      "Contactar por WhatsApp Ahora",
+      "Ver Directorio Completo"
+    ]
+  },
+  "businesses": [
+    {
+      "id": "biz_29",
+      "name": "Salón & Spa bella",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "X25V+2QW, Av. Sta. Ana, Lima 15011",
+      "url": "https://www.google.com/maps/place/Sal%C3%B3n+%26+Spa+bella/data=!4m7!3m6!1s0x9105c7359522fe3f:0x50b9a1d8476b96c!8m2!3d-12.0426241!4d-76.9553977!16s%2Fg%2F11t9fhw6w0!19sChIJP_4ilTXHBZERbLl2hB2aCwU"
+    },
+    {
+      "id": "biz_32",
+      "name": "Maria Canales Especialista en Belleza estudio y a domicilio",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "C. La Habana 111, La Molina 15032",
+      "url": "https://www.google.com/maps/place/Maria+Canales+Especialista+en+Belleza+estudio+y+a+domicilio/data=!4m7!3m6!1s0x9105c7dcd42b7123:0x99857ce65cd945a1!8m2!3d-12.0662423!4d-76.9353047!16s%2Fg%2F11vcl72v12!19sChIJI3Er1NzHBZERoUXZXOZ8hZk"
+    },
+    {
+      "id": "biz_57",
+      "name": "Spa del Cabello Perú",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Spa+del+Cabello+Per%C3%BA/data=!4m7!3m6!1s0x9105c7e574fb4a81:0xd3d1de99eff5bc0a!8m2!3d-12.0961624!4d-76.9951882!16s%2Fg%2F11tt97zzrw!19sChIJgUr7dOXHBZERCrz175ne0dM"
+    },
+    {
+      "id": "biz_1",
+      "name": "BLOOM NAILS SPA",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Salón de manicura y pedicura",
+      "address": "C. Grimaldo del Solar 236, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/BLOOM+NAILS+SPA/data=!4m7!3m6!1s0x9105c9b43284029b:0x1a70266b5938f72a!8m2!3d-12.124211!4d-77.026!16s%2Fg%2F11yh_wn54z!19sChIJmwKEMrTJBZERKvc4WWsmcBo"
+    },
+    {
+      "id": "biz_4",
+      "name": "VOCE salon&spa Surco",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Alfredo Benavides 4827, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/VOCE+salon%26spa+Surco/data=!4m7!3m6!1s0x9105c7b33125ce7d:0x9148f34ef4f4d5d3!8m2!3d-12.1276781!4d-76.9869331!16s%2Fg%2F11h6ty_s45!19sChIJfc4lMbPHBZER09X09E7zSJE"
+    },
+    {
+      "id": "biz_7",
+      "name": "Vanidades Salon y Spa",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av Central nro 100 Interior 219B Urb Cinco Estrellas Lima, 15487",
+      "url": "https://www.google.com/maps/place/Vanidades+Salon+y+Spa/data=!4m7!3m6!1s0x9105c357956c2925:0xf050d0cc18dbb071!8m2!3d-12.0172447!4d-76.8844632!16s%2Fg%2F11kglggm_b!19sChIJJSlslVfDBZERcbDbGMzQUPA"
+    },
+    {
+      "id": "biz_8",
+      "name": "Giulianos Alisado & Color",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Jr, Jirón Tomás Guido 264, Lince 15046",
+      "url": "https://www.google.com/maps/place/Giulianos+Alisado+%26+Color/data=!4m7!3m6!1s0x9105c8600a7f35e3:0x63ae8ad2caae02af!8m2!3d-12.0869508!4d-77.0334!16s%2Fg%2F11fm5yqxv8!19sChIJ4zV_CmDIBZERrwKuytKKrmM"
+    },
+    {
+      "id": "biz_11",
+      "name": "Sammys spa estilistas",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Lima 298, San Miguel 15086",
+      "url": "https://www.google.com/maps/place/Sammys+spa+estilistas/data=!4m7!3m6!1s0x9105c9a047e29319:0x67a0bdd7072aea58!8m2!3d-12.0900585!4d-77.0773485!16s%2Fg%2F11gh37knpq!19sChIJGZPiR6DJBZERWOoqB9e9oGc"
+    },
+    {
+      "id": "biz_26",
+      "name": "Grinell Salón",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "C. Manco Cápac 420, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Grinell+Sal%C3%B3n/data=!4m7!3m6!1s0x9105c81e8692d959:0x19aad9e3fc02bee4!8m2!3d-12.1274449!4d-77.0306983!16s%2Fg%2F11b6hv1xsp!19sChIJWdmShh7IBZER5L4C_OPZqhk"
+    },
+    {
+      "id": "biz_42",
+      "name": "MB Estudio",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av. Dos de Mayo 1277, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/MB+Estudio/data=!4m7!3m6!1s0x9105c8e4579cd4b7:0xe5b3e40ec0ae3ba1!8m2!3d-12.0922059!4d-77.0438077!16s%2Fg%2F11grv4ytj8!19sChIJt9ScV-TIBZERoTuuwA7ks-U"
+    },
+    {
+      "id": "biz_54",
+      "name": "Cian Salon & Spa",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Ernesto Diez Canseco 434, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Cian+Salon+%26+Spa/data=!4m7!3m6!1s0x9105c81bb7da3a87:0xaa521c300fef0c50!8m2!3d-12.1223527!4d-77.0262425!16s%2Fg%2F11cs130zw8!19sChIJhzratxvIBZERUAzvDzAcUqo"
+    },
+    {
+      "id": "biz_63",
+      "name": "Marlene salón",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Gal. La Limeñita, Jr.Huallaga 288, Lima 15001",
+      "url": "https://www.google.com/maps/place/Marlene+sal%C3%B3n/data=!4m7!3m6!1s0x9105c93519eeb517:0x6a5dda03a3b43ea5!8m2!3d-12.0473088!4d-77.0296057!16s%2Fg%2F11thl6pkms!19sChIJF7XuGTXJBZERpT60owPaXWo"
+    },
+    {
+      "id": "biz_70",
+      "name": "Ondas de Marzo - Studio para cabello Rizado, con Ondas y Afros",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Edificio Sensara, Jr. Saco Oliveros 171, Lima 15046",
+      "url": "https://www.google.com/maps/place/Ondas+de+Marzo+-+Studio+para+cabello+Rizado,+con+Ondas+y+Afros/data=!4m7!3m6!1s0x9105c97ca10ddc77:0x926ecd04487b3ae5!8m2!3d-12.0683223!4d-77.0374109!16s%2Fg%2F11fjxfmwr8!19sChIJd9wNoXzJBZER5Tp7SATNbpI"
+    },
+    {
+      "id": "biz_72",
+      "name": "Mlenny Salon Spa",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Simón Bolívar 1819, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/Mlenny+Salon+Spa/data=!4m7!3m6!1s0x9105c954449e977f:0xd94003b8b0e46e72!8m2!3d-12.0716759!4d-77.073036!16s%2Fg%2F11vsw5spjk!19sChIJf5eeRFTJBZERcm7ksLgDQNk"
+    },
+    {
+      "id": "biz_73",
+      "name": "SILÓE ESTILISTAS",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa",
+      "address": "Av. Gran Chimú 1554, San Juan de Lurigancho 15427",
+      "url": "https://www.google.com/maps/place/SIL%C3%93E+ESTILISTAS/data=!4m7!3m6!1s0x9105c5c26ff71a5d:0x1380c71d0ddf01db!8m2!3d-12.0239441!4d-76.9866996!16s%2Fg%2F11b6t_qr_k!19sChIJXRr3b8LFBZER2wHfDR3HgBM"
+    },
+    {
+      "id": "biz_95",
+      "name": "MATHIAS Peluquería Clásica",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "C. Chinchón 836, San Isidro LIMA 01",
+      "url": "https://www.google.com/maps/place/MATHIAS+Peluquer%C3%ADa+Cl%C3%A1sica/data=!4m7!3m6!1s0x9105c86611d09aab:0xd6fbab520e34734f!8m2!3d-12.095846!4d-77.028365!16s%2Fg%2F11b7f0_59x!19sChIJq5rQEWbIBZERT3M0DlKr-9Y"
+    },
+    {
+      "id": "biz_9",
+      "name": "SELHA SALÓN & SPA",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Augusto Pérez Araníbar 1883, San Isidro 15074",
+      "url": "https://www.google.com/maps/place/SELHA+SAL%C3%93N+%26+SPA/data=!4m7!3m6!1s0x9105c9003cf90df1:0xbfe45804a157587e!8m2!3d-12.1060012!4d-77.0557529!16s%2Fg%2F11ykz1_g84!19sChIJ8Q35PADJBZERflhXoQRY5L8"
+    },
+    {
+      "id": "biz_16",
+      "name": "TOCCO Salón",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "C. 2 de Mayo 760, Lima 15074",
+      "url": "https://www.google.com/maps/place/TOCCO+Sal%C3%B3n/data=!4m7!3m6!1s0x9105c83ce041ffdf:0xe99b586d065d6884!8m2!3d-12.1178093!4d-77.0364087!16s%2Fg%2F11b7grqgms!19sChIJ3_9B4DzIBZERhGhdBm1Ym-k"
+    },
+    {
+      "id": "biz_17",
+      "name": "RAPSODIA SALÓN",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av. Angamos Oeste 761, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/RAPSODIA+SAL%C3%93N/data=!4m7!3m6!1s0x9105c83c2b98bc15:0xd4f9106b8000199b!8m2!3d-12.1141748!4d-77.0365424!16s%2Fg%2F11dx8kjclx!19sChIJFbyYKzzIBZERmxkAgGsQ-dQ"
+    },
+    {
+      "id": "biz_33",
+      "name": "Bárbaras Tolentino's Salon Boutique",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av. Angamos Oeste 600, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/B%C3%A1rbaras+Tolentino%27s+Salon+Boutique/data=!4m7!3m6!1s0x9105c81e8c7e6c71:0x20e159afacd81e1!8m2!3d-12.1137535!4d-77.0349138!16s%2Fg%2F11b6gn62bf!19sChIJcWx-jB7IBZER4YHN-poVDgI"
+    },
+    {
+      "id": "biz_37",
+      "name": "Benny Salón & Spa",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Jr, Ca. Narciso de la Colina 869, Surquillo 15047",
+      "url": "https://www.google.com/maps/place/Benny+Sal%C3%B3n+%26+Spa/data=!4m7!3m6!1s0x9105c8100256c593:0xc3857c15f97c9f79!8m2!3d-12.1182256!4d-77.021997!16s%2Fg%2F11c2qn7sfm!19sChIJk8VWAhDIBZEReZ98-RV8hcM"
+    },
+    {
+      "id": "biz_48",
+      "name": "Mechita Peluqueria",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Jr. Mrcal. William Miller 2407, Lince 15073",
+      "url": "https://www.google.com/maps/place/Mechita+Peluqueria/data=!4m7!3m6!1s0x9105c85f0225bbb9:0x2cfff91803b5e21!8m2!3d-12.0884443!4d-77.0366761!16s%2Fg%2F11btv6598m!19sChIJubslAl_IBZERIV47gJH_zwI"
+    },
+    {
+      "id": "biz_58",
+      "name": "Carla & Spa Estética Peluquería",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Sector 1 grupo, Av Micaela Bastidas 7, Villa EL Salvador 15829",
+      "url": "https://www.google.com/maps/place/Carla+%26+Spa+Est%C3%A9tica+Peluquer%C3%ADa/data=!4m7!3m6!1s0x9105b90d261314fb:0x4efc12006960f9be!8m2!3d-12.1941378!4d-76.9549431!16s%2Fg%2F11ddz981kp!19sChIJ-xQTJg25BZERvvlgaQAS_E4"
+    },
+    {
+      "id": "biz_64",
+      "name": "Rizos Peruanos",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Cerro Colorido 126, San Borja 15021",
+      "url": "https://www.google.com/maps/place/Rizos+Peruanos/data=!4m7!3m6!1s0x9105c7bcda85da09:0x127c074af6d4d757!8m2!3d-12.0856127!4d-77.0031525!16s%2Fg%2F11spm95pdd!19sChIJCdqF2rzHBZERV9fU9koHfBI"
+    },
+    {
+      "id": "biz_71",
+      "name": "LACEADOS HECTOR",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Juan Voto Bernales 635, Lima 15034",
+      "url": "https://www.google.com/maps/place/LACEADOS+HECTOR/data=!4m7!3m6!1s0x9105c819f2cd80e7:0xb8b6eed0f1fba790!8m2!3d-12.0857649!4d-77.019959!16s%2Fg%2F11cjqdhwq8!19sChIJ54DN8hnIBZERkKf78dDutrg"
+    },
+    {
+      "id": "biz_80",
+      "name": "Enzo Cory estilistas, barberos y coloristas",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Dos de Mayo 1531, San Isidro LIMA 27",
+      "url": "https://www.google.com/maps/place/Enzo+Cory+estilistas,+barberos+y+coloristas/data=!4m7!3m6!1s0x9105c9a129c36753:0x8d84d2b18008fa9c!8m2!3d-12.0926443!4d-77.0467935!16s%2Fg%2F11v78r8xs4!19sChIJU2fDKaHJBZERnPoIgLHShI0"
+    },
+    {
+      "id": "biz_89",
+      "name": "Paíz Colors Studio",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av. República de Colombia 137, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Pa%C3%ADz+Colors+Studio/data=!4m7!3m6!1s0x9105c8684783a96b:0xbfa18784d49e5ee5!8m2!3d-12.0986313!4d-77.0319269!16s%2Fg%2F11f08h8y_h!19sChIJa6mDR2jIBZER5V6e1ISHob8"
+    },
+    {
+      "id": "biz_2",
+      "name": "Beautiful Eyes Premium",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Balneario",
+      "address": "C. Manco Cápac 490, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Beautiful+Eyes+Premium/data=!4m7!3m6!1s0x9105c995e0427995:0x9a80e679dbf9af65!8m2!3d-12.127724!4d-77.03001!16s%2Fg%2F11jj5hmhh0!19sChIJlXlC4JXJBZERZa_523nmgJo"
+    },
+    {
+      "id": "biz_3",
+      "name": "Sorelle Salón",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Los Higos 129 Urb, La Molina LIMA 12",
+      "url": "https://www.google.com/maps/place/Sorelle+Sal%C3%B3n/data=!4m7!3m6!1s0x9105c6f0cad5de45:0x5590d11cce8eb2c8!8m2!3d-12.0694183!4d-76.9584909!16s%2Fg%2F11dz5rpyc2!19sChIJRd7VyvDGBZERyLKOzhzRkFU"
+    },
+    {
+      "id": "biz_10",
+      "name": "Brillo 23 Salón Spa",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av, Ctra. Central con, Ate 15487",
+      "url": "https://www.google.com/maps/place/Brillo+23+Sal%C3%B3n+Spa/data=!4m7!3m6!1s0x9105c36841936b65:0x8545f72f6e5a4aa0!8m2!3d-12.0144654!4d-76.8852974!16s%2Fg%2F11hyx_qy41!19sChIJZWuTQWjDBZERoEpabi_3RYU"
+    },
+    {
+      "id": "biz_12",
+      "name": "BE - Salón",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "C. Juan Fanning 279, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/BE+-+Sal%C3%B3n/data=!4m7!3m6!1s0x9105c81bb9e31f85:0xbc639879436c581b!8m2!3d-12.1283986!4d-77.0329455!16s%2Fg%2F11g815xynp!19sChIJhR_juRvIBZERG1hsQ3mYY7w"
+    },
+    {
+      "id": "biz_15",
+      "name": "Tomyko Spa",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Esteban Campodónico 640, La Victoria 15034",
+      "url": "https://www.google.com/maps/place/Tomyko+Spa/data=!4m7!3m6!1s0x9105c87cc3bcfe0f:0xfa7a9619bbb385e5!8m2!3d-12.088141!4d-77.0208134!16s%2Fg%2F12ml2vrfn!19sChIJD_68w3zIBZER5YWzuxmWevo"
+    },
+    {
+      "id": "biz_18",
+      "name": "Bessó Salon",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "C. Berlín 871, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Bess%C3%B3+Salon/data=!4m7!3m6!1s0x9105c83d15e45bb5:0x635802051303f854!8m2!3d-12.1201692!4d-77.038567!16s%2Fg%2F11b6jc5hzj!19sChIJtVvkFT3IBZERVPgDEwUCWGM"
+    },
+    {
+      "id": "biz_19",
+      "name": "SANDRÉ SALON",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Lizardo Alzamora Este 212, San Isidro 15074",
+      "url": "https://www.google.com/maps/place/SANDR%C3%89+SALON/data=!4m7!3m6!1s0x9105c9f65bb643f3:0xf3ece340400368e9!8m2!3d-12.0999139!4d-77.0365991!16s%2Fg%2F11wmh7n4h1!19sChIJ80O2W_bJBZER6WgDQEDj7PM"
+    },
+    {
+      "id": "biz_31",
+      "name": "Pepe Estilistas y Spa",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Monte de los Olivos 598, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Pepe+Estilistas+y+Spa/data=!4m7!3m6!1s0x9105b80d4b6a1a4d:0xdc5e11ac0957a243!8m2!3d-12.1385048!4d-76.9875401!16s%2Fg%2F11c2l1_fvr!19sChIJTRpqSw24BZERQ6JXCawRXtw"
+    },
+    {
+      "id": "biz_39",
+      "name": "José Antonio Salón & Spa",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Javier Prado Oeste 627, Magdalena del Mar 15076",
+      "url": "https://www.google.com/maps/place/Jos%C3%A9+Antonio+Sal%C3%B3n+%26+Spa/data=!4m7!3m6!1s0x9105c9a9540d68e9:0xb382d835ad90d72f!8m2!3d-12.0922904!4d-77.0624903!16s%2Fg%2F11b6gns1q9!19sChIJ6WgNVKnJBZERL9eQrTXYgrM"
+    },
+    {
+      "id": "biz_40",
+      "name": "Shirleh Hair Salon",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av Grau 204, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Shirleh+Hair+Salon/data=!4m7!3m6!1s0x9105c822bf39c683:0xc53cbebdbb83b070!8m2!3d-12.1203134!4d-77.0349362!16s%2Fg%2F11bw5_j67f!19sChIJg8Y5vyLIBZERcLCDu72-PMU"
+    },
+    {
+      "id": "biz_41",
+      "name": "Top Beauty Professional",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Carlos Izaguirre 147, Independencia 15311",
+      "url": "https://www.google.com/maps/place/Top+Beauty+Professional/data=!4m7!3m6!1s0x9105cfa197248253:0x3be60f1a4b5db4a5!8m2!3d-11.9894132!4d-77.0587234!16s%2Fg%2F11rsrv44ph!19sChIJU4Ikl6HPBZERpbRdSxoP5js"
+    },
+    {
+      "id": "biz_43",
+      "name": "DR HAIR STUDIO",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "C. Coronel Inclán 235, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/DR+HAIR+STUDIO/data=!4m7!3m6!1s0x9105c97c72089f4f:0x34d1181b41e18237!8m2!3d-12.1175499!4d-77.0314977!16s%2Fg%2F11flc3l3rw!19sChIJT58IcnzJBZERN4LhQRsY0TQ"
+    },
+    {
+      "id": "biz_44",
+      "name": "Peluquería Marco Aldany Flora Tristán La Molina",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av. Flora Tristan 586, La Molina 15026",
+      "url": "https://www.google.com/maps/place/Peluquer%C3%ADa+Marco+Aldany+Flora+Trist%C3%A1n+La+Molina/data=!4m7!3m6!1s0x9105c75856f1ec2f:0x5a92cca628724053!8m2!3d-12.0688982!4d-76.9426059!16s%2Fg%2F11f5t3zfm0!19sChIJL-zxVljHBZERU0ByKKbMklo"
+    },
+    {
+      "id": "biz_55",
+      "name": "Joel - salon spa peluquería",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Julio César Tello 315, Lince 15076",
+      "url": "https://www.google.com/maps/place/Joel+-+salon+spa+peluquer%C3%ADa/data=!4m7!3m6!1s0x9105cf4f838adad9:0x39f3981daf0a90a8!8m2!3d-12.0862523!4d-77.0372918!16s%2Fg%2F11g07v77_q!19sChIJ2dqKg0_PBZERqJAKrx2Y8zk"
+    },
+    {
+      "id": "biz_56",
+      "name": "Vanidozza Salón Spa",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Calle Los Negocios 499 Surquillo Municipalidad Metropolitana de Lima LIMA Surquillo Gobierno Regional de Lima LIMA, 34",
+      "url": "https://www.google.com/maps/place/Vanidozza+Sal%C3%B3n+Spa/data=!4m7!3m6!1s0x9105c86f924b3d67:0x1fb30ccbc5ae9547!8m2!3d-12.1042372!4d-77.0189352!16s%2Fg%2F11b6g9l4p1!19sChIJZz1Lkm_IBZERR5WuxcsMsx8"
+    },
+    {
+      "id": "biz_59",
+      "name": "Divas Salón & Spa",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "C. El Trapiche 131, La Molina 15024",
+      "url": "https://www.google.com/maps/place/Divas+Sal%C3%B3n+%26+Spa/data=!4m7!3m6!1s0x9105c74000a4bd77:0x132ed62d6974b19f!8m2!3d-12.1037361!4d-76.940964!16s%2Fg%2F11cltwcn1p!19sChIJd72kAEDHBZERn7F0aS3WLhM"
+    },
+    {
+      "id": "biz_75",
+      "name": "Frank Conde Salón Estetica & Spa",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Húsares de Junín 628, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Frank+Conde+Sal%C3%B3n+Estetica+%26+Spa/data=!4m7!3m6!1s0x9105c8fb977f2a4f:0x1a614755920e4a21!8m2!3d-12.0787367!4d-77.0493806!16s%2Fg%2F11b6v77pmc!19sChIJTyp_l_vIBZERIUoOklVHYRo"
+    },
+    {
+      "id": "biz_81",
+      "name": "Rigo Barberia Salon y Spa",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av. Palermo 372, La Victoria 15034",
+      "url": "https://www.google.com/maps/place/Rigo+Barberia+Salon+y+Spa/data=!4m7!3m6!1s0x9105c945bba7f713:0x8d66633bd6636568!8m2!3d-12.0789365!4d-77.0228327!16s%2Fg%2F11mx07ppq_!19sChIJE_enu0XJBZERaGVj1jtjZo0"
+    },
+    {
+      "id": "biz_84",
+      "name": "Maritze Salon Y Spa",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Talara 283, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Maritze+Salon+Y+Spa/data=!4m7!3m6!1s0x9105b814aec7c5f5:0x756726fcc506ead0!8m2!3d-12.1454661!4d-76.9878315!16s%2Fg%2F11gmfyfh13!19sChIJ9cXHrhS4BZER0OoGxfwmZ3U"
+    },
+    {
+      "id": "biz_88",
+      "name": "Balbony Estilistas – Peluquería y Belleza en San Isidro",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av. Dos de Mayo 1301, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Balbony+Estilistas+%E2%80%93+Peluquer%C3%ADa+y+Belleza+en+San+Isidro/data=!4m7!3m6!1s0x9105c85a1b863c9f:0x6f4e7d6a72cc1464!8m2!3d-12.092283!4d-77.0442682!16s%2Fg%2F11c13vbp_h!19sChIJnzyGG1rIBZERZBTMcmp9Tm8"
+    },
+    {
+      "id": "biz_5",
+      "name": "Vossa Salon de Belleza y Spa",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Alfredo Benavides 4549, Santiago de Surco 15038",
+      "url": "https://www.google.com/maps/place/Vossa+Salon+de+Belleza+y+Spa/data=!4m7!3m6!1s0x9105c7f57b0fe06b:0xa7dda3492e87a7fa!8m2!3d-12.1277933!4d-76.9893757!16s%2Fg%2F11b6j8m9h3!19sChIJa-APe_XHBZER-qeHLkmj3ac"
+    },
+    {
+      "id": "biz_14",
+      "name": "LILITH BEAUTY LOUNGE - SAN ISIDRO",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "C. 21 719, San Isidro 15036",
+      "url": "https://www.google.com/maps/place/LILITH+BEAUTY+LOUNGE+-+SAN+ISIDRO/data=!4m7!3m6!1s0x9105c9cee75b920d:0xa6bce9a1ffd6c06!8m2!3d-12.0969832!4d-77.0158648!16s%2Fg%2F11wbtyflcn!19sChIJDZJb587JBZERBmz9H5rOawo"
+    },
+    {
+      "id": "biz_20",
+      "name": "STUDIO LROMERO",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Pasaje Selina, Calle Alcanfores 461, Miraflores LIMA 18",
+      "url": "https://www.google.com/maps/place/STUDIO+LROMERO/data=!4m7!3m6!1s0x9105c8193cd2c167:0x3ca7141656fd5dad!8m2!3d-12.1239376!4d-77.0276972!16s%2Fg%2F11c6v_l_0h!19sChIJZ8HSPBnIBZERrV39VhYUpzw"
+    },
+    {
+      "id": "biz_22",
+      "name": "Capricho Centro de Belleza",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Almte. Lord Nelson 208, Lima 15073",
+      "url": "https://www.google.com/maps/place/Capricho+Centro+de+Belleza/data=!4m7!3m6!1s0x9105c83f2f713fd7:0x43f5418bdd9e06d7!8m2!3d-12.1105205!4d-77.0385692!16s%2Fg%2F11b6g8nk12!19sChIJ1z9xLz_IBZER1wae3YtB9UM"
+    },
+    {
+      "id": "biz_23",
+      "name": "Coloretta SPA",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Alfonso Cobian Mz F Lote, 27A, Chaclacayo",
+      "url": "https://www.google.com/maps/place/Coloretta+SPA/data=!4m7!3m6!1s0x9105e9cd2556f7f3:0x1655d6f2134d1f94!8m2!3d-11.9873527!4d-76.8117872!16s%2Fg%2F11bccl_k2k!19sChIJ8_dWJc3pBZERlB9NE_LWVRY"
+    },
+    {
+      "id": "biz_24",
+      "name": "Kantu Spa",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av. Francisco Javier Mariátegui 1455, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Kantu+Spa/data=!4m7!3m6!1s0x9105c8fb5f0ac545:0x1b6f6bfd7ea1d87a!8m2!3d-12.0780021!4d-77.0511951!16s%2Fg%2F1q6h_qsqd!19sChIJRcUKX_vIBZERetihfv1rbxs"
+    },
+    {
+      "id": "biz_38",
+      "name": "Beauty Planet",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Almte. Miguel Grau 602D, Barranco 15047",
+      "url": "https://www.google.com/maps/place/Beauty+Planet/data=!4m7!3m6!1s0x9105b7f1e3d68413:0x3820568813692aa6!8m2!3d-12.1456164!4d-77.0216761!16s%2Fg%2F11f2b00f6m!19sChIJE4TW4_G3BZERpippE4hWIDg"
+    },
+    {
+      "id": "biz_47",
+      "name": "Revolution Salón",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Camino Real 473, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Revolution+Sal%C3%B3n/data=!4m7!3m6!1s0x9105c84318d9172d:0xb2cd6a309ed1e77e!8m2!3d-12.0985436!4d-77.0366341!16s%2Fg%2F11b6gc6q54!19sChIJLRfZGEPIBZERfufRnjBqzbI"
+    },
+    {
+      "id": "biz_51",
+      "name": "Themplo salon & spa",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av. Flora Tristan 782, La Molina 15012",
+      "url": "https://www.google.com/maps/place/Themplo+salon+%26+spa/data=!4m7!3m6!1s0x9105c6e97b701b15:0x2a23af51138df3f4!8m2!3d-12.0650369!4d-76.9447012!16s%2Fg%2F11cn2fpfl0!19sChIJFRtwe-nGBZER9PONE1GvIyo"
+    },
+    {
+      "id": "biz_60",
+      "name": "Hair Color Perú",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. de las Artes Nte. 1590, San Borja 15037",
+      "url": "https://www.google.com/maps/place/Hair+Color+Per%C3%BA/data=!4m7!3m6!1s0x9105c7cdd725b571:0xeaffb57a0817d138!8m2!3d-12.0910758!4d-76.9868358!16s%2Fg%2F1q62cz2fv!19sChIJcbUl183HBZERONEXCHq1_-o"
+    },
+    {
+      "id": "biz_62",
+      "name": "Salon De Belleza Arturo",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Contisuyo 295, Lima 15088",
+      "url": "https://www.google.com/maps/place/Salon+De+Belleza+Arturo/data=!4m7!3m6!1s0x9105c9616117e39f:0x93aab00e0dae171d!8m2!3d-12.0717975!4d-77.0983674!16s%2Fg%2F11cmctml17!19sChIJn-MXYWHJBZERHReuDQ6wqpM"
+    },
+    {
+      "id": "biz_69",
+      "name": "Julio César",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Javier Prado Este 6738, Lima 15024",
+      "url": "https://www.google.com/maps/place/Julio+C%C3%A9sar/data=!4m7!3m6!1s0x9105c6e8e420cd43:0xf98afafb68c4149c!8m2!3d-12.0676756!4d-76.9451187!16s%2Fg%2F11hbpqdwwr!19sChIJQ80g5OjGBZERnBTEaPv6ivk"
+    },
+    {
+      "id": "biz_82",
+      "name": "FELY Curly Studio",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Baca Flor 351, Lima 15103",
+      "url": "https://www.google.com/maps/place/FELY+Curly+Studio/data=!4m7!3m6!1s0x9105cf94f85ed277:0xea81230e4cc8dd98!8m2!3d-12.0276827!4d-77.0592001!16s%2Fg%2F11p4qsq7lv!19sChIJd9Je-JTPBZERmN3ITA4jgeo"
+    },
+    {
+      "id": "biz_83",
+      "name": "Freestyle Salon y Spa",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Los Conquistadores 331, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Freestyle+Salon+y+Spa/data=!4m7!3m6!1s0x9105c843004bee0d:0xde82269c726db65a!8m2!3d-12.0996539!4d-77.0363142!16s%2Fg%2F11b6gk7shl!19sChIJDe5LAEPIBZERWrZtcpwmgt4"
+    },
+    {
+      "id": "biz_94",
+      "name": "Aurora Salón spa Spa Aurora",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av. Arnaldo Márquez 1165, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Aurora+Sal%C3%B3n+spa+Spa+Aurora/data=!4m7!3m6!1s0x9105c8e3881a5e19:0xc1da9069234d85f5!8m2!3d-12.0723086!4d-77.0482842!16s%2Fg%2F11b6hzvqq7!19sChIJGV4aiOPIBZER9YVNI2mQ2sE"
+    },
+    {
+      "id": "biz_6",
+      "name": "Midori Salon & Spa",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Luis Braille 1543, Lima 15081",
+      "url": "https://www.google.com/maps/place/Midori+Salon+%26+Spa/data=!4m7!3m6!1s0x9105c9255e2f6c57:0xa55a6d62e6d41b1b!8m2!3d-12.0538273!4d-77.0665376!16s%2Fg%2F11grq8wkjj!19sChIJV2wvXiXJBZERGxvU5mJtWqU"
+    },
+    {
+      "id": "biz_25",
+      "name": "Luxury salón lince",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Militar 2089, lima 15046",
+      "url": "https://www.google.com/maps/place/Luxury+sal%C3%B3n+lince/data=!4m7!3m6!1s0x9105c947ce07026f:0x96b4096e81a0480!8m2!3d-12.0849746!4d-77.0310972!16s%2Fg%2F11y4y2tylm!19sChIJbwIHzkfJBZERgAQa6JZAawk"
+    },
+    {
+      "id": "biz_36",
+      "name": "Kuchi Salón",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. José Gálvez Barrenechea 685, San Borja 15036",
+      "url": "https://www.google.com/maps/place/Kuchi+Sal%C3%B3n/data=!4m7!3m6!1s0x9105c8760d227689:0x65c41e4225052d3a!8m2!3d-12.1000062!4d-77.01181!16s%2Fg%2F1hhwp6sbx!19sChIJiXYiDXbIBZEROi0FJUIexGU"
+    },
+    {
+      "id": "biz_45",
+      "name": "Salón de Belleza & Spa Luces",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Jr. Garcilaso de la Vega 2029, Lince 15073",
+      "url": "https://www.google.com/maps/place/Sal%C3%B3n+de+Belleza+%26+Spa+Luces/data=!4m7!3m6!1s0x9105c85fa22e9f01:0x7fdd1630f4cc2a8d!8m2!3d-12.0857928!4d-77.0404988!16s%2Fg%2F1ptwldzgf!19sChIJAZ8uol_IBZERjSrM9DAW3X8"
+    },
+    {
+      "id": "biz_49",
+      "name": "Salon De Belleza Las Artes",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. de las Artes Nte. 1234, San Borja 15037",
+      "url": "https://www.google.com/maps/place/Salon+De+Belleza+Las+Artes/data=!4m7!3m6!1s0x9105c7c954271e7d:0x22af8b26c333d304!8m2!3d-12.0895223!4d-76.9927781!16s%2Fg%2F11b6pjs1m3!19sChIJfR4nVMnHBZERBNMzwyaLryI"
+    },
+    {
+      "id": "biz_52",
+      "name": "One Look Salon Spa",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Intisuyo 308, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/One+Look+Salon+Spa/data=!4m7!3m6!1s0x9105c95e7280070f:0xd5e6e544b823d0df!8m2!3d-12.0738461!4d-77.0929366!16s%2Fg%2F11b6gnwwst!19sChIJDweAcl7JBZER39AjuETl5tU"
+    },
+    {
+      "id": "biz_53",
+      "name": "VIA BEAUTY SALON",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Jirón Pachacútec 952, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/VIA+BEAUTY+SALON/data=!4m7!3m6!1s0x9105c93fb7f28979:0x69a754bde2e92148!8m2!3d-12.0719091!4d-77.0444365!16s%2Fg%2F1q6jd_pjk!19sChIJeYnytz_JBZERSCHp4r1Up2k"
+    },
+    {
+      "id": "biz_61",
+      "name": "Ena Salón & Spa",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Avenida Agustín de la Rosa Toro 971 - 975, San Luis 15021",
+      "url": "https://www.google.com/maps/place/Ena+Sal%C3%B3n+%26+Spa/data=!4m7!3m6!1s0x9105c63478124785:0x8b2b4658dc2cd848!8m2!3d-12.0803562!4d-76.9934449!16s%2Fg%2F11d_8rs9qt!19sChIJhUcSeDTGBZERSNgs3FhGK4s"
+    },
+    {
+      "id": "biz_77",
+      "name": "Salon Los Angeles",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av. Almte. Miguel Grau 802, Lima 15063",
+      "url": "https://www.google.com/maps/place/Salon+Los+Angeles/data=!4m7!3m6!1s0x9105b7f029d50ab5:0x60bb268997e79bfb!8m2!3d-12.1432907!4d-77.0218688!16s%2Fg%2F11ckvp5f59!19sChIJtQrVKfC3BZER-5vnl4kmu2A"
+    },
+    {
+      "id": "biz_78",
+      "name": "Karina Style",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "C. Alfonso Ugarte 355, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Karina+Style/data=!4m7!3m6!1s0x9105c816b36efe2b:0xd423da9808e78591!8m2!3d-12.1169727!4d-77.0267852!16s%2Fg%2F11b6gfz1z6!19sChIJK_5usxbIBZERkYXnCJjaI9Q"
+    },
+    {
+      "id": "biz_85",
+      "name": "Peluquerias salon spa Lazos Estilistas",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Jr. Mariscal Luzuriaga 129, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Peluquerias+salon+spa+Lazos+Estilistas/data=!4m7!3m6!1s0x9105c8e36ebe401d:0x1c158d02dd752c0f!8m2!3d-12.0733943!4d-77.0516279!16s%2Fg%2F11b6hywfwn!19sChIJHUC-buPIBZERDyx13QKNFRw"
+    },
+    {
+      "id": "biz_86",
+      "name": "Naomi´s Salón & Peluqueria Unisex",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Jirón Gral Canterac 316, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Naomi%C2%B4s+Sal%C3%B3n+%26+Peluqueria+Unisex/data=!4m7!3m6!1s0x9105c8e5bf560d05:0xb4b78b1347b9a660!8m2!3d-12.0707131!4d-77.0467335!16s%2Fg%2F11b6p63_y0!19sChIJBQ1Wv-XIBZERYKa5RxOLt7Q"
+    },
+    {
+      "id": "biz_92",
+      "name": "Parwa Salón & Spa",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av. Venezuela 739, Breña 15082",
+      "url": "https://www.google.com/maps/place/Parwa+Sal%C3%B3n+%26+Spa/data=!4m7!3m6!1s0x9105c87cced12a89:0x3948fb8a3b5e3661!8m2!3d-12.0548!4d-77.0443629!16s%2Fg%2F11c6dcjc7c!19sChIJiSrRznzIBZERYTZeO4r7SDk"
+    },
+    {
+      "id": "biz_30",
+      "name": "Marco Antonio Salón",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. San Luis 2669, San Borja 15037",
+      "url": "https://www.google.com/maps/place/Marco+Antonio+Sal%C3%B3n/data=!4m7!3m6!1s0x9105c7d6def65e23:0xbd4b9fe673ae6852!8m2!3d-12.1016495!4d-76.9942432!16s%2Fg%2F11b6h_3bv5!19sChIJI1723tbHBZERUmiuc-afS70"
+    },
+    {
+      "id": "biz_35",
+      "name": "Wapas Gcc - Amador Merino",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "C. Amador Merino Reyna 395, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Wapas+Gcc+-+Amador+Merino/data=!4m7!3m6!1s0x9105c913854e642d:0x1c75dd9b0cf39217!8m2!3d-12.0923548!4d-77.0271877!16s%2Fg%2F11l6t_hsgv!19sChIJLWROhRPJBZERF5LzDJvddRw"
+    },
+    {
+      "id": "biz_50",
+      "name": "Bucle Salón & Spa",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Ca. Mercaderes 126, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Bucle+Sal%C3%B3n+%26+Spa/data=!4m7!3m6!1s0x9105b8759f9b52ef:0x630325bd149d473e!8m2!3d-12.129408!4d-76.984249!16s%2Fg%2F1vzn6mnb!19sChIJ71Kbn3W4BZERPkedFL0lA2M"
+    },
+    {
+      "id": "biz_68",
+      "name": "Peluquería Las Vegas",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Calle, Jirón Frederic Remington 211, San Borja 15086",
+      "url": "https://www.google.com/maps/place/Peluquer%C3%ADa+Las+Vegas/data=!4m7!3m6!1s0x9105c9a72356dd77:0x77449ab43bd8c446!8m2!3d-12.0984676!4d-77.0111208!16s%2Fg%2F11c5rmjg84!19sChIJd91WI6fJBZERRsTYO7SaRHc"
+    },
+    {
+      "id": "biz_76",
+      "name": "Elizabeth & Georg Estilistas",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av los Chancas Mz. U Lote 19, Santa Anita 15011",
+      "url": "https://www.google.com/maps/place/Elizabeth+%26+Georg+Estilistas/data=!4m7!3m6!1s0x9105c52bfaefd10f:0x2f3c9e9b7e43f0e1!8m2!3d-12.0343002!4d-76.9538358!16s%2Fg%2F11g3ztr57r!19sChIJD9Hv-ivFBZER4fBDfpuePC8"
+    },
+    {
+      "id": "biz_90",
+      "name": "Salón de Belleza La Torre",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Galería Comercial, Jr. Ucayali 724, Lima 15001",
+      "url": "https://www.google.com/maps/place/Sal%C3%B3n+de+Belleza+La+Torre/data=!4m7!3m6!1s0x9105c9fc45829ebb:0x907dc69538396974!8m2!3d-12.0515054!4d-77.0251557!16s%2Fg%2F11lt094_py!19sChIJu56CRfzJBZERdGk5OJXGfZA"
+    },
+    {
+      "id": "biz_91",
+      "name": "On Top Hair Studio & Spa",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av. Primavera 1825, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/On+Top+Hair+Studio+%26+Spa/data=!4m7!3m6!1s0x9105c79ed632fd1d:0x507854039896b581!8m2!3d-12.1078469!4d-76.9695357!16s%2Fg%2F11ckr4fcsp!19sChIJHf0y1p7HBZERgbWWmANUeFA"
+    },
+    {
+      "id": "biz_21",
+      "name": "COQUETA - Estilo y Tendencia",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. la Molina 738, La Molina 15023",
+      "url": "https://www.google.com/maps/place/COQUETA+-+Estilo+y+Tendencia/data=!4m7!3m6!1s0x9105c78309b3aa5d:0xb2d1177f88385795!8m2!3d-12.0676866!4d-76.9587024!16s%2Fg%2F11fgkg82ww!19sChIJXaqzCYPHBZERlVc4iH8X0bI"
+    },
+    {
+      "id": "biz_34",
+      "name": "Perú Hair Salón",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Int 202 Miraflores, Av. José Larco 1150, Lima",
+      "url": "https://www.google.com/maps/place/Per%C3%BA+Hair+Sal%C3%B3n/data=!4m7!3m6!1s0x9105c81e3a76f3a9:0xd2bed8506c09e5f1!8m2!3d-12.1287793!4d-77.0298495!16s%2Fg%2F11c3kx3h9y!19sChIJqfN2Oh7IBZER8eUJbFDYvtI"
+    },
+    {
+      "id": "biz_66",
+      "name": "Salon de belleza Color Pasión",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Jr. Coronel Joaquín Bernal 285, Lince 15073",
+      "url": "https://www.google.com/maps/place/Salon+de+belleza+Color+Pasi%C3%B3n/data=!4m7!3m6!1s0x9105c85fa18a9d3b:0x70ff1d2624f06784!8m2!3d-12.0873285!4d-77.0359192!16s%2Fg%2F11cmtb4kkh!19sChIJO52KoV_IBZERhGfwJCYd_3A"
+    },
+    {
+      "id": "biz_67",
+      "name": "VICENTELO (Salón de Belleza, Barbería & Spa)",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Cesar Vallejo 1703, El Agustino 15007",
+      "url": "https://www.google.com/maps/place/VICENTELO+%28Sal%C3%B3n+de+Belleza,+Barber%C3%ADa+%26+Spa%29/data=!4m7!3m6!1s0x9105c60a858e8be1:0xa051fafa8f4fbdc5!8m2!3d-12.03945!4d-76.9897543!16s%2Fg%2F11gfmh_k7p!19sChIJ4YuOhQrGBZERxb1Pj_r6UaA"
+    },
+    {
+      "id": "biz_87",
+      "name": "Rojo Salon Spa",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Universitaria 14C, Lima 15081",
+      "url": "https://www.google.com/maps/place/Rojo+Salon+Spa/data=!4m7!3m6!1s0x9105c937cfc6ce1b:0x4cc269e5e9e10207!8m2!3d-12.0519464!4d-77.0785399!16s%2Fg%2F11gv_qrb1r!19sChIJG87GzzfJBZERBwLh6eVpwkw"
+    },
+    {
+      "id": "biz_93",
+      "name": "BLUSH Hair & Make-Up",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av. Los Conquistadores 151-155, San Isidro 15074",
+      "url": "https://www.google.com/maps/place/BLUSH+Hair+%26+Make-Up/data=!4m7!3m6!1s0x9105c9c18bb2f0a3:0xa78ad12a0dfec7e7!8m2!3d-12.0973694!4d-77.0357888!16s%2Fg%2F11kqhsy1p4!19sChIJo_Cyi8HJBZER58f-DSrRiqc"
+    },
+    {
+      "id": "biz_97",
+      "name": "SALÓN 243",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Jr. Brigadier Mateo Pumacahua 2194, Lince 15073",
+      "url": "https://www.google.com/maps/place/SAL%C3%93N+243/data=!4m7!3m6!1s0x9105c9dbb992e85b:0x7f741cc8e5fc1371!8m2!3d-12.0835951!4d-77.0438443!16s%2Fg%2F11fjnx3h06!19sChIJW-iSudvJBZERcRP85cgcdH8"
+    },
+    {
+      "id": "biz_98",
+      "name": "Kabelo Salón Spa",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Paracas 361, Ate 15022",
+      "url": "https://www.google.com/maps/place/Kabelo+Sal%C3%B3n+Spa/data=!4m7!3m6!1s0x9105c649e0ccd369:0x6afbc04aaef86da9!8m2!3d-12.0763343!4d-76.9871583!16s%2Fg%2F11c1n93q9t!19sChIJadPM4EnGBZERqW34rkrA-2o"
+    },
+    {
+      "id": "biz_79",
+      "name": "Infinity Salón & Spa",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. San Borja Sur 939, San Borja 15037",
+      "url": "https://www.google.com/maps/place/Infinity+Sal%C3%B3n+%26+Spa/data=!4m7!3m6!1s0x9105c7c40dfbe045:0x827590e5423431be!8m2!3d-12.0998361!4d-76.9941095!16s%2Fg%2F11b6g8q2zd!19sChIJReD7DcTHBZERvjE0QuWQdYI"
+    },
+    {
+      "id": "biz_96",
+      "name": "M&C Salon",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Samuel Alcázar 690, Lima 15094",
+      "url": "https://www.google.com/maps/place/M%26C+Salon/data=!4m7!3m6!1s0x9105cf47c72ce701:0x1cf35d04a9360abc!8m2!3d-12.0282722!4d-77.0316659!16s%2Fg%2F11c60_j8h0!19sChIJAecsx0fPBZERvAo2qQRd8xw"
+    },
+    {
+      "id": "biz_100",
+      "name": "LUANA SALÓN & SPA",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Riva Agüero 1438, El Agustino 15001",
+      "url": "https://www.google.com/maps/place/LUANA+SAL%C3%93N+%26+SPA/data=!4m7!3m6!1s0x9105c965059b07f1:0xafab92b7f8e9f3dd!8m2!3d-12.0476823!4d-77.0000761!16s%2Fg%2F11f5dhcv75!19sChIJ8QebBWXJBZER3fPp-LeSq68"
+    },
+    {
+      "id": "biz_13",
+      "name": "Vanlé Salón Surco Chacarilla",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av. Caminos del Inca 641, Lima 15038",
+      "url": "https://www.google.com/maps/place/Vanl%C3%A9+Sal%C3%B3n+Surco+Chacarilla/data=!4m7!3m6!1s0x9105c7f2831043d1:0x959246a18d8961ea!8m2!3d-12.1173587!4d-76.9896234!16s%2Fg%2F11c5rrw2c5!19sChIJ0UMQg_LHBZER6mGJjaFGkpU"
+    },
+    {
+      "id": "biz_28",
+      "name": "Mas uno Estilistas - Lince",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Petit Thouars 1427 - Lince, Lince 15373",
+      "url": "https://www.google.com/maps/place/Mas+uno+Estilistas+-+Lince/data=!4m7!3m6!1s0x9105c8f51f588729:0x84dfc8e9dbe6fdaa!8m2!3d-12.0787522!4d-77.0340026!16s%2Fg%2F1jgm1jr80!19sChIJKYdYH_XIBZERqv3m2-nI34Q"
+    },
+    {
+      "id": "biz_99",
+      "name": "Vanlé Salón Los Olivos",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Carlos Izaguirre 1263, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/Vanl%C3%A9+Sal%C3%B3n+Los+Olivos/data=!4m7!3m6!1s0x9105ce5dce301bbd:0x378a92ffc7e72c4b!8m2!3d-11.9919045!4d-77.0770869!16s%2Fg%2F11hdbf4bkd!19sChIJvRswzl3OBZERSyznx_-Sijc"
+    },
+    {
+      "id": "biz_65",
+      "name": "Mechita Spa",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Jirón Fedelli 103A, Barranco 15063",
+      "url": "https://www.google.com/maps/place/Mechita+Spa/data=!4m7!3m6!1s0x9105b7e55250e0e5:0x14c8f28d3ab3a39d!8m2!3d-12.14029!4d-77.0219121!16s%2Fg%2F11d_8gt3c9!19sChIJ5eBQUuW3BZERnaOzOo3yyBQ"
+    },
+    {
+      "id": "biz_46",
+      "name": "BLACK SALON - COLORISTAS PROFESIONALES",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Prado 106, Lima 15812",
+      "url": "https://www.google.com/maps/place/BLACK+SALON+-+COLORISTAS+PROFESIONALES/data=!4m7!3m6!1s0x9105b8910bfa922b:0x593cdb2ea35d1cf4!8m2!3d-12.1415149!4d-76.9495799!16s%2Fg%2F11c5bmspmf!19sChIJK5L6C5G4BZER9Bxdoy7bPFk"
+    },
+    {
+      "id": "biz_27",
+      "name": "Ámaru salón - El imperio de los coloristas",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Centro de estética",
+      "address": "Av. Canadá 3898, San Luis 15033",
+      "url": "https://www.google.com/maps/place/%C3%81maru+sal%C3%B3n+-+El+imperio+de+los+coloristas/data=!4m7!3m6!1s0x9105c9006b63b29f:0xf63d43f172e2b06f!8m2!3d-12.0790862!4d-76.9906957!16s%2Fg%2F11wxk0gc2t!19sChIJn7JjawDJBZERb7DicvFDPfY"
+    },
+    {
+      "id": "biz_74",
+      "name": "Rosa Negra Peluqueria Salon & Spa",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "Av. Augusto Pérez Araníbar 1680, San Isidro 15076",
+      "url": "https://www.google.com/maps/place/Rosa+Negra+Peluqueria+Salon+%26+Spa/data=!4m7!3m6!1s0x9105c84af17e4dbb:0xcffc209c307b5c77!8m2!3d-12.1071791!4d-77.0540852!16s%2Fg%2F1yj2mft69!19sChIJu01-8UrIBZERd1x7MJwg_M8"
+    }
+  ]
+}
