@@ -1,0 +1,928 @@
+{
+  "category": "vidrierias",
+  "searchQuery": "vidrierias en Lima",
+  "totalResults": 100,
+  "updatedAt": "2026-09-09T18:17:59.928Z",
+  "topBusinessContext": {
+    "id": "biz_1",
+    "name": "Vidrieria huancayo MCC",
+    "rating": 5,
+    "reviewsCount": null,
+    "category": "Servicio de instalación eléctrica",
+    "address": "Av Horacio Cevallos msj j1 Lt50 pariachi, Ate 15011",
+    "url": "https://www.google.com/maps/place/Vidrieria+huancayo+MCC/data=!4m7!3m6!1s0x9105c31bb79b806b:0xea50c1610b1c96d9!8m2!3d-12.0094677!4d-76.841625!16s%2Fg%2F11gxmv2l67!19sChIJa4CbtxvDBZER2ZYcC2HBUOo"
+  },
+  "pageContent": {
+    "headline": "Los Mejores Expertos en VIDRIERIAS en Lima: Conoce a Vidrieria huancayo MCC",
+    "subtitles": [
+      "Garantiza resultados hoy mismo. Ubicados en Av Horacio Cevallos msj j1 Lt50 pariachi, Ate 15011, destacan como la opción número uno validada por usuarios reales.",
+      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
+    ],
+    "ctas": [
+      "Contactar por WhatsApp Ahora",
+      "Ver Directorio Completo"
+    ]
+  },
+  "businesses": [
+    {
+      "id": "biz_1",
+      "name": "Vidrieria huancayo MCC",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicio de instalación eléctrica",
+      "address": "Av Horacio Cevallos msj j1 Lt50 pariachi, Ate 15011",
+      "url": "https://www.google.com/maps/place/Vidrieria+huancayo+MCC/data=!4m7!3m6!1s0x9105c31bb79b806b:0xea50c1610b1c96d9!8m2!3d-12.0094677!4d-76.841625!16s%2Fg%2F11gxmv2l67!19sChIJa4CbtxvDBZER2ZYcC2HBUOo"
+    },
+    {
+      "id": "biz_7",
+      "name": "VIDRIOS Y ALUMINIOS GLASS",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. San Juan 1004, San Luis 15021",
+      "url": "https://www.google.com/maps/place/VIDRIOS+Y+ALUMINIOS+GLASS/data=!4m7!3m6!1s0x9105c7515c8bb899:0x707e7e932c55795e!8m2!3d-12.0747709!4d-76.9999657!16s%2Fg%2F11ys9qhvgs!19sChIJmbiLXFHHBZERXnlVLJN-fnA"
+    },
+    {
+      "id": "biz_15",
+      "name": "Vidrios VK - venta e instalación de vidrios y aluminio",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Fábrica",
+      "address": "Av. Ignacio Merino 2599, Lima 15046",
+      "url": "https://www.google.com/maps/place/Vidrios+VK+-+venta+e+instalaci%C3%B3n+de+vidrios+y+aluminio/data=!4m7!3m6!1s0x9105c9acf32a7923:0xafdf96c3696356f5!8m2!3d-12.0894245!4d-77.0316531!16s%2Fg%2F11fcsy6bqd!19sChIJI3kq86zJBZER9VZjacOW368"
+    },
+    {
+      "id": "biz_24",
+      "name": "Cristal Decor S.A.C. Vidrios y Espejos a Medida en Santa Anita",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Av. Los Ruiseñores 593, Lima 15008",
+      "url": "https://www.google.com/maps/place/Cristal+Decor+S.A.C.+Vidrios+y+Espejos+a+Medida+en+Santa+Anita/data=!4m7!3m6!1s0x9105c662df38f219:0x33c7f0ef151bf881!8m2!3d-12.0500151!4d-76.9671277!16s%2Fg%2F11f5h22sf8!19sChIJGfI432LGBZERgfgbFe_wxzM"
+    },
+    {
+      "id": "biz_25",
+      "name": "Vidriería Cristaliza tu Imaginación",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicio de instalación de ventanas",
+      "address": "C. los Quechuas 117, Lima 15009",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+Cristaliza+tu+Imaginaci%C3%B3n/data=!4m7!3m6!1s0x9105c78f7868b73d:0xfe15e4cc29f8df68!8m2!3d-12.039434!4d-76.9714412!16s%2Fg%2F11h5ldlv59!19sChIJPbdoeI_HBZERaN_4KczkFf4"
+    },
+    {
+      "id": "biz_37",
+      "name": "VIDRIERIA VELGA",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Fábrica",
+      "address": "Av. República de Panamá 5628, Miraflores 15047",
+      "url": "https://www.google.com/maps/place/VIDRIERIA+VELGA/data=!4m7!3m6!1s0x9105c96d8c09a9bb:0xdfb3cb84d276be88!8m2!3d-12.1197936!4d-77.0184492!16s%2Fg%2F11nm_zpy7w!19sChIJu6kJjG3JBZERiL520oTLs98"
+    },
+    {
+      "id": "biz_40",
+      "name": "Vidriería y Aluminios VARELA",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Jr. Varela 1813, Breña 15083",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+y+Aluminios+VARELA/data=!4m7!3m6!1s0x9105c99f1a7fb197:0xe721b15f214d0d4a!8m2!3d-12.0657636!4d-77.051456!16s%2Fg%2F11vbzylwkh!19sChIJl7F_Gp_JBZERSg1NIV-xIec"
+    },
+    {
+      "id": "biz_41",
+      "name": "PROYECTARI✅Mamparas y Puertas de Vidrio Templado y Aluminio. Vidriería en Lima (Miraflores, San Isidro, Magdalena, San Borja)",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Urbanización La Trinidad, Av. Luis Braille 1307, Lima 15082",
+      "url": "https://www.google.com/maps/place/PROYECTARI%E2%9C%85Mamparas+y+Puertas+de+Vidrio+Templado+y+Aluminio.+Vidrier%C3%ADa+en+Lima+%28Miraflores,+San+Isidro,+Magdalena,+San+Borja%29/data=!4m7!3m6!1s0x9105c9a2e02e42cf:0x296705162641c842!8m2!3d-12.051024!4d-77.0668478!16s%2Fg%2F11svhm27mk!19sChIJz0Iu4KLJBZERQshBJhYFZyk"
+    },
+    {
+      "id": "biz_44",
+      "name": "Vidrieria Mori",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Ca. Antonio Garland 1078, Lima 15102",
+      "url": "https://www.google.com/maps/place/Vidrieria+Mori/data=!4m7!3m6!1s0x9105cf1e8ffe7f33:0x1724bc7be221ebf6!8m2!3d-12.0145356!4d-77.0528583!16s%2Fg%2F11ffvvggtq!19sChIJM3_-jx7PBZER9ush4nu8JBc"
+    },
+    {
+      "id": "biz_46",
+      "name": "Vidriería Nora",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Jr. Huánuco 1476, La Victoria 15018",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+Nora/data=!4m7!3m6!1s0x9105c8a1fd6f93cb:0x34d0b5d54842e0fb!8m2!3d-12.0623364!4d-77.0155724!16s%2Fg%2F11b6jjszl6!19sChIJy5Nv_aHIBZER--BCSNW10DQ"
+    },
+    {
+      "id": "biz_47",
+      "name": "Vidriería Nakayosi EIRL",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Jr. Luna Pizarro 1001 - 1005, La Victoria 15033",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+Nakayosi+EIRL/data=!4m7!3m6!1s0x9105c9fa73d99fb1:0xa249326a07917930!8m2!3d-12.0701138!4d-77.0267699!16s%2Fg%2F11rbbd5ymd!19sChIJsZ_Zc_rJBZERMHmRB2oySaI"
+    },
+    {
+      "id": "biz_49",
+      "name": "Vidrieria Tingo Maria",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. Tingo María 1401, Lima 15083",
+      "url": "https://www.google.com/maps/place/Vidrieria+Tingo+Maria/data=!4m7!3m6!1s0x9105c9ec3c9091d7:0xb068140ebdcc988e!8m2!3d-12.0613207!4d-77.0588974!16s%2Fg%2F11qpk9mm_t!19sChIJ15GQPOzJBZERjpjMvQ4UaLA"
+    },
+    {
+      "id": "biz_51",
+      "name": "Vidriería Serrano",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "WXQM+M83, Jr. Luis Giribaldi, La Victoria 15018",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+Serrano/data=!4m7!3m6!1s0x9105c9a16b35cd91:0xa2399e79528f0bc2!8m2!3d-12.0608735!4d-77.0167066!16s%2Fg%2F11p0wkxj10!19sChIJkc01a6HJBZERwguPUnmeOaI"
+    },
+    {
+      "id": "biz_57",
+      "name": "Vidriería y Aluminio San Miguel",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Av. de los Patriotas 502, San Miguel 15087",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+y+Aluminio+San+Miguel/data=!4m7!3m6!1s0x9105c962e12db185:0xc77dd8df4ac74bba!8m2!3d-12.0759014!4d-77.0999662!16s%2Fg%2F11b6gpbb2w!19sChIJhbEt4WLJBZERukvHSt_Yfcc"
+    },
+    {
+      "id": "biz_62",
+      "name": "ZPROYECTOS Vidrios Aluminios y Acabados de Construcción SAC",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Juan Vicente Nicolini 575, Lima 15001",
+      "url": "https://www.google.com/maps/place/ZPROYECTOS+Vidrios+Aluminios+y+Acabados+de+Construcci%C3%B3n+SAC/data=!4m7!3m6!1s0x9105c779f23af31d:0xfe7059c7f2b16eae!8m2!3d-12.0205727!4d-77.0580558!16s%2Fg%2F11pv2lvnmf!19sChIJHfM68nnHBZERrm6x8sdZcP4"
+    },
+    {
+      "id": "biz_63",
+      "name": "VIDRIERÍA-ALUMINIO Y MARQUERÍA \"UNIVERSAL\"",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Jr, Jr. Gral. Orbegoso 331, Breña 15083",
+      "url": "https://www.google.com/maps/place/VIDRIER%C3%8DA-ALUMINIO+Y+MARQUER%C3%8DA+%22UNIVERSAL%22/data=!4m7!3m6!1s0x9105c9dbcca42751:0xe47963495faf008c!8m2!3d-12.0661652!4d-77.0507935!16s%2Fg%2F11kv_cy4zt!19sChIJUSekzNvJBZERjACvX0ljeeQ"
+    },
+    {
+      "id": "biz_64",
+      "name": "Vidriería Hpj Glass Glass",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de artículos de cristal",
+      "address": "Av. Aviación 4488, Surquillo 15038",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+Hpj+Glass+Glass/data=!4m7!3m6!1s0x9105c707eaf26ce7:0x50abab718656bbb2!8m2!3d-12.11926!4d-76.99861!16s%2Fg%2F11fp80rxqw!19sChIJ52zy6gfHBZERsrtWhnGrq1A"
+    },
+    {
+      "id": "biz_70",
+      "name": "▷ Vidriería en Piura ✔️",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "",
+      "url": "https://www.google.com/maps/place/%E2%96%B7+Vidrier%C3%ADa+en+Piura+%E2%9C%94%EF%B8%8F/data=!4m7!3m6!1s0xa848a2b6583d44e7:0xe48ffab451cdae63!8m2!3d-5.1107984!4d-80.6678819!16s%2Fg%2F11y8d96k9_!19sChIJ50Q9WLaiSKgRY67NUbT6j-Q"
+    },
+    {
+      "id": "biz_76",
+      "name": "Vidrieria Nuevo Milenio",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. Tingo María 1390, Lima 15083",
+      "url": "https://www.google.com/maps/place/Vidrieria+Nuevo+Milenio/data=!4m7!3m6!1s0x9105c921c8e3c071:0xeed39ff5f2076ba!8m2!3d-12.0631975!4d-77.0598323!16s%2Fg%2F11ffppk4mx!19sChIJccDjyCHJBZERunYgX_857Q4"
+    },
+    {
+      "id": "biz_85",
+      "name": "VIDRIERÍA MENDOZA",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicio de reparación de fibra de vidrio",
+      "address": "Av. Simón Bolívar 1025, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/VIDRIER%C3%8DA+MENDOZA/data=!4m7!3m6!1s0x9105c91bb27cbf9f:0xb6303b29fa53171c!8m2!3d-12.0724004!4d-77.0647653!16s%2Fg%2F11bxvbycjf!19sChIJn798shvJBZERHBdT-ik7MLY"
+    },
+    {
+      "id": "biz_90",
+      "name": "Vidrieria Garys S.R.L.",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Av. Lurigancho 796, San Juan de Lurigancho 15401",
+      "url": "https://www.google.com/maps/place/Vidrieria+Garys+S.R.L./data=!4m7!3m6!1s0x9105c5f326ab3ccf:0x69d59fea0c842fb!8m2!3d-12.0181581!4d-77.0020341!16s%2Fg%2F11f6xyh1py!19sChIJzzyrJvPFBZER-0LIoP5ZnQY"
+    },
+    {
+      "id": "biz_95",
+      "name": "VIDRIERIA ARTECGLASS",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Lima 15063 SANTIAGO DE SURCO Municipalidad Metropolitana de Lima LIMA, 01",
+      "url": "https://www.google.com/maps/place/VIDRIERIA+ARTECGLASS/data=!4m7!3m6!1s0x9105b7f2e0ee03fb:0xc4f0eeea05006f09!8m2!3d-12.1560652!4d-77.0149044!16s%2Fg%2F11r73zcb6v!19sChIJ-wPu4PK3BZERCW8ABeru8MQ"
+    },
+    {
+      "id": "biz_98",
+      "name": "Vidrios y Aluminios Jaseyil",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Jr. Crnel. Francisco Bolognesi 852, San Miguel 15086",
+      "url": "https://www.google.com/maps/place/Vidrios+y+Aluminios+Jaseyil/data=!4m7!3m6!1s0x9105c9159513a96b:0x865f2c44b78c49ca!8m2!3d-12.0849335!4d-77.0775895!16s%2Fg%2F11vf0wtj_v!19sChIJa6kTlRXJBZERykmMt0QsX4Y"
+    },
+    {
+      "id": "biz_10",
+      "name": "Vidrieria y Aluminios BIANEL",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. Naciones Unidas 1725, Lima 15082",
+      "url": "https://www.google.com/maps/place/Vidrieria+y+Aluminios+BIANEL/data=!4m7!3m6!1s0x9105c9a28cac277b:0xa9d773234d71bd75!8m2!3d-12.0538917!4d-77.0613639!16s%2Fg%2F11k9s7sq6q!19sChIJeyesjKLJBZERdb1xTSNz16k"
+    },
+    {
+      "id": "biz_17",
+      "name": "Vidriería LimaVidrios",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. Los Eucaliptos 701, Santa Anita 15008",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+LimaVidrios/data=!4m7!3m6!1s0x9105c7d3523b3fa9:0x7b9906cb0d53768c!8m2!3d-12.0463463!4d-76.9777078!16s%2Fg%2F11h44mtxt6!19sChIJqT87UtPHBZERjHZTDcsGmXs"
+    },
+    {
+      "id": "biz_29",
+      "name": "Vidrieria Helme",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Jr. Jorge Chávez 1597, Breña 15083",
+      "url": "https://www.google.com/maps/place/Vidrieria+Helme/data=!4m7!3m6!1s0x9105c93e2230e1cb:0xa99fd5a667867966!8m2!3d-12.0647315!4d-77.0522517!16s%2Fg%2F11xffcx41l!19sChIJy-EwIj7JBZERZnmGZ6bVn6k"
+    },
+    {
+      "id": "biz_50",
+      "name": "Vidriería Palacios M&H SAC.",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Frente a Tottus, Av. Los Próceres 1047, Santiago de Surco 15056",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+Palacios+M%26H+SAC./data=!4m7!3m6!1s0x9105b8386052751b:0x540de04487c39180!8m2!3d-12.1591859!4d-76.9885401!16s%2Fg%2F11f_zlms4s!19sChIJG3VSYDi4BZERgJHDh0TgDVQ"
+    },
+    {
+      "id": "biz_56",
+      "name": "Vidrieria decorcris soluciones E.I.R.L",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Cristalero",
+      "address": "Av. Húsares de Junín 349, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Vidrieria+decorcris+soluciones+E.I.R.L/data=!4m7!3m6!1s0x9105c9737f636de1:0x982b44ec55766d8b!8m2!3d-12.0767879!4d-77.0514687!16s%2Fg%2F11qmbj59g0!19sChIJ4W1jf3PJBZERi212VexEK5g"
+    },
+    {
+      "id": "biz_4",
+      "name": "Vidriería en Arequipa",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+en+Arequipa/data=!4m7!3m6!1s0xa65dbe19c7b89ed1:0xa7219eeea59daedc!8m2!3d-16.404072!4d-71.5399958!16s%2Fg%2F11lp5g5dhg!19sChIJ0Z64xxm-XaYR3K6dpe6eIac"
+    },
+    {
+      "id": "biz_26",
+      "name": "Vidrieria Moliglass",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "LM-119 N° 707, La Molina 15012",
+      "url": "https://www.google.com/maps/place/Vidrieria+Moliglass/data=!4m7!3m6!1s0x9105c7fa5bdeca8f:0x2e8d86a2484d127e!8m2!3d-12.0656135!4d-76.959662!16s%2Fg%2F11f9g9k80c!19sChIJj8reW_rHBZERfhJNSKKGjS4"
+    },
+    {
+      "id": "biz_71",
+      "name": "VIDRIERÍA ESTRADA",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. Tomás Valle 1124, Los Olivos 15103",
+      "url": "https://www.google.com/maps/place/VIDRIER%C3%8DA+ESTRADA/data=!4m7!3m6!1s0x9105ceee688e19c3:0x90037f965adc2bc8!8m2!3d-12.0112788!4d-77.0725453!16s%2Fg%2F11f3wk149j!19sChIJwxmOaO7OBZERyCvcWpZ_A5A"
+    },
+    {
+      "id": "biz_75",
+      "name": "Vidrieria en Trujillo",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Vidrieria+en+Trujillo/data=!4m7!3m6!1s0x6994149748621a91:0x2b7f84c271ad8f4e!8m2!3d-8.1167556!4d-79.0200724!16s%2Fg%2F11wbh72z4s!19sChIJkRpiSJcUlGkRTo-tccKEfys"
+    },
+    {
+      "id": "biz_3",
+      "name": "▷ Vidrieria en Lima, Perú ✔️",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "",
+      "url": "https://www.google.com/maps/place/%E2%96%B7+Vidrieria+en+Lima,+Per%C3%BA+%E2%9C%94%EF%B8%8F/data=!4m7!3m6!1s0xaf591c167e006e35:0xef7f25a1cfb0742e!8m2!3d-12.0266383!4d-76.9877792!16s%2Fg%2F11wmt7vmxc!19sChIJNW4AfhYcWa8RLnSwz6Elf-8"
+    },
+    {
+      "id": "biz_9",
+      "name": "Vidriería en Lima, Perú - MonteroTemp ✔️",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Los Robles, San Antonio de Chaclla 15461",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+en+Lima,+Per%C3%BA+-+MonteroTemp+%E2%9C%94%EF%B8%8F/data=!4m7!3m6!1s0x9105c5a23dd2f55b:0x528d03d1005916d8!8m2!3d-11.9844924!4d-76.9432033!16s%2Fg%2F11t8gzsspp!19sChIJW_XSPaLFBZER2BZZANEDjVI"
+    },
+    {
+      "id": "biz_12",
+      "name": "Vidrieria Nice",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Estudio de vidrio",
+      "address": "Av. Universitaria 1651, Lima LIMA 01",
+      "url": "https://www.google.com/maps/place/Vidrieria+Nice/data=!4m7!3m6!1s0x9105c998b2a46bd7:0x80667ee296a67f41!8m2!3d-12.0661786!4d-77.0776945!16s%2Fg%2F11gzs3zlv_!19sChIJ12ukspjJBZERQX-mluJ-ZoA"
+    },
+    {
+      "id": "biz_96",
+      "name": "VIDRIERIA ABANTO",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Jirón Arequipa 201, Magdalena del Mar 15086",
+      "url": "https://www.google.com/maps/place/VIDRIERIA+ABANTO/data=!4m7!3m6!1s0x9105c9a70a82ce71:0x700c3d2e6f08ecc3!8m2!3d-12.088925!4d-77.0708449!16s%2Fg%2F11b6sy4v5n!19sChIJcc6CCqfJBZERw-wIby49DHA"
+    },
+    {
+      "id": "biz_27",
+      "name": "Vidriería Gabriel",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. Caminos del Inca 2615 A, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+Gabriel/data=!4m7!3m6!1s0x9105b8727e86e51d:0xd89884905a2428d4!8m2!3d-12.1385832!4d-76.9841471!16s%2Fg%2F11c53d2qx5!19sChIJHeWGfnK4BZER1CgkWpCEmNg"
+    },
+    {
+      "id": "biz_94",
+      "name": "Aluminio Vidrieria Exito E.I.R.L.",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Fábrica",
+      "address": "Urb. Maranga, Av. La Paz 1966, San Miguel 15087",
+      "url": "https://www.google.com/maps/place/Aluminio+Vidrieria+Exito+E.I.R.L./data=!4m7!3m6!1s0x9105c9f5f055dd8b:0x62a8022fadbd2a81!8m2!3d-12.082066!4d-77.1009856!16s%2Fg%2F11c6z3l1jn!19sChIJi91V8PXJBZERgSq9rS8CqGI"
+    },
+    {
+      "id": "biz_16",
+      "name": "Vidrieria en Lima Cosmos Glass",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Urb.Casa Blanca, Jirón Los Diamantes 161, La Victoria 15056",
+      "url": "https://www.google.com/maps/place/Vidrieria+en+Lima+Cosmos+Glass/data=!4m7!3m6!1s0x9105b8368394f5b3:0x1fe540aeecd26537!8m2!3d-12.0789047!4d-77.0233739!16s%2Fg%2F11c1q9yz6z!19sChIJs_WUgza4BZERN2XS7K5A5R8"
+    },
+    {
+      "id": "biz_20",
+      "name": "Vidrieria El Milagro",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Constructor",
+      "address": "Av. Crnel Jose Leal 611 Lima14, Lince 15073",
+      "url": "https://www.google.com/maps/place/Vidrieria+El+Milagro/data=!4m7!3m6!1s0x9105c8f61aa81341:0xf9946682f5ac2dd9!8m2!3d-12.0854861!4d-77.0399494!16s%2Fg%2F11gpgxmxzd!19sChIJQROoGvbIBZER2S2s9YJmlPk"
+    },
+    {
+      "id": "biz_55",
+      "name": "Vidrieria J. Navarro",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. San Luis 3175, San Borja 15037",
+      "url": "https://www.google.com/maps/place/Vidrieria+J.+Navarro/data=!4m7!3m6!1s0x9105c7ebdf56c2e7:0xe6b16d550ee2a80e!8m2!3d-12.110217!4d-76.9931639!16s%2Fg%2F11b6g96g79!19sChIJ58JW3-vHBZERDqjiDlVtseY"
+    },
+    {
+      "id": "biz_82",
+      "name": "VIDRIERIA HUANCAYO SAC",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Taller de reparación de automóviles",
+      "address": "Av. Isabel la Católica 1271, La Victoria 15018",
+      "url": "https://www.google.com/maps/place/VIDRIERIA+HUANCAYO+SAC/data=!4m7!3m6!1s0x9105c999cbbbf9b1:0x8663de97cb8294dd!8m2!3d-12.0686889!4d-77.0174583!16s%2Fg%2F11n96tk67z!19sChIJsfm7y5nJBZER3ZSCy5feY4Y"
+    },
+    {
+      "id": "biz_84",
+      "name": "Vidrieria Dayana's",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. Gerardo Unger 3435, Independencia 15311",
+      "url": "https://www.google.com/maps/place/Vidrieria+Dayana%27s/data=!4m7!3m6!1s0x9105cfaab9f0fe37:0xe10a006fe33dafa7!8m2!3d-11.9962335!4d-77.0556781!16s%2Fg%2F11b6nq43_x!19sChIJN_7wuarPBZERp689428ACuE"
+    },
+    {
+      "id": "biz_100",
+      "name": "D&J Vidriería, Estructuras Metalicas, drywall, pintura en general",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Rimac, Av. Amancaes 155, Lima",
+      "url": "https://www.google.com/maps/place/D%26J+Vidrier%C3%ADa,+Estructuras+Metalicas,+drywall,+pintura+en+general/data=!4m7!3m6!1s0x9105cf39a33ab4bb:0xa4e7eaaf8ee82dff!8m2!3d-12.0253155!4d-77.033478!16s%2Fg%2F11fzs_zh2p!19sChIJu7Q6oznPBZER_y3ojq_q56Q"
+    },
+    {
+      "id": "biz_22",
+      "name": "Cánovas SAC",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Opalos 155, La Victoria 15034",
+      "url": "https://www.google.com/maps/place/C%C3%A1novas+SAC/data=!4m7!3m6!1s0x9105c88ea086c2ab:0x240f9e1edbe66452!8m2!3d-12.0784231!4d-77.0273614!16s%2Fg%2F11b6dyddpj!19sChIJq8KGoI7IBZERUmTm2x6eDyQ"
+    },
+    {
+      "id": "biz_34",
+      "name": "Vidrieria Marqueria Carabaya",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Tienda de enmarcación",
+      "address": "Jr. Puno 225, Lima 15001",
+      "url": "https://www.google.com/maps/place/Vidrieria+Marqueria+Carabaya/data=!4m7!3m6!1s0x9105c8c81d87b9bb:0x973aced933b7d319!8m2!3d-12.0506847!4d-77.0326771!16s%2Fg%2F11c61b7s77!19sChIJu7mHHcjIBZERGdO3M9nOOpc"
+    },
+    {
+      "id": "biz_35",
+      "name": "VIDRIERIA EL ALAMO",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Jirón el Alamo 285, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/VIDRIERIA+EL+ALAMO/data=!4m7!3m6!1s0x9105c79918b5aa81:0xb8579b693a7c659d!8m2!3d-12.1081698!4d-76.9717534!16s%2Fg%2F11g4dyychp!19sChIJgaq1GJnHBZERnWV8OmmbV7g"
+    },
+    {
+      "id": "biz_42",
+      "name": "Vidriería Vilcapoma - Marquetería Vilcapoma",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Servicio de reparación de cristales",
+      "address": "Juan Pablo Fernandini 817, Breña 15083",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+Vilcapoma+-+Marqueter%C3%ADa+Vilcapoma/data=!4m7!3m6!1s0x9105c8e6e2ed0fcb:0x9c5de12b68bfe0a9!8m2!3d-12.0666997!4d-77.0484746!16s%2Fg%2F11b6hyjr4w!19sChIJyw_t4ubIBZERqeC_aCvhXZw"
+    },
+    {
+      "id": "biz_68",
+      "name": "VIDRIERIA KATIANY E.I.R.L.",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Fábrica",
+      "address": "Jirón Huaraz 1194, Breña 15083",
+      "url": "https://www.google.com/maps/place/VIDRIERIA+KATIANY+E.I.R.L./data=!4m7!3m6!1s0x9105c926a37ace39:0xd8fe65f96ec56bdc!8m2!3d-12.0618521!4d-77.0464335!16s%2Fg%2F11q1jv7c6x!19sChIJOc56oybJBZER3GvFbvll_tg"
+    },
+    {
+      "id": "biz_77",
+      "name": "Grafiglass peru",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Jr. Huiracocha 1558, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Grafiglass+peru/data=!4m7!3m6!1s0x9105c8e22ecf54e1:0xbacff248670b1d8f!8m2!3d-12.0781049!4d-77.049417!16s%2Fg%2F11dz_0ps9v!19sChIJ4VTPLuLIBZERjx0LZ0jyz7o"
+    },
+    {
+      "id": "biz_89",
+      "name": "Grupo Ventalmax",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Servicio de distribución",
+      "address": "Av. Universitaria, San Martín de Porres 15108",
+      "url": "https://www.google.com/maps/place/Grupo+Ventalmax/data=!4m7!3m6!1s0x9105ce616fda4fc1:0x32287ed68e092c43!8m2!3d-11.994687!4d-77.0843207!16s%2Fg%2F1pp2wxvw7!19sChIJwU_ab2HOBZERQywJjtZ-KDI"
+    },
+    {
+      "id": "biz_39",
+      "name": "Vidriería Manrique",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av San Juan 1593, San Juan de Miraflores 15803",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+Manrique/data=!4m7!3m6!1s0x9105b9327fce3099:0xdeccb498d59ecc15!8m2!3d-12.1479552!4d-76.9702028!16s%2Fg%2F11qn7clqh3!19sChIJmTDOfzK5BZERFcye1Zi0zN4"
+    },
+    {
+      "id": "biz_52",
+      "name": "VIDRIERIA CRISTAL",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Taller de reparación de motos",
+      "address": "La Minka, Lima 15498",
+      "url": "https://www.google.com/maps/place/VIDRIERIA+CRISTAL/data=!4m7!3m6!1s0x9105c59393564f4f:0x83e30fc101213bff!8m2!3d-12.0308573!4d-76.9387556!16s%2Fg%2F11tffj0pbb!19sChIJT09Wk5PFBZER_zshAcEP44M"
+    },
+    {
+      "id": "biz_60",
+      "name": "Vidreria 2000",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Jr. Junín 877, Surquillo, Lima 15047",
+      "url": "https://www.google.com/maps/place/Vidreria+2000/data=!4m7!3m6!1s0x9105c8128924d15d:0x74fc63ff556b3f30!8m2!3d-12.1100123!4d-77.0228494!16s%2Fg%2F11f728fpv6!19sChIJXdEkiRLIBZERMD9rVf9j_HQ"
+    },
+    {
+      "id": "biz_11",
+      "name": "Vidriera José Leal",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. Crnel Jose Leal 334, Lince 15073",
+      "url": "https://www.google.com/maps/place/Vidriera+Jos%C3%A9+Leal/data=!4m7!3m6!1s0x9105c8f61bbce643:0xaddd5a21f71342ee!8m2!3d-12.0849626!4d-77.0374668!16s%2Fg%2F1tjgqnb8!19sChIJQ-a8G_bIBZER7kIT9yFa3a0"
+    },
+    {
+      "id": "biz_13",
+      "name": "Corporación Limatambo - Planta Cristales Templados",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Fábrica",
+      "address": "Av. Próceres de la Independencia 3201, San Juan de Lurigancho 15419",
+      "url": "https://www.google.com/maps/place/Corporaci%C3%B3n+Limatambo+-+Planta+Cristales+Templados/data=!4m7!3m6!1s0x9105c566a8fe76f5:0x3e9f52f2268c1228!8m2!3d-11.9778273!4d-77.0040815!16s%2Fg%2F11bx1h77cm!19sChIJ9Xb-qGbFBZERKBKMJvJSnz4"
+    },
+    {
+      "id": "biz_31",
+      "name": "Vidriería La Molina",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Las Cascadas 170, La Molina 15024",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+La+Molina/data=!4m7!3m6!1s0x9105c7124d82e87b:0x1d91fc0b63a21668!8m2!3d-12.1018006!4d-76.9498225!16s%2Fg%2F11dzzhv_cv!19sChIJe-iCTRLHBZERaBaiYwv8kR0"
+    },
+    {
+      "id": "biz_66",
+      "name": "VIDRIERÍA \"SAYAS\"",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Jr. Huiracocha 1642, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/VIDRIER%C3%8DA+%22SAYAS%22/data=!4m7!3m6!1s0x9105c8fb8fe803ad:0x8bbe8be9906a98e!8m2!3d-12.0788255!4d-77.0500311!16s%2Fg%2F11b6p1yzr9!19sChIJrQPoj_vIBZERjqkGmb7ouwg"
+    },
+    {
+      "id": "biz_23",
+      "name": "Corporación Limatambo",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Empresa constructora",
+      "address": "Av. México 504, La Victoria 15033",
+      "url": "https://www.google.com/maps/place/Corporaci%C3%B3n+Limatambo/data=!4m7!3m6!1s0x9105c88fb58b3fad:0xfa192b912c590906!8m2!3d-12.0754761!4d-77.0244994!16s%2Fg%2F11bzt8yjfd!19sChIJrT-LtY_IBZERBglZLJErGfo"
+    },
+    {
+      "id": "biz_28",
+      "name": "ALVI PERU // Venta e Instalación de Vidrios para Ventanas, Mamparas, Laminas, Puertas de Ducha, Espejos y Barandas.",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "JR, San Carlos del Pinar 388, San Luis 15021",
+      "url": "https://www.google.com/maps/place/ALVI+PERU+%2F%2F+Venta+e+Instalaci%C3%B3n+de+Vidrios+para+Ventanas,+Mamparas,+Laminas,+Puertas+de+Ducha,+Espejos+y+Barandas./data=!4m7!3m6!1s0x9105c726680294c5:0x1b482baef8fe63f5!8m2!3d-12.0756979!4d-76.9914802!16s%2Fg%2F11j93k0dyw!19sChIJxZQCaCbHBZER9WP--K4rSBs"
+    },
+    {
+      "id": "biz_33",
+      "name": "Corporación Elio, Vidriería en Lima✅Instalación de Mamparas, Puertas, Ventanas, Barandas, Parapetos - Vidrio, Acero, Aluminio",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. Luis Braille 1307 - Urb, Lima 15081",
+      "url": "https://www.google.com/maps/place/Corporaci%C3%B3n+Elio,+Vidrier%C3%ADa+en+Lima%E2%9C%85Instalaci%C3%B3n+de+Mamparas,+Puertas,+Ventanas,+Barandas,+Parapetos+-+Vidrio,+Acero,+Aluminio/data=!4m7!3m6!1s0x9105c9255fa51491:0xb3d8dfef8a71bbfc!8m2!3d-12.051069!4d-77.0668085!16s%2Fg%2F11b7fyr9jb!19sChIJkRSlXyXJBZER_Ltxiu_f2LM"
+    },
+    {
+      "id": "biz_73",
+      "name": "VIDRIOS GUERRERO MARCHAN",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. Gerardo Unger 3495, San Martín de Porres 15311",
+      "url": "https://www.google.com/maps/place/VIDRIOS+GUERRERO+MARCHAN/data=!4m7!3m6!1s0x9105ce552cd7b253:0xe705bc44547b2395!8m2!3d-11.9948954!4d-77.0564492!16s%2Fg%2F11b6ngc7cz!19sChIJU7LXLFXOBZERlSN7VES8Bec"
+    },
+    {
+      "id": "biz_86",
+      "name": "Vidrieria Marqueteria Militar",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Tienda de enmarcación",
+      "address": "Jr. Bernardo Alcedo 408, Lince 15046",
+      "url": "https://www.google.com/maps/place/Vidrieria+Marqueteria+Militar/data=!4m7!3m6!1s0x9105c88abef36393:0x112f33d911fd7f81!8m2!3d-12.0844329!4d-77.0322934!16s%2Fg%2F11ckr4mj47!19sChIJk2PzvorIBZERgX_9EdkzLxE"
+    },
+    {
+      "id": "biz_43",
+      "name": "Vidrieria y Marqueria Salamanca",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Tienda de artículos para el hogar",
+      "address": "Paracas 603-A, Lima 15022",
+      "url": "https://www.google.com/maps/place/Vidrieria+y+Marqueria+Salamanca/data=!4m7!3m6!1s0x9105c64bdab96795:0x96b21733c2749e36!8m2!3d-12.0781331!4d-76.9838795!16s%2Fg%2F11g6vkmwvc!19sChIJlWe52kvGBZERNp50wjMXspY"
+    },
+    {
+      "id": "biz_45",
+      "name": "Vidrieria Milagros S.R.L.",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Servicio de reparación para vidrios de automóviles",
+      "address": "Av. Isabel la Católica 600, La Victoria 15033",
+      "url": "https://www.google.com/maps/place/Vidrieria+Milagros+S.R.L./data=!4m7!3m6!1s0x9105c8f61bbce643:0xb678a6f33596973d!8m2!3d-12.0701564!4d-77.0267285!16s%2Fg%2F11cllm1zs8!19sChIJQ-a8G_bIBZERPZeWNfOmeLY"
+    },
+    {
+      "id": "biz_58",
+      "name": "Vidrieria Salcedo Eirl",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. Militar 2301 lima14, Lince 15046",
+      "url": "https://www.google.com/maps/place/Vidrieria+Salcedo+Eirl/data=!4m7!3m6!1s0x9105c9dc7381dfe9:0x19eeb9e233b12944!8m2!3d-12.086622!4d-77.0309395!16s%2Fg%2F11b66lhh9s!19sChIJ6d-Bc9zJBZERRCmxM-K57hk"
+    },
+    {
+      "id": "biz_67",
+      "name": "Vidrios & Aluminios HGYJ E.I.R.L.",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Tienda de artículos de cristal",
+      "address": "Avenida Naranjal Urbanización Residencial Villa Génova Manzana A Lote 1, Lima 15112",
+      "url": "https://www.google.com/maps/place/Vidrios+%26+Aluminios+HGYJ+E.I.R.L./data=!4m7!3m6!1s0x9105cf967e3af269:0xcef08766cbf11e3d!8m2!3d-11.9639894!4d-77.0973174!16s%2Fg%2F11j7z4y2w5!19sChIJafI6fpbPBZERPR7xy2aH8M4"
+    },
+    {
+      "id": "biz_74",
+      "name": "VIDRIERIA NACIONAL",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Tienda de enmarcación",
+      "address": "Av. Gral. Juan Antonio Álvarez de Arenales 1999, Lince 15073",
+      "url": "https://www.google.com/maps/place/VIDRIERIA+NACIONAL/data=!4m7!3m6!1s0x9105c8f59d962e33:0x40701a4f496b18f9!8m2!3d-12.0846751!4d-77.0354439!16s%2Fg%2F11b6wq45p_!19sChIJMy6WnfXIBZER-RhrSU8acEA"
+    },
+    {
+      "id": "biz_99",
+      "name": "Vidrios y Aluminios Elojhum S.A.C",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Oficinas de empresa",
+      "address": "Av. Venezuela 1614, Breña 15082",
+      "url": "https://www.google.com/maps/place/Vidrios+y+Aluminios+Elojhum+S.A.C/data=!4m7!3m6!1s0x9105c8d85de509d5:0xaa5f56d648d41b4a!8m2!3d-12.055424!4d-77.0549897!16s%2Fg%2F11cs5nf65p!19sChIJ1QnlXdjIBZERShvUSNZWX6o"
+    },
+    {
+      "id": "biz_2",
+      "name": "Vidrieria Mantaro",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Centro comercial",
+      "address": "X5X7+747, Ent A Huaycan, Ate 15476",
+      "url": "https://www.google.com/maps/place/Vidrieria+Mantaro/data=!4m7!3m6!1s0x9105c271d9442d4f:0x902fed0d0f170056!8m2!3d-12.0018375!4d-76.8372041!16s%2Fg%2F11bc713sqc!19sChIJTy1E2XHCBZERVgAXDw3tL5A"
+    },
+    {
+      "id": "biz_14",
+      "name": "Vidrieria Alejo",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Servicio de corte de vidrio",
+      "address": "Av. México 464, La Victoria 15018",
+      "url": "https://www.google.com/maps/place/Vidrieria+Alejo/data=!4m7!3m6!1s0x9105c88fc9d2540b:0x739211e69ec1f2fd!8m2!3d-12.0754043!4d-77.0242596!16s%2Fg%2F11bzzv312y!19sChIJC1TSyY_IBZER_fLBnuYRknM"
+    },
+    {
+      "id": "biz_19",
+      "name": "Corporación Limatambo",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. Próceres de la Independencia 1994, San Juan de Lurigancho 15431",
+      "url": "https://www.google.com/maps/place/Corporaci%C3%B3n+Limatambo/data=!4m7!3m6!1s0x9105c580cc04647f:0x9b2f9c71d98b1ae8!8m2!3d-12.0001741!4d-77.0084961!16s%2Fg%2F11c5_m4hqh!19sChIJf2QEzIDFBZER6BqL2XGcL5s"
+    },
+    {
+      "id": "biz_36",
+      "name": "MABERTI - Aliaga Hermanos S.A.",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Avenida México 475, Av. México 445, La Victoria 15033",
+      "url": "https://www.google.com/maps/place/MABERTI+-+Aliaga+Hermanos+S.A./data=!4m7!3m6!1s0x9105c9450e50f165:0xff580055cc87cdbf!8m2!3d-12.0751883!4d-77.025147!16s%2Fg%2F11hzx3vlgv!19sChIJZfFQDkXJBZERv82HzFUAWP8"
+    },
+    {
+      "id": "biz_80",
+      "name": "Vidriería Palacios & G",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. De Los Precursores 791, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+Palacios+%26+G/data=!4m7!3m6!1s0x9105c961196fde11:0xb38ae8e4f81853e7!8m2!3d-12.0697107!4d-77.097587!16s%2Fg%2F11bywkp8c5!19sChIJEd5vGWHJBZER51MY-OToirM"
+    },
+    {
+      "id": "biz_83",
+      "name": "Vidriería Huaira E.I.R.L.",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Av. José de la Riva Agüero 2050, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+Huaira+E.I.R.L./data=!4m7!3m6!1s0x9105c941b2c21475:0xa04d6d4dfcd61b63!8m2!3d-12.0635282!4d-77.0824726!16s%2Fg%2F11b6grzn7v!19sChIJdRTCskHJBZERYxvW_E1tTaA"
+    },
+    {
+      "id": "biz_5",
+      "name": "Vidrierias en Lima Multiacabados",
+      "rating": 3.7,
+      "reviewsCount": null,
+      "category": "Fabricante de cristalería",
+      "address": "Av. San Luis 3017, San Borja 15037",
+      "url": "https://www.google.com/maps/place/Vidrierias+en+Lima+Multiacabados/data=!4m7!3m6!1s0x9105c7ea31d40ba1:0x9b0e52dac54a9e79!8m2!3d-12.1083065!4d-76.992352!16s%2Fg%2F12ll6lxdh!19sChIJoQvUMerHBZEReZ5KxdpSDps"
+    },
+    {
+      "id": "biz_48",
+      "name": "Vidrieria & Aluminio Los Olivos",
+      "rating": 3.7,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. Santiago Antunez de Mayolo 1268, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/Vidrieria+%26+Aluminio+Los+Olivos/data=!4m7!3m6!1s0x9105ce5e369bf047:0x5917192821a3ecae!8m2!3d-11.9950134!4d-77.0782686!16s%2Fg%2F11gcndb3yy!19sChIJR_CbNl7OBZERruyjISgZF1k"
+    },
+    {
+      "id": "biz_78",
+      "name": "Vidrieria Mathyus",
+      "rating": 3.7,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Jr. Bélgica 381, Lima 15034",
+      "url": "https://www.google.com/maps/place/Vidrieria+Mathyus/data=!4m7!3m6!1s0x9105c88f86b2927b:0xa40e6ee5ed93068!8m2!3d-12.0763408!4d-77.0222528!16s%2Fg%2F11gy3jnc6j!19sChIJe5Kyho_IBZERaDDZXu7mQAo"
+    },
+    {
+      "id": "biz_81",
+      "name": "VIDRIERIA RIVERA",
+      "rating": 3.7,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Av. Crnel Jose Leal 666, Lince 15073",
+      "url": "https://www.google.com/maps/place/VIDRIERIA+RIVERA/data=!4m7!3m6!1s0x9105c90d1c66c3db:0x4ae5bc7b81d25d04!8m2!3d-12.085318!4d-77.0403838!16s%2Fg%2F11g0453gtn!19sChIJ28NmHA3JBZERBF3SgXu85Uo"
+    },
+    {
+      "id": "biz_8",
+      "name": "Vidriería Dueñas S.A.C.",
+      "rating": 3.6,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Av. Nicolás Dueñas 297, Lima 15081",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+Due%C3%B1as+S.A.C./data=!4m7!3m6!1s0x9105ced238118c05:0x6baf28d1d8dc46bb!8m2!3d-12.0381446!4d-77.0658323!16s%2Fg%2F11gxmgvf4v!19sChIJBYwRONLOBZERu0bc2NEor2s"
+    },
+    {
+      "id": "biz_30",
+      "name": "Distribuidora de Vidrios Marcelo S.R.L.",
+      "rating": 3.6,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Municipalidad Metropolitana de, Av. Próceres de la Independencia 1835, San Juan de Lurigancho LIMA 36",
+      "url": "https://www.google.com/maps/place/Distribuidora+de+Vidrios+Marcelo+S.R.L./data=!4m7!3m6!1s0x9105cf8a0d2d47cd:0x652974525a9f2633!8m2!3d-12.0027343!4d-77.0084322!16s%2Fg%2F11hbqc742j!19sChIJzUctDYrPBZERMyafWlJ0KWU"
+    },
+    {
+      "id": "biz_72",
+      "name": "Vidriería San José",
+      "rating": 3.6,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Jirón Huamachuco 1368, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+San+Jos%C3%A9/data=!4m7!3m6!1s0x9105c8fb31b501d7:0x79809f2cc384c90d!8m2!3d-12.0754104!4d-77.0485392!16s%2Fg%2F11b6p7t3d0!19sChIJ1wG1MfvIBZERDcmEwyyfgHk"
+    },
+    {
+      "id": "biz_18",
+      "name": "Vidrieria San borja",
+      "rating": 3.5,
+      "reviewsCount": null,
+      "category": "Estudio de vidrio",
+      "address": "Av. San Luis 3159, San Borja 15037",
+      "url": "https://www.google.com/maps/place/Vidrieria+San+borja/data=!4m7!3m6!1s0x9105c7e95bffdae5:0x95b6aa9df032727e!8m2!3d-12.1101214!4d-76.9930512!16s%2Fg%2F11fk1shjxv!19sChIJ5dr_W-nHBZERfnIy8J2qtpU"
+    },
+    {
+      "id": "biz_53",
+      "name": "SANSA PERÚ S.A.C - Vidriería y Drywall",
+      "rating": 3.5,
+      "reviewsCount": null,
+      "category": "Tienda de artículos de cristal",
+      "address": "Av. Aviación 846, Lima 15018",
+      "url": "https://www.google.com/maps/place/SANSA+PER%C3%9A+S.A.C+-+Vidrier%C3%ADa+y+Drywall/data=!4m7!3m6!1s0x9105c89dbc496f6d:0x28c0f93e465d03fc!8m2!3d-12.0696874!4d-77.0120305!16s%2Fg%2F11g6xbzkkr!19sChIJbW9JvJ3IBZER_ANdRj75wCg"
+    },
+    {
+      "id": "biz_54",
+      "name": "VIDRIERÍA VELÁSQUEZ",
+      "rating": 3.4,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Jr. Inca 296, Surquillo 15048",
+      "url": "https://www.google.com/maps/place/VIDRIER%C3%8DA+VEL%C3%81SQUEZ/data=!4m7!3m6!1s0x9105c8055ca0f78f:0x1b91c062c9152a3!8m2!3d-12.1173064!4d-77.0202608!16s%2Fg%2F11c0w16_nb!19sChIJj_egXAXIBZERo1KRLAYcuQE"
+    },
+    {
+      "id": "biz_59",
+      "name": "Vidriería JC GLASS SAC",
+      "rating": 3.3,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Av. Intihuatana 560, Surquillo 15038",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+JC+GLASS+SAC/data=!4m7!3m6!1s0x9105c72912b1532d:0x1f344a619a51955b!8m2!3d-12.1159155!4d-76.9961087!16s%2Fg%2F11fd4vt00n!19sChIJLVOxEinHBZERW5VRmmFKNB8"
+    },
+    {
+      "id": "biz_69",
+      "name": "Vidriería Y Servicios Generales Triple XXX EIRL",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Servicio de instalación de ventanas",
+      "address": "Villa emilia Mi Perú, Calle los cedros Mz A1 Lt1, La Victoria 15034",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+Y+Servicios+Generales+Triple+XXX+EIRL/data=!4m7!3m6!1s0x9105c9874d12df99:0x4869c6198d601dbd!8m2!3d-12.0756594!4d-77.0244758!16s%2Fg%2F11h64554wh!19sChIJmd8STYfJBZERvR1gjRnGaUg"
+    },
+    {
+      "id": "biz_88",
+      "name": "Vidrieria Aviación",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Servicio de reparación de cristales",
+      "address": "C. Matier 298, San Borja 15037",
+      "url": "https://www.google.com/maps/place/Vidrieria+Aviaci%C3%B3n/data=!4m7!3m6!1s0x9105c7db991a7a55:0x52a61820c6f2d1a9!8m2!3d-12.099765!4d-77.002228!16s%2Fg%2F11b6dtfg27!19sChIJVXoamdvHBZERqdHyxiAYplI"
+    },
+    {
+      "id": "biz_92",
+      "name": "Vidrieria Martel EIRL",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "av. jose leal 821 lince lima Gobierno Regional de Lima LIMA, 01",
+      "url": "https://www.google.com/maps/place/Vidrieria+Martel+EIRL/data=!4m7!3m6!1s0x9105c8f62cbfa9d9:0xf4d5c7ff58b89246!8m2!3d-12.0857523!4d-77.041649!16s%2Fg%2F11f4r2fpyh!19sChIJ2am_LPbIBZERRpK4WP_H1fQ"
+    },
+    {
+      "id": "biz_65",
+      "name": "Vidriería La Merced",
+      "rating": 2.3,
+      "reviewsCount": null,
+      "category": "Tienda de cristales y espejos",
+      "address": "Enrique León García 351, La Victoria 15034",
+      "url": "https://www.google.com/maps/place/Vidrier%C3%ADa+La+Merced/data=!4m7!3m6!1s0x9105c8880764b975:0x8352d48386ccda2c!8m2!3d-12.0845953!4d-77.0218916!16s%2Fg%2F11b6gjylv4!19sChIJdblkB4jIBZERLNrMhoPUUoM"
+    },
+    {
+      "id": "biz_79",
+      "name": "ARTE GRAN VIDRIERÍA JUNÍN",
+      "rating": 2.3,
+      "reviewsCount": null,
+      "category": "Servicio de instalación de ventanas",
+      "address": "Jr. Junín 980, Surquillo 15046",
+      "url": "https://www.google.com/maps/place/ARTE+GRAN+VIDRIER%C3%8DA+JUN%C3%8DN/data=!4m7!3m6!1s0x9105c80d7eee7451:0x4d1cf183a99b062a!8m2!3d-12.1101527!4d-77.0217671!16s%2Fg%2F11h5v98gx3!19sChIJUXTufg3IBZERKgabqYPxHE0"
+    },
+    {
+      "id": "biz_32",
+      "name": "Vidriera Huarochirí",
+      "rating": 2,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "X23V+F4F, Lima 15011",
+      "url": "https://www.google.com/maps/place/Vidriera+Huarochir%C3%AD/data=!4m7!3m6!1s0x9105c7fd7b6590c3:0x59a3c8a5d21e583!8m2!3d-12.0463032!4d-76.9571914!16s%2Fg%2F11hdx7wg7c!19sChIJw5Ble_3HBZERg-UhXYo8mgU"
+    },
+    {
+      "id": "biz_21",
+      "name": "Vidrieria & Aluminios Lives",
+      "rating": 1,
+      "reviewsCount": null,
+      "category": "Fábrica",
+      "address": "Av Sta Rosa 398, Santa Anita 15009",
+      "url": "https://www.google.com/maps/place/Vidrieria+%26+Aluminios+Lives/data=!4m7!3m6!1s0x9105c68871c5bcb9:0x86b77f02a9ed9ff4!8m2!3d-12.0483882!4d-76.9628219!16s%2Fg%2F11gxsnbqdt!19sChIJubzFcYjGBZER9J_tqQJ_t4Y"
+    },
+    {
+      "id": "biz_61",
+      "name": "Vidrieria Distribuidora Vera",
+      "rating": 1,
+      "reviewsCount": null,
+      "category": "Servicio de distribución",
+      "address": "314, Av. Gran Chimú 300, San Juan de Lurigancho 36",
+      "url": "https://www.google.com/maps/place/Vidrieria+Distribuidora+Vera/data=!4m7!3m6!1s0x9105c5f7efd646c1:0xa84fc75ce509b4f9!8m2!3d-12.0279069!4d-77.0095967!16s%2Fg%2F11p0gtgvvc!19sChIJwUbW7_fFBZER-bQJ5VzHT6g"
+    },
+    {
+      "id": "biz_6",
+      "name": "VIDRIERIA \"HUATUCO\"",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Centro de negocios",
+      "address": "UCV:110 LOTE:42 ZONA :G, Ate 15483",
+      "url": "https://www.google.com/maps/place/VIDRIERIA+%22HUATUCO%22/data=!4m7!3m6!1s0x9105e92ba1950557:0xd887aa7e25c84db4!8m2!3d-12.0193744!4d-76.8211243!16s%2Fg%2F11mb1tym2x!19sChIJVwWVoSvpBZERtE3IJX6qh9g"
+    },
+    {
+      "id": "biz_38",
+      "name": "Vidrieria Casawa Operaciones Logisticas E.I.R.L.",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "Santa Anita 15011",
+      "url": "https://www.google.com/maps/place/Vidrieria+Casawa+Operaciones+Logisticas+E.I.R.L./data=!4m7!3m6!1s0x9105c7de2b6bd89f:0xc2f3cf55601c6617!8m2!3d-12.0378627!4d-76.9566151!16s%2Fg%2F11nsx61_l2!19sChIJn9hrK97HBZERF2YcYFXP88I"
+    },
+    {
+      "id": "biz_87",
+      "name": "Vidreria torres",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Tienda de cristales",
+      "address": "C.C. El Progreso, Av. Argentina, Lima 01370",
+      "url": "https://www.google.com/maps/place/Vidreria+torres/data=!4m7!3m6!1s0x9105c963f622b727:0x4af963c1b6a253c1!8m2!3d-12.0431787!4d-77.0490705!16s%2Fg%2F11tcfj2bt8!19sChIJJ7ci9mPJBZERwVOitsFj-Uo"
+    },
+    {
+      "id": "biz_91",
+      "name": "Aluminio y Vidriería Arellano",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Tienda de artículos de cristal",
+      "address": "Jr, Daniel Vélez 427, Cercado de Lima 15803",
+      "url": "https://www.google.com/maps/place/Aluminio+y+Vidrier%C3%ADa+Arellano/data=!4m7!3m6!1s0x9105b927edc43f2f:0xc254d27b2b118b1d!8m2!3d-12.1504419!4d-76.9755381!16s%2Fg%2F11flvv_k9w!19sChIJLz_E7Se5BZERHYsRK3vSVMI"
+    },
+    {
+      "id": "biz_93",
+      "name": "Edificaciones Palomino y Vidrieria",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Cristalero",
+      "address": "Av. México 520 A, La Victoria LIMA 13",
+      "url": "https://www.google.com/maps/place/Edificaciones+Palomino+y+Vidrieria/data=!4m7!3m6!1s0x9105c9e4f7f4a9cd:0x3cfd7323b948c17!8m2!3d-12.0754745!4d-77.0243087!16s%2Fg%2F11fl4b35b0!19sChIJzan09-TJBZERF4yUOzLXzwM"
+    },
+    {
+      "id": "biz_97",
+      "name": "VIDRIERIA ESDAMI VIDRIOS Y ALUMINIOS EIRL",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Cristalero",
+      "address": "Avenida Surco 308 Barranco Gobierno Regional de Lima LIMA, 04",
+      "url": "https://www.google.com/maps/place/VIDRIERIA+ESDAMI+VIDRIOS+Y+ALUMINIOS+EIRL/data=!4m7!3m6!1s0x9105b700eec6e0d9:0x10622413a8527a74!8m2!3d-12.1470173!4d-77.0176075!16s%2Fg%2F11j4n8fdkv!19sChIJ2eDG7gC3BZERdHpSqBMkYhA"
+    }
+  ]
+}
