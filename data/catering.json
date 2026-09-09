@@ -1,0 +1,523 @@
+{
+  "category": "catering",
+  "searchQuery": "servicios de catering y banquetes en Lima",
+  "totalResults": 55,
+  "updatedAt": "2026-09-09T18:40:53.791Z",
+  "topBusinessContext": {
+    "id": "biz_7",
+    "name": "La cocina de Guisela - Buffet & Catering",
+    "rating": 5,
+    "reviewsCount": null,
+    "category": "Servicio de catering",
+    "address": "Río ramis Mz, Av. Canto Rey 22, San Juan de Lurigancho 15404",
+    "url": "https://www.google.com/maps/place/La+cocina+de+Guisela+-+Buffet+%26+Catering/data=!4m7!3m6!1s0x9105c593321d8d51:0x593a5b55ef88fd97!8m2!3d-11.9752472!4d-77.0001685!16s%2Fg%2F11nbwrkzf2!19sChIJUY0dMpPFBZERl_2I71VbOlk"
+  },
+  "pageContent": {
+    "headline": "Los Mejores Expertos en CATERING en Lima: Conoce a La cocina de Guisela - Buffet & Catering",
+    "subtitles": [
+      "Garantiza resultados hoy mismo. Ubicados en Río ramis Mz, Av. Canto Rey 22, San Juan de Lurigancho 15404, destacan como la opción número uno validada por usuarios reales.",
+      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
+    ],
+    "ctas": [
+      "Contactar por WhatsApp Ahora",
+      "Ver Directorio Completo"
+    ]
+  },
+  "businesses": [
+    {
+      "id": "biz_7",
+      "name": "La cocina de Guisela - Buffet & Catering",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Río ramis Mz, Av. Canto Rey 22, San Juan de Lurigancho 15404",
+      "url": "https://www.google.com/maps/place/La+cocina+de+Guisela+-+Buffet+%26+Catering/data=!4m7!3m6!1s0x9105c593321d8d51:0x593a5b55ef88fd97!8m2!3d-11.9752472!4d-77.0001685!16s%2Fg%2F11nbwrkzf2!19sChIJUY0dMpPFBZERl_2I71VbOlk"
+    },
+    {
+      "id": "biz_8",
+      "name": "Catering Parrillero Perú",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Santiago de Surco 15054",
+      "url": "https://www.google.com/maps/place/Catering+Parrillero+Per%C3%BA/data=!4m7!3m6!1s0x8ded034853e7895b:0x2b025f918a93e877!8m2!3d-12.1600904!4d-76.9917983!16s%2Fg%2F11v0c1qdy7!19sChIJW4nnU0gD7Y0Rd-iTipFfAis"
+    },
+    {
+      "id": "biz_11",
+      "name": "Kaidyz Eventos – Catering y Decoración para Eventos en Lima",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Organizador de eventos",
+      "address": "07016, Lima 00051",
+      "url": "https://www.google.com/maps/place/Kaidyz+Eventos+%E2%80%93+Catering+y+Decoraci%C3%B3n+para+Eventos+en+Lima/data=!4m7!3m6!1s0x9105cb99e1b8d443:0xf8ff552469bdd9fe!8m2!3d-12.074913!4d-77.1155618!16s%2Fg%2F11z4mb9v1p!19sChIJQ9S44ZnLBZER_tm9aSRV__g"
+    },
+    {
+      "id": "biz_13",
+      "name": "Keny Eventos Catering",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Justo Vigil 171 Magdalena del Mar Gobierno Regional de Lima LIMA, 17",
+      "url": "https://www.google.com/maps/place/Keny+Eventos+Catering/data=!4m7!3m6!1s0x9105c992e04cbe61:0x965572faf6cfb708!8m2!3d-12.0990728!4d-77.0628293!16s%2Fg%2F11fp7y7ntv!19sChIJYb5M4JLJBZERCLfP9vpyVZY"
+    },
+    {
+      "id": "biz_15",
+      "name": "Adonai Eventos Catering",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Organizador de bodas",
+      "address": "Urbanizacion Las Lomas, C. Molinos de San Miguel 171, La Molina 15024",
+      "url": "https://www.google.com/maps/place/Adonai+Eventos+Catering/data=!4m7!3m6!1s0x9105c76a95150d07:0x8f4f242e9ee856e!8m2!3d-12.1032447!4d-76.9332621!16s%2Fg%2F11w_n4dc7l!19sChIJBw0VlWrHBZERboXu6ULy9Ag"
+    },
+    {
+      "id": "biz_19",
+      "name": "Maminata Eventos - Tortas y Banquetes",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Ca. Laura Rodríguez Cuadra 273, San Miguel 15087",
+      "url": "https://www.google.com/maps/place/Maminata+Eventos+-+Tortas+y+Banquetes/data=!4m7!3m6!1s0x9105c9741c12f0a9:0xb955506b8f0095e3!8m2!3d-12.0834115!4d-77.0849739!16s%2Fg%2F11cs0clpw3!19sChIJqfASHHTJBZER45UAj2tQVbk"
+    },
+    {
+      "id": "biz_20",
+      "name": "D'López Event Planner & Catering - Tortas",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Organizador de bodas",
+      "address": "Jr, Intisuyo 395, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/D%27L%C3%B3pez+Event+Planner+%26+Catering+-+Tortas/data=!4m7!3m6!1s0x9105c9edf0b0c1eb:0x6c3c590aa5e8b7a3!8m2!3d-12.0738847!4d-77.094172!16s%2Fg%2F11tn9zj3pm!19sChIJ68Gw8O3JBZERo7fopQpZPGw"
+    },
+    {
+      "id": "biz_24",
+      "name": "Catering.pe",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Proveedor mayorista de alimentos y bebidas",
+      "address": "Plaza San Miguel, Av. de la Marina 2000, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/Catering.pe/data=!4m7!3m6!1s0x9105c9eb9f81b30d:0x9b06198f98d5585d!8m2!3d-12.0772573!4d-77.0838802!16s%2Fg%2F11zcswnfzd!19sChIJDbOBn-vJBZERXVjVmI8ZBps"
+    },
+    {
+      "id": "biz_38",
+      "name": "Lucila Eventos y Recepciones",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Organizador de eventos",
+      "address": "Manzana B2 Lote 23 Avenida Proceres De Huandoy, Sta Ana, Los Olivos 15307",
+      "url": "https://www.google.com/maps/place/Lucila+Eventos+y+Recepciones/data=!4m7!3m6!1s0x9105d1de643bf027:0xc329da89b96b80af!8m2!3d-11.9488315!4d-77.0770681!16s%2Fg%2F11gzn4xgn4!19sChIJJ_A7ZN7RBZERr4BruYnaKcM"
+    },
+    {
+      "id": "biz_53",
+      "name": "Star Palace",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Organizador de bodas",
+      "address": "Ca. Los Andes 428, San Martín de Porres 15311",
+      "url": "https://www.google.com/maps/place/Star+Palace/data=!4m7!3m6!1s0x9105cfa2c06f34f5:0x56abbf1dc313730d!8m2!3d-11.9909816!4d-77.0615786!16s%2Fg%2F11xlv1hh6c!19sChIJ9TRvwKLPBZERDXMTwx2_q1Y"
+    },
+    {
+      "id": "biz_2",
+      "name": "El Catering de Andrea E.I.R.L.",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Jr. Honduras 218, Lima 15048",
+      "url": "https://www.google.com/maps/place/El+Catering+de+Andrea+E.I.R.L./data=!4m7!3m6!1s0x9105b7f61c03fe85:0x57740b9cbb0d820f!8m2!3d-12.1301969!4d-77.0160658!16s%2Fg%2F11j99tzs2z!19sChIJhf4DHPa3BZERD4INu5wLdFc"
+    },
+    {
+      "id": "biz_4",
+      "name": "Grill fest Perú Catering Parrillero y Eventos",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Av. Javier Prado Este 4407, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/Grill+fest+Per%C3%BA+Catering+Parrillero+y+Eventos/data=!4m7!3m6!1s0x82de6481dd22ce71:0x8143718344970d4c!8m2!3d-12.0838144!4d-76.9749527!16s%2Fg%2F11smvb9jf0!19sChIJcc4i3YFk3oIRTA2XRINxQ4E"
+    },
+    {
+      "id": "biz_5",
+      "name": "Casa La Molina - CATERING EVENTOS BG",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Organizador de eventos",
+      "address": "15023, La Molina",
+      "url": "https://www.google.com/maps/place/Casa+La+Molina+-+CATERING+EVENTOS+BG/data=!4m7!3m6!1s0x9105c7b28f4b8f5f:0xb9a41ad4a42fb7bf!8m2!3d-12.0644193!4d-76.9635681!16s%2Fg%2F11ybxlwfsv!19sChIJX49Lj7LHBZERv7cvpNQapLk"
+    },
+    {
+      "id": "biz_9",
+      "name": "DAGA CATERING / Bodas - Eventos - Graduaciones - Salones & Jardines",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Santa Carnela / Urb Palao, San Martín de Porres 15103",
+      "url": "https://www.google.com/maps/place/DAGA+CATERING+%2F+Bodas+-+Eventos+-+Graduaciones+-+Salones+%26+Jardines/data=!4m7!3m6!1s0x9105cf7cbaecd8b7:0xdb3e087853a70345!8m2!3d-12.021977!4d-77.061487!16s%2Fg%2F11j36hc59_!19sChIJt9jsunzPBZERRQOnU3gIPts"
+    },
+    {
+      "id": "biz_12",
+      "name": "buffet criollo a domicilio",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Comida a domicilio",
+      "address": "José Bazzochi 386 A, La Victoria 00013",
+      "url": "https://www.google.com/maps/place/buffet+criollo+a+domicilio/data=!4m7!3m6!1s0xa3eca9fe2f97f33:0x192d90b018306441!8m2!3d-12.0825574!4d-77.0223477!16s%2Fg%2F11tnk2_95g!19sChIJM3_54p_KPgoRQWQwGLCQLRk"
+    },
+    {
+      "id": "biz_14",
+      "name": "Aklla Catering",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "C. Espaderos 120, Lima 15039",
+      "url": "https://www.google.com/maps/place/Aklla+Catering/data=!4m7!3m6!1s0x9105b87588ab7c6f:0x87173bf1fff3e8ea!8m2!3d-12.1268144!4d-76.98402!16s%2Fg%2F11bxc5z1cs!19sChIJb3yriHW4BZER6ujz__E7F4c"
+    },
+    {
+      "id": "biz_1",
+      "name": "Tzabar Catering Gourmet y Eventos",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Saturno 132, Ate 15022",
+      "url": "https://www.google.com/maps/place/Tzabar+Catering+Gourmet+y+Eventos/data=!4m7!3m6!1s0x9105c79ee14b617b:0x28583e5f0d2f4219!8m2!3d-12.0721129!4d-76.9755686!16s%2Fg%2F11b76ghk57!19sChIJe2FL4Z7HBZERGUIvDV8-WCg"
+    },
+    {
+      "id": "biz_10",
+      "name": "Aromas y Dulzura",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Clemencia Vluda de Ferreyros 2719, Lima 15081",
+      "url": "https://www.google.com/maps/place/Aromas+y+Dulzura/data=!4m7!3m6!1s0x9105c93797249483:0xda9c9eb28cbd4ab1!8m2!3d-12.053046!4d-77.0776061!16s%2Fg%2F11f15mm22w!19sChIJg5QklzfJBZERsUq9jLKenNo"
+    },
+    {
+      "id": "biz_33",
+      "name": "Villa Cosentino",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Sala de banquetes",
+      "address": "Alameda Don Alfonso Mz. Q-1 Lote 10, Chorrillos 15067",
+      "url": "https://www.google.com/maps/place/Villa+Cosentino/data=!4m7!3m6!1s0x9105b9e54fda0f37:0x3cdc526f7569d163!8m2!3d-12.2064168!4d-76.9998403!16s%2Fg%2F11b6jbsbf9!19sChIJNw_aT-W5BZERY9FpdW9S3Dw"
+    },
+    {
+      "id": "biz_37",
+      "name": "El Palacio Real",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Salón para eventos",
+      "address": "C. 15, Lima 15457",
+      "url": "https://www.google.com/maps/place/El+Palacio+Real/data=!4m7!3m6!1s0x9105c56015635259:0x93164beb102daa1a!8m2!3d-12.0125067!4d-76.9629759!16s%2Fg%2F11t_ps4s48!19sChIJWVJjFWDFBZERGqotEOtLFpM"
+    },
+    {
+      "id": "biz_42",
+      "name": "Espejo Luna",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Recinto para eventos",
+      "address": "Av. Gran Chimú 654, San Juan de Lurigancho 15401",
+      "url": "https://www.google.com/maps/place/Espejo+Luna/data=!4m7!3m6!1s0x9105c5f0ef81dd69:0xf9ed9112e09c026e!8m2!3d-12.0261555!4d-77.0026414!16s%2Fg%2F11b6r_p1f6!19sChIJad2B7_DFBZERbgKc4BKR7fk"
+    },
+    {
+      "id": "biz_47",
+      "name": "Leon Viejo Banquetes & Catering",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Leon+Viejo+Banquetes+%26+Catering/data=!4m7!3m6!1s0x9106df09ba9d17b9:0xdc641cab6822a5b8!8m2!3d-11.1297303!4d-77.6053798!16s%2Fg%2F11f3vnpplx!19sChIJuRedugnfBpERuKUiaKscZNw"
+    },
+    {
+      "id": "biz_3",
+      "name": "Ña Catita Eventos & Catering",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Barlovento 220, Lima 15026",
+      "url": "https://www.google.com/maps/place/%C3%91a+Catita+Eventos+%26+Catering/data=!4m7!3m6!1s0x9105c0ddd68391d1:0xabfd1307ca784815!8m2!3d-12.0851122!4d-76.8976906!16s%2Fg%2F11hcyt59_2!19sChIJ0ZGD1t3ABZERFUh4ygcT_as"
+    },
+    {
+      "id": "biz_18",
+      "name": "Zolimar Eventos y Catering",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Organizador de eventos",
+      "address": "Av. Trapiche 1085, Comas 15316",
+      "url": "https://www.google.com/maps/place/Zolimar+Eventos+y+Catering/data=!4m7!3m6!1s0x9105d1adae6df87b:0x80ae6083820c5221!8m2!3d-11.9167795!4d-77.0598251!16s%2Fg%2F11dxm9sb02!19sChIJe_htrq3RBZERIVIMgoNgroA"
+    },
+    {
+      "id": "biz_25",
+      "name": "YUNIKU",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Proveedor mayorista de alimentos y bebidas",
+      "address": "Av Jose Carlos Mariategui 712, Lima 15811",
+      "url": "https://www.google.com/maps/place/YUNIKU/data=!4m7!3m6!1s0x9105b8f1e7d41849:0x58e3cd8950a5a842!8m2!3d-12.1558267!4d-76.9534455!16s%2Fg%2F11hcv_k43g!19sChIJSRjU5_G4BZERQqilUInN41g"
+    },
+    {
+      "id": "biz_32",
+      "name": "Organizate Wedding Planner",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Organizador de bodas",
+      "address": "Av. Mariscal La Mar 550, Miraflores 15046",
+      "url": "https://www.google.com/maps/place/Organizate+Wedding+Planner/data=!4m7!3m6!1s0x9105c9b5faf9d1bb:0x4610f85a13a6f88!8m2!3d-12.1149545!4d-77.0436958!16s%2Fg%2F11z8jzzgh5!19sChIJu9H5-rXJBZERiG86oYUPYQQ"
+    },
+    {
+      "id": "biz_44",
+      "name": "Limatambo Tower | Alquiler de Salas de Reuniones y Eventos Corporativos",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Palacio de congresos",
+      "address": "Av. República de Panamá 3576, San Isidro 15048",
+      "url": "https://www.google.com/maps/place/Limatambo+Tower+%7C+Alquiler+de+Salas+de+Reuniones+y+Eventos+Corporativos/data=!4m7!3m6!1s0x9105c871a33f63d5:0xe0f1c51c15905602!8m2!3d-12.1001457!4d-77.0196666!16s%2Fg%2F11bbtmdgcr!19sChIJ1WM_o3HIBZERAlaQFRzF8eA"
+    },
+    {
+      "id": "biz_52",
+      "name": "Local Villa Verde",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Recinto para eventos",
+      "address": "Venecia cuadra 2, Chorrillos 15842",
+      "url": "https://www.google.com/maps/place/Local+Villa+Verde/data=!4m7!3m6!1s0x9105ba2fac7182db:0xfb003ef6d8bc68c8!8m2!3d-12.2259205!4d-76.9731825!16s%2Fg%2F11c1p8mszx!19sChIJ24JxrC-6BZERyGi82PY-APs"
+    },
+    {
+      "id": "biz_16",
+      "name": "EVENTOS ASENCIO",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "",
+      "url": "https://www.google.com/maps/place/EVENTOS+ASENCIO/data=!4m7!3m6!1s0x9105d1d65c311cc7:0xc2dde0f81e39da6c!8m2!3d-9.2435385!4d-75.0195046!16s%2Fg%2F11h6q8drzw!19sChIJxxwxXNbRBZERbNo5Hvjg3cI"
+    },
+    {
+      "id": "biz_21",
+      "name": "Vilma Tafur Fiestas & Bodas",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Salón de bodas",
+      "address": "Av. Huarochiri Mz C, Lima 15011",
+      "url": "https://www.google.com/maps/place/Vilma+Tafur+Fiestas+%26+Bodas/data=!4m7!3m6!1s0x9105c42902adddcd:0xb8067d36452a9fbe!8m2!3d-12.0337064!4d-76.9556841!16s%2Fg%2F11g6_d9g83!19sChIJzd2tAinEBZERvp8qRTZ9Brg"
+    },
+    {
+      "id": "biz_45",
+      "name": "Eventos y Recepciones Jimmy: Sede Av El Sol",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Sala de banquetes",
+      "address": "Av. El Sol 213, Lima 15419",
+      "url": "https://www.google.com/maps/place/Eventos+y+Recepciones+Jimmy:+Sede+Av+El+Sol/data=!4m7!3m6!1s0x9105cf880290ed3f:0x8b5e72cbab707323!8m2!3d-11.9832399!4d-77.0104161!16s%2Fg%2F11bw5_t64l!19sChIJP-2QAojPBZERI3Nwq8tyXos"
+    },
+    {
+      "id": "biz_41",
+      "name": "Renzo's",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Recinto para eventos",
+      "address": "Av. Belisario Suarez 499, San Juan de Miraflores 15801",
+      "url": "https://www.google.com/maps/place/Renzo%27s/data=!4m7!3m6!1s0x9105b85a8e6d9573:0xa661605e27279626!8m2!3d-12.1601381!4d-76.9735665!16s%2Fg%2F11b6mln7xh!19sChIJc5Vtjlq4BZERJpYnJ15gYaY"
+    },
+    {
+      "id": "biz_51",
+      "name": "Casa Club Los Alamos",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Salón para eventos",
+      "address": "Av. Los Álamos 411, Lima 15434",
+      "url": "https://www.google.com/maps/place/Casa+Club+Los+Alamos/data=!4m7!3m6!1s0x9105c5d51cf816d1:0x9d7f630299f1a504!8m2!3d-11.9853103!4d-76.9980945!16s%2Fg%2F11gtylt_xf!19sChIJ0Rb4HNXFBZERBKXxmQJjf50"
+    },
+    {
+      "id": "biz_39",
+      "name": "SALÓN Y EVENTOS MARGARITA",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Salón para eventos",
+      "address": "Auxiliar Av. Próceres de la Independencia 4166, San Juan de Lurigancho 15438",
+      "url": "https://www.google.com/maps/place/SAL%C3%93N+Y+EVENTOS+MARGARITA/data=!4m7!3m6!1s0x9105c547be72bfe9:0x40a7d424f475b2fe!8m2!3d-11.9624186!4d-76.988977!16s%2Fg%2F11b6gcmyv3!19sChIJ6b9yvkfFBZER_rJ19CTUp0A"
+    },
+    {
+      "id": "biz_17",
+      "name": "Productora & Catering de Eventos Guadalupe - Catering Alquiler de Mobiliario para eventos Sociales y corporativos",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Jirón, Pueblo Libre, Jr. José Mariano Arce 486, Lima 23",
+      "url": "https://www.google.com/maps/place/Productora+%26+Catering+de+Eventos+Guadalupe+-+Catering+Alquiler+de+Mobiliario+para+eventos+Sociales+y+corporativos/data=!4m7!3m6!1s0x9105c919f27347b9:0x17052a393ca8b70f!8m2!3d-12.0698618!4d-77.0665232!16s%2Fg%2F11f4m6yhq9!19sChIJuUdz8hnJBZERD7eoPDkqBRc"
+    },
+    {
+      "id": "biz_29",
+      "name": "Centro de Conveciones Los Incas",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Sala de banquetes",
+      "address": "Av. Caminos del Inca 3200, Santiago de Surco 15803",
+      "url": "https://www.google.com/maps/place/Centro+de+Conveciones+Los+Incas/data=!4m7!3m6!1s0x9105bdafa88fcdc3:0x773780221d46008d!8m2!3d-12.1434558!4d-76.9854837!16s%2Fg%2F11c6cf2w6_!19sChIJw82PqK-9BZERjQBGHSKAN3c"
+    },
+    {
+      "id": "biz_36",
+      "name": "Eventos Krystal",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Recinto para eventos",
+      "address": "Avenida Huancaray, Exterior: Manzana C3 Lote 4, Santa Anita 15011",
+      "url": "https://www.google.com/maps/place/Eventos+Krystal/data=!4m7!3m6!1s0x9105c4278891c66f:0xe19527da70ac9ff7!8m2!3d-12.0367488!4d-76.9506826!16s%2Fg%2F11gxt9w8qt!19sChIJb8aRiCfEBZER95-scNonleE"
+    },
+    {
+      "id": "biz_48",
+      "name": "J & J salon de recepciones",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Salón de bodas",
+      "address": "urb santa María del valle, Av canta Callao mz H lote 6, San Martín de Porres 15112",
+      "url": "https://www.google.com/maps/place/J+%26+J+salon+de+recepciones/data=!4m7!3m6!1s0x9105cf0203842387:0x32bb511e28c97e38!8m2!3d-11.9859548!4d-77.1012672!16s%2Fg%2F11tcqjr93g!19sChIJhyOEAwLPBZEROH7JKB5RuzI"
+    },
+    {
+      "id": "biz_22",
+      "name": "Buffet Criollo Peru",
+      "rating": 3.6,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Jr. Los Avellanos Mz B Lote 6, Santiago de Surco 15074",
+      "url": "https://www.google.com/maps/place/Buffet+Criollo+Peru/data=!4m7!3m6!1s0x9105c9176b6422af:0x4d9b49e4f1755bd2!8m2!3d-12.1532328!4d-77.0069255!16s%2Fg%2F11gk8t_pyv!19sChIJryJkaxfJBZER0lt18eRJm00"
+    },
+    {
+      "id": "biz_30",
+      "name": "Catering&eventos",
+      "rating": 1,
+      "reviewsCount": null,
+      "category": "Organizador de eventos",
+      "address": "051, Santiago de Surco",
+      "url": "https://www.google.com/maps/place/Catering%26eventos/data=!4m7!3m6!1s0x9105c7b6b86b9423:0x28b5084ec10dde89!8m2!3d-12.0787518!4d-76.9759287!16s%2Fg%2F11ld26mq7f!19sChIJI5RruLbHBZERid4NwU4ItSg"
+    },
+    {
+      "id": "biz_34",
+      "name": "Catering J.A",
+      "rating": 1,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Amelos 2239, San Juan de Lurigancho 15096",
+      "url": "https://www.google.com/maps/place/Catering+J.A/data=!4m7!3m6!1s0x9105cf35bb84b0b3:0xc73c073378ac41b8!8m2!3d-11.9938086!4d-77.014657!16s%2Fg%2F11wvtsrtds!19sChIJs7CEuzXPBZERuEGseDMHPMc"
+    },
+    {
+      "id": "biz_6",
+      "name": "Eventos y Catering Lima Perú.",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Organizador de eventos",
+      "address": "15026, La Molina 15026",
+      "url": "https://www.google.com/maps/place/Eventos+y+Catering+Lima+Per%C3%BA./data=!4m7!3m6!1s0x9105c1b2157be103:0x63bc7846f2a4bd4d!8m2!3d-12.0873612!4d-76.9035558!16s%2Fg%2F11z56ybvwj!19sChIJA-F7FbLBBZERTb2k8kZ4vGM"
+    },
+    {
+      "id": "biz_23",
+      "name": "Catering en Lima Buffet July",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Catering móvil",
+      "address": "51, La Perla 07001",
+      "url": "https://www.google.com/maps/place/Catering+en+Lima+Buffet+July/data=!4m7!3m6!1s0x9105cb7098610ac5:0xea3b968917f92687!8m2!3d-12.0775181!4d-77.111721!16s%2Fg%2F11wfs8thvb!19sChIJxQphmHDLBZERhyb5F4mWO-o"
+    },
+    {
+      "id": "biz_26",
+      "name": "Aurea María Catering Eventos",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Av. Jorge Chávez 769, Santiago de Surco 15049",
+      "url": "https://www.google.com/maps/place/Aurea+Mar%C3%ADa+Catering+Eventos/data=!4m7!3m6!1s0x9105b76969dc60d5:0x4c2c76ab4c38655a!8m2!3d-12.1461918!4d-77.0124892!16s%2Fg%2F11h0wzxnzj!19sChIJ1WDcaWm3BZERWmU4TKt2LEw"
+    },
+    {
+      "id": "biz_27",
+      "name": "Rosa Amelia Brou - Bodas y Eventos",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Jr. Jerónimo de Aliaga Sur 691, Lima 15023",
+      "url": "https://www.google.com/maps/place/Rosa+Amelia+Brou+-+Bodas+y+Eventos/data=!4m7!3m6!1s0x9105c7e845cd8323:0x119a7a599233bdb!8m2!3d-12.1159984!4d-76.9753463!16s%2Fg%2F11rdy7ggrf!19sChIJI4PNRejHBZER2zsjmaWnGQE"
+    },
+    {
+      "id": "biz_28",
+      "name": "Evaristo Catering",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Calle Matarani 167, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/Evaristo+Catering/data=!4m7!3m6!1s0x9105cb08f3d3f6f7:0x32485e1d81f8e672!8m2!3d-12.0774167!4d-77.0947987!16s%2Fg%2F11tfvfr3gc!19sChIJ9_bT8wjLBZERcub4gR1eSDI"
+    },
+    {
+      "id": "biz_31",
+      "name": "Comidas y Bebidas Lima (Matrimonios, 15 Años, Congresos, Fiestas)",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Proveedor mayorista de alimentos y bebidas",
+      "address": "Avenida San Lorenzo 320 Lima 13, LIMA 13",
+      "url": "https://www.google.com/maps/place/Comidas+y+Bebidas+Lima+%28Matrimonios,+15+A%C3%B1os,+Congresos,+Fiestas%29/data=!4m7!3m6!1s0x9105c8b63d242a17:0xedb2beea71b45ee4!8m2!3d-12.0670321!4d-77.025121!16s%2Fg%2F11fy4vs57t!19sChIJFyokPbbIBZER5F60ceq-su0"
+    },
+    {
+      "id": "biz_35",
+      "name": "Dlujo Eventos",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Organizador de eventos",
+      "address": "San Juan de Miraflores 15056",
+      "url": "https://www.google.com/maps/place/Dlujo+Eventos/data=!4m7!3m6!1s0x9105b9d7dfdd458b:0x108140ed73e1e77e!8m2!3d-12.1551319!4d-76.9722636!16s%2Fg%2F11jg1k2sft!19sChIJi0Xd39e5BZERfufhc-1AgRA"
+    },
+    {
+      "id": "biz_40",
+      "name": "Decomotivos",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Organizador de eventos",
+      "address": "Av los Virreyez mz J lote 2 Urb, Santa Anita 15001",
+      "url": "https://www.google.com/maps/place/Decomotivos/data=!4m7!3m6!1s0x9105c5d75391cd03:0xc4b79065375f0cee!8m2!3d-12.0317717!4d-76.946298!16s%2Fg%2F11rq3z__mq!19sChIJA82RU9fFBZER7gxfN2WQt8Q"
+    },
+    {
+      "id": "biz_43",
+      "name": "Berenyce Eventos",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Organizador de eventos",
+      "address": "Lurigancho-Chosica 15464",
+      "url": "https://www.google.com/maps/place/Berenyce+Eventos/data=!4m7!3m6!1s0x9105c35009b9b069:0x7692c93185766c05!8m2!3d-12.0063728!4d-76.8684147!16s%2Fg%2F11q97sv5mn!19sChIJabC5CVDDBZERBWx2hTHJknY"
+    },
+    {
+      "id": "biz_46",
+      "name": "D´ALONSO Tortas y Banquetes",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "LIMA, Av San Borja Sur 580, San Borja",
+      "url": "https://www.google.com/maps/place/D%C2%B4ALONSO+Tortas+y+Banquetes/data=!4m7!3m6!1s0x9105c7c560c4ebab:0x789123ffde13002c!8m2!3d-11.5529255!4d-76.8708161!16s%2Fg%2F11ghshpddt!19sChIJq-vEYMXHBZERLAAT3v8jkXg"
+    },
+    {
+      "id": "biz_49",
+      "name": "Banquetes Villanueva",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Banquetes+Villanueva/data=!4m7!3m6!1s0x47874f88478a8a85:0x38daea70f4d853f2!8m2!3d-12.0266383!4d-76.9877792!16s%2Fg%2F11jycs_xl6!19sChIJhYqKR4hPh0cR8lPY9HDq2jg"
+    },
+    {
+      "id": "biz_50",
+      "name": "wedding planner Rocio Nuñez",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Organizador de bodas",
+      "address": "Jr. Varela 1208, Breña 15083",
+      "url": "https://www.google.com/maps/place/wedding+planner+Rocio+Nu%C3%B1ez/data=!4m7!3m6!1s0x9105c9692a40362f:0xb0b6464bbd609c2c!8m2!3d-12.0602846!4d-77.0471456!16s%2Fg%2F11n3yfqr3l!19sChIJLzZAKmnJBZERLJxgvUtGtrA"
+    },
+    {
+      "id": "biz_54",
+      "name": "Pikeos a Ti",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Proveedor mayorista de alimentos y bebidas",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Pikeos+a+Ti/data=!4m7!3m6!1s0x9105cf09ad1c1da1:0x2c7fb5514ae178a4!8m2!3d-12.0552393!4d-77.0452227!16s%2Fg%2F11f76cks4f!19sChIJoR0crQnPBZERpHjhSlG1fyw"
+    },
+    {
+      "id": "biz_55",
+      "name": "Alicia López Catering",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Servicio de catering",
+      "address": "Av. Guardia Civil 860, Lima 15036",
+      "url": "https://www.google.com/maps/place/Alicia+L%C3%B3pez+Catering/data=!4m7!3m6!1s0x9105c9eb75cff9a9:0xf2630e0a13c36143!8m2!3d-12.0990864!4d-77.0131161!16s%2Fg%2F11h4npw142!19sChIJqfnPdevJBZERQ2HDEwoOY_I"
+    }
+  ]
+}
