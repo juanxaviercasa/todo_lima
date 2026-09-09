@@ -1,138 +1,703 @@
 {
   "category": "doctores",
   "searchQuery": "doctores en Lima",
-  "totalResults": 10,
-  "updatedAt": "2026-09-08T04:48:47.776Z",
+  "totalResults": 75,
+  "updatedAt": "2026-09-09T05:30:39.473Z",
+  "topBusinessContext": {
+    "id": "biz_3",
+    "name": "Consultorio Médico Paruro",
+    "rating": 5,
+    "reviewsCount": null,
+    "category": "Oficina médica",
+    "address": "Jr. Paruro 475, Lima 15001",
+    "url": "https://www.google.com/maps/place/Consultorio+M%C3%A9dico+Paruro/data=!4m7!3m6!1s0x9105c96c44224597:0xe5832dc594b0cc1f!8m2!3d-12.048205!4d-77.0230113!16s%2Fg%2F11scq47wxk!19sChIJl0UiRGzJBZERH8ywlMUtg-U"
+  },
+  "pageContent": {
+    "headline": "Los Mejores Expertos en DOCTORES en Lima: Conoce a Consultorio Médico Paruro",
+    "subtitles": [
+      "Garantiza resultados hoy mismo. Ubicados en Jr. Paruro 475, Lima 15001, destacan como la opción número uno validada por usuarios reales.",
+      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
+    ],
+    "ctas": [
+      "Contactar por WhatsApp Ahora",
+      "Ver Directorio Completo"
+    ]
+  },
   "businesses": [
+    {
+      "id": "biz_3",
+      "name": "Consultorio Médico Paruro",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Oficina médica",
+      "address": "Jr. Paruro 475, Lima 15001",
+      "url": "https://www.google.com/maps/place/Consultorio+M%C3%A9dico+Paruro/data=!4m7!3m6!1s0x9105c96c44224597:0xe5832dc594b0cc1f!8m2!3d-12.048205!4d-77.0230113!16s%2Fg%2F11scq47wxk!19sChIJl0UiRGzJBZERH8ywlMUtg-U"
+    },
+    {
+      "id": "biz_5",
+      "name": "Foraneus Med",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Médico de familia",
+      "address": "Av. Emancipación 153, Lima 15001",
+      "url": "https://www.google.com/maps/place/Foraneus+Med/data=!4m7!3m6!1s0x9105c9dbf794aecb:0x8e54ddd74d8b8f5e!8m2!3d-12.0488275!4d-77.0339329!16s%2Fg%2F11ntf38nsc!19sChIJy66U99vJBZERXo-LTdfdVI4"
+    },
+    {
+      "id": "biz_6",
+      "name": "Dr. Ruslan Golovliov Balbin",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "Jirón Daniel Hernandez 639, Lima 00511",
+      "url": "https://www.google.com/maps/place/Dr.+Ruslan+Golovliov+Balbin/data=!4m7!3m6!1s0x9105c9d7ffa0f555:0x69fbd5c96873b3b9!8m2!3d-12.0728488!4d-77.0681862!16s%2Fg%2F11jcq1jwt7!19sChIJVfWg_9fJBZERubNzaMnV-2k"
+    },
     {
       "id": "biz_8",
       "name": "Dr. Miguel Ángel Núñez Duarte",
       "rating": 5,
-      "reviewsCount": 501,
+      "reviewsCount": null,
       "category": "Oficina médica",
       "address": "Av. Alfonso Ugarte 780, Lima 15082",
-      "phone": "943 027 441",
-      "website": "https://www.doctoralia.pe/miguel-angel-nunez-duarte/medico-general/cercado-de-lima",
-      "url": "https://www.google.com/maps/place/Dr.+Miguel+%C3%81ngel+N%C3%BA%C3%B1ez+Duarte/data=!4m7!3m6!1s0x9105c9b888d30509:0xf6905c3b4dc15c94!8m2!3d-12.0488081!4d-77.0428112!16s%2Fg%2F11lclry32w!19sChIJCQXTiLjJBZERlFzBTTtckPY?hl=es",
-      "latitude": -12.0488081,
-      "longitude": -77.0428112
-    },
-    {
-      "id": "biz_7",
-      "name": "Dr. Ruslan Golovliov Balbin",
-      "rating": 5,
-      "reviewsCount": 5,
-      "category": "Médico",
-      "address": "Jirón Daniel Hernandez 639, Lima 00511",
-      "phone": null,
-      "website": "http://www.doctoralia.pe/z/CRWFXz",
-      "url": "https://www.google.com/maps/place/Dr.+Ruslan+Golovliov+Balbin/data=!4m7!3m6!1s0x9105c9d7ffa0f555:0x69fbd5c96873b3b9!8m2!3d-12.0728488!4d-77.0681862!16s%2Fg%2F11jcq1jwt7!19sChIJVfWg_9fJBZERubNzaMnV-2k?hl=es",
-      "latitude": -12.0728488,
-      "longitude": -77.0681862
-    },
-    {
-      "id": "biz_3",
-      "name": "Consultas Médicas En Linea - Orientaris",
-      "rating": 4.9,
-      "reviewsCount": 102,
-      "category": "Médico de medicina general",
-      "address": "C. José Dionisio Anchorena 015, San Isidro 15073",
-      "phone": "945 521 701",
-      "website": "https://orientarisenlinea.com/",
-      "url": "https://www.google.com/maps/place/Consultas+M%C3%A9dicas+En+Linea+-+Orientaris/data=!4m7!3m6!1s0x9105c928275cacdd:0x50f56346f85f381!8m2!3d-12.10046!4d-77.0521917!16s%2Fg%2F11ndwly7t8!19sChIJ3axcJyjJBZERgfOFbzRWDwU?hl=es",
-      "latitude": -12.10046,
-      "longitude": -77.0521917
-    },
-    {
-      "id": "biz_4",
-      "name": "Foraneus Med",
-      "rating": 5,
-      "reviewsCount": 2,
-      "category": "Médico de familia",
-      "address": "Av. Emancipación 153, Lima 15001",
-      "phone": "900 594 212",
-      "website": "http://foraneusmed.com/",
-      "url": "https://www.google.com/maps/place/Foraneus+Med/data=!4m7!3m6!1s0x9105c9dbf794aecb:0x8e54ddd74d8b8f5e!8m2!3d-12.0488275!4d-77.0339329!16s%2Fg%2F11ntf38nsc!19sChIJy66U99vJBZERXo-LTdfdVI4?hl=es",
-      "latitude": -12.0488275,
-      "longitude": -77.0339329
-    },
-    {
-      "id": "biz_2",
-      "name": "Consultorio Médico Paruro",
-      "rating": 5,
-      "reviewsCount": 1,
-      "category": "Oficina médica",
-      "address": "Jr. Paruro 475, Lima 15001",
-      "phone": "948 977 787",
-      "website": "https://www.doctoralia.pe/alfredo-yong-s/pediatra-medico-general/lima",
-      "url": "https://www.google.com/maps/place/Consultorio+M%C3%A9dico+Paruro/data=!4m7!3m6!1s0x9105c96c44224597:0xe5832dc594b0cc1f!8m2!3d-12.048205!4d-77.0230113!16s%2Fg%2F11scq47wxk!19sChIJl0UiRGzJBZERH8ywlMUtg-U?hl=es",
-      "latitude": -12.048205,
-      "longitude": -77.0230113
+      "url": "https://www.google.com/maps/place/Dr.+Miguel+%C3%81ngel+N%C3%BA%C3%B1ez+Duarte/data=!4m7!3m6!1s0x9105c9b888d30509:0xf6905c3b4dc15c94!8m2!3d-12.0488081!4d-77.0428112!16s%2Fg%2F11lclry32w!19sChIJCQXTiLjJBZERlFzBTTtckPY"
     },
     {
       "id": "biz_10",
       "name": "Consultorios Médicos ROSALES",
       "rating": 5,
-      "reviewsCount": 1,
+      "reviewsCount": null,
       "category": "Oficina médica",
       "address": "XW9M+925, Lima 15101",
-      "phone": null,
-      "website": null,
-      "url": "https://www.google.com/maps/place/Consultorios+M%C3%A9dicos+ROSALES/data=!4m7!3m6!1s0x9105ced0015386d7:0xb32ad8db9e92b89a!8m2!3d-12.0316166!4d-77.0673945!16s%2Fg%2F11f3ws9sr2!19sChIJ14ZTAdDOBZERmriSntvYKrM?hl=es",
-      "latitude": -12.0316166,
-      "longitude": -77.0673945
+      "url": "https://www.google.com/maps/place/Consultorios+M%C3%A9dicos+ROSALES/data=!4m7!3m6!1s0x9105ced0015386d7:0xb32ad8db9e92b89a!8m2!3d-12.0316166!4d-77.0673945!16s%2Fg%2F11f3ws9sr2!19sChIJ14ZTAdDOBZERmriSntvYKrM"
     },
     {
-      "id": "biz_1",
+      "id": "biz_14",
+      "name": "consultorio medico del doctor Vicuña",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "# 201, Av. Alfonso Ugarte 1346",
+      "url": "https://www.google.com/maps/place/consultorio+medico+del+doctor+Vicu%C3%B1a/data=!4m7!3m6!1s0x9105c8c489fc0795:0xb9bca8a84b6bbfd2!8m2!3d-12.057036!4d-77.0420819!16s%2Fg%2F11c3pwl5p9!19sChIJlQf8icTIBZER0r9rS6iovLk"
+    },
+    {
+      "id": "biz_15",
+      "name": "TuMedico.com",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Asesor médico",
+      "address": "Av. El Derby 055. Centro Empresarial Cronos. Av. El Derby 055. Centro, Empresaria, lima 15048",
+      "url": "https://www.google.com/maps/place/TuMedico.com/data=!4m7!3m6!1s0x9105c7a40572f6bb:0x7ee1fa8b8430422f!8m2!3d-12.098893!4d-76.970707!16s%2Fg%2F11g9qrkv6w!19sChIJu_ZyBaTHBZERL0IwhIv64X4"
+    },
+    {
+      "id": "biz_18",
+      "name": "Cirujano Plastico en Lima - Dr. Wilder Vasquez",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Cirujano plástico",
+      "address": "Av. Gral. Eugenio Garzón 2045, Jesús María 11",
+      "url": "https://www.google.com/maps/place/Cirujano+Plastico+en+Lima+-+Dr.+Wilder+Vasquez/data=!4m7!3m6!1s0x9105c9c17c9e446b:0x7ad916ae664ca791!8m2!3d-12.0805206!4d-77.0562774!16s%2Fg%2F11h15lycjt!19sChIJa0SefMHJBZERkadMZq4W2Xo"
+    },
+    {
+      "id": "biz_19",
+      "name": "Psiquiatra Dr. Diego Zelada | Consulta en Lima y Teleconsulta Policlinico Rapisalud",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psiquiatra",
+      "address": "Av. Julio Cesar Tello 798 Lince (Rapisalud, Lince 15073",
+      "url": "https://www.google.com/maps/place/Psiquiatra+Dr.+Diego+Zelada+%7C+Consulta+en+Lima+y+Teleconsulta+Policlinico+Rapisalud/data=!4m7!3m6!1s0x9105c919ce20e929:0x50ccd3e08997053b!8m2!3d-12.0866029!4d-77.0411069!16s%2Fg%2F11nj1njy0j!19sChIJKekgzhnJBZEROwWXieDTzFA"
+    },
+    {
+      "id": "biz_23",
+      "name": "Dr. Orlando Plaza Heresi - Medico General (Videoconsulta)",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "Lima 07001",
+      "url": "https://www.google.com/maps/place/Dr.+Orlando+Plaza+Heresi+-+Medico+General+%28Videoconsulta%29/data=!4m7!3m6!1s0x9105c967aaf065e9:0x184d134f6396e72e!8m2!3d-12.046374!4d-77.0427934!16s%2Fg%2F11qg5htybz!19sChIJ6WXwqmfJBZERLueWY08TTRg"
+    },
+    {
+      "id": "biz_25",
+      "name": "Traumatólogo Lima | Dr. Pintado Mejia Juan Francisco",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Oficina médica",
+      "address": "Av. Arenales 1245 Consultorio (Vydacare y Clínica Stella Maris (pueblo Libre, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Traumat%C3%B3logo+Lima+%7C+Dr.+Pintado+Mejia+Juan+Francisco/data=!4m7!3m6!1s0x9105c98aed6bb3ad:0x53ebaa5b7b08e5fb!8m2!3d-12.0775103!4d-77.0364316!16s%2Fg%2F11w7hm9j_c!19sChIJrbNr7YrJBZER--UIe1uq61M"
+    },
+    {
+      "id": "biz_27",
+      "name": "Cardiólogo Lima - Jesús María - Dr Jean Piere Burgos",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Cardiólogo",
+      "address": "Av. Gral. Juan Antonio Álvarez de Arenales 483, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Cardi%C3%B3logo+Lima+-+Jes%C3%BAs+Mar%C3%ADa+-+Dr+Jean+Piere+Burgos/data=!4m7!3m6!1s0x9105c967354b1dd9:0x20a472fd8b3d25f4!8m2!3d-12.0694729!4d-77.0376796!16s%2Fg%2F11x6j_lj10!19sChIJ2R1LNWfJBZER9CU9i_1ypCA"
+    },
+    {
+      "id": "biz_31",
+      "name": "Dr. Eduardo Demetrio Matos Prado, Infectólogo",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Especialista en enfermedades infecciosas",
+      "address": "Municipalidad Metropolitana de, Av. Alfonso Ugarte 712, Lima 15001",
+      "url": "https://www.google.com/maps/place/Dr.+Eduardo+Demetrio+Matos+Prado,+Infect%C3%B3logo/data=!4m7!3m6!1s0x9105c9da640822ef:0x7f5eed1a2eeee557!8m2!3d-12.0483059!4d-77.0428602!16s%2Fg%2F11jp3zpwf8!19sChIJ7yIIZNrJBZERV-XuLhrtXn8"
+    },
+    {
+      "id": "biz_35",
+      "name": "Centro Médico DC Lima CIP",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "Jr. Manco Segundo 2628, Lince 15073",
+      "url": "https://www.google.com/maps/place/Centro+M%C3%A9dico+DC+Lima+CIP/data=!4m7!3m6!1s0x9105c999e9810ee1:0xbadfa2492882d82!8m2!3d-12.0902361!4d-77.0457583!16s%2Fg%2F11j38cdhtf!19sChIJ4Q6B6ZnJBZERgi2IkiT6rQs"
+    },
+    {
+      "id": "biz_37",
+      "name": "Dr. Álvaro Máiz García",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Neurocirujano",
+      "address": "Av. Garcilaso de la Vega 1420, Lima 15001",
+      "url": "https://www.google.com/maps/place/Dr.+%C3%81lvaro+M%C3%A1iz+Garc%C3%ADa/data=!4m7!3m6!1s0x9105c8ec33a50479:0x6e4dc6b606bf3205!8m2!3d-12.0585973!4d-77.0384597!16s%2Fg%2F11h0c08x2j!19sChIJeQSlM-zIBZERBTK_BrbGTW4"
+    },
+    {
+      "id": "biz_38",
+      "name": "Dr. Omar Galdos Zegarra, Pediatra",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Angamos Oeste, cuadra 4 (Esquina con la, Ca. Gral. Borgoño, Lima 15074",
+      "url": "https://www.google.com/maps/place/Dr.+Omar+Galdos+Zegarra,+Pediatra/data=!4m7!3m6!1s0x9105c991685d8f29:0x28660549e87acda!8m2!3d-12.0463734!4d-77.0427552!16s%2Fg%2F11jp44bpq0!19sChIJKY9daJHJBZER2qyHnlRghgI"
+    },
+    {
+      "id": "biz_44",
+      "name": "Dr. Miguel Arce Benites - Infertilidad en LIma - Reproducción Asisitida - Endometriosis",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "Jirón José de la Torre Ugarte 166, Lince 15046",
+      "url": "https://www.google.com/maps/place/Dr.+Miguel+Arce+Benites+-+Infertilidad+en+LIma+-+Reproducci%C3%B3n+Asisitida+-+Endometriosis/data=!4m7!3m6!1s0x9105c932df35c529:0xa5c2d335f58b9ce4!8m2!3d-12.0893005!4d-77.0342725!16s%2Fg%2F11lfgpnn8g!19sChIJKcU13zLJBZER5JyL9TXTwqU"
+    },
+    {
+      "id": "biz_47",
+      "name": "IPAC Instituto de la Piel y Alergia Cutánea en Lima, Perú. Directora: Dra. Puell",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dermatólogo",
+      "address": "Jirón Soledad 229, Lince 15046",
+      "url": "https://www.google.com/maps/place/IPAC+Instituto+de+la+Piel+y+Alergia+Cut%C3%A1nea+en+Lima,+Per%C3%BA.+Directora:+Dra.+Puell/data=!4m7!3m6!1s0x9105c9a7a7ee4609:0xda8efdede316b78f!8m2!3d-12.0903999!4d-77.033264!16s%2Fg%2F11hkrlr2wp!19sChIJCUbup6fJBZERj7cW4-39jto"
+    },
+    {
+      "id": "biz_48",
+      "name": "Dr. Ramiro Diaz, Gastroenterólogo - Lima",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Gastroenterólogo",
+      "address": "Av. Petit Thouars 1775, Lince 15046",
+      "url": "https://www.google.com/maps/place/Dr.+Ramiro+Diaz,+Gastroenter%C3%B3logo+-+Lima/data=!4m7!3m6!1s0x9105c9250b9bac05:0x427786a10ba24975!8m2!3d-12.081914!4d-77.0335694!16s%2Fg%2F11lky5_5nb!19sChIJBaybCyXJBZERdUmiC6GGd0I"
+    },
+    {
+      "id": "biz_49",
+      "name": "Experto en Medicina Natural en Peru y Centro de Especialistas en Medicina Alternativa Complementaria Integral, Alex Filio",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Profesional de medicina alternativa",
+      "address": "Jr. Lampa 1008, Lima 15001",
+      "url": "https://www.google.com/maps/place/Experto+en+Medicina+Natural+en+Peru+y+Centro+de+Especialistas+en+Medicina+Alternativa+Complementaria+Integral,+Alex+Filio/data=!4m7!3m6!1s0x9105c90f73192a4f:0x3287b597591aa1d1!8m2!3d-12.0535956!4d-77.0338853!16s%2Fg%2F11n06yp9lp!19sChIJTyoZcw_JBZER0aEaWZe1hzI"
+    },
+    {
+      "id": "biz_55",
+      "name": "Dr. Ruben Sosa Arauco, Traumatólogo y Ortopedista",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Cirujano ortopédico",
+      "address": "Municipalidad Metropolitana de, Jr. Puno # 265 - Cajamarca, Lima",
+      "url": "https://www.google.com/maps/place/Dr.+Ruben+Sosa+Arauco,+Traumat%C3%B3logo+y+Ortopedista/data=!4m7!3m6!1s0x9105c92fa13e2b4f:0x4b62bd1b5f34f51b!8m2!3d-12.050983!4d-77.0321883!16s%2Fg%2F11kpy2rwnt!19sChIJTys-oS_JBZERG_U0Xxu9Yks"
+    },
+    {
+      "id": "biz_56",
+      "name": "Dr. Álvaro Villar Quiroz | Cardiólogo",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Cardiólogo",
+      "address": "Mal. Balta 956, Lima 15074",
+      "url": "https://www.google.com/maps/place/Dr.+%C3%81lvaro+Villar+Quiroz+%7C+Cardi%C3%B3logo/data=!4m7!3m6!1s0x9105c971cce7666d:0x58125a978ad38d7a!8m2!3d-12.1256637!4d-77.0345213!16s%2Fg%2F11jcwxl08_!19sChIJbWbnzHHJBZEReo3TipdaElg"
+    },
+    {
+      "id": "biz_74",
+      "name": "Dra. Miriam L. Osorio Martinez, Psiquiatra",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psiquiatra",
+      "address": "XX34+FV5 Consultas online, Lima 15082",
+      "url": "https://www.google.com/maps/place/Dra.+Miriam+L.+Osorio+Martinez,+Psiquiatra/data=!4m7!3m6!1s0x9105c9674a8272c3:0xa82eb496e7eb4b9b!8m2!3d-12.0463734!4d-77.0427552!16s%2Fg%2F11jp43skj2!19sChIJw3KCSmfJBZERm0vr55a0Lqg"
+    },
+    {
+      "id": "biz_2",
       "name": "🥇Consulta Médica Virtual | Dra. Jessica Vargas | Telemedicina Internacional",
       "rating": 4.9,
-      "reviewsCount": 89,
+      "reviewsCount": null,
       "category": "Médico de medicina general",
       "address": "Costado de la Parroquia Nuestra Señora del Perpetuo Socorro, Legión Peruana 170, Lima 15003",
-      "phone": "947 521 014",
-      "website": "https://www.doctoralia.pe/z/5PhUzk",
-      "url": "https://www.google.com/maps/place/%F0%9F%A5%87Consulta+M%C3%A9dica+Virtual+%7C+Dra.+Jessica+Vargas+%7C+Telemedicina+Internacional/data=!4m7!3m6!1s0x9105cf38a3c67e5b:0x5f11dc48233214ad!8m2!3d-12.0368468!4d-77.0507649!16s%2Fg%2F11jp42bts1!19sChIJW37GozjPBZERrRQyI0jcEV8?hl=es",
-      "latitude": -12.0368468,
-      "longitude": -77.0507649
+      "url": "https://www.google.com/maps/place/%F0%9F%A5%87Consulta+M%C3%A9dica+Virtual+%7C+Dra.+Jessica+Vargas+%7C+Telemedicina+Internacional/data=!4m7!3m6!1s0x9105cf38a3c67e5b:0x5f11dc48233214ad!8m2!3d-12.0368468!4d-77.0507649!16s%2Fg%2F11jp42bts1!19sChIJW37GozjPBZERrRQyI0jcEV8"
     },
     {
-      "id": "biz_5",
-      "name": "Dr. Enrique Garcia - Médico General",
+      "id": "biz_4",
+      "name": "Consultas Médicas En Linea - Orientaris",
       "rating": 4.9,
-      "reviewsCount": 39,
+      "reviewsCount": null,
       "category": "Médico de medicina general",
-      "address": "Av. Francisco Bolognesi 1040, Santa Anita 15008",
-      "phone": "936 861 654",
-      "website": "http://www.drenriquegarcia.com/",
-      "url": "https://www.google.com/maps/place/Dr.+Enrique+Garcia+-+M%C3%A9dico+General/data=!4m7!3m6!1s0x9105c55e2fbd5ecf:0xe34b79235b39988d!8m2!3d-12.0463484!4d-76.9734072!16s%2Fg%2F11tp6xlkkn!19sChIJz169L17FBZERjZg5WyN5S-M?hl=es",
-      "latitude": -12.0463484,
-      "longitude": -76.9734072
+      "address": "C. José Dionisio Anchorena 015, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Consultas+M%C3%A9dicas+En+Linea+-+Orientaris/data=!4m7!3m6!1s0x9105c928275cacdd:0x50f56346f85f381!8m2!3d-12.10046!4d-77.0521917!16s%2Fg%2F11ndwly7t8!19sChIJ3axcJyjJBZERgfOFbzRWDwU"
+    },
+    {
+      "id": "biz_26",
+      "name": "Dr. Luis Huarachi- Endocrinólogo",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Endocrinólogo",
+      "address": "Edificio IQ Surco, Jiron Aldebarán 596, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/Dr.+Luis+Huarachi-+Endocrin%C3%B3logo/data=!4m7!3m6!1s0x9105c7a25be2b039:0xe2226e212c59749f!8m2!3d-12.1037815!4d-76.9697853!16s%2Fg%2F11h9gvc7sz!19sChIJObDiW6LHBZERn3RZLCFuIuI"
+    },
+    {
+      "id": "biz_28",
+      "name": "Consultorio Medico Cubano Dr. Anthony Rodríguez Concha",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Médico de medicina general",
+      "address": "Av. Las Palmeras 4312, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/Consultorio+Medico+Cubano+Dr.+Anthony+Rodr%C3%ADguez+Concha/data=!4m7!3m6!1s0x9105ce44436aec97:0x347ac18c6d169ae!8m2!3d-11.9832239!4d-77.0718661!16s%2Fg%2F11b6r_p09m!19sChIJl-xqQ0TOBZERrmnRxhisRwM"
+    },
+    {
+      "id": "biz_45",
+      "name": "Cendolima. Centro de Endoscopía Digestiva de Lima",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Gastroenterólogo",
+      "address": "Jirón Castilla 976, Magdalena del Mar 15086",
+      "url": "https://www.google.com/maps/place/Cendolima.+Centro+de+Endoscop%C3%ADa+Digestiva+de+Lima/data=!4m7!3m6!1s0x9105c90f5e1c1ad5:0xc3ada6739cb233a3!8m2!3d-12.0878246!4d-77.0721185!16s%2Fg%2F11gh04dx6h!19sChIJ1RocXg_JBZERozOynHOmrcM"
+    },
+    {
+      "id": "biz_54",
+      "name": "Dr. Franklin Palomino Montoya",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Geriatra",
+      "address": "TELECONSULTA A NIVEL NACIONAL 20034, Lima 15082",
+      "url": "https://www.google.com/maps/place/Dr.+Franklin+Palomino+Montoya/data=!4m7!3m6!1s0x9105c8cdd07e72ab:0xba111b653c41ee3a!8m2!3d-12.0463731!4d-77.042754!16s%2Fg%2F11svk708wm!19sChIJq3J-0M3IBZEROu5BPGUbEbo"
+    },
+    {
+      "id": "biz_59",
+      "name": "Facial Clinic Dr.Karim Lima",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Cirujano de cabeza y cuello",
+      "address": "Av. Javier Prado Este 1684, San Isidro 15036",
+      "url": "https://www.google.com/maps/place/Facial+Clinic+Dr.Karim+Lima/data=!4m7!3m6!1s0x9105c71282932c63:0x38e024fe4625cdc1!8m2!3d-12.0891389!4d-77.0088638!16s%2Fg%2F11sf1c9159!19sChIJYyyTghLHBZERwc0lRv4k4Dg"
+    },
+    {
+      "id": "biz_67",
+      "name": "Dr. Renzo David Nervi Martinez de Pinillos, Urólogo",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Urólogo",
+      "address": "Av. Emilio Cavenecia 225, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Dr.+Renzo+David+Nervi+Martinez+de+Pinillos,+Ur%C3%B3logo/data=!4m7!3m6!1s0x9105c93bd90530c1:0xe2cfd7b5abdfcd5a!8m2!3d-12.0463734!4d-77.0427552!16s%2Fg%2F11j9kmn3b6!19sChIJwTAF2TvJBZERWs3fq7XXz-I"
+    },
+    {
+      "id": "biz_68",
+      "name": "Gastroenterólogo En Lima",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Gastroenterólogo",
+      "address": "Jirón Garcilazo De La Vega, Lince 15073",
+      "url": "https://www.google.com/maps/place/Gastroenter%C3%B3logo+En+Lima/data=!4m7!3m6!1s0x9105c9a453ec9077:0x9f9470a79053f32c!8m2!3d-12.0821386!4d-77.0410365!16s%2Fg%2F11svs5gqn3!19sChIJd5DsU6TJBZERLPNTkKdwlJ8"
+    },
+    {
+      "id": "biz_17",
+      "name": "Psiquiatra en Lima | Dr. Diego Zelada - Certificados de salud mental",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Psiquiatra",
+      "address": "Av. Gral. Juan Antonio Álvarez de Arenales N°483, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Psiquiatra+en+Lima+%7C+Dr.+Diego+Zelada+-+Certificados+de+salud+mental/data=!4m7!3m6!1s0x9105c9cb66365357:0x84eccb073493e1d!8m2!3d-12.0694694!4d-77.0377944!16s%2Fg%2F11n4r9twj1!19sChIJV1M2ZsvJBZERHT5Jc7DMTgg"
+    },
+    {
+      "id": "biz_58",
+      "name": "ROMAN MEDICAL SAC",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Tienda de sillas de ruedas",
+      "address": "Dentro del Mercado Moderno, Jr. Guillermo Dansey 092, Lima 15001",
+      "url": "https://www.google.com/maps/place/ROMAN+MEDICAL+SAC/data=!4m7!3m6!1s0x9105cf12a31db63b:0x85109fcee5500181!8m2!3d-12.0455446!4d-77.0409283!16s%2Fg%2F11bv_dlfdp!19sChIJO7YdoxLPBZERgQFQ5c6fEIU"
+    },
+    {
+      "id": "biz_60",
+      "name": "Otosalud – Otorrinolaringología y Audífonos en Lima",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Otorrinolaringólogo",
+      "address": "Edificio Qualis, Av. Brasil 2730, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/Otosalud+%E2%80%93+Otorrinolaringolog%C3%ADa+y+Aud%C3%ADfonos+en+Lima/data=!4m7!3m6!1s0x9105c92ee600f34b:0x97604feacca70c71!8m2!3d-12.08464!4d-77.0620454!16s%2Fg%2F11jrd_ntr5!19sChIJS_MA5i7JBZERcQynzOpPYJc"
+    },
+    {
+      "id": "biz_71",
+      "name": "MEDICOS ENDOCRINOLOGOS DEL PERU EIRL",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Clínica especializada",
+      "address": "Frente al Hospital Militar, Av. Brasil 2730 Edificio Qualis, Pueblo Libre 15083",
+      "url": "https://www.google.com/maps/place/MEDICOS+ENDOCRINOLOGOS+DEL+PERU+EIRL/data=!4m7!3m6!1s0x9105c99a822f7ddf:0x75d8550ee58617af!8m2!3d-12.08464!4d-77.0620454!16s%2Fg%2F11t0wb23ds!19sChIJ330vgprJBZERrxeG5Q5V2HU"
+    },
+    {
+      "id": "biz_75",
+      "name": "CENTRO DE MEDICINA FETAL | Ecografias Lima Peru",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Ginecólogo",
+      "address": "Tomás Ramsey 930, Magdalena del Mar 15076",
+      "url": "https://www.google.com/maps/place/CENTRO+DE+MEDICINA+FETAL+%7C+Ecografias+Lima+Peru/data=!4m7!3m6!1s0x9105c86801d00001:0x5c57e8d554f6a207!8m2!3d-12.0922856!4d-77.0584323!16s%2Fg%2F11j48j5b34!19sChIJAQDQAWjIBZERB6L2VNXoV1w"
+    },
+    {
+      "id": "biz_40",
+      "name": "Clínica ArthroSalud - Terapia Física y Rehabilitación",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Clínica de medicina deportiva",
+      "address": "Jr, Sánchez Pinillos 188, Lima 15082",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+ArthroSalud+-+Terapia+F%C3%ADsica+y+Rehabilitaci%C3%B3n/data=!4m7!3m6!1s0x9105c9cf9e0ba1e1:0xb4048560432f6c6f!8m2!3d-12.0481581!4d-77.0438394!16s%2Fg%2F11pzhhkncb!19sChIJ4aELns_JBZERb2wvQ2CFBLQ"
+    },
+    {
+      "id": "biz_24",
+      "name": "Richard John Garcia Mojonero",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Dermatólogo pediátrico",
+      "address": "Av. Próceres de la Independencia 1722, San Juan de Lurigancho 15431",
+      "url": "https://www.google.com/maps/place/Richard+John+Garcia+Mojonero/data=!4m7!3m6!1s0x9105c5864513ffff:0x19eca09bdb4a5d55!8m2!3d-12.0050881!4d-77.0060042!16s%2Fg%2F11j83x3zr2!19sChIJ__8TRYbFBZERVV1K25ug7Bk"
+    },
+    {
+      "id": "biz_22",
+      "name": "Red Pediatrica",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Brasil 3153, Magdalena del Mar 15076",
+      "url": "https://www.google.com/maps/place/Red+Pediatrica/data=!4m7!3m6!1s0x9105c9a9b62a822d:0xb5d82210b118082!8m2!3d-12.088638!4d-77.064661!16s%2Fg%2F11b6gnm6yv!19sChIJLYIqtqnJBZERgoARCyGCXQs"
+    },
+    {
+      "id": "biz_69",
+      "name": "Tianmen",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Centro médico",
+      "address": "Jr. Moquegua 332, Lima 15001",
+      "url": "https://www.google.com/maps/place/Tianmen/data=!4m7!3m6!1s0x9105bfdbc81549b1:0xdbcd90d8ca56f4dc!8m2!3d-12.0483541!4d-77.0364617!16s%2Fg%2F11h61_qhj7!19sChIJsUkVyNu_BZER3PRWytiQzds"
+    },
+    {
+      "id": "biz_72",
+      "name": "Dr. Elias Eduardo Izquierdo Bocanegra, Médico general",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Médico de familia",
+      "address": "LOS HUMEDALES MZ 14, Ventanilla 07046",
+      "url": "https://www.google.com/maps/place/Dr.+Elias+Eduardo+Izquierdo+Bocanegra,+M%C3%A9dico+general/data=!4m7!3m6!1s0x9105c95f24f50ed3:0x518800f75c0c7c8d!8m2!3d-12.0463734!4d-77.0427552!16s%2Fg%2F11jcq4sfmm!19sChIJ0w71JF_JBZERjXwMXPcAiFE"
+    },
+    {
+      "id": "biz_36",
+      "name": "MiDoc Pro",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Centro médico",
+      "address": "Av. Alfredo Mendiola 7749, Los Olivos 15307",
+      "url": "https://www.google.com/maps/place/MiDoc+Pro/data=!4m7!3m6!1s0x9105d100557dcbbd:0x8ed9deeb3bbee933!8m2!3d-11.9397233!4d-77.0721173!16s%2Fg%2F11xl_mb71_!19sChIJvct9VQDRBZERM-m-O-ve2Y4"
+    },
+    {
+      "id": "biz_50",
+      "name": "CENTRO INC",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Profesional de medicina alternativa",
+      "address": "Av. Tacna 690, Lima 15001",
+      "url": "https://www.google.com/maps/place/CENTRO+INC/data=!4m7!3m6!1s0x9105c96470fe8dc5:0x96474d3d7f03c522!8m2!3d-12.0483521!4d-77.0391429!16s%2Fg%2F11h21qcm58!19sChIJxY3-cGTJBZERIsUDfz1NR5Y"
+    },
+    {
+      "id": "biz_65",
+      "name": "CMT | Centro Médico del Trabajador Lima",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Centro de salud",
+      "address": "Av. Faustino Sánchez Carrión 960, Magdalena del Mar 15076",
+      "url": "https://www.google.com/maps/place/CMT+%7C+Centro+M%C3%A9dico+del+Trabajador+Lima/data=!4m7!3m6!1s0x9105c9d197e468e3:0x6fe5b64a311de857!8m2!3d-12.0918327!4d-77.0554702!16s%2Fg%2F11ty2d9x0t!19sChIJ42jkl9HJBZERV-gdMUq25W8"
+    },
+    {
+      "id": "biz_32",
+      "name": "Centro Medico Semedic",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Centro médico",
+      "address": "Av. Alfonso Ugarte 712, Lima 15001",
+      "url": "https://www.google.com/maps/place/Centro+Medico+Semedic/data=!4m7!3m6!1s0x9105c8ce68027de3:0x958cb225c42b32aa!8m2!3d-12.0483059!4d-77.0428602!16s%2Fg%2F11c6yfwzbg!19sChIJ430CaM7IBZERqjIrxCWyjJU"
+    },
+    {
+      "id": "biz_34",
+      "name": "Clínica Proctológica de Lima",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Proctólogo",
+      "address": "Av. Javier Prado Este 1510, San Isidro 15036",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Proctol%C3%B3gica+de+Lima/data=!4m7!3m6!1s0x9105c94a2d2a1feb:0xed409da79a635e62!8m2!3d-12.089452!4d-77.0110349!16s%2Fg%2F11mw5csrp_!19sChIJ6x8qLUrJBZERYl5jmqedQO0"
+    },
+    {
+      "id": "biz_57",
+      "name": "Centro Médico CD Lima Colegio de Ingenieros del P.",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "Jr. Manco Segundo 2628, Lince 15073",
+      "url": "https://www.google.com/maps/place/Centro+M%C3%A9dico+CD+Lima+Colegio+de+Ingenieros+del+P./data=!4m7!3m6!1s0x9105c970c1d29eb7:0x9b0354b53dd78343!8m2!3d-12.0902361!4d-77.0457584!16s%2Fg%2F11ft1bpc7p!19sChIJt57SwXDJBZERQ4PXPbVUA5s"
+    },
+    {
+      "id": "biz_64",
+      "name": "Colegio MEDICO DEL PERU",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Oficinas de empresa",
+      "address": "WW9V+QW5, Esquina de y, Av Arnaldo Marquez & Jirón Estados Unidos, Jesús María",
+      "url": "https://www.google.com/maps/place/Colegio+MEDICO+DEL+PERU/data=!4m7!3m6!1s0x9105c8fde722aa5b:0xa5609356d67f0157!8m2!3d-12.0806212!4d-77.055143!16s%2Fg%2F11css7vqnw!19sChIJW6oi5_3IBZERVwF_1laTYKU"
+    },
+    {
+      "id": "biz_70",
+      "name": "Endocrinólogo en Lima - Instituto Neuro Metabólico",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Centro médico",
+      "address": "Jirón, De La Roca De Vergallo 493, Magdalena del Mar 15086",
+      "url": "https://www.google.com/maps/place/Endocrin%C3%B3logo+en+Lima+-+Instituto+Neuro+Metab%C3%B3lico/data=!4m7!3m6!1s0x9105c9d4a16c3011:0x9804f976f4e81acf!8m2!3d-12.0910679!4d-77.0569863!16s%2Fg%2F11jn_ff4q5!19sChIJETBsodTJBZERzxro9Hb5BJg"
+    },
+    {
+      "id": "biz_20",
+      "name": "Mass médicos | Centro Médico en San Isidro Lima",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Centro médico",
+      "address": "Av. P.º de la República 3691, San Isidro 15047",
+      "url": "https://www.google.com/maps/place/Mass+m%C3%A9dicos+%7C+Centro+M%C3%A9dico+en+San+Isidro+Lima/data=!4m7!3m6!1s0x9105c9e83e5f751f:0x4961b8bda61d0e95!8m2!3d-12.1009261!4d-77.026288!16s%2Fg%2F11sd2_9wqn!19sChIJH3VfPujJBZERlQ4dpr24YUk"
+    },
+    {
+      "id": "biz_33",
+      "name": "Colegio Médico del Perú",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Asociación u organización",
+      "address": "791, Lima, Mal. de la Reserva, Miraflores 18",
+      "url": "https://www.google.com/maps/place/Colegio+M%C3%A9dico+del+Per%C3%BA/data=!4m7!3m6!1s0x9105b7e173b62ebb:0xd0831d673e3649d6!8m2!3d-12.1336675!4d-77.0288097!16s%2Fg%2F1vxdzb20!19sChIJuy62c-G3BZER1kk2Pmcdg9A"
+    },
+    {
+      "id": "biz_53",
+      "name": "Medic Center Policlínico Solidario",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Centro médico",
+      "address": "Jr. Camaná 695, Lima 15001",
+      "url": "https://www.google.com/maps/place/Medic+Center+Policl%C3%ADnico+Solidario/data=!4m7!3m6!1s0x9105c8c9ca9e3a3b:0x36732e3454c67d5!8m2!3d-12.0492348!4d-77.0348577!16s%2Fg%2F11ffvv3ply!19sChIJOzqeysnIBZER1WdMReMyZwM"
+    },
+    {
+      "id": "biz_52",
+      "name": "Clinica Del Dolor de Lima",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Clínica especializada",
+      "address": "Av. José Leguía y Meléndez 1309, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/Clinica+Del+Dolor+de+Lima/data=!4m7!3m6!1s0x9105c91aa9db58f9:0xfd26b2988ac44597!8m2!3d-12.0756496!4d-77.0679144!16s%2Fg%2F11d_72xfsy!19sChIJ-VjbqRrJBZERl0XEipiyJv0"
+    },
+    {
+      "id": "biz_12",
+      "name": "Lima Del Mar Medicina Especializada",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Centro médico",
+      "address": "Av. Faustino Sánchez Carrión 615, Jesús María 15076",
+      "url": "https://www.google.com/maps/place/Lima+Del+Mar+Medicina+Especializada/data=!4m7!3m6!1s0x9105c92ccb1c8221:0x826490aaef2f0d6e!8m2!3d-12.089448!4d-77.0581489!16s%2Fg%2F11f792kw5f!19sChIJIYIcyyzJBZERbg0v76qQZII"
+    },
+    {
+      "id": "biz_13",
+      "name": "CONSULTORIOS MÉDICOS SAN LUIS",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "Av. César Vallejo 1537, Lima 15007",
+      "url": "https://www.google.com/maps/place/CONSULTORIOS+M%C3%89DICOS+SAN+LUIS/data=!4m7!3m6!1s0x9105c60a0da4b2f9:0x7690b6f605127e1!8m2!3d-12.0397051!4d-76.9918883!16s%2Fg%2F11g8zs33vx!19sChIJ-bKkDQrGBZER4SdRYG8LaQc"
+    },
+    {
+      "id": "biz_46",
+      "name": "Centro de Cirugía Ambulatoria de Lima: Dr. Dick Manrique",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Cirujano",
+      "address": "Av. República de Panamá 3418, San Isidro 15036",
+      "url": "https://www.google.com/maps/place/Centro+de+Cirug%C3%ADa+Ambulatoria+de+Lima:+Dr.+Dick+Manrique/data=!4m7!3m6!1s0x9105c8703f947d3f:0xa52f60b2b2d86f6f!8m2!3d-12.0978493!4d-77.0205999!16s%2Fg%2F11h6nt6fy_!19sChIJP32UP3DIBZERb2_YsrJgL6U"
+    },
+    {
+      "id": "biz_66",
+      "name": "Rinoplastia Lima riplas",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Hospital privado",
+      "address": "Av. Alfonso Ugarte 1228, Breña 15082",
+      "url": "https://www.google.com/maps/place/Rinoplastia+Lima+riplas/data=!4m7!3m6!1s0x9105c8c500b8b02f:0x54b11a4f1497547a!8m2!3d-12.055134!4d-77.0422502!16s%2Fg%2F11g6vgz1ps!19sChIJL7C4AMXIBZERelSXFE8asVQ"
+    },
+    {
+      "id": "biz_11",
+      "name": "Clínica Médicos Cubanos",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Clínica especializada",
+      "address": "Jirón Cusco 121, Lima 15001",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+M%C3%A9dicos+Cubanos/data=!4m7!3m6!1s0x9105cf765fbfafed:0xd7fb61e67e649715!8m2!3d-12.0488721!4d-77.0330355!16s%2Fg%2F11lr7xtb85!19sChIJ7a-_X3bPBZERFZdkfuZh-9c"
+    },
+    {
+      "id": "biz_16",
+      "name": "APU SALUD Médicos a Domicilio en Lima, Perú",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Servicio de asistencia sanitaria domiciliaria",
+      "address": "",
+      "url": "https://www.google.com/maps/place/APU+SALUD+M%C3%A9dicos+a+Domicilio+en+Lima,+Per%C3%BA/data=!4m7!3m6!1s0x9105c9b00d1186f1:0xad9c5b0533dae14a!8m2!3d-12.0266383!4d-76.9877792!16s%2Fg%2F11s8dzpzwg!19sChIJ8YYRDbDJBZERSuHaMwVbnK0"
+    },
+    {
+      "id": "biz_41",
+      "name": "Clínica Internacional - Lima (Comercial)",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Aparcamiento",
+      "address": "Av. Garcilaso de la Vega 1420, Lima 15001",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Internacional+-+Lima+%28Comercial%29/data=!4m7!3m6!1s0x9105c8c15b1a1227:0x6ed5d86bf56abf12!8m2!3d-12.0588106!4d-77.0385724!16s%2Fg%2F11f_p34q3r!19sChIJJxIaW8HIBZEREr9q9WvY1W4"
+    },
+    {
+      "id": "biz_42",
+      "name": "Instituto Nacional Materno Perinatal.",
+      "rating": 3.7,
+      "reviewsCount": null,
+      "category": "Hospital",
+      "address": "Jr. Sta. Rosa 941, Lima 15001",
+      "url": "https://www.google.com/maps/place/Instituto+Nacional+Materno+Perinatal./data=!4m7!3m6!1s0x9105c8bab27c7053:0x67af675fa29e3e2!8m2!3d-12.0527686!4d-77.0221638!16s%2Fg%2F11f38ws7v4!19sChIJU3B8srrIBZER4uMp-nX2egY"
     },
     {
       "id": "biz_9",
-      "name": "Clínica Internacional, Sede Lima",
-      "rating": 3.4,
-      "reviewsCount": 489,
+      "name": "Clínica Aviva - Lima Centro",
+      "rating": 3.5,
+      "reviewsCount": null,
       "category": "Clínica ambulatoria",
-      "address": "Av. Garcilaso de la Vega 1420, Lima 15001",
-      "phone": "(01) 6196161",
-      "website": "https://www.clinicainternacional.com.pe/",
-      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Internacional,+Sede+Lima/data=!4m7!3m6!1s0x9105c8c14e18a1c5:0x7d732e67b547a701!8m2!3d-12.0583446!4d-77.0382791!16s%2Fg%2F1tgc0vgn!19sChIJxaEYTsHIBZERAadHtWcuc30?hl=es",
-      "latitude": -12.0583446,
-      "longitude": -77.0382791
+      "address": "Av. Óscar R. Benavides 443, Lima 15082",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Aviva+-+Lima+Centro/data=!4m7!3m6!1s0x9105c90006689bad:0xb49098ec0c10b3d3!8m2!3d-12.0471468!4d-77.0473783!16s%2Fg%2F11vyr8q431!19sChIJrZtoBgDJBZER07MQDOyYkLQ"
     },
     {
-      "id": "biz_6",
-      "name": "PRACTIKA MEDICA EIRL",
+      "id": "biz_51",
+      "name": "Centro Médico Ancije",
+      "rating": 3.5,
+      "reviewsCount": null,
+      "category": "Hospital",
+      "address": "Jirón Chota 1449, Lima 15001",
+      "url": "https://www.google.com/maps/place/Centro+M%C3%A9dico+Ancije/data=!4m7!3m6!1s0x9105c8c3e931c6c9:0x13bd1004f981cf9a!8m2!3d-12.05921!4d-77.0401601!16s%2Fg%2F11cp5rkrs_!19sChIJycYx6cPIBZERms-B-QQQvRM"
+    },
+    {
+      "id": "biz_7",
+      "name": "Clínica Internacional, Sede Lima",
+      "rating": 3.4,
+      "reviewsCount": null,
+      "category": "Clínica ambulatoria",
+      "address": "Av. Garcilaso de la Vega 1420, Lima 15001",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Internacional,+Sede+Lima/data=!4m7!3m6!1s0x9105c8c14e18a1c5:0x7d732e67b547a701!8m2!3d-12.0583446!4d-77.0382791!16s%2Fg%2F1tgc0vgn!19sChIJxaEYTsHIBZERAadHtWcuc30"
+    },
+    {
+      "id": "biz_39",
+      "name": "Hospital de EsSalud II Ramón Castilla",
+      "rating": 3.1,
+      "reviewsCount": null,
+      "category": "Hospital",
+      "address": "Av. Guillermo Dansey 390, Lima 15082",
+      "url": "https://www.google.com/maps/place/Hospital+de+EsSalud+II+Ram%C3%B3n+Castilla/data=!4m7!3m6!1s0x9105c8cd9c8ddfeb:0xa956deb8ca1327fc!8m2!3d-12.0449243!4d-77.0440986!16s%2Fg%2F1wf22y09!19sChIJ69-NnM3IBZER_CcTyrjeVqk"
+    },
+    {
+      "id": "biz_61",
+      "name": "Dr. Jose Francisco Parodi Garcia, Geriatra",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "A domicilio, Lima 15082",
+      "url": "https://www.google.com/maps/place/Dr.+Jose+Francisco+Parodi+Garcia,+Geriatra/data=!4m7!3m6!1s0x9105c97a0f121c91:0x4a00501dbc773543!8m2!3d-12.0463744!4d-77.0427932!16s%2Fg%2F11j9gxgkft!19sChIJkRwSD3rJBZERQzV3vB1QAEo"
+    },
+    {
+      "id": "biz_63",
+      "name": "Doc Home Médico en Casa.",
+      "rating": 1.8,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Doc+Home+M%C3%A9dico+en+Casa./data=!4m7!3m6!1s0x8e79b9c9d4fda0e5:0xcfbc171a9c06f05f!8m2!3d-12.0461694!4d-76.9098134!16s%2Fg%2F11sfb09jwg!19sChIJ5aD91Mm5eY4RX_AGnBoXvM8"
+    },
+    {
+      "id": "biz_1",
+      "name": "Dental kawsay",
+      "rating": 1,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "Av. Horacio Zeballos Mz\"A, Ate 15476",
+      "url": "https://www.google.com/maps/place/Dental+kawsay/data=!4m7!3m6!1s0x9105c26b86fac0f3:0x21ec29ac91e9a5a0!8m2!3d-12.0062467!4d-76.8434855!16s%2Fg%2F11c0sg6gt6!19sChIJ88D6hmvCBZERoKXpkawp7CE"
+    },
+    {
+      "id": "biz_62",
+      "name": "Dr. Simón Yriberry de Lima-Perú",
+      "rating": 1,
+      "reviewsCount": null,
+      "category": "Gastroenterólogo",
+      "address": "123 LOS MILANOS, San Isidro 15082",
+      "url": "https://www.google.com/maps/place/Dr.+Sim%C3%B3n+Yriberry+de+Lima-Per%C3%BA/data=!4m7!3m6!1s0x9105c8cdd07e72ab:0xfc72e7f0fb5a2e36!8m2!3d-12.0463731!4d-77.042754!16s%2Fg%2F11v18xpbpp!19sChIJq3J-0M3IBZERNi5a-_Dncvw"
+    },
+    {
+      "id": "biz_73",
+      "name": "Dr. Yuri Martin Llerena Pancorbo, Cirujano general",
+      "rating": 1,
+      "reviewsCount": null,
+      "category": "Cirujano",
+      "address": "Municipalidad Metropolitana de, Av. Alfonso Ugarte 848, Lima 15082",
+      "url": "https://www.google.com/maps/place/Dr.+Yuri+Martin+Llerena+Pancorbo,+Cirujano+general/data=!4m7!3m6!1s0x9105c959cf122365:0xdf26b50d5195363c!8m2!3d-12.0499972!4d-77.0426464!16s%2Fg%2F11j9gzkptf!19sChIJZSMSz1nJBZERPDaVUQ21Jt8"
+    },
+    {
+      "id": "biz_21",
+      "name": "Kura Pet",
       "rating": null,
       "reviewsCount": null,
-      "category": "Médico de familia",
-      "address": "Jr. Cañete 564 Lima, Lima 00051",
-      "phone": "944 626 306",
-      "website": null,
-      "url": "https://www.google.com/maps/place/PRACTIKA+MEDICA+EIRL/data=!4m7!3m6!1s0x9105cf177bfc59e1:0xa77983297309ba1c!8m2!3d-12.0275775!4d-77.0202732!16s%2Fg%2F11zkkhkv38!19sChIJ4Vn8exfPBZERHLoJcymDeac?hl=es",
-      "latitude": -12.0275775,
-      "longitude": -77.0202732
+      "category": "Farmacia veterinaria",
+      "address": "del Artesano, Urb. Industrial, Av Los Frutales 220, Ate 15012",
+      "url": "https://www.google.com/maps/place/Kura+Pet/data=!4m7!3m6!1s0x9105c7a67ca52f89:0xb2a56bd36a67cdc8!8m2!3d-12.05934!4d-76.967589!16s%2Fg%2F11z4y8qz1t!19sChIJiS-lfKbHBZERyM1natNrpbI"
+    },
+    {
+      "id": "biz_29",
+      "name": "Mobiliarios medicos JYH",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Podólogo",
+      "address": "Av. Emancipación 723, Lima 15001",
+      "url": "https://www.google.com/maps/place/Mobiliarios+medicos+JYH/data=!4m7!3m6!1s0x9105cf6b3da07421:0xba36f22cabec8277!8m2!3d-12.0452097!4d-77.0396936!16s%2Fg%2F11z0_fxb3z!19sChIJIXSgPWvPBZERd4LsqyzyNro"
+    },
+    {
+      "id": "biz_30",
+      "name": "Bare Feet Podiatry",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Podólogo",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Bare+Feet+Podiatry/data=!4m7!3m6!1s0x21ed170570aa224b:0x7d2f358f5aafebf5!8m2!3d-9.2435385!4d-75.0195046!16s%2Fg%2F11x71jjrry!19sChIJSyKqcAUX7SER9euvWo81L30"
+    },
+    {
+      "id": "biz_43",
+      "name": "cursomedicosactualizados",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "00051, Lima 00051",
+      "url": "https://www.google.com/maps/place/cursomedicosactualizados/data=!4m7!3m6!1s0x9105c9092ac3d515:0xac76c4195a0b9145!8m2!3d-12.0466888!4d-77.0430886!16s%2Fg%2F11yxy151t6!19sChIJFdXDKgnJBZERRZELWhnEdqw"
     }
   ]
 }
