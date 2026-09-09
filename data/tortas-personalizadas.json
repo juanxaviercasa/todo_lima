@@ -1,0 +1,928 @@
+{
+  "category": "tortas-personalizadas",
+  "searchQuery": "tortas personalizadas en Lima",
+  "totalResults": 100,
+  "updatedAt": "2026-09-09T18:43:30.527Z",
+  "topBusinessContext": {
+    "id": "biz_1",
+    "name": "Tortas Personalizadas en Lima a Domicilio | YuzCakes",
+    "rating": 5,
+    "reviewsCount": null,
+    "category": "Pastelería",
+    "address": "Urbanizacion, Ate 15476",
+    "url": "https://www.google.com/maps/place/Tortas+Personalizadas+en+Lima+a+Domicilio+%7C+YuzCakes/data=!4m7!3m6!1s0x9105c35b8d831a13:0x774a90916cf3031a!8m2!3d-12.0030876!4d-76.8375715!16s%2Fg%2F11wc3nc08f!19sChIJExqDjVvDBZERGgPzbJGQSnc"
+  },
+  "pageContent": {
+    "headline": "Los Mejores Expertos en TORTAS PERSONALIZADAS en Lima: Conoce a Tortas Personalizadas en Lima a Domicilio | YuzCakes",
+    "subtitles": [
+      "Garantiza resultados hoy mismo. Ubicados en Urbanizacion, Ate 15476, destacan como la opción número uno validada por usuarios reales.",
+      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
+    ],
+    "ctas": [
+      "Contactar por WhatsApp Ahora",
+      "Ver Directorio Completo"
+    ]
+  },
+  "businesses": [
+    {
+      "id": "biz_1",
+      "name": "Tortas Personalizadas en Lima a Domicilio | YuzCakes",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Urbanizacion, Ate 15476",
+      "url": "https://www.google.com/maps/place/Tortas+Personalizadas+en+Lima+a+Domicilio+%7C+YuzCakes/data=!4m7!3m6!1s0x9105c35b8d831a13:0x774a90916cf3031a!8m2!3d-12.0030876!4d-76.8375715!16s%2Fg%2F11wc3nc08f!19sChIJExqDjVvDBZERGgPzbJGQSnc"
+    },
+    {
+      "id": "biz_2",
+      "name": "Tortas Dominick",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. José Carlos Mariátegui Lote 06, Ate 15483",
+      "url": "https://www.google.com/maps/place/Tortas+Dominick/data=!4m7!3m6!1s0x9105e999a746e101:0x78ba644a67dfd0d7!8m2!3d-12.0138773!4d-76.8245784!16s%2Fg%2F11gns785bn!19sChIJAeFGp5npBZER19DfZ0pkung"
+    },
+    {
+      "id": "biz_4",
+      "name": "Tortas de Sweet & Chic",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "C. El Naranjal 140A, La Molina 15023",
+      "url": "https://www.google.com/maps/place/Tortas+de+Sweet+%26+Chic/data=!4m7!3m6!1s0x9105c72047fe23fd:0x1b2fa611999b4443!8m2!3d-12.0768347!4d-76.969133!16s%2Fg%2F11swgrnj16!19sChIJ_SP-RyDHBZERQ0SbmRGmLxs"
+    },
+    {
+      "id": "biz_7",
+      "name": "Tortas Vany - Online",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de postres",
+      "address": "Av. Garcilaso de la Vega, Lima 15046",
+      "url": "https://www.google.com/maps/place/Tortas+Vany+-+Online/data=!4m7!3m6!1s0x9105c94c14210e1b:0xfce2638dfa4a9ef7!8m2!3d-12.062344!4d-77.0378743!16s%2Fg%2F11ljx_m5f4!19sChIJGw4hFEzJBZER955K-o1j4vw"
+    },
+    {
+      "id": "biz_8",
+      "name": "Tortas de Laura",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Tortas+de+Laura/data=!4m7!3m6!1s0x9105c93087d4aac1:0xf1cd429aceb7c06!8m2!3d-12.0266383!4d-76.9877792!16s%2Fg%2F11fhvxhcby!19sChIJwarUhzDJBZERBnzrrCnUHA8"
+    },
+    {
+      "id": "biz_10",
+      "name": "Tortas Tematicas Mis Dulcesitos",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Paucartambo 145, Ate 15052",
+      "url": "https://www.google.com/maps/place/Tortas+Tematicas+Mis+Dulcesitos/data=!4m7!3m6!1s0x9105c7d19c7d0a89:0xce3e754e4df9526a!8m2!3d-12.0549335!4d-76.9612795!16s%2Fg%2F11qrj93yfh!19sChIJiQp9nNHHBZERalL5TU51Ps4"
+    },
+    {
+      "id": "biz_12",
+      "name": "Para ti Pastelería Personalizada",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Para+ti+Pasteler%C3%ADa+Personalizada/data=!4m7!3m6!1s0x6b8c9d224e49eb4f:0xdbf6d4f1a6de4f30!8m2!3d-12.1443585!4d-76.9975715!16s%2Fg%2F11t9jtlksh!19sChIJT-tJTiKdjGsRME_epvHU9ts"
+    },
+    {
+      "id": "biz_14",
+      "name": "Delitalle Regalos Personalizados",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de regalos",
+      "address": "Av Industrial 3458, San Martín de Porres 15311",
+      "url": "https://www.google.com/maps/place/Delitalle+Regalos+Personalizados/data=!4m7!3m6!1s0xa23d60077682bd9f:0xacc7d29ae1f7b98b!8m2!3d-11.9963701!4d-77.0583505!16s%2Fg%2F11pz2jr08w!19sChIJn72CdgdgPaIRi7n34ZrSx6w"
+    },
+    {
+      "id": "biz_15",
+      "name": "Dulcilu | Tortas personalizadas",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "C. Carlos Gonzales Candamo 203, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/Dulcilu+%7C+Tortas+personalizadas/data=!4m7!3m6!1s0x9105c931f8d180cb:0xd13e82ea584e7e06!8m2!3d-12.0757429!4d-77.0901532!16s%2Fg%2F11ntkphqdf!19sChIJy4DR-DHJBZERBn5OWOqCPtE"
+    },
+    {
+      "id": "biz_16",
+      "name": "Tortas Dulcinea - Tortas Artesanales, Tortas Temáticas",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Panadería",
+      "address": "Jr Valladolid 144, Urb-La Capilla, Lima 15024",
+      "url": "https://www.google.com/maps/place/Tortas+Dulcinea+-+Tortas+Artesanales,+Tortas+Tem%C3%A1ticas/data=!4m7!3m6!1s0x9105c75f64013c39:0x5c82305fcb1c1251!8m2!3d-12.1039734!4d-76.9473334!16s%2Fg%2F11j0nj2jxz!19sChIJOTwBZF_HBZERURIcy18wglw"
+    },
+    {
+      "id": "biz_17",
+      "name": "Tortas y Cupcakes Personalizados Maranyu",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Tortas+y+Cupcakes+Personalizados+Maranyu/data=!4m7!3m6!1s0x9105cfab65086bc1:0x67dfdbf27f86826!8m2!3d-12.0266383!4d-76.9877792!16s%2Fg%2F11jdclcjvf!19sChIJwWsIZavPBZERJmj4J7_9fQY"
+    },
+    {
+      "id": "biz_18",
+      "name": "BellCakes",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Restaurante de postres",
+      "address": "Av. Aurelio García y García 1447, Lima 15081",
+      "url": "https://www.google.com/maps/place/BellCakes/data=!4m7!3m6!1s0x9105c911a2d53b5f:0xc1208285672ac235!8m2!3d-12.054698!4d-77.0748559!16s%2Fg%2F11rfpn5k0c!19sChIJXzvVohHJBZERNcIqZ4WCIME"
+    },
+    {
+      "id": "biz_22",
+      "name": "Misskanelle - Pastelería Repostería Tortas Cupcakes y Galletas para cumpleaños aniversarios",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Sergio Bernales 479, Surquillo 15048",
+      "url": "https://www.google.com/maps/place/Misskanelle+-+Pasteler%C3%ADa+Reposter%C3%ADa+Tortas+Cupcakes+y+Galletas+para+cumplea%C3%B1os+aniversarios/data=!4m7!3m6!1s0x9105c989c7fd874b:0x8fb2c9ad2d645ac8!8m2!3d-12.1175982!4d-77.0145777!16s%2Fg%2F11hk3k5r01!19sChIJS4f9x4nJBZERyFpkLa3Jso8"
+    },
+    {
+      "id": "biz_24",
+      "name": "Arere Sweet",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "15001, Lima 15001",
+      "url": "https://www.google.com/maps/place/Arere+Sweet/data=!4m7!3m6!1s0x9105c917fa343129:0xef6f23fc3d7c513c!8m2!3d-12.0568959!4d-77.0383925!16s%2Fg%2F11s5j58_n4!19sChIJKTE0-hfJBZERPFF8Pfwjb-8"
+    },
+    {
+      "id": "biz_30",
+      "name": "Tortas Anghelina",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Jr. Andahuaylas 665, lima 15001",
+      "url": "https://www.google.com/maps/place/Tortas+Anghelina/data=!4m7!3m6!1s0x9105c92873e48ca5:0xeffaca7642e0eea4!8m2!3d-12.0325962!4d-77.083226!16s%2Fg%2F11f9yfdxth!19sChIJpYzkcyjJBZERpO7gQnbK-u8"
+    },
+    {
+      "id": "biz_33",
+      "name": "Fototortas and Cakes - Personalizados",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de artículos para decoración en pastelería",
+      "address": "Jr. Andahuaylas 665 3er piso Tienda 264 / 363 / 357, Jr.Huallaga 736, Lima LIMA 01",
+      "url": "https://www.google.com/maps/place/Fototortas+and+Cakes+-+Personalizados/data=!4m7!3m6!1s0x9105c96c690ac0ab:0xa83ef06cc83ebc43!8m2!3d-12.0503635!4d-77.0249654!16s%2Fg%2F11h4d40y0f!19sChIJq8AKaWzJBZERQ7w-yGzwPqg"
+    },
+    {
+      "id": "biz_35",
+      "name": "Detalles y Regalos Box Sorpresa - Love",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Tienda de regalos",
+      "address": "Av. Simón Bolívar 1306, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/Detalles+y+Regalos+Box+Sorpresa+-+Love/data=!4m7!3m6!1s0x9105c9172b847c2d:0xfce06e163e974e69!8m2!3d-12.0720889!4d-77.0676424!16s%2Fg%2F11ksp4h7ry!19sChIJLXyEKxfJBZERaU6XPhZu4Pw"
+    },
+    {
+      "id": "biz_41",
+      "name": "Alison Tortas",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Alison+Tortas/data=!4m7!3m6!1s0x9105d133fe0b360b:0x4fa1855d5821c8bd!8m2!3d-11.8709186!4d-76.9673848!16s%2Fg%2F11fjtyp0n7!19sChIJCzYL_jPRBZERvcghWF2FoU8"
+    },
+    {
+      "id": "biz_43",
+      "name": "Clases online en Pastelería y Repostería Fina - Tortas Mimonaty Brara",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Oficinas de empresa",
+      "address": "Av Tupac Amaru 150, San Martín de Porres 15103",
+      "url": "https://www.google.com/maps/place/Clases+online+en+Pasteler%C3%ADa+y+Reposter%C3%ADa+Fina+-+Tortas+Mimonaty+Brara/data=!4m7!3m6!1s0x9105cf161a92a409:0x2e71aa085e235a4d!8m2!3d-12.0274072!4d-77.065913!16s%2Fg%2F11g4m783_x!19sChIJCaSSGhbPBZERTVojXgiqcS4"
+    },
+    {
+      "id": "biz_47",
+      "name": "Shirley Cake 🎂 Tortas Personalizadas",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Cooperativa, Av. Metropolitana 185, Comas 15311",
+      "url": "https://www.google.com/maps/place/Shirley+Cake+%F0%9F%8E%82+Tortas+Personalizadas/data=!4m7!3m6!1s0x9105cf0024563d91:0x4f7de3d38d3deec7!8m2!3d-11.9752593!4d-77.0599689!16s%2Fg%2F11w_c5k51x!19sChIJkT1WJADPBZERx-49jdPjfU8"
+    },
+    {
+      "id": "biz_54",
+      "name": "Gusto & Pecado - Tortas y más",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "15006, Lirios 386, El Agustino 15006",
+      "url": "https://www.google.com/maps/place/Gusto+%26+Pecado+-+Tortas+y+m%C3%A1s/data=!4m7!3m6!1s0x9105c77bf2779b0b:0x73a0cd3320141152!8m2!3d-12.0338252!4d-77.0038741!16s%2Fg%2F11tcntm_qp!19sChIJC5t38nvHBZERUhEUIDPNoHM"
+    },
+    {
+      "id": "biz_55",
+      "name": "Impresiones Comestibles - Fototortas - Insumos Pasteleros Lima - Impresiones Arroz y/o Oblea - impresiones para Tortas",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Imprenta",
+      "address": "Av. Simón Bolívar 1306, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/Impresiones+Comestibles+-+Fototortas+-+Insumos+Pasteleros+Lima+-+Impresiones+Arroz+y%2Fo+Oblea+-+impresiones+para+Tortas/data=!4m7!3m6!1s0x9105c9b58d2ce117:0xfd3079f05771ed03!8m2!3d-12.0720889!4d-77.0676424!16s%2Fg%2F11vhzzddzp!19sChIJF-EsjbXJBZERA-1xV_B5MP0"
+    },
+    {
+      "id": "biz_56",
+      "name": "Tortas Mágicas",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Jr. Mrcal. William Miller 1952, Lince 15072",
+      "url": "https://www.google.com/maps/place/Tortas+M%C3%A1gicas/data=!4m7!3m6!1s0x9105c9e2b9a1365d:0xafc7cbb2f2574e28!8m2!3d-12.0845178!4d-77.0374332!16s%2Fg%2F11p9prdxb1!19sChIJXTahueLJBZERKE5X8rLLx68"
+    },
+    {
+      "id": "biz_60",
+      "name": "Pastelería Dulce Vale",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Chiquian 2040, El Agustino 15003",
+      "url": "https://www.google.com/maps/place/Pasteler%C3%ADa+Dulce+Vale/data=!4m7!3m6!1s0x9105c742111e59d5:0x4d9ae603b93afa04!8m2!3d-12.0529926!4d-77.0070565!16s%2Fg%2F11px9dyw_p!19sChIJ1VkeEULHBZERBPo6uQPmmk0"
+    },
+    {
+      "id": "biz_61",
+      "name": "Brodies Factory",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Santander 174, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/Brodies+Factory/data=!4m7!3m6!1s0x9105c91e65c27db9:0x978fc353b95be9e7!8m2!3d-12.070395!4d-77.0692864!16s%2Fg%2F11rxwh2kp5!19sChIJuX3CZR7JBZER5-lbuVPDj5c"
+    },
+    {
+      "id": "biz_62",
+      "name": "Tortas Jelly Art",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Brasil 973, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Tortas+Jelly+Art/data=!4m7!3m6!1s0x9105c981a8445b3b:0xd81cb430980b5e2!8m2!3d-12.0692444!4d-77.0484058!16s%2Fg%2F11x73f6n0b!19sChIJO1tEqIHJBZER4rWACUPLgQ0"
+    },
+    {
+      "id": "biz_66",
+      "name": "Mimis Tortas & Cupcakes",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Alfonso del Rincón 2556, Lima 15081",
+      "url": "https://www.google.com/maps/place/Mimis+Tortas+%26+Cupcakes/data=!4m7!3m6!1s0x9105c936dd4c11c1:0x54931b6983d60f6e!8m2!3d-12.0505169!4d-77.0750907!16s%2Fg%2F11ff5l7cwk!19sChIJwRFM3TbJBZERbg_Wg2kbk1Q"
+    },
+    {
+      "id": "biz_72",
+      "name": "Tortas Cristina | Tortas para Matrimonio en Lima | Tortas para Cumpleaños",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Jirón Satelite 382, San Juan de Lurigancho 15401",
+      "url": "https://www.google.com/maps/place/Tortas+Cristina+%7C+Tortas+para+Matrimonio+en+Lima+%7C+Tortas+para+Cumplea%C3%B1os/data=!4m7!3m6!1s0x9105cf9ff808d1a3:0xa40220ac58d4287e!8m2!3d-11.9867164!4d-77.0152339!16s%2Fg%2F11g_z283wg!19sChIJo9EI-J_PBZERfijUWKwgAqQ"
+    },
+    {
+      "id": "biz_75",
+      "name": "Tortas decodetalles (Tortas y cupcakes elaborados artesanalmente con diseños exclusivos)",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "C. Ricardo Angulo 14, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Tortas+decodetalles+%28Tortas+y+cupcakes+elaborados+artesanalmente+con+dise%C3%B1os+exclusivos%29/data=!4m7!3m6!1s0x9105c9081e2597fd:0xc913da685b9840f7!8m2!3d-12.0912713!4d-77.0188238!16s%2Fg%2F11hk1gsf4m!19sChIJ_ZclHgjJBZER90CYW2jaE8k"
+    },
+    {
+      "id": "biz_78",
+      "name": "Tortas y Bocaditos MAC",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "C. 23, Lima 15302",
+      "url": "https://www.google.com/maps/place/Tortas+y+Bocaditos+MAC/data=!4m7!3m6!1s0x9105cf545e06c21d:0x4b04ec3c20f223ba!8m2!3d-12.0062874!4d-77.0701096!16s%2Fg%2F11lfgrlq2h!19sChIJHcIGXlTPBZERuiPyIDzsBEs"
+    },
+    {
+      "id": "biz_84",
+      "name": "Mr. Brownies SAC - Recojos",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Chocolatería",
+      "address": "Jr. Junín 773, Lima 15001",
+      "url": "https://www.google.com/maps/place/Mr.+Brownies+SAC+-+Recojos/data=!4m7!3m6!1s0x9105c90008aeda99:0xef8ed7716a96a316!8m2!3d-12.0489243!4d-77.0243234!16s%2Fg%2F11vynmsdg3!19sChIJmdquCADJBZERFqOWanHXju8"
+    },
+    {
+      "id": "biz_94",
+      "name": "Crema Pastel",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Crema+Pastel/data=!4m7!3m6!1s0x63f59997d61dcb4d:0xd428498878ed7142!8m2!3d-12.0787886!4d-77.09154!16s%2Fg%2F11kpvl4sbv!19sChIJTcsd1peZ9WMRQnHteIhJKNQ"
+    },
+    {
+      "id": "biz_95",
+      "name": "Tortas Mayra",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Morales Duárez 1408, Carmen de La Legua - Reynoso CALLAO 3",
+      "url": "https://www.google.com/maps/place/Tortas+Mayra/data=!4m7!3m6!1s0x9105ced6a2618e47:0x8d71d3821da7e2e3!8m2!3d-12.0374642!4d-77.0847621!16s%2Fg%2F11p64954bs!19sChIJR45hotbOBZER4-KnHYLTcY0"
+    },
+    {
+      "id": "biz_96",
+      "name": "Matceli Tortas Y Cupcakes",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Mz D Lote 5 A.H, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/Matceli+Tortas+Y+Cupcakes/data=!4m7!3m6!1s0x9105cf9356aa1465:0x43b1d7081e416471!8m2!3d-11.9840153!4d-77.0768522!16s%2Fg%2F11ly2jq296!19sChIJZRSqVpPPBZERcWRBHgjXsUM"
+    },
+    {
+      "id": "biz_3",
+      "name": "Mathi La Cereza Del Pastel",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. José Carlos Mariátegui Lote 04, Ate 15483",
+      "url": "https://www.google.com/maps/place/Mathi+La+Cereza+Del+Pastel/data=!4m7!3m6!1s0x9105e9005b5f0ca7:0x8c61116de175a383!8m2!3d-12.0137199!4d-76.824696!16s%2Fg%2F11ys4lkty6!19sChIJpwxfWwDpBZERg6N14W0RYYw"
+    },
+    {
+      "id": "biz_5",
+      "name": "Bake Away Perú - Tortas Temáticas",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Tienda de postres",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Bake+Away+Per%C3%BA+-+Tortas+Tem%C3%A1ticas/data=!4m7!3m6!1s0x9105c73e2ab66333:0xf98b8cc2c3f84ac7!8m2!3d-12.103601!4d-77.0298698!16s%2Fg%2F11hw50k_0b!19sChIJM2O2Kj7HBZERx0r4w8KMi_k"
+    },
+    {
+      "id": "biz_11",
+      "name": "Pastelería en Lima Fanny 🎁🎂 Tortas de Cumpleaños y más🎉",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Pedro De La Gasca 1096, Comas 15327",
+      "url": "https://www.google.com/maps/place/Pasteler%C3%ADa+en+Lima+Fanny+%F0%9F%8E%81%F0%9F%8E%82+Tortas+de+Cumplea%C3%B1os+y+m%C3%A1s%F0%9F%8E%89/data=!4m7!3m6!1s0x9105d1e377b4bef7:0x2a4b4ccb2e3f052c!8m2!3d-11.9409762!4d-77.0378062!16s%2Fg%2F11t9w_wwxs!19sChIJ9760d-PRBZERLAU_LstMSyo"
+    },
+    {
+      "id": "biz_28",
+      "name": "Claudia Muga Cake Designer",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "José Neyra 143, Surquillo 15038",
+      "url": "https://www.google.com/maps/place/Claudia+Muga+Cake+Designer/data=!4m7!3m6!1s0x9105c7e5be48f601:0x31daa60a4f9c1be9!8m2!3d-12.1126451!4d-77.0011079!16s%2Fg%2F11c53071t5!19sChIJAfZIvuXHBZER6RucTwqm2jE"
+    },
+    {
+      "id": "biz_48",
+      "name": "\"CHiliLily's Bakery\" Detalles, tortas y bocaditos.",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "",
+      "url": "https://www.google.com/maps/place/%22CHiliLily%27s+Bakery%22+Detalles,+tortas+y+bocaditos./data=!4m7!3m6!1s0x9105cd3e7bc77011:0x928397d7eccd6e00!8m2!3d-12.0079478!4d-77.1107036!16s%2Fg%2F11jkx1zq54!19sChIJEXDHez7NBZERAG7N7NeXg5I"
+    },
+    {
+      "id": "biz_63",
+      "name": "La Cesta de Marita",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Lima 200, San Miguel 15086",
+      "url": "https://www.google.com/maps/place/La+Cesta+de+Marita/data=!4m7!3m6!1s0x9105c9a1aaad600d:0x8989386d33c71121!8m2!3d-12.0904325!4d-77.0766216!16s%2Fg%2F11g9nfwmlf!19sChIJDWCtqqHJBZERIRHHM204iYk"
+    },
+    {
+      "id": "biz_21",
+      "name": "Crea tu Torta",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Rafael Escardó 600, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/Crea+tu+Torta/data=!4m7!3m6!1s0x9105c943f5e4193f:0xdb87e6ac32e5a215!8m2!3d-12.0753298!4d-77.092178!16s%2Fg%2F11lsnnz5r7!19sChIJPxnk9UPJBZERFaLlMqzmh9s"
+    },
+    {
+      "id": "biz_25",
+      "name": "Delideas.com",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "JR, Jr. Huamanga 670, Magdalena del Mar",
+      "url": "https://www.google.com/maps/place/Delideas.com/data=!4m7!3m6!1s0x9105c90843f3a463:0x61c5a1cea0a16239!8m2!3d-12.0853529!4d-77.0698353!16s%2Fg%2F11fzk46c6q!19sChIJY6TzQwjJBZEROWKhoM6hxWE"
+    },
+    {
+      "id": "biz_36",
+      "name": "Tortas Mónica - Sweet Pastry",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Angamos Este cuadra 30, San Borja 15037",
+      "url": "https://www.google.com/maps/place/Tortas+M%C3%B3nica+-+Sweet+Pastry/data=!4m7!3m6!1s0x9105c7506fc4474d:0xef31e4a4ea214294!8m2!3d-12.1111641!4d-76.9949011!16s%2Fg%2F11h3bjrh6r!19sChIJTUfEb1DHBZERlEIh6qTkMe8"
+    },
+    {
+      "id": "biz_53",
+      "name": "Delicias de Zacky",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. General César Canevaro 1175, Lince 15073",
+      "url": "https://www.google.com/maps/place/Delicias+de+Zacky/data=!4m7!3m6!1s0x9105c9e38af5ccf1:0xc4e1ab40588de882!8m2!3d-12.0850619!4d-77.0447288!16s%2Fg%2F11fn6jpd6h!19sChIJ8cz1iuPJBZERguiNWECr4cQ"
+    },
+    {
+      "id": "biz_91",
+      "name": "A Cake Boutique - The Cafe",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Restaurante de postres",
+      "address": "C. Atahualpa 314, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/A+Cake+Boutique+-+The+Cafe/data=!4m7!3m6!1s0x9105c994de96cce3:0xd120d5920da72546!8m2!3d-12.116695!4d-77.0302514!16s%2Fg%2F11y766sj9t!19sChIJ48yW3pTJBZERRiWnDZLVINE"
+    },
+    {
+      "id": "biz_99",
+      "name": "Tortas Mariam",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Las Flores de Primavera 1943, Lima 15408",
+      "url": "https://www.google.com/maps/place/Tortas+Mariam/data=!4m7!3m6!1s0x9105cf86be4434c3:0xf5720f0d63d5b3d1!8m2!3d-11.997212!4d-77.0154924!16s%2Fg%2F11mvrjyslq!19sChIJwzREvobPBZER0bPVYw0PcvU"
+    },
+    {
+      "id": "biz_20",
+      "name": "VALECY",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Tienda de artículos para decoración en pastelería",
+      "address": "Jirón Tomás Guido 332, Lince 15046",
+      "url": "https://www.google.com/maps/place/VALECY/data=!4m7!3m6!1s0x9105c9cf76fd8ae9:0xccfa0773665fa2ba!8m2!3d-12.0868382!4d-77.0326836!16s%2Fg%2F11g19q50hy!19sChIJ6Yr9ds_JBZERuqJfZnMH-sw"
+    },
+    {
+      "id": "biz_27",
+      "name": "Deli Galaxy Tortas Personalizadas y más en Lima Perú",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Moquegua 3665, San Martín de Porres 15106",
+      "url": "https://www.google.com/maps/place/Deli+Galaxy+Tortas+Personalizadas+y+m%C3%A1s+en+Lima+Per%C3%BA/data=!4m7!3m6!1s0x9105cf8ec712bcbd:0x4853fe4586f836d2!8m2!3d-12.033878!4d-77.0891458!16s%2Fg%2F11rx2h5q6x!19sChIJvbwSx47PBZER0jb4hkX-U0g"
+    },
+    {
+      "id": "biz_51",
+      "name": "Tortas y Cupcakes Dulce Sensación",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Simón Bolívar 2150, Pueblo Libre 15085",
+      "url": "https://www.google.com/maps/place/Tortas+y+Cupcakes+Dulce+Sensaci%C3%B3n/data=!4m7!3m6!1s0x9105c9aa78b9087d:0x9868b91c90c8109!8m2!3d-12.0705655!4d-77.0761646!16s%2Fg%2F11f8hqcrc6!19sChIJfQi5eKrJBZERCYEMyZGLhgk"
+    },
+    {
+      "id": "biz_52",
+      "name": "Tortas Franchesco",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "C. Las Casas 118, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Tortas+Franchesco/data=!4m7!3m6!1s0x9105c867a73ba5f7:0xa31a8bf74488f482!8m2!3d-12.0942068!4d-77.0317469!16s%2Fg%2F11dxbs7mny!19sChIJ96U7p2fIBZERgvSIRPeLGqM"
+    },
+    {
+      "id": "biz_82",
+      "name": "Sorprende Lima - Miraflores",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Tienda de regalos",
+      "address": "Av. Vasco Núñez de Balboa 654, Miraflores 15054",
+      "url": "https://www.google.com/maps/place/Sorprende+Lima+-+Miraflores/data=!4m7!3m6!1s0x9105b74e5a0668c3:0x186930c8a6c5c732!8m2!3d-12.1302816!4d-77.0245495!16s%2Fg%2F11lm855mtq!19sChIJw2gGWk63BZERMsfFpsgwaRg"
+    },
+    {
+      "id": "biz_88",
+      "name": "La Cremé Pasteleria Fina",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Universitaria 302, San Martín de Porres 15103",
+      "url": "https://www.google.com/maps/place/La+Crem%C3%A9+Pasteleria+Fina/data=!4m7!3m6!1s0x9105ceea7b21c1c9:0x53b726e5cbe12cbc!8m2!3d-12.0257214!4d-77.0749574!16s%2Fg%2F11cly8d1_s!19sChIJycEhe-rOBZERvCzhy-Umt1M"
+    },
+    {
+      "id": "biz_31",
+      "name": "Tortas Lucas, Tienda Miraflores",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Juan de la Fuente 332, Miraflores 15047",
+      "url": "https://www.google.com/maps/place/Tortas+Lucas,+Tienda+Miraflores/data=!4m7!3m6!1s0x9105c80344340663:0xf8524953259f5315!8m2!3d-12.1251644!4d-77.0210507!16s%2Fg%2F11c1c0qcl7!19sChIJYwY0RAPIBZERFVOfJVNJUvg"
+    },
+    {
+      "id": "biz_32",
+      "name": "SugarLab",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Jr, Jr. José Pezet y Monel 2700, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/SugarLab/data=!4m7!3m6!1s0x9105c86b181788f7:0x2933fba90d5000a5!8m2!3d-12.0909617!4d-77.0415988!16s%2Fg%2F11b6gh7vq0!19sChIJ94gXGGvIBZERpQBQDan7Myk"
+    },
+    {
+      "id": "biz_57",
+      "name": "La Dulce Pastelería",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Cafetería",
+      "address": "Avenida Principal 586, Lima 15038",
+      "url": "https://www.google.com/maps/place/La+Dulce+Pasteler%C3%ADa/data=!4m7!3m6!1s0x9105c72fd08775dd:0xbf0987e1a765578a!8m2!3d-12.1172421!4d-77.0062701!16s%2Fg%2F11fln1hcv7!19sChIJ3XWH0C_HBZERildlp-GHCb8"
+    },
+    {
+      "id": "biz_64",
+      "name": "DOCERIA BRASILEIRA. Tortas y Bocaditos Brasileños delivery.",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Jr. Los Cisnes 405, Lima 15054",
+      "url": "https://www.google.com/maps/place/DOCERIA+BRASILEIRA.+Tortas+y+Bocaditos+Brasile%C3%B1os+delivery./data=!4m7!3m6!1s0x9105b8368c2f62f7:0xf4f5a54941ba4555!8m2!3d-12.1631238!4d-76.9967259!16s%2Fg%2F1tp0fqwp!19sChIJ92IvjDa4BZERVUW6QUml9fQ"
+    },
+    {
+      "id": "biz_67",
+      "name": "María Artesana",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. la Paz 1680, Miraflores LIMA 18",
+      "url": "https://www.google.com/maps/place/Mar%C3%ADa+Artesana/data=!4m7!3m6!1s0x9105b7e3835035b1:0x7054cf9081598c87!8m2!3d-12.1347934!4d-77.0252759!16s%2Fg%2F11c54d98wj!19sChIJsTVQg-O3BZERh4xZgZDPVHA"
+    },
+    {
+      "id": "biz_70",
+      "name": "TORTAS LA CREMÉ",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. José Granda 3443, San Martín de Porres 15107",
+      "url": "https://www.google.com/maps/place/TORTAS+LA+CREM%C3%89/data=!4m7!3m6!1s0x9105cebe5244f4ad:0xe578439817c63d2b!8m2!3d-12.0229595!4d-77.0831462!16s%2Fg%2F11b6hv20g8!19sChIJrfREUr7OBZERKz3GF5hDeOU"
+    },
+    {
+      "id": "biz_77",
+      "name": "Lith de Chocolat",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Lith+de+Chocolat/data=!4m7!3m6!1s0x9105b75ed20abbc3:0x763c58156f20c94a!8m2!3d-9.2435385!4d-75.0195046!16s%2Fg%2F11lfz_1jyn!19sChIJw7sK0l63BZERSskgbxVYPHY"
+    },
+    {
+      "id": "biz_9",
+      "name": "Dulcefina",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "C. Los Negocios 428, Surquillo 15047",
+      "url": "https://www.google.com/maps/place/Dulcefina/data=!4m7!3m6!1s0x9105c86fdba69695:0x4d59f2b705b45371!8m2!3d-12.1048611!4d-77.0193377!16s%2Fg%2F11bw7cw5f4!19sChIJlZam22_IBZERcVO0BbfyWU0"
+    },
+    {
+      "id": "biz_34",
+      "name": "Tortas personalizadas, impresión comestible y fototortas en Surco | Tortas D’Consuelo",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Ca. Júpiter 109, Santiago de Surco 15054",
+      "url": "https://www.google.com/maps/place/Tortas+personalizadas,+impresi%C3%B3n+comestible+y+fototortas+en+Surco+%7C+Tortas+D%E2%80%99Consuelo/data=!4m7!3m6!1s0x9105b924ec773c1d:0x6bff7abf9cdfe69a!8m2!3d-12.1480355!4d-76.9912657!16s%2Fg%2F11yhdwksjr!19sChIJHTx37CS5BZERmubfnL96_2s"
+    },
+    {
+      "id": "biz_65",
+      "name": "PASTELERIA FINA JELICA",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Jr. Manuel Segura 664, Lima 15046",
+      "url": "https://www.google.com/maps/place/PASTELERIA+FINA+JELICA/data=!4m7!3m6!1s0x9105c88c630d6a8f:0x1f5c66d61a35d927!8m2!3d-12.0790826!4d-77.0302472!16s%2Fg%2F1td731mx!19sChIJj2oNY4zIBZERJ9k1GtZmXB8"
+    },
+    {
+      "id": "biz_69",
+      "name": "Mosarina Pastelería",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Pje. de José Olaya 221, Lima 15022",
+      "url": "https://www.google.com/maps/place/Mosarina+Pasteler%C3%ADa/data=!4m7!3m6!1s0x9105c649d980ef55:0xa9c14d50e7ed1f61!8m2!3d-12.0758514!4d-76.9869202!16s%2Fg%2F11bx1h4skt!19sChIJVe-A2UnGBZERYR_t51BNwak"
+    },
+    {
+      "id": "biz_86",
+      "name": "Rocoplast: Tienda Productos Para Pasteleria",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Tienda de artículos para decoración en pastelería",
+      "address": "Rodadero 168, Lince 15046",
+      "url": "https://www.google.com/maps/place/Rocoplast:+Tienda+Productos+Para+Pasteleria/data=!4m7!3m6!1s0x9105c86044238d87:0x9d4c45dcb940e5c7!8m2!3d-12.0872387!4d-77.0315988!16s%2Fg%2F11c5_06jz6!19sChIJh40jRGDIBZERx-VAudxFTJ0"
+    },
+    {
+      "id": "biz_46",
+      "name": "Tortas Dulys's",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Jirón Huamachuco 1400, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Tortas+Dulys%27s/data=!4m7!3m6!1s0x9105c8fb30a5e3bb:0x19e31df9e2e40681!8m2!3d-12.0758963!4d-77.0489439!16s%2Fg%2F11b6p3wl0y!19sChIJu-OlMPvIBZERgQbk4vkd4xk"
+    },
+    {
+      "id": "biz_73",
+      "name": "VLADY Repostería Fina y Fruta Bar",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Jr. Junín 494, Miraflores 15046",
+      "url": "https://www.google.com/maps/place/VLADY+Reposter%C3%ADa+Fina+y+Fruta+Bar/data=!4m7!3m6!1s0x9105c813761d8363:0xccbfcfbf2437fa3d!8m2!3d-12.1104737!4d-77.0266919!16s%2Fg%2F1tkmnmcs!19sChIJY4MddhPIBZERPfo3JL_Pv8w"
+    },
+    {
+      "id": "biz_76",
+      "name": "Dulces Rosmalé",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Lorenzo de Encalada 195, Rímac 25",
+      "url": "https://www.google.com/maps/place/Dulces+Rosmal%C3%A9/data=!4m7!3m6!1s0x9105cfd65714d6bf:0x5353c06024087d90!8m2!3d-12.0263785!4d-77.028673!16s%2Fg%2F11pkk751tn!19sChIJv9YUV9bPBZERkH0IJGDAU1M"
+    },
+    {
+      "id": "biz_89",
+      "name": "Jhikos",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Jirón Huaraz 942, Breña 15083",
+      "url": "https://www.google.com/maps/place/Jhikos/data=!4m7!3m6!1s0x9105c943c121c1e7:0x4619256e9e0c9de1!8m2!3d-12.0597916!4d-77.0449635!16s%2Fg%2F11fhz5s4sn!19sChIJ58EhwUPJBZER4Z0Mnm4lGUY"
+    },
+    {
+      "id": "biz_6",
+      "name": "Tortas.com.pe",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Jr. Enrique Seoane, San Borja 15036",
+      "url": "https://www.google.com/maps/place/Tortas.com.pe/data=!4m7!3m6!1s0x9105c7e0d5f090bb:0x6cbf0f295e69cf52!8m2!3d-12.109442!4d-77.004938!16s%2Fg%2F1z44w0d7y!19sChIJu5Dw1eDHBZERUs9pXikPv2w"
+    },
+    {
+      "id": "biz_58",
+      "name": "Don Pastel ®",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Cafetería",
+      "address": "Av. Monseñor Jorge Dintilhac 653, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/Don+Pastel+%C2%AE/data=!4m7!3m6!1s0x9105c96e017c79b1:0x7119bb63f5dc4d39!8m2!3d-12.0772988!4d-77.085206!16s%2Fg%2F11b6jgnf9y!19sChIJsXl8AW7JBZEROU3c9WO7GXE"
+    },
+    {
+      "id": "biz_97",
+      "name": "Jhiko's",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Venezuela 1038, Breña 15082",
+      "url": "https://www.google.com/maps/place/Jhiko%27s/data=!4m7!3m6!1s0x9105c8da50914001:0xe95c3b6c05407834!8m2!3d-12.0548802!4d-77.0484013!16s%2Fg%2F11b6q1m4fk!19sChIJAUCRUNrIBZERNHhABWw7XOk"
+    },
+    {
+      "id": "biz_29",
+      "name": "Tortas Cielo",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Manuel Villarán 1028, Surquillo 15038",
+      "url": "https://www.google.com/maps/place/Tortas+Cielo/data=!4m7!3m6!1s0x9105c7fa5802f8b7:0xfee0c6b2c8a9671e!8m2!3d-12.120538!4d-77.0010983!16s%2Fg%2F11b6hsrbn7!19sChIJt_gCWPrHBZERHmepyLLG4P4"
+    },
+    {
+      "id": "biz_38",
+      "name": "La Foresta",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Samuel Alcázar 880, Rímac 15094",
+      "url": "https://www.google.com/maps/place/La+Foresta/data=!4m7!3m6!1s0x9105cf38803260e9:0x9c36836595645d79!8m2!3d-12.026453!4d-77.0336776!16s%2Fg%2F11b6vs9wlk!19sChIJ6WAygDjPBZEReV1klWWDNpw"
+    },
+    {
+      "id": "biz_45",
+      "name": "Tortas Gaby",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. de las Artes Sur 119, San Borja 15036",
+      "url": "https://www.google.com/maps/place/Tortas+Gaby/data=!4m7!3m6!1s0x9105c7d758de0eaf:0x1b9137f2d5f19f02!8m2!3d-12.0952867!4d-77.0057078!16s%2Fg%2F119wh3xrp!19sChIJrw7eWNfHBZERAp_x1fI3kRs"
+    },
+    {
+      "id": "biz_68",
+      "name": "Tortas Gladys",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Jr. Viña lariena Mz 17 Lt 7 Urb. Sagitario—Surco, Lima",
+      "url": "https://www.google.com/maps/place/Tortas+Gladys/data=!4m7!3m6!1s0x9105b831239aea09:0xa8d638f30b566408!8m2!3d-12.1654063!4d-76.9942064!16s%2Fg%2F11dfj2206x!19sChIJCeqaIzG4BZERCGRWC_M41qg"
+    },
+    {
+      "id": "biz_80",
+      "name": "Tortatti",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Gran Chimú 895, San Juan de Lurigancho 15401",
+      "url": "https://www.google.com/maps/place/Tortatti/data=!4m7!3m6!1s0x9105c5943fb84685:0x9df098f139ae3072!8m2!3d-12.0248488!4d-76.9986341!16s%2Fg%2F11r7186kj8!19sChIJhUa4P5TFBZERcjCuOfGY8J0"
+    },
+    {
+      "id": "biz_26",
+      "name": "TORTAS MIA S.A.C",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Manuel Villarán N° 1066, Surquillo 15024",
+      "url": "https://www.google.com/maps/place/TORTAS+MIA+S.A.C/data=!4m7!3m6!1s0x9105c7faf587b089:0xbe0718e25da6d1fb!8m2!3d-12.1205146!4d-77.0001343!16s%2Fg%2F11b6hzw6pz!19sChIJibCH9frHBZER-9GmXeIYB74"
+    },
+    {
+      "id": "biz_42",
+      "name": "Dulce Carolina",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Los Abetos 707, Ate 15022",
+      "url": "https://www.google.com/maps/place/Dulce+Carolina/data=!4m7!3m6!1s0x9105c64e62bd16bb:0xf7a213a1177cf643!8m2!3d-12.0765519!4d-76.9787071!16s%2Fg%2F11gfh277gl!19sChIJuxa9Yk7GBZERQ_Z8F6ETovc"
+    },
+    {
+      "id": "biz_74",
+      "name": "Dul&Pas - Dulces y Pasteles",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Pastelería francesa",
+      "address": "Edificio, Los Fresnos L 37, Jesús María 15076",
+      "url": "https://www.google.com/maps/place/Dul%26Pas+-+Dulces+y+Pasteles/data=!4m7!3m6!1s0x9105c8ff15a0d311:0x42d865763cbbc295!8m2!3d-12.0864913!4d-77.0538736!16s%2Fg%2F11c1qjsgng!19sChIJEdOgFf_IBZERlcK7PHZl2EI"
+    },
+    {
+      "id": "biz_50",
+      "name": "D'Candys Pastelería",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Sargento Enrique Villar 415, Lima 15046",
+      "url": "https://www.google.com/maps/place/D%27Candys+Pasteler%C3%ADa/data=!4m7!3m6!1s0x9105c8f2cc8b15cb:0x9af1a60abfa0aa23!8m2!3d-12.0762591!4d-77.033585!16s%2Fg%2F11b6hrrqf5!19sChIJyxWLzPLIBZERI6qgvwqm8Zo"
+    },
+    {
+      "id": "biz_83",
+      "name": "Tortas Valery",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Manuel Villarán 1070, Lima 15038",
+      "url": "https://www.google.com/maps/place/Tortas+Valery/data=!4m7!3m6!1s0x9105c7faf566fc43:0xce7a996e3a9ffcec!8m2!3d-12.1204217!4d-77.0004094!16s%2Fg%2F11b6hkfw5t!19sChIJQ_xm9frHBZER7PyfOm6Zes4"
+    },
+    {
+      "id": "biz_87",
+      "name": "La Casita de la Repostería",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Tienda de artículos para el hogar",
+      "address": "Jr.Leoncio Prado 816, Lima 15086",
+      "url": "https://www.google.com/maps/place/La+Casita+de+la+Reposter%C3%ADa/data=!4m7!3m6!1s0x9105c90101095c8f:0x1f47e5ee20bb6ea4!8m2!3d-12.0904997!4d-77.0722757!16s%2Fg%2F11j7x_zwxx!19sChIJj1wJAQHJBZERpG67IO7lRx8"
+    },
+    {
+      "id": "biz_92",
+      "name": "Tortas day",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Las Lilas mz A2, El Agustino 15006",
+      "url": "https://www.google.com/maps/place/Tortas+day/data=!4m7!3m6!1s0x9105c71fa31545dd:0xa0d869fe45a92c73!8m2!3d-12.0409435!4d-76.9984327!16s%2Fg%2F11q57yqf51!19sChIJ3UUVox_HBZERcyypRf5p2KA"
+    },
+    {
+      "id": "biz_19",
+      "name": "SulizCake",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "",
+      "url": "https://www.google.com/maps/place/SulizCake/data=!4m7!3m6!1s0x9105cf90f637a675:0x81e02d69ea0c5427!8m2!3d-12.0266383!4d-76.9877792!16s%2Fg%2F11gxjtg1r4!19sChIJdaY39pDPBZERJ1QM6mkt4IE"
+    },
+    {
+      "id": "biz_23",
+      "name": "Tortas Fabiana",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Gobierno Regional de Elvira García y García 360 Los Olivos, LIMA 39",
+      "url": "https://www.google.com/maps/place/Tortas+Fabiana/data=!4m7!3m6!1s0x9105ce469a1638b9:0xcfaee97facf98288!8m2!3d-11.9807025!4d-77.0718023!16s%2Fg%2F1yddd2xzh!19sChIJuTgWmkbOBZERiIL5rH_prs8"
+    },
+    {
+      "id": "biz_40",
+      "name": "Divino Detalle",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av del Aire 1288, Lima 15021",
+      "url": "https://www.google.com/maps/place/Divino+Detalle/data=!4m7!3m6!1s0x9105c7b83113004d:0x17dba113b8b4fda4!8m2!3d-12.0776633!4d-76.9973786!16s%2Fg%2F11g0k3zgkm!19sChIJTQATMbjHBZERpP20uBOh2xc"
+    },
+    {
+      "id": "biz_49",
+      "name": "Tortas Mafer Camila- Lince",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Arequipa 2235, Lima 15046",
+      "url": "https://www.google.com/maps/place/Tortas+Mafer+Camila-+Lince/data=!4m7!3m6!1s0x9105c98c67da348b:0xc5c1927098c5aa04!8m2!3d-12.0865227!4d-77.034031!16s%2Fg%2F11x98n9v26!19sChIJizTaZ4zJBZERBKrFmHCSwcU"
+    },
+    {
+      "id": "biz_37",
+      "name": "Tortas en Lima",
+      "rating": 3.7,
+      "reviewsCount": null,
+      "category": "Panadería",
+      "address": "3WFQ+GW6 Condominio Sol de, Comas 15316",
+      "url": "https://www.google.com/maps/place/Tortas+en+Lima/data=!4m7!3m6!1s0x9105cbd8710bc6a1:0xdeb4709a450ce1b7!8m2!3d-11.9262218!4d-77.0602312!16s%2Fg%2F11cs6frk0q!19sChIJocYLcdjLBZERt-EMRZpwtN4"
+    },
+    {
+      "id": "biz_85",
+      "name": "Tortas Gaby - San juan de lurigancho",
+      "rating": 3.7,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Las Flores de Primavera 1408, San Juan de Lurigancho 15419",
+      "url": "https://www.google.com/maps/place/Tortas+Gaby+-+San+juan+de+lurigancho/data=!4m7!3m6!1s0x9105cfba146f75e5:0x5a4788c081df77e0!8m2!3d-12.0066597!4d-77.0110773!16s%2Fg%2F11s1rmm1t_!19sChIJ5XVvFLrPBZER4HffgcCIR1o"
+    },
+    {
+      "id": "biz_100",
+      "name": "Tortas Gaby",
+      "rating": 3.7,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Shopping Center, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/Tortas+Gaby/data=!4m7!3m6!1s0x9105c96d72f459a7:0xa338c68853c0d328!8m2!3d-12.0754493!4d-77.0818159!16s%2Fg%2F11bws8rjyv!19sChIJp1n0cm3JBZERKNPAU4jGOKM"
+    },
+    {
+      "id": "biz_98",
+      "name": "Tortas Gaby",
+      "rating": 3.6,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. Santiago Antunez de Mayolo 854, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/Tortas+Gaby/data=!4m7!3m6!1s0x9105cf5f25b7f3bf:0x98493a1c89039df5!8m2!3d-11.9927!4d-77.0717588!16s%2Fg%2F11h887kxf0!19sChIJv_O3JV_PBZER9Z0DiRw6SZg"
+    },
+    {
+      "id": "biz_79",
+      "name": "Home Bakery Perú Tortas Personalizadas",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Dalias, Callao 07031",
+      "url": "https://www.google.com/maps/place/Home+Bakery+Per%C3%BA+Tortas+Personalizadas/data=!4m7!3m6!1s0x9105cd33e635bfc1:0x4f8069211313aaba!8m2!3d-12.0069633!4d-77.1066058!16s%2Fg%2F11smdll96j!19sChIJwb815jPNBZERuqoTEyFpgE8"
+    },
+    {
+      "id": "biz_13",
+      "name": "Tortas Personalizadas lima",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Jr. Huiracocha 2097, Jesús María 15084",
+      "url": "https://www.google.com/maps/place/Tortas+Personalizadas+lima/data=!4m7!3m6!1s0xe155e880927a81:0xe321c44b9e526eb2!8m2!3d-12.0828774!4d-77.0521124!16s%2Fg%2F11xgh_7ctr!19sChIJgXqSgOhV4QARsm5SnkvEIeM"
+    },
+    {
+      "id": "biz_39",
+      "name": "Tortas Temáticas Delyzzi",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Tienda de tartas",
+      "address": "Jirón Coronel Manuel Gómez 205, Lima 15073",
+      "url": "https://www.google.com/maps/place/Tortas+Tem%C3%A1ticas+Delyzzi/data=!4m7!3m6!1s0x9105c9d20dd2c4d5:0x1b8349ea4d39bea2!8m2!3d-12.0812011!4d-77.0375756!16s%2Fg%2F11g0zr87qy!19sChIJ1cTSDdLJBZERor45TepJgxs"
+    },
+    {
+      "id": "biz_44",
+      "name": "Tortas pequeñas personalizadas - TEOVAL",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. U. Mayor Di San Marcos 246, Los Olivos 15036",
+      "url": "https://www.google.com/maps/place/Tortas+peque%C3%B1as+personalizadas+-+TEOVAL/data=!4m7!3m6!1s0x9105cf2cc0f22f97:0x3ff775444686ce06!8m2!3d-11.9742941!4d-77.0790246!16s%2Fg%2F11ms1ngfq6!19sChIJly_ywCzPBZERBs6GRkR19z8"
+    },
+    {
+      "id": "biz_59",
+      "name": "Tortas personalizadas - Dulce Tentación",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Murillo 214, San Borja 15037",
+      "url": "https://www.google.com/maps/place/Tortas+personalizadas+-+Dulce+Tentaci%C3%B3n/data=!4m7!3m6!1s0x9105c710d1780447:0x814c998e5c431ca!8m2!3d-12.0908706!4d-76.9990906!16s%2Fg%2F11zd2y_ksw!19sChIJRwR40RDHBZERyjHE5ZjJFAg"
+    },
+    {
+      "id": "biz_71",
+      "name": "Mi Tono Pastel by Rosita Ortega",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Jr. Áncash 2578, El Agustino 15003",
+      "url": "https://www.google.com/maps/place/Mi+Tono+Pastel+by+Rosita+Ortega/data=!4m7!3m6!1s0x9105c7a77a3c04b5:0x2cbfdd255b1c7c10!8m2!3d-12.0407376!4d-76.9987181!16s%2Fg%2F11gmb9r9t4!19sChIJtQQ8eqfHBZEREHwcWyXdvyw"
+    },
+    {
+      "id": "biz_81",
+      "name": "Tortas Lima | La Casa de las Tortas",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Primavera mz c, San Juan de Miraflores 07001",
+      "url": "https://www.google.com/maps/place/Tortas+Lima+%7C+La+Casa+de+las+Tortas/data=!4m7!3m6!1s0x9105b954d6a7840d:0x3b8d742772b42929!8m2!3d-12.1791602!4d-76.9831776!16s%2Fg%2F11q4j7jjj4!19sChIJDYSn1lS5BZERKSm0cid0jTs"
+    },
+    {
+      "id": "biz_90",
+      "name": "Yummy cake Perú",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pastelería",
+      "address": "Av. A 250, Condominio Altos del Rimac 15940, Rímac 15094",
+      "url": "https://www.google.com/maps/place/Yummy+cake+Per%C3%BA/data=!4m7!3m6!1s0x9105c5984d7d66ed:0xbf65b43f54cd4e69!8m2!3d-12.0142861!4d-77.0419878!16s%2Fg%2F11j5bxt154!19sChIJ7WZ9TZjFBZERaU7NVD-0Zb8"
+    },
+    {
+      "id": "biz_93",
+      "name": "Tortas Nella",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pastelería especializada en tartas nupciales",
+      "address": "Block G, Av. Parinacochas 782, Lima LIMA 13",
+      "url": "https://www.google.com/maps/place/Tortas+Nella/data=!4m7!3m6!1s0x9105c917e872d867:0xd0b6900ae0d2b26e!8m2!3d-12.0668675!4d-77.0174429!16s%2Fg%2F11gjhp0brl!19sChIJZ9hy6BfJBZERbrLS4AqQttA"
+    }
+  ]
+}
