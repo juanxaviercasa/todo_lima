@@ -13,7 +13,7 @@ const stateFilePath = path.join(__dirname, 'state.json');
 const CONFIG = {
   minDelaySeconds: 6,
   maxDelaySeconds: 14,
-  maxResultsPerCategory: 10,
+  maxResultsPerCategory: 100,
   refreshDaysThreshold: 7 // Volver a raspar si pasaron más de 7 días
 };
 

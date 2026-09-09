@@ -50,8 +50,8 @@ export default function HeroGHL({ category, totalResults, updatedAt }) {
         {/* Barra de Estadísticas de Autoridad */}
         <div className="mt-12 pt-8 border-t border-slate-800/80 grid grid-cols-3 gap-2 sm:gap-6 max-w-2xl mx-auto">
           <div>
-            <div className="text-2xl sm:text-3xl font-black text-white">Top 10</div>
-            <div className="text-[11px] sm:text-xs text-slate-400 mt-1 uppercase font-semibold">Seleccionados</div>
+            <div className="text-2xl sm:text-3xl font-black text-white">{totalResults}</div>
+            <div className="text-[11px] sm:text-xs text-slate-400 mt-1 uppercase font-semibold">Negocios listados</div>
           </div>
           <div className="border-x border-slate-800">
             <div className="text-2xl sm:text-3xl font-black text-amber-400 flex items-center justify-center gap-1">

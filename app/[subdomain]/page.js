@@ -11,10 +11,10 @@ export async function generateMetadata({ params }) {
   const data = getCategoryData(subdomain);
 
   return {
-    title: `Los 10 Mejores ${data.meta.title} (Revisión 2026)`,
+    title: `${data.meta.title} (Revisión 2026)`,
     description: data.meta.heroHook,
     openGraph: {
-      title: `Los 10 Mejores ${data.meta.title}`,
+      title: data.meta.title,
       description: data.meta.heroHook,
       siteName: 'Todo Lima',
       locale: 'es_PE',
@@ -78,7 +78,7 @@ export default function SubdomainPage({ params }) {
                 Extrayendo negocios para {meta.title}...
               </h3>
               <p className="mt-2 text-sm text-slate-600 leading-relaxed">
-                El robot de Playwright se encuentra procesando las fichas públicas de Google Maps para esta categoría. En breve estará disponible el ranking con los mejores 10 especialistas.
+                El robot de Playwright se encuentra procesando las fichas públicas de Google Maps para esta categoría. En breve estará disponible el directorio con hasta 100 especialistas.
               </p>
               <div className="mt-6">
                 <a

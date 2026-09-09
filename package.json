@@ -10,16 +10,21 @@
     "scrape": "node scraper/scrape-category.js",
     "runner": "node scraper/runner.js",
     "runner:loop": "node scraper/runner.js --loop",
-    "runner:batch": "node scraper/runner.js --limit 3"
+    "runner:batch": "node scraper/runner.js --limit 3",
+    "ghl:master": "node scraper/master-ghl-runner.js",
+    "ghl:category": "node scraper/master-ghl-runner.js --slug"
   },
   "dependencies": {
-    "autoprefixer": "^10.5.5",
     "lucide-react": "^1.42.0",
     "next": "^14.2.35",
     "playwright": "^1.50.0",
-    "postcss": "^8.5.28",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "tailwindcss": "^3.4.17"
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "autoprefixer": "^10.5.5",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3"
   }
 }

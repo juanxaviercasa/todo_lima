@@ -15,18 +15,40 @@ function cleanField(text) {
   return text.replace(/[\uE000-\uF8FF]/g, '').replace(/^[\s\n\r]+|[\s\n\r]+$/g, '').trim();
 }
 
+function normalizePlaceUrl(url) {
+  return (url || '').split('?')[0].split('#')[0].replace(/\/$/, '');
+}
+
 /**
  * Scraper especializado en Google Maps para directorios locales
  * @param {string} query Término de búsqueda (ej. "doctores en Lima")
  * @param {string} slug Identificador de categoría para el archivo JSON (ej. "doctores")
- * @param {number} maxResults Cantidad de resultados deseados (por defecto 10)
+ * @param {number} maxResults Cantidad de resultados deseados (por defecto 100)
  */
-export async function scrapeCategory(query = 'doctores en Lima', slug = 'doctores', maxResults = 10) {
+export async function scrapeCategory(query = 'doctores en Lima', slug = 'doctores', maxResults = 100) {
   console.log(`\n==============================================`);
   console.log(`🚀 Iniciando extracción para: "${query}"`);
   console.log(`📁 Archivo destino: data/${slug}.json`);
   console.log(`🎯 Meta: Top ${maxResults} negocios mejor calificados`);
   console.log(`==============================================\n`);
+
+  const dataDir = path.resolve(__dirname, '../data');
+  const outputFilePath = path.join(dataDir, `${slug}.json`);
+  let existingBusinesses = [];
+
+  if (fs.existsSync(outputFilePath)) {
+    try {
+      const existingPayload = JSON.parse(fs.readFileSync(outputFilePath, 'utf-8'));
+      existingBusinesses = Array.isArray(existingPayload.businesses) ? existingPayload.businesses : [];
+      console.log(`📦 Registros existentes: ${existingBusinesses.length}. Se buscarán solo fichas nuevas.`);
+    } catch (error) {
+      console.warn(`⚠️ No se pudo leer el archivo existente: ${error.message}`);
+    }
+  }
+
+  const existingUrls = new Set(existingBusinesses.map((business) => normalizePlaceUrl(business.url)));
+  const missingResults = Math.max(maxResults - existingBusinesses.length, 0);
+  const candidateLimit = maxResults + missingResults + 25;
 
   const browser = await chromium.launch({
     headless: true,
@@ -89,9 +111,9 @@ export async function scrapeCategory(query = 'doctores en Lima', slug = 'doctore
     console.log(`📜 Scrolleando feed para cargar al menos ${maxResults} resultados...`);
     const placeUrls = new Set();
     let scrollAttempts = 0;
-    const maxScrollAttempts = 15;
+    const maxScrollAttempts = 40;
 
-    while (placeUrls.size < maxResults && scrollAttempts < maxScrollAttempts) {
+    while (placeUrls.size < candidateLimit && scrollAttempts < maxScrollAttempts) {
       scrollAttempts++;
       
       const urls = await page.$$eval('a[href*="/maps/place/"]', links => 
@@ -103,9 +125,9 @@ export async function scrapeCategory(query = 'doctores en Lima', slug = 'doctore
         placeUrls.add(cleanUrl);
       }
 
-      console.log(`   [Scroll ${scrollAttempts}] Enlaces encontrados: ${placeUrls.size}/${maxResults}`);
+      console.log(`   [Scroll ${scrollAttempts}] Enlaces encontrados: ${placeUrls.size}/${candidateLimit}`);
 
-      if (placeUrls.size >= maxResults) break;
+      if (placeUrls.size >= candidateLimit) break;
 
       const scrolled = await page.evaluate(() => {
         const feed = document.querySelector('div[role="feed"]');
@@ -122,7 +144,9 @@ export async function scrapeCategory(query = 'doctores en Lima', slug = 'doctore
       await page.waitForTimeout(1500);
     }
 
-    const targetUrls = Array.from(placeUrls).slice(0, maxResults);
+    const targetUrls = Array.from(placeUrls)
+      .filter((url) => !existingUrls.has(normalizePlaceUrl(url)))
+      .slice(0, missingResults + 25);
     console.log(`\n🔍 Extrayendo datos limpios de ${targetUrls.length} negocios...`);
 
     // 4. Extracción individual de cada ficha
@@ -246,31 +270,40 @@ export async function scrapeCategory(query = 'doctores en Lima', slug = 'doctore
 
     await detailPage.close();
 
-    // 5. Ordenar por mejor puntuación ponderada
-    results.sort((a, b) => {
+    // 5. Combinar sin duplicados y ordenar por mejor puntuación ponderada
+    const uniqueBusinesses = new Map();
+    [...existingBusinesses, ...results].forEach((business) => {
+      const key = normalizePlaceUrl(business.url) || `${business.name}|${business.address}`.toLowerCase();
+      if (!uniqueBusinesses.has(key)) uniqueBusinesses.set(key, business);
+    });
+
+    const combinedResults = Array.from(uniqueBusinesses.values());
+    combinedResults.sort((a, b) => {
       const scoreA = (a.rating || 0) * 1000 + (a.reviewsCount || 0);
       const scoreB = (b.rating || 0) * 1000 + (b.reviewsCount || 0);
       return scoreB - scoreA;
     });
+    const finalResults = combinedResults.slice(0, maxResults).map((business, index) => ({
+      ...business,
+      id: `biz_${index + 1}`
+    }));
 
     // 6. Formatear y guardar el archivo JSON
-    const dataDir = path.resolve(__dirname, '../data');
     if (!fs.existsSync(dataDir)) {
       fs.mkdirSync(dataDir, { recursive: true });
     }
 
-    const outputFilePath = path.join(dataDir, `${slug}.json`);
     const outputPayload = {
       category: slug,
       searchQuery: query,
-      totalResults: results.length,
+      totalResults: finalResults.length,
       updatedAt: new Date().toISOString(),
-      businesses: results
+      businesses: finalResults
     };
 
     fs.writeFileSync(outputFilePath, JSON.stringify(outputPayload, null, 2), 'utf-8');
     console.log(`\n🎉 Datos guardados exitosamente en: ${outputFilePath}`);
-    console.log(`📊 Total estructurados: ${results.length} registros`);
+    console.log(`📊 Total estructurados: ${finalResults.length} registros (${results.length} nuevos)`);
 
     return outputPayload;
 
@@ -289,7 +322,7 @@ const isDirectExecution = process.argv[1] && process.argv[1].endsWith('scrape-ca
 if (isDirectExecution) {
   const queryArg = process.argv[2] || 'doctores en Lima';
   const slugArg = process.argv[3] || 'doctores';
-  const maxResultsArg = parseInt(process.argv[4] || '10', 10);
+  const maxResultsArg = parseInt(process.argv[4] || '100', 10);
 
   scrapeCategory(queryArg, slugArg, maxResultsArg)
     .then(() => process.exit(0))

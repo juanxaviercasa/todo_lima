@@ -1,0 +1,230 @@
+{
+  "doctores": {
+    "title": "Doctores y Médicos Especialistas en Lima",
+    "queryMaps": "doctores en Lima",
+    "ghlTemplate": "Doctor",
+    "niche": "salud"
+  },
+  "dentistas": {
+    "title": "Dentistas y Clínicas Odontológicas en Lima",
+    "queryMaps": "clinicas dentales en Lima",
+    "ghlTemplate": "Dentist",
+    "niche": "salud"
+  },
+  "psicologos": {
+    "title": "Psicólogos y Terapeutas en Lima",
+    "queryMaps": "psicologos en Lima",
+    "ghlTemplate": "Therapy",
+    "niche": "salud"
+  },
+  "pediatras": {
+    "title": "Pediatras y Especialistas Infantiles en Lima",
+    "queryMaps": "pediatras en Lima",
+    "ghlTemplate": "Pediatrician",
+    "niche": "salud"
+  },
+  "dermatologos": {
+    "title": "Dermatólogos y Clínicas de la Piel en Lima",
+    "queryMaps": "dermatologos en Lima",
+    "ghlTemplate": "Dermatology",
+    "niche": "salud"
+  },
+  "veterinarias": {
+    "title": "Veterinarias y Clínicas de Mascotas en Lima",
+    "queryMaps": "veterinarias 24 horas en Lima",
+    "ghlTemplate": "Veterinary",
+    "niche": "salud"
+  },
+  "fisioterapia": {
+    "title": "Centros de Fisioterapia y Rehabilitación en Lima",
+    "queryMaps": "centros de fisioterapia y rehabilitacion en Lima",
+    "ghlTemplate": "Physical Therapy",
+    "niche": "salud"
+  },
+  "nutricionistas": {
+    "title": "Nutricionistas y Asesoría Dietética en Lima",
+    "queryMaps": "nutricionistas en Lima",
+    "ghlTemplate": "Nutrition",
+    "niche": "salud"
+  },
+  "oftalmologos": {
+    "title": "Oftalmólogos y Clínicas de Ojos en Lima",
+    "queryMaps": "oftalmologos y clinicas de ojos en Lima",
+    "ghlTemplate": "Optometry",
+    "niche": "salud"
+  },
+  "ginecologos": {
+    "title": "Ginecólogos y Salud de la Mujer en Lima",
+    "queryMaps": "ginecologos en Lima",
+    "ghlTemplate": "Clinic",
+    "niche": "salud"
+  },
+  "cerrajeros": {
+    "title": "Cerrajeros a Domicilio y Emergencias 24 Horas en Lima",
+    "queryMaps": "cerrajeros 24 horas en Lima",
+    "ghlTemplate": "Locksmith",
+    "niche": "hogar"
+  },
+  "gasfiteros": {
+    "title": "Gasfiteros y Plomeros Profesionales en Lima",
+    "queryMaps": "gasfiteros a domicilio en Lima",
+    "ghlTemplate": "Plumber",
+    "niche": "hogar"
+  },
+  "electricistas": {
+    "title": "Electricistas Certificados y Emergencias en Lima",
+    "queryMaps": "electricistas a domicilio en Lima",
+    "ghlTemplate": "Electrician",
+    "niche": "hogar"
+  },
+  "pintores": {
+    "title": "Pintores de Casas y Edificios en Lima",
+    "queryMaps": "pintores de casas y departamentos en Lima",
+    "ghlTemplate": "Painter",
+    "niche": "hogar"
+  },
+  "fumigacion": {
+    "title": "Empresas de Fumigación y Control de Plagas en Lima",
+    "queryMaps": "empresas de fumigacion en Lima",
+    "ghlTemplate": "Pest Control",
+    "niche": "hogar"
+  },
+  "mudanzas": {
+    "title": "Empresas de Mudanzas y Fletes en Lima",
+    "queryMaps": "servicios de mudanza en Lima",
+    "ghlTemplate": "Moving",
+    "niche": "hogar"
+  },
+  "aire-acondicionado": {
+    "title": "Técnicos de Aire Acondicionado y Climatización en Lima",
+    "queryMaps": "mantenimiento de aire acondicionado en Lima",
+    "ghlTemplate": "HVAC",
+    "niche": "hogar"
+  },
+  "reparacion-lavadoras": {
+    "title": "Técnicos de Reparación de Lavadoras en Lima",
+    "queryMaps": "reparacion de lavadoras a domicilio en Lima",
+    "ghlTemplate": "Appliance Repair",
+    "niche": "hogar"
+  },
+  "reparacion-refrigeradoras": {
+    "title": "Reparación de Refrigeradoras y Neveras en Lima",
+    "queryMaps": "reparacion de refrigeradoras a domicilio en Lima",
+    "ghlTemplate": "Appliance Repair",
+    "niche": "hogar"
+  },
+  "vidrierias": {
+    "title": "Vidrierías y Mamparas de Vidrio en Lima",
+    "queryMaps": "vidrierias en Lima",
+    "ghlTemplate": "Glass",
+    "niche": "hogar"
+  },
+  "carpinteros": {
+    "title": "Carpinteros y Muebles de Melamina en Lima",
+    "queryMaps": "carpinteros a domicilio en Lima",
+    "ghlTemplate": "Carpentry",
+    "niche": "hogar"
+  },
+  "abogados": {
+    "title": "Estudios de Abogados y Asesoría Legal en Lima",
+    "queryMaps": "estudios de abogados en Lima",
+    "ghlTemplate": "Lawyer",
+    "niche": "legal"
+  },
+  "notarias": {
+    "title": "Notarías Públicas en Lima",
+    "queryMaps": "notarias en Lima",
+    "ghlTemplate": "Notary",
+    "niche": "legal"
+  },
+  "contadores": {
+    "title": "Contadores Públicos y Asesoría Tributaria en Lima",
+    "queryMaps": "estudios contables en Lima",
+    "ghlTemplate": "Accounting",
+    "niche": "legal"
+  },
+  "agentes-inmobiliarios": {
+    "title": "Agentes Inmobiliarios y Venta de Propiedades en Lima",
+    "queryMaps": "agentes inmobiliarios en Lima",
+    "ghlTemplate": "Real Estate",
+    "niche": "legal"
+  },
+  "talleres-mecanicos": {
+    "title": "Talleres Mecánicos y Servicio Automotriz en Lima",
+    "queryMaps": "talleres mecanicos automotriz en Lima",
+    "ghlTemplate": "Auto Repair",
+    "niche": "automotriz"
+  },
+  "car-wash": {
+    "title": "Car Wash y Detallado Automotriz en Lima",
+    "queryMaps": "car wash y car detailing en Lima",
+    "ghlTemplate": "Car Wash",
+    "niche": "automotriz"
+  },
+  "llanterias": {
+    "title": "Llanterías y Venta de Neumáticos en Lima",
+    "queryMaps": "llanterias y vulcanizadoras en Lima",
+    "ghlTemplate": "Tire",
+    "niche": "automotriz"
+  },
+  "auxilio-mecanico": {
+    "title": "Grúas y Auxilio Mecánico 24 Horas en Lima",
+    "queryMaps": "auxilio mecanico y gruas en Lima",
+    "ghlTemplate": "Towing",
+    "niche": "automotriz"
+  },
+  "catering": {
+    "title": "Empresas de Catering y Buffet en Lima",
+    "queryMaps": "servicios de catering y banquetes en Lima",
+    "ghlTemplate": "Catering",
+    "niche": "eventos"
+  },
+  "tortas-personalizadas": {
+    "title": "Pastelerías y Tortas Temáticas en Lima",
+    "queryMaps": "tortas personalizadas en Lima",
+    "ghlTemplate": "Bakery",
+    "niche": "eventos"
+  },
+  "fotografia-eventos": {
+    "title": "Fotógrafos Profesionales y Cobertura de Eventos en Lima",
+    "queryMaps": "fotografos para eventos y bodas en Lima",
+    "ghlTemplate": "Photography",
+    "niche": "eventos"
+  },
+  "barberias": {
+    "title": "Barberías y Cortes de Cabello para Hombres en Lima",
+    "queryMaps": "barberias en Lima",
+    "ghlTemplate": "Barber",
+    "niche": "belleza"
+  },
+  "salones-de-belleza": {
+    "title": "Salones de Belleza y Peluquerías en Lima",
+    "queryMaps": "salones de belleza y peluquerias en Lima",
+    "ghlTemplate": "Beauty Salon",
+    "niche": "belleza"
+  },
+  "spas": {
+    "title": "Spas y Centros de Masajes en Lima",
+    "queryMaps": "spas y masajes relajantes en Lima",
+    "ghlTemplate": "Spa",
+    "niche": "belleza"
+  },
+  "reparacion-celulares": {
+    "title": "Reparación de Celulares y Tablets en Lima",
+    "queryMaps": "servicio tecnico de celulares en Lima",
+    "ghlTemplate": "Phone Repair",
+    "niche": "tecnologia"
+  },
+  "reparacion-laptops": {
+    "title": "Servicio Técnico de Laptops y Computadoras en Lima",
+    "queryMaps": "reparacion de laptops y computadoras en Lima",
+    "ghlTemplate": "Computer Repair",
+    "niche": "tecnologia"
+  },
+  "camaras-de-seguridad": {
+    "title": "Instalación de Cámaras de Seguridad y Alarmas en Lima",
+    "queryMaps": "instalacion de camaras de seguridad en Lima",
+    "ghlTemplate": "Security",
+    "niche": "tecnologia"
+  }
+}

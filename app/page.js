@@ -64,7 +64,7 @@ export default function HomePage() {
                 Explora los Directorios por Rubro
               </h2>
               <p className="text-sm text-slate-500 mt-1">
-                Haz clic en cualquier categoría para ver su subdominio y el Top 10 de negocios clasificados.
+                Haz clic en cualquier categoría para ver hasta 100 negocios clasificados.
               </p>
             </div>
 
@@ -88,7 +88,7 @@ export default function HomePage() {
                     {cat.hasData ? (
                       <span className="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200">
                         <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                        Top 10 Listo
+                        Directorio listo
                       </span>
                     ) : (
                       <span className="text-[11px] font-medium text-slate-400 bg-slate-50 px-2 py-0.5 rounded-full">
