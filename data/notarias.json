@@ -1,0 +1,928 @@
+{
+  "category": "notarias",
+  "searchQuery": "notarias en Lima",
+  "totalResults": 100,
+  "updatedAt": "2026-09-09T18:24:28.131Z",
+  "topBusinessContext": {
+    "id": "biz_2",
+    "name": "Notaría Gustavo Gonzales",
+    "rating": 4.9,
+    "reviewsCount": null,
+    "category": "Notaría",
+    "address": "Av. Camino Real 130, San Isidro 15046",
+    "url": "https://www.google.com/maps/place/Notar%C3%ADa+Gustavo+Gonzales/data=!4m7!3m6!1s0x9105c9630aa3d297:0x96c8b7d2a0952a59!8m2!3d-12.0949529!4d-77.0354107!16s%2Fg%2F11vlb9vbd_!19sChIJl9KjCmPJBZERWSqVoNK3yJY"
+  },
+  "pageContent": {
+    "headline": "Los Mejores Expertos en NOTARIAS en Lima: Conoce a Notaría Gustavo Gonzales",
+    "subtitles": [
+      "Garantiza resultados hoy mismo. Ubicados en Av. Camino Real 130, San Isidro 15046, destacan como la opción número uno validada por usuarios reales.",
+      "Descubre por qué cuentan con una calificación de 4.9 estrellas en Google. No dejes tu necesidad al azar."
+    ],
+    "ctas": [
+      "Contactar por WhatsApp Ahora",
+      "Ver Directorio Completo"
+    ]
+  },
+  "businesses": [
+    {
+      "id": "biz_2",
+      "name": "Notaría Gustavo Gonzales",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Camino Real 130, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Gustavo+Gonzales/data=!4m7!3m6!1s0x9105c9630aa3d297:0x96c8b7d2a0952a59!8m2!3d-12.0949529!4d-77.0354107!16s%2Fg%2F11vlb9vbd_!19sChIJl9KjCmPJBZERWSqVoNK3yJY"
+    },
+    {
+      "id": "biz_5",
+      "name": "Notaria Yabar",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "AVENIDA RAMON VARGAS MACHUCA 485 - SAN JUAN DE MIRAFLORES - LIMA LIMA 15803, San Juan de Miraflores LIMA 29",
+      "url": "https://www.google.com/maps/place/Notaria+Yabar/data=!4m7!3m6!1s0x9105b9765130b759:0xd97b4f65c4c654bc!8m2!3d-12.1652062!4d-76.9730727!16s%2Fg%2F11xzbdm75n!19sChIJWbcwUXa5BZERvFTGxGVPe9k"
+    },
+    {
+      "id": "biz_93",
+      "name": "NOTARIA PREGUNTEGUI",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Petit Thouars 330, Lima 15001",
+      "url": "https://www.google.com/maps/place/NOTARIA+PREGUNTEGUI/data=!4m7!3m6!1s0x9105c970c10df655:0x7997b358c36c2083!8m2!3d-12.0672815!4d-77.0359955!16s%2Fg%2F11ygn5tb95!19sChIJVfYNwXDJBZERgyBsw1izl3k"
+    },
+    {
+      "id": "biz_19",
+      "name": "NOTARIA CORANTE MORALES",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "2 HORAS DE ESTACIONAMIENTO GRATIS PARA CLIENTES, CC PLAZA CAMACHO, Av. Javier Prado Este 5193, La Molina 15026",
+      "url": "https://www.google.com/maps/place/NOTARIA+CORANTE+MORALES/data=!4m7!3m6!1s0x9105c7ebfec32bd7:0x5fbc6261067b85c2!8m2!3d-12.0795321!4d-76.9663314!16s%2Fg%2F11ykl7c3x3!19sChIJ1yvD_uvHBZERwoV7BmFivF8"
+    },
+    {
+      "id": "biz_10",
+      "name": "Notaria Rodrigo Galvez",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Alejandro Tirado 279, Lima 15034",
+      "url": "https://www.google.com/maps/place/Notaria+Rodrigo+Galvez/data=!4m7!3m6!1s0x9105c92939fbbb8f:0x1a2ba5f0ccd8b57d!8m2!3d-12.0743006!4d-77.0351788!16s%2Fg%2F11xd18_n83!19sChIJj7v7OSnJBZERfbXYzPClKxo"
+    },
+    {
+      "id": "biz_30",
+      "name": "NOTARIS",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "",
+      "url": "https://www.google.com/maps/place/NOTARIS/data=!4m7!3m6!1s0x9105b7f35875ea47:0xf63a550056106daa!8m2!3d27.811369!4d-129.9427086!16s%2Fg%2F11c2njdt2g!19sChIJR-p1WPO3BZERqm0QVgBVOvY"
+    },
+    {
+      "id": "biz_37",
+      "name": "Notaría Galdos Villena",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Avenida Agustín de la Rosa Toro 918, San Luis 15021",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Galdos+Villena/data=!4m7!3m6!1s0x9105c7001b913725:0xee55b2b98308bf8d!8m2!3d-12.0795493!4d-76.9941761!16s%2Fg%2F11xkyykcxn!19sChIJJTeRGwDHBZERjb8Ig7myVe4"
+    },
+    {
+      "id": "biz_1",
+      "name": "Notaría Rocío Calmet",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "501, Jr. Sta. Rosa 376, Lima 15001",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Roc%C3%ADo+Calmet/data=!4m7!3m6!1s0x9105c8b70f688eb7:0x9798d605f475278f!8m2!3d-12.049939!4d-77.029888!16s%2Fg%2F1q5btwscv!19sChIJt45oD7fIBZERjyd19AXWmJc"
+    },
+    {
+      "id": "biz_15",
+      "name": "Notaria Ramos Rivas",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. de la Marina 1443, San Miguel 15086",
+      "url": "https://www.google.com/maps/place/Notaria+Ramos+Rivas/data=!4m7!3m6!1s0x9105c90ce31b2731:0x348806646850fbef!8m2!3d-12.0796788!4d-77.077493!16s%2Fg%2F11b6gd7h9b!19sChIJMScb4wzJBZER7_tQaGQGiDQ"
+    },
+    {
+      "id": "biz_9",
+      "name": "NOTARÍA VILLOTA",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Paradero 17 Próceres - Tottus, Av. Próceres de la Independencia 2340, San Juan de Lurigancho 15434",
+      "url": "https://www.google.com/maps/place/NOTAR%C3%8DA+VILLOTA/data=!4m7!3m6!1s0x9105c58617d5c013:0xf07764dd4040e405!8m2!3d-11.9924808!4d-77.0106773!16s%2Fg%2F11b6vcrtzf!19sChIJE8DVF4bFBZERBeRAQN1kd_A"
+    },
+    {
+      "id": "biz_23",
+      "name": "Notaría Monica Tambini Ávila",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Jorge Basadre Grohmann 280, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Monica+Tambini+%C3%81vila/data=!4m7!3m6!1s0x9105c85d971b5d63:0xbf71e2c5910b1a41!8m2!3d-12.0936965!4d-77.0349264!16s%2Fg%2F1hhxmzx2c!19sChIJY10bl13IBZERQRoLkcXicb8"
+    },
+    {
+      "id": "biz_65",
+      "name": "Notaria Rodriguez Lopez",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Jirón Pablo Bermudez 192, Lima 15046",
+      "url": "https://www.google.com/maps/place/Notaria+Rodriguez+Lopez/data=!4m7!3m6!1s0x9105c9006721e47f:0xfdafdf7eec417444!8m2!3d-12.0723851!4d-77.0372526!16s%2Fg%2F11xh02ygzl!19sChIJf-QhZwDJBZERRHRB7H7fr_0"
+    },
+    {
+      "id": "biz_8",
+      "name": "Notaría Rosalia Mejia Rosasco",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. República de Panamá 6540, Lima 15047",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Rosalia+Mejia+Rosasco/data=!4m7!3m6!1s0x9105b7fdbcfb265d:0xef825619081baa7!8m2!3d-12.1313201!4d-77.0182018!16s%2Fg%2F11btvlfvr4!19sChIJXSb7vP23BZERp7qBkGEl-A4"
+    },
+    {
+      "id": "biz_6",
+      "name": "Notaría Rosales Sepúlveda",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av Juan de Arona 707, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Rosales+Sep%C3%BAlveda/data=!4m7!3m6!1s0x9105c86669b3aa5b:0xd6a64c707f4d5f35!8m2!3d-12.0963751!4d-77.0285208!16s%2Fg%2F11cs5lqkj0!19sChIJW6qzaWbIBZERNV9Nf3BMptY"
+    },
+    {
+      "id": "biz_29",
+      "name": "Notaría Tinageros",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "463, C. las Camelias 455, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Tinageros/data=!4m7!3m6!1s0x9105c86ffb4210a9:0x791f7784c3fd28ad!8m2!3d-12.0947203!4d-77.0288579!16s%2Fg%2F11cnd5dxy2!19sChIJqRBC-2_IBZERrSj9w4R3H3k"
+    },
+    {
+      "id": "biz_54",
+      "name": "Notaría Luna",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Manuel Cipriano Dulanto 1814, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Luna/data=!4m7!3m6!1s0x9105c9006c82060b:0xe1fdb0817b528da!8m2!3d-12.0757605!4d-77.0749964!16s%2Fg%2F11vwd7_l0b!19sChIJCwaCbADJBZER2ii1FwjbHw4"
+    },
+    {
+      "id": "biz_62",
+      "name": "Notaría Sofía Ode Pereyra",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Nicolás de Piérola 265, Barranco 15063",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Sof%C3%ADa+Ode+Pereyra/data=!4m7!3m6!1s0x9105b7efd605b23f:0xcdb3b1cb85de5a0e!8m2!3d-12.1414163!4d-77.0199202!16s%2Fg%2F11b7k0fbc9!19sChIJP7IF1u-3BZERDlrehcuxs80"
+    },
+    {
+      "id": "biz_82",
+      "name": "Notaria Sierralta",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Petit Thouars 3699, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Notaria+Sierralta/data=!4m7!3m6!1s0x9105c8685ad7bdeb:0x96041f65504cb227!8m2!3d-12.0985392!4d-77.0311892!16s%2Fg%2F11bx51_bc5!19sChIJ673XWmjIBZERJ7JMUGUfBJY"
+    },
+    {
+      "id": "biz_95",
+      "name": "NOTARIA RAMIREZ ENRIQUEZ",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Canta Callao 10, Callao 07031",
+      "url": "https://www.google.com/maps/place/NOTARIA+RAMIREZ+ENRIQUEZ/data=!4m7!3m6!1s0x9105cdcffade7545:0xaeb28b6bd65940f5!8m2!3d-11.9973059!4d-77.1139631!16s%2Fg%2F11fnx956cv!19sChIJRXXe-s_NBZER9UBZ1muLsq4"
+    },
+    {
+      "id": "biz_4",
+      "name": "Notaría Gonzales Loli",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Jr. Mrcal. William Miller 1701, Lince 15073",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Gonzales+Loli/data=!4m7!3m6!1s0x9105c8f443728f01:0xb712fd9a4a5f456d!8m2!3d-12.0817093!4d-77.0372288!16s%2Fg%2F1tmpx0yd!19sChIJAY9yQ_TIBZERbUVfSpr9Erc"
+    },
+    {
+      "id": "biz_17",
+      "name": "Notaría Delgado Cambursano",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Canadá 3778, San Luis 15021",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Delgado+Cambursano/data=!4m7!3m6!1s0x9105c63441f6ef95:0xb9afefcbae61f5a0!8m2!3d-12.0798778!4d-76.9916226!16s%2Fg%2F1yhbl8_mq!19sChIJle_2QTTGBZERoPVhrsvvr7k"
+    },
+    {
+      "id": "biz_21",
+      "name": "NOTARIA PEREZ TELLO",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "C. Monte Rosa 171, Santiago de Surco 15038",
+      "url": "https://www.google.com/maps/place/NOTARIA+PEREZ+TELLO/data=!4m7!3m6!1s0x9105c79999096053:0x9b8afa99d8efafe4!8m2!3d-12.1120157!4d-76.9910229!16s%2Fg%2F1w97wfqh!19sChIJU2AJmZnHBZER5K_v2Jn6ips"
+    },
+    {
+      "id": "biz_26",
+      "name": "Notaría Cruzado",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Angamos Oeste 574, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Cruzado/data=!4m7!3m6!1s0x9105c83de28a7839:0xad4c67bfe114224a!8m2!3d-12.1136009!4d-77.0344232!16s%2Fg%2F11b6gmd0yd!19sChIJOXiK4j3IBZERSiIU4b9nTK0"
+    },
+    {
+      "id": "biz_45",
+      "name": "Colegio de Notarios de Lima",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Av. Giuseppe Garibaldi 339, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Colegio+de+Notarios+de+Lima/data=!4m7!3m6!1s0x9105c8ff28d74719:0x1cd7f1b2372136b9!8m2!3d-12.0838181!4d-77.0512384!16s%2Fg%2F11b6dlldl1!19sChIJGUfXKP_IBZERuTYhN7Lx1xw"
+    },
+    {
+      "id": "biz_63",
+      "name": "Notaria Villavicencio Cardenas",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Av. 1 de Mayo 160 - 164, Carmen de La Legua - Reynoso 07006",
+      "url": "https://www.google.com/maps/place/Notaria+Villavicencio+Cardenas/data=!4m7!3m6!1s0x9105ceac7f600701:0xfac52c07c1487096!8m2!3d-12.0411804!4d-77.0978222!16s%2Fg%2F11g6plfc_g!19sChIJAQdgf6zOBZERlnBIwQcsxfo"
+    },
+    {
+      "id": "biz_77",
+      "name": "Notaría Oscar Gonzalez Uria",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. República de Panamá 6596, Lima 15047",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Oscar+Gonzalez+Uria/data=!4m7!3m6!1s0x9105b7fdb72d8083:0x468ac76bf9fd9de2!8m2!3d-12.1322249!4d-77.0181166!16s%2Fg%2F11b7trdvs1!19sChIJg4Att_23BZER4p39-WvHikY"
+    },
+    {
+      "id": "biz_3",
+      "name": "NOTARÍA ZÁRATE DEL PINO JUAN BELFOR",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Jr. Lampa 1116 1116, Lima 15001",
+      "url": "https://www.google.com/maps/place/NOTAR%C3%8DA+Z%C3%81RATE+DEL+PINO+JUAN+BELFOR/data=!4m7!3m6!1s0x9105c8c79e30a1b5:0xb3d1cb1b257615d8!8m2!3d-12.0547447!4d-77.0346478!16s%2Fg%2F11c61gr4lr!19sChIJtaEwnsfIBZER2BV2JRvL0bM"
+    },
+    {
+      "id": "biz_7",
+      "name": "Notaría Hidalgo",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "C. las Camelias 140, Lima 15046",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Hidalgo/data=!4m7!3m6!1s0x9105c866c3c5c3e5:0x6133336518d964b0!8m2!3d-12.0922429!4d-77.029564!16s%2Fg%2F1hdzpkhyw!19sChIJ5cPFw2bIBZERsGTZGGUzM2E"
+    },
+    {
+      "id": "biz_13",
+      "name": "Notaría Ana María Vidal Hermoza",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "La Rotonda, Centro Comercial, Av. la Molina 1167, La Molina LIMA 12",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Ana+Mar%C3%ADa+Vidal+Hermoza/data=!4m7!3m6!1s0x9105c6fafa353a1f:0x3bac95e5302c0fe!8m2!3d-12.0728412!4d-76.955108!16s%2Fg%2F11cn07fjq3!19sChIJHzo1-vrGBZER_sACU17JugM"
+    },
+    {
+      "id": "biz_41",
+      "name": "Notaría Arias",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. la Molina 649, La Molina 15008",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Arias/data=!4m7!3m6!1s0x9105c6f4197f50f9:0x77a9618d45440c66!8m2!3d-12.0650821!4d-76.9594631!16s%2Fg%2F11bxdx7x3k!19sChIJ-VB_GfTGBZERZgxERY1hqXc"
+    },
+    {
+      "id": "biz_43",
+      "name": "NOTARIA GALVEZ",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Óscar R. Benavides 5177, Callao 07006",
+      "url": "https://www.google.com/maps/place/NOTARIA+GALVEZ/data=!4m7!3m6!1s0x9105c94e3391015b:0x492bffc0869df322!8m2!3d-12.0517991!4d-77.0898847!16s%2Fg%2F1pv5x5yk9!19sChIJWwGRM07JBZERIvOdhsD_K0k"
+    },
+    {
+      "id": "biz_81",
+      "name": "NOTARÍA REÁTEGUI TOMATIS MANUEL",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av Juan de Arona 685, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/NOTAR%C3%8DA+RE%C3%81TEGUI+TOMATIS+MANUEL/data=!4m7!3m6!1s0x9105c8661faf5ef9:0xc3d6252afd9a0b90!8m2!3d-12.0964464!4d-77.0289553!16s%2Fg%2F11bymwxb9r!19sChIJ-V6vH2bIBZERkAua_Sol1sM"
+    },
+    {
+      "id": "biz_18",
+      "name": "Notaría Banda",
+      "rating": 3.7,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Av. Paseo de la República 385, La Victoria 15033",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Banda/data=!4m7!3m6!1s0x9105c954b416ac8b:0x4b5a8a988e0ca507!8m2!3d-12.0608327!4d-77.0346185!16s%2Fg%2F11fl4z2jqg!19sChIJi6wWtFTJBZERB6UMjpiKWks"
+    },
+    {
+      "id": "biz_31",
+      "name": "Notaría Mendoza Vásquez",
+      "rating": 3.7,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Alfredo Benavides 4982 15039, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Mendoza+V%C3%A1squez/data=!4m7!3m6!1s0x9105b875643209e5:0x468249aa1c648b37!8m2!3d-12.1286471!4d-76.9855027!16s%2Fg%2F11b7tgnj7g!19sChIJ5QkyZHW4BZERN4tkHKpJgkY"
+    },
+    {
+      "id": "biz_42",
+      "name": "Notaría Beatriz Zevallos Giampietri",
+      "rating": 3.7,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. las Violetas 782, Independencia 15333",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Beatriz+Zevallos+Giampietri/data=!4m7!3m6!1s0x9105cf02e0f3527f:0xbf0053866bab97c6!8m2!3d-11.9982733!4d-77.054952!16s%2Fg%2F11g8g0bs1b!19sChIJf1Lz4ALPBZERxpera4ZTAL8"
+    },
+    {
+      "id": "biz_90",
+      "name": "Notaría Vilca Monteagudo",
+      "rating": 3.7,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Aviación 2468, San Borja 15036",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Vilca+Monteagudo/data=!4m7!3m6!1s0x9105c7d15f27e3b7:0x63590541a95fe2d2!8m2!3d-12.0899451!4d-77.0035426!16s%2Fg%2F11b66hy791!19sChIJt-MnX9HHBZER0uJfqUEFWWM"
+    },
+    {
+      "id": "biz_14",
+      "name": "Notaría Barreda",
+      "rating": 3.6,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Jr. Lampa 879, Lima 15001",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Barreda/data=!4m7!3m6!1s0x9105c8b79318ce6f:0x703e1a2f6f7bb1f8!8m2!3d-12.05206!4d-77.0324814!16s%2Fg%2F11bx1btd7d!19sChIJb84Yk7fIBZER-LF7by8aPnA"
+    },
+    {
+      "id": "biz_32",
+      "name": "Notaría Hopkins",
+      "rating": 3.6,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. República de Panamá 5786, Miraflores 15047",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Hopkins/data=!4m7!3m6!1s0x9105b7fd642bc5bf:0xdadf7700f8d7139e!8m2!3d-12.121341!4d-77.0184368!16s%2Fg%2F11b6lmtdfx!19sChIJv8UrZP23BZERnhPX-AB339o"
+    },
+    {
+      "id": "biz_35",
+      "name": "IN - CASA ABOGADOS",
+      "rating": 3.6,
+      "reviewsCount": null,
+      "category": "Abogado",
+      "address": "Inca Roca 170, Chaclacayo 15476",
+      "url": "https://www.google.com/maps/place/IN+-+CASA+ABOGADOS/data=!4m7!3m6!1s0x9105e9d377e738d7:0x5d952dd849591e4d!8m2!3d-11.988702!4d-76.8194643!16s%2Fg%2F11clgrdtnj!19sChIJ1zjnd9PpBZERTR5ZSdgtlV0"
+    },
+    {
+      "id": "biz_44",
+      "name": "NOTARIA YAÑEZ",
+      "rating": 3.6,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Av. Angélica Gamarra de León Velarde 398, Lima 15302",
+      "url": "https://www.google.com/maps/place/NOTARIA+YA%C3%91EZ/data=!4m7!3m6!1s0x9105cefa4bd57cf1:0x871717e51985357c!8m2!3d-12.0047227!4d-77.0654148!16s%2Fg%2F11g6yp_fv1!19sChIJ8XzVS_rOBZERfDWFGeUXF4c"
+    },
+    {
+      "id": "biz_78",
+      "name": "Notaria herrera portuondo",
+      "rating": 3.6,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Av Paseo de la República 1761, Chorrillos 15064",
+      "url": "https://www.google.com/maps/place/Notaria+herrera+portuondo/data=!4m7!3m6!1s0x9105b9d60ac81145:0xfcba35fbfddabb4f!8m2!3d-12.179888!4d-77.0087209!16s%2Fg%2F1yj4gyrqv!19sChIJRRHICta5BZERT7va_fs1uvw"
+    },
+    {
+      "id": "biz_91",
+      "name": "Notaria Jara",
+      "rating": 3.6,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. José Olaya 600, Chorrillos 15064",
+      "url": "https://www.google.com/maps/place/Notaria+Jara/data=!4m7!3m6!1s0x9105b79bb8bf812b:0x1fcbc56b583a4bd0!8m2!3d-12.1678798!4d-77.0266287!16s%2Fg%2F11c2y748j8!19sChIJK4G_uJu3BZER0Es6WGvFyx8"
+    },
+    {
+      "id": "biz_16",
+      "name": "Notaría Ramírez Carranza",
+      "rating": 3.5,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. César Vallejo 290, Lince 15076",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Ram%C3%ADrez+Carranza/data=!4m7!3m6!1s0x9105c85e13a91149:0xcf5dbad276a37101!8m2!3d-12.0884551!4d-77.0353385!16s%2Fg%2F11b6hsq4xw!19sChIJSRGpE17IBZERAXGjdtK6Xc8"
+    },
+    {
+      "id": "biz_25",
+      "name": "Notaría Quintanilla",
+      "rating": 3.5,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Nicolás Ayllón 3214, Ate 15012",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Quintanilla/data=!4m7!3m6!1s0x9105c689849d0e3f:0x9cf0940afdc027f5!8m2!3d-12.0537265!4d-76.96175!16s%2Fg%2F11cs0z1_57!19sChIJPw6dhInGBZER9SfA_QqU8Jw"
+    },
+    {
+      "id": "biz_27",
+      "name": "Notaria Pública Mercedes Cabrera Zaldivar",
+      "rating": 3.5,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Alfredo Mendiola 3693, Los Olivos 15307",
+      "url": "https://www.google.com/maps/place/Notaria+P%C3%BAblica+Mercedes+Cabrera+Zaldivar/data=!4m7!3m6!1s0x9105ce56c377571b:0xb24196840866fbe2!8m2!3d-11.9915211!4d-77.0644903!16s%2Fg%2F11c1wy39x_!19sChIJG1d3w1bOBZER4vtmCISWQbI"
+    },
+    {
+      "id": "biz_39",
+      "name": "Notaría Del Pozo",
+      "rating": 3.5,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "845, Av Juan de Arona 837, San Isidro",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Del+Pozo/data=!4m7!3m6!1s0x9105c865ffd604a1:0x98ac4ba628d5541f!8m2!3d-12.096159!4d-77.0274029!16s%2Fg%2F11b7q15mlr!19sChIJoQTW_2XIBZERH1TVKKZLrJg"
+    },
+    {
+      "id": "biz_40",
+      "name": "NOTARIA MEDINA RAGGIO",
+      "rating": 3.5,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "C. Chinchón 812, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/NOTARIA+MEDINA+RAGGIO/data=!4m7!3m6!1s0x9105c936af5d9357:0xf0f72e2c4e7108f1!8m2!3d-12.0958374!4d-77.0287172!16s%2Fg%2F11q8rxlxkn!19sChIJV5NdrzbJBZER8QhxTiwu9_A"
+    },
+    {
+      "id": "biz_66",
+      "name": "Notaría Marco Antonio Pacora Bazalar",
+      "rating": 3.5,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "urbanización Las Acacias de Monterrico, Av. la Molina 1011, La Molina 15012",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Marco+Antonio+Pacora+Bazalar/data=!4m7!3m6!1s0x9105c6f0c42e5e2f:0xa8b02d11d029e800!8m2!3d-12.069168!4d-76.9576501!16s%2Fg%2F11b6csxzpg!19sChIJL14uxPDGBZERAOgp0BEtsKg"
+    },
+    {
+      "id": "biz_57",
+      "name": "Notaría Soldevilla Gala Ruben Darío",
+      "rating": 3.4,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Jirón Huaraz 1374, Breña 15083",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Soldevilla+Gala+Ruben+Dar%C3%ADo/data=!4m7!3m6!1s0x9105c8c52480fed5:0x8e7fb604fd132559!8m2!3d-12.0631357!4d-77.0478295!16s%2Fg%2F11b86wnjs8!19sChIJ1f6AJMXIBZERWSUT_QS2f44"
+    },
+    {
+      "id": "biz_96",
+      "name": "Notaría Tarazona",
+      "rating": 3.4,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Ca. Gral. Vidal 199, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Tarazona/data=!4m7!3m6!1s0x9105c816bbf200b7:0xe2b5cb4a1debfe8f!8m2!3d-12.1144326!4d-77.0287144!16s%2Fg%2F11b6gfbs0n!19sChIJtwDyuxbIBZERj_7rHUrLteI"
+    },
+    {
+      "id": "biz_100",
+      "name": "Notaría Becerra Palomino",
+      "rating": 3.4,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Ca. Coronel Andrés Reyes 466, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Becerra+Palomino/data=!4m7!3m6!1s0x9105c865d068f78f:0xa615c202f2bea658!8m2!3d-12.0940703!4d-77.0273378!16s%2Fg%2F1tg69509!19sChIJj_do0GXIBZERWKa-8gLCFaY"
+    },
+    {
+      "id": "biz_22",
+      "name": "Notaría Del Villar",
+      "rating": 3.3,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. José Carlos Mariátegui 2587, El Agustino 15006",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Del+Villar/data=!4m7!3m6!1s0x9105c5e2981a533b:0x65a2add0ceb9e515!8m2!3d-12.0304322!4d-76.9999805!16s%2Fg%2F1v16rc74!19sChIJO1MamOLFBZERFeW5ztCtomU"
+    },
+    {
+      "id": "biz_67",
+      "name": "Notaria Roman Olivas",
+      "rating": 3.3,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Javier Prado Este 1451, La Victoria 15034",
+      "url": "https://www.google.com/maps/place/Notaria+Roman+Olivas/data=!4m7!3m6!1s0x9105c87f408116bf:0x94f3819069a9f671!8m2!3d-12.0889145!4d-77.0118219!16s%2Fg%2F11c5y3hymb!19sChIJvxaBQH_IBZERcfapaZCB85Q"
+    },
+    {
+      "id": "biz_71",
+      "name": "Notaría María Waly Mejía Haro",
+      "rating": 3.3,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Jr. Los Amautas 167-169, San Juan de Lurigancho 15401",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Mar%C3%ADa+Waly+Mej%C3%ADa+Haro/data=!4m7!3m6!1s0x9105cf57e3be2319:0xc14d6022894daed6!8m2!3d-12.0295812!4d-77.0106273!16s%2Fg%2F11s_gjss7r!19sChIJGSO-41fPBZER1q5NiSJgTcE"
+    },
+    {
+      "id": "biz_84",
+      "name": "Notaría Dannon",
+      "rating": 3.3,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Javier Prado Oeste 705, Magdalena del Mar 15076",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Dannon/data=!4m7!3m6!1s0x9105c9ac06dadb9d:0xb609aa722d481b33!8m2!3d-12.0927054!4d-77.061762!16s%2Fg%2F11c48rmz70!19sChIJndvaBqzJBZERMxtILXKqCbY"
+    },
+    {
+      "id": "biz_87",
+      "name": "Notaría Párraga",
+      "rating": 3.3,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Jr. Risso 157, Lince 15046",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+P%C3%A1rraga/data=!4m7!3m6!1s0x9105c8f5a384986f:0x5ed7a6a9023c6b82!8m2!3d-12.0855346!4d-77.034846!16s%2Fg%2F11b7lnr176!19sChIJb5iEo_XIBZERgms8Aqmm114"
+    },
+    {
+      "id": "biz_98",
+      "name": "NOTARIA ALMEIDA",
+      "rating": 3.3,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Perú 2503, San Martín de Porres 15101",
+      "url": "https://www.google.com/maps/place/NOTARIA+ALMEIDA/data=!4m7!3m6!1s0x9105cec8aa301273:0x56de6e3ad361427e!8m2!3d-12.0320519!4d-77.0730749!16s%2Fg%2F11bw4j6p6x!19sChIJcxIwqsjOBZERfkJh0zpu3lY"
+    },
+    {
+      "id": "biz_11",
+      "name": "Notaria Dr. Alfredo Zambrano Rodriguez",
+      "rating": 3.2,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Los Ruiseñores 206, Santa Anita 15009",
+      "url": "https://www.google.com/maps/place/Notaria+Dr.+Alfredo+Zambrano+Rodriguez/data=!4m7!3m6!1s0x9105c662004b8697:0xb20bf2efb83f7912!8m2!3d-12.0537768!4d-76.964884!16s%2Fg%2F11b6gnxjrx!19sChIJl4ZLAGLGBZEREnk_uO_yC7I"
+    },
+    {
+      "id": "biz_53",
+      "name": "Notaria Torres Zevallos",
+      "rating": 3.2,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Eduardo de Habich 497, San Martín de Porres 15102",
+      "url": "https://www.google.com/maps/place/Notaria+Torres+Zevallos/data=!4m7!3m6!1s0x9105cf277e5482a1:0xef1946d33f723da!8m2!3d-12.0275483!4d-77.0560357!16s%2Fg%2F11c52td1ky!19sChIJoYJUfifPBZER2iP3M22U8Q4"
+    },
+    {
+      "id": "biz_79",
+      "name": "Notaría Cragg",
+      "rating": 3.2,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Jr. Jose M. Barrionuevo 353, Chorrillos 15064",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Cragg/data=!4m7!3m6!1s0x9105b79b010081fb:0x27395055a4c60a06!8m2!3d-12.1665351!4d-77.0244518!16s%2Fg%2F1pv0cmxt8!19sChIJ-4EAAZu3BZERBgrGpFVQOSc"
+    },
+    {
+      "id": "biz_80",
+      "name": "Notaría Lora Castañeda",
+      "rating": 3.2,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. El Triunfo 230, Villa María del Triunfo 15809",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Lora+Casta%C3%B1eda/data=!4m7!3m6!1s0x9105b8e3872b84cf:0xe1f421efcdbc80ab!8m2!3d-12.1666684!4d-76.9491429!16s%2Fg%2F1hhjslm7h!19sChIJz4Qrh-O4BZERq4C8ze8h9OE"
+    },
+    {
+      "id": "biz_88",
+      "name": "Notaría Luque Razuri",
+      "rating": 3.2,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Petit Thouars 4695, Miraflores 15046",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Luque+Razuri/data=!4m7!3m6!1s0x9105c814cede2a6b:0x230f42ab49db4b6c!8m2!3d-12.1091187!4d-77.0293919!16s%2Fg%2F11b6vp7l78!19sChIJayrezhTIBZERbEvbSatCDyM"
+    },
+    {
+      "id": "biz_97",
+      "name": "NOTARIA DIAZ",
+      "rating": 3.2,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Elmer Faucett 1818, Bellavista 07006",
+      "url": "https://www.google.com/maps/place/NOTARIA+DIAZ/data=!4m7!3m6!1s0x9105c9596658ec3f:0xa0f428ae47f4ce8!8m2!3d-12.0589385!4d-77.0972197!16s%2Fg%2F11b6hrs86g!19sChIJP-xYZlnJBZER6Ex_5IpCDwo"
+    },
+    {
+      "id": "biz_24",
+      "name": "Notaría De Vettori",
+      "rating": 3.1,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Aviación 3340, San Borja 15036",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+De+Vettori/data=!4m7!3m6!1s0x9105c7dd016dad8f:0xa5d9d01b8a8369f2!8m2!3d-12.1039731!4d-77.0014893!16s%2Fg%2F1yj4gytb2!19sChIJj61tAd3HBZER8mmDihvQ2aU"
+    },
+    {
+      "id": "biz_33",
+      "name": "NOTARÍA HINOJOSA CARRILLO",
+      "rating": 3.1,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Nicolás Ayllón 5382, Ate 15012",
+      "url": "https://www.google.com/maps/place/NOTAR%C3%8DA+HINOJOSA+CARRILLO/data=!4m7!3m6!1s0x9105c532217256bf:0x583d34e053cc80a1!8m2!3d-12.029827!4d-76.9246895!16s%2Fg%2F11jn2h82dh!19sChIJv1ZyITLFBZERoYDMU-A0PVg"
+    },
+    {
+      "id": "biz_46",
+      "name": "Notaría Carpio Velez",
+      "rating": 3.1,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. República de Chile 295, Lima 15046",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Carpio+Velez/data=!4m7!3m6!1s0x9105c8ebc7aea19d:0xdacee35d50f7c234!8m2!3d-12.0669945!4d-77.037781!16s%2Fg%2F1yj2mg6j5!19sChIJnaGux-vIBZERNML3UF3jzto"
+    },
+    {
+      "id": "biz_47",
+      "name": "Notaría Paino",
+      "rating": 3.1,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Angamos Este 1803, Lima 15036",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Paino/data=!4m7!3m6!1s0x9105c86ddad84a27:0xb026c1154ce5340!8m2!3d-12.1122412!4d-77.0115584!16s%2Fg%2F1yj2pcnsd!19sChIJJ0rY2m3IBZERQFPOVBFsAgs"
+    },
+    {
+      "id": "biz_73",
+      "name": "Notaria Leyton",
+      "rating": 3.1,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Avenida Andres Aramburu 810 , Lima",
+      "url": "https://www.google.com/maps/place/Notaria+Leyton/data=!4m7!3m6!1s0x9105c86dfc9fb03d:0x36d67579ad78e3dc!8m2!3d-12.1024921!4d-77.0222612!16s%2Fg%2F11g7y8y_rs!19sChIJPbCf_G3IBZER3ON4rXl11jY"
+    },
+    {
+      "id": "biz_99",
+      "name": "Notaría Shikina Higa",
+      "rating": 3.1,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Perú 3173, San Martín de Porres 15106",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Shikina+Higa/data=!4m7!3m6!1s0x9105d13383ddf779:0xb5bf622c66a262f9!8m2!3d-12.0316914!4d-77.0808181!16s%2Fg%2F1yj2pcnys!19sChIJeffdgzPRBZER-WKiZixiv7U"
+    },
+    {
+      "id": "biz_20",
+      "name": "Notaría Dra. Monica Salvatierra Saldaña",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Ovalo Santa Anita, Av. Los Ruiseñores 160, Santa Anita 15009",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Dra.+Monica+Salvatierra+Salda%C3%B1a/data=!4m7!3m6!1s0x9105c6620401e76d:0xe1568ae9ea5a7de9!8m2!3d-12.0539835!4d-76.9646433!16s%2Fg%2F11b6gpbxr4!19sChIJbecBBGLGBZER6X1a6umKVuE"
+    },
+    {
+      "id": "biz_38",
+      "name": "Notaría Serafín Martínez Gutarra",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Jirón Cusco 425, Lima 15001",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Seraf%C3%ADn+Mart%C3%ADnez+Gutarra/data=!4m7!3m6!1s0x9105c8b771d705db:0x89dccf4bfbeec164!8m2!3d-12.0509712!4d-77.0298478!16s%2Fg%2F11b6hx0br9!19sChIJ2wXXcbfIBZERZMHu-0vP3Ik"
+    },
+    {
+      "id": "biz_48",
+      "name": "Notaría Sékula Delgado",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Túpac Amaru 4788 - 4790, Lima 15328",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+S%C3%A9kula+Delgado/data=!4m7!3m6!1s0x9105cfd39c0eaa09:0x81afc93ae3fc2b3a!8m2!3d-11.9589729!4d-77.0531998!16s%2Fg%2F1yj2pcnw4!19sChIJCaoOnNPPBZEROiv84zrJr4E"
+    },
+    {
+      "id": "biz_56",
+      "name": "Notaría Sobrevilla",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Alfredo Benavides 4473, Santiago de Surco 15038",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Sobrevilla/data=!4m7!3m6!1s0x9105c7f5826b5411:0xd217a71a139f6c55!8m2!3d-12.1279066!4d-76.9902983!16s%2Fg%2F11b6jb7y2m!19sChIJEVRrgvXHBZERVWyfExqnF9I"
+    },
+    {
+      "id": "biz_58",
+      "name": "Notaría Acevedo Mendoza",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Javier Prado Oeste 850, Magdalena del Mar 15076",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Acevedo+Mendoza/data=!4m7!3m6!1s0x9105c9ac6c6d3655:0x83f96be90d048612!8m2!3d-12.093503!4d-77.060496!16s%2Fg%2F11b6gm6fpm!19sChIJVTZtbKzJBZEREoYEDelr-YM"
+    },
+    {
+      "id": "biz_72",
+      "name": "Notaría Velarde Sussoni",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "C. Juan del Carpio 249, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Velarde+Sussoni/data=!4m7!3m6!1s0x9105c86bfafc8dcd:0x1592cfd6e3b86781!8m2!3d-12.102325!4d-77.0281324!16s%2Fg%2F11cn3n6b_d!19sChIJzY38-mvIBZERgWe449bPkhU"
+    },
+    {
+      "id": "biz_85",
+      "name": "Notaria Urrutia",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Alfredo Benavides 1294, Miraflores 15047",
+      "url": "https://www.google.com/maps/place/Notaria+Urrutia/data=!4m7!3m6!1s0x9105c80307cd9e5d:0x2351015101d78ac0!8m2!3d-12.126338!4d-77.0191193!16s%2Fg%2F11b6j_bgqw!19sChIJXZ7NBwPIBZERwIrXAVEBUSM"
+    },
+    {
+      "id": "biz_50",
+      "name": "Notaria Tuccio",
+      "rating": 2.9,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Nicolás Ayllón 2939, El Agustino 15022",
+      "url": "https://www.google.com/maps/place/Notaria+Tuccio/data=!4m7!3m6!1s0x9105c667e1fe0fb1:0x66370a41887771d!8m2!3d-12.0588542!4d-76.9754019!16s%2Fg%2F11c2099mxx!19sChIJsQ_-4WfGBZERHXeHGKRwYwY"
+    },
+    {
+      "id": "biz_51",
+      "name": "Notaría Gutiérrez Pradel Susana",
+      "rating": 2.9,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Los Lirios 237, San Juan de Miraflores 15801",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Guti%C3%A9rrez+Pradel+Susana/data=!4m7!3m6!1s0x9105b8419a9e2af1:0xf7d28f2af6e67d18!8m2!3d-12.1527129!4d-76.982541!16s%2Fg%2F11s_y_fxdq!19sChIJ8SqemkG4BZERGH3m9iqP0vc"
+    },
+    {
+      "id": "biz_89",
+      "name": "Notaría Peralta Castellano",
+      "rating": 2.9,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Jr. Varela 1034, Breña 15083",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Peralta+Castellano/data=!4m7!3m6!1s0x9105c8dcbc61e70f:0x29e8a983efcd5f6e!8m2!3d-12.0591378!4d-77.0461408!16s%2Fg%2F11fxd5h9z9!19sChIJD-dhvNzIBZERbl_N74Op6Ck"
+    },
+    {
+      "id": "biz_28",
+      "name": "Notaría Rosa María Fonseca Li",
+      "rating": 2.8,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Jr. Washington 1538, Lima 15046",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Rosa+Mar%C3%ADa+Fonseca+Li/data=!4m7!3m6!1s0x9105c8c1804765db:0xec52601cc6ee3854!8m2!3d-12.0608087!4d-77.039129!16s%2Fg%2F11b6pd1bdz!19sChIJ22VHgMHIBZERVDjuxhxgUuw"
+    },
+    {
+      "id": "biz_34",
+      "name": "Notaría Becerra Sosaya",
+      "rating": 2.8,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Aviación 2489, San Borja 15036",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Becerra+Sosaya/data=!4m7!3m6!1s0x9105c7d15ccea425:0x183a506246961738!8m2!3d-12.0904927!4d-77.0029828!16s%2Fg%2F1yg4fcdk6!19sChIJJaTOXNHHBZEROBeWRmJQOhg"
+    },
+    {
+      "id": "biz_49",
+      "name": "Notaria Contreras Vargas",
+      "rating": 2.8,
+      "reviewsCount": null,
+      "category": "Servicios legales",
+      "address": "Av San Juan 1097, San Juan de Miraflores 15801",
+      "url": "https://www.google.com/maps/place/Notaria+Contreras+Vargas/data=!4m7!3m6!1s0x9105b85c797f1671:0xbb70458ba427572f!8m2!3d-12.1552015!4d-76.9724244!16s%2Fg%2F11fzvrjkt6!19sChIJcRZ_eVy4BZERL1cnpItFcLs"
+    },
+    {
+      "id": "biz_61",
+      "name": "Notaría Laos de Lama",
+      "rating": 2.8,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Jirón Santo Domingo 291, Jesús María 15076",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Laos+de+Lama/data=!4m7!3m6!1s0x9105c9aadb827691:0x1b4ceca725295c47!8m2!3d-12.0889761!4d-77.0574313!16s%2Fg%2F11b6fk59jj!19sChIJkXaC26rJBZERR1wpJafsTBs"
+    },
+    {
+      "id": "biz_86",
+      "name": "Notaria Ricardo Barba Castro",
+      "rating": 2.8,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Alfredo Benavides 4437, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Notaria+Ricardo+Barba+Castro/data=!4m7!3m6!1s0x9105c7f625dd1183:0xa3f300c4a4c1f043!8m2!3d-12.1277789!4d-76.990566!16s%2Fg%2F11c48c_xgr!19sChIJgxHdJfbHBZERQ_DBpMQA86M"
+    },
+    {
+      "id": "biz_36",
+      "name": "Notaría Flores Alvan",
+      "rating": 2.7,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. de la Marina 3129, San Miguel 15087",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Flores+Alvan/data=!4m7!3m6!1s0x9105c9636db55537:0xb526cece96dd26e6!8m2!3d-12.0755252!4d-77.0979322!16s%2Fg%2F11b6vj37sk!19sChIJN1W1bWPJBZER5ibdls7OJrU"
+    },
+    {
+      "id": "biz_55",
+      "name": "Notaria Espino",
+      "rating": 2.7,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Jirón Apurímac 337, Lima 15001",
+      "url": "https://www.google.com/maps/place/Notaria+Espino/data=!4m7!3m6!1s0x9105c8b81eb9a31d:0xbf70f7684bd30b4b!8m2!3d-12.052305!4d-77.0322541!16s%2Fg%2F11ddx67t50!19sChIJHaO5HrjIBZERSwvTS2j3cL8"
+    },
+    {
+      "id": "biz_60",
+      "name": "Renzo Alberti Notaría",
+      "rating": 2.7,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Andrés Aramburú 880, Surquillo 15047",
+      "url": "https://www.google.com/maps/place/Renzo+Alberti+Notar%C3%ADa/data=!4m7!3m6!1s0x9105c8721905d453:0x44c717d503ff700b!8m2!3d-12.102468!4d-77.02143!16s%2Fg%2F11b6dvs4rl!19sChIJU9QFGXLIBZERC3D_A9UXx0Q"
+    },
+    {
+      "id": "biz_70",
+      "name": "NOTARÍA ECHEVARRÍA ARELLANO",
+      "rating": 2.7,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Aviación 2485, San Borja 15037",
+      "url": "https://www.google.com/maps/place/NOTAR%C3%8DA+ECHEVARR%C3%8DA+ARELLANO/data=!4m7!3m6!1s0x9105c7d167ac3cab:0x2e1f12af06254234!8m2!3d-12.0904147!4d-77.0029378!16s%2Fg%2F11b6vs8pwf!19sChIJqzysZ9HHBZERNEIlBq8SHy4"
+    },
+    {
+      "id": "biz_12",
+      "name": "Notaría Samaniego",
+      "rating": 2.6,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Jr. Sta. Rosa 256, Lima 15001",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Samaniego/data=!4m7!3m6!1s0x9105c8a5728491e3:0x96a61412685ab717!8m2!3d-12.0490817!4d-77.0311716!16s%2Fg%2F11b6vdfynj!19sChIJ45GEcqXIBZERF7daaBIUppY"
+    },
+    {
+      "id": "biz_59",
+      "name": "Notaría Vela Velásquez",
+      "rating": 2.6,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Javier Prado Este 2829, San Borja 15036",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Vela+Vel%C3%A1squez/data=!4m7!3m6!1s0x9105c7ccf896cb6d:0x18ef0860617e7a86!8m2!3d-12.0862457!4d-76.9959647!16s%2Fg%2F11bxd_13fw!19sChIJbcuW-MzHBZERhnp-YWAI7xg"
+    },
+    {
+      "id": "biz_64",
+      "name": "Notaría Sergio Del Castillo",
+      "rating": 2.6,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av San Juan 1108, San Juan de Miraflores 15801",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Sergio+Del+Castillo/data=!4m7!3m6!1s0x9105b85b9c99e5e3:0x857be7956e88a49f!8m2!3d-12.1557346!4d-76.9723488!16s%2Fg%2F11b_2cfmsj!19sChIJ4-WZnFu4BZERn6SIbpXne4U"
+    },
+    {
+      "id": "biz_68",
+      "name": "Notaría Cesar Bazan Naveda",
+      "rating": 2.6,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Paseo la Castellana 229, Santiago de Surco 15048",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Cesar+Bazan+Naveda/data=!4m7!3m6!1s0x9105b806e949f387:0xbdd707d7b9b9cdd0!8m2!3d-12.1310635!4d-77.0018183!16s%2Fg%2F11b6v3y3gx!19sChIJh_NJ6Qa4BZER0M25udcH170"
+    },
+    {
+      "id": "biz_74",
+      "name": "Notaría Urteaga Calderón",
+      "rating": 2.6,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Javier Prado Oeste 691, Magdalena del Mar 15076",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Urteaga+Calder%C3%B3n/data=!4m7!3m6!1s0x9105c9a9550d20a1:0xee6611cf0f275f9a!8m2!3d-12.0925763!4d-77.0620538!16s%2Fg%2F11c52jwmkn!19sChIJoSANVanJBZERml8nD88RZu4"
+    },
+    {
+      "id": "biz_76",
+      "name": "Notaría Torres Kruger",
+      "rating": 2.6,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Aviación 1086, La Victoria 15018",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Torres+Kruger/data=!4m7!3m6!1s0x9105c89d42687909:0x67624057ccd85480!8m2!3d-12.071866!4d-77.0118826!16s%2Fg%2F11b7rxk8lt!19sChIJCXloQp3IBZERgFTYzFdAYmc"
+    },
+    {
+      "id": "biz_83",
+      "name": "Notaría Gómez Verástegui",
+      "rating": 2.6,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Alfredo Mendiola 3669, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+G%C3%B3mez+Ver%C3%A1stegui/data=!4m7!3m6!1s0x9105ce56f3bcea01:0x3d64ef0047d5d8ab!8m2!3d-11.9918116!4d-77.064349!16s%2Fg%2F11clvqzv15!19sChIJAeq881bOBZERq9jVRwDvZD0"
+    },
+    {
+      "id": "biz_52",
+      "name": "Notaría Loayza",
+      "rating": 2.5,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Jr. Huáscar 1543, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Loayza/data=!4m7!3m6!1s0x9105c8faff095741:0x1676a71116cf989c!8m2!3d-12.077762!4d-77.047571!16s%2Fg%2F11c5b21h1w!19sChIJQVcJ__rIBZERnJjPFhGndhY"
+    },
+    {
+      "id": "biz_69",
+      "name": "Notaría Mario Cesar Romero Valdivieso",
+      "rating": 2.4,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Circunvalación 109, Lima 15022",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Mario+Cesar+Romero+Valdivieso/data=!4m7!3m6!1s0x9105c6365d10781b:0x8904b2a15331f69c!8m2!3d-12.0764236!4d-76.9895477!16s%2Fg%2F11b6jk96vl!19sChIJG3gQXTbGBZERnPYxU6GyBIk"
+    },
+    {
+      "id": "biz_75",
+      "name": "Notaria Cueva Valverde",
+      "rating": 2.3,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Riva Agüero 1318, El Agustino 15006",
+      "url": "https://www.google.com/maps/place/Notaria+Cueva+Valverde/data=!4m7!3m6!1s0x9105c6050b238cbb:0x1090424bfca4851a!8m2!3d-12.0489015!4d-77.0009852!16s%2Fg%2F11b7hh6cmn!19sChIJu4wjCwXGBZERGoWk_EtCkBA"
+    },
+    {
+      "id": "biz_94",
+      "name": "NOTARIA ALIAGA CABALLERO",
+      "rating": 2.3,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Ca. Almirante Lord Cochrane 192, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/NOTARIA+ALIAGA+CABALLERO/data=!4m7!3m6!1s0x9105c840a9659f45:0x38e6b3c05f3be00f!8m2!3d-12.1079684!4d-77.0388586!16s%2Fg%2F11b6g68y1r!19sChIJRZ9lqUDIBZERD-A7X8Cz5jg"
+    },
+    {
+      "id": "biz_92",
+      "name": "Notaría Irene Guillermina Chávez Gil",
+      "rating": 2,
+      "reviewsCount": null,
+      "category": "Notaría",
+      "address": "Av. Gran Chimú 429, San Juan de Lurigancho 15401",
+      "url": "https://www.google.com/maps/place/Notar%C3%ADa+Irene+Guillermina+Ch%C3%A1vez+Gil/data=!4m7!3m6!1s0x9105c5f76d8bc8eb:0xec6fe41ef1748995!8m2!3d-12.0272299!4d-77.0067785!16s%2Fg%2F11b6mpb327!19sChIJ68iLbffFBZERlYl08R7kb-w"
+    }
+  ]
+}
