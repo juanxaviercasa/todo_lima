@@ -1,0 +1,928 @@
+{
+  "category": "pediatras",
+  "searchQuery": "pediatras en Lima",
+  "totalResults": 100,
+  "updatedAt": "2026-09-09T17:43:29.484Z",
+  "topBusinessContext": {
+    "id": "biz_1",
+    "name": "Dr. Jaime Vera Carpio, Pediatra",
+    "rating": 5,
+    "reviewsCount": null,
+    "category": "Pediatra",
+    "address": "Av. Tomás Valle 510, Los Olivos 15302",
+    "url": "https://www.google.com/maps/place/Dr.+Jaime+Vera+Carpio,+Pediatra/data=!4m7!3m6!1s0x9105cf1b58d4034b:0xf1977f81ddd17d58!8m2!3d-12.008185!4d-77.0626747!16s%2Fg%2F11jcm32wnf!19sChIJSwPUWBvPBZERWH3R3YF_l_E"
+  },
+  "pageContent": {
+    "headline": "Los Mejores Expertos en PEDIATRAS en Lima: Conoce a Dr. Jaime Vera Carpio, Pediatra",
+    "subtitles": [
+      "Garantiza resultados hoy mismo. Ubicados en Av. Tomás Valle 510, Los Olivos 15302, destacan como la opción número uno validada por usuarios reales.",
+      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
+    ],
+    "ctas": [
+      "Contactar por WhatsApp Ahora",
+      "Ver Directorio Completo"
+    ]
+  },
+  "businesses": [
+    {
+      "id": "biz_1",
+      "name": "Dr. Jaime Vera Carpio, Pediatra",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Tomás Valle 510, Los Olivos 15302",
+      "url": "https://www.google.com/maps/place/Dr.+Jaime+Vera+Carpio,+Pediatra/data=!4m7!3m6!1s0x9105cf1b58d4034b:0xf1977f81ddd17d58!8m2!3d-12.008185!4d-77.0626747!16s%2Fg%2F11jcm32wnf!19sChIJSwPUWBvPBZERWH3R3YF_l_E"
+    },
+    {
+      "id": "biz_5",
+      "name": "CLÍNICA DENTAL CARDENAS",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "MZ B LOTE 18, La Floresta,Chaclacayo, Chaclacayo",
+      "url": "https://www.google.com/maps/place/CL%C3%8DNICA+DENTAL+CARDENAS/data=!4m7!3m6!1s0x9105e9d416a89b37:0xad7154fb916775b7!8m2!3d-11.990775!4d-76.8212829!16s%2Fg%2F11f4mb2r7d!19sChIJN5uoFtTpBZERt3VnkftUca0"
+    },
+    {
+      "id": "biz_7",
+      "name": "Doctor Búho",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Centro de salud infantil",
+      "address": "Av. Angamos Oeste 600, OF. 601 Miraflores Municipalidad Metropolitana de Lima LIMA MIRAFLORES Municipalidad Metropolitana de Lima LIMA, 18",
+      "url": "https://www.google.com/maps/place/Doctor+B%C3%BAho/data=!4m7!3m6!1s0x9105c99a7fe9fc29:0x279f18af341b7d63!8m2!3d-12.1137535!4d-77.0349138!16s%2Fg%2F11r7p3bppz!19sChIJKfzpf5rJBZERY30bNK8Ynyc"
+    },
+    {
+      "id": "biz_9",
+      "name": "Dra. Johanna Paredes, Pediatra Paredes",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Pediatriland, Pje. Tello 162, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Dra.+Johanna+Paredes,+Pediatra+Paredes/data=!4m7!3m6!1s0x9105c97a1761ec4d:0x879e0648c22049e3!8m2!3d-12.1210417!4d-77.0285745!16s%2Fg%2F11p0fxm249!19sChIJTexhF3rJBZER40kgwkgGnoc"
+    },
+    {
+      "id": "biz_11",
+      "name": "Consultorio Madico Pediatrico",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. del Aire, Av. San Luis 1005, Lima 15021",
+      "url": "https://www.google.com/maps/place/Consultorio+Madico+Pediatrico/data=!4m7!3m6!1s0x9105c62dcb730d15:0x526ceb856e0af527!8m2!3d-12.0796618!4d-77.001595!16s%2Fg%2F11fct82st9!19sChIJFQ1zyy3GBZERJ_UKboXrbFI"
+    },
+    {
+      "id": "biz_12",
+      "name": "Dra. Raquel Delgado Valdez, Pediatra",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Javier Prado Este 2801, San Borja 15021",
+      "url": "https://www.google.com/maps/place/Dra.+Raquel+Delgado+Valdez,+Pediatra/data=!4m7!3m6!1s0x9105c7c7e74514f3:0x9e24685f0856ff9d!8m2!3d-12.0863454!4d-76.9964033!16s%2Fg%2F11jcpy0bvf!19sChIJ8xRF58fHBZERnf9WCF9oJJ4"
+    },
+    {
+      "id": "biz_13",
+      "name": "Pediatra Dr. Juan Carlos Tirado - Especialista en Enfermedades Infecciosas de Niños",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "El Sillar 178, San Juan de Lurigancho 15431",
+      "url": "https://www.google.com/maps/place/Pediatra+Dr.+Juan+Carlos+Tirado+-+Especialista+en+Enfermedades+Infecciosas+de+Ni%C3%B1os/data=!4m7!3m6!1s0x9105c580d4f0587d:0xe0716b4c51b42490!8m2!3d-12.0004003!4d-77.0072843!16s%2Fg%2F11hynk2g1r!19sChIJfVjw1IDFBZERkCS0UUxrceA"
+    },
+    {
+      "id": "biz_14",
+      "name": "Dr. José Cano Navarro - Consultorio médico",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Médico de familia",
+      "address": "Altura paradero Cooperativa, Av. Alfonso Cobian Manzana C, Chaclacayo 15476",
+      "url": "https://www.google.com/maps/place/Dr.+Jos%C3%A9+Cano+Navarro+-+Consultorio+m%C3%A9dico/data=!4m7!3m6!1s0x9105e9000a086771:0x752935db8046c4c9!8m2!3d-11.9855343!4d-76.8071329!16s%2Fg%2F11y3jjzbdy!19sChIJcWcICgDpBZERycRGgNs1KXU"
+    },
+    {
+      "id": "biz_16",
+      "name": "Centro Pediátrico de la Dra. Melissa Herrera",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Alejandro Velasco Astete 2187, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Centro+Pedi%C3%A1trico+de+la+Dra.+Melissa+Herrera/data=!4m7!3m6!1s0x9105b90013c70edd:0x8722da46cb3482f6!8m2!3d-12.1293708!4d-76.988008!16s%2Fg%2F11y3ll7mw3!19sChIJ3Q7HEwC5BZER9oI0y0baIoc"
+    },
+    {
+      "id": "biz_18",
+      "name": "Dra. Ana Valeria Sologuren Castillo - Pediatra en Lima, Perú",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Clinica Mepso, Av. República de Panamá 6551, Santiago de Surco 15047",
+      "url": "https://www.google.com/maps/place/Dra.+Ana+Valeria+Sologuren+Castillo+-+Pediatra+en+Lima,+Per%C3%BA/data=!4m7!3m6!1s0x9105b716e0b90707:0x63f0d49a84a7a5c!8m2!3d-12.13163!4d-77.0177036!16s%2Fg%2F11zdjl1dbz!19sChIJBwe54Ba3BZERXHpKqEkNPwY"
+    },
+    {
+      "id": "biz_20",
+      "name": "Pediatra en Santiago de Surco Peru - Dr. Alvaro Altamirano",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Alejandro Velasco Astete 2187, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Pediatra+en+Santiago+de+Surco+Peru+-+Dr.+Alvaro+Altamirano/data=!4m7!3m6!1s0x9105b9e6f960198b:0xca43882c2ed59cce!8m2!3d-12.1293448!4d-76.9879968!16s%2Fg%2F11xw23tm9y!19sChIJixlg-ea5BZERzpzVLiyIQ8o"
+    },
+    {
+      "id": "biz_22",
+      "name": "Pediatra Dr MARCO ALPISTE DIAZ",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Brasil 669, Jesús María 15082",
+      "url": "https://www.google.com/maps/place/Pediatra+Dr+MARCO+ALPISTE+DIAZ/data=!4m7!3m6!1s0x9105c9710439be29:0xcacf52f60da9d531!8m2!3d-12.066124!4d-77.0459379!16s%2Fg%2F11flbrb966!19sChIJKb45BHHJBZERMdWpDfZSz8o"
+    },
+    {
+      "id": "biz_24",
+      "name": "Dr. Omar Galdos Zegarra, Pediatra",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Angamos Oeste, cuadra 4 (Esquina con la, Ca. Gral. Borgoño, Lima 15074",
+      "url": "https://www.google.com/maps/place/Dr.+Omar+Galdos+Zegarra,+Pediatra/data=!4m7!3m6!1s0x9105c991685d8f29:0x28660549e87acda!8m2!3d-12.0463734!4d-77.0427552!16s%2Fg%2F11jp44bpq0!19sChIJKY9daJHJBZER2qyHnlRghgI"
+    },
+    {
+      "id": "biz_29",
+      "name": "Consultorio Pediatrico CHILDREN´S",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "Av. Javier Prado Este 2955, Lima 15021",
+      "url": "https://www.google.com/maps/place/Consultorio+Pediatrico+CHILDREN%C2%B4S/data=!4m7!3m6!1s0x9105c7cc89afb321:0xdff0432c2b3fdf87!8m2!3d-12.0864224!4d-76.9939835!16s%2Fg%2F11f51y7szf!19sChIJIbOviczHBZERh98_KyxD8N8"
+    },
+    {
+      "id": "biz_32",
+      "name": "Dra. Deborah Eskenazi Fedchteyn, Pediatra",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "debadieskenazi@gmail.com, Lima 15073",
+      "url": "https://www.google.com/maps/place/Dra.+Deborah+Eskenazi+Fedchteyn,+Pediatra/data=!4m7!3m6!1s0x9105c9ad1cd5cd97:0x66e64f37f0937535!8m2!3d-12.1110241!4d-77.0316197!16s%2Fg%2F11jjy38gn_!19sChIJl83VHK3JBZERNXWT8DdP5mY"
+    },
+    {
+      "id": "biz_34",
+      "name": "Dr. Roberto Hector Rivero Quiroz, Neonatólogo",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Neonatólogo",
+      "address": "Jirón José Pezet y Monel 1855, Lince 15073",
+      "url": "https://www.google.com/maps/place/Dr.+Roberto+Hector+Rivero+Quiroz,+Neonat%C3%B3logo/data=!4m7!3m6!1s0x9105c92945fd8947:0xece1b0ec0fb0d6d9!8m2!3d-12.0840547!4d-77.0425993!16s%2Fg%2F11h27f42ps!19sChIJR4n9RSnJBZER2dawD-yw4ew"
+    },
+    {
+      "id": "biz_36",
+      "name": "Dr. Lino Aguirre - Tu pediatra de Lima norte",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Jiron Tauro 853, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/Dr.+Lino+Aguirre+-+Tu+pediatra+de+Lima+norte/data=!4m7!3m6!1s0x9105cf8d8210888f:0xb6d17b6bfb8d424a!8m2!3d-11.9944604!4d-77.0711604!16s%2Fg%2F11wbtts6fd!19sChIJj4gQgo3PBZERSkKN-2t70bY"
+    },
+    {
+      "id": "biz_37",
+      "name": "Dr. Julian Ruiz Anicama - Traumatólogo Infantil - Adulto. Artroscopia y deporte.",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "Av. Brasil 2730, Pueblo Libre 07001",
+      "url": "https://www.google.com/maps/place/Dr.+Julian+Ruiz+Anicama+-+Traumat%C3%B3logo+Infantil+-+Adulto.+Artroscopia+y+deporte./data=!4m7!3m6!1s0x9105c7dfcdc03dc9:0x2b4cff730dd568dc!8m2!3d-12.0846715!4d-77.0620159!16s%2Fg%2F11q82fd7qq!19sChIJyT3Azd_HBZER3GjVDXP_TCs"
+    },
+    {
+      "id": "biz_43",
+      "name": "Instituto de Especialidades Pediátricas",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "Tomás Ramsey 930, Magdalena del Mar 07001",
+      "url": "https://www.google.com/maps/place/Instituto+de+Especialidades+Pedi%C3%A1tricas/data=!4m7!3m6!1s0x9105c90db1f5fb21:0xba2ed72b8bc53279!8m2!3d-12.0923871!4d-77.0582565!16s%2Fg%2F11q221w8t0!19sChIJIfv1sQ3JBZEReTLFiyvXLro"
+    },
+    {
+      "id": "biz_46",
+      "name": "Dra. María Alejandra Olivares Lizarraga, Pediatra",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Ca. Gral. Borgoño, San Isidro 15074",
+      "url": "https://www.google.com/maps/place/Dra.+Mar%C3%ADa+Alejandra+Olivares+Lizarraga,+Pediatra/data=!4m7!3m6!1s0x9105c9d5e2674519:0x498b642bea11ebcb!8m2!3d-12.1132777!4d-77.033064!16s%2Fg%2F11jcpwrstb!19sChIJGUVn4tXJBZERy-sR6itki0k"
+    },
+    {
+      "id": "biz_49",
+      "name": "Dr. Roberto Hector Rivero Quiroz, Neonatólogo",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Neonatólogo",
+      "address": "Av. Garcilaso de la Vega 1420, Lima 15004",
+      "url": "https://www.google.com/maps/place/Dr.+Roberto+Hector+Rivero+Quiroz,+Neonat%C3%B3logo/data=!4m7!3m6!1s0x9105c9cc75682ec3:0x29b245c4ea67379a!8m2!3d-12.0590989!4d-77.0070499!16s%2Fg%2F11jcpytvk_!19sChIJwy5odczJBZERmjdn6sRFsik"
+    },
+    {
+      "id": "biz_52",
+      "name": "Dr. Carlos Gonzales Saravia, Pediatra",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. De Los Precursores 166, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/Dr.+Carlos+Gonzales+Saravia,+Pediatra/data=!4m7!3m6!1s0x9105c9203247bc51:0xbc35097fe3c90373!8m2!3d-12.0717837!4d-77.0888517!16s%2Fg%2F11jpf5d0b5!19sChIJUbxHMiDJBZERcwPJ438JNbw"
+    },
+    {
+      "id": "biz_55",
+      "name": "Dra. Katherine Ramos - Neuropediatra",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "Av. Arequipa 1860, Lince 07001",
+      "url": "https://www.google.com/maps/place/Dra.+Katherine+Ramos+-+Neuropediatra/data=!4m7!3m6!1s0x9105c74007ed00ab:0x119950064170bb86!8m2!3d-12.0831265!4d-77.0348579!16s%2Fg%2F11rgf8jlfc!19sChIJqwDtB0DHBZERhrtwQQZQmRE"
+    },
+    {
+      "id": "biz_57",
+      "name": "Consultorio Pediátrico",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Oficina médica",
+      "address": "Jr. Pedro Ruiz Gallo 103, Lima 15084",
+      "url": "https://www.google.com/maps/place/Consultorio+Pedi%C3%A1trico/data=!4m7!3m6!1s0x9105c9c2370794cb:0x4729747bb90aecd6!8m2!3d-12.0700758!4d-77.050035!16s%2Fg%2F11h3yhvvs9!19sChIJy5QHN8LJBZER1uwKuXt0KUc"
+    },
+    {
+      "id": "biz_58",
+      "name": "Safari Consultorio Pediátrico - Dr. Anderson Huerta",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Brasil 2730, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/Safari+Consultorio+Pedi%C3%A1trico+-+Dr.+Anderson+Huerta/data=!4m7!3m6!1s0x9105c9fcbad2a48d:0x2fb434295d00b61a!8m2!3d-12.08464!4d-77.0620454!16s%2Fg%2F11tgdd3949!19sChIJjaTSuvzJBZERGrYAXSk0tC8"
+    },
+    {
+      "id": "biz_60",
+      "name": "Pediatra Silvia Acuña",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Brasil 2730, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/Pediatra+Silvia+Acu%C3%B1a/data=!4m7!3m6!1s0x9105c93623f7ac13:0x5e0c7925373550ca!8m2!3d-12.0846401!4d-77.0620453!16s%2Fg%2F11tdrcrzp7!19sChIJE6z3IzbJBZERylA1NyV5DF4"
+    },
+    {
+      "id": "biz_63",
+      "name": "Pediatra Dr. Marco Antonio Alpiste",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Urbanización Covida, Av. Carlos Izaguirre 1142, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/Pediatra+Dr.+Marco+Antonio+Alpiste/data=!4m7!3m6!1s0x9105cfa069749385:0x7770038be95fb572!8m2!3d-11.9913413!4d-77.0758349!16s%2Fg%2F11g20785j7!19sChIJhZN0aaDPBZERcrVf6YsDcHc"
+    },
+    {
+      "id": "biz_71",
+      "name": "Pediatria",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Pacasmayo 212, Lima 07036",
+      "url": "https://www.google.com/maps/place/Pediatria/data=!4m7!3m6!1s0x9105ce9c29057dcd:0x6cf2d6b9f43116c7!8m2!3d-12.015261!4d-77.0990014!16s%2Fg%2F11c5__z9d2!19sChIJzX0FKZzOBZERxxYx9LnW8mw"
+    },
+    {
+      "id": "biz_76",
+      "name": "Consultorio Médico Paruro",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Oficina médica",
+      "address": "Jr. Paruro 475, Lima 15001",
+      "url": "https://www.google.com/maps/place/Consultorio+M%C3%A9dico+Paruro/data=!4m7!3m6!1s0x9105c96c44224597:0xe5832dc594b0cc1f!8m2!3d-12.048205!4d-77.0230113!16s%2Fg%2F11scq47wxk!19sChIJl0UiRGzJBZERH8ywlMUtg-U"
+    },
+    {
+      "id": "biz_78",
+      "name": "Policlinico Divino Niño Jesus",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "Av. Perú 3414, San Martín de Porres 15106",
+      "url": "https://www.google.com/maps/place/Policlinico+Divino+Ni%C3%B1o+Jesus/data=!4m7!3m6!1s0x9105cf25b15bf979:0xb358e46dc1c59424!8m2!3d-12.0308006!4d-77.0844352!16s%2Fg%2F11f4qfnc1t!19sChIJeflbsSXPBZERJJTFwW3kWLM"
+    },
+    {
+      "id": "biz_84",
+      "name": "Medicos en Casa",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "La Victoria 15033",
+      "url": "https://www.google.com/maps/place/Medicos+en+Casa/data=!4m7!3m6!1s0x9105c8902c08177b:0x6ea526a7b356fafd!8m2!3d-12.0736791!4d-77.0244692!16s%2Fg%2F11gf8g4p0l!19sChIJexcILJDIBZER_fpWs6cmpW4"
+    },
+    {
+      "id": "biz_2",
+      "name": "ElizinKids Consultorio Pediátrico",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Carlos Izaguirre 733, Los Olivos 15113",
+      "url": "https://www.google.com/maps/place/ElizinKids+Consultorio+Pedi%C3%A1trico/data=!4m7!3m6!1s0x9105cf35ca2069fd:0xc99a86998d7bbce9!8m2!3d-11.9911661!4d-77.0691016!16s%2Fg%2F11sprvf412!19sChIJ_WkgyjXPBZER6bx7jZmGmsk"
+    },
+    {
+      "id": "biz_4",
+      "name": "Dr. Jose Luis Gonzales Uchuypoma, Pediatra",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Asociación vivienda Peregrinos del Señor, C. las Magnolias 125, Los Olivos 15304",
+      "url": "https://www.google.com/maps/place/Dr.+Jose+Luis+Gonzales+Uchuypoma,+Pediatra/data=!4m7!3m6!1s0x9105cfc1b2bd7c9d:0x5e532a428e19b1a0!8m2!3d-11.972908!4d-77.0735092!16s%2Fg%2F11k15bw5jn!19sChIJnXy9ssHPBZERoLEZjkIqU14"
+    },
+    {
+      "id": "biz_8",
+      "name": "Pediatría Especializada",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Enrique Palacios 360, oficina 411 Miraflores LIMA, 18",
+      "url": "https://www.google.com/maps/place/Pediatr%C3%ADa+Especializada/data=!4m7!3m6!1s0x9105c916bc897bd7:0xd71cfdbf50a20740!8m2!3d-12.1167241!4d-77.0320797!16s%2Fg%2F11h88md67r!19sChIJ13uJvBbJBZERQAeiUL_9HNc"
+    },
+    {
+      "id": "biz_82",
+      "name": "Bolívar Medic - Miraflores",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Centro médico",
+      "address": "Calle Porta 130, Miraflores 15046",
+      "url": "https://www.google.com/maps/place/Bol%C3%ADvar+Medic+-+Miraflores/data=!4m7!3m6!1s0x9105c91ca4c913ab:0x12258b84cbf0203!8m2!3d-12.1230767!4d-77.031308!16s%2Fg%2F11vf385mp9!19sChIJqxPJpBzJBZERAwK_TLhYIgE"
+    },
+    {
+      "id": "biz_93",
+      "name": "SmartMed",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Clínica del sueño",
+      "address": "Av. Arequipa 1860, Lince 15046",
+      "url": "https://www.google.com/maps/place/SmartMed/data=!4m7!3m6!1s0x9105c9f57e7e2f85:0xa87a4152d9df98c6!8m2!3d-12.0831265!4d-77.0348579!16s%2Fg%2F11k569zry2!19sChIJhS9-fvXJBZERxpjf2VJBeqg"
+    },
+    {
+      "id": "biz_15",
+      "name": "Dr. Juan Carlos Torres Salas, Neumologo Pediatra",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Brasil 962, Lima 15083",
+      "url": "https://www.google.com/maps/place/Dr.+Juan+Carlos+Torres+Salas,+Neumologo+Pediatra/data=!4m7!3m6!1s0x9105c95b84838063:0x6b712c3a9336094!8m2!3d-12.068752!4d-77.0488709!16s%2Fg%2F11mtfhp840!19sChIJY4CDhFvJBZERlGAzqcMStwY"
+    },
+    {
+      "id": "biz_26",
+      "name": "Dra. Luz Aymé Reyna Mejía, Neumóloga Pediatra",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Neumólogo",
+      "address": "Clínica Las Américas, Av. Arequipa 2685, Lince 15046",
+      "url": "https://www.google.com/maps/place/Dra.+Luz+Aym%C3%A9+Reyna+Mej%C3%ADa,+Neum%C3%B3loga+Pediatra/data=!4m7!3m6!1s0x9105c85e181ba1d1:0xde9238dcb0e21c20!8m2!3d-12.0903698!4d-77.0333003!16s%2Fg%2F11j2lsrb2n!19sChIJ0aEbGF7IBZERIBzisNw4kt4"
+    },
+    {
+      "id": "biz_28",
+      "name": "Dra. Felicita Baltazar Arone, Pediatra",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Viña Venturo 140, Santiago de Surco 15054",
+      "url": "https://www.google.com/maps/place/Dra.+Felicita+Baltazar+Arone,+Pediatra/data=!4m7!3m6!1s0x9105b952b4b4efa3:0xb1d13f3e43cab582!8m2!3d-12.165956!4d-76.9936631!16s%2Fg%2F11mvk7j4nz!19sChIJo--0tFK5BZERgrXKQz4_0bE"
+    },
+    {
+      "id": "biz_33",
+      "name": "Dr. Luis Castrejón, Cirujano Pediatra",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Cirujano pediátrico",
+      "address": "Edificio Qualis, Av. Brasil 2730, Pueblo Libre 15083",
+      "url": "https://www.google.com/maps/place/Dr.+Luis+Castrej%C3%B3n,+Cirujano+Pediatra/data=!4m7!3m6!1s0x9105c929c7aa2d59:0xeea9c8041fc32344!8m2!3d-12.0845109!4d-77.0620904!16s%2Fg%2F11k59byqrh!19sChIJWS2qxynJBZERRCPDHwTIqe4"
+    },
+    {
+      "id": "biz_56",
+      "name": "Consultorio Pediátrico : NUEVA VIDA",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "C. 74, Los Olivos 15307",
+      "url": "https://www.google.com/maps/place/Consultorio+Pedi%C3%A1trico+:+NUEVA+VIDA/data=!4m7!3m6!1s0x9105d1e69f131e4f:0x842411773bd9ef6d!8m2!3d-11.9515747!4d-77.0814939!16s%2Fg%2F11l1gk49kv!19sChIJTx4Tn-bRBZERbe_ZO3cRJIQ"
+    },
+    {
+      "id": "biz_64",
+      "name": "Policlínico Buen Pastor",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Centro médico",
+      "address": "Av. Los Virreyes Mz Q, Santa Anita 07001",
+      "url": "https://www.google.com/maps/place/Policl%C3%ADnico+Buen+Pastor/data=!4m7!3m6!1s0x9105c5dcf2d032a5:0x624a28a0d704d6e9!8m2!3d-12.0327405!4d-76.9492547!16s%2Fg%2F11s0srw3hc!19sChIJpTLQ8tzFBZER6dYE16AoSmI"
+    },
+    {
+      "id": "biz_97",
+      "name": "Neurólogo en Lima - Instituto Neuro Metabólico",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Oficina médica",
+      "address": "Jirón, De La Roca De Vergallo 493, Magdalena del Mar 15086",
+      "url": "https://www.google.com/maps/place/Neur%C3%B3logo+en+Lima+-+Instituto+Neuro+Metab%C3%B3lico/data=!4m7!3m6!1s0x9105c9d5d88cbaad:0xb751a6ac56fdd65e!8m2!3d-12.0910679!4d-77.0569863!16s%2Fg%2F11hy9hkrr7!19sChIJrbqM2NXJBZERXtb9VqymUbc"
+    },
+    {
+      "id": "biz_6",
+      "name": "Pediátricas Lima",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Neurólogo pediátrico",
+      "address": "Av. República de Panamá 3609, San Isidro 15036",
+      "url": "https://www.google.com/maps/place/Pedi%C3%A1tricas+Lima/data=!4m7!3m6!1s0x9105b7d440e68025:0x93220d73d3669bc4!8m2!3d-12.1006773!4d-77.0188296!16s%2Fg%2F11p64gy5sw!19sChIJJYDmQNS3BZERxJtm03MNIpM"
+    },
+    {
+      "id": "biz_40",
+      "name": "Consultorio pediátrico Dra. Carmen R.",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Tomás Valle 124, Callao 07036",
+      "url": "https://www.google.com/maps/place/Consultorio+pedi%C3%A1trico+Dra.+Carmen+R./data=!4m7!3m6!1s0x9105ce9e90533101:0x20b68139e545cf8c!8m2!3d-12.016791!4d-77.0987295!16s%2Fg%2F11b6q076m_!19sChIJATFTkJ7OBZERjM9F5TmBtiA"
+    },
+    {
+      "id": "biz_54",
+      "name": "Dr. Hector Nuñez Paucar, Neumologo Pediatra",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Brasil 2730, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/Dr.+Hector+Nu%C3%B1ez+Paucar,+Neumologo+Pediatra/data=!4m7!3m6!1s0x9105c9ec4630aee7:0x6b868429af6fceec!8m2!3d-12.08464!4d-77.0620454!16s%2Fg%2F11jp44znvr!19sChIJ564wRuzJBZER7M5vrymEhms"
+    },
+    {
+      "id": "biz_59",
+      "name": "Pediatra Vizcarra",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Avenida el Triunfo , 478 Villa Maria Del Triunfo, Cercado de Lima 15811",
+      "url": "https://www.google.com/maps/place/Pediatra+Vizcarra/data=!4m7!3m6!1s0x9105b8e4002d6945:0xa744f9817db5217a!8m2!3d-12.1653297!4d-76.947063!16s%2Fg%2F11h2fjc_9s!19sChIJRWktAOS4BZEReiG1fYH5RKc"
+    },
+    {
+      "id": "biz_92",
+      "name": "POLICLINICO \"EL BOSQUE\"",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Hospital",
+      "address": "Valderrama 380, Lima 15096",
+      "url": "https://www.google.com/maps/place/POLICLINICO+%22EL+BOSQUE%22/data=!4m7!3m6!1s0x9105cf1e2eb17f19:0xdf4e33461b2b610c!8m2!3d-12.0185759!4d-77.0319612!16s%2Fg%2F11gjsyxlps!19sChIJGX-xLh7PBZERDGErG0YzTt8"
+    },
+    {
+      "id": "biz_10",
+      "name": "Clinica Pediátrica. Dr. Quispe..",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "mz. k lt. 23, Ate 15023",
+      "url": "https://www.google.com/maps/place/Clinica+Pedi%C3%A1trica.+Dr.+Quispe../data=!4m7!3m6!1s0x9105c537f2bb5857:0x30c60e09365a8bea!8m2!3d-12.0318544!4d-76.9376226!16s%2Fg%2F11hwf7kkvv!19sChIJV1i78jfFBZER6otaNgkOxjA"
+    },
+    {
+      "id": "biz_66",
+      "name": "Pediatra alcantara sjm",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Jirón Manuel Barreto 133, San Juan de Miraflores 15803",
+      "url": "https://www.google.com/maps/place/Pediatra+alcantara+sjm/data=!4m7!3m6!1s0x9105b90047729cbf:0x45d9c5f2122536c0!8m2!3d-12.1538975!4d-76.9694232!16s%2Fg%2F11w8p1x23q!19sChIJv5xyRwC5BZERwDYlEvLF2UU"
+    },
+    {
+      "id": "biz_70",
+      "name": "Endocrinólogo en Lima - Instituto Neuro Metabólico",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Centro médico",
+      "address": "Jirón, De La Roca De Vergallo 493, Magdalena del Mar 15086",
+      "url": "https://www.google.com/maps/place/Endocrin%C3%B3logo+en+Lima+-+Instituto+Neuro+Metab%C3%B3lico/data=!4m7!3m6!1s0x9105c9d4a16c3011:0x9804f976f4e81acf!8m2!3d-12.0910679!4d-77.0569863!16s%2Fg%2F11jn_ff4q5!19sChIJETBsodTJBZERzxro9Hb5BJg"
+    },
+    {
+      "id": "biz_85",
+      "name": "POLICLINICO SAN LUIS - Especialidades",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "Av. Nicolás Arriola 1454, Lima 15021",
+      "url": "https://www.google.com/maps/place/POLICLINICO+SAN+LUIS+-+Especialidades/data=!4m7!3m6!1s0x9105c6286646ef49:0x711ae6e6f05591aa!8m2!3d-12.0753616!4d-77.0080362!16s%2Fg%2F11c0xs1w7j!19sChIJSe9GZijGBZERqpFV8ObmGnE"
+    },
+    {
+      "id": "biz_51",
+      "name": "Clinica Risso",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Clínica especializada",
+      "address": "Av. Arequipa 2030, Lince 15046",
+      "url": "https://www.google.com/maps/place/Clinica+Risso/data=!4m7!3m6!1s0x9105c8f541b7b235:0x59f9f8c42d5f9fa3!8m2!3d-12.0849773!4d-77.0345528!16s%2Fg%2F12lt2zx8f!19sChIJNbK3QfXIBZERo59fLcT4-Vk"
+    },
+    {
+      "id": "biz_17",
+      "name": "Pediatras Asociados",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Aurelio Miró Quesada 1048, San LIMA 27",
+      "url": "https://www.google.com/maps/place/Pediatras+Asociados/data=!4m7!3m6!1s0x9105c83f9a57a785:0xa239f0835bd3ce4d!8m2!3d-12.0988994!4d-77.0519596!16s%2Fg%2F11b5wchh1t!19sChIJhadXmj_IBZERTc7TW4PwOaI"
+    },
+    {
+      "id": "biz_23",
+      "name": "Centro Médico Del Niño S.A.C",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Hospital infantil",
+      "address": "Av. Brasil 680 – A, Breña 15082",
+      "url": "https://www.google.com/maps/place/Centro+M%C3%A9dico+Del+Ni%C3%B1o+S.A.C/data=!4m7!3m6!1s0x9105c94c846481c7:0x8d33dc24edbc60fd!8m2!3d-12.06601!4d-77.04658!16s%2Fg%2F11g0hv516w!19sChIJx4FkhEzJBZER_WC87STcM40"
+    },
+    {
+      "id": "biz_31",
+      "name": "Consultorios Pediátricos Especializados Divino Niño Jesús",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Centro médico",
+      "address": "Av. Próceres de la Independencia 142, Urb, San Juan de Lurigancho 15404",
+      "url": "https://www.google.com/maps/place/Consultorios+Pedi%C3%A1tricos+Especializados+Divino+Ni%C3%B1o+Jes%C3%BAs/data=!4m7!3m6!1s0x9105c569a798cfdf:0xdb7b4b33f01d08c8!8m2!3d-12.0295088!4d-77.0116163!16s%2Fg%2F11rw7j2y4y!19sChIJ38-Yp2nFBZERyAgd8DNLe9s"
+    },
+    {
+      "id": "biz_44",
+      "name": "Pediatra Dra Nancy",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "C. Bogota 174, Lima 15064",
+      "url": "https://www.google.com/maps/place/Pediatra+Dra+Nancy/data=!4m7!3m6!1s0x9105b79d72d86cc9:0xd0f38f920a728240!8m2!3d-12.1734679!4d-77.0242856!16s%2Fg%2F11gcjfpqt8!19sChIJyWzYcp23BZERQIJyCpKP89A"
+    },
+    {
+      "id": "biz_62",
+      "name": "Centro de Pediatria y Alergias de Lima",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "Municipalidad Metropolitana de, Jr. Huiracocha 1427, Jesús María LIMA 11",
+      "url": "https://www.google.com/maps/place/Centro+de+Pediatria+y+Alergias+de+Lima/data=!4m7!3m6!1s0x9105c8fb1ebfef3b:0x359b5c72ecc1da2b!8m2!3d-12.0768473!4d-77.0481295!16s%2Fg%2F11bxft2x45!19sChIJO--_HvvIBZERK9rB7HJcmzU"
+    },
+    {
+      "id": "biz_67",
+      "name": "Clínica Respira Vida",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Centro médico",
+      "address": "Av. Arequipa 2050, Lince 15046",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Respira+Vida/data=!4m7!3m6!1s0x9105c8680646a31d:0xeaae75c5277059bc!8m2!3d-12.0851821!4d-77.0345615!16s%2Fg%2F11b6s_y3vs!19sChIJHaNGBmjIBZERvFlwJ8V1ruo"
+    },
+    {
+      "id": "biz_81",
+      "name": "DR. JUAN CORRAL- UROLOGIA PEDIATRICA",
+      "rating": 4,
+      "reviewsCount": null,
+      "category": "Urólogo pediatra",
+      "address": "Av. Brasil 2730, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/DR.+JUAN+CORRAL-+UROLOGIA+PEDIATRICA/data=!4m7!3m6!1s0x9105c943eb98e58d:0x2cbeffcf8e4b546c!8m2!3d-12.08464!4d-77.0620454!16s%2Fg%2F11tc9g5kph!19sChIJjeWY60PJBZERbFRLjs__viw"
+    },
+    {
+      "id": "biz_3",
+      "name": "Dra. Elizabeth Espinal, Pediatra",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Municipalidad Metropolitana de, Av. Carlos Izaguirre 733, Lima 15304",
+      "url": "https://www.google.com/maps/place/Dra.+Elizabeth+Espinal,+Pediatra/data=!4m7!3m6!1s0x9105cf333a9ce6bf:0x844e302b872bb7ca!8m2!3d-11.9911432!4d-77.0690994!16s%2Fg%2F11kpy2mfq3!19sChIJv-acOjPPBZERyrcrhyswToQ"
+    },
+    {
+      "id": "biz_25",
+      "name": "Hospital de Emergencias Pediátricas",
+      "rating": 3.9,
+      "reviewsCount": null,
+      "category": "Hospital infantil",
+      "address": "Av. Miguel Grau 854, La Victoria 15033",
+      "url": "https://www.google.com/maps/place/Hospital+de+Emergencias+Pedi%C3%A1tricas/data=!4m7!3m6!1s0x9105c8a34a3012a9:0x32ef9dddb8c25cbc!8m2!3d-12.0583673!4d-77.0216179!16s%2Fg%2F1tcv7ct1!19sChIJqRIwSqPIBZERvFzCuN2d7zI"
+    },
+    {
+      "id": "biz_68",
+      "name": "SOCIEDAD PERUANA DE PEDIATRÍA",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "C. Los Geranios 151, Lince 15046",
+      "url": "https://www.google.com/maps/place/SOCIEDAD+PERUANA+DE+PEDIATR%C3%8DA/data=!4m7!3m6!1s0x9105c861499773f1:0x74a1c25f062c2b9c!8m2!3d-12.0905732!4d-77.0289719!16s%2Fg%2F11btwsdghj!19sChIJ8XOXSWHIBZERnCssBl_CoXQ"
+    },
+    {
+      "id": "biz_73",
+      "name": "Clínica San Camilo",
+      "rating": 3.7,
+      "reviewsCount": null,
+      "category": "Hospital",
+      "address": "Jr. Áncash 809, Lima 15001",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+San+Camilo/data=!4m7!3m6!1s0x9105c8b1e414a8e5:0x7260c3fa8356345e!8m2!3d-12.046735!4d-77.0222457!16s%2Fg%2F1t_wqd_h!19sChIJ5agU5LHIBZERXjRWg_rDYHI"
+    },
+    {
+      "id": "biz_91",
+      "name": "Clinica Santa Catalina",
+      "rating": 3.6,
+      "reviewsCount": null,
+      "category": "Clínica especializada",
+      "address": "José Bazzochi 339, Lima 15034",
+      "url": "https://www.google.com/maps/place/Clinica+Santa+Catalina/data=!4m7!3m6!1s0x9105c8885c004f4d:0x9b0c864422fef7a1!8m2!3d-12.0824579!4d-77.0232115!16s%2Fg%2F11cjj7ckf1!19sChIJTU8AXIjIBZERoff-IkSGDJs"
+    },
+    {
+      "id": "biz_87",
+      "name": "Clínica Delgado Auna",
+      "rating": 3.5,
+      "reviewsCount": null,
+      "category": "Clínica ambulatoria",
+      "address": "Ca. Gral. Borgoño, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Delgado+Auna/data=!4m7!3m6!1s0x9105c815f941339b:0x3a029a49da1b9b14!8m2!3d-12.1132145!4d-77.0329581!16s%2Fg%2F1w9y24jq!19sChIJmzNB-RXIBZERFJsb2kmaAjo"
+    },
+    {
+      "id": "biz_100",
+      "name": "Clínica Porvenir",
+      "rating": 3.5,
+      "reviewsCount": null,
+      "category": "Hospital privado",
+      "address": "Av. Francisco Javier Mariátegui 1418, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Porvenir/data=!4m7!3m6!1s0x9105c8fc822ecbb3:0x4bb89d470c280e9a!8m2!3d-12.0776663!4d-77.0508232!16s%2Fg%2F11bvt1r74v!19sChIJs8sugvzIBZERmg4oDEeduEs"
+    },
+    {
+      "id": "biz_30",
+      "name": "Clínica Internacional, Sede Lima",
+      "rating": 3.4,
+      "reviewsCount": null,
+      "category": "Clínica ambulatoria",
+      "address": "Av. Garcilaso de la Vega 1420, Lima 15001",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Internacional,+Sede+Lima/data=!4m7!3m6!1s0x9105c8c14e18a1c5:0x7d732e67b547a701!8m2!3d-12.0583446!4d-77.0382791!16s%2Fg%2F1tgc0vgn!19sChIJxaEYTsHIBZERAadHtWcuc30"
+    },
+    {
+      "id": "biz_42",
+      "name": "Dra. Carol Alvitez",
+      "rating": 3.4,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. 28 de Julio 100, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Dra.+Carol+Alvitez/data=!4m7!3m6!1s0x9105c9f4678fa8e9:0x5260ad7e7dfffed4!8m2!3d-12.0654983!4d-77.0452363!16s%2Fg%2F11knbq16k6!19sChIJ6aiPZ_TJBZER1P7_fX6tYFI"
+    },
+    {
+      "id": "biz_83",
+      "name": "Clínica San Felipe",
+      "rating": 3.4,
+      "reviewsCount": null,
+      "category": "Hospital general",
+      "address": "Av. Gregorio Escobedo 650, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+San+Felipe/data=!4m7!3m6!1s0x9105c8ff8e4bf8fd:0x249e0e709c6cdcb2!8m2!3d-12.0859598!4d-77.054335!16s%2Fg%2F1wcxf4ph!19sChIJ_fhLjv_IBZERstxsnHAOniQ"
+    },
+    {
+      "id": "biz_88",
+      "name": "Clínica Good Hope",
+      "rating": 3.4,
+      "reviewsCount": null,
+      "category": "Clínica ambulatoria",
+      "address": "Mal. Balta 956, Miraflores 15039",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Good+Hope/data=!4m7!3m6!1s0x9105c821f1c00001:0xc5cde6b36724efc7!8m2!3d-12.1255888!4d-77.034436!16s%2Fg%2F1thqby2l!19sChIJAQDA8SHIBZERx-8kZ7PmzcU"
+    },
+    {
+      "id": "biz_96",
+      "name": "Antares salud y bienestar: Centro de Diagnostico Especializado",
+      "rating": 3.1,
+      "reviewsCount": null,
+      "category": "Centro médico",
+      "address": "Ca. Arica 681, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Antares+salud+y+bienestar:+Centro+de+Diagnostico+Especializado/data=!4m7!3m6!1s0x9105c803ca6fffff:0x606ce59678282902!8m2!3d-12.1130031!4d-77.0358388!16s%2Fg%2F11hynjfcyd!19sChIJ__9vygPIBZERAikoeJblbGA"
+    },
+    {
+      "id": "biz_27",
+      "name": "Mi Pediatra",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Los Ruiseñores 476, Santa Anita 15008",
+      "url": "https://www.google.com/maps/place/Mi+Pediatra/data=!4m7!3m6!1s0x9105c662f6a064f3:0x2ff7320e5e93c999!8m2!3d-12.0514113!4d-76.9661097!16s%2Fg%2F11gx_n3hc_!19sChIJ82Sg9mLGBZERmcmTXg4y9y8"
+    },
+    {
+      "id": "biz_75",
+      "name": "Emergencia pediátricas Grau",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Miguel Grau 900, La Victoria 15018",
+      "url": "https://www.google.com/maps/place/Emergencia+pedi%C3%A1tricas+Grau/data=!4m7!3m6!1s0x9105c9004acc2785:0x88bf20bc3963d461!8m2!3d-12.0581836!4d-77.0210554!16s%2Fg%2F11wn7hb152!19sChIJhSfMSgDJBZERYdRjObwgv4g"
+    },
+    {
+      "id": "biz_19",
+      "name": "Mi Pediatra y Yo - Centro de Especialidades Pediátricas",
+      "rating": 2.9,
+      "reviewsCount": null,
+      "category": "Oficina médica",
+      "address": "Av. Gral. Eugenio Garzón N° 862, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Mi+Pediatra+y+Yo+-+Centro+de+Especialidades+Pedi%C3%A1tricas/data=!4m7!3m6!1s0x9105c8e7fcfb60ef:0x79f9a68c032c770e!8m2!3d-12.068507!4d-77.0467663!16s%2Fg%2F1q2wdfx95!19sChIJ72D7_OfIBZERDncsA4ym-Xk"
+    },
+    {
+      "id": "biz_45",
+      "name": "Centro Pediátrico de la Clínica Javier Prado",
+      "rating": 2.8,
+      "reviewsCount": null,
+      "category": "Clínica ambulatoria",
+      "address": "Orquideas 365, Lima 15046",
+      "url": "https://www.google.com/maps/place/Centro+Pedi%C3%A1trico+de+la+Cl%C3%ADnica+Javier+Prado/data=!4m7!3m6!1s0x9105c866acbf4cbb:0xe0fd6820b3b72ed5!8m2!3d-12.0911141!4d-77.0279621!16s%2Fg%2F11c5hy_8gy!19sChIJu0y_rGbIBZER1S63syBo_eA"
+    },
+    {
+      "id": "biz_90",
+      "name": "Clínica Maison de Santé",
+      "rating": 2.8,
+      "reviewsCount": null,
+      "category": "Clínica ambulatoria",
+      "address": "Jirón Miguel Aljovín 222, Lima 15001",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Maison+de+Sant%C3%A9/data=!4m7!3m6!1s0x9105c8c75389c005:0x32f0dbfd2fa740e!8m2!3d-12.0574665!4d-77.0339554!16s%2Fg%2F1tff42nl!19sChIJBcCJU8fIBZERDnT60r8NLwM"
+    },
+    {
+      "id": "biz_47",
+      "name": "Centro Pediátrico Especializado El Niño Feliz - Sede Central",
+      "rating": 1.9,
+      "reviewsCount": null,
+      "category": "Centro de salud infantil",
+      "address": "Av. Brasil 962, Lima 15083",
+      "url": "https://www.google.com/maps/place/Centro+Pedi%C3%A1trico+Especializado+El+Ni%C3%B1o+Feliz+-+Sede+Central/data=!4m7!3m6!1s0x9105c95817537213:0x4d6ddbe58a0401bc!8m2!3d-12.068752!4d-77.0488709!16s%2Fg%2F11rpxkcc5m!19sChIJE3JTF1jJBZERvAEEiuXbbU0"
+    },
+    {
+      "id": "biz_95",
+      "name": "Ortopedia y Traumatologia Infantil",
+      "rating": 1,
+      "reviewsCount": null,
+      "category": "Centro médico",
+      "address": "Av. Talara 269, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Ortopedia+y+Traumatologia+Infantil/data=!4m7!3m6!1s0x9105c9f5a149da4b:0xc111c8f590fe8d0!8m2!3d-12.0693424!4d-77.0465236!16s%2Fg%2F11mnqdxxd1!19sChIJS9pJofXJBZER0OgPWY8cEQw"
+    },
+    {
+      "id": "biz_21",
+      "name": "Dr. Alonso Alberoni Santos Zeta, Pediatra",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "De La Roca De Vergallo 493, Magdalena del Mar 15076",
+      "url": "https://www.google.com/maps/place/Dr.+Alonso+Alberoni+Santos+Zeta,+Pediatra/data=!4m7!3m6!1s0x9105c967f160a7eb:0x175c549bfddda858!8m2!3d-12.0910679!4d-77.0569863!16s%2Fg%2F11t9rj93t4!19sChIJ66dg8WfJBZERWKjd_ZtUXBc"
+    },
+    {
+      "id": "biz_35",
+      "name": "Dra. Ines Caro Kahn",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Arequipa 2450- 801, Lince 15046",
+      "url": "https://www.google.com/maps/place/Dra.+Ines+Caro+Kahn/data=!4m7!3m6!1s0x9105c85e31ca455b:0xb86ceb5e1c9d386b!8m2!3d-12.088978!4d-77.0342192!16s%2Fg%2F11svn2fby7!19sChIJW0XKMV7IBZERazidHF7rbLg"
+    },
+    {
+      "id": "biz_38",
+      "name": "Dr. Enrique Córdova Aguirre, Pediatra",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Javier Prado Este 1417, Lima 15034",
+      "url": "https://www.google.com/maps/place/Dr.+Enrique+C%C3%B3rdova+Aguirre,+Pediatra/data=!4m7!3m6!1s0x9105c921a92a6be1:0x199f36faba004360!8m2!3d-12.0890018!4d-77.0126569!16s%2Fg%2F11jlttnwzv!19sChIJ4WsqqSHJBZERYEMAuvo2nxk"
+    },
+    {
+      "id": "biz_39",
+      "name": "Dra. María Mercedes Pardo Villafranca",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. del Ejército 250, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Dra.+Mar%C3%ADa+Mercedes+Pardo+Villafranca/data=!4m7!3m6!1s0x9105c83a8d915555:0xb297f748a7eb933d!8m2!3d-12.1175371!4d-77.0437407!16s%2Fg%2F11q3dpcq8r!19sChIJVVWRjTrIBZERPZPrp0j3l7I"
+    },
+    {
+      "id": "biz_41",
+      "name": "Pediasalud",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Tomas Valle 510, Av. Petit Thouars 1775, Los Olivos 15302",
+      "url": "https://www.google.com/maps/place/Pediasalud/data=!4m7!3m6!1s0x9105c9fb581c1837:0x50086b341369118c!8m2!3d-12.0819141!4d-77.0335696!16s%2Fg%2F11jlgtllpq!19sChIJNxgcWPvJBZERjBFpEzRrCFA"
+    },
+    {
+      "id": "biz_48",
+      "name": "Jorge Alberto Rios Aida",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "El Sillar 178, San Juan de Lurigancho 15431",
+      "url": "https://www.google.com/maps/place/Jorge+Alberto+Rios+Aida/data=!4m7!3m6!1s0x9105c5812a535b1b:0xbbe8a78ac029e280!8m2!3d-12.0003235!4d-77.0073218!16s%2Fg%2F11h9gv9_qx!19sChIJG1tTKoHFBZERgOIpwIqn6Ls"
+    },
+    {
+      "id": "biz_50",
+      "name": "Dr. Carlos Caballero Aranibar, Pediatra",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Brasil 2730, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/Dr.+Carlos+Caballero+Aranibar,+Pediatra/data=!4m7!3m6!1s0x9105c94bbf9319bf:0x4be24ead717c7964!8m2!3d-12.0846395!4d-77.0620422!16s%2Fg%2F11v0gmd0m2!19sChIJvxmTv0vJBZERZHl8ca1O4ks"
+    },
+    {
+      "id": "biz_53",
+      "name": "MiniMundo Pediatrico",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Oficina médica",
+      "address": "Jr. José Gálvez 1177, Lima 15046",
+      "url": "https://www.google.com/maps/place/MiniMundo+Pediatrico/data=!4m7!3m6!1s0x9105c9d7db64beb5:0x46d3868f77182b5b!8m2!3d-12.0756211!4d-77.0303079!16s%2Fg%2F11l020cldt!19sChIJtb5k29fJBZERWysYd4-G00Y"
+    },
+    {
+      "id": "biz_61",
+      "name": "Dr. Carlos Guevara Effio",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Jirón los Mogaburos 148, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Dr.+Carlos+Guevara+Effio/data=!4m7!3m6!1s0x9105c8e7d9b18283:0x2cc54e6a8498bfdf!8m2!3d-12.0657777!4d-77.0451373!16s%2Fg%2F11j_6qmns7!19sChIJg4Kx2efIBZER37-YhGpOxSw"
+    },
+    {
+      "id": "biz_65",
+      "name": "Dra. Ana Maria del Pilar Flores Chavez, Pediatra",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "XX34+FV5 Clinica Good Hope, Lima 15072",
+      "url": "https://www.google.com/maps/place/Dra.+Ana+Maria+del+Pilar+Flores+Chavez,+Pediatra/data=!4m7!3m6!1s0x9105c92f2c3d5a7b:0x8446fd35778fe9ab!8m2!3d-12.0463734!4d-77.0427552!16s%2Fg%2F11jcpwf1r4!19sChIJe1o9LC_JBZERq-mPdzX9RoQ"
+    },
+    {
+      "id": "biz_69",
+      "name": "Respira Sano: Centro de Enfermedades Respiratorias",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Neumólogo pediatra",
+      "address": "Av. Brasil 2730, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/Respira+Sano:+Centro+de+Enfermedades+Respiratorias/data=!4m7!3m6!1s0x9105c947c34cef39:0x455f3fdf48f02cf1!8m2!3d-12.08464!4d-77.0620454!16s%2Fg%2F11v15pyfl9!19sChIJOe9Mw0fJBZER8SzwSN8_X0U"
+    },
+    {
+      "id": "biz_72",
+      "name": "Consultorio Pediátrico Crece Conmigo",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Médico",
+      "address": "Calle Almirante Martin Guisse 1732, Lince 15703",
+      "url": "https://www.google.com/maps/place/Consultorio+Pedi%C3%A1trico+Crece+Conmigo/data=!4m7!3m6!1s0x9105d1c0d099c48d:0xec2a4b4a40785e2!8m2!3d-12.0826061!4d-77.0393274!16s%2Fg%2F11gt9v4hmz!19sChIJjcSZ0MDRBZER4oUHpLSkwg4"
+    },
+    {
+      "id": "biz_74",
+      "name": "Dr. Ricardo Muñoz Leon, Pediatra",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Gral. Eugenio Garzón 862, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Dr.+Ricardo+Mu%C3%B1oz+Leon,+Pediatra/data=!4m7!3m6!1s0x9105c945011b46db:0xc0246c6da4b8658a!8m2!3d-12.0685252!4d-77.0467805!16s%2Fg%2F11jp3_qfpd!19sChIJ20YbAUXJBZERimW4pG1sJMA"
+    },
+    {
+      "id": "biz_77",
+      "name": "Dr. Carlos Rivera Coello, Pediatra",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Brasil No 600, Breña 15083",
+      "url": "https://www.google.com/maps/place/Dr.+Carlos+Rivera+Coello,+Pediatra/data=!4m7!3m6!1s0x9105c9a59a06543b:0x1fbb2b941a12892d!8m2!3d-12.0649986!4d-77.0458374!16s%2Fg%2F11nxvfn_k2!19sChIJO1QGmqXJBZERLYkSGpQrux8"
+    },
+    {
+      "id": "biz_79",
+      "name": "Consultorio Medico Dermatologia Pediatrica",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Simón Bolívar 850, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/Consultorio+Medico+Dermatologia+Pediatrica/data=!4m7!3m6!1s0x9105c91c13be680b:0x766aea4644b9dee6!8m2!3d-12.0713035!4d-77.061128!16s%2Fg%2F11gn25ddt5!19sChIJC2i-ExzJBZER5t65REbqanY"
+    },
+    {
+      "id": "biz_80",
+      "name": "DR. DAVID AVENDAÑO UROLOGO PEDIATRA",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Urólogo pediatra",
+      "address": "Jirón los Mogaburos 148, Jesús María 15083",
+      "url": "https://www.google.com/maps/place/DR.+DAVID+AVENDA%C3%91O+UROLOGO+PEDIATRA/data=!4m7!3m6!1s0x9105c8e7fe78da2d:0xb75b63664f0bb701!8m2!3d-12.0658308!4d-77.0451505!16s%2Fg%2F11gwn6_36t!19sChIJLdp4_ufIBZERAbcLT2ZjW7c"
+    },
+    {
+      "id": "biz_86",
+      "name": "Dr. Carlos Guevara Effio, Pediatra",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Brasil 680, Breña 15082",
+      "url": "https://www.google.com/maps/place/Dr.+Carlos+Guevara+Effio,+Pediatra/data=!4m7!3m6!1s0x9105c9e796907d0f:0xb54c679934b4e82b!8m2!3d-12.065859!4d-77.0464911!16s%2Fg%2F11jltvt0cx!19sChIJD32QlufJBZERK-i0NJlnTLU"
+    },
+    {
+      "id": "biz_89",
+      "name": "Dr. Luis Tello Bernuy – Medico Alergista",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Alergólogo",
+      "address": "Jr. Huiracocha 1427, Jesús María 15084",
+      "url": "https://www.google.com/maps/place/Dr.+Luis+Tello+Bernuy+%E2%80%93+Medico+Alergista/data=!4m7!3m6!1s0x9105c9590bf3390b:0x81202fd969834c93!8m2!3d-12.0768495!4d-77.0481269!16s%2Fg%2F11h7fz3_gn!19sChIJCznzC1nJBZERk0yDadkvIIE"
+    },
+    {
+      "id": "biz_94",
+      "name": "Dr. Ricardo Muñoz Leon, Pediatra",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "ILAAI (INSTITUTO LATINOAMERICA DE ALERGIA ASMA E INMUNOLOGIA, Av. Gral. Juan Antonio Álvarez de Arenales 1912, Lince 15073",
+      "url": "https://www.google.com/maps/place/Dr.+Ricardo+Mu%C3%B1oz+Leon,+Pediatra/data=!4m7!3m6!1s0x9105c9520a871b7b:0x329624ae6327426b!8m2!3d-12.0838971!4d-77.0357845!16s%2Fg%2F11j9g_n6fj!19sChIJexuHClLJBZERa0InY64kljI"
+    },
+    {
+      "id": "biz_98",
+      "name": "Dr. Enrique Córdova Aguirre, Pediatra",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Pediatra",
+      "address": "Av. Guardia Civil 337, San Borja 15036",
+      "url": "https://www.google.com/maps/place/Dr.+Enrique+C%C3%B3rdova+Aguirre,+Pediatra/data=!4m7!3m6!1s0x9105c7e5f0915fe5:0x90dffc961d3de37f!8m2!3d-12.0852765!4d-77.0085011!16s%2Fg%2F11k1502dj1!19sChIJ5V-R8OXHBZERf-M9HZb835A"
+    },
+    {
+      "id": "biz_99",
+      "name": "SurgyPed",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Oficina médica",
+      "address": "15084, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/SurgyPed/data=!4m7!3m6!1s0x9105c9417ff0bd11:0x6a4b24651b85190e!8m2!3d-12.0694125!4d-77.0615972!16s%2Fg%2F11ry6ywjv1!19sChIJEb3wf0HJBZERDhmFG2UkS2o"
+    }
+  ]
+}
