@@ -1,0 +1,928 @@
+{
+  "category": "psicologos",
+  "searchQuery": "psicologos en Lima",
+  "totalResults": 100,
+  "updatedAt": "2026-09-09T05:36:17.558Z",
+  "topBusinessContext": {
+    "id": "biz_1",
+    "name": "Psicosalud Familiar",
+    "rating": 5,
+    "reviewsCount": null,
+    "category": "Centro médico",
+    "address": "Urb, Ate",
+    "url": "https://www.google.com/maps/place/Psicosalud+Familiar/data=!4m7!3m6!1s0x9105c3117f6a1e9d:0xa7a2b3f17e4f24ec!8m2!3d-12.0054512!4d-76.8435929!16s%2Fg%2F11sdcnnf38!19sChIJnR5qfxHDBZER7CRPfvGzoqc"
+  },
+  "pageContent": {
+    "headline": "Los Mejores Expertos en PSICOLOGOS en Lima: Conoce a Psicosalud Familiar",
+    "subtitles": [
+      "Garantiza resultados hoy mismo. Ubicados en Urb, Ate, destacan como la opción número uno validada por usuarios reales.",
+      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
+    ],
+    "ctas": [
+      "Contactar por WhatsApp Ahora",
+      "Ver Directorio Completo"
+    ]
+  },
+  "businesses": [
+    {
+      "id": "biz_1",
+      "name": "Psicosalud Familiar",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Centro médico",
+      "address": "Urb, Ate",
+      "url": "https://www.google.com/maps/place/Psicosalud+Familiar/data=!4m7!3m6!1s0x9105c3117f6a1e9d:0xa7a2b3f17e4f24ec!8m2!3d-12.0054512!4d-76.8435929!16s%2Fg%2F11sdcnnf38!19sChIJnR5qfxHDBZER7CRPfvGzoqc"
+    },
+    {
+      "id": "biz_2",
+      "name": "Psicomente",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "X4QX+8P2, Ate 15476",
+      "url": "https://www.google.com/maps/place/Psicomente/data=!4m7!3m6!1s0x9105c347e81eef99:0x7455584bec2a8d2c!8m2!3d-12.0117351!4d-76.8507323!16s%2Fg%2F11t7_r_hrn!19sChIJme8e6EfDBZERLI0q7EtYVXQ"
+    },
+    {
+      "id": "biz_4",
+      "name": "Terapia Enfocada en Soluciones - Psicólogos en Lima y Online",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. Ernesto Diez Canseco 319, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Terapia+Enfocada+en+Soluciones+-+Psic%C3%B3logos+en+Lima+y+Online/data=!4m7!3m6!1s0x9105c819f178fe6b:0xa10f0543cfcc7ff6!8m2!3d-12.1222667!4d-77.027541!16s%2Fg%2F11c5rt49xk!19sChIJa_548RnIBZER9n_Mz0MFD6E"
+    },
+    {
+      "id": "biz_8",
+      "name": "Centro Psicológico ExpresaMente",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Los Eucaliptos Mz Q, Chaclacayo 15476",
+      "url": "https://www.google.com/maps/place/Centro+Psicol%C3%B3gico+ExpresaMente/data=!4m7!3m6!1s0x9105e95ee1191b61:0xdda9e1d3587b9a!8m2!3d-11.9927444!4d-76.8248877!16s%2Fg%2F11t9rgy33f!19sChIJYRsZ4V7pBZERmntY0-Gp3QA"
+    },
+    {
+      "id": "biz_10",
+      "name": "Psicóloga Marcia Lazón | Sentirse Libre | La Molina",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3loga+Marcia+Laz%C3%B3n+%7C+Sentirse+Libre+%7C+La+Molina/data=!4m7!3m6!1s0x460b76001112069:0x58c3693706101503!8m2!3d-12.0899078!4d-76.929845!16s%2Fg%2F11zjwxlkv6!19sChIJaSARAWC3YAQRAxUQBjdpw1g"
+    },
+    {
+      "id": "biz_12",
+      "name": "CENTRO DE TERAPIAS ADHA HUAYCAN",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Fisioterapeuta",
+      "address": "NUCLEO CENTRAL DE SERVICIOS COMUNALES DE HUAYCAN, MZ C LT 02 -B, Ate 15023",
+      "url": "https://www.google.com/maps/place/CENTRO+DE+TERAPIAS+ADHA+HUAYCAN/data=!4m7!3m6!1s0x9105c3f18e8a98c1:0x1d6c4d3ce533e9cb!8m2!3d-12.0140373!4d-76.8270783!16s%2Fg%2F11snqzzv42!19sChIJwZiKjvHDBZERy-kz5TxNbB0"
+    },
+    {
+      "id": "biz_20",
+      "name": "Psicóloga clínica y Especialista en el Amor | Dra. Viviana Campodónico",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3loga+cl%C3%ADnica+y+Especialista+en+el+Amor+%7C+Dra.+Viviana+Campod%C3%B3nico/data=!4m7!3m6!1s0x9105c9007ac1cff1:0x3adb920898da70c7!8m2!3d-9.2435385!4d-75.0195046!16s%2Fg%2F11vq_1n705!19sChIJ8c_BegDJBZERx3DamAiS2zo"
+    },
+    {
+      "id": "biz_22",
+      "name": "atulado psicologos en lima peru",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicoterapeuta",
+      "address": "C. Johann Strauss 761, San Borja 15036",
+      "url": "https://www.google.com/maps/place/atulado+psicologos+en+lima+peru/data=!4m7!3m6!1s0x9105c9ad820865e9:0x38b4493ef5c31526!8m2!3d-12.1044651!4d-77.000354!16s%2Fg%2F11qbt8x0jp!19sChIJ6WUIgq3JBZERJhXD9T5JtDg"
+    },
+    {
+      "id": "biz_23",
+      "name": "Consultorio Psicologico Crecer",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Hermanos Ayar 439, Lima 15009",
+      "url": "https://www.google.com/maps/place/Consultorio+Psicologico+Crecer/data=!4m7!3m6!1s0x9105c54bb7fb4d37:0x7c1d5845b9663387!8m2!3d-12.0373308!4d-76.9680564!16s%2Fg%2F11j8jb3rsf!19sChIJN037t0vFBZERhzNmuUVYHXw"
+    },
+    {
+      "id": "biz_25",
+      "name": "Ps Sandra Vera Mera, Psicólogo",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Ctra. Central km 11.200, Ate 15004",
+      "url": "https://www.google.com/maps/place/Ps+Sandra+Vera+Mera,+Psic%C3%B3logo/data=!4m7!3m6!1s0x9105c3b33090039b:0x5951a91265d9a596!8m2!3d-12.0161054!4d-76.8869251!16s%2Fg%2F11jjy0phw6!19sChIJmwOQMLPDBZERlqXZZRKpUVk"
+    },
+    {
+      "id": "biz_26",
+      "name": "PSICÓLOGO JORGE - PSICOTERAPEUTA",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Elías Aguirre 180, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/PSIC%C3%93LOGO+JORGE+-+PSICOTERAPEUTA/data=!4m7!3m6!1s0x9105c906a4868e2d:0x74bd2328a69e6230!8m2!3d-12.1182762!4d-77.0346211!16s%2Fg%2F11n6h04s7k!19sChIJLY6GpAbJBZERMGKepigjvXQ"
+    },
+    {
+      "id": "biz_30",
+      "name": "Ps Liliana Rouillon Picón, Psicólogo",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "CLINICA LOS ANDES, Asuncion 177, Miraflores 15046",
+      "url": "https://www.google.com/maps/place/Ps+Liliana+Rouillon+Pic%C3%B3n,+Psic%C3%B3logo/data=!4m7!3m6!1s0x9105c98d1be2369f:0xb06d54d066f16188!8m2!3d-12.1048524!4d-77.0321134!16s%2Fg%2F11j9h3rq7f!19sChIJnzbiG43JBZERiGHxZtBUbbA"
+    },
+    {
+      "id": "biz_33",
+      "name": "Consultorio Psicológico Psicolife",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicoterapeuta",
+      "address": "Tercera etapa de las Praderas, Jr, El Oasis Mz Ñ Lote 28, Santa Anita 15009",
+      "url": "https://www.google.com/maps/place/Consultorio+Psicol%C3%B3gico+Psicolife/data=!4m7!3m6!1s0x9105c562ff1327c5:0x21ff6a92229ea5d2!8m2!3d-12.0302221!4d-76.9648438!16s%2Fg%2F11f77lvc4x!19sChIJxScT_2LFBZER0qWeIpJq_yE"
+    },
+    {
+      "id": "biz_34",
+      "name": "Psicóloga Giuliana Serna",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "C. Las Moras 323, Miraflores 15048",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3loga+Giuliana+Serna/data=!4m7!3m6!1s0x9105c7f4b4fe42a3:0x5c6bf82ea64bd6ec!8m2!3d-12.1189544!4d-77.0093534!16s%2Fg%2F11nqy873dr!19sChIJo0L-tPTHBZER7NZLpi74a1w"
+    },
+    {
+      "id": "biz_35",
+      "name": "Centro Psicológico | Confianza Perú | Terapia de Lenguaje | Terapia Atención Concentración | Terapia de Pareja | Psicoterapia",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "San Pablo, San Juan de Miraflores 15806",
+      "url": "https://www.google.com/maps/place/Centro+Psicol%C3%B3gico+%7C+Confianza+Per%C3%BA+%7C+Terapia+de+Lenguaje+%7C+Terapia+Atenci%C3%B3n+Concentraci%C3%B3n+%7C+Terapia+de+Pareja+%7C+Psicoterapia/data=!4m7!3m6!1s0x9105b9375ffec605:0x832326c6d8f5378d!8m2!3d-12.1388389!4d-76.9660082!16s%2Fg%2F11h20gm5jt!19sChIJBcb-Xze5BZERjTf12MYmI4M"
+    },
+    {
+      "id": "biz_36",
+      "name": "Psicólogos en San Isidro ️ Presencia - Terapia Psicológica",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Juan Polar 222, San Isidro 15076",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3logos+en+San+Isidro+%EF%B8%8F+Presencia+-+Terapia+Psicol%C3%B3gica/data=!4m7!3m6!1s0x9105b7e70e7a9b91:0xf801cfed1d0ab91!8m2!3d-12.0948981!4d-77.057953!16s%2Fg%2F11pctx021z!19sChIJkZt6Due3BZERkavQ0f4cgA8"
+    },
+    {
+      "id": "biz_38",
+      "name": "Mauricio Murcia - Psicólogo clínico, sexólogo y terapeuta de parejas",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "C. Francisco Masías 544, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Mauricio+Murcia+-+Psic%C3%B3logo+cl%C3%ADnico,+sex%C3%B3logo+y+terapeuta+de+parejas/data=!4m7!3m6!1s0x9105c7522419e619:0x1568015a4b751487!8m2!3d-12.092747!4d-77.0260618!16s%2Fg%2F11k14_q0jh!19sChIJGeYZJFLHBZERhxR1S1oBaBU"
+    },
+    {
+      "id": "biz_45",
+      "name": "Ps María Celeste Gonzales Solís, Psicólogo",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Tomás Ramsey 930, Magdalena del Mar 15076",
+      "url": "https://www.google.com/maps/place/Ps+Mar%C3%ADa+Celeste+Gonzales+Sol%C3%ADs,+Psic%C3%B3logo/data=!4m7!3m6!1s0x9105c9abfac947ff:0xcc50ffb6d2dc9a3!8m2!3d-12.0922817!4d-77.0583364!16s%2Fg%2F11kpy2nkp3!19sChIJ_0fJ-qvJBZERo8ktbfsPxQw"
+    },
+    {
+      "id": "biz_46",
+      "name": "Centro Psicológico PsicoSupérate",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "CALLE LOS MILANOS 407 SANTA ANITA Municipalidad Metropolitana de Lima LIMA, 43",
+      "url": "https://www.google.com/maps/place/Centro+Psicol%C3%B3gico+PsicoSup%C3%A9rate/data=!4m7!3m6!1s0x9105c7b9a35545f9:0xa8092d44f53e015c!8m2!3d-12.0457421!4d-76.9655449!16s%2Fg%2F11rj3l9j1r!19sChIJ-UVVo7nHBZERXAE-9UQtCag"
+    },
+    {
+      "id": "biz_47",
+      "name": "Equilibradamente Consultorio Psicológico: Jessica Castañeda Ramírez",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "C. Jorge Buckley 345, Miraflores 15047",
+      "url": "https://www.google.com/maps/place/Equilibradamente+Consultorio+Psicol%C3%B3gico:+Jessica+Casta%C3%B1eda+Ram%C3%ADrez/data=!4m7!3m6!1s0x9105c9ba1a2ecf0b:0xa227fcd4613e81ef!8m2!3d-12.1275993!4d-77.0176761!16s%2Fg%2F11zh0_qm1s!19sChIJC88uGrrJBZER74E-YdT8J6I"
+    },
+    {
+      "id": "biz_48",
+      "name": "Liviandad - Psicologa y Terapia de Pareja",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica ambulatoria",
+      "address": "Calle Jesús Tay 105 Dpto.202 Urb, Santiago de Surco",
+      "url": "https://www.google.com/maps/place/Liviandad+-+Psicologa+y+Terapia+de+Pareja/data=!4m7!3m6!1s0x9105b992d6d3d2d3:0xfb4fde8bc94112e!8m2!3d-12.1401589!4d-76.9908052!16s%2Fg%2F11f9d73l6j!19sChIJ09LT1pK5BZERLhGUvOj9tA8"
+    },
+    {
+      "id": "biz_49",
+      "name": "Perla Campos - Psicologa Cognitivo Conductual",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicoterapeuta",
+      "address": "Sta. Inés, Pueblo Libre 15083",
+      "url": "https://www.google.com/maps/place/Perla+Campos+-+Psicologa+Cognitivo+Conductual/data=!4m7!3m6!1s0x9105c969fa2b4779:0xab51cfd2f6801b0!8m2!3d-12.0764546!4d-77.0676554!16s%2Fg%2F11xklz_k3n!19sChIJeUcr-mnJBZERsAFoL_0ctQo"
+    },
+    {
+      "id": "biz_53",
+      "name": "Psicólogos en Surco / Sistema Londres",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. Alejandro Velasco Astete 2089, Santiago de Surco 15038",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3logos+en+Surco+%2F+Sistema+Londres/data=!4m7!3m6!1s0x9105b9bb6742690d:0x2703f79e1d0027f5!8m2!3d-12.1275637!4d-76.9871433!16s%2Fg%2F11jsb5w0v8!19sChIJDWlCZ7u5BZER9ScAHZ73Ayc"
+    },
+    {
+      "id": "biz_55",
+      "name": "Psicólogo Miraflores | Psicólogos en Miraflores",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Calle Porta 407, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3logo+Miraflores+%7C+Psic%C3%B3logos+en+Miraflores/data=!4m7!3m6!1s0x9105c93f39cc7a09:0x2b87a360c5a51329!8m2!3d-12.1257937!4d-77.0323378!16s%2Fg%2F11js51p2br!19sChIJCXrMOT_JBZERKROlxWCjhys"
+    },
+    {
+      "id": "biz_58",
+      "name": "Katia Sobrevilla Psicóloga",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. Alejandro Tirado 560, Lima 15046",
+      "url": "https://www.google.com/maps/place/Katia+Sobrevilla+Psic%C3%B3loga/data=!4m7!3m6!1s0x9105c92d51422285:0x5de69d5c1f6f1f4e!8m2!3d-12.0741687!4d-77.032851!16s%2Fg%2F11z7px9qy5!19sChIJhSJCUS3JBZERTh9vH1yd5l0"
+    },
+    {
+      "id": "biz_61",
+      "name": "Instituto Peruano de Psicología y Educación",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Jr. Carlos Alayza y Roel 2159, Lince 15073",
+      "url": "https://www.google.com/maps/place/Instituto+Peruano+de+Psicolog%C3%ADa+y+Educaci%C3%B3n/data=!4m7!3m6!1s0x9105c86601b72743:0xf764b5b86b431fdb!8m2!3d-12.0864052!4d-77.0360954!16s%2Fg%2F11cm0kjn8f!19sChIJQye3AWbIBZER2x9Da7i1ZPc"
+    },
+    {
+      "id": "biz_62",
+      "name": "Psicólogo Kasen Lee",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Municipalidad Metropolitana de, Av. Reducto 861, Lima 15074",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3logo+Kasen+Lee/data=!4m7!3m6!1s0x9105c70b98b28a01:0x3199114d92bbd338!8m2!3d-12.1271313!4d-77.0240253!16s%2Fg%2F11rshbxdv5!19sChIJAYqymAvHBZERONO7kk0RmTE"
+    },
+    {
+      "id": "biz_64",
+      "name": "Psicólogos Ciapla",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Ca. Manuel Almenara 232, Miraflores 15048",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3logos+Ciapla/data=!4m7!3m6!1s0x9105c7e2bf735bb7:0xcc2b3283965b80e8!8m2!3d-12.1209646!4d-77.0173807!16s%2Fg%2F11c2kf0lyx!19sChIJt1tzv-LHBZER6IBbloMyK8w"
+    },
+    {
+      "id": "biz_66",
+      "name": "Centro Psicológico Confianza Perú | Terapia de Lenguaje | Terapia Atención y concentración | Terapia de Pareja | Psicoterapia",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Manuel del Pino 222, Lima 15081",
+      "url": "https://www.google.com/maps/place/Centro+Psicol%C3%B3gico+Confianza+Per%C3%BA+%7C+Terapia+de+Lenguaje+%7C+Terapia+Atenci%C3%B3n+y+concentraci%C3%B3n+%7C+Terapia+de+Pareja+%7C+Psicoterapia/data=!4m7!3m6!1s0x9105c99d947b4f25:0x2879d3a12cf7a136!8m2!3d-12.0786276!4d-77.0348535!16s%2Fg%2F11t7jgw9vw!19sChIJJU97lJ3JBZERNqH3LKHTeSg"
+    },
+    {
+      "id": "biz_67",
+      "name": "Anímate - Psicólogos en Lima",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "C. Francisco Mazzochio 161, Breña 15083",
+      "url": "https://www.google.com/maps/place/An%C3%ADmate+-+Psic%C3%B3logos+en+Lima/data=!4m7!3m6!1s0x9105c98655e798cb:0xd268b400bc2b3208!8m2!3d-12.0661031!4d-77.0578136!16s%2Fg%2F11spwngq4c!19sChIJy5jnVYbJBZERCDIrvAC0aNI"
+    },
+    {
+      "id": "biz_69",
+      "name": "Ps Miryam Cecilia Barturen Torres, Psicólogo",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Ca. Dr. Carlos E. Ferreyros U. 151, San Isidro 15036",
+      "url": "https://www.google.com/maps/place/Ps+Miryam+Cecilia+Barturen+Torres,+Psic%C3%B3logo/data=!4m7!3m6!1s0x9105c76d8f3a3ac9:0x299afcd214efee77!8m2!3d-12.0898426!4d-77.0081084!16s%2Fg%2F11j9j3lz5k!19sChIJyTo6j23HBZERd-7vFNL8mik"
+    },
+    {
+      "id": "biz_71",
+      "name": "Psicóloga Aida Quintanilla | Buscando Bienestar",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3loga+Aida+Quintanilla+%7C+Buscando+Bienestar/data=!4m7!3m6!1s0xa72e12a058fb80b1:0xcf335b11f62378a3!8m2!3d-12.1248366!4d-76.9829018!16s%2Fg%2F11xf73cr1c!19sChIJsYD7WKASLqcRo3gj9hFbM88"
+    },
+    {
+      "id": "biz_75",
+      "name": "Psicólogos",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicoterapeuta",
+      "address": "XWRF+2J7, Lima 15302",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3logos/data=!4m7!3m6!1s0x9105cf60d964bcdd:0x395fadb8926e917e!8m2!3d-12.0099153!4d-77.0760616!16s%2Fg%2F11rmp3zfwk!19sChIJ3bxk2WDPBZERfpFukritXzk"
+    },
+    {
+      "id": "biz_76",
+      "name": "Ps Rocxana Croce Portocarrero, Psicólogo",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av Diagonal 550, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Ps+Rocxana+Croce+Portocarrero,+Psic%C3%B3logo/data=!4m7!3m6!1s0x9105c95cee800123:0x895a94180e8c8cf0!8m2!3d-12.1226431!4d-77.0317392!16s%2Fg%2F11j9gw935k!19sChIJIwGA7lzJBZER8IyMDhiUWok"
+    },
+    {
+      "id": "biz_77",
+      "name": "Psicologo Lima Maximiliano Steneri",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Psicologo+Lima+Maximiliano+Steneri/data=!4m7!3m6!1s0x9105c93a92f6fa0f:0x2eece76e8d4b9b86!8m2!3d-12.0266383!4d-76.9877792!16s%2Fg%2F11mrjlvp8_!19sChIJD_r2kjrJBZERhptLjW7n7C4"
+    },
+    {
+      "id": "biz_80",
+      "name": "Consultoría Blanca Esperanza (Psicólogos en Lima)",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Jr, Jr. Gral. Orbegoso 346, Breña 15083",
+      "url": "https://www.google.com/maps/place/Consultor%C3%ADa+Blanca+Esperanza+%28Psic%C3%B3logos+en+Lima%29/data=!4m7!3m6!1s0x9105c9ca33f20475:0x23a5e08114538f54!8m2!3d-12.0658651!4d-77.0509378!16s%2Fg%2F11h5mb8zmn!19sChIJdQTyM8rJBZERVI9TFIHgpSM"
+    },
+    {
+      "id": "biz_84",
+      "name": "PsicoLibérate | Psic. Pilar F. Arana | Zárate SJL",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. Gran Chimú 1145, San Juan de Lurigancho 15427",
+      "url": "https://www.google.com/maps/place/PsicoLib%C3%A9rate+%7C+Psic.+Pilar+F.+Arana+%7C+Z%C3%A1rate+SJL/data=!4m7!3m6!1s0x9105c521de42527b:0x7e70ed617b68a765!8m2!3d-12.0243751!4d-76.9927844!16s%2Fg%2F11l1qh291y!19sChIJe1JC3iHFBZERZadoe2HtcH4"
+    },
+    {
+      "id": "biz_87",
+      "name": "Ana Lucía Castillo Bardales || Psicología y Sexualidad",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Servicio de salud mental",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Ana+Luc%C3%ADa+Castillo+Bardales+%7C%7C+Psicolog%C3%ADa+y+Sexualidad/data=!4m7!3m6!1s0x68da147a12de60d7:0xae89b5249ee24f63!8m2!3d12.70105!4d-38.37525!16s%2Fg%2F11vkfb7q9s!19sChIJ12DeEnoU2mgRY0_iniS1ia4"
+    },
+    {
+      "id": "biz_89",
+      "name": "Centro Psicológico Terapéutico - Alma y Familia",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Jirón Union 540 Cercado de Lima, Villa María del Triunfo 15809",
+      "url": "https://www.google.com/maps/place/Centro+Psicol%C3%B3gico+Terap%C3%A9utico+-+Alma+y+Familia/data=!4m7!3m6!1s0x9105b9358aa02fe1:0x1332afacfa903f56!8m2!3d-12.1625524!4d-76.9497951!16s%2Fg%2F11t7d0x325!19sChIJ4S-gijW5BZERVj-Q-qyvMhM"
+    },
+    {
+      "id": "biz_91",
+      "name": "Centro integral de Psicología Kusikuy",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. Gral. Eugenio Garzón 1283, Jesús María LIMA 11",
+      "url": "https://www.google.com/maps/place/Centro+integral+de+Psicolog%C3%ADa+Kusikuy/data=!4m7!3m6!1s0x9105c9483a0e8eff:0x2507683d50def900!8m2!3d-12.0728995!4d-77.0500759!16s%2Fg%2F11vr5srdh5!19sChIJ_44OOkjJBZERAPneUD1oByU"
+    },
+    {
+      "id": "biz_94",
+      "name": "Sistema Londres en San Martin de Porres",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Cl. Chiquian 1193, San Martín de Porres 15101",
+      "url": "https://www.google.com/maps/place/Sistema+Londres+en+San+Martin+de+Porres/data=!4m7!3m6!1s0x9105cf8c867e726d:0xaa2282b051d86c39!8m2!3d-12.0340093!4d-77.0568116!16s%2Fg%2F11gj_yy88f!19sChIJbXJ-hozPBZEROWzYUbCCIqo"
+    },
+    {
+      "id": "biz_95",
+      "name": "María Valecillos | Psicóloga Clínica Online y Niños",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Mar%C3%ADa+Valecillos+%7C+Psic%C3%B3loga+Cl%C3%ADnica+Online+y+Ni%C3%B1os/data=!4m7!3m6!1s0x896477226bed0bbb:0x3054ff5bc20ae57d!8m2!3d-12.0787886!4d-77.09154!16s%2Fg%2F11z4t_8lft!19sChIJuwvtayJ3ZIkRfeUKwlv_VDA"
+    },
+    {
+      "id": "biz_98",
+      "name": "Psicólogo en Miraflores - Lima",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. Petit Thouars 5466, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3logo+en+Miraflores+-+Lima/data=!4m7!3m6!1s0x9105c92e972f692b:0x8faaebbc9d3ce1cd!8m2!3d-12.1177311!4d-77.0283915!16s%2Fg%2F11j957s_z_!19sChIJK2kvly7JBZERzeE8nbzrqo8"
+    },
+    {
+      "id": "biz_99",
+      "name": "Ps Romina Hidalgo y Cabanillas, Psicólogo",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Juan de la Fuente 368, Miraflores 15047",
+      "url": "https://www.google.com/maps/place/Ps+Romina+Hidalgo+y+Cabanillas,+Psic%C3%B3logo/data=!4m7!3m6!1s0x9105c9857d72bfa3:0x906a717daaefc177!8m2!3d-12.1255148!4d-77.0211276!16s%2Fg%2F11kpy2kyb8!19sChIJo79yfYXJBZERd8Hvqn1xapA"
+    },
+    {
+      "id": "biz_100",
+      "name": "𝑷𝑺𝑰𝑪𝑶𝑳𝑶𝑮𝑶𝑺 𝑪𝑹𝑬𝑪𝑬𝑻𝑼",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. Samuel Alcazar 755-Rímac 11, Rímac 15093",
+      "url": "https://www.google.com/maps/place/%F0%9D%91%B7%F0%9D%91%BA%F0%9D%91%B0%F0%9D%91%AA%F0%9D%91%B6%F0%9D%91%B3%F0%9D%91%B6%F0%9D%91%AE%F0%9D%91%B6%F0%9D%91%BA+%F0%9D%91%AA%F0%9D%91%B9%F0%9D%91%AC%F0%9D%91%AA%F0%9D%91%AC%F0%9D%91%BB%F0%9D%91%BC/data=!4m7!3m6!1s0x9105cf90876aa015:0x48c7ecb1e633ce7c!8m2!3d-12.0276291!4d-77.0329455!16s%2Fg%2F11gnq7sl1r!19sChIJFaBqh5DPBZERfM4z5rHsx0g"
+    },
+    {
+      "id": "biz_3",
+      "name": "Psicólogos en Lima, Perú - Confia y Renace",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. Honorio Delgado 327, San Martín de Porres 15102",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3logos+en+Lima,+Per%C3%BA+-+Confia+y+Renace/data=!4m7!3m6!1s0x9105c77e4d53b52f:0x6b00f8c5fed3bd61!8m2!3d-12.0231144!4d-77.0551155!16s%2Fg%2F11j2w4g5ct!19sChIJL7VTTX7HBZERYb3T_sX4AGs"
+    },
+    {
+      "id": "biz_7",
+      "name": "Ayuda Psicológica Gratuita. Orientación, Consejería y Terapia.",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "C. Francisco García Calderón 102, La Molina 15012",
+      "url": "https://www.google.com/maps/place/Ayuda+Psicol%C3%B3gica+Gratuita.+Orientaci%C3%B3n,+Consejer%C3%ADa+y+Terapia./data=!4m7!3m6!1s0x9105c7bbfe357095:0xfedf7f3280c434a!8m2!3d-12.0630454!4d-76.9499544!16s%2Fg%2F11frfw3dvm!19sChIJlXA1_rvHBZERSkMMKPP37Q8"
+    },
+    {
+      "id": "biz_9",
+      "name": "Centro Psicológico Descubrir - Terapia Psicológica | Talleres para Niños | Evaluaciones | Autismo y TDAH",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicólogo infantil",
+      "address": "C. Monte Rosa 284, Santiago de Surco 15038",
+      "url": "https://www.google.com/maps/place/Centro+Psicol%C3%B3gico+Descubrir+-+Terapia+Psicol%C3%B3gica+%7C+Talleres+para+Ni%C3%B1os+%7C+Evaluaciones+%7C+Autismo+y+TDAH/data=!4m7!3m6!1s0x9105b9a8fad8f059:0xfcdadf227b5ebaf3!8m2!3d-12.1121976!4d-76.9899424!16s%2Fg%2F11ghnbp6p5!19sChIJWfDY-qi5BZER87peeyLf2vw"
+    },
+    {
+      "id": "biz_13",
+      "name": "Centro Psicológico Manrique ABAnza",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicoterapeuta",
+      "address": "Jr. Mrcal. William Miller 1665, Lince 15073",
+      "url": "https://www.google.com/maps/place/Centro+Psicol%C3%B3gico+Manrique+ABAnza/data=!4m7!3m6!1s0x9105c90040b24ab7:0x4c590c7efe8fb731!8m2!3d-12.0814018!4d-77.0372679!16s%2Fg%2F11vrc7dc30!19sChIJt0qyQADJBZERMbeP_n4MWUw"
+    },
+    {
+      "id": "biz_14",
+      "name": "Origen Centro de Atención Psicológica",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. El Derby 254, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/Origen+Centro+de+Atenci%C3%B3n+Psicol%C3%B3gica/data=!4m7!3m6!1s0x9105c7eee07345ff:0xfc4f8e44769137c8!8m2!3d-12.0978794!4d-76.9725279!16s%2Fg%2F11vss_dz9j!19sChIJ_0Vz4O7HBZERyDeRdkSOT_w"
+    },
+    {
+      "id": "biz_15",
+      "name": "Centro Psicológico Descubrir - Terapia Psicológica | Talleres para Niños | Evaluaciones | Autismo y TDAH",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicólogo infantil",
+      "address": "Av. Elmer Faucett 169, San Miguel 15087",
+      "url": "https://www.google.com/maps/place/Centro+Psicol%C3%B3gico+Descubrir+-+Terapia+Psicol%C3%B3gica+%7C+Talleres+para+Ni%C3%B1os+%7C+Evaluaciones+%7C+Autismo+y+TDAH/data=!4m7!3m6!1s0x9105c90b169b7a21:0x4aef931846381e42!8m2!3d-12.072504!4d-77.0993426!16s%2Fg%2F11cmhfwhs9!19sChIJIXqbFgvJBZERQh44RhiT70o"
+    },
+    {
+      "id": "biz_17",
+      "name": "CENTRO PSICOLÓGICO INTEGRAL ALLINYAY PSICOPEDAGOGIA Y BIENESTAR EMOCIONAL",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicoterapeuta",
+      "address": "Jirón Zorritos 1399, Lima 15003",
+      "url": "https://www.google.com/maps/place/CENTRO+PSICOL%C3%93GICO+INTEGRAL+ALLINYAY+PSICOPEDAGOGIA+Y+BIENESTAR+EMOCIONAL/data=!4m7!3m6!1s0x9105c9a084ce012d:0x228ba1b252f38c8b!8m2!3d-12.0502827!4d-77.0588221!16s%2Fg%2F11tfxbw910!19sChIJLQHOhKDJBZERi4zzUrKhiyI"
+    },
+    {
+      "id": "biz_18",
+      "name": "Centro Psicológico Cognittiva Psicología Integral",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicoterapeuta",
+      "address": "Av. Alfredo Benavides 195, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Centro+Psicol%C3%B3gico+Cognittiva+Psicolog%C3%ADa+Integral/data=!4m7!3m6!1s0x9105c90718601f37:0x7526c33341b57912!8m2!3d-12.1240172!4d-77.0317083!16s%2Fg%2F11gj0wvnxx!19sChIJNx9gGAfJBZEREnm1QTPDJnU"
+    },
+    {
+      "id": "biz_19",
+      "name": "Centro Psicologico Mi Mundo Es Tu Mundo",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "José de la Torre Ugarte 138, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Centro+Psicologico+Mi+Mundo+Es+Tu+Mundo/data=!4m7!3m6!1s0x9105c9dae79a7f01:0x73f765592167592c!8m2!3d-12.1179632!4d-77.0446685!16s%2Fg%2F11q8vfp_vz!19sChIJAX-a59rJBZERLFlnIVll93M"
+    },
+    {
+      "id": "biz_21",
+      "name": "Consultorio Psicológico en Surco - Formese",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Jirón Batallón Callao Sur 169, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/Consultorio+Psicol%C3%B3gico+en+Surco+-+Formese/data=!4m7!3m6!1s0x9105c704ba2abcbf:0x84025f5699a9aaac!8m2!3d-12.12534!4d-76.9834643!16s%2Fg%2F11xkfx7w9v!19sChIJv7wqugTHBZERrKqpmVZfAoQ"
+    },
+    {
+      "id": "biz_32",
+      "name": "Psicovida Perú",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Rosalia Lavalle de Morales 188 Lima, San Miguel 15087",
+      "url": "https://www.google.com/maps/place/Psicovida+Per%C3%BA/data=!4m7!3m6!1s0x9105c9ade37cceaf:0x35d2618c45a15250!8m2!3d-12.0825415!4d-77.0886593!16s%2Fg%2F11fl7qj66k!19sChIJr858463JBZERUFKhRYxh0jU"
+    },
+    {
+      "id": "biz_40",
+      "name": "Psic. Daniel Acuña | Psicoterapeuta | SJL",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicoterapeuta",
+      "address": "Jr. Los Chasquis 438, San Juan de Lurigancho 15401",
+      "url": "https://www.google.com/maps/place/Psic.+Daniel+Acu%C3%B1a+%7C+Psicoterapeuta+%7C+SJL/data=!4m7!3m6!1s0x9105c5f64f10579d:0xc912598e0c87ace9!8m2!3d-12.0253698!4d-77.0085588!16s%2Fg%2F11csqg8z38!19sChIJnVcQT_bFBZER6ayHDI5ZEsk"
+    },
+    {
+      "id": "biz_42",
+      "name": "Centro Psicologico Mi Mundo Es Tu Mundo",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicólogo infantil",
+      "address": "Jr, Pascual de Andagoya 273, San Miguel 15087",
+      "url": "https://www.google.com/maps/place/Centro+Psicologico+Mi+Mundo+Es+Tu+Mundo/data=!4m7!3m6!1s0x9105c97d7224bb85:0x47d5ea357eb690a0!8m2!3d-12.0800612!4d-77.1013212!16s%2Fg%2F11dxdn2yr4!19sChIJhbskcn3JBZERoJC2fjXq1Uc"
+    },
+    {
+      "id": "biz_50",
+      "name": "Centro Psicologico Mi Mundo Es Tu Mundo",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicólogo infantil",
+      "address": "La Mar 389, San Miguel 01",
+      "url": "https://www.google.com/maps/place/Centro+Psicologico+Mi+Mundo+Es+Tu+Mundo/data=!4m7!3m6!1s0x9105c93777ee26d3:0xd2af84b92bb93466!8m2!3d-12.0886029!4d-77.0830732!16s%2Fg%2F11j0884r_h!19sChIJ0ybudzfJBZERZjS5K7mEr9I"
+    },
+    {
+      "id": "biz_52",
+      "name": "Psicóloga Luz De La Cruz - Los Olivos",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Jr, Jirón Fernando López Aldana 232, Los Olivos 15314",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3loga+Luz+De+La+Cruz+-+Los+Olivos/data=!4m7!3m6!1s0x9105d1d5acd6a949:0x8cbf9e090f562711!8m2!3d-11.9495122!4d-77.0615355!16s%2Fg%2F11h1vb2zbd!19sChIJSanWrNXRBZERESdWDwmev4w"
+    },
+    {
+      "id": "biz_54",
+      "name": "terapia de pareja en santa anita",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. Los Eucaliptos 1083, Santa Anita 15008",
+      "url": "https://www.google.com/maps/place/terapia+de+pareja+en+santa+anita/data=!4m7!3m6!1s0x9105c79dbb30ee01:0x3faf6fd531f4d7a4!8m2!3d-12.0445232!4d-76.9734771!16s%2Fg%2F11h3g9w4cq!19sChIJAe4wu53HBZERpNf0MdVvrz8"
+    },
+    {
+      "id": "biz_65",
+      "name": "Consultorio Psicológico Feliz Horizonte",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Villa EL Salvador 15834",
+      "url": "https://www.google.com/maps/place/Consultorio+Psicol%C3%B3gico+Feliz+Horizonte/data=!4m7!3m6!1s0xab85082ef3d58fb:0xabf6c226ed94cc58!8m2!3d-12.2087534!4d-76.935149!16s%2Fg%2F11xkhdl55d!19sChIJ-1g974JQuAoRWMyU7SbC9qs"
+    },
+    {
+      "id": "biz_68",
+      "name": "Ps Sara Pamela Rodríguez Barrios, Psicólogo",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Municipalidad Metropolitana de, Ca. Gral. Borgoño 431, Lima 15000",
+      "url": "https://www.google.com/maps/place/Ps+Sara+Pamela+Rodr%C3%ADguez+Barrios,+Psic%C3%B3logo/data=!4m7!3m6!1s0x9105c9a30633b6b5:0x2c3d02c02ff06ac7!8m2!3d-12.1155136!4d-77.0337618!16s%2Fg%2F11kpy2qzzl!19sChIJtbYzBqPJBZERx2rwL8ACPSw"
+    },
+    {
+      "id": "biz_6",
+      "name": "tu psicologo en lima",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. Javier Prado Este 560, San Isidro LIMA 27",
+      "url": "https://www.google.com/maps/place/tu+psicologo+en+lima/data=!4m7!3m6!1s0x9105c99bae95ae13:0x1eadc7fb16f10ef3!8m2!3d-12.0918764!4d-77.027705!16s%2Fg%2F11mm5nhv9g!19sChIJE66VrpvJBZER8w7xFvvHrR4"
+    },
+    {
+      "id": "biz_16",
+      "name": "SENTIRSE BIEN PERU",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "El Polo 170, Lima 15023",
+      "url": "https://www.google.com/maps/place/SENTIRSE+BIEN+PERU/data=!4m7!3m6!1s0x9105c782eec6f8c3:0x7115d0cf4d2f791a!8m2!3d-12.1086303!4d-76.974499!16s%2Fg%2F11m38zmxtf!19sChIJw_jG7oLHBZERGnkvTc_QFXE"
+    },
+    {
+      "id": "biz_37",
+      "name": "Bienestar Espacio Psicológico",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. Mariscal La Mar 550, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Bienestar+Espacio+Psicol%C3%B3gico/data=!4m7!3m6!1s0x9105b73785d277b5:0xc48fc3dd2f86ec68!8m2!3d-12.1149526!4d-77.0438137!16s%2Fg%2F11vbcq4fx5!19sChIJtXfShTe3BZERaOyGL93Dj8Q"
+    },
+    {
+      "id": "biz_39",
+      "name": "Sistema Londres / Terapia para Adolescentes y Adultos",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Jr. Bernardo Alcedo 111, Lince 15046",
+      "url": "https://www.google.com/maps/place/Sistema+Londres+%2F+Terapia+para+Adolescentes+y+Adultos/data=!4m7!3m6!1s0x9105c90abfb3db4b:0x4c59d16d34334e92!8m2!3d-12.0846675!4d-77.0353875!16s%2Fg%2F11gxwzgkh0!19sChIJS9uzvwrJBZERkk4zNG3RWUw"
+    },
+    {
+      "id": "biz_41",
+      "name": "Consultorio Psicológico Inés Barúa",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Jirón Rebeca Oquendo 409, Breña 15083",
+      "url": "https://www.google.com/maps/place/Consultorio+Psicol%C3%B3gico+In%C3%A9s+Bar%C3%BAa/data=!4m7!3m6!1s0x9105c98ed6a52cf5:0xc3f1b73f2a948e66!8m2!3d-12.0594765!4d-77.046484!16s%2Fg%2F11px0wf6yh!19sChIJ9Syl1o7JBZERZo6UKj-38cM"
+    },
+    {
+      "id": "biz_51",
+      "name": "Comunidad Psicológica Amartemind",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Los Cipreses 470, San Juan de Miraflores 15801",
+      "url": "https://www.google.com/maps/place/Comunidad+Psicol%C3%B3gica+Amartemind/data=!4m7!3m6!1s0x9105b95e465a884b:0x1e47cd879bd9d10e!8m2!3d-12.1713743!4d-76.9671577!16s%2Fg%2F11ksx5ym0m!19sChIJS4haRl65BZERDtHZm4fNRx4"
+    },
+    {
+      "id": "biz_63",
+      "name": "Psicólogo en Adicciones Germán Beteta Bartra",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Jirón Gozzoli Nte. 654 - 101, San Borja 15037",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3logo+en+Adicciones+Germ%C3%A1n+Beteta+Bartra/data=!4m7!3m6!1s0x9105c7c31370c6ef:0xe0a140cb6aa92bfc!8m2!3d-12.1021515!4d-76.997017!16s%2Fg%2F11b6tshz0h!19sChIJ78ZwE8PHBZER_CupastAoeA"
+    },
+    {
+      "id": "biz_70",
+      "name": "SALMA -Centro Psicológico Integral",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Centro de salud y bienestar",
+      "address": "Jr. Coronel Joaquín Bernal 215, Lince 15046",
+      "url": "https://www.google.com/maps/place/SALMA+-Centro+Psicol%C3%B3gico+Integral/data=!4m7!3m6!1s0x9105c9b230a8af2d:0x4d7a8842a016b9a6!8m2!3d-12.087371!4d-77.035437!16s%2Fg%2F11fjzw2bn1!19sChIJLa-oMLLJBZERprkWoEKIek0"
+    },
+    {
+      "id": "biz_97",
+      "name": "Psicóloga Vanessa Méndez",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3loga+Vanessa+M%C3%A9ndez/data=!4m7!3m6!1s0xadb634daff5041e3:0x87c67104189fd4e5!8m2!3d-12.0266383!4d-76.9877792!16s%2Fg%2F11szhj_h24!19sChIJ40FQ_9o0tq0R5dSfGARxxoc"
+    },
+    {
+      "id": "biz_5",
+      "name": "PSICOLOGO MONTERRICO",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Ca. la Emancipación 281, Santiago de Surco 15049",
+      "url": "https://www.google.com/maps/place/PSICOLOGO+MONTERRICO/data=!4m7!3m6!1s0x9105c7a0c64306a3:0xcf80c7c4f33c4673!8m2!3d-12.1038569!4d-76.9759624!16s%2Fg%2F11gv05b18m!19sChIJowZDxqDHBZERc0Y888THgM8"
+    },
+    {
+      "id": "biz_11",
+      "name": "CEPSY - Centro Especializado en Psicología y Neuropsicología",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Por el colegio Peru Japón, Pje. L 125, Los Olivos 15304",
+      "url": "https://www.google.com/maps/place/CEPSY+-+Centro+Especializado+en+Psicolog%C3%ADa+y+Neuropsicolog%C3%ADa/data=!4m7!3m6!1s0x9105cfde77e293cb:0x8071a5cc243c9444!8m2!3d-11.9818962!4d-77.0690812!16s%2Fg%2F11ttbg0_bs!19sChIJy5Pid97PBZERRJQ8JMylcYA"
+    },
+    {
+      "id": "biz_29",
+      "name": "Psicóloga Luz De La Cruz - Miraflores",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. Alfredo Benavides 618, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3loga+Luz+De+La+Cruz+-+Miraflores/data=!4m7!3m6!1s0x9105d1d61a396659:0x9b8a1e41ecf6cad!8m2!3d-12.1251604!4d-77.0265709!16s%2Fg%2F11bwf6ymcw!19sChIJWWY5GtbRBZERrWzPHuShuAk"
+    },
+    {
+      "id": "biz_44",
+      "name": "Ser Centro Psicológico",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Servicio de salud mental",
+      "address": "Jesús María 15076",
+      "url": "https://www.google.com/maps/place/Ser+Centro+Psicol%C3%B3gico/data=!4m7!3m6!1s0x9105c855728327df:0x542c42fbb5fa5d!8m2!3d-12.0879989!4d-77.0541247!16s%2Fg%2F1ptxjcj5d!19sChIJ3yeDclXIBZERXfq1-0IsVAA"
+    },
+    {
+      "id": "biz_59",
+      "name": "Instituto de Psicologia de Lima IPL",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Servicio de salud mental",
+      "address": "Ca. Enrique Palacios 423, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Instituto+de+Psicologia+de+Lima+IPL/data=!4m7!3m6!1s0x9105c83b5bc36ffb:0xe7b9ed95f9d2da77!8m2!3d-12.117082!4d-77.032727!16s%2Fg%2F11c2mclmwh!19sChIJ-2_DWzvIBZERd9rS-ZXtuec"
+    },
+    {
+      "id": "biz_96",
+      "name": "Psicóloga Cynthia | Terapia de Pareja, Adultos, Niños y Adolescentes",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Miguel Cortez 130, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3loga+Cynthia+%7C+Terapia+de+Pareja,+Adultos,+Ni%C3%B1os+y+Adolescentes/data=!4m7!3m6!1s0x9105c92234e4c877:0x4185b1d241fed128!8m2!3d-12.0726956!4d-77.0913263!16s%2Fg%2F11lclmgtf6!19sChIJd8jkNCLJBZERKNH-QdKxhUE"
+    },
+    {
+      "id": "biz_24",
+      "name": "Psicólogos en San Juan de Lurigancho",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Jr los jazmines 761 Alt. Prdo 9 de la Av. Canto Grande Oficina San juan de lurigancho, LIMA 36",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3logos+en+San+Juan+de+Lurigancho/data=!4m7!3m6!1s0x9105c55c297ed9b7:0x82406d7cdae53777!8m2!3d-11.9693338!4d-77.0044281!16s%2Fg%2F11cs6k4y3_!19sChIJt9l-KVzFBZERdzfl2nxtQII"
+    },
+    {
+      "id": "biz_74",
+      "name": "Consultorio Psicológico MGA | Orientación Vocacional | Terapia Psicológica",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. 28 de Julio 1443, Miraflores 15048",
+      "url": "https://www.google.com/maps/place/Consultorio+Psicol%C3%B3gico+MGA+%7C+Orientaci%C3%B3n+Vocacional+%7C+Terapia+Psicol%C3%B3gica/data=!4m7!3m6!1s0x9105b7e2d8eeb837:0x669e74f5bf74ea9f!8m2!3d-12.1303003!4d-77.0183243!16s%2Fg%2F11g69hkjrt!19sChIJN7ju2OK3BZERn-p0v_V0nmY"
+    },
+    {
+      "id": "biz_86",
+      "name": "Terapias Renzulli Los Olivos Lima",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Psicólogo infantil",
+      "address": "Jirón Los Castaños 758, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/Terapias+Renzulli+Los+Olivos+Lima/data=!4m7!3m6!1s0x9105ce5962926077:0xdf33520965eaca17!8m2!3d-11.9902672!4d-77.0704103!16s%2Fg%2F11g6qxghj1!19sChIJd2CSYlnOBZERF8rqZQlSM98"
+    },
+    {
+      "id": "biz_88",
+      "name": "ConSentidos: Centro Psicológico Integral",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "La, Hoyada 122, Rímac 15093",
+      "url": "https://www.google.com/maps/place/ConSentidos:+Centro+Psicol%C3%B3gico+Integral/data=!4m7!3m6!1s0x9105cf0063e57a69:0xef8d5afb5182bda1!8m2!3d-12.0271037!4d-77.0304136!16s%2Fg%2F11vs3zy678!19sChIJaXrlYwDPBZERob2CUftaje8"
+    },
+    {
+      "id": "biz_56",
+      "name": "Consultorio Psicológico Bienestar y Salud",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "15001, Av. Nicolás de Piérola 1131, Lima 15001",
+      "url": "https://www.google.com/maps/place/Consultorio+Psicol%C3%B3gico+Bienestar+y+Salud/data=!4m7!3m6!1s0x9105c9528cd8da77:0x5a4cc87194087bbf!8m2!3d-12.052664!4d-77.0328404!16s%2Fg%2F11fgm7vvfg!19sChIJd9rYjFLJBZERv3sIlHHITFo"
+    },
+    {
+      "id": "biz_83",
+      "name": "Casita Azul Red de Psicología y Terapias.",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "15307, Av Zaragoza Mz.B, Los Olivos 15307",
+      "url": "https://www.google.com/maps/place/Casita+Azul+Red+de+Psicolog%C3%ADa+y+Terapias./data=!4m7!3m6!1s0x9105ce63e88f1c41:0x4669cd4a0e929a9a!8m2!3d-11.9426989!4d-77.0737729!16s%2Fg%2F11b7q4g_kj!19sChIJQRyP6GPOBZERmpqSDkrNaUY"
+    },
+    {
+      "id": "biz_60",
+      "name": "Psicóloga Lorena Medina Danessi",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "San Isidro 15076",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3loga+Lorena+Medina+Danessi/data=!4m7!3m6!1s0x9105b7e2d8e6015f:0x5af0e345157bb14e!8m2!3d-12.0959037!4d-77.0573551!16s%2Fg%2F11c5s69r5r!19sChIJXwHm2OK3BZERTrF7FUXj8Fo"
+    },
+    {
+      "id": "biz_57",
+      "name": "Instituto Peruano de Orientación Psicológica | IPOPS",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Psicoterapeuta",
+      "address": "Av. Gral. Juan Antonio Álvarez de Arenales 395, Lima 15072",
+      "url": "https://www.google.com/maps/place/Instituto+Peruano+de+Orientaci%C3%B3n+Psicol%C3%B3gica+%7C+IPOPS/data=!4m7!3m6!1s0x9105c8edaf754c2b:0xe492d2681ad9f294!8m2!3d-12.068294!4d-77.037953!16s%2Fg%2F1pv5kmt4d!19sChIJK0x1r-3IBZERlPLZGmjSkuQ"
+    },
+    {
+      "id": "biz_72",
+      "name": "PSICOLOGOS EN LIMA",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. Petit Thouars 15, Lince 15046",
+      "url": "https://www.google.com/maps/place/PSICOLOGOS+EN+LIMA/data=!4m7!3m6!1s0x9105c8ea8a063885:0x83ed65e16066e844!8m2!3d-12.0926143!4d-77.0319838!16s%2Fg%2F11flw1ngff!19sChIJhTgGiurIBZERROhmYOFl7YM"
+    },
+    {
+      "id": "biz_90",
+      "name": "KALMA PERÚ",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Servicio de salud mental",
+      "address": "Jr. Manuel Segura 166, Lince 15046",
+      "url": "https://www.google.com/maps/place/KALMA+PER%C3%9A/data=!4m7!3m6!1s0x9105c99483a95c9d:0x38a2aa9d3a2bd9ca!8m2!3d-12.0798313!4d-77.0355934!16s%2Fg%2F11f63ctj0p!19sChIJnVypg5TJBZERytkrOp2qojg"
+    },
+    {
+      "id": "biz_92",
+      "name": "Psicólogo Joel Valdez",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Psicoterapeuta",
+      "address": "Av. España 647, Breña 15082",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3logo+Joel+Valdez/data=!4m7!3m6!1s0x9105c9769a01a583:0x3ca189964f232ec4!8m2!3d-12.0583508!4d-77.0436486!16s%2Fg%2F11s0z96hq3!19sChIJg6UBmnbJBZERxC4jT5aJoTw"
+    },
+    {
+      "id": "biz_81",
+      "name": "Expresa Salud Emocional",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Psicoterapeuta",
+      "address": "Av. Tomás Marsano 2875, Santiago de Surco 15038",
+      "url": "https://www.google.com/maps/place/Expresa+Salud+Emocional/data=!4m7!3m6!1s0x9105c83c45251d9f:0xfa212b365089b7ba!8m2!3d-12.1267873!4d-77.0021514!16s%2Fg%2F1q2whmhh7!19sChIJnx0lRTzIBZERureJUDYrIfo"
+    },
+    {
+      "id": "biz_31",
+      "name": "Apoyo Psicológico en Lima - Consultorio Psicológico en San Borja",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. Javier Prado Este 3709, San Borja 41",
+      "url": "https://www.google.com/maps/place/Apoyo+Psicol%C3%B3gico+en+Lima+-+Consultorio+Psicol%C3%B3gico+en+San+Borja/data=!4m7!3m6!1s0x9105c7b53177f8f1:0xaa6c24bef91900b4!8m2!3d-12.083693!4d-76.9854352!16s%2Fg%2F11d_2n6hfd!19sChIJ8fh3MbXHBZERtAAZ-b4kbKo"
+    },
+    {
+      "id": "biz_82",
+      "name": "Colegio de Psicólogos del Perú CDR I- Lima, SEDE LEGAL E HISTÓRICA",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Gremio",
+      "address": "Jirón Coronel Camilo Carrillo 164, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Colegio+de+Psic%C3%B3logos+del+Per%C3%BA+CDR+I-+Lima,+SEDE+LEGAL+E+HIST%C3%93RICA/data=!4m7!3m6!1s0x9105c90d9cad36c3:0x98d91132b6bf9684!8m2!3d-12.0735608!4d-77.0378018!16s%2Fg%2F11f005sx2q!19sChIJwzatnA3JBZERhJa_tjIR2Zg"
+    },
+    {
+      "id": "biz_85",
+      "name": "Colegio de Psicologos del Perú - CDR I Lima",
+      "rating": 3.5,
+      "reviewsCount": null,
+      "category": "Oficinas de empresa",
+      "address": "Jr, Sta. Domitila 092, Lima 15088",
+      "url": "https://www.google.com/maps/place/Colegio+de+Psicologos+del+Per%C3%BA+-+CDR+I+Lima/data=!4m7!3m6!1s0x9105c9a913fc3825:0xde7ec62b11592448!8m2!3d-12.0656783!4d-77.072809!16s%2Fg%2F11f61tlzm7!19sChIJJTj8E6nJBZERSCRZESvGft4"
+    },
+    {
+      "id": "biz_73",
+      "name": "Colegio de Psicólogos del Perú",
+      "rating": 3.3,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Jr. Brigadier Mateo Pumacahua 936, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Colegio+de+Psic%C3%B3logos+del+Per%C3%BA/data=!4m7!3m6!1s0x9105c8ef756f3935:0x55cd6bc2588267f2!8m2!3d-12.072071!4d-77.04361!16s%2Fg%2F11b6nz56_9!19sChIJNTlvde_IBZER8meCWMJrzVU"
+    },
+    {
+      "id": "biz_78",
+      "name": "Claudia Pérez Psicóloga",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Parque El Carmen 1414, Lima 15084",
+      "url": "https://www.google.com/maps/place/Claudia+P%C3%A9rez+Psic%C3%B3loga/data=!4m7!3m6!1s0x9105c98df4597b4b:0x70bcdd93ee1d2ad5!8m2!3d-12.0735359!4d-77.0687526!16s%2Fg%2F11jg2mmqds!19sChIJS3tZ9I3JBZER1Sod7pPdvHA"
+    },
+    {
+      "id": "biz_79",
+      "name": "Psicóloga Erika Tello",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Psicoterapeuta",
+      "address": "Av. Arequipa 1421, Manuel del Pino 222, Lima",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3loga+Erika+Tello/data=!4m7!3m6!1s0x9105c9b96198a637:0x9d7c1c9c7b8ed7fb!8m2!3d-12.0786276!4d-77.0348535!16s%2Fg%2F11fn49wbs9!19sChIJN6aYYbnJBZER-9eOe5wcfJ0"
+    },
+    {
+      "id": "biz_43",
+      "name": "Psicóloga Roxana Sánchez Gamarra",
+      "rating": 2.3,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Jr. Los Sauces 130, San Borja 15037",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3loga+Roxana+S%C3%A1nchez+Gamarra/data=!4m7!3m6!1s0x9105c7911ac0f3b9:0xb07b7b3eabc047b5!8m2!3d-12.0868587!4d-76.9848078!16s%2Fg%2F11cnbcmld4!19sChIJufPAGpHHBZERtUfAqz57e7A"
+    },
+    {
+      "id": "biz_27",
+      "name": "Psicólogos en Lima ️ en Línea - Centro VIVIR",
+      "rating": 2,
+      "reviewsCount": null,
+      "category": "Psicólogo",
+      "address": "Av. Alfredo Benavides 703, Miraflores 15076",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3logos+en+Lima+%EF%B8%8F+en+L%C3%ADnea+-+Centro+VIVIR/data=!4m7!3m6!1s0x9105d15ddcf4cfc7:0x190fedda91113c73!8m2!3d-12.1249406!4d-77.025868!16s%2Fg%2F11j920cj3h!19sChIJx8_03F3RBZERczwRkdrtDxk"
+    },
+    {
+      "id": "biz_28",
+      "name": "Psicóloga en Lima Beatriz Salazar",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Psicoterapeuta",
+      "address": "VX7H+534, Jr. Buenaventura Aguirre, 108Lima 15063",
+      "url": "https://www.google.com/maps/place/Psic%C3%B3loga+en+Lima+Beatriz+Salazar/data=!4m7!3m6!1s0x9105b700020b5471:0xd0b5f73f39fd6794!8m2!3d-12.1371026!4d-77.0223037!16s%2Fg%2F11zd63z1f9!19sChIJcVQLAgC3BZERlGf9OT_3tdA"
+    },
+    {
+      "id": "biz_93",
+      "name": "Centro Psicólogo Himalaya.Ser",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Psicoterapeuta",
+      "address": "Av. Lima 1276, Lima 15087",
+      "url": "https://www.google.com/maps/place/Centro+Psic%C3%B3logo+Himalaya.Ser/data=!4m7!3m6!1s0x9105c90048214aeb:0x7565175caaf0b6b3!8m2!3d-12.0849242!4d-77.087934!16s%2Fg%2F11zdtd1jp2!19sChIJ60ohSADJBZERs7bwqlwXZXU"
+    }
+  ]
+}
