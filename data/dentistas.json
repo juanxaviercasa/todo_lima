@@ -1,138 +1,919 @@
 {
   "category": "dentistas",
   "searchQuery": "clinicas dentales en Lima",
-  "totalResults": 10,
-  "updatedAt": "2026-09-08T04:52:59.049Z",
+  "totalResults": 99,
+  "updatedAt": "2026-09-09T05:33:32.887Z",
+  "topBusinessContext": {
+    "id": "biz_1",
+    "name": "Laserdent Kids Sede Santa Anita | Odontopediatría | Dentista para niños",
+    "rating": 5,
+    "reviewsCount": null,
+    "category": "Dentista",
+    "address": "Urb. Residencial Risso, Francia Mz. D, Santa Anita 15011",
+    "url": "https://www.google.com/maps/place/Laserdent+Kids+Sede+Santa+Anita+%7C+Odontopediatr%C3%ADa+%7C+Dentista+para+ni%C3%B1os/data=!4m7!3m6!1s0x9105c721766f18db:0x7d421e64dc095efe!8m2!3d-12.032414!4d-76.946176!16s%2Fg%2F11mpn_ntn9!19sChIJ2xhvdiHHBZER_l4J3GQeQn0"
+  },
+  "pageContent": {
+    "headline": "Los Mejores Expertos en DENTISTAS en Lima: Conoce a Laserdent Kids Sede Santa Anita | Odontopediatría | Dentista para niños",
+    "subtitles": [
+      "Garantiza resultados hoy mismo. Ubicados en Urb. Residencial Risso, Francia Mz. D, Santa Anita 15011, destacan como la opción número uno validada por usuarios reales.",
+      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
+    ],
+    "ctas": [
+      "Contactar por WhatsApp Ahora",
+      "Ver Directorio Completo"
+    ]
+  },
   "businesses": [
     {
-      "id": "biz_5",
-      "name": "Clinica Dental Biosonrisa",
-      "rating": 5,
-      "reviewsCount": 1530,
-      "category": "Clínica dental",
-      "address": "Jr, Av. Julio César Tello 1020, Lince 15072",
-      "phone": "945 584 990",
-      "website": "https://www.biosonrisa.pe/",
-      "url": "https://www.google.com/maps/place/Clinica+Dental+Biosonrisa/data=!4m7!3m6!1s0x9105c9c7a1d58279:0xa7604a8839789e3c!8m2!3d-12.0868069!4d-77.0431749!16s%2Fg%2F11j2fpx8m6!19sChIJeYLVocfJBZERPJ54OYhKYKc?hl=es",
-      "latitude": -12.0868069,
-      "longitude": -77.0431749
-    },
-    {
-      "id": "biz_6",
-      "name": "Consultorio Dental en Lima | Cerca de Mi | Dra. Andrea Contreras",
-      "rating": 4.9,
-      "reviewsCount": 1257,
-      "category": "Dentista",
-      "address": "Av. de la Marina 2529, San Miguel 15087",
-      "phone": "922 172 433",
-      "website": "https://odontologiaperu.com/?utm_source=google&utm_medium=perfil&utm_campaign=gmb-san-miguel",
-      "url": "https://www.google.com/maps/place/Consultorio+Dental+en+Lima+%7C+Cerca+de+Mi+%7C+Dra.+Andrea+Contreras/data=!4m7!3m6!1s0x9105c963224e8ec9:0x8e2ce3a844aa5451!8m2!3d-12.0782576!4d-77.0897076!16s%2Fg%2F11q4hhfjz2!19sChIJyY5OImPJBZERUVSqRKjjLI4?hl=es",
-      "latitude": -12.0782576,
-      "longitude": -77.0897076
-    },
-    {
-      "id": "biz_2",
-      "name": "Clinica Odontologists Miraflores",
-      "rating": 4.9,
-      "reviewsCount": 1132,
-      "category": "Dentista",
-      "address": "Elías Aguirre 358, Miraflores 15074",
-      "phone": "994 182 204",
-      "website": "https://www.odontologists.com/",
-      "url": "https://www.google.com/maps/place/Clinica+Odontologists+Miraflores/data=!4m7!3m6!1s0x9105c83d759f367f:0xd2a45bb04a66c79f!8m2!3d-12.1164696!4d-77.034569!16s%2Fg%2F11cn5t3p4s!19sChIJfzafdT3IBZERn8dmSrBbpNI?hl=es",
-      "latitude": -12.1164696,
-      "longitude": -77.034569
-    },
-    {
-      "id": "biz_9",
-      "name": "Mundoral Odontólogos Santa Anita Lima Dentistas",
-      "rating": 5,
-      "reviewsCount": 503,
-      "category": "Clínica dental",
-      "address": "Av. Los Ruiseñores 976, Santa Anita 15008",
-      "phone": "965 723 407",
-      "website": "http://mundoral.com.pe/",
-      "url": "https://www.google.com/maps/place/Mundoral+Odont%C3%B3logos+Santa+Anita+Lima+Dentistas/data=!4m7!3m6!1s0x9105c67bdbb48213:0xa36e885a01bf85c9!8m2!3d-12.0441493!4d-76.9695075!16s%2Fg%2F11c1ldjqnj!19sChIJE4K023vGBZERyYW_AVqIbqM?hl=es",
-      "latitude": -12.0441493,
-      "longitude": -76.9695075
-    },
-    {
       "id": "biz_1",
-      "name": "Clinica Dental Alemana",
-      "rating": 4.9,
-      "reviewsCount": 548,
-      "category": "Clínica dental",
-      "address": "Av. Caminos del Inca 1163, Santiago 15028",
-      "phone": "913 760 968",
-      "website": "https://clinicadentalalemana.com.pe/",
-      "url": "https://www.google.com/maps/place/Clinica+Dental+Alemana/data=!4m7!3m6!1s0x9105c78ca543414d:0x2848ef89b707a6df!8m2!3d-12.1219991!4d-76.9864374!16s%2Fg%2F11b7rnc404!19sChIJTUFDpYzHBZER36YHt4nvSCg?hl=es",
-      "latitude": -12.1219991,
-      "longitude": -76.9864374
-    },
-    {
-      "id": "biz_3",
-      "name": "Impacto Dental Lima Cercado | Ortodoncia | Prótesis | Puentes de Porcelana",
-      "rating": 4.9,
-      "reviewsCount": 259,
-      "category": "Clínica dental",
-      "address": "Parroquia nuestra sra de fatima unidad vecinal 3 dental parroquial, Lima 15081",
-      "phone": "999 558 630",
-      "website": "http://www.impactodentalperu.com/",
-      "url": "https://www.google.com/maps/place/Impacto+Dental+Lima+Cercado+%7C+Ortodoncia+%7C+Pr%C3%B3tesis+%7C+Puentes+de+Porcelana/data=!4m7!3m6!1s0x9105c9b29b58880b:0x3248f0bd73ba3d96!8m2!3d-12.0517685!4d-77.0799721!16s%2Fg%2F11smcn9r11!19sChIJC4hYm7LJBZERlj26c73wSDI?hl=es",
-      "latitude": -12.0517685,
-      "longitude": -77.0799721
+      "name": "Laserdent Kids Sede Santa Anita | Odontopediatría | Dentista para niños",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Urb. Residencial Risso, Francia Mz. D, Santa Anita 15011",
+      "url": "https://www.google.com/maps/place/Laserdent+Kids+Sede+Santa+Anita+%7C+Odontopediatr%C3%ADa+%7C+Dentista+para+ni%C3%B1os/data=!4m7!3m6!1s0x9105c721766f18db:0x7d421e64dc095efe!8m2!3d-12.032414!4d-76.946176!16s%2Fg%2F11mpn_ntn9!19sChIJ2xhvdiHHBZER_l4J3GQeQn0"
     },
     {
       "id": "biz_7",
-      "name": "Clínica Dental Prodent Perú l Implantes l Diseño de sonrisa l Alineadores",
+      "name": "Clinica Dental Biosonrisa",
       "rating": 5,
-      "reviewsCount": 104,
-      "category": "Dentista",
-      "address": "Av. Javier Prado Este 1812, Lima 15036",
-      "phone": "987 529 718",
-      "website": "https://www.prodent.com.pe/",
-      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Prodent+Per%C3%BA+l+Implantes+l+Dise%C3%B1o+de+sonrisa+l+Alineadores/data=!4m7!3m6!1s0x9105c7d436b4c453:0x3f008cb260f2d7c0!8m2!3d-12.088975!4d-77.0070699!16s%2Fg%2F11b8v9kkw1!19sChIJU8S0NtTHBZERwNfyYLKMAD8?hl=es",
-      "latitude": -12.088975,
-      "longitude": -77.0070699
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Jr, Av. Julio César Tello 1020, Lince 15072",
+      "url": "https://www.google.com/maps/place/Clinica+Dental+Biosonrisa/data=!4m7!3m6!1s0x9105c9c7a1d58279:0xa7604a8839789e3c!8m2!3d-12.0868069!4d-77.0431749!16s%2Fg%2F11j2fpx8m6!19sChIJeYLVocfJBZERPJ54OYhKYKc"
     },
     {
-      "id": "biz_8",
-      "name": "Centro Odontológico Neodentis",
-      "rating": 4.9,
-      "reviewsCount": 122,
+      "id": "biz_9",
+      "name": "Clínica Dental Prodent Perú l Implantes l Diseño de sonrisa l Alineadores",
+      "rating": 5,
+      "reviewsCount": null,
       "category": "Dentista",
-      "address": "Av. Angamos Este 140, Miraflores 15074",
-      "phone": "989 507 460",
-      "website": "http://www.neodentis.com/",
-      "url": "https://www.google.com/maps/place/Centro+Odontol%C3%B3gico+Neodentis/data=!4m7!3m6!1s0x9105c81699773339:0xf3f68eb24febf79b!8m2!3d-12.1140113!4d-77.0294107!16s%2Fg%2F1vwlq5hv!19sChIJOTN3mRbIBZERm_frT7KO9vM?hl=es",
-      "latitude": -12.1140113,
-      "longitude": -77.0294107
+      "address": "Av. Javier Prado Este 1812, Lima 15036",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Prodent+Per%C3%BA+l+Implantes+l+Dise%C3%B1o+de+sonrisa+l+Alineadores/data=!4m7!3m6!1s0x9105c7d436b4c453:0x3f008cb260f2d7c0!8m2!3d-12.088975!4d-77.0070699!16s%2Fg%2F11b8v9kkw1!19sChIJU8S0NtTHBZERwNfyYLKMAD8"
+    },
+    {
+      "id": "biz_11",
+      "name": "Mundoral Odontólogos Santa Anita Lima Dentistas",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. Los Ruiseñores 976, Santa Anita 15008",
+      "url": "https://www.google.com/maps/place/Mundoral+Odont%C3%B3logos+Santa+Anita+Lima+Dentistas/data=!4m7!3m6!1s0x9105c67bdbb48213:0xa36e885a01bf85c9!8m2!3d-12.0441493!4d-76.9695075!16s%2Fg%2F11c1ldjqnj!19sChIJE4K023vGBZERyYW_AVqIbqM"
+    },
+    {
+      "id": "biz_16",
+      "name": "CLÍNICA DENTAL PARADISE - ESTACIÓN NARANJAL",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Av. Chinchaysuyo 101, Independencia 15332",
+      "url": "https://www.google.com/maps/place/CL%C3%8DNICA+DENTAL+PARADISE+-+ESTACI%C3%93N+NARANJAL/data=!4m7!3m6!1s0x9105cfd3238affc9:0x8379f0f9da76782!8m2!3d-11.979922!4d-77.0587682!16s%2Fg%2F11s7yqhpls!19sChIJyf-KI9PPBZERgmennQ-fNwg"
+    },
+    {
+      "id": "biz_17",
+      "name": "Mejor Clínica Dental en Miraflores - Implantes Dentales en miraflores - Enmanuel Teixeira",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Elías Aguirre 358, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Mejor+Cl%C3%ADnica+Dental+en+Miraflores+-+Implantes+Dentales+en+miraflores+-+Enmanuel+Teixeira/data=!4m7!3m6!1s0x9105c9fdffe40247:0x2542b46bfd368cd8!8m2!3d-12.116479!4d-77.0346542!16s%2Fg%2F11ysgvrpd1!19sChIJRwLk__3JBZER2Iw2_Wu0QiU"
+    },
+    {
+      "id": "biz_18",
+      "name": "Clinica Dental San Francisco de Asís",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. Francisco Lazo 1815, Lince 15046",
+      "url": "https://www.google.com/maps/place/Clinica+Dental+San+Francisco+de+As%C3%ADs/data=!4m7!3m6!1s0x9105c88ba8386fef:0xc6dfb3a3135cbeb2!8m2!3d-12.082117!4d-77.030452!16s%2Fg%2F11b6fk5bym!19sChIJ7284qIvIBZERsr5cE6Oz38Y"
+    },
+    {
+      "id": "biz_25",
+      "name": "Rovaldent Odontología Especializada en Diseño de Sonrisa | Implantes | Rehabilitación Oral | Brackets | Pediatría | Geriatría",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "plus, oficinas Boutique, Edificio Soho, Tomás Ramsey 930, Magdalena del Mar 15084",
+      "url": "https://www.google.com/maps/place/Rovaldent+Odontolog%C3%ADa+Especializada+en+Dise%C3%B1o+de+Sonrisa+%7C+Implantes+%7C+Rehabilitaci%C3%B3n+Oral+%7C+Brackets+%7C+Pediatr%C3%ADa+%7C+Geriatr%C3%ADa/data=!4m7!3m6!1s0x9105c94de25167c9:0xfa09b5f9ef89af7b!8m2!3d-12.0922817!4d-77.0583364!16s%2Fg%2F11gvrm30tc!19sChIJyWdR4k3JBZERe6-J7_m1Cfo"
+    },
+    {
+      "id": "biz_26",
+      "name": "Sonrisa Ideal Perú - Dentista San Miguel",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "C. B 110, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/Sonrisa+Ideal+Per%C3%BA+-+Dentista+San+Miguel/data=!4m7!3m6!1s0x9105c93512ae7109:0x747200bf74228200!8m2!3d-12.0752992!4d-77.0833398!16s%2Fg%2F11j1m5hvgm!19sChIJCXGuEjXJBZERAIIidL8AcnQ"
+    },
+    {
+      "id": "biz_27",
+      "name": "Mundoral Odontólogos Dentista San Borja",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Simoni 151, Lima, San Borja 15037",
+      "url": "https://www.google.com/maps/place/Mundoral+Odont%C3%B3logos+Dentista+San+Borja/data=!4m7!3m6!1s0x9105c722df105b45:0xfdc3930d3297eaa1!8m2!3d-12.0962832!4d-77.0019943!16s%2Fg%2F11fgjlwc5c!19sChIJRVsQ3yLHBZERoeqXMg2Tw_0"
+    },
+    {
+      "id": "biz_28",
+      "name": "Tendentcy Cercado de Lima - Consultorio Dental",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Jirón Víctor Sarria 1172, Lima 15081",
+      "url": "https://www.google.com/maps/place/Tendentcy+Cercado+de+Lima+-+Consultorio+Dental/data=!4m7!3m6!1s0x9105c970de3aa651:0x1f8b71894d41f717!8m2!3d-12.0503772!4d-77.0713991!16s%2Fg%2F11mv5p0fq6!19sChIJUaY63nDJBZERF_dBTYlxix8"
+    },
+    {
+      "id": "biz_29",
+      "name": "Odontología León Los Olivos",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Avenida Carlos Izaguirre 714 Piso 2 interior 2 Los Olivos Gobierno Regional de Lima LIMA, 1",
+      "url": "https://www.google.com/maps/place/Odontolog%C3%ADa+Le%C3%B3n+Los+Olivos/data=!4m7!3m6!1s0x9105cf7a13f71ec5:0x268c783265fa30d2!8m2!3d-11.9905581!4d-77.0695917!16s%2Fg%2F11qn6qq1ry!19sChIJxR73E3rPBZER0jD6ZTJ4jCY"
+    },
+    {
+      "id": "biz_32",
+      "name": "Clínica Dental RevDent",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. Tacna 482, Lima 15001",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+RevDent/data=!4m7!3m6!1s0x9105c95f645967bd:0xbc1e7219e906422!8m2!3d-12.0460252!4d-77.0374688!16s%2Fg%2F11n7t24kw_!19sChIJvWdZZF_JBZERImSQniHnwQs"
+    },
+    {
+      "id": "biz_33",
+      "name": "DISEÑO DE SONRISA LIMA",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "C. B 110, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/DISE%C3%91O+DE+SONRISA+LIMA/data=!4m7!3m6!1s0x9105c987db1003a1:0xd396f394bae7f76c!8m2!3d-12.0752082!4d-77.083289!16s%2Fg%2F11t74h8_3t!19sChIJoQMQ24fJBZERbPfnupTzltM"
+    },
+    {
+      "id": "biz_39",
+      "name": "Sonrisanas Clínica Dental en Lima | Estética y Prótesis dental",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Urb. Perú, Av Lima 3604, San Martín de Porres 15106",
+      "url": "https://www.google.com/maps/place/Sonrisanas+Cl%C3%ADnica+Dental+en+Lima+%7C+Est%C3%A9tica+y+Pr%C3%B3tesis+dental/data=!4m7!3m6!1s0x9105ceb97d4c2cf5:0xa7c0ab31ff12b00c!8m2!3d-12.028667!4d-77.0854384!16s%2Fg%2F11b8_ct2q_!19sChIJ9SxMfbnOBZERDLAS_zGrwKc"
+    },
+    {
+      "id": "biz_42",
+      "name": "Clinica Dental Barrenechea",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Virreyes 398, Lima 15094",
+      "url": "https://www.google.com/maps/place/Clinica+Dental+Barrenechea/data=!4m7!3m6!1s0x9105cf463527782d:0xff19211922613c19!8m2!3d-12.0282733!4d-77.0304572!16s%2Fg%2F11bwyqjz62!19sChIJLXgnNUbPBZERGTxhIhkhGf8"
+    },
+    {
+      "id": "biz_48",
+      "name": "Centro dental Dentalindo",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Jr. Loma Umbrosa 343, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Centro+dental+Dentalindo/data=!4m7!3m6!1s0x9105b80d63b205e7:0x57f973870dc799c1!8m2!3d-12.13923!4d-76.989271!16s%2Fg%2F11hcj0n7t2!19sChIJ5wWyYw24BZERwZnHDYdz-Vc"
+    },
+    {
+      "id": "biz_53",
+      "name": "Smile World - Clínica Odontológica",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. Augusto Pérez Araníbar 2380, San Isidro 15076",
+      "url": "https://www.google.com/maps/place/Smile+World+-+Cl%C3%ADnica+Odontol%C3%B3gica/data=!4m7!3m6!1s0x9105c9b4ae56a9f9:0x31a78a88e2fc6bb2!8m2!3d-12.1016992!4d-77.0598738!16s%2Fg%2F11s8yp6rnk!19sChIJ-alWrrTJBZERsmv84oiKpzE"
+    },
+    {
+      "id": "biz_55",
+      "name": "Clínica Alinea",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. Caminos del Inca 559, Lima 15038",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Alinea/data=!4m7!3m6!1s0x9105c72b7cc9d751:0x92cc2342bf23401a!8m2!3d-12.1161051!4d-76.99042!16s%2Fg%2F11f9d3l_5j!19sChIJUdfJfCvHBZERGkAjv0IjzJI"
+    },
+    {
+      "id": "biz_59",
+      "name": "Clínica dental - Dental Inn Perú",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Jirón Tinajones N° 181, Santiago de Surco 15038",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+dental+-+Dental+Inn+Per%C3%BA/data=!4m7!3m6!1s0x9105c7ec8cf487b9:0xf1c833c8660aca31!8m2!3d-12.1131302!4d-76.9933568!16s%2Fg%2F11hcvzprsm!19sChIJuYf0jOzHBZERMcoKZsgzyPE"
+    },
+    {
+      "id": "biz_65",
+      "name": "Vanedent",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Juan Pablo Fernandini 1019, Breña 15083",
+      "url": "https://www.google.com/maps/place/Vanedent/data=!4m7!3m6!1s0x9105c8e6b12ec6ff:0x1b594eafaeecad06!8m2!3d-12.0686447!4d-77.0500843!16s%2Fg%2F11b6gq1gw6!19sChIJ_8YusebIBZERBq3srq9OWRs"
+    },
+    {
+      "id": "biz_66",
+      "name": "Smiling Clínica Dental",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Av. Alfredo Benavides 2150, Miraflores 15048",
+      "url": "https://www.google.com/maps/place/Smiling+Cl%C3%ADnica+Dental/data=!4m7!3m6!1s0x9105c767d267246b:0xedc1b7898edc0de2!8m2!3d-12.1277657!4d-77.0101937!16s%2Fg%2F11fskp0gnh!19sChIJayRn0mfHBZER4g3cjom3we0"
+    },
+    {
+      "id": "biz_68",
+      "name": "DENTIST PERÚ Sede Cercado de Lima",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Av. Alfonso Ugarte 641, Lima 15001",
+      "url": "https://www.google.com/maps/place/DENTIST+PER%C3%9A+Sede+Cercado+de+Lima/data=!4m7!3m6!1s0x9105c90fa29e82d7:0x19628e98af00ea60!8m2!3d-12.0479419!4d-77.0422833!16s%2Fg%2F11qh0pm_zl!19sChIJ14Keog_JBZERYOoAr5iOYhk"
+    },
+    {
+      "id": "biz_69",
+      "name": "Modenta Clínica Dental | Brackets | Alineadores | Diseño de Sonrisa | Carillas | Implantes",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Ca. Narciso de la Colina 421, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Modenta+Cl%C3%ADnica+Dental+%7C+Brackets+%7C+Alineadores+%7C+Dise%C3%B1o+de+Sonrisa+%7C+Carillas+%7C+Implantes/data=!4m7!3m6!1s0x9105c9f27107c775:0xa650d4ef6d3529af!8m2!3d-12.1181455!4d-77.0265354!16s%2Fg%2F11tn_54mz0!19sChIJdccHcfLJBZERryk1be_UUKY"
+    },
+    {
+      "id": "biz_70",
+      "name": "Sonrisa para Todos. Odontología",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Jirón José Gálvez 695, Magdalena del Mar 15086",
+      "url": "https://www.google.com/maps/place/Sonrisa+para+Todos.+Odontolog%C3%ADa/data=!4m7!3m6!1s0x9105c9d8f28c23d5:0x8cc23fe15492bfb0!8m2!3d-12.0900251!4d-77.074395!16s%2Fg%2F11pv5_0_2k!19sChIJ1SOM8tjJBZERsL-SVOE_wow"
+    },
+    {
+      "id": "biz_71",
+      "name": "Clínica Dental Prosmile San Miguel",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Mercedes Gallagher de Parks 397, San Miguel 15087",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Prosmile+San+Miguel/data=!4m7!3m6!1s0x9105c90fae2bc871:0x644934695e9e7a81!8m2!3d-12.0788509!4d-77.0869404!16s%2Fg%2F11lg0pvsfv!19sChIJccgrrg_JBZERgXqeXmk0SWQ"
+    },
+    {
+      "id": "biz_72",
+      "name": "Montalbán & Aramburú Odontología Integral Especializada",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Manuel Moncloa Y Cobarrubias 2768, Lima 15081",
+      "url": "https://www.google.com/maps/place/Montalb%C3%A1n+%26+Arambur%C3%BA+Odontolog%C3%ADa+Integral+Especializada/data=!4m7!3m6!1s0x9105c90019a9f881:0xf27bddb6954001e0!8m2!3d-12.0576187!4d-77.0785417!16s%2Fg%2F11msrz56vk!19sChIJgfipGQDJBZER4AFAlbbde_I"
+    },
+    {
+      "id": "biz_75",
+      "name": "DENTISTA LIMA DOCTORQUINPERU",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Jirón Cruz del Sur 140, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/DENTISTA+LIMA+DOCTORQUINPERU/data=!4m7!3m6!1s0x9105c96820888d23:0x4b492aae216274ce!8m2!3d-12.0853094!4d-76.9727126!16s%2Fg%2F11pyp608kv!19sChIJI42IIGjJBZERznRiIa4qSUs"
+    },
+    {
+      "id": "biz_78",
+      "name": "Clinica Dental DEL VALLE",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Avenida Javier Prado Este 175 Of. 504 San Isidro, Lima Esquina con Av. Arequipa y Av. Petit Thouars San Isidro LIMA, 27",
+      "url": "https://www.google.com/maps/place/Clinica+Dental+DEL+VALLE/data=!4m7!3m6!1s0x9105c8675ab81c85:0x9cf40278e312d195!8m2!3d-12.0918604!4d-77.0327898!16s%2Fg%2F11c5_tfc3g!19sChIJhRy4WmfIBZERldES43gC9Jw"
+    },
+    {
+      "id": "biz_86",
+      "name": "The dental clinic & GT Concept Asociados - Odontología Estética",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Torre Bloomtower, Flora Tristán 310, Magdalena del Mar 15076",
+      "url": "https://www.google.com/maps/place/The+dental+clinic+%26+GT+Concept+Asociados+-+Odontolog%C3%ADa+Est%C3%A9tica/data=!4m7!3m6!1s0x9105c9acc677657f:0xd541e6c664f43a02!8m2!3d-12.0942007!4d-77.0573329!16s%2Fg%2F11pxx64_fs!19sChIJf2V3xqzJBZERAjr0ZMbmQdU"
+    },
+    {
+      "id": "biz_87",
+      "name": "BELLEZA Y SALUD CLÍNICA DENTAL (Sede La Victoria)",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. Isabel la Católica 1515, La Victoria 15018",
+      "url": "https://www.google.com/maps/place/BELLEZA+Y+SALUD+CL%C3%8DNICA+DENTAL+%28Sede+La+Victoria%29/data=!4m7!3m6!1s0x9105c89c192b9ac5:0xa6b7456cb6e98035!8m2!3d-12.0682702!4d-77.0143643!16s%2Fg%2F11gvtqxwlt!19sChIJxZorGZzIBZERNYDptmxFt6Y"
+    },
+    {
+      "id": "biz_88",
+      "name": "Clinica Dental Ore",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. Castilla la Nueva Lt 17 B, La Molina 12175",
+      "url": "https://www.google.com/maps/place/Clinica+Dental+Ore/data=!4m7!3m6!1s0x9105c76a89fdb5c9:0xdddc93e17f5b35f9!8m2!3d-12.106513!4d-76.9423564!16s%2Fg%2F11gcz3k21x!19sChIJybX9iWrHBZER-TVbf-GT3N0"
+    },
+    {
+      "id": "biz_89",
+      "name": "Romident Clínica Dental",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av Sta Gertrudis 403, Lima LIMA 01",
+      "url": "https://www.google.com/maps/place/Romident+Cl%C3%ADnica+Dental/data=!4m7!3m6!1s0x9105c97fd81de4d1:0x331a29e3df91125d!8m2!3d-12.0646477!4d-77.0735129!16s%2Fg%2F11jxb6stpl!19sChIJ0eQd2H_JBZERXRKR3-MpGjM"
+    },
+    {
+      "id": "biz_97",
+      "name": "Dra Laura Dental Studio",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Av. Los Quechuas 1347, Ate 15022",
+      "url": "https://www.google.com/maps/place/Dra+Laura+Dental+Studio/data=!4m7!3m6!1s0x9105c9ba48ab51e1:0x6a9ffbd82bb45c36!8m2!3d-12.0753617!4d-76.9775344!16s%2Fg%2F11j2zwpjky!19sChIJ4VGrSLrJBZERNly0K9j7n2o"
+    },
+    {
+      "id": "biz_99",
+      "name": "Clínica Dental Oré - San Isidro",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. Javier Prado Este 1330, San Isidro 15036",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Or%C3%A9+-+San+Isidro/data=!4m7!3m6!1s0x9105c9f9b0a59d07:0x56c1fb4924dfb153!8m2!3d-12.0900658!4d-77.0130897!16s%2Fg%2F11fhy8rn40!19sChIJB52lsPnJBZERU7HfJEn7wVY"
+    },
+    {
+      "id": "biz_3",
+      "name": "Clinica Odontologists Miraflores",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Elías Aguirre 358, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Clinica+Odontologists+Miraflores/data=!4m7!3m6!1s0x9105c83d759f367f:0xd2a45bb04a66c79f!8m2!3d-12.1164696!4d-77.034569!16s%2Fg%2F11cn5t3p4s!19sChIJfzafdT3IBZERn8dmSrBbpNI"
     },
     {
       "id": "biz_4",
-      "name": "Solución Dental | Especialistas en Ortodoncia",
-      "rating": 4.8,
-      "reviewsCount": 191,
-      "category": "Ortodoncista",
-      "address": "Av. Arequipa 1860, Lince 15046",
-      "phone": "922 940 561",
-      "website": "https://soluciondental.pe/",
-      "url": "https://www.google.com/maps/place/Soluci%C3%B3n+Dental+%7C+Especialistas+en+Ortodoncia/data=!4m7!3m6!1s0x9105c8f37c6ab963:0x30acb1a83bda6dde!8m2!3d-12.0831236!4d-77.0348347!16s%2Fg%2F1tffkvly!19sChIJY7lqfPPIBZER3m3aO6ixrDA?hl=es",
-      "latitude": -12.0831236,
-      "longitude": -77.0348347
+      "name": "Clinica Dental Alemana",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. Caminos del Inca 1163, Santiago 15028",
+      "url": "https://www.google.com/maps/place/Clinica+Dental+Alemana/data=!4m7!3m6!1s0x9105c78ca543414d:0x2848ef89b707a6df!8m2!3d-12.1219991!4d-76.9864374!16s%2Fg%2F11b7rnc404!19sChIJTUFDpYzHBZER36YHt4nvSCg"
+    },
+    {
+      "id": "biz_5",
+      "name": "Impacto Dental Lima Cercado | Ortodoncia | Prótesis | Puentes de Porcelana",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Parroquia nuestra sra de fatima unidad vecinal 3 dental parroquial, Lima 15081",
+      "url": "https://www.google.com/maps/place/Impacto+Dental+Lima+Cercado+%7C+Ortodoncia+%7C+Pr%C3%B3tesis+%7C+Puentes+de+Porcelana/data=!4m7!3m6!1s0x9105c9b29b58880b:0x3248f0bd73ba3d96!8m2!3d-12.0517685!4d-77.0799721!16s%2Fg%2F11smcn9r11!19sChIJC4hYm7LJBZERlj26c73wSDI"
+    },
+    {
+      "id": "biz_8",
+      "name": "Consultorio Dental en Lima | Cerca de Mi | Dra. Andrea Contreras",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Av. de la Marina 2529, San Miguel 15087",
+      "url": "https://www.google.com/maps/place/Consultorio+Dental+en+Lima+%7C+Cerca+de+Mi+%7C+Dra.+Andrea+Contreras/data=!4m7!3m6!1s0x9105c963224e8ec9:0x8e2ce3a844aa5451!8m2!3d-12.0782576!4d-77.0897076!16s%2Fg%2F11q4hhfjz2!19sChIJyY5OImPJBZERUVSqRKjjLI4"
     },
     {
       "id": "biz_10",
+      "name": "Centro Odontológico Neodentis",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Av. Angamos Este 140, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Centro+Odontol%C3%B3gico+Neodentis/data=!4m7!3m6!1s0x9105c81699773339:0xf3f68eb24febf79b!8m2!3d-12.1140113!4d-77.0294107!16s%2Fg%2F1vwlq5hv!19sChIJOTN3mRbIBZERm_frT7KO9vM"
+    },
+    {
+      "id": "biz_13",
       "name": "Clínica Dental Sonrie Más Lima | Odontología digital | Diseño de sonrisa | Implantes dentales | Prótesis",
       "rating": 4.9,
-      "reviewsCount": 64,
+      "reviewsCount": null,
       "category": "Clínica dental",
       "address": "Av. Canadá 3684, San Luis 15021",
-      "phone": "(01) 7151828",
-      "website": "https://www.clinicadentalsonriemaslima.com/",
-      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Sonrie+M%C3%A1s+Lima+%7C+Odontolog%C3%ADa+digital+%7C+Dise%C3%B1o+de+sonrisa+%7C+Implantes+dentales+%7C+Pr%C3%B3tesis/data=!4m7!3m6!1s0x9105c634703fd4bf:0xe79744194bbe5e92!8m2!3d-12.0804152!4d-76.9922957!16s%2Fg%2F11f4hl12w4!19sChIJv9Q_cDTGBZERkl6-SxlEl-c?hl=es",
-      "latitude": -12.0804152,
-      "longitude": -76.9922957
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Sonrie+M%C3%A1s+Lima+%7C+Odontolog%C3%ADa+digital+%7C+Dise%C3%B1o+de+sonrisa+%7C+Implantes+dentales+%7C+Pr%C3%B3tesis/data=!4m7!3m6!1s0x9105c634703fd4bf:0xe79744194bbe5e92!8m2!3d-12.0804152!4d-76.9922957!16s%2Fg%2F11f4hl12w4!19sChIJv9Q_cDTGBZERkl6-SxlEl-c"
+    },
+    {
+      "id": "biz_19",
+      "name": "FixiDent Clínica Dental",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Cerca a la municipalidad, Av. Santiago Antunez de Mayolo 859, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/FixiDent+Cl%C3%ADnica+Dental/data=!4m7!3m6!1s0x9105cf0038392def:0x17031514118ae8ba!8m2!3d-11.9925881!4d-77.071263!16s%2Fg%2F11y5q4pbrs!19sChIJ7y05OADPBZERuuiKERQVAxc"
+    },
+    {
+      "id": "biz_21",
+      "name": "Infinity Dental",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Jr. Medrano Silva 401, Barranco 15063",
+      "url": "https://www.google.com/maps/place/Infinity+Dental/data=!4m7!3m6!1s0x9105b7fc9bdc16b9:0x4fd1a084cd9b37c6!8m2!3d-12.1349202!4d-77.0200636!16s%2Fg%2F11c5632_pn!19sChIJuRbcm_y3BZERxjebzYSg0U8"
+    },
+    {
+      "id": "biz_22",
+      "name": "CLÍNICA DENTAL PARADISE - PUENTE NUEVO",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "LIMA, Av. 1ro de Mayo N° 3125, El Agustino 15006",
+      "url": "https://www.google.com/maps/place/CL%C3%8DNICA+DENTAL+PARADISE+-+PUENTE+NUEVO/data=!4m7!3m6!1s0x9105c53c02cb7745:0xc6f36534f6ae1857!8m2!3d-12.030453!4d-77.0001948!16s%2Fg%2F11pb7yntyx!19sChIJRXfLAjzFBZERVxiu9jRl88Y"
+    },
+    {
+      "id": "biz_23",
+      "name": "FixiDent Clínica Dental",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Cerca a la municipalidad, Av. Santiago Antunez de Mayolo 859, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/FixiDent+Cl%C3%ADnica+Dental/data=!4m7!3m6!1s0x9105cf0038392def:0x17031514118ae8ba!8m2!3d-11.992588!4d-77.071263!16s%2Fg%2F11y5q4pbrs!19sChIJ7y05OADPBZERuuiKERQVAxc"
+    },
+    {
+      "id": "biz_30",
+      "name": "Centro Dental Especializado BIODENTIST- sede cercado de Lima",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Av. Argentina 672, Lima 15079",
+      "url": "https://www.google.com/maps/place/Centro+Dental+Especializado+BIODENTIST-+sede+cercado+de+Lima/data=!4m7!3m6!1s0x9105c8d48c112f33:0xa43c946390c76021!8m2!3d-12.043722!4d-77.0504308!16s%2Fg%2F11svp8h9cs!19sChIJMy8RjNTIBZERIWDHkGOUPKQ"
+    },
+    {
+      "id": "biz_34",
+      "name": "Sonrisanas Clínica Dental en Lima | Implantes y Ortodoncia",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Jr. José Mariano Arce 117, Lima 15084",
+      "url": "https://www.google.com/maps/place/Sonrisanas+Cl%C3%ADnica+Dental+en+Lima+%7C+Implantes+y+Ortodoncia/data=!4m7!3m6!1s0x9105c978b9c36943:0x97ab5701d336f632!8m2!3d-12.0712779!4d-77.0617218!16s%2Fg%2F11j2ls962r!19sChIJQ2nDuXjJBZERMvY20wFXq5c"
+    },
+    {
+      "id": "biz_35",
+      "name": "Impacto Dental Jesús María | Diseño de Sonrisa | Ortodoncia | Implantes | Alineadores",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Jr. Huiracocha 1683, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Impacto+Dental+Jes%C3%BAs+Mar%C3%ADa+%7C+Dise%C3%B1o+de+Sonrisa+%7C+Ortodoncia+%7C+Implantes+%7C+Alineadores/data=!4m7!3m6!1s0x9105c8fb8da761c5:0xda2a144242413971!8m2!3d-12.0792663!4d-77.0500865!16s%2Fg%2F11b6nwgy4t!19sChIJxWGnjfvIBZERcTlBQkIUKto"
+    },
+    {
+      "id": "biz_36",
+      "name": "Clínica Dental en Surco - Plus Dental Care Boutique",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. Alejandro Velasco Astete 1429, Santiago de Surco 33",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+en+Surco+-+Plus+Dental+Care+Boutique/data=!4m7!3m6!1s0x9105c7c116f11e51:0xf0ab3a9a4d84f483!8m2!3d-12.1203962!4d-76.9844437!16s%2Fg%2F11clvp_pt4!19sChIJUR7xFsHHBZERg_SETZo6q_A"
+    },
+    {
+      "id": "biz_37",
+      "name": "Blue Smile | Clínica dental en Magdalena del Mar",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Gobierno Regional de, Jr.Leoncio Prado 1022, Magdalena del Mar LIMA 17",
+      "url": "https://www.google.com/maps/place/Blue+Smile+%7C+Cl%C3%ADnica+dental+en+Magdalena+del+Mar/data=!4m7!3m6!1s0x9105c9a730634567:0xa0891baf478856ee!8m2!3d-12.0882746!4d-77.071474!16s%2Fg%2F11ffncdzfw!19sChIJZ0VjMKfJBZER7laIR68biaA"
+    },
+    {
+      "id": "biz_41",
+      "name": "Clínica de Encías | Mal aliento e Implantes Dentales Lima",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Periodoncista de implantes dentales",
+      "address": "Jirón Monterrey N° 355, Lima 15038",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+de+Enc%C3%ADas+%7C+Mal+aliento+e+Implantes+Dentales+Lima/data=!4m7!3m6!1s0x9105c97eea4c9b1f:0xacafb0e64cc4c63b!8m2!3d-12.1126594!4d-76.9900926!16s%2Fg%2F11fkn2z9_w!19sChIJH5tM6n7JBZERO8bETOawr6w"
+    },
+    {
+      "id": "biz_45",
+      "name": "Clinica Dental Paradise - Marañón",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "+51, Av. Marañon 604, Los Olivos",
+      "url": "https://www.google.com/maps/place/Clinica+Dental+Paradise+-+Mara%C3%B1%C3%B3n/data=!4m7!3m6!1s0x9105d19d5108b273:0xe978093a8e6c4bcd!8m2!3d-11.9717458!4d-77.0710339!16s%2Fg%2F11p5grr2qy!19sChIJc7IIUZ3RBZERzUtsjjoJeOk"
+    },
+    {
+      "id": "biz_46",
+      "name": "AL Dental Clinic. Dentista - Clínica Odontológica",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Tomás Ramsey 930, Magdalena del Mar 15076",
+      "url": "https://www.google.com/maps/place/AL+Dental+Clinic.+Dentista+-+Cl%C3%ADnica+Odontol%C3%B3gica/data=!4m7!3m6!1s0x9105c915ac91b1fb:0x26838c847dcc0363!8m2!3d-12.092282!4d-77.0583465!16s%2Fg%2F11txsl3g8k!19sChIJ-7GRrBXJBZERYwPMfYSMgyY"
+    },
+    {
+      "id": "biz_50",
+      "name": "Consultorio Dental en Miraflores | Dra. Andrea Contreras",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Calle Porta 130, Miraflores 15046",
+      "url": "https://www.google.com/maps/place/Consultorio+Dental+en+Miraflores+%7C+Dra.+Andrea+Contreras/data=!4m7!3m6!1s0x9105c9a02a03a48f:0xd214f10b493c2766!8m2!3d-12.1230767!4d-77.031308!16s%2Fg%2F11vxxnpz3m!19sChIJj6QDKqDJBZERZic8SQvxFNI"
+    },
+    {
+      "id": "biz_52",
+      "name": "Clínica Dental LIMA",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. Gral. Juan Antonio Álvarez de Arenales 1245, Lima 15046",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+LIMA/data=!4m7!3m6!1s0x9105c91ff7deaea5:0xed29278303a8990d!8m2!3d-12.0773584!4d-77.0364868!16s%2Fg%2F11pvgf23rj!19sChIJpa7e9x_JBZERDZmoA4MnKe0"
+    },
+    {
+      "id": "biz_56",
+      "name": "Dental Smile",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Av. Caminos del Inca 3257, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Dental+Smile/data=!4m7!3m6!1s0x9105b86c91e0e95f:0x5c757b6a5044f803!8m2!3d-12.144003!4d-76.9851048!16s%2Fg%2F11g7cs_n92!19sChIJX-ngkWy4BZERA_hEUGp7dVw"
+    },
+    {
+      "id": "biz_81",
+      "name": "Impacto Dental Los Olivos | Ortodoncia y Estetica | Carillas | Implantes | Prótesis",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Mz Q Lt 5, C. Campanitas, Los Olivos 15304",
+      "url": "https://www.google.com/maps/place/Impacto+Dental+Los+Olivos+%7C+Ortodoncia+y+Estetica+%7C+Carillas+%7C+Implantes+%7C+Pr%C3%B3tesis/data=!4m7!3m6!1s0x9105ce69f9ae58eb:0x92deec80aeefc6d6!8m2!3d-11.9817344!4d-77.0800514!16s%2Fg%2F11ffw4qbm8!19sChIJ61iu-WnOBZER1sbvroDs3pI"
+    },
+    {
+      "id": "biz_90",
+      "name": "CLINICA SUELDO MEDICAL DENT",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "898 A WW5J+X34 Avenida Antonio José de Sucre 898 A 017, Magdalena del Mar 15086, Magdalena del Mar 15076",
+      "url": "https://www.google.com/maps/place/CLINICA+SUELDO+MEDICAL+DENT/data=!4m7!3m6!1s0x9105c959fc4f6ded:0x9dd323abdd9846f5!8m2!3d-12.0901206!4d-77.0697658!16s%2Fg%2F11ls67t66k!19sChIJ7W1P_FnJBZER9UaY3asj050"
+    },
+    {
+      "id": "biz_91",
+      "name": "Centro Odontologico Digital Melident - Sede Principal Jesus Maria",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. Gral. Eugenio Garzón 1283, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Centro+Odontologico+Digital+Melident+-+Sede+Principal+Jesus+Maria/data=!4m7!3m6!1s0x9105c8e4855c8221:0x381e22cbde122477!8m2!3d-12.0727873!4d-77.0499528!16s%2Fg%2F11c16cp21l!19sChIJIYJcheTIBZERdyQS3ssiHjg"
+    },
+    {
+      "id": "biz_92",
+      "name": "Todoortodoncia Lima",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. José Larco 345, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Todoortodoncia+Lima/data=!4m7!3m6!1s0x9105c8670b4abc03:0x5dea07fdcab84998!8m2!3d-12.1208759!4d-77.0287846!16s%2Fg%2F11g6bk7bf4!19sChIJA7xKC2fIBZERmEm4yv0H6l0"
+    },
+    {
+      "id": "biz_94",
+      "name": "🔶️Clínica de las Sonrisas - Implantes dentales, Brackets y Diseño de Sonrisa en Lima Norte",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Ortodoncista",
+      "address": "Av. Alfredo Mendiola 7741, Los Olivos 15307",
+      "url": "https://www.google.com/maps/place/%F0%9F%94%B6%EF%B8%8FCl%C3%ADnica+de+las+Sonrisas+-+Implantes+dentales,+Brackets+y+Dise%C3%B1o+de+Sonrisa+en+Lima+Norte/data=!4m7!3m6!1s0x9105d188f131eae1:0xdc4b2b251e7a7d07!8m2!3d-11.9400353!4d-77.0721627!16s%2Fg%2F11gjmq1m93!19sChIJ4eox8YjRBZERB316HiUrS9w"
+    },
+    {
+      "id": "biz_96",
+      "name": "Dental Lima Norte",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. las Violetas 118, Independencia 15102",
+      "url": "https://www.google.com/maps/place/Dental+Lima+Norte/data=!4m7!3m6!1s0x9105cf03280486d1:0xcc9fa92d2992cace!8m2!3d-12.0077562!4d-77.05345!16s%2Fg%2F11b6h_3bnr!19sChIJ0YYEKAPPBZERzsqSKS2pn8w"
+    },
+    {
+      "id": "biz_6",
+      "name": "Solución Dental | Especialistas en Ortodoncia",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Ortodoncista",
+      "address": "Av. Arequipa 1860, Lince 15046",
+      "url": "https://www.google.com/maps/place/Soluci%C3%B3n+Dental+%7C+Especialistas+en+Ortodoncia/data=!4m7!3m6!1s0x9105c8f37c6ab963:0x30acb1a83bda6dde!8m2!3d-12.0831236!4d-77.0348347!16s%2Fg%2F1tffkvly!19sChIJY7lqfPPIBZER3m3aO6ixrDA"
+    },
+    {
+      "id": "biz_14",
+      "name": "Multident San Miguel",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "C. Laureano Martínez 160, Lima 15086",
+      "url": "https://www.google.com/maps/place/Multident+San+Miguel/data=!4m7!3m6!1s0x9105c972d88fd0bd:0x42d4d010c5871895!8m2!3d-12.0792586!4d-77.0804166!16s%2Fg%2F1hc42jgz6!19sChIJvdCP2HLJBZERlRiHxRDQ1EI"
+    },
+    {
+      "id": "biz_15",
+      "name": "Clínica dental Truedent sede La Victoria",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Parque Unión Panamericana 178, La Victoria 15034",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+dental+Truedent+sede+La+Victoria/data=!4m7!3m6!1s0x9105c88f430bd525:0x4a3528a5c582ad50!8m2!3d-12.0784!4d-77.022802!16s%2Fg%2F11cmpkk396!19sChIJJdULQ4_IBZERUK2CxaUoNUo"
+    },
+    {
+      "id": "biz_20",
+      "name": "Atracción Dental | Clínica Dental en Lima & Urgencias & Implantes & Alineadores Invisibles & Blanqueamiento & Brackets",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Cnel. Ernesto Odriozola 178, Lima 15084",
+      "url": "https://www.google.com/maps/place/Atracci%C3%B3n+Dental+%7C+Cl%C3%ADnica+Dental+en+Lima+%26+Urgencias+%26+Implantes+%26+Alineadores+Invisibles+%26+Blanqueamiento+%26+Brackets/data=!4m7!3m6!1s0x9105c9012a15326b:0xfb4eb374e4c42222!8m2!3d-12.0836634!4d-77.0619667!16s%2Fg%2F11fzvypqh1!19sChIJazIVKgHJBZERIiLE5HSzTvs"
+    },
+    {
+      "id": "biz_38",
+      "name": "Clínica Dental CEDENT",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Jirón Huaraz 1123, Breña 15083",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+CEDENT/data=!4m7!3m6!1s0x9105c8dd26ab653f:0xe98e5890ddc2b289!8m2!3d-12.0613257!4d-77.0459987!16s%2Fg%2F11b6j5hyrh!19sChIJP2WrJt3IBZERibLC3ZBYjuk"
+    },
+    {
+      "id": "biz_40",
+      "name": "Clinica Dental Dorthon",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Av. del Pinar 110, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Clinica+Dental+Dorthon/data=!4m7!3m6!1s0x9105c7ec8b862e29:0xda29e5d6855926f8!8m2!3d-12.1125729!4d-76.9892595!16s%2Fg%2F1td2nk6z!19sChIJKS6Gi-zHBZER-CZZhdblKdo"
+    },
+    {
+      "id": "biz_44",
+      "name": "Sonrise Clinica Odontologica",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av Tejada 536, Lima 15047",
+      "url": "https://www.google.com/maps/place/Sonrise+Clinica+Odontologica/data=!4m7!3m6!1s0x9105b7fd12d2fa45:0xf8126a2075be2944!8m2!3d-12.1311376!4d-77.019707!16s%2Fg%2F11cn9x83gl!19sChIJRfrSEv23BZERRCm-dSBqEvg"
+    },
+    {
+      "id": "biz_49",
+      "name": "Clínica Dental Hada Los Olivos",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "C. Orión 340, Lima 15301",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Hada+Los+Olivos/data=!4m7!3m6!1s0x9105ce5969fcfa57:0x17443eae708676b1!8m2!3d-11.993404!4d-77.072188!16s%2Fg%2F11f7169krz!19sChIJV_r8aVnOBZERsXaGcK4-RBc"
+    },
+    {
+      "id": "biz_51",
+      "name": "Élite Dental Centro Odontológico",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. Los Quechuas 627, Lima 15022",
+      "url": "https://www.google.com/maps/place/%C3%89lite+Dental+Centro+Odontol%C3%B3gico/data=!4m7!3m6!1s0x9105c648f096362b:0x7cb0634343e5a153!8m2!3d-12.0745526!4d-76.9833515!16s%2Fg%2F1tfyfmyp!19sChIJKzaW8EjGBZERU6HlQ0NjsHw"
+    },
+    {
+      "id": "biz_54",
+      "name": "Clínica Dental DENTAL PLUS",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Av. Marañon 637, Los Olivos 15304",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+DENTAL+PLUS/data=!4m7!3m6!1s0x9105ce39164d6683:0xaf222cd0aa453ab1!8m2!3d-11.9722507!4d-77.0713183!16s%2Fg%2F11b6q46r50!19sChIJg2ZNFjnOBZERsTpFqtAsIq8"
+    },
+    {
+      "id": "biz_60",
+      "name": "Mi Dentista Perú - Brackets y Diseño de Sonrisa",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Calle Nicanor Rocca de Vergallo 493, Magdalena del Mar 15076",
+      "url": "https://www.google.com/maps/place/Mi+Dentista+Per%C3%BA+-+Brackets+y+Dise%C3%B1o+de+Sonrisa/data=!4m7!3m6!1s0x9105c92c19aaeeb7:0xd20be0f2bfef79b0!8m2!3d-12.0911751!4d-77.0570065!16s%2Fg%2F11kqr_zrlk!19sChIJt-6qGSzJBZERsHnvv_LgC9I"
+    },
+    {
+      "id": "biz_61",
+      "name": "Clínica Dental Cardoso",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Av. Santiago Antunez de Mayolo 898, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Cardoso/data=!4m7!3m6!1s0x9105cf1160e4b5b1:0x5d5d2effac53b321!8m2!3d-11.9935328!4d-77.0719008!16s%2Fg%2F11gvs5nn32!19sChIJsbXkYBHPBZERIbNTrP8uXV0"
+    },
+    {
+      "id": "biz_62",
+      "name": "Clínica Odontológica Especializada Maxsalud",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. Gral. Juan Antonio Álvarez de Arenales 628, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Odontol%C3%B3gica+Especializada+Maxsalud/data=!4m7!3m6!1s0x9105c975741ccb01:0xcecac7092f60f600!8m2!3d-12.0707922!4d-77.0378043!16s%2Fg%2F11r9v3_xs5!19sChIJAcscdHXJBZERAPZgLwnHys4"
+    },
+    {
+      "id": "biz_63",
+      "name": "Dentista en Miraflores - Lima -Odontodigital",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Ca. Schell 319, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Dentista+en+Miraflores+-+Lima+-Odontodigital/data=!4m7!3m6!1s0x9105c8196f5426a7:0xbd5b7838807f4fbb!8m2!3d-12.1228678!4d-77.028906!16s%2Fg%2F11b6dm3vyq!19sChIJpyZUbxnIBZERu09_gDh4W70"
+    },
+    {
+      "id": "biz_64",
+      "name": "Dental \"San Norberto\"",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "C. Remigio Garcia 740, Lima 15034",
+      "url": "https://www.google.com/maps/place/Dental+%22San+Norberto%22/data=!4m7!3m6!1s0x9105c87d7777cb39:0xaec798b6e8ddf7a5!8m2!3d-12.085804!4d-77.0192365!16s%2Fg%2F11dxm9h6x2!19sChIJOct3d33IBZERpffd6LaYx64"
+    },
+    {
+      "id": "biz_67",
+      "name": "Clinica Dental InNova",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Av. Samuel Alcázar 314, Lima 15093",
+      "url": "https://www.google.com/maps/place/Clinica+Dental+InNova/data=!4m7!3m6!1s0x9105cf48bf5a4d09:0xd1e11a6353a2279!8m2!3d-12.0308622!4d-77.0287764!16s%2Fg%2F11gty_31hy!19sChIJCU1av0jPBZEReSI6NaYRHg0"
+    },
+    {
+      "id": "biz_76",
+      "name": "COT DENT Magdalena - Centro Odontologico",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Magdalena del Mar 15086",
+      "url": "https://www.google.com/maps/place/COT+DENT+Magdalena+-+Centro+Odontologico/data=!4m7!3m6!1s0x9105c9a5d55a20eb:0xbbe2a381c111b4fd!8m2!3d-12.0941195!4d-77.0712353!16s%2Fg%2F11c6cgt49l!19sChIJ6yBa1aXJBZER_bQRwYGj4rs"
+    },
+    {
+      "id": "biz_83",
+      "name": "Clínica Dental Jesús María | Odonthopolis | Estética dental | Rehabilitación | Brackets",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av Horacio Urteaga 1292, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Jes%C3%BAs+Mar%C3%ADa+%7C+Odonthopolis+%7C+Est%C3%A9tica+dental+%7C+Rehabilitaci%C3%B3n+%7C+Brackets/data=!4m7!3m6!1s0x9105c9689b5a5883:0x316d787816caa56f!8m2!3d-12.074029!4d-77.048659!16s%2Fg%2F11t2cp25tv!19sChIJg1ham2jJBZERb6XKFnh4bTE"
+    },
+    {
+      "id": "biz_85",
+      "name": "The dental clinic & GT Concept Asociados",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Torre del Park II, Av. Alfredo Benavides 1579, Miraflores 15048",
+      "url": "https://www.google.com/maps/place/The+dental+clinic+%26+GT+Concept+Asociados/data=!4m7!3m6!1s0x9105c950dc94f599:0x6fe6cef2848c7838!8m2!3d-12.1262906!4d-77.0165013!16s%2Fg%2F11s4t4r_t8!19sChIJmfWU3FDJBZEROHiMhPLO5m8"
+    },
+    {
+      "id": "biz_93",
+      "name": "Dental Shine | Lima",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Espalda de Vivanda, Jirón el Alamo 289, Santiago de Surco 07001",
+      "url": "https://www.google.com/maps/place/Dental+Shine+%7C+Lima/data=!4m7!3m6!1s0x9105c7e28b0cda97:0xcaeb5cf4f8f31298!8m2!3d-12.1082393!4d-76.9718129!16s%2Fg%2F11n2zcrzw3!19sChIJl9oMi-LHBZERmBLz-PRc68o"
+    },
+    {
+      "id": "biz_95",
+      "name": "Od3 Clínicas Odontólogicas | San Miguel",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Ca. Ucayali 143, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/Od3+Cl%C3%ADnicas+Odont%C3%B3logicas+%7C+San+Miguel/data=!4m7!3m6!1s0x9105c96da4e0a609:0x5da43697071a2313!8m2!3d-12.0749235!4d-77.083168!16s%2Fg%2F1yhbksn2f!19sChIJCabgpG3JBZEREyMaB5c2pF0"
+    },
+    {
+      "id": "biz_24",
+      "name": "Smiles Peru",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. José Pardo 551, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Smiles+Peru/data=!4m7!3m6!1s0x9105c822b340c73f:0x8bd165bdf7ce3428!8m2!3d-12.1193241!4d-77.0343539!16s%2Fg%2F1tm13ny5!19sChIJP8dAsyLIBZERKDTO971l0Ys"
+    },
+    {
+      "id": "biz_43",
+      "name": "Centro Odontológico ASIS DENT",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Av. Abancay 256, Lima 15001",
+      "url": "https://www.google.com/maps/place/Centro+Odontol%C3%B3gico+ASIS+DENT/data=!4m7!3m6!1s0x9105c8b139f1df7f:0xdfb379bd1786c04e!8m2!3d-12.0477799!4d-77.0270371!16s%2Fg%2F1q64c03bw!19sChIJf9_xObHIBZERTsCGF715s98"
+    },
+    {
+      "id": "biz_57",
+      "name": "DENTUM - Clínica Dental, Brackets, Ortodoncia, Odontólogos, INVISALIGN, Dentistas, Curaciones Dentales en Niños, Jesús María",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. Gral. Eugenio Garzón 1438, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/DENTUM+-+Cl%C3%ADnica+Dental,+Brackets,+Ortodoncia,+Odont%C3%B3logos,+INVISALIGN,+Dentistas,+Curaciones+Dentales+en+Ni%C3%B1os,+Jes%C3%BAs+Mar%C3%ADa/data=!4m7!3m6!1s0x9105c967525b6615:0x98a9b69d6b2844a!8m2!3d-12.0743224!4d-77.0515027!16s%2Fg%2F11fd70rnj0!19sChIJFWZbUmfJBZERSoSy1mmbigk"
+    },
+    {
+      "id": "biz_58",
+      "name": "Clinica Dental Santa Anita",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Juan Guillermo Moore 263, Lima 15008",
+      "url": "https://www.google.com/maps/place/Clinica+Dental+Santa+Anita/data=!4m7!3m6!1s0x9105c67ae946fa47:0x49ec1111b378ca99!8m2!3d-12.0474855!4d-76.9739984!16s%2Fg%2F11b7v8fn30!19sChIJR_pG6XrGBZERmcp4sxER7Ek"
+    },
+    {
+      "id": "biz_80",
+      "name": "DIAMO DENTAL Consultorio Odontológico Especializado",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Jr. Santiago Martinez Cornejo 551, Lima 15102",
+      "url": "https://www.google.com/maps/place/DIAMO+DENTAL+Consultorio+Odontol%C3%B3gico+Especializado/data=!4m7!3m6!1s0x9105cf21bc556065:0xfe88dcd1807f3878!8m2!3d-12.0213294!4d-77.0523433!16s%2Fg%2F11gbzc6703!19sChIJZWBVvCHPBZEReDh_gNHciP4"
+    },
+    {
+      "id": "biz_82",
+      "name": "INSPIRIT CLINICA DENTAL - Sede Bolognesi",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Av. Alfonso Ugarte 1454, Lima 15083",
+      "url": "https://www.google.com/maps/place/INSPIRIT+CLINICA+DENTAL+-+Sede+Bolognesi/data=!4m7!3m6!1s0x9105c9af6a803dad:0x88f7326b04b7da5d!8m2!3d-12.0590647!4d-77.0419117!16s%2Fg%2F11ryt26vf_!19sChIJrT2Aaq_JBZERXdq3BGsy94g"
+    },
+    {
+      "id": "biz_47",
+      "name": "Clínica Dental Flores",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Centauro 177, Lima 15023",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Flores/data=!4m7!3m6!1s0x9105c7ac30930015:0x8db802e5f127e10a!8m2!3d-12.0874453!4d-76.9724234!16s%2Fg%2F1tflbqhq!19sChIJFQCTMKzHBZERCuEn8eUCuI0"
+    },
+    {
+      "id": "biz_74",
+      "name": "Centro Dental Sandoval",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Jiron Teniente, Distrito, Urb, Jr. Teniente Arístides del Carpio 1350, Lima 15081",
+      "url": "https://www.google.com/maps/place/Centro+Dental+Sandoval/data=!4m7!3m6!1s0x9105c937a3fa036b:0xcd945408e3e8d1bb!8m2!3d-12.0523579!4d-77.0771108!16s%2Fg%2F11bx5tss4v!19sChIJawP6ozfJBZERu9Ho4whUlM0"
+    },
+    {
+      "id": "biz_84",
+      "name": "Clínica Dental Miller",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Jr. Mrcal. William Miller 1758, Lince 15073",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Miller/data=!4m7!3m6!1s0x9105c8f44f37396d:0xbbf12b98b22962ee!8m2!3d-12.0824237!4d-77.0373547!16s%2Fg%2F11b6nnxvgf!19sChIJbTk3T_TIBZER7mIpspgr8bs"
+    },
+    {
+      "id": "biz_79",
+      "name": "Clínica Dental Perudent E.I.R.L.",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Clínica dental",
+      "address": "Ca. Emilio Fernández 174, Lima 15046",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Perudent+E.I.R.L./data=!4m7!3m6!1s0x9105c8ed9c447be7:0xcaa67b2b5ccb7f40!8m2!3d-12.0735987!4d-77.0365545!16s%2Fg%2F11fd4r6h7b!19sChIJ53tEnO3IBZERQH_LXCt7pso"
+    },
+    {
+      "id": "biz_12",
+      "name": "Clinica Dental Krebs",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "C. Baltazar La Torre 380, San Isidro 15076",
+      "url": "https://www.google.com/maps/place/Clinica+Dental+Krebs/data=!4m7!3m6!1s0x9105c8525f55e055:0x790fdee473913035!8m2!3d-12.0956462!4d-77.0534106!16s%2Fg%2F1vxzbpmb!19sChIJVeBVX1LIBZERNTCRc-TeD3k"
+    },
+    {
+      "id": "biz_98",
+      "name": "CERDENT - Sede San Isidro",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Ca. Almirante Lord Cochrane 240, Lima 15073",
+      "url": "https://www.google.com/maps/place/CERDENT+-+Sede+San+Isidro/data=!4m7!3m6!1s0x9105c952533c9d2f:0x986a98a79ef956d7!8m2!3d-12.1084117!4d-77.039332!16s%2Fg%2F1yj4k42n5!19sChIJL508U1LJBZER11b5nqeYapg"
+    },
+    {
+      "id": "biz_73",
+      "name": "Clinica Dental Biodentix",
+      "rating": 3.8,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Av. Angélica Gamarra 320, Los Olivos 15302",
+      "url": "https://www.google.com/maps/place/Clinica+Dental+Biodentix/data=!4m7!3m6!1s0x9105cfe03af0400f:0x1a9f5cd1e59a8c6f!8m2!3d-12.00457!4d-77.0642466!16s%2Fg%2F11nnqb4nwp!19sChIJD0DwOuDPBZERb4ya5dFcnxo"
+    },
+    {
+      "id": "biz_2",
+      "name": "Clínica Ricardo Palma",
+      "rating": 3.5,
+      "reviewsCount": null,
+      "category": "Clínica especializada",
+      "address": "Av. Javier Prado Este 1066, San Isidro 15036",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Ricardo+Palma/data=!4m7!3m6!1s0x9105c87b8819d459:0x6da256a012fc08ab!8m2!3d-12.090602!4d-77.018276!16s%2Fg%2F1hm6gs93b!19sChIJWdQZiHvIBZERqwj8EqBWom0"
+    },
+    {
+      "id": "biz_31",
+      "name": "Clínica Dental Sonrisa Perú",
+      "rating": 2.6,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "LM-119, Distrito de Lima 15594",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Sonrisa+Per%C3%BA/data=!4m7!3m6!1s0x9105c0f955989127:0x5cf2c8453a82d4d!8m2!3d-12.0840359!4d-76.8777803!16s%2Fg%2F11ggzw1xf9!19sChIJJ5GYVfnABZERTS2oU4QszwU"
+    },
+    {
+      "id": "biz_100",
+      "name": "Clínica Dental Dentus",
+      "rating": 2.3,
+      "reviewsCount": null,
+      "category": "Dentista",
+      "address": "Av. Perú 2466, Lima 15101",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Dentus/data=!4m7!3m6!1s0x9105cecf5f4a1de9:0xb882e4dd02f5579f!8m2!3d-12.0315139!4d-77.0724626!16s%2Fg%2F11f11ynrft!19sChIJ6R1KX8_OBZERn1f1At3kgrg"
     }
   ]
 }
