@@ -1,22 +1,15 @@
-import { Star, MapPin, Phone, MessageSquare, Globe, ExternalLink, ShieldCheck } from 'lucide-react';
+import { Star, MapPin, Phone, Globe, ExternalLink, ShieldCheck } from 'lucide-react';
 
 export default function BusinessCard({ business, rank }) {
   // Limpieza de teléfono para enlace de WhatsApp
   const rawPhone = business.phone || '';
-  const cleanDigits = rawPhone.replace(/\D/g, '');
-  
-  // Si empieza con 9 y tiene 9 dígitos (celular Perú), agregamos código de país 51
-  let waNumber = '';
-  if (cleanDigits.length === 9 && cleanDigits.startsWith('9')) {
-    waNumber = `51${cleanDigits}`;
-  } else if (cleanDigits.startsWith('51') && cleanDigits.length === 11) {
-    waNumber = cleanDigits;
-  }
-
-  const waMessage = encodeURIComponent(
-    `Hola ${business.name}, vi su ficha en todolima.com y quisiera solicitar informes y disponibilidad.`
-  );
-  const waLink = waNumber ? `https://wa.me/${waNumber}?text=${waMessage}` : null;
+  const normalizedWhatsAppNumber = rawPhone
+    .replace(/\D/g, '')
+    .replace(/^0+/, '')
+    .replace(/^(?!51)(\d{9})$/, '51$1');
+  const waLink = normalizedWhatsAppNumber
+    ? `https://wa.me/${normalizedWhatsAppNumber}?text=${encodeURIComponent('Hola, vi su perfil destacado como uno de los especialistas mejor calificados en el directorio y me gustaría realizar una consulta.')}`
+    : null;
   const telLink = rawPhone ? `tel:${rawPhone.replace(/\s+/g, '')}` : null;
 
   return (
@@ -41,13 +34,28 @@ export default function BusinessCard({ business, rank }) {
             </span>
           </div>
 
-          {business.rating && (
-            <div className="flex items-center gap-1.5 bg-amber-50 border border-amber-200 px-2.5 py-1 rounded-xl shrink-0">
-              <Star className="w-4 h-4 text-amber-500 fill-amber-500" />
-              <span className="font-extrabold text-sm text-slate-900">{business.rating}</span>
-              <span className="text-xs text-slate-500 font-medium">({business.reviewsCount ?? 0})</span>
-            </div>
-          )}
+          <div className="flex flex-col items-end shrink-0">
+            {business.rating && (
+              <div className="flex items-center gap-1.5 bg-amber-50 border border-amber-200 px-2.5 py-1 rounded-xl">
+                <Star className="w-4 h-4 text-amber-500 fill-amber-500" />
+                <span className="font-extrabold text-sm text-slate-900">{business.rating}</span>
+                <span className="text-xs text-slate-500 font-medium">({business.reviewsCount ?? 0})</span>
+              </div>
+            )}
+
+            {waLink ? (
+              <a
+                href={waLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-green-500 hover:bg-green-600 text-white font-bold py-2 mt-3 px-4 rounded-lg transition-colors text-sm shadow-sm w-full"
+              >
+                📱 Chatear por WhatsApp
+              </a>
+            ) : (
+              <span className="block mt-3 text-xs text-gray-400">Sin número registrado</span>
+            )}
+          </div>
         </div>
 
         {/* Nombre del Negocio */}
@@ -79,18 +87,6 @@ export default function BusinessCard({ business, rank }) {
 
       {/* Botones de Contacto Inmediato (WhatsApp & Llamada) */}
       <div className="mt-6 pt-5 border-t border-slate-100 flex flex-col sm:flex-row gap-2.5">
-        {waLink ? (
-          <a
-            href={waLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm py-2.5 px-4 rounded-xl shadow-sm hover:shadow transition-all"
-          >
-            <MessageSquare className="w-4 h-4 fill-white" />
-            <span>Chatear por WhatsApp</span>
-          </a>
-        ) : null}
-
         {telLink && (
           <a
             href={telLink}
