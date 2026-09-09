@@ -12,17 +12,44 @@
     "address": "Av. Garcilaso de la Vega 732, Lima 15001",
     "url": "https://www.google.com/maps/place/Estudio+Juridico+Nexa/data=!4m7!3m6!1s0x89210298137f2ba7:0x954333983c4af696!8m2!3d-12.0493632!4d-77.0391294!16s%2Fg%2F11z3ltfrw3!19sChIJpyt_E5gCIYkRlvZKPJgzQ5U"
   },
-  "pageContent": {
-    "headline": "Los Mejores Expertos en ABOGADOS en Lima: Conoce a Estudio Juridico Nexa",
-    "subtitles": [
-      "Garantiza resultados hoy mismo. Ubicados en Av. Garcilaso de la Vega 732, Lima 15001, destacan como la opción número uno validada por usuarios reales.",
-      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
-    ],
-    "ctas": [
-      "Contactar por WhatsApp Ahora",
-      "Ver Directorio Completo"
-    ]
-  },
+  "pageContent": [
+    {
+      "id": "urgencia",
+      "headline": "¿Problemas urgentes? Encuentra ABOGADOS en Lima en menos de 15 Minutos",
+      "subtitles": [
+        "No dejes tu necesidad al azar ni pierdas semanas buscando referencias en la ciudad.",
+        "Garantiza resultados rápidos con especialistas validados. Destaca Estudio Juridico Nexa ubicado en Av. Garcilaso de la Vega 732, Lima 15001."
+      ],
+      "ctas": [
+        "Contactar al Especialista por WhatsApp",
+        "Ver Directorio Inmediato"
+      ]
+    },
+    {
+      "id": "autoridad",
+      "headline": "El Directorio Definitivo: El Top 1% de ABOGADOS Validados en Lima",
+      "subtitles": [
+        "Contratar un servicio es una decisión crítica. Tomar una decisión equivocada sale muy caro.",
+        "Filtramos los negocios con mayor tasa de éxito. Conecta directo con líderes como Estudio Juridico Nexa (⭐ 5 estrellas)."
+      ],
+      "ctas": [
+        "Chatear con un Experto",
+        "Explorar Ranking de Especialistas"
+      ]
+    },
+    {
+      "id": "prueba-social",
+      "headline": "Protege tu Inversión con los ABOGADOS Más Recomendados de Lima",
+      "subtitles": [
+        "Cientos de clientes en Lima ya validaron a estos profesionales. No seas el conejillo de indias de nadie.",
+        "Habla hoy mismo y sin intermediarios con los expertos mejor reseñados en Google Maps."
+      ],
+      "ctas": [
+        "Solicitar Evaluación Gratis",
+        "Ver Reseñas Verificadas"
+      ]
+    }
+  ],
   "businesses": [
     {
       "id": "biz_9",

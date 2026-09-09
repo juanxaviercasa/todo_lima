@@ -1,8 +1,8 @@
 {
   "category": "gasfiteros",
   "searchQuery": "gasfiteros a domicilio en Lima",
-  "totalResults": 24,
-  "updatedAt": "2026-09-09T18:02:27.899Z",
+  "totalResults": 81,
+  "updatedAt": "2026-09-09T20:41:43.487Z",
   "topBusinessContext": {
     "id": "biz_10",
     "name": "Gasfiteros Unidos Peru",
@@ -12,20 +12,359 @@
     "address": "C. Alfonso Ugarte 357, Miraflores 15074",
     "url": "https://www.google.com/maps/place/Gasfiteros+Unidos+Peru/data=!4m7!3m6!1s0x9105c9006f0d50b9:0xc0ccb6f185bc6fac!8m2!3d-12.1170189!4d-77.026814!16s%2Fg%2F11vq_l837y!19sChIJuVANbwDJBZERrG-8hfG2zMA"
   },
-  "pageContent": {
-    "headline": "Los Mejores Expertos en GASFITEROS en Lima: Conoce a Gasfiteros Unidos Peru",
-    "subtitles": [
-      "Garantiza resultados hoy mismo. Ubicados en C. Alfonso Ugarte 357, Miraflores 15074, destacan como la opción número uno validada por usuarios reales.",
-      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
-    ],
-    "ctas": [
-      "Contactar por WhatsApp Ahora",
-      "Ver Directorio Completo"
-    ]
-  },
+  "pageContent": [
+    {
+      "id": "urgencia",
+      "headline": "¿Problemas urgentes? Encuentra GASFITEROS en Lima en menos de 15 Minutos",
+      "subtitles": [
+        "No dejes tu necesidad al azar ni pierdas semanas buscando referencias en la ciudad.",
+        "Garantiza resultados rápidos con especialistas validados. Destaca Gasfiteros Unidos Peru ubicado en C. Alfonso Ugarte 357, Miraflores 15074."
+      ],
+      "ctas": [
+        "Contactar al Especialista por WhatsApp",
+        "Ver Directorio Inmediato"
+      ]
+    },
+    {
+      "id": "autoridad",
+      "headline": "El Directorio Definitivo: El Top 1% de GASFITEROS Validados en Lima",
+      "subtitles": [
+        "Contratar un servicio es una decisión crítica. Tomar una decisión equivocada sale muy caro.",
+        "Filtramos los negocios con mayor tasa de éxito. Conecta directo con líderes como Gasfiteros Unidos Peru (⭐ 5 estrellas)."
+      ],
+      "ctas": [
+        "Chatear con un Experto",
+        "Explorar Ranking de Especialistas"
+      ]
+    },
+    {
+      "id": "prueba-social",
+      "headline": "Protege tu Inversión con los GASFITEROS Más Recomendados de Lima",
+      "subtitles": [
+        "Cientos de clientes en Lima ya validaron a estos profesionales. No seas el conejillo de indias de nadie.",
+        "Habla hoy mismo y sin intermediarios con los expertos mejor reseñados en Google Maps."
+      ],
+      "ctas": [
+        "Solicitar Evaluación Gratis",
+        "Ver Reseñas Verificadas"
+      ]
+    }
+  ],
   "businesses": [
     {
+      "id": "biz_1",
+      "name": "Gasfitería y Servicios Generales",
+      "rating": 4.8,
+      "reviewsCount": 4848,
+      "category": "Fontanero",
+      "address": "Pueblo Libre 15084",
+      "phone": "tel:950519574",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gasfiter%C3%ADa+y+Servicios+Generales/data=!4m7!3m6!1s0x9105c9ea82a7c01b:0x53e2358e1f41a243!8m2!3d-12.0796866!4d-77.0762692!16s%2Fg%2F11k3z834nl!19sChIJG8CngurJBZERQ6JBH4414lM?hl=es",
+      "latitude": -12.0796866,
+      "longitude": -77.0762692
+    },
+    {
+      "id": "biz_2",
+      "name": "Gasfiteros Integrales",
+      "rating": 4,
+      "reviewsCount": 4012,
+      "category": "Servicio de instalación eléctrica",
+      "address": "Av. La República 239, Santiago de Surco 15023",
+      "phone": "tel:014891892",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gasfiteros+Integrales/data=!4m7!3m6!1s0x9105c7bcc6395555:0xe806a3c36d70b535!8m2!3d-12.1013739!4d-76.976615!16s%2Fg%2F11rcyzpp12!19sChIJVVU5xrzHBZERNbVwbcOjBug?hl=es",
+      "latitude": -12.1013739,
+      "longitude": -76.976615
+    },
+    {
+      "id": "biz_3",
+      "name": "Gasfitería & Servicios Generales Santos Medina",
+      "rating": 5,
+      "reviewsCount": 504,
+      "category": "Contratista general",
+      "address": "Sta. Rosa 151, Surquillo 15047",
+      "phone": "tel:999617283",
+      "website": "https://www.paginasamarillas.com.pe/empresas/gasfiteria-y-servicios-generales-santos-medina/surquillo-PE18676",
+      "url": "https://www.google.com/maps/place/Gasfiter%C3%ADa+%26+Servicios+Generales+Santos+Medina/data=!4m7!3m6!1s0x9105c917bec1e5d1:0xa28cd68eab1cf57b!8m2!3d-12.118664!4d-77.0236492!16s%2Fg%2F11vqrrlgrz!19sChIJ0eXBvhfJBZERe_Ucq47WjKI?hl=es",
+      "latitude": -12.118664,
+      "longitude": -77.0236492
+    },
+    {
+      "id": "biz_4",
+      "name": "MAESTROS, PINTORES Y GASFITEROS",
+      "rating": 5,
+      "reviewsCount": 502,
+      "category": "Oficinas de empresa",
+      "address": "Jr. Este 4350-4488, Lima 15416",
+      "phone": "tel:966450588",
+      "website": null,
+      "url": "https://www.google.com/maps/place/MAESTROS,+PINTORES+Y+GASFITEROS/data=!4m7!3m6!1s0x9105c57b2b2d0991:0x4ad4b0390305e3b4!8m2!3d-11.9582241!4d-76.9854562!16s%2Fg%2F11h1djh04c!19sChIJkQktK3vFBZERtOMFAzmw1Eo?hl=es",
+      "latitude": -11.9582241,
+      "longitude": -76.9854562
+    },
+    {
+      "id": "biz_5",
+      "name": "Gasfiteros Express",
+      "rating": 5,
+      "reviewsCount": 501,
+      "category": "Servicio de envíos",
+      "address": "Jr. Pelitres 2346, San Juan de Lurigancho 15419",
+      "phone": "tel:981081899",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gasfiteros+Express/data=!4m7!3m6!1s0x9105cf7fe6952279:0x22792e772811f0e8!8m2!3d-11.9925175!4d-77.0116883!16s%2Fg%2F11fmlddm46!19sChIJeSKV5n_PBZER6PARKHcueSI?hl=es",
+      "latitude": -11.9925175,
+      "longitude": -77.0116883
+    },
+    {
+      "id": "biz_6",
+      "name": "Gasfiteros gasfiteria Willy",
+      "rating": 4.8,
+      "reviewsCount": 484,
+      "category": "Servicio de drenaje",
+      "address": "Tupayauri 558, San Juan de Lurigancho 15401",
+      "phone": "tel:999136837",
+      "website": "https://www.gasfiteroswilly.com/",
+      "url": "https://www.google.com/maps/place/Gasfiteros+gasfiteria+Willy/data=!4m7!3m6!1s0x9105c531fbee5013:0x2bc960e6b6666fbd!8m2!3d-12.0230612!4d-76.9975639!16s%2Fg%2F11lrqpbs96!19sChIJE1Du-zHFBZERvW9mtuZgySs?hl=es",
+      "latitude": -12.0230612,
+      "longitude": -76.9975639
+    },
+    {
+      "id": "biz_7",
+      "name": "Maestro Gasfitero Razón Aqui",
+      "rating": 4.8,
+      "reviewsCount": 484,
+      "category": "Tienda de artículos relacionados con el gas",
+      "address": "Av. los Alamos 976, Lima 15829",
+      "phone": null,
+      "website": null,
+      "url": "https://www.google.com/maps/place/Maestro+Gasfitero+Raz%C3%B3n+Aqui/data=!4m7!3m6!1s0x9105b96ece1b9d41:0x96d2f0511bc02d5c!8m2!3d-12.20041!4d-76.9479116!16s%2Fg%2F11f4qhmptn!19sChIJQZ0bzm65BZERXC3AG1Hw0pY?hl=es",
+      "latitude": -12.20041,
+      "longitude": -76.9479116
+    },
+    {
+      "id": "biz_8",
+      "name": "MaestroADomicilio.com Servicios Generales",
+      "rating": 5,
+      "reviewsCount": 21,
+      "category": "Contratista",
+      "address": "Bregante 147a, Barranco 15063",
+      "phone": "tel:924167911",
+      "website": "http://www.maestroadomicilio.com/",
+      "url": "https://www.google.com/maps/place/MaestroADomicilio.com+Servicios+Generales/data=!4m7!3m6!1s0x9105b7258d53469f:0x74998159e9bcf234!8m2!3d-12.146109!4d-77.0208606!16s%2Fg%2F11fwzg7k6d!19sChIJn0ZTjSW3BZERNPK86VmBmXQ?hl=es",
+      "latitude": -12.146109,
+      "longitude": -77.0208606
+    },
+    {
+      "id": "biz_9",
+      "name": "Electricidad, Gasfiteria y Drywall",
+      "rating": 5,
+      "reviewsCount": 19,
+      "category": "Electricista",
+      "address": "Carmen 195, San Martín de Porres 15101",
+      "phone": "tel:952377290",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Electricidad,+Gasfiteria+y+Drywall/data=!4m7!3m6!1s0x9105cf1e7622dc61:0xcf745962f019070f!8m2!3d-12.0326888!4d-77.0567225!16s%2Fg%2F11j1h_zpq4!19sChIJYdwidh7PBZERDwcZ8GJZdM8?hl=es",
+      "latitude": -12.0326888,
+      "longitude": -77.0567225
+    },
+    {
       "id": "biz_10",
+      "name": "Gasfiteria y Electricidad \"Ostos\"",
+      "rating": 5,
+      "reviewsCount": 12,
+      "category": "Empresa constructora",
+      "address": "Av. Caminos del Inca 1021, Santiago de Surco 15038",
+      "phone": "tel:931359837",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gasfiteria+y+Electricidad+%22Ostos%22/data=!4m7!3m6!1s0x9105c7b2ded1288d:0xa3303c7b5fb52145!8m2!3d-12.1207776!4d-76.9875986!16s%2Fg%2F11nmm14mxh!19sChIJjSjR3rLHBZERRSG1X3s8MKM?hl=es",
+      "latitude": -12.1207776,
+      "longitude": -76.9875986
+    },
+    {
+      "id": "biz_11",
+      "name": "Gasfitero de Lima",
+      "rating": 5,
+      "reviewsCount": 6,
+      "category": "Fontanero",
+      "address": "Sta. Rosa 1230, Villa María del Triunfo 15811",
+      "phone": "tel:985730039",
+      "website": "https://www.gasfiteriaexpress.com/",
+      "url": "https://www.google.com/maps/place/Gasfitero+de+Lima/data=!4m7!3m6!1s0x9105b9e9d20e9701:0x531686af7fed9bc2!8m2!3d-12.1514695!4d-76.9488063!16s%2Fg%2F11nv12bhfm!19sChIJAZcO0um5BZERwpvtf6-GFlM?hl=es",
+      "latitude": -12.1514695,
+      "longitude": -76.9488063
+    },
+    {
+      "id": "biz_12",
+      "name": "Gasfiteria Requejo",
+      "rating": 5,
+      "reviewsCount": 4,
+      "category": "Servicio de reparación",
+      "address": "Jirón Manuel Águila Durand Durand 300, Santiago de Surco 15822",
+      "phone": "tel:969112473",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gasfiteria+Requejo/data=!4m7!3m6!1s0x9105b9bf5f268d23:0x6974ab6120c9643f!8m2!3d-12.1349016!4d-76.9918243!16s%2Fg%2F11sv9p90s_!19sChIJI40mX7-5BZERP2TJIGGrdGk?hl=es",
+      "latitude": -12.1349016,
+      "longitude": -76.9918243
+    },
+    {
+      "id": "biz_13",
+      "name": "Gasfiteria Hidroyaguas Peru s.a.c",
+      "rating": 5,
+      "reviewsCount": 4,
+      "category": "Fontanero",
+      "address": "Av. Tomás Marsano 1553, Surquillo 15038",
+      "phone": "tel:996047523",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gasfiteria+Hidroyaguas+Peru+s.a.c/data=!4m7!3m6!1s0x9105c72ec9613fad:0x6cf8127b271c1537!8m2!3d-12.1180389!4d-77.0081443!16s%2Fg%2F11g2x5q7rq!19sChIJrT9hyS7HBZERNxUcJ3sS-Gw?hl=es",
+      "latitude": -12.1180389,
+      "longitude": -77.0081443
+    },
+    {
+      "id": "biz_14",
+      "name": "GASFITERIA ROJAS",
+      "rating": 5,
+      "reviewsCount": 3,
+      "category": "Fontanero",
+      "address": "Jr, Rio Huaura 5321, Los Olivos",
+      "phone": "tel:991576205",
+      "website": null,
+      "url": "https://www.google.com/maps/place/GASFITERIA+ROJAS/data=!4m7!3m6!1s0x9105cf330392d07b:0xd23ee78fc75412ed!8m2!3d-11.9735976!4d-77.071489!16s%2Fg%2F11rxj2jjx1!19sChIJe9CSAzPPBZER7RJUx4_nPtI?hl=es",
+      "latitude": -11.9735976,
+      "longitude": -77.071489
+    },
+    {
+      "id": "biz_15",
+      "name": "⚡Electricista y Gasfitero Emergencia🧰",
+      "rating": 5,
+      "reviewsCount": 2,
+      "category": "Yogurtería",
+      "address": "Santa Anita 15011",
+      "phone": "tel:980799736",
+      "website": null,
+      "url": "https://www.google.com/maps/place/%E2%9A%A1Electricista+y+Gasfitero+Emergencia%F0%9F%A7%B0/data=!4m7!3m6!1s0x9105c507c0c4bd0b:0x85015b7bb64da2c6!8m2!3d-12.0302635!4d-76.9477885!16s%2Fg%2F11h1vb1jzw!19sChIJC73EwAfFBZERxqJNtntbAYU?hl=es",
+      "latitude": -12.0302635,
+      "longitude": -76.9477885
+    },
+    {
+      "id": "biz_16",
+      "name": "Gasfiteros y Más SRL",
+      "rating": 5,
+      "reviewsCount": 2,
+      "category": "Fontanero",
+      "address": "Avenida 16 de Marzo 127 Urbanización Jose Galvez Piso 3 Lima, 15333",
+      "phone": "tel:977727159",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gasfiteros+y+M%C3%A1s+SRL/data=!4m7!3m6!1s0x9105cfa6dc0d2fc9:0x6710ebb1691c045a!8m2!3d-11.9984449!4d-77.0412335!16s%2Fg%2F11j8rf8rrk!19sChIJyS8N3KbPBZERWgQcabHrEGc?hl=es",
+      "latitude": -11.9984449,
+      "longitude": -77.0412335
+    },
+    {
+      "id": "biz_17",
+      "name": "Servicios de Gasfitería Sarmiento",
+      "rating": 5,
+      "reviewsCount": 2,
+      "category": "Fontanero",
+      "address": "Bunsen Mz c, San Borja 15036",
+      "phone": "tel:913092882",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Servicios+de+Gasfiter%C3%ADa+Sarmiento/data=!4m7!3m6!1s0x9105c71ec98e95f1:0x2019015669b632f9!8m2!3d-12.1084802!4d-77.0083142!16s%2Fg%2F11pdkntmsm!19sChIJ8ZWOyR7HBZER-TK2aVYBGSA?hl=es",
+      "latitude": -12.1084802,
+      "longitude": -77.0083142
+    },
+    {
+      "id": "biz_18",
+      "name": "Gasfitologos",
+      "rating": 5,
+      "reviewsCount": 2,
+      "category": "Servicio de instalación de gas",
+      "address": "Av. Ignacio Merino 2334, Lince 15046",
+      "phone": "tel:993353365",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gasfitologos/data=!4m7!3m6!1s0x9105c9c22aad82d5:0x78f7bf1f1ce913dc!8m2!3d-12.0870981!4d-77.0322157!16s%2Fg%2F11rd0m5m41!19sChIJ1YKtKsLJBZER3BPpHB-_93g?hl=es",
+      "latitude": -12.0870981,
+      "longitude": -77.0322157
+    },
+    {
+      "id": "biz_19",
+      "name": "SERVICIOS ROMA",
+      "rating": 5,
+      "reviewsCount": 2,
+      "category": "Fontanero",
+      "address": "Av. Primavera 1357, Santiago de Surco 15023",
+      "phone": "tel:994715325",
+      "website": "https://www.paginasamarillas.com.pe/empresas/servicios-roma/santiago-de-surco-80650499",
+      "url": "https://www.google.com/maps/place/SERVICIOS+ROMA/data=!4m7!3m6!1s0x9105c70cf0abc535:0xc759084950b459a1!8m2!3d-12.1098051!4d-76.9745548!16s%2Fg%2F11rv8pmf6c!19sChIJNcWr8AzHBZERoVm0UEkIWcc?hl=es",
+      "latitude": -12.1098051,
+      "longitude": -76.9745548
+    },
+    {
+      "id": "biz_20",
+      "name": "Gasfiteria San Borja Aviacion",
+      "rating": 5,
+      "reviewsCount": 1,
+      "category": "Empresa de construcción",
+      "address": "Av. Aviación 2529, San Borja 15037",
+      "phone": null,
+      "website": "http://www.gasfiteriasanborja.com/",
+      "url": "https://www.google.com/maps/place/Gasfiteria+San+Borja+Aviacion/data=!4m7!3m6!1s0x9105c73c809b452b:0xd0f254d839b3e67a!8m2!3d-12.0913906!4d-77.0028787!16s%2Fg%2F11t1k7mv_x!19sChIJK0WbgDzHBZEReuazOdhU8tA?hl=es",
+      "latitude": -12.0913906,
+      "longitude": -77.0028787
+    },
+    {
+      "id": "biz_21",
+      "name": "GASFITERO Y GAS DE CALIDDA MULTISERVICIOS",
+      "rating": 5,
+      "reviewsCount": 1,
+      "category": "gasfiteros",
+      "address": "Jr, Isidro Alcibar 639, San Martín de Porres 15032",
+      "phone": "tel:947365895",
+      "website": "https://m.facebook.com/Gasfiteria-multiservicios-330653344496870/?ref=bookmarks&_rdc=1&_rdr&refsrc=https://mobile.facebook.com/Gasfiteria-multiservicios-330653344496870/?ref=bookmarks",
+      "url": "https://www.google.com/maps/place/GASFITERO+Y+GAS+DE+CALIDDA+MULTISERVICIOS/data=!4m7!3m6!1s0x9105cf5d86f17ebd:0xa9981a8b7284c31d!8m2!3d-12.030179!4d-77.0532447!16s%2Fg%2F11h4zmwtdt!19sChIJvX7xhl3PBZERHcOEcosamKk?hl=es",
+      "latitude": -12.030179,
+      "longitude": -77.0532447
+    },
+    {
+      "id": "biz_22",
+      "name": "Servicios de Gasfitería en General",
+      "rating": 5,
+      "reviewsCount": 1,
+      "category": "Fontanero",
+      "address": "Comas 15311",
+      "phone": "tel:941194354",
+      "website": "https://servicios-de-gasfiteria-en-general.ueniweb.com/?utm_campaign=gmb",
+      "url": "https://www.google.com/maps/place/Servicios+de+Gasfiter%C3%ADa+en+General/data=!4m7!3m6!1s0x9105d19ab20ff181:0x5cd15a442f1a8050!8m2!3d-11.9150865!4d-77.0478482!16s%2Fg%2F11hjjvyfwt!19sChIJgfEPsprRBZERUIAaL0Ra0Vw?hl=es",
+      "latitude": -11.9150865,
+      "longitude": -77.0478482
+    },
+    {
+      "id": "biz_23",
+      "name": "GASFITERO Y GAS DE CALIDDA MULTISERVICIOS",
+      "rating": 5,
+      "reviewsCount": 1,
+      "category": "gasfiteros",
+      "address": "Calle S/N, Villa EL Salvador 15834",
+      "phone": "tel:947365895",
+      "website": "https://mobile.facebook.com/Gasfiteria-multiservicios-330653344496870/?ref=bookmarks",
+      "url": "https://www.google.com/maps/place/GASFITERO+Y+GAS+DE+CALIDDA+MULTISERVICIOS/data=!4m7!3m6!1s0x9105bbf8149e6083:0xbd868b82365a463!8m2!3d-12.2184181!4d-76.9291701!16s%2Fg%2F11h4drmcr1!19sChIJg2CeFPi7BZERY6RlI7ho2As?hl=es",
+      "latitude": -12.2184181,
+      "longitude": -76.9291701
+    },
+    {
+      "id": "biz_24",
+      "name": "Gasfitería Pachacamac eirl",
+      "rating": 5,
+      "reviewsCount": 1,
+      "category": "Constructor",
+      "address": "Santa Rosa de, Lima Lt 2, Lurín 15822",
+      "phone": null,
+      "website": "https://www.guiaperu.pe/gasfiteriapachacamac",
+      "url": "https://www.google.com/maps/place/Gasfiter%C3%ADa+Pachacamac+eirl/data=!4m7!3m6!1s0x9105bd3b6592d4f3:0xe1c8b5c92bc149e2!8m2!3d-12.239406!4d-76.8920418!16s%2Fg%2F11rx26fj08!19sChIJ89SSZTu9BZER4knBK8m1yOE?hl=es",
+      "latitude": -12.239406,
+      "longitude": -76.8920418
+    },
+    {
+      "id": "biz_25",
       "name": "Gasfiteros Unidos Peru",
       "rating": 5,
       "reviewsCount": null,
@@ -34,7 +373,7 @@
       "url": "https://www.google.com/maps/place/Gasfiteros+Unidos+Peru/data=!4m7!3m6!1s0x9105c9006f0d50b9:0xc0ccb6f185bc6fac!8m2!3d-12.1170189!4d-77.026814!16s%2Fg%2F11vq_l837y!19sChIJuVANbwDJBZERrG-8hfG2zMA"
     },
     {
-      "id": "biz_12",
+      "id": "biz_26",
       "name": "Gasfiteros-Com-Pe",
       "rating": 5,
       "reviewsCount": null,
@@ -43,7 +382,7 @@
       "url": "https://www.google.com/maps/place/Gasfiteros-Com-Pe/data=!4m7!3m6!1s0x9105c9dd7a1c363d:0x826bf49e7dcbc76a!8m2!3d-12.1117329!4d-77.0126687!16s%2Fg%2F11h04jynpc!19sChIJPTYcet3JBZERasfLfZ70a4I"
     },
     {
-      "id": "biz_18",
+      "id": "biz_27",
       "name": "Gasfitero y desatoro",
       "rating": 5,
       "reviewsCount": null,
@@ -52,7 +391,7 @@
       "url": "https://www.google.com/maps/place/Gasfitero+y+desatoro/data=!4m7!3m6!1s0x9105cf6f3b7e6d77:0xce13e4ae67e1b996!8m2!3d-11.9932981!4d-77.0646561!16s%2Fg%2F11pwqqwkqf!19sChIJd21-O2_PBZERlrnhZ67kE84"
     },
     {
-      "id": "biz_24",
+      "id": "biz_28",
       "name": "GASFITERO A DOMICILIO 24 HORAS EN LIMA - Servicios Generales",
       "rating": 5,
       "reviewsCount": null,
@@ -61,7 +400,20 @@
       "url": "https://www.google.com/maps/place/GASFITERO+A+DOMICILIO+24+HORAS+EN+LIMA+-+Servicios+Generales/data=!4m7!3m6!1s0x9105c3078bd6d175:0xd316408c6c04cb01!8m2!3d-12.0177966!4d-76.8383884!16s%2Fg%2F11fq4ysx4f!19sChIJddHWiwfDBZERAcsEbIxAFtM"
     },
     {
-      "id": "biz_2",
+      "id": "biz_29",
+      "name": "Gasfitero GARAY en pueblo libre",
+      "rating": 4.8,
+      "reviewsCount": 48,
+      "category": "Contratista de albañilería",
+      "address": "Pasaje, Ca. Tupac Amaru 125, Pueblo Libre 15084",
+      "phone": "tel:988429333",
+      "website": "https://wa.link/0qmmu6",
+      "url": "https://www.google.com/maps/place/Gasfitero+GARAY+en+pueblo+libre/data=!4m7!3m6!1s0x9105c90259904299:0x2bfff73ee1d9b946!8m2!3d-12.0786457!4d-77.0585078!16s%2Fg%2F11f9_cvvjf!19sChIJmUKQWQLJBZERRrnZ4T73_ys?hl=es",
+      "latitude": -12.0786457,
+      "longitude": -77.0585078
+    },
+    {
+      "id": "biz_30",
       "name": "Servicio Gasfitero en Lima - Maestros Gasfiteros en Perú - Desatoro",
       "rating": 4.8,
       "reviewsCount": null,
@@ -70,7 +422,7 @@
       "url": "https://www.google.com/maps/place/Servicio+Gasfitero+en+Lima+-+Maestros+Gasfiteros+en+Per%C3%BA+-+Desatoro/data=!4m7!3m6!1s0x9105c9d531ce6165:0x8041ebcd55d40643!8m2!3d-12.0751048!4d-77.0212688!16s%2Fg%2F11hzj0h8f1!19sChIJZWHOMdXJBZERQwbUVc3rQYA"
     },
     {
-      "id": "biz_3",
+      "id": "biz_31",
       "name": "Gasfitero y Desatoro 24 horas",
       "rating": 4.8,
       "reviewsCount": null,
@@ -79,7 +431,7 @@
       "url": "https://www.google.com/maps/place/Gasfitero+y+Desatoro+24+horas/data=!4m7!3m6!1s0x9105c9b6aee8c3e1:0xd9924971da55fbe9!8m2!3d-12.4502312!4d-76.1854566!16s%2Fg%2F11fj93c804!19sChIJ4cPorrbJBZER6ftV2nFJktk"
     },
     {
-      "id": "biz_6",
+      "id": "biz_32",
       "name": "Gasfitería 24 horas",
       "rating": 4.8,
       "reviewsCount": null,
@@ -88,7 +440,7 @@
       "url": "https://www.google.com/maps/place/Gasfiter%C3%ADa+24+horas/data=!4m7!3m6!1s0x9105c51fcb8ed227:0x582ec4bc06624e22!8m2!3d-12.0288427!4d-76.9529446!16s%2Fg%2F11h_3y5566!19sChIJJ9KOyx_FBZERIk5iBrzELlg"
     },
     {
-      "id": "biz_11",
+      "id": "biz_33",
       "name": "Gasfitero Y Electricista Yair (gyeyair)",
       "rating": 4.8,
       "reviewsCount": null,
@@ -97,7 +449,72 @@
       "url": "https://www.google.com/maps/place/Gasfitero+Y+Electricista+Yair+%28gyeyair%29/data=!4m7!3m6!1s0x9105b96eb82cd907:0x2082870b1d103af0!8m2!3d-12.2003269!4d-76.9477165!16s%2Fg%2F11ggnbsd_x!19sChIJB9ksuG65BZER8DoQHQuHgiA"
     },
     {
-      "id": "biz_13",
+      "id": "biz_34",
+      "name": "Gasfitero Urgente",
+      "rating": 4.2,
+      "reviewsCount": 426,
+      "category": "Fontanero",
+      "address": "Jirón Echenique 952, Magdalena del Mar 15086",
+      "phone": "tel:902766325",
+      "website": "http://gasfitero-urgente.org.pe/",
+      "url": "https://www.google.com/maps/place/Gasfitero+Urgente/data=!4m7!3m6!1s0x9105c9a7561c0001:0x49f608034cc605af!8m2!3d-12.0875297!4d-77.0732877!16s%2Fg%2F11v1bf856d!19sChIJAQAcVqfJBZERrwXGTAMI9kk?hl=es",
+      "latitude": -12.0875297,
+      "longitude": -77.0732877
+    },
+    {
+      "id": "biz_35",
+      "name": "Alvaro Gasfitería",
+      "rating": 4.2,
+      "reviewsCount": 426,
+      "category": "Fontanero",
+      "address": "cruce con, Ca. Narciso de la Colina 1098, Surquillo 15047",
+      "phone": "tel:929070685",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Alvaro+Gasfiter%C3%ADa/data=!4m7!3m6!1s0x9105c9ef0f5b888b:0xbd2f819134a8aa31!8m2!3d-12.1181306!4d-77.0195336!16s%2Fg%2F11sn1kpnh3!19sChIJi4hbD-_JBZERMaqoNJGBL70?hl=es",
+      "latitude": -12.1181306,
+      "longitude": -77.0195336
+    },
+    {
+      "id": "biz_36",
+      "name": "Gasfiteria Minchola",
+      "rating": 4.2,
+      "reviewsCount": 425,
+      "category": "Servicio de drenaje",
+      "address": "jr. Recuay 419 - 112 Breña Municipalidad Metropolitana de Lima LIMA, 05",
+      "phone": "tel:993893088",
+      "website": "https://www.gasfiteriatecnicaminchola.com/",
+      "url": "https://www.google.com/maps/place/Gasfiteria+Minchola/data=!4m7!3m6!1s0x9105c9e29d359ffd:0x1a535d16f8d94342!8m2!3d-12.0557314!4d-77.0468957!16s%2Fg%2F11rjvpfvhh!19sChIJ_Z81neLJBZERQkPZ-BZdUxo?hl=es",
+      "latitude": -12.0557314,
+      "longitude": -77.0468957
+    },
+    {
+      "id": "biz_37",
+      "name": "Gasfitero genio del Hogar lima",
+      "rating": 4.5,
+      "reviewsCount": 11,
+      "category": "Fontanero",
+      "address": "Urbanización villa universitaria 177, Los Olivos 15113",
+      "phone": "tel:924870191",
+      "website": "https://wa.me/qr/TVLOEMAPHWQ6H1",
+      "url": "https://www.google.com/maps/place/Gasfitero+genio+del+Hogar+lima/data=!4m7!3m6!1s0x9105cfba8b020663:0x26ca215985f18c59!8m2!3d-11.97486!4d-77.0773292!16s%2Fg%2F11vlsw4vm6!19sChIJYwYCi7rPBZERWYzxhVkhyiY?hl=es",
+      "latitude": -11.97486,
+      "longitude": -77.0773292
+    },
+    {
+      "id": "biz_38",
+      "name": "Gasfiteros especialista en Desatoros.",
+      "rating": 4.5,
+      "reviewsCount": 2,
+      "category": "Fontanero",
+      "address": "Jr. Ramón Castilla 277, Independencia 15332",
+      "phone": "tel:918522901",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gasfiteros+especialista+en+Desatoros./data=!4m7!3m6!1s0x9105cfd8df158055:0xe519d45aa81d549!8m2!3d-11.9927957!4d-77.0508287!16s%2Fg%2F11syd62d_n!19sChIJVYAV39jPBZERSdWBqkWdUQ4?hl=es",
+      "latitude": -11.9927957,
+      "longitude": -77.0508287
+    },
+    {
+      "id": "biz_39",
       "name": "Gasfitero, Pintor, Desagüe Servicios Generales Aigua E.I.R.L 24/7 Lima - Jesús María",
       "rating": 4.4,
       "reviewsCount": null,
@@ -106,7 +523,7 @@
       "url": "https://www.google.com/maps/place/Gasfitero,+Pintor,+Desag%C3%BCe+Servicios+Generales+Aigua+E.I.R.L+24%2F7+Lima+-+Jes%C3%BAs+Mar%C3%ADa/data=!4m7!3m6!1s0x9105c93a0357aeef:0x39fafdcef5c6a041!8m2!3d-12.0812953!4d-77.0479095!16s%2Fg%2F11vwphrdvj!19sChIJ765XAzrJBZERQaDG9c79-jk"
     },
     {
-      "id": "biz_4",
+      "id": "biz_40",
       "name": "Hr Gasfiteros en Lima",
       "rating": 4.3,
       "reviewsCount": null,
@@ -115,7 +532,7 @@
       "url": "https://www.google.com/maps/place/Hr+Gasfiteros+en+Lima/data=!4m7!3m6!1s0x9105c989d3a5e63f:0xa94fbc027ba5e89a!8m2!3d-12.1189893!4d-77.0249428!16s%2Fg%2F11g3_8xt3l!19sChIJP-al04nJBZERmuilewK8T6k"
     },
     {
-      "id": "biz_21",
+      "id": "biz_41",
       "name": "HIDROSANING",
       "rating": 4.3,
       "reviewsCount": null,
@@ -124,7 +541,72 @@
       "url": "https://www.google.com/maps/place/HIDROSANING/data=!4m7!3m6!1s0x9105b9655833dbf1:0x81d79757237fc3ec!8m2!3d-12.1181332!4d-77.0195162!16s%2Fg%2F11s1q26fvq!19sChIJ8dszWGW5BZER7MN_I1eX14E"
     },
     {
-      "id": "biz_8",
+      "id": "biz_42",
+      "name": "Maestro Pintor, Albañil, Gasfitero, Enchapador",
+      "rating": 4.2,
+      "reviewsCount": 6,
+      "category": "Mantenimiento de propiedades",
+      "address": "Inca 733, Surquillo 15047",
+      "phone": "tel:937467686",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Maestro+Pintor,+Alba%C3%B1il,+Gasfitero,+Enchapador/data=!4m7!3m6!1s0x9105c9b193c78e4b:0x957c01ffc4ff5c99!8m2!3d-12.1139127!4d-77.0212385!16s%2Fg%2F11l5n0m6rs!19sChIJS47Hk7HJBZERmVz_xP8BfJU?hl=es",
+      "latitude": -12.1139127,
+      "longitude": -77.0212385
+    },
+    {
+      "id": "biz_43",
+      "name": "GASFITEROS / ELECTRICISTAS / POZOS A TIERRA / LIMPIEZA DE TANQUE",
+      "rating": 4.2,
+      "reviewsCount": 6,
+      "category": "Fontanero",
+      "address": "Av. Brasil 3918, Magdalena del Mar 15086",
+      "phone": "tel:926100042",
+      "website": null,
+      "url": "https://www.google.com/maps/place/GASFITEROS+%2F+ELECTRICISTAS+%2F+POZOS+A+TIERRA+%2F+LIMPIEZA+DE+TANQUE/data=!4m7!3m6!1s0x9105c9424f68c0e1:0x8d172237107b6dea!8m2!3d-12.0949594!4d-77.0704133!16s%2Fg%2F11h3hwh2dx!19sChIJ4cBoT0LJBZER6m17EDciF40?hl=es",
+      "latitude": -12.0949594,
+      "longitude": -77.0704133
+    },
+    {
+      "id": "biz_44",
+      "name": "Servicios Generales CGC Gasfitería y Electricistas Emergencias las 24 Horas",
+      "rating": 4.2,
+      "reviewsCount": 5,
+      "category": "Fontanero",
+      "address": "Jirón José de la Torre Ugarte 560, Lince 15046",
+      "phone": "tel:999253163",
+      "website": "https://www.serviciosgenerales24horas.com/",
+      "url": "https://www.google.com/maps/place/Servicios+Generales+CGC+Gasfiter%C3%ADa+y+Electricistas+Emergencias+las+24+Horas/data=!4m7!3m6!1s0x9105c905f82f3293:0x632e50e1f923d113!8m2!3d-12.0886817!4d-77.0301105!16s%2Fg%2F11h_ydqgn2!19sChIJkzIv-AXJBZERE9Ej-eFQLmM?hl=es",
+      "latitude": -12.0886817,
+      "longitude": -77.0301105
+    },
+    {
+      "id": "biz_45",
+      "name": "Israel Gasfitería",
+      "rating": 4,
+      "reviewsCount": 6,
+      "category": "Fontanero",
+      "address": "Cercado de Lima 15829",
+      "phone": "tel:960113932",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Israel+Gasfiter%C3%ADa/data=!4m7!3m6!1s0x9105b936863f5fbd:0xc986b44cd33a42e5!8m2!3d-12.1938374!4d-76.9591571!16s%2Fg%2F11j20tjzjg!19sChIJvV8_hja5BZER5UI600y0hsk?hl=es",
+      "latitude": -12.1938374,
+      "longitude": -76.9591571
+    },
+    {
+      "id": "biz_46",
+      "name": "S.O.S MIRAFLORES cerrajeros - electricistas",
+      "rating": 4,
+      "reviewsCount": 6,
+      "category": "Cerrajero de emergencia",
+      "address": "Ca. los Pinos 104 -B, Miraflores 15074",
+      "phone": "tel:930795755",
+      "website": "https://sites.google.com/view/cerrajeriasosmiraflores",
+      "url": "https://www.google.com/maps/place/S.O.S+MIRAFLORES+cerrajeros+-+electricistas/data=!4m7!3m6!1s0x9105c9d8d5587a1f:0x75f685573c89f562!8m2!3d-12.122785!4d-77.0305202!16s%2Fg%2F11rfp7cr0b!19sChIJH3pY1djJBZERYvWJPFeF9nU?hl=es",
+      "latitude": -12.122785,
+      "longitude": -77.0305202
+    },
+    {
+      "id": "biz_47",
       "name": "Gasfitería al Instante - Surco y todo Lima",
       "rating": 4,
       "reviewsCount": null,
@@ -133,7 +615,33 @@
       "url": "https://www.google.com/maps/place/Gasfiter%C3%ADa+al+Instante+-+Surco+y+todo+Lima/data=!4m7!3m6!1s0x9105c74ddfd5d755:0x5c884b40cae92d47!8m2!3d-12.1208905!4d-76.987912!16s%2Fg%2F11t3f6t3w3!19sChIJVdfV303HBZERRy3pykBLiFw"
     },
     {
-      "id": "biz_9",
+      "id": "biz_48",
+      "name": "GASFITERO Y ELECTRICISTA SULCA - San Borja, San Luis y todo Lima",
+      "rating": 3.9,
+      "reviewsCount": 18,
+      "category": "Fontanero",
+      "address": "Jr. Almudena 2362, San Luis 15021",
+      "phone": "tel:993095579",
+      "website": "https://www.gasfiteroyelectricistasulca.com/",
+      "url": "https://www.google.com/maps/place/GASFITERO+Y+ELECTRICISTA+SULCA+-+San+Borja,+San+Luis+y+todo+Lima/data=!4m7!3m6!1s0x9105c7f2f8b55823:0xc1ec1c6e003509d3!8m2!3d-12.0713845!4d-76.9999015!16s%2Fg%2F11fhvynxks!19sChIJI1i1-PLHBZER0wk1AG4c7ME?hl=es",
+      "latitude": -12.0713845,
+      "longitude": -76.9999015
+    },
+    {
+      "id": "biz_49",
+      "name": "Multiservicios Técnicos JD",
+      "rating": 3.7,
+      "reviewsCount": 3,
+      "category": "Contratista general",
+      "address": "Av. Juan Pardo de Zela 708, Lince 15073",
+      "phone": "tel:906455981",
+      "website": "http://gasfiterosenlima.com/",
+      "url": "https://www.google.com/maps/place/Multiservicios+T%C3%A9cnicos+JD/data=!4m7!3m6!1s0x9105c88a4a3644e5:0xe7748907d5823fc3!8m2!3d-12.0829067!4d-77.0292494!16s%2Fg%2F11vf9ltpdf!19sChIJ5UQ2SorIBZERwz-C1QeJdOc?hl=es",
+      "latitude": -12.0829067,
+      "longitude": -77.0292494
+    },
+    {
+      "id": "biz_50",
       "name": "Servicio de Gasfiteria | Gasfitero Hoy",
       "rating": 3.7,
       "reviewsCount": null,
@@ -142,7 +650,59 @@
       "url": "https://www.google.com/maps/place/Servicio+de+Gasfiteria+%7C+Gasfitero+Hoy/data=!4m7!3m6!1s0x9105c9a866673019:0xe185e9be1c8c7f65!8m2!3d-12.0877571!4d-77.0883299!16s%2Fg%2F11f7b49tvr!19sChIJGTBnZqjJBZERZX-MHL7pheE"
     },
     {
-      "id": "biz_7",
+      "id": "biz_51",
+      "name": "MANUEL GASFITERIA Y TERMAS",
+      "rating": 3.4,
+      "reviewsCount": 5,
+      "category": "Fontanero",
+      "address": "Gonzáles Prada 857, Surquillo 15047",
+      "phone": "tel:991805469",
+      "website": null,
+      "url": "https://www.google.com/maps/place/MANUEL+GASFITERIA+Y+TERMAS/data=!4m7!3m6!1s0x9105c9b87c3bbf63:0x161e3baef8529e2d!8m2!3d-12.1163197!4d-77.0212281!16s%2Fg%2F11gnpnnggr!19sChIJY787fLjJBZERLZ5S-K47HhY?hl=es",
+      "latitude": -12.1163197,
+      "longitude": -77.0212281
+    },
+    {
+      "id": "biz_52",
+      "name": "Gasfiteros vyp",
+      "rating": 3,
+      "reviewsCount": 302,
+      "category": "Fontanero",
+      "address": "Asociación san Antonio de Padua mz a lote 4, Los Olivos",
+      "phone": "tel:924849085",
+      "website": "http://www.gasfiterosdelima.com/",
+      "url": "https://www.google.com/maps/place/Gasfiteros+vyp/data=!4m7!3m6!1s0x9105cf7b78a9f241:0x229e1a4d38215b86!8m2!3d-11.975533!4d-77.0771176!16s%2Fg%2F11q23hspx8!19sChIJQfKpeHvPBZERhlshOE0aniI?hl=es",
+      "latitude": -11.975533,
+      "longitude": -77.0771176
+    },
+    {
+      "id": "biz_53",
+      "name": "GASFITERO ELECTRICISTA ALBAÑIL",
+      "rating": 3,
+      "reviewsCount": 302,
+      "category": "Fontanero",
+      "address": "Av. Carlos Izaguirre 1467, Los Olivos 15301",
+      "phone": "tel:963794169",
+      "website": "https://wa.me/51963794169",
+      "url": "https://www.google.com/maps/place/GASFITERO+ELECTRICISTA+ALBA%C3%91IL/data=!4m7!3m6!1s0x9105cfae7a337385:0x119a05d66a4f102b!8m2!3d-11.9915302!4d-77.0809539!16s%2Fg%2F11w4njqm1g!19sChIJhXMzeq7PBZERKxBPatYFmhE?hl=es",
+      "latitude": -11.9915302,
+      "longitude": -77.0809539
+    },
+    {
+      "id": "biz_54",
+      "name": "Lp soluciones gasfiteria y acabados SAC",
+      "rating": 3,
+      "reviewsCount": 2,
+      "category": "Fontanero",
+      "address": "Av. Constelación 2631, San Juan de Lurigancho 15022",
+      "phone": "tel:930166917",
+      "website": "http://www.lpsolucionesperu.com/",
+      "url": "https://www.google.com/maps/place/Lp+soluciones+gasfiteria+y+acabados+SAC/data=!4m7!3m6!1s0x9105cf7db65ea9a9:0x8dd09c20883b5b87!8m2!3d-11.9854013!4d-77.0118524!16s%2Fg%2F11trnrgj34!19sChIJqaletn3PBZERh1s7iCCc0I0?hl=es",
+      "latitude": -11.9854013,
+      "longitude": -77.0118524
+    },
+    {
+      "id": "biz_55",
       "name": "Pregas Sac - Gasfitero a domicilio",
       "rating": 3,
       "reviewsCount": null,
@@ -151,7 +711,7 @@
       "url": "https://www.google.com/maps/place/Pregas+Sac+-+Gasfitero+a+domicilio/data=!4m7!3m6!1s0x9105c9af41ee5e3d:0xcc5e1dc110381991!8m2!3d-12.0873142!4d-77.0295611!16s%2Fg%2F11k549whz4!19sChIJPV7uQa_JBZERkRk4EMEdXsw"
     },
     {
-      "id": "biz_16",
+      "id": "biz_56",
       "name": "Gasfitero Lima Peru",
       "rating": 3,
       "reviewsCount": null,
@@ -160,7 +720,7 @@
       "url": "https://www.google.com/maps/place/Gasfitero+Lima+Peru/data=!4m7!3m6!1s0x9105cf8dc4d56557:0xe2433b77755ac1bf!8m2!3d-11.9764129!4d-77.0743506!16s%2Fg%2F11fn2yc4z1!19sChIJV2XVxI3PBZERv8FadXc7Q-I"
     },
     {
-      "id": "biz_19",
+      "id": "biz_57",
       "name": "Limpíeza, Mantenimiento y Desatoro de Tuberia Desague con Maquina Gasfitero L Y R - lima",
       "rating": 3,
       "reviewsCount": null,
@@ -169,7 +729,33 @@
       "url": "https://www.google.com/maps/place/Limp%C3%ADeza,+Mantenimiento+y+Desatoro+de+Tuberia+Desague+con+Maquina+Gasfitero+L+Y+R+-+lima/data=!4m7!3m6!1s0x9105cb46f44934a5:0x82983682344166d1!8m2!3d-12.0598442!4d-77.1079408!16s%2Fg%2F11f9g453g2!19sChIJpTRJ9EbLBZER0WZBNII2mII"
     },
     {
-      "id": "biz_5",
+      "id": "biz_58",
+      "name": "Servicio de Gasfitero - Innova Servicios Generales",
+      "rating": 2.5,
+      "reviewsCount": 258,
+      "category": "Mantenimiento de propiedades",
+      "address": "Jr. Rodolfo Rutte 269, Magdalena del Mar LIMA 01",
+      "phone": "tel:924966907",
+      "website": "https://www.serviciodegasfitero.com/",
+      "url": "https://www.google.com/maps/place/Servicio+de+Gasfitero+-+Innova+Servicios+Generales/data=!4m7!3m6!1s0x9105c9404d0f07e5:0xda0a6a5d11c16068!8m2!3d-12.0942817!4d-77.0658249!16s%2Fg%2F11vx2tv5dv!19sChIJ5QcPTUDJBZERaGDBEV1qCto?hl=es",
+      "latitude": -12.0942817,
+      "longitude": -77.0658249
+    },
+    {
+      "id": "biz_59",
+      "name": "AGUA CONSTRUCCION Y SANEAMIENTO SAC",
+      "rating": 2.6,
+      "reviewsCount": 5,
+      "category": "Empresa de tratamiento del agua",
+      "address": "01 JR, Jr. Pelitres 2152, San Juan de Lurigancho 07001",
+      "phone": "tel:953705539",
+      "website": null,
+      "url": "https://www.google.com/maps/place/AGUA+CONSTRUCCION+Y+SANEAMIENTO+SAC/data=!4m7!3m6!1s0x9105cf7dae562eef:0x640a4fcb330ed204!8m2!3d-11.9962097!4d-77.0107504!16s%2Fg%2F11j0w2037d!19sChIJ7y5Wrn3PBZERBNIOM8tPCmQ?hl=es",
+      "latitude": -11.9962097,
+      "longitude": -77.0107504
+    },
+    {
+      "id": "biz_60",
       "name": "Gasfitero",
       "rating": 2.5,
       "reviewsCount": null,
@@ -178,7 +764,7 @@
       "url": "https://www.google.com/maps/place/Gasfitero/data=!4m7!3m6!1s0x9105cf7787fa97af:0x8d68b49b1cf42628!8m2!3d-12.0114599!4d-77.055629!16s%2Fg%2F11gt_vw_p1!19sChIJr5f6h3fPBZERKCb0HJu0aI0"
     },
     {
-      "id": "biz_15",
+      "id": "biz_61",
       "name": "Innova Servicios Generales - Servicio de Gasfiteria",
       "rating": 2.5,
       "reviewsCount": null,
@@ -187,7 +773,7 @@
       "url": "https://www.google.com/maps/place/Innova+Servicios+Generales+-+Servicio+de+Gasfiteria/data=!4m7!3m6!1s0x9105c9d3b5fca0f1:0xbdb4ccf29eb21443!8m2!3d-12.0942817!4d-77.0658249!16s%2Fg%2F11h3ftw13w!19sChIJ8aD8tdPJBZERQxSynvLMtL0"
     },
     {
-      "id": "biz_22",
+      "id": "biz_62",
       "name": "Gasfiteria & Electricista Lince",
       "rating": 2.3,
       "reviewsCount": null,
@@ -196,7 +782,98 @@
       "url": "https://www.google.com/maps/place/Gasfiteria+%26+Electricista+Lince/data=!4m7!3m6!1s0x9105c861abea5c7f:0x1b96100e10a62331!8m2!3d-12.0867229!4d-77.0304066!16s%2Fg%2F11gh34bxyb!19sChIJf1zqq2HIBZERMSOmEA4Qlhs"
     },
     {
-      "id": "biz_1",
+      "id": "biz_63",
+      "name": "Gasfiteria Lozano(En el Agustino y Lima)",
+      "rating": 2,
+      "reviewsCount": 202,
+      "category": "Planta depuradora",
+      "address": "Av. La carretera 151, El Agustino 15000",
+      "phone": "tel:998676554",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gasfiteria+Lozano%28En+el+Agustino+y+Lima%29/data=!4m7!3m6!1s0x9105c75ebb52cac1:0x29b7d0f3b819fa73!8m2!3d-12.0551952!4d-77.0008325!16s%2Fg%2F11j65g9fn0!19sChIJwcpSu17HBZERc_oZuPPQtyk?hl=es",
+      "latitude": -12.0551952,
+      "longitude": -77.0008325
+    },
+    {
+      "id": "biz_64",
+      "name": "ABALTEC PERÚ",
+      "rating": 1.4,
+      "reviewsCount": 9,
+      "category": "Servicio de reparación",
+      "address": "Jirón Tomás Guido 459, Lince 15046",
+      "phone": "tel:971746445",
+      "website": null,
+      "url": "https://www.google.com/maps/place/ABALTEC+PER%C3%9A/data=!4m7!3m6!1s0x9105c8603b96116f:0xc894874a29e3cff0!8m2!3d-12.0864787!4d-77.0315326!16s%2Fg%2F11rmrdcgsx!19sChIJbxGWO2DIBZER8M_jKUqHlMg?hl=es",
+      "latitude": -12.0864787,
+      "longitude": -77.0315326
+    },
+    {
+      "id": "biz_65",
+      "name": "Gasfiteros & Servicios Generales Lumasa",
+      "rating": 1,
+      "reviewsCount": 101,
+      "category": "Fontanero",
+      "address": "Jr, Jr. Coronel Joaquín Bernal 428, Lima 15073",
+      "phone": "tel:947879253",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gasfiteros+%26+Servicios+Generales+Lumasa/data=!4m7!3m6!1s0x9105c5fd437cf6b9:0xc916ae71426ee2fe!8m2!3d-12.0871712!4d-77.0371694!16s%2Fg%2F11fnf37hxg!19sChIJufZ8Q_3FBZER_uJuQnGuFsk?hl=es",
+      "latitude": -12.0871712,
+      "longitude": -77.0371694
+    },
+    {
+      "id": "biz_66",
+      "name": "Servicios Generales Morales - Gasfiteros Fumigación y Pintores",
+      "rating": 1,
+      "reviewsCount": 101,
+      "category": "Contratista general",
+      "address": "Jr. Mariano Jurado de Los Reyes Nro 131, Lima 15048",
+      "phone": "tel:999893552",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Servicios+Generales+Morales+-+Gasfiteros+Fumigaci%C3%B3n+y+Pintores/data=!4m7!3m6!1s0x9105c98561b6f71d:0x404f6bd988165be1!8m2!3d-12.114607!4d-77.0007579!16s%2Fg%2F11rw944qjf!19sChIJHfe2YYXJBZER4VsWiNlrT0A?hl=es",
+      "latitude": -12.114607,
+      "longitude": -77.0007579
+    },
+    {
+      "id": "biz_67",
+      "name": "Gasfitería San Borja-Servicio de Gasfitero, Albañil, Electricista",
+      "rating": 1,
+      "reviewsCount": 1,
+      "category": "Albañil",
+      "address": "Av. de las Artes Sur 110, Lima 15036",
+      "phone": "tel:998905372",
+      "website": "https://www.guiaperu.pe/Gasfiter%C3%ADaSanBorja",
+      "url": "https://www.google.com/maps/place/Gasfiter%C3%ADa+San+Borja-Servicio+de+Gasfitero,+Alba%C3%B1il,+Electricista/data=!4m7!3m6!1s0x9105c7050c9b4c11:0x1d8c8eac4c7747fa!8m2!3d-12.0948108!4d-77.0060355!16s%2Fg%2F11hm2v1gph!19sChIJEUybDAXHBZER-kd3TKyOjB0?hl=es",
+      "latitude": -12.0948108,
+      "longitude": -77.0060355
+    },
+    {
+      "id": "biz_68",
+      "name": "Albañil gasfitero electricista pintor",
+      "rating": 1,
+      "reviewsCount": 1,
+      "category": "Empresa constructora",
+      "address": "Av. los Próceres de Huandoy, Los Olivos 15307",
+      "phone": "tel:959132393",
+      "website": "https://wa.me/51959132393",
+      "url": "https://www.google.com/maps/place/Alba%C3%B1il+gasfitero+electricista+pintor/data=!4m7!3m6!1s0x9105d1c7644cf7b7:0xff891a8a196b5fec!8m2!3d-11.9381313!4d-77.0737272!16s%2Fg%2F11rz57c8rn!19sChIJt_dMZMfRBZER7F9rGYoaif8?hl=es",
+      "latitude": -11.9381313,
+      "longitude": -77.0737272
+    },
+    {
+      "id": "biz_69",
+      "name": "Bombas de agua AGUSA mantenimiento",
+      "rating": 1,
+      "reviewsCount": 1,
+      "category": "Servicio de instalación eléctrica",
+      "address": "Calle san Bartolo, La Molina 15023",
+      "phone": "tel:906311186",
+      "website": "http://www.bombasdeaguaenlima.net.pe/",
+      "url": "https://www.google.com/maps/place/Bombas+de+agua+AGUSA+mantenimiento/data=!4m7!3m6!1s0x91059ff59a11ed0d:0x6db540ccf7b3a2b!8m2!3d-12.069921!4d-76.9508997!16s%2Fg%2F11z4tcf013!19sChIJDe0RmvWfBZERKzp7zwxU2wY?hl=es",
+      "latitude": -12.069921,
+      "longitude": -76.9508997
+    },
+    {
+      "id": "biz_70",
       "name": "Gasfitero en lima peru",
       "rating": 1,
       "reviewsCount": null,
@@ -205,7 +882,7 @@
       "url": "https://www.google.com/maps/place/Gasfitero+en+lima+peru/data=!4m7!3m6!1s0x9105c31216d3e6e3:0xfd1990bd1f104182!8m2!3d-12.0012934!4d-76.8393017!16s%2Fg%2F11fsfq63ts!19sChIJ4-bTFhLDBZERgkEQH72QGf0"
     },
     {
-      "id": "biz_14",
+      "id": "biz_71",
       "name": "Gasfitero en Lima",
       "rating": null,
       "reviewsCount": null,
@@ -214,7 +891,7 @@
       "url": "https://www.google.com/maps/place/Gasfitero+en+Lima/data=!4m7!3m6!1s0x9105c9d3b27118ef:0xd3675c48cf5e915b!8m2!3d-12.088707!4d-77.03168!16s%2Fg%2F11r_tnxlt8!19sChIJ7xhxstPJBZERW5Fez0hcZ9M"
     },
     {
-      "id": "biz_17",
+      "id": "biz_72",
       "name": "Gasfiteros sr, Honrad en surco",
       "rating": null,
       "reviewsCount": null,
@@ -223,7 +900,7 @@
       "url": "https://www.google.com/maps/place/Gasfiteros+sr,+Honrad+en+surco/data=!4m7!3m6!1s0x9105b77d71038b3d:0xbcfd581f59478639!8m2!3d-12.1316337!4d-77.0163706!16s%2Fg%2F11h1mjhnk7!19sChIJPYsDcX23BZEROYZHWR9Y_bw"
     },
     {
-      "id": "biz_20",
+      "id": "biz_73",
       "name": "Gasfitero plomero",
       "rating": null,
       "reviewsCount": null,
@@ -232,13 +909,104 @@
       "url": "https://www.google.com/maps/place/Gasfitero+plomero/data=!4m7!3m6!1s0x9105cf00753651f5:0x38fc507c6aa669d9!8m2!3d-12.0049966!4d-77.0730227!16s%2Fg%2F11zd6wzxqc!19sChIJ9VE2dQDPBZER2WmmanxQ_Dg"
     },
     {
-      "id": "biz_23",
+      "id": "biz_74",
       "name": "SERVICIO DE GASFITERÍA",
       "rating": null,
       "reviewsCount": null,
       "category": "Electricista",
       "address": "Tingua 136, Lince 15046",
       "url": "https://www.google.com/maps/place/SERVICIO+DE+GASFITER%C3%8DA/data=!4m7!3m6!1s0x9105c861caa59ce7:0x1aaa71cd282be317!8m2!3d-12.0868736!4d-77.0305292!16s%2Fg%2F11l6ys5c49!19sChIJ55ylymHIBZERF-MrKM1xqho"
+    },
+    {
+      "id": "biz_75",
+      "name": "Gasfiteros y Desatoros ayadz",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Fontanero",
+      "address": "Juan Benitez, San Borja 15034",
+      "phone": "tel:987287284",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gasfiteros+y+Desatoros+ayadz/data=!4m7!3m6!1s0x9105c705181fb217:0xfb82dc3cf10d7a05!8m2!3d-12.1080669!4d-77.0022158!16s%2Fg%2F11zgr9b27f!19sChIJF7IfGAXHBZERBXoN8Tzcgvs?hl=es",
+      "latitude": -12.1080669,
+      "longitude": -77.0022158
+    },
+    {
+      "id": "biz_76",
+      "name": "SERVICIOS GENERALES, ELÉCTRICISTA GASFITERO, ENCHAPADOR, PINTORES ETC",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Empresa constructora",
+      "address": "Av Ricardo Tizón y Bueno 667, Jesús María 15072",
+      "phone": "tel:927749485",
+      "website": "https://casyjim.rf.gd/",
+      "url": "https://www.google.com/maps/place/SERVICIOS+GENERALES,+EL%C3%89CTRICISTA+GASFITERO,+ENCHAPADOR,+PINTORES+ETC/data=!4m7!3m6!1s0x9105c9f9341670c3:0xc194c6b3d26d76d5!8m2!3d-12.0796925!4d-77.0497881!16s%2Fg%2F11xcwh6tm0!19sChIJw3AWNPnJBZER1XZt0rPGlME?hl=es",
+      "latitude": -12.0796925,
+      "longitude": -77.0497881
+    },
+    {
+      "id": "biz_77",
+      "name": "Abel Gasfiteria",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Instalador de gas",
+      "address": "Jr, San Pedro 286 - A, Lima 15047",
+      "phone": "tel:993075604",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Abel+Gasfiteria/data=!4m7!3m6!1s0x9105c981850ab259:0xd1eab2892cf66ffa!8m2!3d-12.1172047!4d-77.0195039!16s%2Fg%2F11gydp9pm3!19sChIJWbIKhYHJBZER-m_2LImy6tE?hl=es",
+      "latitude": -12.1172047,
+      "longitude": -77.0195039
+    },
+    {
+      "id": "biz_78",
+      "name": "Gasfiteros y Desatoros AYADZ",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Fontanero",
+      "address": "C. los Quinuales 576, San Martín de Porres 15107",
+      "phone": "tel:987287284",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gasfiteros+y+Desatoros+AYADZ/data=!4m7!3m6!1s0x9105cfb93a9b9181:0xa4607578258828a6!8m2!3d-12.0138221!4d-77.0863619!16s%2Fg%2F11nr0x6wfy!19sChIJgZGbOrnPBZERpiiIJXh1YKQ?hl=es",
+      "latitude": -12.0138221,
+      "longitude": -77.0863619
+    },
+    {
+      "id": "biz_79",
+      "name": "Gasfiteros Abanto SRL",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Servicio de mantenimiento de maquinaria",
+      "address": "Ca. Enrique Palacios 1076, Miraflores 15074",
+      "phone": "tel:955130877",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gasfiteros+Abanto+SRL/data=!4m7!3m6!1s0x9105c90044480887:0xa02c69c64969179d!8m2!3d-12.1169774!4d-77.0398489!16s%2Fg%2F11xkr9n6mm!19sChIJhwhIRADJBZERnRdpScZpLKA?hl=es",
+      "latitude": -12.1169774,
+      "longitude": -77.0398489
+    },
+    {
+      "id": "biz_80",
+      "name": "GASFITERIA MAESTRO",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Proveedor de equipos",
+      "address": "Julio Rodriguez ° 382, San Juan de Miraflores 15803",
+      "phone": "tel:987131301",
+      "website": null,
+      "url": "https://www.google.com/maps/place/GASFITERIA+MAESTRO/data=!4m7!3m6!1s0x9105b85e46137be9:0xbdd5f4883ef038be!8m2!3d-12.1513854!4d-76.967987!16s%2Fg%2F11rjsr592s!19sChIJ6XsTRl64BZERvjjwPoj01b0?hl=es",
+      "latitude": -12.1513854,
+      "longitude": -76.967987
+    },
+    {
+      "id": "biz_81",
+      "name": "ELECTRICISTA, GASFITERO, PINTOR, ENCHAPADOR,",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Empresa constructora",
+      "address": "Jr. Mrcal. William Miller 1064, Jesús María 15072",
+      "phone": "tel:927749485",
+      "website": null,
+      "url": "https://www.google.com/maps/place/ELECTRICISTA,+GASFITERO,+PINTOR,+ENCHAPADOR,/data=!4m7!3m6!1s0x9105c965e24f7963:0x8a9ac4b231c07f0e!8m2!3d-12.075574!4d-77.0383507!16s%2Fg%2F11xw23tyrg!19sChIJY3lP4mXJBZERDn_AMbLEmoo?hl=es",
+      "latitude": -12.075574,
+      "longitude": -77.0383507
     }
   ]
 }

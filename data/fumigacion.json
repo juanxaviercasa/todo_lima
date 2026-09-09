@@ -1,8 +1,8 @@
 {
   "category": "fumigacion",
   "searchQuery": "empresas de fumigacion en Lima",
-  "totalResults": 22,
-  "updatedAt": "2026-09-09T18:06:28.440Z",
+  "totalResults": 31,
+  "updatedAt": "2026-09-09T20:52:29.233Z",
   "topBusinessContext": {
     "id": "biz_2",
     "name": "Punto Rojo sede Ate",
@@ -12,20 +12,73 @@
     "address": "Av. los Cipreses 344, Santa Anita 15008",
     "url": "https://www.google.com/maps/place/Punto+Rojo+sede+Ate/data=!4m7!3m6!1s0x9105c75dc47b540f:0x23577aa17e279f9a!8m2!3d-12.052785!4d-76.975384!16s%2Fg%2F11ldsz22fz!19sChIJD1R7xF3HBZERmp8nfqF6VyM"
   },
-  "pageContent": {
-    "headline": "Los Mejores Expertos en FUMIGACION en Lima: Conoce a Punto Rojo sede Ate",
-    "subtitles": [
-      "Garantiza resultados hoy mismo. Ubicados en Av. los Cipreses 344, Santa Anita 15008, destacan como la opción número uno validada por usuarios reales.",
-      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
-    ],
-    "ctas": [
-      "Contactar por WhatsApp Ahora",
-      "Ver Directorio Completo"
-    ]
-  },
+  "pageContent": [
+    {
+      "id": "urgencia",
+      "headline": "¿Problemas urgentes? Encuentra FUMIGACION en Lima en menos de 15 Minutos",
+      "subtitles": [
+        "No dejes tu necesidad al azar ni pierdas semanas buscando referencias en la ciudad.",
+        "Garantiza resultados rápidos con especialistas validados. Destaca Punto Rojo sede Ate ubicado en Av. los Cipreses 344, Santa Anita 15008."
+      ],
+      "ctas": [
+        "Contactar al Especialista por WhatsApp",
+        "Ver Directorio Inmediato"
+      ]
+    },
+    {
+      "id": "autoridad",
+      "headline": "El Directorio Definitivo: El Top 1% de FUMIGACION Validados en Lima",
+      "subtitles": [
+        "Contratar un servicio es una decisión crítica. Tomar una decisión equivocada sale muy caro.",
+        "Filtramos los negocios con mayor tasa de éxito. Conecta directo con líderes como Punto Rojo sede Ate (⭐ 5 estrellas)."
+      ],
+      "ctas": [
+        "Chatear con un Experto",
+        "Explorar Ranking de Especialistas"
+      ]
+    },
+    {
+      "id": "prueba-social",
+      "headline": "Protege tu Inversión con los FUMIGACION Más Recomendados de Lima",
+      "subtitles": [
+        "Cientos de clientes en Lima ya validaron a estos profesionales. No seas el conejillo de indias de nadie.",
+        "Habla hoy mismo y sin intermediarios con los expertos mejor reseñados en Google Maps."
+      ],
+      "ctas": [
+        "Solicitar Evaluación Gratis",
+        "Ver Reseñas Verificadas"
+      ]
+    }
+  ],
   "businesses": [
     {
+      "id": "biz_1",
+      "name": "DJI Agras Perú | Drones agrícolas y drones para fumigar en Lima",
+      "rating": 5,
+      "reviewsCount": 26,
+      "category": "Tienda de electrónica",
+      "address": "Av. República de Panamá 3623, San Isidro 15036",
+      "phone": "tel:986367775",
+      "website": "https://agriculture.qtc.pe/",
+      "url": "https://www.google.com/maps/place/DJI+Agras+Per%C3%BA+%7C+Drones+agr%C3%ADcolas+y+drones+para+fumigar+en+Lima/data=!4m7!3m6!1s0x9105c91696e57ffb:0xc183b16d22dfc383!8m2!3d-12.1003997!4d-77.0189426!16s%2Fg%2F11mz4cc4db!19sChIJ-3_llhbJBZERg8PfIm2xg8E?hl=es",
+      "latitude": -12.1003997,
+      "longitude": -77.0189426
+    },
+    {
       "id": "biz_2",
+      "name": "Clenvi",
+      "rating": 5,
+      "reviewsCount": 2,
+      "category": "Empresa de fumigación y control de plagas",
+      "address": "Ca. Arica 242, Miraflores 15074",
+      "phone": "tel:967749826",
+      "website": "http://clenvi.pe/",
+      "url": "https://www.google.com/maps/place/Clenvi/data=!4m7!3m6!1s0x9105c83d1a715555:0x9ce372130c118098!8m2!3d-12.1174587!4d-77.0355995!16s%2Fg%2F11sgdx363x!19sChIJVVVxGj3IBZERmIARDBNy45w?hl=es",
+      "latitude": -12.1174587,
+      "longitude": -77.0355995
+    },
+    {
+      "id": "biz_3",
       "name": "Punto Rojo sede Ate",
       "rating": 5,
       "reviewsCount": null,
@@ -34,7 +87,7 @@
       "url": "https://www.google.com/maps/place/Punto+Rojo+sede+Ate/data=!4m7!3m6!1s0x9105c75dc47b540f:0x23577aa17e279f9a!8m2!3d-12.052785!4d-76.975384!16s%2Fg%2F11ldsz22fz!19sChIJD1R7xF3HBZERmp8nfqF6VyM"
     },
     {
-      "id": "biz_3",
+      "id": "biz_4",
       "name": "FUMIGACIÓN CONTROL DE PLAGAS Y LIMPIEZA DE VIVIENDAS",
       "rating": 5,
       "reviewsCount": null,
@@ -43,7 +96,7 @@
       "url": "https://www.google.com/maps/place/FUMIGACI%C3%93N+CONTROL+DE+PLAGAS+Y+LIMPIEZA+DE+VIVIENDAS/data=!4m7!3m6!1s0x9105c5fe461a316f:0x757b57013398d486!8m2!3d-12.0141034!4d-76.9737535!16s%2Fg%2F11tg6vpg79!19sChIJbzEaRv7FBZERhtSYMwFXe3U"
     },
     {
-      "id": "biz_7",
+      "id": "biz_5",
       "name": "Fumigación y Servicios ambientales Canto Nuevo San Juan de Lurigancho",
       "rating": 5,
       "reviewsCount": null,
@@ -52,7 +105,7 @@
       "url": "https://www.google.com/maps/place/Fumigaci%C3%B3n+y+Servicios+ambientales+Canto+Nuevo+San+Juan+de+Lurigancho/data=!4m7!3m6!1s0x9105c52255bd368f:0x63cda5b90585af7c!8m2!3d-11.9757976!4d-77.0096451!16s%2Fg%2F11yng5_d7w!19sChIJjza9VSLFBZERfK-FBbmlzWM"
     },
     {
-      "id": "biz_9",
+      "id": "biz_6",
       "name": "Fumigación y Servicios Ambientales Canto Nuevo",
       "rating": 5,
       "reviewsCount": null,
@@ -61,7 +114,7 @@
       "url": "https://www.google.com/maps/place/Fumigaci%C3%B3n+y+Servicios+Ambientales+Canto+Nuevo/data=!4m7!3m6!1s0x9105d13211330e45:0xebc9006486237869!8m2!3d-11.8438109!4d-77.0931553!16s%2Fg%2F11sd7mzlnb!19sChIJRQ4zETLRBZERaXgjhmQAyes"
     },
     {
-      "id": "biz_10",
+      "id": "biz_7",
       "name": "FUMIGACIÓN DE CASAS.",
       "rating": 5,
       "reviewsCount": null,
@@ -70,7 +123,7 @@
       "url": "https://www.google.com/maps/place/FUMIGACI%C3%93N+DE+CASAS./data=!4m7!3m6!1s0x9105c7d2171861dd:0x8dcc89de0db739c2!8m2!3d-12.0888102!4d-77.0000413!16s%2Fg%2F11h42xsk0w!19sChIJ3WEYF9LHBZERwjm3Dd6JzI0"
     },
     {
-      "id": "biz_11",
+      "id": "biz_8",
       "name": "Fumigesa",
       "rating": 5,
       "reviewsCount": null,
@@ -79,7 +132,7 @@
       "url": "https://www.google.com/maps/place/Fumigesa/data=!4m7!3m6!1s0x9105c975b00afef3:0x3b074d4e41e0c7d4!8m2!3d-12.0737588!4d-77.0739716!16s%2Fg%2F11flsldp58!19sChIJ8_4KsHXJBZER1MfgQU5NBzs"
     },
     {
-      "id": "biz_12",
+      "id": "biz_9",
       "name": "WORLD PACIFIC COMPANY - Fumigaciones en Lima",
       "rating": 5,
       "reviewsCount": null,
@@ -88,7 +141,7 @@
       "url": "https://www.google.com/maps/place/WORLD+PACIFIC+COMPANY+-+Fumigaciones+en+Lima/data=!4m7!3m6!1s0x4fd81c310069979f:0x9a9579b4c0d6a540!8m2!3d-12.0266383!4d-76.9877792!16s%2Fg%2F11ynknt_s0!19sChIJn5dpADEc2E8RQKXWwLR5lZo"
     },
     {
-      "id": "biz_16",
+      "id": "biz_10",
       "name": "Ecoplagas Perú Sac",
       "rating": 5,
       "reviewsCount": null,
@@ -97,7 +150,7 @@
       "url": "https://www.google.com/maps/place/Ecoplagas+Per%C3%BA+Sac/data=!4m7!3m6!1s0x9105cf007bacb839:0x61a010a21d866859!8m2!3d-11.9897229!4d-77.0441228!16s%2Fg%2F11vptfrbq4!19sChIJObisewDPBZERWWiGHaIQoGE"
     },
     {
-      "id": "biz_17",
+      "id": "biz_11",
       "name": "Fumigación, desinfección y desratización",
       "rating": 5,
       "reviewsCount": null,
@@ -106,7 +159,7 @@
       "url": "https://www.google.com/maps/place/Fumigaci%C3%B3n,+desinfecci%C3%B3n+y+desratizaci%C3%B3n/data=!4m7!3m6!1s0x9105c8159993317d:0xe2ddd734fb67a84c!8m2!3d-12.0479771!4d-76.9101679!16s%2Fg%2F11hbfj4dsq!19sChIJfTGTmRXIBZERTKhn-zTX3eI"
     },
     {
-      "id": "biz_21",
+      "id": "biz_12",
       "name": "Corporación M&M",
       "rating": 5,
       "reviewsCount": null,
@@ -115,7 +168,7 @@
       "url": "https://www.google.com/maps/place/Corporaci%C3%B3n+M%26M/data=!4m7!3m6!1s0x9105c9fb7efd8ccb:0x78dcf2b6dd945b71!8m2!3d-12.0463525!4d-77.0371231!16s%2Fg%2F11h06lb641!19sChIJy4z9fvvJBZERcVuU3bby3Hg"
     },
     {
-      "id": "biz_4",
+      "id": "biz_13",
       "name": "El doctor Antiplagas",
       "rating": 4.8,
       "reviewsCount": null,
@@ -124,7 +177,7 @@
       "url": "https://www.google.com/maps/place/El+doctor+Antiplagas/data=!4m7!3m6!1s0x9105c8159993317d:0x5c9c9c9269898fd6!8m2!3d-12.1156223!4d-77.032779!16s%2Fg%2F11dx92ds07!19sChIJfTGTmRXIBZER1o-JaZKcnFw"
     },
     {
-      "id": "biz_13",
+      "id": "biz_14",
       "name": "Limpieza de Casas, Departamentos y Oficinas - LimpioTuDepaPeru",
       "rating": 4.7,
       "reviewsCount": null,
@@ -133,7 +186,7 @@
       "url": "https://www.google.com/maps/place/Limpieza+de+Casas,+Departamentos+y+Oficinas+-+LimpioTuDepaPeru/data=!4m7!3m6!1s0x9105b7ce5b29bbcb:0x40943e4ef0e41c80!8m2!3d-12.1462191!4d-77.0206465!16s%2Fg%2F11g1lqqx8v!19sChIJy7spW863BZERgBzk8E4-lEA"
     },
     {
-      "id": "biz_1",
+      "id": "biz_15",
       "name": "BIOHAZARD",
       "rating": 4.6,
       "reviewsCount": null,
@@ -142,7 +195,7 @@
       "url": "https://www.google.com/maps/place/BIOHAZARD/data=!4m7!3m6!1s0x9105c97f8d089c63:0xb9296cac576dc650!8m2!3d-12.117873!4d-77.02803!16s%2Fg%2F11h0mpzxp5!19sChIJY5wIjX_JBZERUMZtV6xsKbk"
     },
     {
-      "id": "biz_5",
+      "id": "biz_16",
       "name": "BIOHAZARD",
       "rating": 4.6,
       "reviewsCount": null,
@@ -151,7 +204,7 @@
       "url": "https://www.google.com/maps/place/BIOHAZARD/data=!4m7!3m6!1s0x9105c97f8d089c63:0xb9296cac576dc650!8m2!3d-12.1178727!4d-77.0280301!16s%2Fg%2F11h0mpzxp5!19sChIJY5wIjX_JBZERUMZtV6xsKbk"
     },
     {
-      "id": "biz_22",
+      "id": "biz_17",
       "name": "Prosafety del Perú S.A.C.",
       "rating": 4.4,
       "reviewsCount": null,
@@ -160,7 +213,7 @@
       "url": "https://www.google.com/maps/place/Prosafety+del+Per%C3%BA+S.A.C./data=!4m7!3m6!1s0x9105c3f880cfdce3:0xcdbad9cea46fd488!8m2!3d-12.0256583!4d-76.9252666!16s%2Fg%2F11gc2cs98p!19sChIJ49zPgPjDBZERiNRvpM7Zus0"
     },
     {
-      "id": "biz_6",
+      "id": "biz_18",
       "name": "SANISEG INDUSTRIAL SAC",
       "rating": 4.3,
       "reviewsCount": null,
@@ -169,7 +222,20 @@
       "url": "https://www.google.com/maps/place/SANISEG+INDUSTRIAL+SAC/data=!4m7!3m6!1s0x9105c9308b4f7967:0xfb068835d8e197f5!8m2!3d-12.0522453!4d-77.0711959!16s%2Fg%2F11cssh062k!19sChIJZ3lPizDJBZER9Zfh2DWIBvs"
     },
     {
-      "id": "biz_14",
+      "id": "biz_19",
+      "name": "Solo del Perú S.A.C.",
+      "rating": 4,
+      "reviewsCount": 152,
+      "category": "Mercado de productos agrícolas",
+      "address": "Av. Naciones Unidas 1360, Lima 15082",
+      "phone": "tel:014256000",
+      "website": "https://www.soloperusac.com/",
+      "url": "https://www.google.com/maps/place/Solo+del+Per%C3%BA+S.A.C./data=!4m7!3m6!1s0x9105c92902d77bc9:0x865818e0fbb88321!8m2!3d-12.0507105!4d-77.0603745!16s%2Fg%2F11c1vh0rdb!19sChIJyXvXAinJBZERIYO4--AYWIY?hl=es",
+      "latitude": -12.0507105,
+      "longitude": -77.0603745
+    },
+    {
+      "id": "biz_20",
       "name": "Control de Saneamiento Ambiental - Control SAC",
       "rating": 4.1,
       "reviewsCount": null,
@@ -178,7 +244,7 @@
       "url": "https://www.google.com/maps/place/Control+de+Saneamiento+Ambiental+-+Control+SAC/data=!4m7!3m6!1s0x9105c7c21573e9ad:0x4768ba1dfe0c403c!8m2!3d-12.0840883!4d-77.0080951!16s%2Fg%2F11r6lgw5lw!19sChIJrelzFcLHBZERPEAM_h26aEc"
     },
     {
-      "id": "biz_19",
+      "id": "biz_21",
       "name": "Mdtech Peru",
       "rating": 4.1,
       "reviewsCount": null,
@@ -187,7 +253,20 @@
       "url": "https://www.google.com/maps/place/Mdtech+Peru/data=!4m7!3m6!1s0x9105c872051da5fd:0xa4da8709e4f970f8!8m2!3d-12.1023822!4d-77.0213044!16s%2Fg%2F11f4qhlwwr!19sChIJ_aUdBXLIBZER-HD55AmH2qQ"
     },
     {
-      "id": "biz_15",
+      "id": "biz_22",
+      "name": "VENTAS DE EXTINTORES Fumi Extin Express",
+      "rating": 4,
+      "reviewsCount": 9,
+      "category": "Servicio de seguridad contra incendios",
+      "address": "calle 24 de Febrero 256 San Luis, Lima 15021",
+      "phone": "tel:962869186",
+      "website": "https://www.fumigacionesyextintores.pe/",
+      "url": "https://www.google.com/maps/place/VENTAS+DE+EXTINTORES+Fumi+Extin+Express/data=!4m7!3m6!1s0x9105c7d346d9c1bb:0xc23e8fe3aa40888b!8m2!3d-12.0832486!4d-77.0018562!16s%2Fg%2F11btv6b7fp!19sChIJu8HZRtPHBZERi4hAquOPPsI?hl=es",
+      "latitude": -12.0832486,
+      "longitude": -77.0018562
+    },
+    {
+      "id": "biz_23",
       "name": "Adurma Del Perú SAC",
       "rating": 3.5,
       "reviewsCount": null,
@@ -196,7 +275,7 @@
       "url": "https://www.google.com/maps/place/Adurma+Del+Per%C3%BA+SAC/data=!4m7!3m6!1s0x9105c7d21a04ab8f:0x9925d44cc527bb8!8m2!3d-12.1114539!4d-77.0204075!16s%2Fg%2F12ml2my8r!19sChIJj6sEGtLHBZERuHtSzERdkgk"
     },
     {
-      "id": "biz_20",
+      "id": "biz_24",
       "name": "Rags",
       "rating": 3.2,
       "reviewsCount": null,
@@ -205,7 +284,7 @@
       "url": "https://www.google.com/maps/place/Rags/data=!4m7!3m6!1s0x9105c85e2d2e9409:0x382bf80085aa5b56!8m2!3d-12.0887206!4d-77.0342563!16s%2Fg%2F11c1_w01t8!19sChIJCZQuLV7IBZERVluqhQD4Kzg"
     },
     {
-      "id": "biz_8",
+      "id": "biz_25",
       "name": "Servicio de Fumigación",
       "rating": 1,
       "reviewsCount": null,
@@ -214,13 +293,78 @@
       "url": "https://www.google.com/maps/place/Servicio+de+Fumigaci%C3%B3n/data=!4m7!3m6!1s0x9105c85e996930b5:0xbc25f83931fc9c66!8m2!3d-12.0909605!4d-77.0374366!16s%2Fg%2F11pds7g_g3!19sChIJtTBpmV7IBZERZpz8MTn4Jbw"
     },
     {
-      "id": "biz_18",
+      "id": "biz_26",
       "name": "SHADDAI AMBIENTAL - ATENCIÓN SÓLO LIMA Y CALLAO",
       "rating": null,
       "reviewsCount": null,
       "category": "Empresa de fumigación y control de plagas",
       "address": "Quilla 155, El Agustino 15006",
       "url": "https://www.google.com/maps/place/SHADDAI+AMBIENTAL+-+ATENCI%C3%93N+S%C3%93LO+LIMA+Y+CALLAO/data=!4m7!3m6!1s0x9105c90493f395f7:0x5d81ab8bbe94d28b!8m2!3d-12.031093!4d-77.0009659!16s%2Fg%2F11qg5hzzq3!19sChIJ95XzkwTJBZERi9KUvourgV0"
+    },
+    {
+      "id": "biz_27",
+      "name": "APAQ Soluciones SAC",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Proveedor de fertilizantes",
+      "address": "Lima 15082",
+      "phone": "tel:943503744",
+      "website": null,
+      "url": "https://www.google.com/maps/place/APAQ+Soluciones+SAC/data=!4m7!3m6!1s0x9105c918692d7c91:0x3f5ae6ba7328671f!8m2!3d-12.0466888!4d-77.0430886!16s%2Fg%2F11zf5qcrtt!19sChIJkXwtaRjJBZERH2coc7rmWj8?hl=es",
+      "latitude": -12.0466888,
+      "longitude": -77.0430886
+    },
+    {
+      "id": "biz_28",
+      "name": "Mochilas fumigadoras. ( Maquin Perú )",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Proveedor de equipos agrícolas",
+      "address": "Av. Guillermo Dansey 360, Lima 15001",
+      "phone": "tel:966157752",
+      "website": "https://mochilas-fumigadoras.maquinperu.com/",
+      "url": "https://www.google.com/maps/place/Mochilas+fumigadoras.+%28+Maquin+Per%C3%BA+%29/data=!4m7!3m6!1s0x9105c94e83da70ab:0x8825b3125747cff!8m2!3d-12.0451152!4d-77.0436551!16s%2Fg%2F11s320_vgr!19sChIJq3Dag07JBZER_3x0JTFbggg?hl=es",
+      "latitude": -12.0451152,
+      "longitude": -77.0436551
+    },
+    {
+      "id": "biz_29",
+      "name": "Calcuchumac Tahuantinsuyo",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Complejo de viviendas",
+      "address": "XX34+8QF, Lima 15082",
+      "phone": null,
+      "website": null,
+      "url": "https://www.google.com/maps/place/Calcuchumac+Tahuantinsuyo/data=!4m7!3m6!1s0x9105c9000565d325:0x3249bf0f526d8a4f!8m2!3d-12.0467!4d-77.0431!16s%2Fg%2F11nvhbgr7z!19sChIJJdNlBQDJBZERT4ptUg-_STI?hl=es",
+      "latitude": -12.0467,
+      "longitude": -77.0431
+    },
+    {
+      "id": "biz_30",
+      "name": "Find Perú SAC",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Tienda de herramientas y troqueles",
+      "address": "Avenida Santa Bernardita 172, Lima 15082",
+      "phone": "tel:993082683",
+      "website": "https://www.facebook.com/FindPeru.Oficial/",
+      "url": "https://www.google.com/maps/place/Find+Per%C3%BA+SAC/data=!4m7!3m6!1s0x9105c9fd25bb89e3:0xccc06d301462eb53!8m2!3d-12.0466888!4d-77.0430886!16s%2Fg%2F11q2x_t_z0!19sChIJ44m7Jf3JBZERU-tiFDBtwMw?hl=es",
+      "latitude": -12.0466888,
+      "longitude": -77.0430886
+    },
+    {
+      "id": "biz_31",
+      "name": "EXTINTORES Y FUMIGACIONES - Exit Max SAC.",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Empresa de fumigación y control de plagas",
+      "address": "San Pedro 953, Surquillo 15047",
+      "phone": "tel:999947995",
+      "website": "https://www.exitmaxsac.com/",
+      "url": "https://www.google.com/maps/place/EXTINTORES+Y+FUMIGACIONES+-+Exit+Max+SAC./data=!4m7!3m6!1s0x9105c9f18351e1ed:0xf8811e2d6c35d553!8m2!3d-12.1162841!4d-77.0201651!16s%2Fg%2F11xp16bfj4!19sChIJ7eFRg_HJBZERU9U1bC0egfg?hl=es",
+      "latitude": -12.1162841,
+      "longitude": -77.0201651
     }
   ]
 }

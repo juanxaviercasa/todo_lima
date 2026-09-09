@@ -1,8 +1,8 @@
 {
   "category": "reparacion-refrigeradoras",
   "searchQuery": "reparacion de refrigeradoras a domicilio en Lima",
-  "totalResults": 55,
-  "updatedAt": "2026-09-09T18:15:30.591Z",
+  "totalResults": 73,
+  "updatedAt": "2026-09-09T20:55:05.356Z",
   "topBusinessContext": {
     "id": "biz_5",
     "name": "SERVICIO TECNICO A DOMICILIO (LAVADORAS, REFRIGERADORAS, TERMAS, COCINAS, Y ELECTRICIDAD EN GENERAL)",
@@ -12,20 +12,177 @@
     "address": "Guillermo Billinghurst 281, Carabayllo 15121",
     "url": "https://www.google.com/maps/place/SERVICIO+TECNICO+A+DOMICILIO+%28LAVADORAS,+REFRIGERADORAS,+TERMAS,+COCINAS,+Y+ELECTRICIDAD+EN+GENERAL%29/data=!4m7!3m6!1s0x9105d15ea16cd545:0xbfd8554e51635008!8m2!3d-11.8703292!4d-77.0160765!16s%2Fg%2F11zh5_c0bm!19sChIJRdVsoV7RBZERCFBjUU5V2L8"
   },
-  "pageContent": {
-    "headline": "Los Mejores Expertos en REPARACION REFRIGERADORAS en Lima: Conoce a SERVICIO TECNICO A DOMICILIO (LAVADORAS, REFRIGERADORAS, TERMAS, COCINAS, Y ELECTRICIDAD EN GENERAL)",
-    "subtitles": [
-      "Garantiza resultados hoy mismo. Ubicados en Guillermo Billinghurst 281, Carabayllo 15121, destacan como la opción número uno validada por usuarios reales.",
-      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
-    ],
-    "ctas": [
-      "Contactar por WhatsApp Ahora",
-      "Ver Directorio Completo"
-    ]
-  },
+  "pageContent": [
+    {
+      "id": "urgencia",
+      "headline": "¿Problemas urgentes? Encuentra REPARACION REFRIGERADORAS en Lima en menos de 15 Minutos",
+      "subtitles": [
+        "No dejes tu necesidad al azar ni pierdas semanas buscando referencias en la ciudad.",
+        "Garantiza resultados rápidos con especialistas validados. Destaca SERVICIO TECNICO A DOMICILIO (LAVADORAS, REFRIGERADORAS, TERMAS, COCINAS, Y ELECTRICIDAD EN GENERAL) ubicado en Guillermo Billinghurst 281, Carabayllo 15121."
+      ],
+      "ctas": [
+        "Contactar al Especialista por WhatsApp",
+        "Ver Directorio Inmediato"
+      ]
+    },
+    {
+      "id": "autoridad",
+      "headline": "El Directorio Definitivo: El Top 1% de REPARACION REFRIGERADORAS Validados en Lima",
+      "subtitles": [
+        "Contratar un servicio es una decisión crítica. Tomar una decisión equivocada sale muy caro.",
+        "Filtramos los negocios con mayor tasa de éxito. Conecta directo con líderes como SERVICIO TECNICO A DOMICILIO (LAVADORAS, REFRIGERADORAS, TERMAS, COCINAS, Y ELECTRICIDAD EN GENERAL) (⭐ 5 estrellas)."
+      ],
+      "ctas": [
+        "Chatear con un Experto",
+        "Explorar Ranking de Especialistas"
+      ]
+    },
+    {
+      "id": "prueba-social",
+      "headline": "Protege tu Inversión con los REPARACION REFRIGERADORAS Más Recomendados de Lima",
+      "subtitles": [
+        "Cientos de clientes en Lima ya validaron a estos profesionales. No seas el conejillo de indias de nadie.",
+        "Habla hoy mismo y sin intermediarios con los expertos mejor reseñados en Google Maps."
+      ],
+      "ctas": [
+        "Solicitar Evaluación Gratis",
+        "Ver Reseñas Verificadas"
+      ]
+    }
+  ],
   "businesses": [
     {
+      "id": "biz_1",
+      "name": "Servicio Técnico, Reparación de Termas Sole, Bryant, Bosch, Sakura - Calentadores - Termotanques . Alerta Perú Técnico",
+      "rating": 5,
+      "reviewsCount": 111,
+      "category": "Servicio de reparación de electrodomésticos",
+      "address": "Magda Portal 168, Santiago de Surco 15039",
+      "phone": "tel:997144598",
+      "website": "https://www.alertaperutecnico.com/",
+      "url": "https://www.google.com/maps/place/Servicio+T%C3%A9cnico,+Reparaci%C3%B3n+de+Termas+Sole,+Bryant,+Bosch,+Sakura+-+Calentadores+-+Termotanques+.+Alerta+Per%C3%BA+T%C3%A9cnico/data=!4m7!3m6!1s0x9105b9897c0a8f5d:0xb708c506ded6f5d0!8m2!3d-12.1456561!4d-76.9866923!16s%2Fg%2F11fm475k2v!19sChIJXY8KfIm5BZER0PXW3gbFCLc?hl=es",
+      "latitude": -12.1456561,
+      "longitude": -76.9866923
+    },
+    {
+      "id": "biz_2",
+      "name": "Servicios Daniels",
+      "rating": 5,
+      "reviewsCount": 56,
+      "category": "Servicio de reparación de electrodomésticos",
+      "address": "Vulcano 144, Santiago de Surco 15054",
+      "phone": "tel:991123190",
+      "website": "https://servicios-daniels.netlify.app/",
+      "url": "https://www.google.com/maps/place/Servicios+Daniels/data=!4m7!3m6!1s0x9105b965bce451a1:0x777700d13506e5df!8m2!3d-12.1662415!4d-76.996607!16s%2Fg%2F11jsh3_yn2!19sChIJoVHkvGW5BZER3-UGNdEAd3c?hl=es",
+      "latitude": -12.1662415,
+      "longitude": -76.996607
+    },
+    {
+      "id": "biz_3",
+      "name": "SERVICIO TÉCNICO CUBA",
+      "rating": 5,
+      "reviewsCount": 15,
+      "category": "reparacion-refrigeradoras",
+      "address": "Pje. 10, Chaclacayo 15476",
+      "phone": "tel:993998482",
+      "website": "https://www.facebook.com/Servicio-T%C3%A9cnico-Cuba-100216919096842/",
+      "url": "https://www.google.com/maps/place/SERVICIO+T%C3%89CNICO+CUBA/data=!4m7!3m6!1s0x9105e952e9fc46b1:0xf128d3a65bdee976!8m2!3d-11.9860819!4d-76.8146906!16s%2Fg%2F11p18d697x!19sChIJsUb86VLpBZERduneW6bTKPE?hl=es",
+      "latitude": -11.9860819,
+      "longitude": -76.8146906
+    },
+    {
+      "id": "biz_4",
+      "name": "Reparatec - Tecnicos de Refrigeradoras , Lavadoras , Cocinas y mas...",
+      "rating": 5,
+      "reviewsCount": 3,
+      "category": "Servicio de reparación de electrodomésticos",
+      "address": "C. Intihuatana 196, Santa Anita 15008",
+      "phone": "tel:914301010",
+      "website": "https://reparatec.pe/",
+      "url": "https://www.google.com/maps/place/Reparatec+-+Tecnicos+de+Refrigeradoras+,+Lavadoras+,+Cocinas+y+mas.../data=!4m7!3m6!1s0x8ec6ce44c7572d13:0x86bccf35c99fc850!8m2!3d-12.0423321!4d-76.9720725!16s%2Fg%2F11zdr1q6gb!19sChIJEy1Xx0TOxo4RUMifyTXPvIY?hl=es",
+      "latitude": -12.0423321,
+      "longitude": -76.9720725
+    },
+    {
       "id": "biz_5",
+      "name": "FRIOSERVICE",
+      "rating": 5,
+      "reviewsCount": 3,
+      "category": "Servicio de reparación de neveras",
+      "address": "42 Av. Micaela Bastidas sector 1 mz M lt 19, Villa EL Salvador 15829",
+      "phone": "tel:936799915",
+      "website": "https://frioservice-16.my.canva.site/",
+      "url": "https://www.google.com/maps/place/FRIOSERVICE/data=!4m7!3m6!1s0x9105b9b846378d03:0x54ccced8ea51f6cc!8m2!3d-12.199295!4d-76.9516198!16s%2Fg%2F11q9hrrfq6!19sChIJA403Rri5BZERzPZR6tjOzFQ?hl=es",
+      "latitude": -12.199295,
+      "longitude": -76.9516198
+    },
+    {
+      "id": "biz_6",
+      "name": "Multiservicios Roberto",
+      "rating": 5,
+      "reviewsCount": 2,
+      "category": "Servicio de reparación de electrodomésticos",
+      "address": "Av. Nicolás Ayllón 486, Chaclacayo 15472",
+      "phone": "tel:956277461",
+      "website": "https://www.negocioschaclacayo.com/multiservicios-roberto",
+      "url": "https://www.google.com/maps/place/Multiservicios+Roberto/data=!4m7!3m6!1s0x9105e9fd7c19c9d7:0xd546050b545a9d32!8m2!3d-11.9766202!4d-76.7728236!16s%2Fg%2F11p0rtf57b!19sChIJ18kZfP3pBZERMp1aVAsFRtU?hl=es",
+      "latitude": -11.9766202,
+      "longitude": -76.7728236
+    },
+    {
+      "id": "biz_7",
+      "name": "Técnico de reparación de targetas de lavadora y refrigerador",
+      "rating": 5,
+      "reviewsCount": 2,
+      "category": "Servicio de reparación de electrodomésticos",
+      "address": "Jirón Huancavelica 1354, Lima 15079",
+      "phone": "tel:913773921",
+      "website": "https://www.facebook.com/profile.php?id=100089029033288&mibextid=ZbWKwL",
+      "url": "https://www.google.com/maps/place/T%C3%A9cnico+de+reparaci%C3%B3n+de+targetas+de+lavadora+y+refrigerador/data=!4m7!3m6!1s0x9105c93fd3238889:0xecac1df5a997c240!8m2!3d-12.0420964!4d-77.0466842!16s%2Fg%2F11k4y79k4k!19sChIJiYgj0z_JBZERQMKXqfUdrOw?hl=es",
+      "latitude": -12.0420964,
+      "longitude": -77.0466842
+    },
+    {
+      "id": "biz_8",
+      "name": "REFRIGERACIÓN FLORESSAN SERVICIO TÉCNICO DE REFRIGERADORAS LAVADORAS",
+      "rating": 5,
+      "reviewsCount": 1,
+      "category": "reparacion-refrigeradoras",
+      "address": "Ate 15476",
+      "phone": "tel:947629312",
+      "website": null,
+      "url": "https://www.google.com/maps/place/REFRIGERACI%C3%93N+FLORESSAN+SERVICIO+T%C3%89CNICO+DE+REFRIGERADORAS+LAVADORAS/data=!4m7!3m6!1s0x9105c3e1810afe8f:0xbafbf0304f6d4fdd!8m2!3d-12.0085771!4d-76.8421597!16s%2Fg%2F11vr4jmsj4!19sChIJj_4KgeHDBZER3U9tTzDw-7o?hl=es",
+      "latitude": -12.0085771,
+      "longitude": -76.8421597
+    },
+    {
+      "id": "biz_9",
+      "name": "ELECTRO REPARACIONES",
+      "rating": 5,
+      "reviewsCount": 1,
+      "category": "Servicio de reparación de neveras",
+      "address": "15438, San Juan de Lurigancho 15438",
+      "phone": "tel:934336762",
+      "website": "https://wa.me/51934336762",
+      "url": "https://www.google.com/maps/place/ELECTRO+REPARACIONES/data=!4m7!3m6!1s0x9105c5cc5d4a8dbf:0x160d567384196875!8m2!3d-11.97006!4d-76.9913508!16s%2Fg%2F11v18wh7wp!19sChIJv41KXczFBZERdWgZhHNWDRY?hl=es",
+      "latitude": -11.97006,
+      "longitude": -76.9913508
+    },
+    {
+      "id": "biz_10",
+      "name": "MS SERVICIO TÉCNICO BAYONA",
+      "rating": 5,
+      "reviewsCount": 1,
+      "category": "Servicio de reparación de electrodomésticos",
+      "address": "C. los Alhelies 477, Lima 15006",
+      "phone": null,
+      "website": null,
+      "url": "https://www.google.com/maps/place/MS+SERVICIO+T%C3%89CNICO+BAYONA/data=!4m7!3m6!1s0x9105c56c37e39a77:0x1e3adde7899a8657!8m2!3d-12.0341528!4d-77.003846!16s%2Fg%2F11fntpl21m!19sChIJd5rjN2zFBZERV4aaiefdOh4?hl=es",
+      "latitude": -12.0341528,
+      "longitude": -77.003846
+    },
+    {
+      "id": "biz_11",
       "name": "SERVICIO TECNICO A DOMICILIO (LAVADORAS, REFRIGERADORAS, TERMAS, COCINAS, Y ELECTRICIDAD EN GENERAL)",
       "rating": 5,
       "reviewsCount": null,
@@ -34,7 +191,7 @@
       "url": "https://www.google.com/maps/place/SERVICIO+TECNICO+A+DOMICILIO+%28LAVADORAS,+REFRIGERADORAS,+TERMAS,+COCINAS,+Y+ELECTRICIDAD+EN+GENERAL%29/data=!4m7!3m6!1s0x9105d15ea16cd545:0xbfd8554e51635008!8m2!3d-11.8703292!4d-77.0160765!16s%2Fg%2F11zh5_c0bm!19sChIJRdVsoV7RBZERCFBjUU5V2L8"
     },
     {
-      "id": "biz_9",
+      "id": "biz_12",
       "name": "Servicio en Lima - Servicio Técnico de Electrodomésticos",
       "rating": 5,
       "reviewsCount": null,
@@ -43,7 +200,7 @@
       "url": "https://www.google.com/maps/place/Servicio+en+Lima+-+Servicio+T%C3%A9cnico+de+Electrodom%C3%A9sticos/data=!4m7!3m6!1s0x9105c970d44e8e67:0x5da586260fe9732d!8m2!3d-12.0586096!4d-77.0618985!16s%2Fg%2F11ms8t9rvn!19sChIJZ45O1HDJBZERLXPpDyaGpV0"
     },
     {
-      "id": "biz_11",
+      "id": "biz_13",
       "name": "Técnico de refrigeradora y lavadora adomicilio",
       "rating": 5,
       "reviewsCount": null,
@@ -52,7 +209,7 @@
       "url": "https://www.google.com/maps/place/T%C3%A9cnico+de+refrigeradora+y+lavadora+adomicilio/data=!4m7!3m6!1s0x9105c57ca27128fd:0x7f4b7891731b9c62!8m2!3d-11.9912613!4d-77.003785!16s%2Fg%2F11sv_1ssy_!19sChIJ_ShxonzFBZERYpwbc5F4S38"
     },
     {
-      "id": "biz_13",
+      "id": "biz_14",
       "name": "Servicio Técnico Refrigera - Reparación de Refrigeradoras en Lima",
       "rating": 5,
       "reviewsCount": null,
@@ -61,7 +218,7 @@
       "url": "https://www.google.com/maps/place/Servicio+T%C3%A9cnico+Refrigera+-+Reparaci%C3%B3n+de+Refrigeradoras+en+Lima/data=!4m7!3m6!1s0x9105c7e133bb7eb3:0x23f3c29e162ab9e1!8m2!3d-12.110422!4d-77.004875!16s%2Fg%2F11l33j56zg!19sChIJs367M-HHBZER4bkqFp7C8yM"
     },
     {
-      "id": "biz_20",
+      "id": "biz_15",
       "name": "Golden Solutions Perú SAC Servicio Técnico de Refrigeradoras Secadoras Lavadoras Termas Termotanques Lima",
       "rating": 5,
       "reviewsCount": null,
@@ -70,7 +227,7 @@
       "url": "https://www.google.com/maps/place/Golden+Solutions+Per%C3%BA+SAC+Servicio+T%C3%A9cnico+de+Refrigeradoras+Secadoras+Lavadoras+Termas+Termotanques+Lima/data=!4m7!3m6!1s0x9105b9444bb7ad2f:0xbb282c2e14722bb3!8m2!3d-12.1781312!4d-76.8857905!16s%2Fg%2F11hx6cg_js!19sChIJL623S0S5BZERsytyFC4sKLs"
     },
     {
-      "id": "biz_23",
+      "id": "biz_16",
       "name": "Servicio Tecnico Reparación Lavadoras Secadoras lavavajillas Lavasecadoras Electrodomesticos Samsung LG Panasonic Mabe",
       "rating": 5,
       "reviewsCount": null,
@@ -79,7 +236,7 @@
       "url": "https://www.google.com/maps/place/Servicio+Tecnico+Reparaci%C3%B3n+Lavadoras+Secadoras+lavavajillas+Lavasecadoras+Electrodomesticos+Samsung+LG+Panasonic+Mabe/data=!4m7!3m6!1s0x9105c966d5407021:0x7153642aaad06399!8m2!3d-12.0852577!4d-77.0862304!16s%2Fg%2F11kpr66jc5!19sChIJIXBA1WbJBZERmWPQqipkU3E"
     },
     {
-      "id": "biz_32",
+      "id": "biz_17",
       "name": "Frioimportperu Refrigeración y Lavadora",
       "rating": 5,
       "reviewsCount": null,
@@ -88,7 +245,7 @@
       "url": "https://www.google.com/maps/place/Frioimportperu+Refrigeraci%C3%B3n+y+Lavadora/data=!4m7!3m6!1s0x9105cfb71ea448e1:0x159f121244f3a64!8m2!3d-11.9903111!4d-77.0939222!16s%2Fg%2F11vkjsf7g2!19sChIJ4UikHrfPBZERZDpPJCHxWQE"
     },
     {
-      "id": "biz_33",
+      "id": "biz_18",
       "name": "Servicio Técnico de Electrodomésticos Luigi",
       "rating": 5,
       "reviewsCount": null,
@@ -97,7 +254,7 @@
       "url": "https://www.google.com/maps/place/Servicio+T%C3%A9cnico+de+Electrodom%C3%A9sticos+Luigi/data=!4m7!3m6!1s0x9105c952bf2be703:0x4fa18df58caa78f1!8m2!3d-12.1153007!4d-77.0252666!16s%2Fg%2F11lgqc4t8s!19sChIJA-crv1LJBZER8XiqjPWNoU8"
     },
     {
-      "id": "biz_34",
+      "id": "biz_19",
       "name": "Parts & Service Innovation S.A.C.",
       "rating": 5,
       "reviewsCount": null,
@@ -106,7 +263,7 @@
       "url": "https://www.google.com/maps/place/Parts+%26+Service+Innovation+S.A.C./data=!4m7!3m6!1s0x9105c90ced5808a5:0x7bfff9ea2bcba7dd!8m2!3d-12.1134361!4d-77.022434!16s%2Fg%2F11n0571hgn!19sChIJpQhY7QzJBZER3afLK-r5_3s"
     },
     {
-      "id": "biz_41",
+      "id": "biz_20",
       "name": "Reparacion Peru soto EIRL",
       "rating": 5,
       "reviewsCount": null,
@@ -115,7 +272,7 @@
       "url": "https://www.google.com/maps/place/Reparacion+Peru+soto+EIRL/data=!4m7!3m6!1s0x9105c961bb20f225:0xade25e73778a501f!8m2!3d-12.1153271!4d-77.0252682!16s%2Fg%2F11rrjx751y!19sChIJJfIgu2HJBZERH1CKd3Ne4q0"
     },
     {
-      "id": "biz_52",
+      "id": "biz_21",
       "name": "REPARACION DE ELECTRODOMESTICOS | SERVISCRIBA",
       "rating": 5,
       "reviewsCount": null,
@@ -124,7 +281,7 @@
       "url": "https://www.google.com/maps/place/REPARACION+DE+ELECTRODOMESTICOS+%7C+SERVISCRIBA/data=!4m7!3m6!1s0x9105cba27c844faf:0x5f22375b2d10a0c1!8m2!3d-12.0735951!4d-77.1118438!16s%2Fg%2F11fmbdtdfb!19sChIJr0-EfKLLBZERwaAQLVs3Il8"
     },
     {
-      "id": "biz_37",
+      "id": "biz_22",
       "name": "G Y C REPUESTOS Y SERVICIOS GENERALES S.A.C",
       "rating": 4.9,
       "reviewsCount": null,
@@ -133,7 +290,33 @@
       "url": "https://www.google.com/maps/place/G+Y+C+REPUESTOS+Y+SERVICIOS+GENERALES+S.A.C/data=!4m7!3m6!1s0x9105b95003bcbc3f:0x1f60b1a19f95e934!8m2!3d-12.1476461!4d-76.989339!16s%2Fg%2F11hgy_5q2_!19sChIJP7y8A1C5BZERNOmVn6GxYB8"
     },
     {
-      "id": "biz_7",
+      "id": "biz_23",
+      "name": "Servicio Técnico \"SG San Roque\" - Electrodomésticos - San Borja.",
+      "rating": 4.8,
+      "reviewsCount": 35,
+      "category": "Servicio de reparación de lavadoras y secadoras",
+      "address": "Av. San Luis 3016, San Borja 15037",
+      "phone": "tel:986073359",
+      "website": "https://guiaperu.pe/SGSanRoque",
+      "url": "https://www.google.com/maps/place/Servicio+T%C3%A9cnico+%22SG+San+Roque%22+-+Electrodom%C3%A9sticos+-+San+Borja./data=!4m7!3m6!1s0x9105c7ab9397e507:0x457bbbf9c7cfdf61!8m2!3d-12.1084309!4d-76.9929481!16s%2Fg%2F11jdn98fms!19sChIJB-WXk6vHBZERYd_Px_m7e0U?hl=es",
+      "latitude": -12.1084309,
+      "longitude": -76.9929481
+    },
+    {
+      "id": "biz_24",
+      "name": "Electrónica Ruiz Perú",
+      "rating": 4.7,
+      "reviewsCount": 116,
+      "category": "Empresa de electrónica",
+      "address": "Av. Nicolás de Piérola 1755, Lima 15001",
+      "phone": "tel:979993185",
+      "website": "https://web.facebook.com/ElectronicRuiz/?ref=bookmarks",
+      "url": "https://www.google.com/maps/place/Electr%C3%B3nica+Ruiz+Per%C3%BA/data=!4m7!3m6!1s0x9105c8bc7dae792b:0xb9927169999d5fab!8m2!3d-12.0576965!4d-77.0245786!16s%2Fg%2F11b6txmxsj!19sChIJK3mufbzIBZERq1-dmWlxkrk?hl=es",
+      "latitude": -12.0576965,
+      "longitude": -77.0245786
+    },
+    {
+      "id": "biz_25",
       "name": "Reparación, técnico, Mantenimiento de Aire Acondicionado - Refrigeradoras - Lavadoras. Autorizado JML",
       "rating": 4.8,
       "reviewsCount": null,
@@ -142,7 +325,7 @@
       "url": "https://www.google.com/maps/place/Reparaci%C3%B3n,+t%C3%A9cnico,+Mantenimiento+de+Aire+Acondicionado+-+Refrigeradoras+-+Lavadoras.+Autorizado+JML/data=!4m7!3m6!1s0x9105c1cf2629b39d:0xc503c9ad8453a7a2!8m2!3d-12.1383376!4d-76.9941298!16s%2Fg%2F11s7ybngy7!19sChIJnbMpJs_BBZERoqdThK3JA8U"
     },
     {
-      "id": "biz_14",
+      "id": "biz_26",
       "name": "Servicio Técnico de TV, Lavadoras, Secadoras, Refrigeradoras, Termas - INGEELEC EN LIMA",
       "rating": 4.8,
       "reviewsCount": null,
@@ -151,7 +334,7 @@
       "url": "https://www.google.com/maps/place/Servicio+T%C3%A9cnico+de+TV,+Lavadoras,+Secadoras,+Refrigeradoras,+Termas+-+INGEELEC+EN+LIMA/data=!4m7!3m6!1s0x9105c93983e9c467:0x4216f90ee41f286d!8m2!3d-12.0462995!4d-77.0531736!16s%2Fg%2F11jzqqjt9k!19sChIJZ8TpgznJBZERbSgf5A75FkI"
     },
     {
-      "id": "biz_4",
+      "id": "biz_27",
       "name": "Reparación de Lavadoras y Refrigeradoras | TecniSoluciones",
       "rating": 4.7,
       "reviewsCount": null,
@@ -160,7 +343,7 @@
       "url": "https://www.google.com/maps/place/Reparaci%C3%B3n+de+Lavadoras+y+Refrigeradoras+%7C+TecniSoluciones/data=!4m7!3m6!1s0x9105c99ab42920fd:0xb0c3e101d2df1fa1!8m2!3d-12.1369495!4d-77.010899!16s%2Fg%2F11xcwsxttn!19sChIJ_SAptJrJBZERoR_f0gHhw7A"
     },
     {
-      "id": "biz_12",
+      "id": "biz_28",
       "name": "Servicio Técnico LG a Domicilio Lima - Servitec Perú",
       "rating": 4.7,
       "reviewsCount": null,
@@ -169,7 +352,7 @@
       "url": "https://www.google.com/maps/place/Servicio+T%C3%A9cnico+LG+a+Domicilio+Lima+-+Servitec+Per%C3%BA/data=!4m7!3m6!1s0x9105c9321b20d8c9:0x690a6c1afa9f69cb!8m2!3d-12.1173903!4d-77.0221671!16s%2Fg%2F11lry92k3_!19sChIJydggGzLJBZERy2mf-hpsCmk"
     },
     {
-      "id": "biz_19",
+      "id": "biz_29",
       "name": "Técnico de lavadora gomez✅",
       "rating": 4.7,
       "reviewsCount": null,
@@ -178,7 +361,7 @@
       "url": "https://www.google.com/maps/place/T%C3%A9cnico+de+lavadora+gomez%E2%9C%85/data=!4m7!3m6!1s0x9105cf038ed6895b:0x41e400a3fa852283!8m2!3d-12.0292292!4d-77.0714672!16s%2Fg%2F11pvb58f2l!19sChIJW4nWjgPPBZERgyKF-qMA5EE"
     },
     {
-      "id": "biz_29",
+      "id": "biz_30",
       "name": "Electrógenio Perú | Reparación de Cocinas, Refrigeradoras, Lavadoras y Aire Acondicionado",
       "rating": 4.7,
       "reviewsCount": null,
@@ -187,7 +370,20 @@
       "url": "https://www.google.com/maps/place/Electr%C3%B3genio+Per%C3%BA+%7C+Reparaci%C3%B3n+de+Cocinas,+Refrigeradoras,+Lavadoras+y+Aire+Acondicionado/data=!4m7!3m6!1s0x9105b9c22f8df787:0x29b657ad6b0ec436!8m2!3d-12.1724219!4d-76.9677682!16s%2Fg%2F11ygr6mh4x!19sChIJh_eNL8K5BZERNsQOa61Xtik"
     },
     {
-      "id": "biz_10",
+      "id": "biz_31",
+      "name": "REFRIGERACION CUIMAN",
+      "rating": 4.2,
+      "reviewsCount": 425,
+      "category": "Persona de mantenimiento",
+      "address": "Av. Horacio Zeballos, Ate 15476",
+      "phone": "tel:956508573",
+      "website": null,
+      "url": "https://www.google.com/maps/place/REFRIGERACION+CUIMAN/data=!4m7!3m6!1s0x9105c37e214d3359:0xb74fe956112526f7!8m2!3d-12.0101246!4d-76.8408411!16s%2Fg%2F11w34bqmqg!19sChIJWTNNIX7DBZER9yYlEVbpT7c?hl=es",
+      "latitude": -12.0101246,
+      "longitude": -76.8408411
+    },
+    {
+      "id": "biz_32",
       "name": "Repuesto de Lavadora en Lima",
       "rating": 4.6,
       "reviewsCount": null,
@@ -196,7 +392,7 @@
       "url": "https://www.google.com/maps/place/Repuesto+de+Lavadora+en+Lima/data=!4m7!3m6!1s0x9105c8103d9cd82d:0x90a6ce63f901b035!8m2!3d-12.1173032!4d-77.0228139!16s%2Fg%2F11csqcv925!19sChIJLdicPRDIBZERNbAB-WPOppA"
     },
     {
-      "id": "biz_38",
+      "id": "biz_33",
       "name": "Master Service L.G",
       "rating": 4.6,
       "reviewsCount": null,
@@ -205,7 +401,7 @@
       "url": "https://www.google.com/maps/place/Master+Service+L.G/data=!4m7!3m6!1s0x9105b91bd81e86c5:0x71db72311e2264ce!8m2!3d-12.1347832!4d-77.0082419!16s%2Fg%2F11fmzc4w0w!19sChIJxYYe2Bu5BZERzmQiHjFy23E"
     },
     {
-      "id": "biz_40",
+      "id": "biz_34",
       "name": "Refrigeración Guzman",
       "rating": 4.6,
       "reviewsCount": null,
@@ -214,7 +410,20 @@
       "url": "https://www.google.com/maps/place/Refrigeraci%C3%B3n+Guzman/data=!4m7!3m6!1s0x9105b9cff86c920f:0xbf20f9b41ecb6826!8m2!3d-12.1840214!4d-77.0017802!16s%2Fg%2F11g1lj9thk!19sChIJD5Js-M-5BZERJmjLHrT5IL8"
     },
     {
-      "id": "biz_3",
+      "id": "biz_35",
+      "name": "AMERICAN SERVICE REFRIGERATION E.I.R.L.",
+      "rating": 4.5,
+      "reviewsCount": 13,
+      "category": "Servicio de reparación de lavadoras y secadoras",
+      "address": "San Diego 131, Lima 15047",
+      "phone": "tel:014477141",
+      "website": null,
+      "url": "https://www.google.com/maps/place/AMERICAN+SERVICE+REFRIGERATION+E.I.R.L./data=!4m7!3m6!1s0x9105c9519fecd215:0x57ad99f3cd593a0c!8m2!3d-12.1188433!4d-77.0252445!16s%2Fg%2F11h3vgzj8h!19sChIJFdLsn1HJBZERDDpZzfOZrVc?hl=es",
+      "latitude": -12.1188433,
+      "longitude": -77.0252445
+    },
+    {
+      "id": "biz_36",
       "name": "Reparación de Refrigeradores 24 horas",
       "rating": 4.5,
       "reviewsCount": null,
@@ -223,7 +432,7 @@
       "url": "https://www.google.com/maps/place/Reparaci%C3%B3n+de+Refrigeradores+24+horas/data=!4m7!3m6!1s0x9105cf29e3d5e67d:0x35374908cb1ec119!8m2!3d-12.0978794!4d-76.9725279!16s%2Fg%2F11sk2rpg6w!19sChIJfebV4ynPBZERGcEeywhJNzU"
     },
     {
-      "id": "biz_26",
+      "id": "biz_37",
       "name": "American Servipro",
       "rating": 4.5,
       "reviewsCount": null,
@@ -232,7 +441,20 @@
       "url": "https://www.google.com/maps/place/American+Servipro/data=!4m7!3m6!1s0x9105cf478199c131:0xe2b3807c5bdd4492!8m2!3d-12.0269759!4d-77.0331018!16s%2Fg%2F11rxn9d9tb!19sChIJMcGZgUfPBZERkkTdW3yAs-I"
     },
     {
-      "id": "biz_2",
+      "id": "biz_38",
+      "name": "Servitec Home",
+      "rating": 4.4,
+      "reviewsCount": 15,
+      "category": "Servicio de reparación de electrodomésticos",
+      "address": "Cruz de Motupe, C. 70, San Juan de Lurigancho LIMA 36",
+      "phone": "tel:993969905",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Servitec+Home/data=!4m7!3m6!1s0x9105dac507d63a3b:0xc0c62c3f3bdf5f5e!8m2!3d-11.9349563!4d-76.9782339!16s%2Fg%2F11dxqc3ht6!19sChIJOzrWB8XaBZERXl_fOz8sxsA?hl=es",
+      "latitude": -11.9349563,
+      "longitude": -76.9782339
+    },
+    {
+      "id": "biz_39",
       "name": "Reparación de Refrigeradoras y Lavadoras Fallaselectrónicas S.A.C",
       "rating": 4.4,
       "reviewsCount": null,
@@ -241,7 +463,7 @@
       "url": "https://www.google.com/maps/place/Reparaci%C3%B3n+de+Refrigeradoras+y+Lavadoras+Fallaselectr%C3%B3nicas+S.A.C/data=!4m7!3m6!1s0x9105c90c8f17cf13:0x49fd2d0eef2e26b1!8m2!3d-12.0479771!4d-76.9101679!16s%2Fg%2F11g0dhbwl0!19sChIJE88XjwzJBZERsSYu7w4t_Uk"
     },
     {
-      "id": "biz_8",
+      "id": "biz_40",
       "name": "Servicio Técnico de termas, lavadoras, secadoras, refrigeradoras, cocinas, batidoras - CORTECLIMA",
       "rating": 4.4,
       "reviewsCount": null,
@@ -250,7 +472,7 @@
       "url": "https://www.google.com/maps/place/Servicio+T%C3%A9cnico+de+termas,+lavadoras,+secadoras,+refrigeradoras,+cocinas,+batidoras+-+CORTECLIMA/data=!4m7!3m6!1s0x9105cfbc97ae2f65:0x4cc07000ce450bd0!8m2!3d-11.9893473!4d-77.0826024!16s%2Fg%2F11pzyx3_1d!19sChIJZS-ul7zPBZER0AtFzgBwwEw"
     },
     {
-      "id": "biz_1",
+      "id": "biz_41",
       "name": "Corporación Técnica SEARS E.I.R.L",
       "rating": 4.3,
       "reviewsCount": null,
@@ -259,7 +481,7 @@
       "url": "https://www.google.com/maps/place/Corporaci%C3%B3n+T%C3%A9cnica+SEARS+E.I.R.L/data=!4m7!3m6!1s0x9105cfc0741b6661:0x893873d8ef9dc125!8m2!3d-12.030141!4d-77.015189!16s%2Fg%2F11ft4fp49z!19sChIJYWYbdMDPBZERJcGd79hzOIk"
     },
     {
-      "id": "biz_18",
+      "id": "biz_42",
       "name": "Refrigeracion Frio Xtrem I",
       "rating": 4.3,
       "reviewsCount": null,
@@ -268,7 +490,7 @@
       "url": "https://www.google.com/maps/place/Refrigeracion+Frio+Xtrem+I/data=!4m7!3m6!1s0x9105c4c070115007:0x41413363e80b41d3!8m2!3d-12.0004422!4d-76.9233404!16s%2Fg%2F11ggjvb6cf!19sChIJB1ARcMDEBZER00EL6GMzQUE"
     },
     {
-      "id": "biz_30",
+      "id": "biz_43",
       "name": "Corporación Técnica SEARS E.I.R.L",
       "rating": 4.3,
       "reviewsCount": null,
@@ -277,7 +499,20 @@
       "url": "https://www.google.com/maps/place/Corporaci%C3%B3n+T%C3%A9cnica+SEARS+E.I.R.L/data=!4m7!3m6!1s0x9105cfc0741b6661:0x893873d8ef9dc125!8m2!3d-12.0301413!4d-77.0151889!16s%2Fg%2F11ft4fp49z!19sChIJYWYbdMDPBZERJcGd79hzOIk"
     },
     {
-      "id": "biz_16",
+      "id": "biz_44",
+      "name": "servicio tecnico lavadoras y refrigeradoras .linea blanca",
+      "rating": 4.2,
+      "reviewsCount": 5,
+      "category": "Establecimiento de reparación de artículos electrónicos",
+      "address": "Av. Javier Prado Este 2050, Lima 15036",
+      "phone": "tel:993602556",
+      "website": null,
+      "url": "https://www.google.com/maps/place/servicio+tecnico+lavadoras+y+refrigeradoras+.linea+blanca/data=!4m7!3m6!1s0x9105c7433ffac33d:0xd247d90e81db3314!8m2!3d-12.0886523!4d-77.0047186!16s%2Fg%2F11lm0m9gr_!19sChIJPcP6P0PHBZERFDPbgQ7ZR9I?hl=es",
+      "latitude": -12.0886523,
+      "longitude": -77.0047186
+    },
+    {
+      "id": "biz_45",
       "name": "GRUPO ALFALEC - SERVICIO TECNICO EN LIMA",
       "rating": 4.2,
       "reviewsCount": null,
@@ -286,7 +521,20 @@
       "url": "https://www.google.com/maps/place/GRUPO+ALFALEC+-+SERVICIO+TECNICO+EN+LIMA/data=!4m7!3m6!1s0x9105c9f7cbc838f1:0xd7f9f07a690dc8c2!8m2!3d-12.0777345!4d-77.0801757!16s%2Fg%2F11qnc66r4z!19sChIJ8TjIy_fJBZERwsgNaXrw-dc"
     },
     {
-      "id": "biz_35",
+      "id": "biz_46",
+      "name": "Repuestos de Refrigeración Perú",
+      "rating": 4.1,
+      "reviewsCount": 9,
+      "category": "Servicio de reparación de neveras",
+      "address": "Mz. D Lote 9, Av. Naranjal, Los Olivos 15304",
+      "phone": "tel:918830507",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Repuestos+de+Refrigeraci%C3%B3n+Per%C3%BA/data=!4m7!3m6!1s0x9105cf6ba58d8615:0x1037a4a4878ae4e2!8m2!3d-11.9769307!4d-77.0807279!16s%2Fg%2F11h00f3bgh!19sChIJFYaNpWvPBZER4uSKh6SkNxA?hl=es",
+      "latitude": -11.9769307,
+      "longitude": -77.0807279
+    },
+    {
+      "id": "biz_47",
       "name": "SERVICIOS TÉCNICOS DE REFRIGERACIÓN AMD",
       "rating": 4.1,
       "reviewsCount": null,
@@ -295,7 +543,7 @@
       "url": "https://www.google.com/maps/place/SERVICIOS+T%C3%89CNICOS+DE+REFRIGERACI%C3%93N+AMD/data=!4m7!3m6!1s0x9105cf27dca0f64d:0xad3b351ba0ee3ab8!8m2!3d-11.9676773!4d-77.0878915!16s%2Fg%2F11lqjffzqn!19sChIJTfag3CfPBZERuDruoBs1O60"
     },
     {
-      "id": "biz_44",
+      "id": "biz_48",
       "name": "Karluc Service",
       "rating": 4,
       "reviewsCount": null,
@@ -304,7 +552,7 @@
       "url": "https://www.google.com/maps/place/Karluc+Service/data=!4m7!3m6!1s0x9105cf051c084287:0xc702bc834a530093!8m2!3d-11.9889111!4d-77.069547!16s%2Fg%2F11t9k0fq9x!19sChIJh0IIHAXPBZERkwBTSoO8Asc"
     },
     {
-      "id": "biz_48",
+      "id": "biz_49",
       "name": "LEBI Electronic",
       "rating": 4,
       "reviewsCount": null,
@@ -313,7 +561,7 @@
       "url": "https://www.google.com/maps/place/LEBI+Electronic/data=!4m7!3m6!1s0x9105c7d39333aaab:0xcbf126193aa05290!8m2!3d-12.0557218!4d-77.0239057!16s%2Fg%2F11ryzmdbw3!19sChIJq6ozk9PHBZERkFKgOhkm8cs"
     },
     {
-      "id": "biz_51",
+      "id": "biz_50",
       "name": "Corporación de Repuestos S.A",
       "rating": 3.9,
       "reviewsCount": null,
@@ -322,7 +570,7 @@
       "url": "https://www.google.com/maps/place/Corporaci%C3%B3n+de+Repuestos+S.A/data=!4m7!3m6!1s0x9105c81a7f9b0db1:0x796390d440a6343e!8m2!3d-12.1188409!4d-77.0250217!16s%2Fg%2F1jglw5vgj!19sChIJsQ2bfxrIBZERPjSmQNSQY3k"
     },
     {
-      "id": "biz_15",
+      "id": "biz_51",
       "name": "Servicio Técnico LIMA - Línea Blanca",
       "rating": 3.8,
       "reviewsCount": null,
@@ -331,7 +579,7 @@
       "url": "https://www.google.com/maps/place/Servicio+T%C3%A9cnico+LIMA+-+L%C3%ADnea+Blanca/data=!4m7!3m6!1s0x9105b80e04e569f9:0x8e87c7ed824a5b18!8m2!3d-12.1401331!4d-76.9933806!16s%2Fg%2F11dzx5dvm3!19sChIJ-WnlBA64BZERGFtKgu3Hh44"
     },
     {
-      "id": "biz_27",
+      "id": "biz_52",
       "name": "Frigovar S.A.C.",
       "rating": 3.8,
       "reviewsCount": null,
@@ -340,7 +588,7 @@
       "url": "https://www.google.com/maps/place/Frigovar+S.A.C./data=!4m7!3m6!1s0x9105c67f14d93255:0xac77ba8b770db427!8m2!3d-12.0392499!4d-76.9685064!16s%2Fg%2F11b6htts8k!19sChIJVTLZFH_GBZERJ7QNd4u6d6w"
     },
     {
-      "id": "biz_28",
+      "id": "biz_53",
       "name": "Refrigeracion Sara Sara",
       "rating": 3.8,
       "reviewsCount": null,
@@ -358,7 +606,7 @@
       "url": "https://www.google.com/maps/place/Servitec+Rodas/data=!4m7!3m6!1s0x9105c7f03fbe14f1:0x669a483d8ba1d635!8m2!3d-12.1187858!4d-76.9973148!16s%2Fg%2F11gfkpbbdb!19sChIJ8RS-P_DHBZERNdahiz1ImmY"
     },
     {
-      "id": "biz_45",
+      "id": "biz_55",
       "name": "Repuesto de Lavadoras en Lima",
       "rating": 3.6,
       "reviewsCount": null,
@@ -367,7 +615,7 @@
       "url": "https://www.google.com/maps/place/Repuesto+de+Lavadoras+en+Lima/data=!4m7!3m6!1s0x9105c94d54e51369:0x7913193ed7188b6a!8m2!3d-12.1168219!4d-77.0228826!16s%2Fg%2F11m_ywlzq3!19sChIJaRPlVE3JBZERaosY1z4ZE3k"
     },
     {
-      "id": "biz_47",
+      "id": "biz_56",
       "name": "Servicio técnico LG | PKC TECHNOLOGY SRL",
       "rating": 3.6,
       "reviewsCount": null,
@@ -376,7 +624,7 @@
       "url": "https://www.google.com/maps/place/Servicio+t%C3%A9cnico+LG+%7C+PKC+TECHNOLOGY+SRL/data=!4m7!3m6!1s0x9105c964b7cbc435:0xf8ed64db4c4edc3f!8m2!3d-12.0768079!4d-77.0952728!16s%2Fg%2F12lk9sfyk!19sChIJNcTLt2TJBZERP9xOTNtk7fg"
     },
     {
-      "id": "biz_50",
+      "id": "biz_57",
       "name": "SERVICIO TECNICO TECCNIS PERU - linea blanca",
       "rating": 3.6,
       "reviewsCount": null,
@@ -385,7 +633,7 @@
       "url": "https://www.google.com/maps/place/SERVICIO+TECNICO+TECCNIS+PERU+-+linea+blanca/data=!4m7!3m6!1s0x9105c7ebd9d6598f:0x7de7a70098463fe2!8m2!3d-12.1095762!4d-76.9928517!16s%2Fg%2F11b6g68wfy!19sChIJj1nW2evHBZER4j9GmACn530"
     },
     {
-      "id": "biz_6",
+      "id": "biz_58",
       "name": "Reparación de Refrigeradoras en Lima - Peru",
       "rating": 3.5,
       "reviewsCount": null,
@@ -394,7 +642,7 @@
       "url": "https://www.google.com/maps/place/Reparaci%C3%B3n+de+Refrigeradoras+en+Lima+-+Peru/data=!4m7!3m6!1s0x9105c72454431ad9:0xa7278eb04d72f5dc!8m2!3d-12.0841793!4d-76.9797764!16s%2Fg%2F11rq28hp_b!19sChIJ2RpDVCTHBZER3PVyTbCOJ6c"
     },
     {
-      "id": "biz_17",
+      "id": "biz_59",
       "name": "Servicio Técnico de Refrigeradoras",
       "rating": 3,
       "reviewsCount": null,
@@ -403,7 +651,7 @@
       "url": "https://www.google.com/maps/place/Servicio+T%C3%A9cnico+de+Refrigeradoras/data=!4m7!3m6!1s0x9105c81aec9c8683:0x25ab90e4cd553b3f!8m2!3d-12.1202875!4d-77.0237291!16s%2Fg%2F11ggkzm_zn!19sChIJg4ac7BrIBZERPztVzeSQqyU"
     },
     {
-      "id": "biz_25",
+      "id": "biz_60",
       "name": "Técnico a Domicilio",
       "rating": 2.8,
       "reviewsCount": null,
@@ -412,7 +660,20 @@
       "url": "https://www.google.com/maps/place/T%C3%A9cnico+a+Domicilio/data=!4m7!3m6!1s0x9105c92e20786509:0x9817458db5f2124d!8m2!3d-12.0561139!4d-77.024687!16s%2Fg%2F11k5_kzq6d!19sChIJCWV4IC7JBZERTRLytY1FF5g"
     },
     {
-      "id": "biz_31",
+      "id": "biz_61",
+      "name": "SERVICIO TÉCNICO DE LAVADORAS Y REFRIGERADORAS PALOMINO",
+      "rating": 2.7,
+      "reviewsCount": 3,
+      "category": "Servicio de reparación de electrodomésticos",
+      "address": "Av. Sta. Rosa de Lima, San Juan de Lurigancho 15404",
+      "phone": "tel:945863418",
+      "website": null,
+      "url": "https://www.google.com/maps/place/SERVICIO+T%C3%89CNICO+DE+LAVADORAS+Y+REFRIGERADORAS+PALOMINO/data=!4m7!3m6!1s0x9105c5d7af72b847:0x37ebeace5c17e1cd!8m2!3d-11.9752578!4d-76.9912218!16s%2Fg%2F11s5wtjkvv!19sChIJR7hyr9fFBZERzeEXXM7q6zc?hl=es",
+      "latitude": -11.9752578,
+      "longitude": -76.9912218
+    },
+    {
+      "id": "biz_62",
       "name": "Servicio Tecnico Whirlpool Lima",
       "rating": 2.7,
       "reviewsCount": null,
@@ -421,7 +682,7 @@
       "url": "https://www.google.com/maps/place/Servicio+Tecnico+Whirlpool+Lima/data=!4m7!3m6!1s0x9105c81aec9c8683:0x4be2f9f7c1b4907a!8m2!3d-12.1202875!4d-77.0237291!16s%2Fg%2F11f1s316tx!19sChIJg4ac7BrIBZERepC0wff54ks"
     },
     {
-      "id": "biz_43",
+      "id": "biz_63",
       "name": "Reparaciones Línea Blanca SERVIPLUSMABE",
       "rating": 2.5,
       "reviewsCount": null,
@@ -430,7 +691,7 @@
       "url": "https://www.google.com/maps/place/Reparaciones+L%C3%ADnea+Blanca+SERVIPLUSMABE/data=!4m7!3m6!1s0x9105c97fce2f378d:0x55abdc2a5bfc95a2!8m2!3d-12.1186499!4d-77.019491!16s%2Fg%2F11my4p10b_!19sChIJjTcvzn_JBZERopX8Wyrcq1U"
     },
     {
-      "id": "biz_24",
+      "id": "biz_64",
       "name": "TECNICO DE REFRIGERADORAS Y LAVADORAS",
       "rating": 1,
       "reviewsCount": null,
@@ -439,7 +700,7 @@
       "url": "https://www.google.com/maps/place/TECNICO+DE+REFRIGERADORAS+Y+LAVADORAS/data=!4m7!3m6!1s0x9105d12efb2fb817:0xec2f513099cb23da!8m2!3d-11.9264163!4d-77.0546896!16s%2Fg%2F11mt5phxxg!19sChIJF7gv-y7RBZER2iPLmTBRL-w"
     },
     {
-      "id": "biz_39",
+      "id": "biz_65",
       "name": "GENERAL ELECTRIC SERVICE PERÚ",
       "rating": 1,
       "reviewsCount": null,
@@ -448,7 +709,7 @@
       "url": "https://www.google.com/maps/place/GENERAL+ELECTRIC+SERVICE+PER%C3%9A/data=!4m7!3m6!1s0x9105c71dffc374b9:0xe9d43958ee7a590a!8m2!3d-12.128712!4d-77.000467!16s%2Fg%2F11ll476kl0!19sChIJuXTD_x3HBZERCll67lg51Ok"
     },
     {
-      "id": "biz_21",
+      "id": "biz_66",
       "name": "SERVICIO TÉCNICO A DOMICILIO REFRIGERADORAS Y LAVADORAS",
       "rating": null,
       "reviewsCount": null,
@@ -457,7 +718,7 @@
       "url": "https://www.google.com/maps/place/SERVICIO+T%C3%89CNICO+A+DOMICILIO+REFRIGERADORAS+Y+LAVADORAS/data=!4m7!3m6!1s0x9105c910ccf8adb7:0xd65947098c0208c3!8m2!3d-12.1173379!4d-77.0233815!16s%2Fg%2F11h0b9k196!19sChIJt634zBDJBZERwwgCjAlHWdY"
     },
     {
-      "id": "biz_22",
+      "id": "biz_67",
       "name": "Reparación de Refrigeradoras en Lima - STF",
       "rating": null,
       "reviewsCount": null,
@@ -466,7 +727,7 @@
       "url": "https://www.google.com/maps/place/Reparaci%C3%B3n+de+Refrigeradoras+en+Lima+-+STF/data=!4m7!3m6!1s0x9105c91c038c3f4f:0xa74fc1c90053d4f8!8m2!3d-12.1296246!4d-77.0232263!16s%2Fg%2F11qh1xplz9!19sChIJTz-MAxzJBZER-NRTAMnBT6c"
     },
     {
-      "id": "biz_36",
+      "id": "biz_68",
       "name": "Servicio Técnico Lima | .PE",
       "rating": null,
       "reviewsCount": null,
@@ -475,7 +736,7 @@
       "url": "https://www.google.com/maps/place/Servicio+T%C3%A9cnico+Lima+%7C+.PE/data=!4m7!3m6!1s0x9105c93295ae5605:0x37b4fccdcb92ad39!8m2!3d-12.046374!4d-77.0427934!16s%2Fg%2F11s0hyp416!19sChIJBVaulTLJBZEROa2Sy838tDc"
     },
     {
-      "id": "biz_42",
+      "id": "biz_69",
       "name": "SERVICIO TECNICO DE LAVADORAS, SECADORAS, REFRIGERADORAS, COCINAS, TERMAS. SERVICENTRO J&C",
       "rating": null,
       "reviewsCount": null,
@@ -484,7 +745,7 @@
       "url": "https://www.google.com/maps/place/SERVICIO+TECNICO+DE+LAVADORAS,+SECADORAS,+REFRIGERADORAS,+COCINAS,+TERMAS.+SERVICENTRO+J%26C/data=!4m7!3m6!1s0x9105b9dfdff395bf:0x4511264e91fb25fb!8m2!3d-12.1177681!4d-77.0195699!16s%2Fg%2F11q97bfx9p!19sChIJv5Xz39-5BZER-yX7kU4mEUU"
     },
     {
-      "id": "biz_46",
+      "id": "biz_70",
       "name": "Lima Repara",
       "rating": null,
       "reviewsCount": null,
@@ -493,7 +754,7 @@
       "url": "https://www.google.com/maps/place/Lima+Repara/data=!4m7!3m6!1s0x458e6539e9e508c5:0xabed86ef617ef0e6!8m2!3d-12.0479771!4d-76.9101679!16s%2Fg%2F11zcttblt9!19sChIJxQjl6TlljkUR5vB-Ye-G7as"
     },
     {
-      "id": "biz_49",
+      "id": "biz_71",
       "name": "Servicio Tecnico Batidoras KitchenAid Lima",
       "rating": null,
       "reviewsCount": null,
@@ -502,7 +763,7 @@
       "url": "https://www.google.com/maps/place/Servicio+Tecnico+Batidoras+KitchenAid+Lima/data=!4m7!3m6!1s0x9105b9de41b8dff1:0xb3f119c3856cf44b!8m2!3d-12.1628259!4d-76.9885395!16s%2Fg%2F11qsybzx6p!19sChIJ8d-4Qd65BZERS_RshcMZ8bM"
     },
     {
-      "id": "biz_53",
+      "id": "biz_72",
       "name": "Reparacion Linea Blanca",
       "rating": null,
       "reviewsCount": null,
@@ -511,7 +772,7 @@
       "url": "https://www.google.com/maps/place/Reparacion+Linea+Blanca/data=!4m7!3m6!1s0x9105c81a78c74a81:0x2c153a7a1006198b!8m2!3d-12.1355377!4d-77.0087764!16s%2Fg%2F11ngtlhzj7!19sChIJgUrHeBrIBZERixkGEHo6FSw"
     },
     {
-      "id": "biz_55",
+      "id": "biz_73",
       "name": "Reparaciones De Linea Blanca",
       "rating": null,
       "reviewsCount": null,

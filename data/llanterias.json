@@ -1,8 +1,8 @@
 {
   "category": "llanterias",
   "searchQuery": "llanterias y vulcanizadoras en Lima",
-  "totalResults": 46,
-  "updatedAt": "2026-09-09T18:36:11.575Z",
+  "totalResults": 51,
+  "updatedAt": "2026-09-09T21:06:53.826Z",
   "topBusinessContext": {
     "id": "biz_10",
     "name": "“Vulcanizadora GOMEZ” (Llantas & Soat)",
@@ -12,20 +12,60 @@
     "address": "Av. Fernando Wisse MZ Q LT. 19, San Juan de Lurigancho 15449",
     "url": "https://www.google.com/maps/place/%E2%80%9CVulcanizadora+GOMEZ%E2%80%9D+%28Llantas+%26+Soat%29/data=!4m7!3m6!1s0x9105db47f01cd4b3:0xe404b3074289c4ce!8m2!3d-11.9379396!4d-76.9746293!16s%2Fg%2F11j60sy35x!19sChIJs9Qc8EfbBZERzsSJQgezBOQ"
   },
-  "pageContent": {
-    "headline": "Los Mejores Expertos en LLANTERIAS en Lima: Conoce a “Vulcanizadora GOMEZ” (Llantas & Soat)",
-    "subtitles": [
-      "Garantiza resultados hoy mismo. Ubicados en Av. Fernando Wisse MZ Q LT. 19, San Juan de Lurigancho 15449, destacan como la opción número uno validada por usuarios reales.",
-      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
-    ],
-    "ctas": [
-      "Contactar por WhatsApp Ahora",
-      "Ver Directorio Completo"
-    ]
-  },
+  "pageContent": [
+    {
+      "id": "urgencia",
+      "headline": "¿Problemas urgentes? Encuentra LLANTERIAS en Lima en menos de 15 Minutos",
+      "subtitles": [
+        "No dejes tu necesidad al azar ni pierdas semanas buscando referencias en la ciudad.",
+        "Garantiza resultados rápidos con especialistas validados. Destaca “Vulcanizadora GOMEZ” (Llantas & Soat) ubicado en Av. Fernando Wisse MZ Q LT. 19, San Juan de Lurigancho 15449."
+      ],
+      "ctas": [
+        "Contactar al Especialista por WhatsApp",
+        "Ver Directorio Inmediato"
+      ]
+    },
+    {
+      "id": "autoridad",
+      "headline": "El Directorio Definitivo: El Top 1% de LLANTERIAS Validados en Lima",
+      "subtitles": [
+        "Contratar un servicio es una decisión crítica. Tomar una decisión equivocada sale muy caro.",
+        "Filtramos los negocios con mayor tasa de éxito. Conecta directo con líderes como “Vulcanizadora GOMEZ” (Llantas & Soat) (⭐ 5 estrellas)."
+      ],
+      "ctas": [
+        "Chatear con un Experto",
+        "Explorar Ranking de Especialistas"
+      ]
+    },
+    {
+      "id": "prueba-social",
+      "headline": "Protege tu Inversión con los LLANTERIAS Más Recomendados de Lima",
+      "subtitles": [
+        "Cientos de clientes en Lima ya validaron a estos profesionales. No seas el conejillo de indias de nadie.",
+        "Habla hoy mismo y sin intermediarios con los expertos mejor reseñados en Google Maps."
+      ],
+      "ctas": [
+        "Solicitar Evaluación Gratis",
+        "Ver Reseñas Verificadas"
+      ]
+    }
+  ],
   "businesses": [
     {
-      "id": "biz_10",
+      "id": "biz_1",
+      "name": "Venta de llantas",
+      "rating": 4.4,
+      "reviewsCount": 4427,
+      "category": "llanterias",
+      "address": "V26W+H3F, Unnamed Road, Lima 15806",
+      "phone": null,
+      "website": null,
+      "url": "https://www.google.com/maps/place/Venta+de+llantas/data=!4m7!3m6!1s0x9105b9e5dfbcc26b:0xf86294d3dd672a18!8m2!3d-12.1385531!4d-76.9548391!16s%2Fg%2F11vwy_3zlb!19sChIJa8K83-W5BZERGCpn3dOUYvg?hl=es",
+      "latitude": -12.1385531,
+      "longitude": -76.9548391
+    },
+    {
+      "id": "biz_2",
       "name": "“Vulcanizadora GOMEZ” (Llantas & Soat)",
       "rating": 5,
       "reviewsCount": null,
@@ -34,7 +74,7 @@
       "url": "https://www.google.com/maps/place/%E2%80%9CVulcanizadora+GOMEZ%E2%80%9D+%28Llantas+%26+Soat%29/data=!4m7!3m6!1s0x9105db47f01cd4b3:0xe404b3074289c4ce!8m2!3d-11.9379396!4d-76.9746293!16s%2Fg%2F11j60sy35x!19sChIJs9Qc8EfbBZERzsSJQgezBOQ"
     },
     {
-      "id": "biz_12",
+      "id": "biz_3",
       "name": "Vulcanizadora Omar - Compra y venta de Llantas",
       "rating": 5,
       "reviewsCount": null,
@@ -43,7 +83,7 @@
       "url": "https://www.google.com/maps/place/Vulcanizadora+Omar+-+Compra+y+venta+de+Llantas/data=!4m7!3m6!1s0x9105c59eb0936e6b:0xad6fa0622016af75!8m2!3d-11.9634156!4d-76.9997261!16s%2Fg%2F11pv3t_lrw!19sChIJa26TsJ7FBZERda8WIGKgb60"
     },
     {
-      "id": "biz_17",
+      "id": "biz_4",
       "name": "Vulcanizado de Llantas",
       "rating": 5,
       "reviewsCount": null,
@@ -52,7 +92,7 @@
       "url": "https://www.google.com/maps/place/Vulcanizado+de+Llantas/data=!4m7!3m6!1s0x9105c97b27414d0d:0x82c209cc4a6f106d!8m2!3d-12.0782612!4d-77.0939783!16s%2Fg%2F11b6gcs3x5!19sChIJDU1BJ3vJBZERbRBvSswJwoI"
     },
     {
-      "id": "biz_20",
+      "id": "biz_5",
       "name": "Vulcanizadora CHORRES",
       "rating": 5,
       "reviewsCount": null,
@@ -61,7 +101,7 @@
       "url": "https://www.google.com/maps/place/Vulcanizadora+CHORRES/data=!4m7!3m6!1s0x9105c9a5d6476f4b:0x53b18d61143ce46b!8m2!3d-12.0640388!4d-77.0489399!16s%2Fg%2F11v3_xk1xd!19sChIJS29H1qXJBZERa-Q8FGGNsVM"
     },
     {
-      "id": "biz_25",
+      "id": "biz_6",
       "name": "Lubricentro LoLo - LLanteria Vulcanizadora",
       "rating": 5,
       "reviewsCount": null,
@@ -70,7 +110,7 @@
       "url": "https://www.google.com/maps/place/Lubricentro+LoLo+-+LLanteria+Vulcanizadora/data=!4m7!3m6!1s0x9105c7ac97a9f54f:0x2deb192251526ad8!8m2!3d-12.0630186!4d-76.9635528!16s%2Fg%2F11jz931dqt!19sChIJT_Wpl6zHBZER2GpSUSIZ6y0"
     },
     {
-      "id": "biz_34",
+      "id": "biz_7",
       "name": "Vulcanizadora ESPINOZA (Bellavista)",
       "rating": 5,
       "reviewsCount": null,
@@ -79,7 +119,7 @@
       "url": "https://www.google.com/maps/place/Vulcanizadora+ESPINOZA+%28Bellavista%29/data=!4m7!3m6!1s0x9105c990d9fab2db:0xfbf7c00ceb1e968!8m2!3d-12.0537189!4d-77.0967213!16s%2Fg%2F11k4x52mfv!19sChIJ27L62ZDJBZERaOmxzgB8vw8"
     },
     {
-      "id": "biz_37",
+      "id": "biz_8",
       "name": "Llanteria 24 horas Repsol",
       "rating": 5,
       "reviewsCount": null,
@@ -88,7 +128,7 @@
       "url": "https://www.google.com/maps/place/Llanteria+24+horas+Repsol/data=!4m7!3m6!1s0x9105cb9aa63a75ef:0x7a0d0cc8a9881e0e!8m2!3d-12.0499558!4d-77.1262477!16s%2Fg%2F11v0l3htc1!19sChIJ73U6pprLBZERDh6IqcgMDXo"
     },
     {
-      "id": "biz_39",
+      "id": "biz_9",
       "name": "Llantas.pe",
       "rating": 5,
       "reviewsCount": null,
@@ -97,7 +137,7 @@
       "url": "https://www.google.com/maps/place/Llantas.pe/data=!4m7!3m6!1s0x9105c71d33e302a7:0x1585dada56840b34!8m2!3d-12.1225947!4d-76.998307!16s%2Fg%2F11xgjlr7yx!19sChIJpwLjMx3HBZERNAuEVtrahRU"
     },
     {
-      "id": "biz_15",
+      "id": "biz_10",
       "name": "LLANTA EN LINEA, Venta de llantas a todo el perú",
       "rating": 4.9,
       "reviewsCount": null,
@@ -106,7 +146,7 @@
       "url": "https://www.google.com/maps/place/LLANTA+EN+LINEA,+Venta+de+llantas+a+todo+el+per%C3%BA/data=!4m7!3m6!1s0x9105c9108497ddcf:0x38c51873118f3816!8m2!3d-12.0987134!4d-77.0135669!16s%2Fg%2F11qnfvttd6!19sChIJz92XhBDJBZERFjiPEXMYxTg"
     },
     {
-      "id": "biz_29",
+      "id": "biz_11",
       "name": "AGV LLANTAS",
       "rating": 4.9,
       "reviewsCount": null,
@@ -115,7 +155,20 @@
       "url": "https://www.google.com/maps/place/AGV+LLANTAS/data=!4m7!3m6!1s0x9105d17d0a815d19:0x9560f359325b2cdb!8m2!3d-11.9246473!4d-77.0636298!16s%2Fg%2F11t4bgldsd!19sChIJGV2BCn3RBZER2yxbMlnzYJU"
     },
     {
-      "id": "biz_1",
+      "id": "biz_12",
+      "name": "Reencauchadora El Sol",
+      "rating": 4.3,
+      "reviewsCount": 429,
+      "category": "Servicio de llantas",
+      "address": "Av. Nicolás Arriola 3192, San Luis 15022",
+      "phone": "tel:996457525",
+      "website": "http://reencauchadoraelsol.com/",
+      "url": "https://www.google.com/maps/place/Reencauchadora+El+Sol/data=!4m7!3m6!1s0x9105c63ec2a82313:0x849cf034f0ebc766!8m2!3d-12.0655085!4d-76.9909852!16s%2Fg%2F1tcvczb7!19sChIJEyOowj7GBZERZsfr8DTwnIQ?hl=es",
+      "latitude": -12.0655085,
+      "longitude": -76.9909852
+    },
+    {
+      "id": "biz_13",
       "name": "Vulcanizadora Porras",
       "rating": 4.7,
       "reviewsCount": null,
@@ -124,7 +177,7 @@
       "url": "https://www.google.com/maps/place/Vulcanizadora+Porras/data=!4m7!3m6!1s0x9105e83567467255:0x475dbdc8ca525194!8m2!3d-11.9837382!4d-76.8033868!16s%2Fg%2F11cs248gbs!19sChIJVXJGZzXoBZERlFFSysi9XUc"
     },
     {
-      "id": "biz_3",
+      "id": "biz_14",
       "name": "LLANTERIAS EL VELOZ SAC",
       "rating": 4.7,
       "reviewsCount": null,
@@ -133,7 +186,7 @@
       "url": "https://www.google.com/maps/place/LLANTERIAS+EL+VELOZ+SAC/data=!4m7!3m6!1s0x9105c9d73453a2a1:0xa4c1b5885382d34e!8m2!3d-12.0649566!4d-77.0206702!16s%2Fg%2F11f733rdhx!19sChIJoaJTNNfJBZERTtOCU4i1waQ"
     },
     {
-      "id": "biz_43",
+      "id": "biz_15",
       "name": "Llantería \"El Paisa\" vulcanizadora",
       "rating": 4.7,
       "reviewsCount": null,
@@ -142,7 +195,7 @@
       "url": "https://www.google.com/maps/place/Llanter%C3%ADa+%22El+Paisa%22+vulcanizadora/data=!4m7!3m6!1s0x9105bfe372ae51d3:0x9bb1f1796a85c404!8m2!3d-12.1728467!4d-76.861753!16s%2Fg%2F11fkw96k8l!19sChIJ01GucuO_BZERBMSFannxsZs"
     },
     {
-      "id": "biz_8",
+      "id": "biz_16",
       "name": "LLANTERIA “ Gordito “ 24 horas",
       "rating": 4.6,
       "reviewsCount": null,
@@ -151,7 +204,7 @@
       "url": "https://www.google.com/maps/place/LLANTERIA+%E2%80%9C+Gordito+%E2%80%9C+24+horas/data=!4m7!3m6!1s0x9105c96a9648c7b5:0x60e3677f8387e995!8m2!3d-12.0710715!4d-77.027418!16s%2Fg%2F11qn70whck!19sChIJtcdIlmrJBZERlemHg39n42A"
     },
     {
-      "id": "biz_24",
+      "id": "biz_17",
       "name": "Llantero 24h",
       "rating": 4.6,
       "reviewsCount": null,
@@ -160,7 +213,7 @@
       "url": "https://www.google.com/maps/place/Llantero+24h/data=!4m7!3m6!1s0x9105c7c0db421b89:0x1637a4d956ede9c8!8m2!3d-12.0733691!4d-76.9914735!16s%2Fg%2F11rqz7nlrx!19sChIJiRtC28DHBZERyOntVtmkNxY"
     },
     {
-      "id": "biz_13",
+      "id": "biz_18",
       "name": "LLantas Heintz",
       "rating": 4.5,
       "reviewsCount": null,
@@ -169,7 +222,7 @@
       "url": "https://www.google.com/maps/place/LLantas+Heintz/data=!4m7!3m6!1s0x9105c8d2512a6261:0x6c333679e25a4512!8m2!3d-12.0447331!4d-77.0470567!16s%2Fg%2F11b7c3qlgt!19sChIJYWIqUdLIBZEREkVa4nk2M2w"
     },
     {
-      "id": "biz_23",
+      "id": "biz_19",
       "name": "Prollantas",
       "rating": 4.5,
       "reviewsCount": null,
@@ -178,7 +231,7 @@
       "url": "https://www.google.com/maps/place/Prollantas/data=!4m7!3m6!1s0x9105c7f0aef92f19:0x618b09b4ceb15d64!8m2!3d-12.1225625!4d-76.9983125!16s%2Fg%2F11b6j5626h!19sChIJGS_5rvDHBZERZF2xzrQJi2E"
     },
     {
-      "id": "biz_35",
+      "id": "biz_20",
       "name": "Servicio Carlos Vulcanizadora DIRECCION -SUSPENCION",
       "rating": 4.5,
       "reviewsCount": null,
@@ -187,7 +240,20 @@
       "url": "https://www.google.com/maps/place/Servicio+Carlos+Vulcanizadora+DIRECCION+-SUSPENCION/data=!4m7!3m6!1s0x9105c558e9fb2dab:0x3d788c1a74a8b8bc!8m2!3d-11.9968378!4d-77.0003832!16s%2Fg%2F11h7lvxw64!19sChIJqy376VjFBZERvLiodBqMeD0"
     },
     {
-      "id": "biz_5",
+      "id": "biz_21",
+      "name": "Prollantas Canadá Yokohama",
+      "rating": 4.4,
+      "reviewsCount": 83,
+      "category": "Tienda de neumáticos",
+      "address": "Av. Canadá 1342, La Victoria 15034",
+      "phone": "tel:998199271",
+      "website": "http://www.prollantas.pe/",
+      "url": "https://www.google.com/maps/place/Prollantas+Canad%C3%A1+Yokohama/data=!4m7!3m6!1s0x9105c87ff8973119:0x661935a722ebd51d!8m2!3d-12.085092!4d-77.0106666!16s%2Fg%2F11dfj9zw9s!19sChIJGTGX-H_IBZERHdXrIqc1GWY?hl=es",
+      "latitude": -12.085092,
+      "longitude": -77.0106666
+    },
+    {
+      "id": "biz_22",
       "name": "Llanteria - MOVIL EL PAISA",
       "rating": 4.4,
       "reviewsCount": null,
@@ -196,7 +262,7 @@
       "url": "https://www.google.com/maps/place/Llanteria+-+MOVIL+EL+PAISA/data=!4m7!3m6!1s0x9105c7d75144d59f:0xfaf8b80d08ae1b57!8m2!3d-12.0394939!4d-76.9309888!16s%2Fg%2F11fkdmgwzn!19sChIJn9VEUdfHBZERVxuuCA24-Po"
     },
     {
-      "id": "biz_16",
+      "id": "biz_23",
       "name": "Llantas Correa",
       "rating": 4.4,
       "reviewsCount": null,
@@ -205,7 +271,7 @@
       "url": "https://www.google.com/maps/place/Llantas+Correa/data=!4m7!3m6!1s0x9105b7fa46ae40e1:0x98cd97aa3a8c3615!8m2!3d-12.139176!4d-77.0179556!16s%2Fg%2F11c5_zqsbd!19sChIJ4UCuRvq3BZERFTaMOqqXzZg"
     },
     {
-      "id": "biz_21",
+      "id": "biz_24",
       "name": "Servisa",
       "rating": 4.4,
       "reviewsCount": null,
@@ -214,7 +280,7 @@
       "url": "https://www.google.com/maps/place/Servisa/data=!4m7!3m6!1s0x9105c88642d7ffef:0x760ac63aaf950e5a!8m2!3d-12.0809539!4d-77.0198635!16s%2Fg%2F11y07p_nr!19sChIJ7__XQobIBZERWg6VrzrGCnY"
     },
     {
-      "id": "biz_45",
+      "id": "biz_25",
       "name": "Vulcanizadora Balconcillo",
       "rating": 4.4,
       "reviewsCount": null,
@@ -223,7 +289,20 @@
       "url": "https://www.google.com/maps/place/Vulcanizadora+Balconcillo/data=!4m7!3m6!1s0x9105c88f5be1c22b:0xa11c87ef9ee21349!8m2!3d-12.078548!4d-77.0221881!16s%2Fg%2F11b6gf5v02!19sChIJK8LhW4_IBZERSRPinu-HHKE"
     },
     {
-      "id": "biz_4",
+      "id": "biz_26",
+      "name": "J VEGA IMPORT SAC",
+      "rating": 4.2,
+      "reviewsCount": 139,
+      "category": "Tienda de accesorios para automóviles",
+      "address": "Av. Manco Cápac 178, La Victoria 15033",
+      "phone": "tel:994142557",
+      "website": "https://jvegaimportsac.com.pe/",
+      "url": "https://www.google.com/maps/place/J+VEGA+IMPORT+SAC/data=!4m7!3m6!1s0x9105c8bef9e9d0e7:0x513946559452c165!8m2!3d-12.0600779!4d-77.0298697!16s%2Fg%2F11f1kf5kbq!19sChIJ59Dp-b7IBZERZcFSlFVGOVE?hl=es",
+      "latitude": -12.0600779,
+      "longitude": -77.0298697
+    },
+    {
+      "id": "biz_27",
       "name": "Llanteria Lince",
       "rating": 4.3,
       "reviewsCount": null,
@@ -232,7 +311,7 @@
       "url": "https://www.google.com/maps/place/Llanteria+Lince/data=!4m7!3m6!1s0x9105c9fc88569589:0xca0462643c93c5f9!8m2!3d-12.0878299!4d-77.0309478!16s%2Fg%2F11h04jzm6m!19sChIJiZVWiPzJBZER-cWTPGRiBMo"
     },
     {
-      "id": "biz_18",
+      "id": "biz_28",
       "name": "Vulcanizadora Lubricentro SOTO POMA",
       "rating": 4.3,
       "reviewsCount": null,
@@ -241,7 +320,7 @@
       "url": "https://www.google.com/maps/place/Vulcanizadora+Lubricentro+SOTO+POMA/data=!4m7!3m6!1s0x9105cf78331021d9:0x4b56da94bb6cab4f!8m2!3d-12.0061914!4d-77.0752491!16s%2Fg%2F11jp04k397!19sChIJ2SEQM3jPBZERT6tsu5TaVks"
     },
     {
-      "id": "biz_26",
+      "id": "biz_29",
       "name": "JCH Llantas - Local Alzamora",
       "rating": 4.3,
       "reviewsCount": null,
@@ -250,7 +329,7 @@
       "url": "https://www.google.com/maps/place/JCH+Llantas+-+Local+Alzamora/data=!4m7!3m6!1s0x9105c80985db7abb:0x1a9ef6a5bd0af7ce!8m2!3d-12.1129466!4d-77.012688!16s%2Fg%2F1hm3bvnt_!19sChIJu3rbhQnIBZERzvcKvaX2nho"
     },
     {
-      "id": "biz_31",
+      "id": "biz_30",
       "name": "Van Llantas Los Olivos",
       "rating": 4.3,
       "reviewsCount": null,
@@ -259,7 +338,7 @@
       "url": "https://www.google.com/maps/place/Van+Llantas+Los+Olivos/data=!4m7!3m6!1s0x9105ce260d57ddf9:0xdd245e9ef95c8f36!8m2!3d-11.9580797!4d-77.0694102!16s%2Fg%2F11ggw9085b!19sChIJ-d1XDSbOBZERNo9c-Z5eJN0"
     },
     {
-      "id": "biz_22",
+      "id": "biz_31",
       "name": "Van Llantas San Luis",
       "rating": 4.2,
       "reviewsCount": null,
@@ -268,7 +347,7 @@
       "url": "https://www.google.com/maps/place/Van+Llantas+San+Luis/data=!4m7!3m6!1s0x9105c63b0905b46b:0x2c37fc9fa511e1f7!8m2!3d-12.0694034!4d-76.9968595!16s%2Fg%2F11bttlvw1s!19sChIJa7QFCTvGBZER9-ERpZ_8Nyw"
     },
     {
-      "id": "biz_27",
+      "id": "biz_32",
       "name": "Llanteria BARBITA SJM",
       "rating": 4.2,
       "reviewsCount": null,
@@ -277,7 +356,7 @@
       "url": "https://www.google.com/maps/place/Llanteria+BARBITA+SJM/data=!4m7!3m6!1s0x9105b94789b80f6b:0x3d37a5627d4f80a2!8m2!3d-12.1512893!4d-76.9666095!16s%2Fg%2F11r2j0q3x7!19sChIJaw-4iUe5BZERooBPfWKlNz0"
     },
     {
-      "id": "biz_14",
+      "id": "biz_33",
       "name": "Cambia Tu Llanta",
       "rating": 4.1,
       "reviewsCount": null,
@@ -286,7 +365,7 @@
       "url": "https://www.google.com/maps/place/Cambia+Tu+Llanta/data=!4m7!3m6!1s0x9105c917edaa58ef:0x644cdc28747081a0!8m2!3d-12.0796154!4d-77.0757271!16s%2Fg%2F11f5mk21vl!19sChIJ71iq7RfJBZERoIFwdCjcTGQ"
     },
     {
-      "id": "biz_2",
+      "id": "biz_34",
       "name": "LLANTERIA Y VULCANIZADORA \"VL\"",
       "rating": 4,
       "reviewsCount": null,
@@ -295,7 +374,7 @@
       "url": "https://www.google.com/maps/place/LLANTERIA+Y+VULCANIZADORA+%22VL%22/data=!4m7!3m6!1s0x9105c7909be1c5d5:0xdc018cad27715575!8m2!3d-12.0384797!4d-76.9570023!16s%2Fg%2F11vrrbnx86!19sChIJ1cXhm5DHBZERdVVxJ62MAdw"
     },
     {
-      "id": "biz_19",
+      "id": "biz_35",
       "name": "Vulcanizadora El Crespo",
       "rating": 4,
       "reviewsCount": null,
@@ -313,7 +392,7 @@
       "url": "https://www.google.com/maps/place/Vulcanizadora+Perez+Rojas/data=!4m7!3m6!1s0x9105cdcb47dee1bf:0xc396b0b46fc871cd!8m2!3d-11.9995827!4d-77.1211154!16s%2Fg%2F11h21nlfl4!19sChIJv-HeR8vNBZERzXHIb7SwlsM"
     },
     {
-      "id": "biz_41",
+      "id": "biz_37",
       "name": "Llantas Tomas Valle - Venta de Llantas cerca Aeropuerto Jorge Chavez. K & L AROS Y LLANTAS",
       "rating": 4,
       "reviewsCount": null,
@@ -322,7 +401,7 @@
       "url": "https://www.google.com/maps/place/Llantas+Tomas+Valle+-+Venta+de+Llantas+cerca+Aeropuerto+Jorge+Chavez.+K+%26+L+AROS+Y+LLANTAS/data=!4m7!3m6!1s0x9105ce9eefc8c1b5:0xb6e222e1250f7453!8m2!3d-12.0179388!4d-77.0988039!16s%2Fg%2F11b6ryb0h8!19sChIJtcHI757OBZERU3QPJeEi4rY"
     },
     {
-      "id": "biz_32",
+      "id": "biz_38",
       "name": "LLANTAS Y AROS JM",
       "rating": 3.9,
       "reviewsCount": null,
@@ -331,7 +410,7 @@
       "url": "https://www.google.com/maps/place/LLANTAS+Y+AROS+JM/data=!4m7!3m6!1s0x9105b9cdd074b9a3:0x124703b268e77124!8m2!3d-12.1776967!4d-76.9954856!16s%2Fg%2F11fd768m2l!19sChIJo7l00M25BZERJHHnaLIDRxI"
     },
     {
-      "id": "biz_6",
+      "id": "biz_39",
       "name": "GRUPO SIRIUS SAC",
       "rating": 3.8,
       "reviewsCount": null,
@@ -340,7 +419,7 @@
       "url": "https://www.google.com/maps/place/GRUPO+SIRIUS+SAC/data=!4m7!3m6!1s0x9105c27a436debf7:0x2d2371a83beb967!8m2!3d-11.9956251!4d-76.8330001!16s%2Fg%2F11c6qv72vh!19sChIJ9-ttQ3rCBZERZ7m-gxo30gI"
     },
     {
-      "id": "biz_9",
+      "id": "biz_40",
       "name": "Llantero Veloz",
       "rating": 3.8,
       "reviewsCount": null,
@@ -349,7 +428,7 @@
       "url": "https://www.google.com/maps/place/Llantero+Veloz/data=!4m7!3m6!1s0x9105c75922762ae3:0x69396d15f592529e!8m2!3d-12.0700412!4d-77.0097468!16s%2Fg%2F11h3k6_hv6!19sChIJ4yp2IlnHBZERnlKS9RVtOWk"
     },
     {
-      "id": "biz_40",
+      "id": "biz_41",
       "name": "Llanteria Moises 24/7",
       "rating": 3.2,
       "reviewsCount": null,
@@ -358,7 +437,7 @@
       "url": "https://www.google.com/maps/place/Llanteria+Moises+24%2F7/data=!4m7!3m6!1s0x9105cf0e87ac8059:0x4073c8730804cf44!8m2!3d-12.0040147!4d-77.0950489!16s%2Fg%2F11lgvqvg92!19sChIJWYCshw7PBZERRM8ECHPIc0A"
     },
     {
-      "id": "biz_38",
+      "id": "biz_42",
       "name": "TECNILLANTAS EL VELOZ",
       "rating": 3,
       "reviewsCount": null,
@@ -367,7 +446,7 @@
       "url": "https://www.google.com/maps/place/TECNILLANTAS+EL+VELOZ/data=!4m7!3m6!1s0x9105ce30653705f1:0xda4550f29798b2b4!8m2!3d-11.9663564!4d-77.0672031!16s%2Fg%2F11gxh5_hq3!19sChIJ8QU3ZTDOBZERtLKYl_JQRdo"
     },
     {
-      "id": "biz_46",
+      "id": "biz_43",
       "name": "Vulcanizadora Sr. de Los Milagros",
       "rating": 3,
       "reviewsCount": null,
@@ -376,7 +455,20 @@
       "url": "https://www.google.com/maps/place/Vulcanizadora+Sr.+de+Los+Milagros/data=!4m7!3m6!1s0x9105ce9311af4f4f:0xd1fe072398f01210!8m2!3d-12.01327!4d-77.081474!16s%2Fg%2F11b6hkwc1s!19sChIJT0-vEZPOBZEREBLwmCMH_tE"
     },
     {
-      "id": "biz_7",
+      "id": "biz_44",
+      "name": "Taller de llanteria",
+      "rating": 1,
+      "reviewsCount": 1,
+      "category": "Taller mecánico",
+      "address": "Av. la Molina, La Molina 15026",
+      "phone": "tel:940554067",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Taller+de+llanteria/data=!4m7!3m6!1s0x9105c7abfda011dd:0x880fc3397bd4d5cc!8m2!3d-12.0840047!4d-76.9278217!16s%2Fg%2F11l1fcp_vg!19sChIJ3RGg_avHBZERzNXUeznDD4g?hl=es",
+      "latitude": -12.0840047,
+      "longitude": -76.9278217
+    },
+    {
+      "id": "biz_45",
       "name": "Vulcanizadora Lu & Fa - Venta y servicio de llantas",
       "rating": null,
       "reviewsCount": null,
@@ -385,7 +477,7 @@
       "url": "https://www.google.com/maps/place/Vulcanizadora+Lu+%26+Fa+-+Venta+y+servicio+de+llantas/data=!4m7!3m6!1s0x9105cfff1e5bc44d:0x9fdc761f143b577b!8m2!3d-12.0190711!4d-77.0282373!16s%2Fg%2F11kb3n3pfr!19sChIJTcRbHv_PBZERe1c7FB923J8"
     },
     {
-      "id": "biz_11",
+      "id": "biz_46",
       "name": "Llanteria Vulcanizadora Grillon",
       "rating": null,
       "reviewsCount": null,
@@ -394,7 +486,7 @@
       "url": "https://www.google.com/maps/place/Llanteria+Vulcanizadora+Grillon/data=!4m7!3m6!1s0x9105c90001ff5dbf:0x3dd566c82d64345f!8m2!3d-12.0498976!4d-77.0980476!16s%2Fg%2F11zx6jy7d4!19sChIJv13_AQDJBZERXzRkLchm1T0"
     },
     {
-      "id": "biz_28",
+      "id": "biz_47",
       "name": "Vulcanizadora “ EL TIGRE “",
       "rating": null,
       "reviewsCount": null,
@@ -403,7 +495,7 @@
       "url": "https://www.google.com/maps/place/Vulcanizadora+%E2%80%9C+EL+TIGRE+%E2%80%9C/data=!4m7!3m6!1s0x9105c5007ad92219:0x3d2d6e347d53eaf0!8m2!3d-12.023244!4d-76.9612325!16s%2Fg%2F11zbdmx5hv!19sChIJGSLZegDFBZER8OpTfTRuLT0"
     },
     {
-      "id": "biz_30",
+      "id": "biz_48",
       "name": "SOS LLANTAS",
       "rating": null,
       "reviewsCount": null,
@@ -412,7 +504,7 @@
       "url": "https://www.google.com/maps/place/SOS+LLANTAS/data=!4m7!3m6!1s0x9105c9dcec3a4c71:0xa51dfcc3031d84fc!8m2!3d-12.0987667!4d-77.0136083!16s%2Fg%2F11hkzqz2g_!19sChIJcUw67NzJBZER_IQdA8P8HaU"
     },
     {
-      "id": "biz_33",
+      "id": "biz_49",
       "name": "VULCANIZADORA EL GRAN ROGGER",
       "rating": null,
       "reviewsCount": null,
@@ -421,7 +513,7 @@
       "url": "https://www.google.com/maps/place/VULCANIZADORA+EL+GRAN+ROGGER/data=!4m7!3m6!1s0x9105b9c8c693ae7b:0xebdc135ba3aa28e0!8m2!3d-12.1791583!4d-76.977283!16s%2Fg%2F11tsdk8ylh!19sChIJe66Txsi5BZER4Ciqo1sT3Os"
     },
     {
-      "id": "biz_42",
+      "id": "biz_50",
       "name": "VULCANIZADORA CONTRERAS",
       "rating": null,
       "reviewsCount": null,
@@ -430,7 +522,7 @@
       "url": "https://www.google.com/maps/place/VULCANIZADORA+CONTRERAS/data=!4m7!3m6!1s0x9105b7a657fb6f3b:0x388acc7562a34b84!8m2!3d-12.1690717!4d-77.0260449!16s%2Fg%2F11n4v68mp5!19sChIJO2_7V6a3BZERhEujYnXMijg"
     },
     {
-      "id": "biz_44",
+      "id": "biz_51",
       "name": "Reencauchadora Y Vulcanizadora Gigante Srl",
       "rating": null,
       "reviewsCount": null,

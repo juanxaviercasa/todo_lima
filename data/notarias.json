@@ -12,17 +12,44 @@
     "address": "Av. Camino Real 130, San Isidro 15046",
     "url": "https://www.google.com/maps/place/Notar%C3%ADa+Gustavo+Gonzales/data=!4m7!3m6!1s0x9105c9630aa3d297:0x96c8b7d2a0952a59!8m2!3d-12.0949529!4d-77.0354107!16s%2Fg%2F11vlb9vbd_!19sChIJl9KjCmPJBZERWSqVoNK3yJY"
   },
-  "pageContent": {
-    "headline": "Los Mejores Expertos en NOTARIAS en Lima: Conoce a Notaría Gustavo Gonzales",
-    "subtitles": [
-      "Garantiza resultados hoy mismo. Ubicados en Av. Camino Real 130, San Isidro 15046, destacan como la opción número uno validada por usuarios reales.",
-      "Descubre por qué cuentan con una calificación de 4.9 estrellas en Google. No dejes tu necesidad al azar."
-    ],
-    "ctas": [
-      "Contactar por WhatsApp Ahora",
-      "Ver Directorio Completo"
-    ]
-  },
+  "pageContent": [
+    {
+      "id": "urgencia",
+      "headline": "¿Problemas urgentes? Encuentra NOTARIAS en Lima en menos de 15 Minutos",
+      "subtitles": [
+        "No dejes tu necesidad al azar ni pierdas semanas buscando referencias en la ciudad.",
+        "Garantiza resultados rápidos con especialistas validados. Destaca Notaría Gustavo Gonzales ubicado en Av. Camino Real 130, San Isidro 15046."
+      ],
+      "ctas": [
+        "Contactar al Especialista por WhatsApp",
+        "Ver Directorio Inmediato"
+      ]
+    },
+    {
+      "id": "autoridad",
+      "headline": "El Directorio Definitivo: El Top 1% de NOTARIAS Validados en Lima",
+      "subtitles": [
+        "Contratar un servicio es una decisión crítica. Tomar una decisión equivocada sale muy caro.",
+        "Filtramos los negocios con mayor tasa de éxito. Conecta directo con líderes como Notaría Gustavo Gonzales (⭐ 4.9 estrellas)."
+      ],
+      "ctas": [
+        "Chatear con un Experto",
+        "Explorar Ranking de Especialistas"
+      ]
+    },
+    {
+      "id": "prueba-social",
+      "headline": "Protege tu Inversión con los NOTARIAS Más Recomendados de Lima",
+      "subtitles": [
+        "Cientos de clientes en Lima ya validaron a estos profesionales. No seas el conejillo de indias de nadie.",
+        "Habla hoy mismo y sin intermediarios con los expertos mejor reseñados en Google Maps."
+      ],
+      "ctas": [
+        "Solicitar Evaluación Gratis",
+        "Ver Reseñas Verificadas"
+      ]
+    }
+  ],
   "businesses": [
     {
       "id": "biz_2",

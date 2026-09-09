@@ -1,8 +1,8 @@
 {
   "category": "auxilio-mecanico",
   "searchQuery": "auxilio mecanico y gruas en Lima",
-  "totalResults": 53,
-  "updatedAt": "2026-09-09T18:38:30.063Z",
+  "totalResults": 71,
+  "updatedAt": "2026-09-09T21:08:02.135Z",
   "topBusinessContext": {
     "id": "biz_6",
     "name": "Gruas Auxilio Vial - Perú",
@@ -12,20 +12,177 @@
     "address": "Jr. Río Huallaga 150, San Luis 15004",
     "url": "https://www.google.com/maps/place/Gruas+Auxilio+Vial+-+Per%C3%BA/data=!4m7!3m6!1s0x9105c7fa569ec9bd:0xc643ec8ebd3ba71b!8m2!3d-12.0734131!4d-77.0015472!16s%2Fg%2F11xrl1kf5y!19sChIJvcmeVvrHBZERG6c7vY7sQ8Y"
   },
-  "pageContent": {
-    "headline": "Los Mejores Expertos en AUXILIO MECANICO en Lima: Conoce a Gruas Auxilio Vial - Perú",
-    "subtitles": [
-      "Garantiza resultados hoy mismo. Ubicados en Jr. Río Huallaga 150, San Luis 15004, destacan como la opción número uno validada por usuarios reales.",
-      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
-    ],
-    "ctas": [
-      "Contactar por WhatsApp Ahora",
-      "Ver Directorio Completo"
-    ]
-  },
+  "pageContent": [
+    {
+      "id": "urgencia",
+      "headline": "¿Problemas urgentes? Encuentra AUXILIO MECANICO en Lima en menos de 15 Minutos",
+      "subtitles": [
+        "No dejes tu necesidad al azar ni pierdas semanas buscando referencias en la ciudad.",
+        "Garantiza resultados rápidos con especialistas validados. Destaca Gruas Auxilio Vial - Perú ubicado en Jr. Río Huallaga 150, San Luis 15004."
+      ],
+      "ctas": [
+        "Contactar al Especialista por WhatsApp",
+        "Ver Directorio Inmediato"
+      ]
+    },
+    {
+      "id": "autoridad",
+      "headline": "El Directorio Definitivo: El Top 1% de AUXILIO MECANICO Validados en Lima",
+      "subtitles": [
+        "Contratar un servicio es una decisión crítica. Tomar una decisión equivocada sale muy caro.",
+        "Filtramos los negocios con mayor tasa de éxito. Conecta directo con líderes como Gruas Auxilio Vial - Perú (⭐ 5 estrellas)."
+      ],
+      "ctas": [
+        "Chatear con un Experto",
+        "Explorar Ranking de Especialistas"
+      ]
+    },
+    {
+      "id": "prueba-social",
+      "headline": "Protege tu Inversión con los AUXILIO MECANICO Más Recomendados de Lima",
+      "subtitles": [
+        "Cientos de clientes en Lima ya validaron a estos profesionales. No seas el conejillo de indias de nadie.",
+        "Habla hoy mismo y sin intermediarios con los expertos mejor reseñados en Google Maps."
+      ],
+      "ctas": [
+        "Solicitar Evaluación Gratis",
+        "Ver Reseñas Verificadas"
+      ]
+    }
+  ],
   "businesses": [
     {
+      "id": "biz_1",
+      "name": "REMOLQUE Y AUXILIO MECANICO DE AUTOS Y MOTOS",
+      "rating": 5,
+      "reviewsCount": 503,
+      "category": "Servicio de remolque",
+      "address": "C. Calcuchimac 303, Ate 15011",
+      "phone": null,
+      "website": null,
+      "url": "https://www.google.com/maps/place/REMOLQUE+Y+AUXILIO+MECANICO+DE+AUTOS+Y+MOTOS/data=!4m7!3m6!1s0x9105c7b64f0dc463:0x82c15fb44b88334b!8m2!3d-12.0759019!4d-76.9826321!16s%2Fg%2F11s4364r2y!19sChIJY8QNT7bHBZERSzOIS7RfwYI?hl=es",
+      "latitude": -12.0759019,
+      "longitude": -76.9826321
+    },
+    {
+      "id": "biz_2",
+      "name": "Grúas Altés S.A.C.",
+      "rating": 5,
+      "reviewsCount": 13,
+      "category": "Agencia de alquiler de grúas",
+      "address": "C. German Schreiber Gulsmanco 276, San Isidro 15047",
+      "phone": "tel:990890015",
+      "website": "https://gruasaltes.pe/",
+      "url": "https://www.google.com/maps/place/Gr%C3%BAas+Alt%C3%A9s+S.A.C./data=!4m7!3m6!1s0x9105c86563f3ffff:0x8469bddf4f2193c8!8m2!3d-12.0960411!4d-77.0237689!16s%2Fg%2F11sg9pqr4m!19sChIJ___zY2XIBZERyJMhT9-9aYQ?hl=es",
+      "latitude": -12.0960411,
+      "longitude": -77.0237689
+    },
+    {
+      "id": "biz_3",
+      "name": "SERVICIO DE GRÚAS Y AUXILIOS",
+      "rating": 5,
+      "reviewsCount": 5,
+      "category": "Servicio de grúa",
+      "address": "Av. Perú s/n, San Martín de Porres 15106",
+      "phone": "tel:989382658",
+      "website": null,
+      "url": "https://www.google.com/maps/place/SERVICIO+DE+GR%C3%9AAS+Y+AUXILIOS/data=!4m7!3m6!1s0x9105ceb806cca3b9:0x38ae48c54aa7afd4!8m2!3d-12.0314272!4d-77.0797365!16s%2Fg%2F11v0z2l1lk!19sChIJuaPMBrjOBZER1K-nSsVIrjg?hl=es",
+      "latitude": -12.0314272,
+      "longitude": -77.0797365
+    },
+    {
+      "id": "biz_4",
+      "name": "GRÚAS Y MAQUINARIAS DEL PERÚ",
+      "rating": 5,
+      "reviewsCount": 3,
+      "category": "Agencia de alquiler de grúas",
+      "address": "Jr. Palma de Mallorca 231 PACHACAMAC, San Luis 15021",
+      "phone": "tel:950818011",
+      "website": "https://www.facebook.com/profile.php?id=100070004804625",
+      "url": "https://www.google.com/maps/place/GR%C3%9AAS+Y+MAQUINARIAS+DEL+PER%C3%9A/data=!4m7!3m6!1s0x9105c7726bb5ae73:0x507d967df833287d!8m2!3d-12.0775358!4d-76.9966873!16s%2Fg%2F11rnjkhgj_!19sChIJc661a3LHBZERfSgz-H2WfVA?hl=es",
+      "latitude": -12.0775358,
+      "longitude": -76.9966873
+    },
+    {
+      "id": "biz_5",
+      "name": "Gruas para autos y Camiones",
+      "rating": 5,
+      "reviewsCount": 2,
+      "category": "Servicio de grúa",
+      "address": "Av. Nicolás Arriola 2177, La Victoria 15021",
+      "phone": "tel:959121838",
+      "website": "http://www.gruasarriola.com/",
+      "url": "https://www.google.com/maps/place/Gruas+para+autos+y+Camiones/data=!4m7!3m6!1s0x9105c70d33bd6b9d:0x4b787c4e995980ae!8m2!3d-12.0712976!4d-77.00207!16s%2Fg%2F11rq94z2rd!19sChIJnWu9Mw3HBZERroBZmU58eEs?hl=es",
+      "latitude": -12.0712976,
+      "longitude": -77.00207
+    },
+    {
       "id": "biz_6",
+      "name": "GRUA FERNANDEZ",
+      "rating": 5,
+      "reviewsCount": 2,
+      "category": "Servicio de grúa",
+      "address": "+51, Los Olivos 15301",
+      "phone": "tel:994629219",
+      "website": "https://www.facebook.com/GruaFernanadez/",
+      "url": "https://www.google.com/maps/place/GRUA+FERNANDEZ/data=!4m7!3m6!1s0x9105cf6415d02c8d:0x29e6456f2c742dc2!8m2!3d-12.0053717!4d-77.062995!16s%2Fg%2F11kq3y9fb9!19sChIJjSzQFWTPBZERwi10LG9F5ik?hl=es",
+      "latitude": -12.0053717,
+      "longitude": -77.062995
+    },
+    {
+      "id": "biz_7",
+      "name": "Recarga y Auxilio Mecánico 24 7",
+      "rating": 5,
+      "reviewsCount": 2,
+      "category": "Servicio de grúa",
+      "address": "Jirón Arequipa 279, Magdalena del Mar 15086",
+      "phone": "tel:951553007",
+      "website": "https://www.bateriasjpcars.com/",
+      "url": "https://www.google.com/maps/place/Recarga+y+Auxilio+Mec%C3%A1nico+24+7/data=!4m7!3m6!1s0x9105c9e563f29469:0x8c755da932d97897!8m2!3d-12.0880938!4d-77.0714297!16s%2Fg%2F11jmy3w8cv!19sChIJaZTyY-XJBZERl3jZMqlddYw?hl=es",
+      "latitude": -12.0880938,
+      "longitude": -77.0714297
+    },
+    {
+      "id": "biz_8",
+      "name": "GRÚAS & ASOCIADOS",
+      "rating": 5,
+      "reviewsCount": 2,
+      "category": "Servicio de remolque",
+      "address": "Av. Sta. Anita Mz. M1 Lt. 9A, Chorrillos 15066",
+      "phone": "tel:012552555",
+      "website": "http://www.gruasyasociados.com/",
+      "url": "https://www.google.com/maps/place/GR%C3%9AAS+%26+ASOCIADOS/data=!4m7!3m6!1s0x9105b763accfef93:0xb2aaf25b39bdefb2!8m2!3d-12.1919381!4d-77.0146613!16s%2Fg%2F11vf81smt7!19sChIJk-_PrGO3BZERsu-9OVvyqrI?hl=es",
+      "latitude": -12.1919381,
+      "longitude": -77.0146613
+    },
+    {
+      "id": "biz_9",
+      "name": "GRUAS MONTACARGAS LURIN",
+      "rating": 5,
+      "reviewsCount": 1,
+      "category": "Desguace",
+      "address": "Lurín 15822",
+      "phone": "tel:953247893",
+      "website": null,
+      "url": "https://www.google.com/maps/place/GRUAS+MONTACARGAS+LURIN/data=!4m7!3m6!1s0x9105bdf997a793db:0x5d6079465b559b85!8m2!3d-12.2852937!4d-76.8684338!16s%2Fg%2F11rgctgqt8!19sChIJ25Onl_m9BZERhZtVW0Z5YF0?hl=es",
+      "latitude": -12.2852937,
+      "longitude": -76.8684338
+    },
+    {
+      "id": "biz_10",
+      "name": "MX HESODIN GRÚAS",
+      "rating": 5,
+      "reviewsCount": 1,
+      "category": "Servicio de grúa",
+      "address": "San Martín de Porres 15108",
+      "phone": "tel:991065019",
+      "website": "https://www.paginasamarillas.com.pe/empresas/mx-hesodin-gruas/san-martin-de-porres-PE17744",
+      "url": "https://www.google.com/maps/place/MX+HESODIN+GR%C3%9AAS/data=!4m7!3m6!1s0x9105cf84d7f7592f:0x5268586344cb2ec!8m2!3d-11.9973187!4d-77.0944663!16s%2Fg%2F11krkwbwv2!19sChIJL1n314TPBZER7LJMNIaFJgU?hl=es",
+      "latitude": -11.9973187,
+      "longitude": -77.0944663
+    },
+    {
+      "id": "biz_11",
       "name": "Gruas Auxilio Vial - Perú",
       "rating": 5,
       "reviewsCount": null,
@@ -34,7 +191,7 @@
       "url": "https://www.google.com/maps/place/Gruas+Auxilio+Vial+-+Per%C3%BA/data=!4m7!3m6!1s0x9105c7fa569ec9bd:0xc643ec8ebd3ba71b!8m2!3d-12.0734131!4d-77.0015472!16s%2Fg%2F11xrl1kf5y!19sChIJvcmeVvrHBZERG6c7vY7sQ8Y"
     },
     {
-      "id": "biz_7",
+      "id": "biz_12",
       "name": "Auxilio mecánico y cerrajeria Toro 24 horas",
       "rating": 5,
       "reviewsCount": null,
@@ -43,7 +200,7 @@
       "url": "https://www.google.com/maps/place/Auxilio+mec%C3%A1nico+y+cerrajeria+Toro+24+horas/data=!4m7!3m6!1s0x9105b99f4654c279:0x7bcca2c0c23ec71f!8m2!3d-12.1627416!4d-76.9871827!16s%2Fg%2F11zf_ptlh2!19sChIJecJURp-5BZERH8c-wsCizHs"
     },
     {
-      "id": "biz_10",
+      "id": "biz_13",
       "name": "Grúas y auxilio",
       "rating": 5,
       "reviewsCount": null,
@@ -61,7 +218,7 @@
       "url": "https://www.google.com/maps/place/Auxilio+Mec%C3%A1nico+Peru/data=!4m7!3m6!1s0x9105bb7e81ec9359:0xdea79a40fc7a96dd!8m2!3d-12.1124318!4d-77.0069495!16s%2Fg%2F11yw1yr49r!19sChIJWZPsgX67BZER3ZZ6_ECap94"
     },
     {
-      "id": "biz_17",
+      "id": "biz_15",
       "name": "Servicio de gruas lima",
       "rating": 5,
       "reviewsCount": null,
@@ -70,7 +227,7 @@
       "url": "https://www.google.com/maps/place/Servicio+de+gruas+lima/data=!4m7!3m6!1s0x9105cf872389a007:0x65600fadbc7bb5b4!8m2!3d-11.9882149!4d-77.0649102!16s%2Fg%2F11ntp_qc12!19sChIJB6CJI4fPBZERtLV7vK0PYGU"
     },
     {
-      "id": "biz_18",
+      "id": "biz_16",
       "name": "Grúa Universal S.A.C.",
       "rating": 5,
       "reviewsCount": null,
@@ -79,7 +236,7 @@
       "url": "https://www.google.com/maps/place/Gr%C3%BAa+Universal+S.A.C./data=!4m7!3m6!1s0x9105c75c88ceb2d7:0xba7b034178eeb6f7!8m2!3d-12.0734338!4d-76.9957812!16s%2Fg%2F11h3l57mh8!19sChIJ17LOiFzHBZER97bueEEDe7o"
     },
     {
-      "id": "biz_19",
+      "id": "biz_17",
       "name": "Gruas y Auxilio Mecanico Pueblo Libre",
       "rating": 5,
       "reviewsCount": null,
@@ -88,7 +245,7 @@
       "url": "https://www.google.com/maps/place/Gruas+y+Auxilio+Mecanico+Pueblo+Libre/data=!4m7!3m6!1s0x9105c9a877d43dc7:0xea76e60af32e18e4!8m2!3d-12.077493!4d-77.0772425!16s%2Fg%2F11vc4clb4s!19sChIJxz3Ud6jJBZER5Bgu8wrmduo"
     },
     {
-      "id": "biz_21",
+      "id": "biz_18",
       "name": "Mega Grúas",
       "rating": 5,
       "reviewsCount": null,
@@ -97,7 +254,7 @@
       "url": "https://www.google.com/maps/place/Mega+Gr%C3%BAas/data=!4m7!3m6!1s0x9105c70d615f569f:0x3cca35680a14a768!8m2!3d-12.041372!4d-76.933562!16s%2Fg%2F11z0vfq8kj!19sChIJn1ZfYQ3HBZERaKcUCmg1yjw"
     },
     {
-      "id": "biz_22",
+      "id": "biz_19",
       "name": "Moto Auxilio Perú | Grúa para Motos",
       "rating": 5,
       "reviewsCount": null,
@@ -106,7 +263,7 @@
       "url": "https://www.google.com/maps/place/Moto+Auxilio+Per%C3%BA+%7C+Gr%C3%BAa+para+Motos/data=!4m7!3m6!1s0x467cc6f421a10697:0x57ad4b6aba5ee891!8m2!3d-12.1957902!4d-77.0005297!16s%2Fg%2F11nqyfbr8p!19sChIJlwahIfTGfEYRkeheumpLrVc"
     },
     {
-      "id": "biz_23",
+      "id": "biz_20",
       "name": "FAMOSA TRIPLE A LIMA",
       "rating": 5,
       "reviewsCount": null,
@@ -115,7 +272,7 @@
       "url": "https://www.google.com/maps/place/FAMOSA+TRIPLE+A+LIMA/data=!4m7!3m6!1s0x9105c9f3d89a9105:0xfad0f91a989f619e!8m2!3d-12.052905!4d-77.0347883!16s%2Fg%2F11njyp_jmb!19sChIJBZGa2PPJBZERnmGfmBr50Po"
     },
     {
-      "id": "biz_31",
+      "id": "biz_21",
       "name": "GRUAS COLONIAL 24 HORAS",
       "rating": 5,
       "reviewsCount": null,
@@ -124,7 +281,7 @@
       "url": "https://www.google.com/maps/place/GRUAS+COLONIAL+24+HORAS/data=!4m7!3m6!1s0x231548d0996d2c0b:0xd6253bc6c3b9ed86!8m2!3d-12.0485602!4d-77.0720393!16s%2Fg%2F11zblntjdj!19sChIJCyxtmdBIFSMRhu25w8Y7JdY"
     },
     {
-      "id": "biz_39",
+      "id": "biz_22",
       "name": "Mecánicos a Domicilio en Lima - 24 Horas",
       "rating": 5,
       "reviewsCount": null,
@@ -133,7 +290,7 @@
       "url": "https://www.google.com/maps/place/Mec%C3%A1nicos+a+Domicilio+en+Lima+-+24+Horas/data=!4m7!3m6!1s0x9105b7d3a10f9227:0x33c44504e81577cb!8m2!3d-12.1137674!4d-77.0118908!16s%2Fg%2F11mw7m1k7m!19sChIJJ5IPodO3BZERy3cV6ARFxDM"
     },
     {
-      "id": "biz_40",
+      "id": "biz_23",
       "name": "Gruas y auxilios mecánicos CINJA",
       "rating": 5,
       "reviewsCount": null,
@@ -142,7 +299,7 @@
       "url": "https://www.google.com/maps/place/Gruas+y+auxilios+mec%C3%A1nicos+CINJA/data=!4m7!3m6!1s0x8de20b0b95bc575d:0x34f9ad6df16c6716!8m2!3d-12.2080194!4d-77.0154243!16s%2Fg%2F11x2kp9kfk!19sChIJXVe8lQsL4o0RFmds8W2t-TQ"
     },
     {
-      "id": "biz_43",
+      "id": "biz_24",
       "name": "Grúas Lima - Remolque y Auxilio Vial",
       "rating": 5,
       "reviewsCount": null,
@@ -151,7 +308,7 @@
       "url": "https://www.google.com/maps/place/Gr%C3%BAas+Lima+-+Remolque+y+Auxilio+Vial/data=!4m7!3m6!1s0x82ef0b11c81b6e71:0xe83fb5a0827503c4!8m2!3d-12.0266383!4d-76.9877792!16s%2Fg%2F11z8rp63_f!19sChIJcW4byBEL74IRxAN1gqC1P-g"
     },
     {
-      "id": "biz_48",
+      "id": "biz_25",
       "name": "Gruas Yuber",
       "rating": 5,
       "reviewsCount": null,
@@ -160,7 +317,7 @@
       "url": "https://www.google.com/maps/place/Gruas+Yuber/data=!4m7!3m6!1s0x9105c975edb311f9:0x89578b9f6cd0d963!8m2!3d-12.0871698!4d-77.0840406!16s%2Fg%2F11ny0jxjs2!19sChIJ-RGz7XXJBZERY9nQbJ-LV4k"
     },
     {
-      "id": "biz_51",
+      "id": "biz_26",
       "name": "GRUAS FAST",
       "rating": 5,
       "reviewsCount": null,
@@ -169,7 +326,7 @@
       "url": "https://www.google.com/maps/place/GRUAS+FAST/data=!4m7!3m6!1s0x9105c97ada73b4c3:0x4d56781a5f96ba77!8m2!3d-12.1153537!4d-77.0177186!16s%2Fg%2F11zjq1cl1q!19sChIJw7Rz2nrJBZERd7qWXxp4Vk0"
     },
     {
-      "id": "biz_4",
+      "id": "biz_27",
       "name": "Grúas y Servicios Express S.A.C.",
       "rating": 4.9,
       "reviewsCount": null,
@@ -178,7 +335,7 @@
       "url": "https://www.google.com/maps/place/Gr%C3%BAas+y+Servicios+Express+S.A.C./data=!4m7!3m6!1s0x9105c88e0bde6245:0x3aa36fcc1a66c4d1!8m2!3d-12.0752241!4d-77.0274094!16s%2Fg%2F11d_93bm3b!19sChIJRWLeC47IBZER0cRmGsxvozo"
     },
     {
-      "id": "biz_32",
+      "id": "biz_28",
       "name": "Grúas J&R Servicar",
       "rating": 4.9,
       "reviewsCount": null,
@@ -187,7 +344,7 @@
       "url": "https://www.google.com/maps/place/Gr%C3%BAas+J%26R+Servicar/data=!4m7!3m6!1s0x9105c9124c1c129f:0xe7a4b35e0833ea78!8m2!3d-12.10993!4d-77.0188626!16s%2Fg%2F11mvs9rhv7!19sChIJnxIcTBLJBZEReOozCF6zpOc"
     },
     {
-      "id": "biz_34",
+      "id": "biz_29",
       "name": "AUTOMOTRIZ GRAND PRIX\"",
       "rating": 4.9,
       "reviewsCount": null,
@@ -196,7 +353,7 @@
       "url": "https://www.google.com/maps/place/AUTOMOTRIZ+GRAND+PRIX%22/data=!4m7!3m6!1s0x9105b7e0af64a1c1:0x32bf3dcf1e11adc9!8m2!3d-12.1333588!4d-77.0180719!16s%2Fg%2F11vc82w303!19sChIJwaFkr-C3BZERya0RHs89vzI"
     },
     {
-      "id": "biz_36",
+      "id": "biz_30",
       "name": "Gruas Elite Perú | Grua urgente en Lima",
       "rating": 4.9,
       "reviewsCount": null,
@@ -205,7 +362,7 @@
       "url": "https://www.google.com/maps/place/Gruas+Elite+Per%C3%BA+%7C+Grua+urgente+en+Lima/data=!4m7!3m6!1s0x9105c92f5d65acc7:0x4a4a3c68446d9006!8m2!3d-12.1155377!4d-77.0231799!16s%2Fg%2F11t1jfgh6w!19sChIJx6xlXS_JBZERBpBtRGg8Sko"
     },
     {
-      "id": "biz_20",
+      "id": "biz_31",
       "name": "Gruas Lima las 24 horas",
       "rating": 4.8,
       "reviewsCount": null,
@@ -214,7 +371,7 @@
       "url": "https://www.google.com/maps/place/Gruas+Lima+las+24+horas/data=!4m7!3m6!1s0x9105c3bf9a5191ff:0x702d3b73cda6d08!8m2!3d-12.0266383!4d-76.9877792!16s%2Fg%2F11h32pbx63!19sChIJ_5FRmr_DBZERCG3aPLfTAgc"
     },
     {
-      "id": "biz_24",
+      "id": "biz_32",
       "name": "Grúas Lucho Service",
       "rating": 4.8,
       "reviewsCount": null,
@@ -223,7 +380,7 @@
       "url": "https://www.google.com/maps/place/Gr%C3%BAas+Lucho+Service/data=!4m7!3m6!1s0x9105cfeb84c67333:0xb1dad5db1099714e!8m2!3d-12.1951684!4d-76.9801953!16s%2Fg%2F11gxwxf3ht!19sChIJM3PGhOvPBZERTnGZENvV2rE"
     },
     {
-      "id": "biz_27",
+      "id": "biz_33",
       "name": "GRUAS BOLIVAR",
       "rating": 4.7,
       "reviewsCount": null,
@@ -232,7 +389,7 @@
       "url": "https://www.google.com/maps/place/GRUAS+BOLIVAR/data=!4m7!3m6!1s0x9105b83015a3bee7:0x3979bf77bec7f7be!8m2!3d-12.1635437!4d-76.9978291!16s%2Fg%2F11f0yr6xdz!19sChIJ576jFTC4BZERvvfHvne_eTk"
     },
     {
-      "id": "biz_30",
+      "id": "biz_34",
       "name": "Grúas Ángelo",
       "rating": 4.6,
       "reviewsCount": null,
@@ -241,7 +398,7 @@
       "url": "https://www.google.com/maps/place/Gr%C3%BAas+%C3%81ngelo/data=!4m7!3m6!1s0x9105c897c84b9377:0xf96877065b3ebf67!8m2!3d-12.0640957!4d-77.0244021!16s%2Fg%2F11f3fby5s6!19sChIJd5NLyJfIBZERZ78-WwZ3aPk"
     },
     {
-      "id": "biz_1",
+      "id": "biz_35",
       "name": "GRUAS TRIPLE A",
       "rating": 4.5,
       "reviewsCount": null,
@@ -250,7 +407,7 @@
       "url": "https://www.google.com/maps/place/GRUAS+TRIPLE+A/data=!4m7!3m6!1s0x9105c81276ce5ebd:0x7e79f460e47d14cd!8m2!3d-12.1112171!4d-77.0222326!16s%2Fg%2F11c54c15n_!19sChIJvV7OdhLIBZERzRR95GD0eX4"
     },
     {
-      "id": "biz_9",
+      "id": "biz_36",
       "name": "Gruas Lima 24 Horas",
       "rating": 4.5,
       "reviewsCount": null,
@@ -259,7 +416,7 @@
       "url": "https://www.google.com/maps/place/Gruas+Lima+24+Horas/data=!4m7!3m6!1s0x9105c9c3a0e20015:0x9c771978e9994b88!8m2!3d-12.0832268!4d-77.0823243!16s%2Fg%2F11f7b72qms!19sChIJFQDioMPJBZERiEuZ6XgZd5w"
     },
     {
-      "id": "biz_11",
+      "id": "biz_37",
       "name": "Gruas San Borja San Isidro Gruas Gonzales",
       "rating": 4.5,
       "reviewsCount": null,
@@ -268,7 +425,7 @@
       "url": "https://www.google.com/maps/place/Gruas+San+Borja+San+Isidro+Gruas+Gonzales/data=!4m7!3m6!1s0x9105c711408f76d9:0xb081be59dac28f2d!8m2!3d-12.09619!4d-77.0027169!16s%2Fg%2F11hf1y5lp8!19sChIJ2XaPQBHHBZERLY_C2lm-gbA"
     },
     {
-      "id": "biz_26",
+      "id": "biz_38",
       "name": "Grúas Edeca",
       "rating": 4.5,
       "reviewsCount": null,
@@ -277,7 +434,7 @@
       "url": "https://www.google.com/maps/place/Gr%C3%BAas+Edeca/data=!4m7!3m6!1s0x9105c59ad482ea35:0x18035ea449c332f3!8m2!3d-12.0259025!4d-76.9340945!16s%2Fg%2F11hzpc4fyn!19sChIJNeqC1JrFBZER8zLDSaReAxg"
     },
     {
-      "id": "biz_29",
+      "id": "biz_39",
       "name": "GRUAS SATELITAL",
       "rating": 4.5,
       "reviewsCount": null,
@@ -286,7 +443,7 @@
       "url": "https://www.google.com/maps/place/GRUAS+SATELITAL/data=!4m7!3m6!1s0x9105c9c807ffb269:0xc24ec1988b4cffad!8m2!3d-12.0871698!4d-77.0840406!16s%2Fg%2F11gybjhcny!19sChIJabL_B8jJBZERrf9Mi5jBTsI"
     },
     {
-      "id": "biz_33",
+      "id": "biz_40",
       "name": "GRÚAS UNIDAS CAR EIRL",
       "rating": 4.5,
       "reviewsCount": null,
@@ -295,7 +452,7 @@
       "url": "https://www.google.com/maps/place/GR%C3%9AAS+UNIDAS+CAR+EIRL/data=!4m7!3m6!1s0x9105c9517d1d951d:0x8670f9b5edc28a6e!8m2!3d-12.0890253!4d-77.0366776!16s%2Fg%2F11h7_3r1hk!19sChIJHZUdfVHJBZERborC7bX5cIY"
     },
     {
-      "id": "biz_38",
+      "id": "biz_41",
       "name": "GRUAS VILCA",
       "rating": 4.5,
       "reviewsCount": null,
@@ -304,7 +461,7 @@
       "url": "https://www.google.com/maps/place/GRUAS+VILCA/data=!4m7!3m6!1s0x9105b750851ba7b3:0x1ec3e0e961aedaa7!8m2!3d-12.1348081!4d-77.0174721!16s%2Fg%2F11ghtp7q9g!19sChIJs6cbhVC3BZERp9quYengwx4"
     },
     {
-      "id": "biz_49",
+      "id": "biz_42",
       "name": "Auxilio Mecanico Alejandro - Todo Lima 24 Hs",
       "rating": 4.5,
       "reviewsCount": null,
@@ -313,7 +470,7 @@
       "url": "https://www.google.com/maps/place/Auxilio+Mecanico+Alejandro+-+Todo+Lima+24+Hs/data=!4m7!3m6!1s0x9105cf31f5e40c93:0x4c53628a33a1405b!8m2!3d-12.0138093!4d-77.079558!16s%2Fg%2F11s3qsz7hd!19sChIJkwzk9THPBZERW0ChM4piU0w"
     },
     {
-      "id": "biz_52",
+      "id": "biz_43",
       "name": "GRUAS MEJIA 24HORAS",
       "rating": 4.5,
       "reviewsCount": null,
@@ -322,7 +479,20 @@
       "url": "https://www.google.com/maps/place/GRUAS+MEJIA+24HORAS/data=!4m7!3m6!1s0x9105d7ef96f28f27:0x1100b5c808872caa!8m2!3d-11.847524!4d-77.0943079!16s%2Fg%2F11ht46vr1m!19sChIJJ4_ylu_XBZERqiyHCMi1ABE"
     },
     {
-      "id": "biz_8",
+      "id": "biz_44",
+      "name": "FER COMPANY",
+      "rating": 4.4,
+      "reviewsCount": 33,
+      "category": "Taller de reparación de automóviles",
+      "address": "Av. Intihuatana 692, Surquillo 15038",
+      "phone": "tel:996628846",
+      "website": "https://fercompanyasiste.pe/",
+      "url": "https://www.google.com/maps/place/FER+COMPANY/data=!4m7!3m6!1s0x9105c7efd0af1e37:0x4c020e8fec38dab!8m2!3d-12.1170925!4d-76.9966781!16s%2Fg%2F11p0cjhbtt!19sChIJNx6v0O_HBZERq43D_uggwAQ?hl=es",
+      "latitude": -12.1170925,
+      "longitude": -76.9966781
+    },
+    {
+      "id": "biz_45",
       "name": "Servicio de Gruas Perú",
       "rating": 4.3,
       "reviewsCount": null,
@@ -340,7 +510,7 @@
       "url": "https://www.google.com/maps/place/Gruas+porras+en+lima/data=!4m7!3m6!1s0x9105c79d5fdb00d7:0x46ff745780c4bef7!8m2!3d-12.0467679!4d-76.9747649!16s%2Fg%2F11xsgzlplc!19sChIJ1wDbX53HBZER977EgFd0_0Y"
     },
     {
-      "id": "biz_13",
+      "id": "biz_47",
       "name": "Servicio de Grúa, Auxilio y Taller Mecanico Jormec Motors",
       "rating": 4.2,
       "reviewsCount": null,
@@ -349,7 +519,7 @@
       "url": "https://www.google.com/maps/place/Servicio+de+Gr%C3%BAa,+Auxilio+y+Taller+Mecanico+Jormec+Motors/data=!4m7!3m6!1s0x9105c971183d6ed5:0xc4f560f1c5c08e0d!8m2!3d-12.084193!4d-77.064655!16s%2Fg%2F11gmyvk0t3!19sChIJ1W49GHHJBZERDY7AxfFg9cQ"
     },
     {
-      "id": "biz_41",
+      "id": "biz_48",
       "name": "Gruas Palomino",
       "rating": 4.2,
       "reviewsCount": null,
@@ -358,7 +528,20 @@
       "url": "https://www.google.com/maps/place/Gruas+Palomino/data=!4m7!3m6!1s0x9105c9731af0d45d:0x6b3930f4d568cc74!8m2!3d-12.1155284!4d-77.0229513!16s%2Fg%2F11g2vvn_ld!19sChIJXdTwGnPJBZERdMxo1fQwOWs"
     },
     {
-      "id": "biz_25",
+      "id": "biz_49",
+      "name": "Grúas y Traslados Carbajal",
+      "rating": 4.1,
+      "reviewsCount": 8,
+      "category": "Servicio de transporte",
+      "address": "Av. Las Flores de Primavera, San Juan de Lurigancho 15408",
+      "phone": "tel:960555816",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gr%C3%BAas+y+Traslados+Carbajal/data=!4m7!3m6!1s0x9105cfbe42ae70bf:0x1c63ac9619a2f31d!8m2!3d-12.004526!4d-77.0184904!16s%2Fg%2F11glyc9hdr!19sChIJv3CuQr7PBZERHfOiGZasYxw?hl=es",
+      "latitude": -12.004526,
+      "longitude": -77.0184904
+    },
+    {
+      "id": "biz_50",
       "name": "Grúas Pérez",
       "rating": 4.1,
       "reviewsCount": null,
@@ -367,7 +550,7 @@
       "url": "https://www.google.com/maps/place/Gr%C3%BAas+P%C3%A9rez/data=!4m7!3m6!1s0x9105c9cd14d070f5:0x9b09719717a57d73!8m2!3d-12.1159121!4d-77.0218336!16s%2Fg%2F11g1q7gn4y!19sChIJ9XDQFM3JBZERc32lF5dxCZs"
     },
     {
-      "id": "biz_47",
+      "id": "biz_51",
       "name": "Grúas Inway - Grúas Vehiculares y Auxilio mecánico",
       "rating": 4,
       "reviewsCount": null,
@@ -376,7 +559,7 @@
       "url": "https://www.google.com/maps/place/Gr%C3%BAas+Inway+-+Gr%C3%BAas+Vehiculares+y+Auxilio+mec%C3%A1nico/data=!4m7!3m6!1s0x9105c91f8fbc5ff5:0xb7fac24c5e7817b2!8m2!3d-9.2435385!4d-75.0195046!16s%2Fg%2F11xyrlg138!19sChIJ9V-8jx_JBZERshd4XkzC-rc"
     },
     {
-      "id": "biz_53",
+      "id": "biz_52",
       "name": "Grúas Operaciones Tácticas Lucero S.A.C",
       "rating": 4,
       "reviewsCount": null,
@@ -385,7 +568,7 @@
       "url": "https://www.google.com/maps/place/Gr%C3%BAas+Operaciones+T%C3%A1cticas+Lucero+S.A.C/data=!4m7!3m6!1s0x9105c7a4f1d1ede7:0xae7d0ee9b1788418!8m2!3d-12.059168!4d-76.9909699!16s%2Fg%2F11qn7gl17g!19sChIJ5-3R8aTHBZERGIR4sekOfa4"
     },
     {
-      "id": "biz_16",
+      "id": "biz_53",
       "name": "ASISTENCIA MECANICA EIRL",
       "rating": 3.9,
       "reviewsCount": null,
@@ -394,7 +577,7 @@
       "url": "https://www.google.com/maps/place/ASISTENCIA+MECANICA+EIRL/data=!4m7!3m6!1s0x9105c7efdf533c67:0xb86902b8730de913!8m2!3d-12.0869865!4d-77.0929142!16s%2Fg%2F11fmztb9xr!19sChIJZzxT3-_HBZERE-kNc7gCabg"
     },
     {
-      "id": "biz_50",
+      "id": "biz_54",
       "name": "GRUAS SAN MIGUEL E.I.R.L",
       "rating": 3.9,
       "reviewsCount": null,
@@ -403,7 +586,20 @@
       "url": "https://www.google.com/maps/place/GRUAS+SAN+MIGUEL+E.I.R.L/data=!4m7!3m6!1s0x9105c973829bb9dd:0xdd210885b7a22faa!8m2!3d-12.0821398!4d-77.0826119!16s%2Fg%2F11g6xnk_hz!19sChIJ3bmbgnPJBZERqi-it4UIId0"
     },
     {
-      "id": "biz_2",
+      "id": "biz_55",
+      "name": "Gruas Leon",
+      "rating": 3.8,
+      "reviewsCount": 6,
+      "category": "Servicio de grúa",
+      "address": "Obsidianas 1499, La Victoria 15033",
+      "phone": "tel:014716648",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gruas+Leon/data=!4m7!3m6!1s0x9105c88e0e193ac7:0x19b054bdc4d597ec!8m2!3d-12.0751109!4d-77.026966!16s%2Fg%2F11fgm218r0!19sChIJxzoZDo7IBZER7JfVxL1UsBk?hl=es",
+      "latitude": -12.0751109,
+      "longitude": -77.026966
+    },
+    {
+      "id": "biz_56",
       "name": "Gruas Carretera Central",
       "rating": 3.8,
       "reviewsCount": null,
@@ -412,7 +608,7 @@
       "url": "https://www.google.com/maps/place/Gruas+Carretera+Central/data=!4m7!3m6!1s0x9105c3ae2068266b:0xa6185d1bbc4c7d98!8m2!3d-12.0165097!4d-76.8839848!16s%2Fg%2F11p5ngywsq!19sChIJayZoIK7DBZERmH1MvBtdGKY"
     },
     {
-      "id": "biz_35",
+      "id": "biz_57",
       "name": "Gruas Las Lomas S.A.C",
       "rating": 3.8,
       "reviewsCount": null,
@@ -421,7 +617,33 @@
       "url": "https://www.google.com/maps/place/Gruas+Las+Lomas+S.A.C/data=!4m7!3m6!1s0x9105b8edba8d5d77:0xecc7c484d3e69e98!8m2!3d-12.1525071!4d-76.9506794!16s%2Fg%2F11f4hfyyct!19sChIJd12Nuu24BZERmJ7m04TEx-w"
     },
     {
-      "id": "biz_5",
+      "id": "biz_58",
+      "name": "GRÚAS MOISÉS LAS 24 HS.",
+      "rating": 3.7,
+      "reviewsCount": 3,
+      "category": "Servicio de grúa",
+      "address": "Av. Pachacútec 75, Villa María del Triunfo 15816",
+      "phone": "tel:998937770",
+      "website": "https://www.paginasamarillas.com.pe/empresas/gruas-moises-las-24-hrs/villa-maria-del-triunfo-PE23749",
+      "url": "https://www.google.com/maps/place/GR%C3%9AAS+MOIS%C3%89S+LAS+24+HS./data=!4m7!3m6!1s0x9105b9726932d6bf:0xc6dc66b74323be81!8m2!3d-12.206776!4d-76.927221!16s%2Fg%2F11v64qnc4h!19sChIJv9YyaXK5BZERgb4jQ7dm3MY?hl=es",
+      "latitude": -12.206776,
+      "longitude": -76.927221
+    },
+    {
+      "id": "biz_59",
+      "name": "Auxilio mecánico 24 horas WILMER",
+      "rating": 3.6,
+      "reviewsCount": 27,
+      "category": "Taller de reparación de automóviles",
+      "address": "Ca. los Laureles 115, San Miguel 15088",
+      "phone": "tel:938106372",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Auxilio+mec%C3%A1nico+24+horas+WILMER/data=!4m7!3m6!1s0x9105c9056d20a049:0x4b3d247b81c30f79!8m2!3d-12.0635536!4d-77.0828126!16s%2Fg%2F11vhwrhbt6!19sChIJSaAgbQXJBZEReQ_DgXskPUs?hl=es",
+      "latitude": -12.0635536,
+      "longitude": -77.0828126
+    },
+    {
+      "id": "biz_60",
       "name": "GRUAS las 24 horas Alo Grúas",
       "rating": 3.6,
       "reviewsCount": null,
@@ -430,7 +652,7 @@
       "url": "https://www.google.com/maps/place/GRUAS+las+24+horas+Alo+Gr%C3%BAas/data=!4m7!3m6!1s0x9105c7b2d1e20381:0xd55da8c429deb22f!8m2!3d-12.0735159!4d-76.9993483!16s%2Fg%2F11jrrmrvx4!19sChIJgQPi0bLHBZERL7LeKcSoXdU"
     },
     {
-      "id": "biz_42",
+      "id": "biz_61",
       "name": "GRÚAS RUBÉN",
       "rating": 3.6,
       "reviewsCount": null,
@@ -439,7 +661,7 @@
       "url": "https://www.google.com/maps/place/GR%C3%9AAS+RUB%C3%89N/data=!4m7!3m6!1s0x9105d17dbfbcd2b7:0x1bb95c03d166458b!8m2!3d-11.9225662!4d-77.0420331!16s%2Fg%2F11gwml3fhg!19sChIJt9K8v33RBZERi0Vm0QNcuRs"
     },
     {
-      "id": "biz_44",
+      "id": "biz_62",
       "name": "Auxilio Mecanico - D Pacific Servicios",
       "rating": 3.5,
       "reviewsCount": null,
@@ -448,7 +670,7 @@
       "url": "https://www.google.com/maps/place/Auxilio+Mecanico+-+D+Pacific+Servicios/data=!4m7!3m6!1s0x9105b9ee76e56305:0xd3f83cc851585966!8m2!3d-12.1763035!4d-76.9966485!16s%2Fg%2F11pr3z_ph6!19sChIJBWPldu65BZERZllYUcg8-NM"
     },
     {
-      "id": "biz_37",
+      "id": "biz_63",
       "name": "Auxilio mecánico a domicilio 24 horas",
       "rating": 3,
       "reviewsCount": null,
@@ -457,7 +679,33 @@
       "url": "https://www.google.com/maps/place/Auxilio+mec%C3%A1nico+a+domicilio+24+horas/data=!4m7!3m6!1s0x9105c92b3742bcc1:0x11f533e680ee6697!8m2!3d-12.088093!4d-77.0713078!16s%2Fg%2F11q23_cbnd!19sChIJwbxCNyvJBZERl2bugOYz9RE"
     },
     {
-      "id": "biz_3",
+      "id": "biz_64",
+      "name": "PRONTOGRÚAS",
+      "rating": 2.3,
+      "reviewsCount": 3,
+      "category": "Oficinas de empresa",
+      "address": "Av. Primavera 1287, Santiago de Surco 15023",
+      "phone": "tel:951202229",
+      "website": "http://www.prontogruas.com/",
+      "url": "https://www.google.com/maps/place/PRONTOGR%C3%9AAS/data=!4m7!3m6!1s0x9105c71646ecb5f9:0xf720f1824877a0c0!8m2!3d-12.1098671!4d-76.9754926!16s%2Fg%2F11fl8clmqp!19sChIJ-bXsRhbHBZERwKB3SILxIPc?hl=es",
+      "latitude": -12.1098671,
+      "longitude": -76.9754926
+    },
+    {
+      "id": "biz_65",
+      "name": "Gruas y auxilio s.r.l",
+      "rating": 2,
+      "reviewsCount": 4,
+      "category": "Oficinas de empresa",
+      "address": "Manuel Arispe 52, Callao 07001",
+      "phone": null,
+      "website": null,
+      "url": "https://www.google.com/maps/place/Gruas+y+auxilio+s.r.l/data=!4m7!3m6!1s0x9105cbca7ab756ad:0x6c7852459d4cabd7!8m2!3d-12.0484734!4d-77.1304369!16s%2Fg%2F11h07_q06t!19sChIJrVa3esrLBZER16tMnUVSeGw?hl=es",
+      "latitude": -12.0484734,
+      "longitude": -77.1304369
+    },
+    {
+      "id": "biz_66",
       "name": "Grúas y auxilio mecánico servicios",
       "rating": null,
       "reviewsCount": null,
@@ -466,7 +714,7 @@
       "url": "https://www.google.com/maps/place/Gr%C3%BAas+y+auxilio+mec%C3%A1nico+servicios/data=!4m7!3m6!1s0x9105c7d5b47946cb:0xcf1c604ae17aec33!8m2!3d-12.0719237!4d-77.0009193!16s%2Fg%2F11zdtdbjyg!19sChIJy0Z5tNXHBZERM-x64UpgHM8"
     },
     {
-      "id": "biz_12",
+      "id": "biz_67",
       "name": "Auxilio mecánico, auxilio vial, grúa",
       "rating": null,
       "reviewsCount": null,
@@ -475,7 +723,7 @@
       "url": "https://www.google.com/maps/place/Auxilio+mec%C3%A1nico,+auxilio+vial,+gr%C3%BAa/data=!4m7!3m6!1s0x9105c9002afe9f63:0x8e250b5a29743817!8m2!3d-12.093223!4d-77.0299414!16s%2Fg%2F11z3xqw4t4!19sChIJY5_-KgDJBZERFzh0KVoLJY4"
     },
     {
-      "id": "biz_15",
+      "id": "biz_68",
       "name": "Auxilio Vial Y Gruas",
       "rating": null,
       "reviewsCount": null,
@@ -484,7 +732,7 @@
       "url": "https://www.google.com/maps/place/Auxilio+Vial+Y+Gruas/data=!4m7!3m6!1s0x9105c90028fbe75f:0xf19bf218e20c126f!8m2!3d-12.0518857!4d-77.0447005!16s%2Fg%2F11z3qh8mq5!19sChIJX-f7KADJBZERbxIM4hjym_E"
     },
     {
-      "id": "biz_28",
+      "id": "biz_69",
       "name": "Auxilio Mecánico 24/7 Lima",
       "rating": null,
       "reviewsCount": null,
@@ -493,13 +741,26 @@
       "url": "https://www.google.com/maps/place/Auxilio+Mec%C3%A1nico+24%2F7+Lima/data=!4m7!3m6!1s0x9105c9a4bc7183db:0x645775f4cb5ffcad!8m2!3d-12.0635681!4d-77.0828488!16s%2Fg%2F11nqc16pfp!19sChIJ24NxvKTJBZERrfxfy_R1V2Q"
     },
     {
-      "id": "biz_45",
+      "id": "biz_70",
       "name": "GRUAS & RESCATES LIMA Y PROVINCIAS",
       "rating": null,
       "reviewsCount": null,
       "category": "Servicio de grúa",
       "address": "Av. Aviación 3051, San Borja 15021",
       "url": "https://www.google.com/maps/place/GRUAS+%26+RESCATES+LIMA+Y+PROVINCIAS/data=!4m7!3m6!1s0x9105c7f12467fe5d:0x8c3a74f76dcc37cf!8m2!3d-12.1000798!4d-77.0016104!16s%2Fg%2F11p5f6mhr2!19sChIJXf5nJPHHBZERzzfMbfd0Oow"
+    },
+    {
+      "id": "biz_71",
+      "name": "Servicio de grúa San Anita",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Servicio de grúa",
+      "address": "Asoc, Santa Anita 15007",
+      "phone": "tel:930186545",
+      "website": "https://servicio-de-gruas.com/santa-anita/",
+      "url": "https://www.google.com/maps/place/Servicio+de+gr%C3%BAa+San+Anita/data=!4m7!3m6!1s0x9105c7e4bd03cbb5:0x920d1f804b437ca3!8m2!3d-12.0382125!4d-76.9542348!16s%2Fg%2F11z0zdwjzw!19sChIJtcsDveTHBZERo3xDS4AfDZI?hl=es",
+      "latitude": -12.0382125,
+      "longitude": -76.9542348
     }
   ]
 }

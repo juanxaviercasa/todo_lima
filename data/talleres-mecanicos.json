@@ -1,8 +1,8 @@
 {
   "category": "talleres-mecanicos",
   "searchQuery": "talleres mecanicos automotriz en Lima",
-  "totalResults": 53,
-  "updatedAt": "2026-09-09T18:31:55.937Z",
+  "totalResults": 74,
+  "updatedAt": "2026-09-09T21:03:11.235Z",
   "topBusinessContext": {
     "id": "biz_3",
     "name": "Mecánicos a Domicilio en Lima - 24 Horas",
@@ -12,20 +12,99 @@
     "address": "Jirón Loreto 665, Lima 15082",
     "url": "https://www.google.com/maps/place/Mec%C3%A1nicos+a+Domicilio+en+Lima+-+24+Horas/data=!4m7!3m6!1s0x9105b7d3a10f9227:0x33c44504e81577cb!8m2!3d-12.1137674!4d-77.0118908!16s%2Fg%2F11mw7m1k7m!19sChIJJ5IPodO3BZERy3cV6ARFxDM"
   },
-  "pageContent": {
-    "headline": "Los Mejores Expertos en TALLERES MECANICOS en Lima: Conoce a Mecánicos a Domicilio en Lima - 24 Horas",
-    "subtitles": [
-      "Garantiza resultados hoy mismo. Ubicados en Jirón Loreto 665, Lima 15082, destacan como la opción número uno validada por usuarios reales.",
-      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
-    ],
-    "ctas": [
-      "Contactar por WhatsApp Ahora",
-      "Ver Directorio Completo"
-    ]
-  },
+  "pageContent": [
+    {
+      "id": "urgencia",
+      "headline": "¿Problemas urgentes? Encuentra TALLERES MECANICOS en Lima en menos de 15 Minutos",
+      "subtitles": [
+        "No dejes tu necesidad al azar ni pierdas semanas buscando referencias en la ciudad.",
+        "Garantiza resultados rápidos con especialistas validados. Destaca Mecánicos a Domicilio en Lima - 24 Horas ubicado en Jirón Loreto 665, Lima 15082."
+      ],
+      "ctas": [
+        "Contactar al Especialista por WhatsApp",
+        "Ver Directorio Inmediato"
+      ]
+    },
+    {
+      "id": "autoridad",
+      "headline": "El Directorio Definitivo: El Top 1% de TALLERES MECANICOS Validados en Lima",
+      "subtitles": [
+        "Contratar un servicio es una decisión crítica. Tomar una decisión equivocada sale muy caro.",
+        "Filtramos los negocios con mayor tasa de éxito. Conecta directo con líderes como Mecánicos a Domicilio en Lima - 24 Horas (⭐ 5 estrellas)."
+      ],
+      "ctas": [
+        "Chatear con un Experto",
+        "Explorar Ranking de Especialistas"
+      ]
+    },
+    {
+      "id": "prueba-social",
+      "headline": "Protege tu Inversión con los TALLERES MECANICOS Más Recomendados de Lima",
+      "subtitles": [
+        "Cientos de clientes en Lima ya validaron a estos profesionales. No seas el conejillo de indias de nadie.",
+        "Habla hoy mismo y sin intermediarios con los expertos mejor reseñados en Google Maps."
+      ],
+      "ctas": [
+        "Solicitar Evaluación Gratis",
+        "Ver Reseñas Verificadas"
+      ]
+    }
+  ],
   "businesses": [
     {
+      "id": "biz_1",
+      "name": "Strong Motors Taller Automotriz Multimarca - Bosch Car Service",
+      "rating": 4.8,
+      "reviewsCount": 343,
+      "category": "Taller de reparación de automóviles",
+      "address": "Av. Universitaria 7147, Comas 15314",
+      "phone": "tel:947301672",
+      "website": "https://www.strongmotors.pe/",
+      "url": "https://www.google.com/maps/place/Strong+Motors+Taller+Automotriz+Multimarca+-+Bosch+Car+Service/data=!4m7!3m6!1s0x9105d19c45f37bed:0xb8d1b68b6ea68790!8m2!3d-11.938497!4d-77.0587029!16s%2Fg%2F11mw4_3591!19sChIJ7XvzRZzRBZERkIembou20bg?hl=es",
+      "latitude": -11.938497,
+      "longitude": -77.0587029
+    },
+    {
+      "id": "biz_2",
+      "name": "Mecánica Automotriz Car Lumbre",
+      "rating": 5,
+      "reviewsCount": 5,
+      "category": "Taller de reparación de automóviles",
+      "address": "Av. Lorenzo de Encalada 386, Rímac 15093",
+      "phone": "tel:979701851",
+      "website": "https://www.facebook.com/CARLUMBRE?mibextid=LQQJ4d",
+      "url": "https://www.google.com/maps/place/Mec%C3%A1nica+Automotriz+Car+Lumbre/data=!4m7!3m6!1s0x9105cf98795fdadb:0xe14c3df595f3321b!8m2!3d-12.024388!4d-77.0302088!16s%2Fg%2F11vrlhqrpp!19sChIJ29pfeZjPBZERGzLzlfU9TOE?hl=es",
+      "latitude": -12.024388,
+      "longitude": -77.0302088
+    },
+    {
       "id": "biz_3",
+      "name": "TALLER DE MECANICA AUTOMOTRIZ NOLCAR EIRL",
+      "rating": 5,
+      "reviewsCount": 5,
+      "category": "Taller mecánico",
+      "address": "Jr, Inca 1024, Surquillo 15047",
+      "phone": "tel:981503643",
+      "website": null,
+      "url": "https://www.google.com/maps/place/TALLER+DE+MECANICA+AUTOMOTRIZ+NOLCAR+EIRL/data=!4m7!3m6!1s0x9105c95b4fefb271:0xa04f9751ec9491a6!8m2!3d-12.1107489!4d-77.0213565!16s%2Fg%2F11h8f__8yp!19sChIJcbLvT1vJBZERppGU7FGXT6A?hl=es",
+      "latitude": -12.1107489,
+      "longitude": -77.0213565
+    },
+    {
+      "id": "biz_4",
+      "name": "R&R Servicios Automotrices",
+      "rating": 5,
+      "reviewsCount": 4,
+      "category": "Taller de reparación de automóviles",
+      "address": "Av del Aire 1317, San Luis 15021",
+      "phone": "tel:981527545",
+      "website": "https://tallermec.net.pe/p/rr-servicios-automotrices/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "url": "https://www.google.com/maps/place/R%26R+Servicios+Automotrices/data=!4m7!3m6!1s0x9105c7d352f25985:0xa6b183b0a3e22878!8m2!3d-12.0771196!4d-76.9971898!16s%2Fg%2F11s40zmhcx!19sChIJhVnyUtPHBZEReCjio7CDsaY?hl=es",
+      "latitude": -12.0771196,
+      "longitude": -76.9971898
+    },
+    {
+      "id": "biz_5",
       "name": "Mecánicos a Domicilio en Lima - 24 Horas",
       "rating": 5,
       "reviewsCount": null,
@@ -34,7 +113,7 @@
       "url": "https://www.google.com/maps/place/Mec%C3%A1nicos+a+Domicilio+en+Lima+-+24+Horas/data=!4m7!3m6!1s0x9105b7d3a10f9227:0x33c44504e81577cb!8m2!3d-12.1137674!4d-77.0118908!16s%2Fg%2F11mw7m1k7m!19sChIJJ5IPodO3BZERy3cV6ARFxDM"
     },
     {
-      "id": "biz_8",
+      "id": "biz_6",
       "name": "MAXTER Mantenimiento Vehicular - Taller Mecánico",
       "rating": 5,
       "reviewsCount": null,
@@ -43,7 +122,7 @@
       "url": "https://www.google.com/maps/place/MAXTER+Mantenimiento+Vehicular+-+Taller+Mec%C3%A1nico/data=!4m7!3m6!1s0x9105c3f4eed358c3:0xbd98d81fc53cec2f!8m2!3d-12.0196129!4d-76.9001121!16s%2Fg%2F11h05bbvhq!19sChIJw1jT7vTDBZERL-w8xR_YmL0"
     },
     {
-      "id": "biz_10",
+      "id": "biz_7",
       "name": "ELECTRICIDAD AUTOMOTRIZ WONG ️",
       "rating": 5,
       "reviewsCount": null,
@@ -52,7 +131,7 @@
       "url": "https://www.google.com/maps/place/ELECTRICIDAD+AUTOMOTRIZ+WONG+%EF%B8%8F/data=!4m7!3m6!1s0x9105c5bc91477ac9:0x9bc22f467da15a3c!8m2!3d-12.0236726!4d-76.9915878!16s%2Fg%2F11j6045v3m!19sChIJyXpHkbzFBZERPFqhfUYvwps"
     },
     {
-      "id": "biz_13",
+      "id": "biz_8",
       "name": "Absg Motors Perú - Taller de Mecánica Automotriz",
       "rating": 5,
       "reviewsCount": null,
@@ -61,7 +140,7 @@
       "url": "https://www.google.com/maps/place/Absg+Motors+Per%C3%BA+-+Taller+de+Mec%C3%A1nica+Automotriz/data=!4m7!3m6!1s0x9105c7721326a4d7:0x6b89797666df5565!8m2!3d-12.0479457!4d-76.9631319!16s%2Fg%2F11vk6wr_58!19sChIJ16QmE3LHBZERZVXfZnZ5iWs"
     },
     {
-      "id": "biz_29",
+      "id": "biz_9",
       "name": "JC Ramirez Servicio Mecánico Automotríz",
       "rating": 5,
       "reviewsCount": null,
@@ -70,7 +149,7 @@
       "url": "https://www.google.com/maps/place/JC+Ramirez+Servicio+Mec%C3%A1nico+Automotr%C3%ADz/data=!4m7!3m6!1s0x9105c7e25a71e04b:0x565559af1cb13cc!8m2!3d-12.1146761!4d-77.0083851!16s%2Fg%2F11b6j9fmfj!19sChIJS-BxWuLHBZERzBPL8ZpVZQU"
     },
     {
-      "id": "biz_31",
+      "id": "biz_10",
       "name": "MECANICA AUTOMOTRIZ NILTON",
       "rating": 5,
       "reviewsCount": null,
@@ -79,7 +158,7 @@
       "url": "https://www.google.com/maps/place/MECANICA+AUTOMOTRIZ+NILTON/data=!4m7!3m6!1s0x9105c5539bd36467:0xd1c4b51bbf6fcea5!8m2!3d-12.0290746!4d-76.9477143!16s%2Fg%2F11rcqrnggj!19sChIJZ2TTm1PFBZERpc5vvxu1xNE"
     },
     {
-      "id": "biz_42",
+      "id": "biz_11",
       "name": "MecanicaAutomotrizLG",
       "rating": 5,
       "reviewsCount": null,
@@ -88,7 +167,7 @@
       "url": "https://www.google.com/maps/place/MecanicaAutomotrizLG/data=!4m7!3m6!1s0x9105c93958c20b49:0x5017314e95217ba0!8m2!3d-12.0529258!4d-77.0625501!16s%2Fg%2F11v5gch2nz!19sChIJSQvCWDnJBZERoHshlU4xF1A"
     },
     {
-      "id": "biz_43",
+      "id": "biz_12",
       "name": "Servicio eléctrico Automotriz MALQUI",
       "rating": 5,
       "reviewsCount": null,
@@ -97,7 +176,7 @@
       "url": "https://www.google.com/maps/place/Servicio+el%C3%A9ctrico+Automotriz+MALQUI/data=!4m7!3m6!1s0x9105c9d770e6a76b:0x2017e156d09ebf8a!8m2!3d-12.0616431!4d-77.0274667!16s%2Fg%2F11m8wmsx10!19sChIJa6fmcNfJBZERir-e0FbhFyA"
     },
     {
-      "id": "biz_45",
+      "id": "biz_13",
       "name": "Overdrive Soluciones Automotrices",
       "rating": 5,
       "reviewsCount": null,
@@ -106,7 +185,7 @@
       "url": "https://www.google.com/maps/place/Overdrive+Soluciones+Automotrices/data=!4m7!3m6!1s0x9105c7aa727ea59b:0x754130c365753417!8m2!3d-12.0670827!4d-76.9566631!16s%2Fg%2F11lg0n0cnz!19sChIJm6V-cqrHBZERFzR1ZcMwQXU"
     },
     {
-      "id": "biz_50",
+      "id": "biz_14",
       "name": "Mecanica Automotriz Rojitas",
       "rating": 5,
       "reviewsCount": null,
@@ -115,7 +194,20 @@
       "url": "https://www.google.com/maps/place/Mecanica+Automotriz+Rojitas/data=!4m7!3m6!1s0x9105cf1cbbecee57:0x534fdf00ad920ce5!8m2!3d-12.008163!4d-77.066896!16s%2Fg%2F11gndrtd9r!19sChIJV-7suxzPBZER5QySrQDfT1M"
     },
     {
-      "id": "biz_4",
+      "id": "biz_15",
+      "name": "2G Automotriz Los Olivos",
+      "rating": 4.8,
+      "reviewsCount": 106,
+      "category": "Taller de reparación de automóviles",
+      "address": "San Martín de Porres 15113",
+      "phone": "tel:924862779",
+      "website": "https://2gautomotriz.com/",
+      "url": "https://www.google.com/maps/place/2G+Automotriz+Los+Olivos/data=!4m7!3m6!1s0x9105cf84d4a67cf3:0xd78f1014b1d872a6!8m2!3d-11.9614366!4d-77.0843612!16s%2Fg%2F11trmxd7d8!19sChIJ83ym1ITPBZERpnLYsRQQj9c?hl=es",
+      "latitude": -11.9614366,
+      "longitude": -77.0843612
+    },
+    {
+      "id": "biz_16",
       "name": "RST Automotriz",
       "rating": 4.9,
       "reviewsCount": null,
@@ -124,7 +216,7 @@
       "url": "https://www.google.com/maps/place/RST+Automotriz/data=!4m7!3m6!1s0x9105c920e22ee39f:0xe70a822e672ad1e2!8m2!3d-12.1141865!4d-77.0125529!16s%2Fg%2F11fj437zdq!19sChIJn-Mu4iDJBZER4tEqZy6CCuc"
     },
     {
-      "id": "biz_9",
+      "id": "biz_17",
       "name": "Automotriz AHM S.A.C.",
       "rating": 4.9,
       "reviewsCount": null,
@@ -133,7 +225,7 @@
       "url": "https://www.google.com/maps/place/Automotriz+AHM+S.A.C./data=!4m7!3m6!1s0x9105c881926de9a5:0xbc11d1c30ff60f76!8m2!3d-12.0796651!4d-77.0119014!16s%2Fg%2F11c1rtcnfs!19sChIJpeltkoHIBZERdg_2D8PREbw"
     },
     {
-      "id": "biz_12",
+      "id": "biz_18",
       "name": "RC Taller Automotriz",
       "rating": 4.9,
       "reviewsCount": null,
@@ -142,7 +234,7 @@
       "url": "https://www.google.com/maps/place/RC+Taller+Automotriz/data=!4m7!3m6!1s0x9105d1b31c17ab3b:0xf0f8e5c1e03ae983!8m2!3d-11.9140764!4d-77.0468611!16s%2Fg%2F11yts37y8p!19sChIJO6sXHLPRBZERg-k64MHl-PA"
     },
     {
-      "id": "biz_14",
+      "id": "biz_19",
       "name": "Precisión Automotriz",
       "rating": 4.9,
       "reviewsCount": null,
@@ -151,7 +243,7 @@
       "url": "https://www.google.com/maps/place/Precisi%C3%B3n+Automotriz/data=!4m7!3m6!1s0x9105c88be188a947:0xf0f02349208e96cb!8m2!3d-12.078472!4d-77.0298749!16s%2Fg%2F11c6pl64tn!19sChIJR6mI4YvIBZERy5aOIEkj8PA"
     },
     {
-      "id": "biz_23",
+      "id": "biz_20",
       "name": "AUTOMOTRIZ PAU\"CAR",
       "rating": 4.9,
       "reviewsCount": null,
@@ -160,7 +252,7 @@
       "url": "https://www.google.com/maps/place/AUTOMOTRIZ+PAU%22CAR/data=!4m7!3m6!1s0x9105c3820f94c179:0x4d0e81fbae0dddf!8m2!3d-12.0051983!4d-76.9148525!16s%2Fg%2F11jlxybkf4!19sChIJecGUD4LDBZER393guh_o0AQ"
     },
     {
-      "id": "biz_25",
+      "id": "biz_21",
       "name": "Automotriz Yolvi",
       "rating": 4.9,
       "reviewsCount": null,
@@ -169,7 +261,20 @@
       "url": "https://www.google.com/maps/place/Automotriz+Yolvi/data=!4m7!3m6!1s0x9105c9bdc1a53dc1:0x6100680f10ee09df!8m2!3d-12.0773236!4d-77.0173448!16s%2Fg%2F11rs0ry0jl!19sChIJwT2lwb3JBZER3wnuEA9oAGE"
     },
     {
-      "id": "biz_1",
+      "id": "biz_22",
+      "name": "Pits Automotriz",
+      "rating": 4.7,
+      "reviewsCount": 122,
+      "category": "Taller de reparación de automóviles",
+      "address": "Jr. Thomas Cochrane G-8, San Martín de Porres 15107",
+      "phone": "tel:992300596",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Pits+Automotriz/data=!4m7!3m6!1s0x9105cf8cf89fecb9:0xefc8fb4753014c16!8m2!3d-12.0239519!4d-77.0793188!16s%2Fg%2F11qqv38k9h!19sChIJueyf-IzPBZERFkwBU0f7yO8?hl=es",
+      "latitude": -12.0239519,
+      "longitude": -77.0793188
+    },
+    {
+      "id": "biz_23",
       "name": "Derco Center - Ate",
       "rating": 4.8,
       "reviewsCount": null,
@@ -178,7 +283,7 @@
       "url": "https://www.google.com/maps/place/Derco+Center+-+Ate/data=!4m7!3m6!1s0x9105c65bf63eb9df:0x89a980c14c8da6!8m2!3d-12.067254!4d-76.97183!16s%2Fg%2F11bxfm1gl0!19sChIJ37k-9lvGBZERpo1MwYCpiQA"
     },
     {
-      "id": "biz_5",
+      "id": "biz_24",
       "name": "Cavalié: Taller Automotriz y Mecánico",
       "rating": 4.8,
       "reviewsCount": null,
@@ -187,7 +292,7 @@
       "url": "https://www.google.com/maps/place/Cavali%C3%A9:+Taller+Automotriz+y+Mec%C3%A1nico/data=!4m7!3m6!1s0x9105c88c67ecf389:0x757959ad420d41d1!8m2!3d-12.0785311!4d-77.0297968!16s%2Fg%2F11yr75s73!19sChIJifPsZ4zIBZER0UENQq1ZeXU"
     },
     {
-      "id": "biz_16",
+      "id": "biz_25",
       "name": "Solar Automotriz | Taller Mecánico en Lima | Reparación, Mantenimiento, Pintura y Undercoating",
       "rating": 4.8,
       "reviewsCount": null,
@@ -196,7 +301,7 @@
       "url": "https://www.google.com/maps/place/Solar+Automotriz+%7C+Taller+Mec%C3%A1nico+en+Lima+%7C+Reparaci%C3%B3n,+Mantenimiento,+Pintura+y+Undercoating/data=!4m7!3m6!1s0x9105b80881767aab:0xea95f037990c687b!8m2!3d-12.131822!4d-76.9987045!16s%2Fg%2F1tm0cwhp!19sChIJq3p2gQi4BZERe2gMmTfwleo"
     },
     {
-      "id": "biz_35",
+      "id": "biz_26",
       "name": "TP Automotriz S.R.L.",
       "rating": 4.8,
       "reviewsCount": null,
@@ -205,7 +310,7 @@
       "url": "https://www.google.com/maps/place/TP+Automotriz+S.R.L./data=!4m7!3m6!1s0x9105c8099708e5ff:0xc201d0261ba6b2ac!8m2!3d-12.1143189!4d-77.012366!16s%2Fg%2F11b6gb0zln!19sChIJ_-UIlwnIBZERrLKmGybQAcI"
     },
     {
-      "id": "biz_39",
+      "id": "biz_27",
       "name": "Automotriz Jaime",
       "rating": 4.8,
       "reviewsCount": null,
@@ -214,7 +319,72 @@
       "url": "https://www.google.com/maps/place/Automotriz+Jaime/data=!4m7!3m6!1s0x9105ce504e3f63a7:0xd1039f950fb8c918!8m2!3d-11.9883242!4d-77.0654482!16s%2Fg%2F11cs0r9bc5!19sChIJp2M_TlDOBZERGMm4D5WfA9E"
     },
     {
-      "id": "biz_20",
+      "id": "biz_28",
+      "name": "Masaki",
+      "rating": 4.3,
+      "reviewsCount": 465,
+      "category": "Taller de reparación de automóviles",
+      "address": "Av. Javier Prado Este 5555, Lima 15023",
+      "phone": "tel:016127500",
+      "website": "http://www.masaki.pe/",
+      "url": "https://www.google.com/maps/place/Masaki/data=!4m7!3m6!1s0x9105c6f8fe8428e9:0xfe239e6bfd1a3f79!8m2!3d-12.0731778!4d-76.9606716!16s%2Fg%2F113f6dytt!19sChIJ6SiE_vjGBZEReT8a_WueI_4?hl=es",
+      "latitude": -12.0731778,
+      "longitude": -76.9606716
+    },
+    {
+      "id": "biz_29",
+      "name": "Avance Automotriz",
+      "rating": 4.7,
+      "reviewsCount": 47,
+      "category": "Taller de reparación de automóviles",
+      "address": "Av. De Los Precursores 202, San Miguel 15088",
+      "phone": "tel:015621753",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Avance+Automotriz/data=!4m7!3m6!1s0x9105cc1feb96606b:0x8fa86047bae0a167!8m2!3d-12.0714421!4d-77.089437!16s%2Fg%2F1tnmssyp!19sChIJa2CW6x_MBZERZ6HgukdgqI8?hl=es",
+      "latitude": -12.0714421,
+      "longitude": -77.089437
+    },
+    {
+      "id": "biz_30",
+      "name": "Automotriz Los Bolidos EIRL",
+      "rating": 4.7,
+      "reviewsCount": 15,
+      "category": "Taller de chapa y pintura",
+      "address": "Jr. los Brillantes 221, La Victoria 15034",
+      "phone": "tel:981205204",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Automotriz+Los+Bolidos+EIRL/data=!4m7!3m6!1s0x9105c911e278c313:0xfa012d764d149d72!8m2!3d-12.0779778!4d-77.0271152!16s%2Fg%2F11fl4dvl5m!19sChIJE8N44hHJBZERcp0UTXYtAfo?hl=es",
+      "latitude": -12.0779778,
+      "longitude": -77.0271152
+    },
+    {
+      "id": "biz_31",
+      "name": "San Martin Factoria Y Equipamiento Automotriz S.A.C. Mecanica En General Gasolinero Y Diesel",
+      "rating": 4.7,
+      "reviewsCount": 3,
+      "category": "Taller mecánico",
+      "address": "Av. Parinacochas 1771, Lima 15034",
+      "phone": "tel:014708959",
+      "website": null,
+      "url": "https://www.google.com/maps/place/San+Martin+Factoria+Y+Equipamiento+Automotriz+S.A.C.+Mecanica+En+General+Gasolinero+Y+Diesel/data=!4m7!3m6!1s0x9105c88488093281:0x83d15e3a1f84d491!8m2!3d-12.0764004!4d-77.0168852!16s%2Fg%2F11g0mjmt9y!19sChIJgTIJiITIBZERkdSEHzpe0YM?hl=es",
+      "latitude": -12.0764004,
+      "longitude": -77.0168852
+    },
+    {
+      "id": "biz_32",
+      "name": "PIOLA AUTOMOTRIZ",
+      "rating": 4.7,
+      "reviewsCount": 3,
+      "category": "Taller mecánico",
+      "address": "Jirón 18 De Enero 390, Lima 15063",
+      "phone": "tel:929387395",
+      "website": null,
+      "url": "https://www.google.com/maps/place/PIOLA+AUTOMOTRIZ/data=!4m7!3m6!1s0x9105b7412cbf56e9:0x479fb5388e66f875!8m2!3d-12.1531506!4d-77.0143016!16s%2Fg%2F11s4wmx7p2!19sChIJ6Va_LEG3BZERdfhmjji1n0c?hl=es",
+      "latitude": -12.1531506,
+      "longitude": -77.0143016
+    },
+    {
+      "id": "biz_33",
       "name": "Mecánica Automotriz Jinés",
       "rating": 4.7,
       "reviewsCount": null,
@@ -223,7 +393,7 @@
       "url": "https://www.google.com/maps/place/Mec%C3%A1nica+Automotriz+Jin%C3%A9s/data=!4m7!3m6!1s0x9105c9ff1f1df385:0x91eb8b13991745e7!8m2!3d-12.0805301!4d-77.0195156!16s%2Fg%2F11h_td6zd6!19sChIJhfMdH__JBZER50UXmROL65E"
     },
     {
-      "id": "biz_21",
+      "id": "biz_34",
       "name": "Taller automotriz Cesar",
       "rating": 4.7,
       "reviewsCount": null,
@@ -232,7 +402,7 @@
       "url": "https://www.google.com/maps/place/Taller+automotriz+Cesar/data=!4m7!3m6!1s0x9105c88b7be4c621:0x78d99c7b703a2d5f!8m2!3d-12.0803218!4d-77.0309417!16s%2Fg%2F11b6gbyqgk!19sChIJIcbke4vIBZERXy06cHuc2Xg"
     },
     {
-      "id": "biz_41",
+      "id": "biz_35",
       "name": "Taller Automotriz Las Viñas",
       "rating": 4.7,
       "reviewsCount": null,
@@ -241,7 +411,7 @@
       "url": "https://www.google.com/maps/place/Taller+Automotriz+Las+Vi%C3%B1as/data=!4m7!3m6!1s0x9105c72f93909959:0xa15896d4e2c766e7!8m2!3d-12.0965727!4d-76.9387266!16s%2Fg%2F11lm0mppjq!19sChIJWZmQky_HBZER52bH4tSWWKE"
     },
     {
-      "id": "biz_48",
+      "id": "biz_36",
       "name": "360 Automotriz",
       "rating": 4.7,
       "reviewsCount": null,
@@ -250,7 +420,46 @@
       "url": "https://www.google.com/maps/place/360+Automotriz/data=!4m7!3m6!1s0x9105c74b8779761d:0x780839044aed11c2!8m2!3d-12.0721894!4d-76.9966059!16s%2Fg%2F11qyqqkn7q!19sChIJHXZ5h0vHBZERwhHtSgQ5CHg"
     },
     {
-      "id": "biz_7",
+      "id": "biz_37",
+      "name": "S.R. Automotriz",
+      "rating": 4.6,
+      "reviewsCount": 24,
+      "category": "Taller mecánico",
+      "address": "C. Manuel Tovar 351, Miraflores 15074",
+      "phone": "tel:998371931",
+      "website": "https://tallermec.net.pe/p/sr-automotriz?=",
+      "url": "https://www.google.com/maps/place/S.R.+Automotriz/data=!4m7!3m6!1s0x9105c83a6c8ba44d:0xf606860f8726b89c!8m2!3d-12.1156668!4d-77.0439306!16s%2Fg%2F11b6ghlf_c!19sChIJTaSLbDrIBZERnLgmhw-GBvY?hl=es",
+      "latitude": -12.1156668,
+      "longitude": -77.0439306
+    },
+    {
+      "id": "biz_38",
+      "name": "\"JHONNY MOTORES\" SOLUCIONES AUTOMOTRICES",
+      "rating": 4.6,
+      "reviewsCount": 14,
+      "category": "Taller de reparación de automóviles",
+      "address": "Urb San Roque MZ R, Los Olivos 15306",
+      "phone": "tel:926717247",
+      "website": null,
+      "url": "https://www.google.com/maps/place/%22JHONNY+MOTORES%22+SOLUCIONES+AUTOMOTRICES/data=!4m7!3m6!1s0x9105cf8ec7ee8a59:0xe33ec44893867bb4!8m2!3d-11.9788191!4d-77.0906637!16s%2Fg%2F11lrcqxjvs!19sChIJWYrux47PBZERtHuGk0jEPuM?hl=es",
+      "latitude": -11.9788191,
+      "longitude": -77.0906637
+    },
+    {
+      "id": "biz_39",
+      "name": "Safety Automotriz: Taller Automotriz",
+      "rating": 4.6,
+      "reviewsCount": 14,
+      "category": "Taller de reparación de automóviles",
+      "address": "Av. México 360, La Victoria 15033",
+      "phone": "tel:955035484",
+      "website": "https://safetyfilms.pe/tallerautomotriz/",
+      "url": "https://www.google.com/maps/place/Safety+Automotriz:+Taller+Automotriz/data=!4m7!3m6!1s0x9105c6f4470c12b3:0xe855bc0aa69752f7!8m2!3d-12.0759578!4d-77.0258284!16s%2Fg%2F11d_9g870g!19sChIJsxIMR_TGBZER91KXpgq8Veg?hl=es",
+      "latitude": -12.0759578,
+      "longitude": -77.0258284
+    },
+    {
+      "id": "biz_40",
       "name": "Dae Autos - Taller Mecanica Automotriz",
       "rating": 4.6,
       "reviewsCount": null,
@@ -259,7 +468,7 @@
       "url": "https://www.google.com/maps/place/Dae+Autos+-+Taller+Mecanica+Automotriz/data=!4m7!3m6!1s0x9105c6953073633f:0xccded65e08e3424c!8m2!3d-12.0580782!4d-76.9433198!16s%2Fg%2F11h2fgf7bq!19sChIJP2NzMJXGBZERTELjCF7W3sw"
     },
     {
-      "id": "biz_15",
+      "id": "biz_41",
       "name": "PYX Automotriz",
       "rating": 4.6,
       "reviewsCount": null,
@@ -268,7 +477,7 @@
       "url": "https://www.google.com/maps/place/PYX+Automotriz/data=!4m7!3m6!1s0x9105c9b4f51e78fb:0x53a87f890e3f0f6!8m2!3d-12.1151081!4d-77.0212609!16s%2Fg%2F11v665jtp0!19sChIJ-3ge9bTJBZER9vDjkPiHOgU"
     },
     {
-      "id": "biz_19",
+      "id": "biz_42",
       "name": "Automotriz Hurtado SAC",
       "rating": 4.6,
       "reviewsCount": null,
@@ -277,7 +486,7 @@
       "url": "https://www.google.com/maps/place/Automotriz+Hurtado+SAC/data=!4m7!3m6!1s0x9105c965fd8ee3e9:0xd06ca8f8eee53714!8m2!3d-12.0663336!4d-77.023081!16s%2Fg%2F11gxrpvcw2!19sChIJ6eOO_WXJBZERFDfl7viobNA"
     },
     {
-      "id": "biz_34",
+      "id": "biz_43",
       "name": "Mecanico en Los Olivos | 2G Automotriz",
       "rating": 4.6,
       "reviewsCount": null,
@@ -286,7 +495,20 @@
       "url": "https://www.google.com/maps/place/Mecanico+en+Los+Olivos+%7C+2G+Automotriz/data=!4m7!3m6!1s0x9105ce3ede217349:0xa58dccf79994d6d6!8m2!3d-11.9911928!4d-77.0801603!16s%2Fg%2F11hd1qcb8t!19sChIJSXMh3j7OBZER1taUmffMjaU"
     },
     {
-      "id": "biz_22",
+      "id": "biz_44",
+      "name": "Servicio Automotriz en San Borja",
+      "rating": 4.5,
+      "reviewsCount": 15,
+      "category": "Taller mecánico",
+      "address": "Av. Aviación 2853, San Borja 15037",
+      "phone": "tel:012241169",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Servicio+Automotriz+en+San+Borja/data=!4m7!3m6!1s0x9105c7da5957cd63:0x17ef27b997fdc846!8m2!3d-12.0970047!4d-77.0020443!16s%2Fg%2F1ptzsjgsx!19sChIJY81XWdrHBZERRsj9l7kn7xc?hl=es",
+      "latitude": -12.0970047,
+      "longitude": -77.0020443
+    },
+    {
+      "id": "biz_45",
       "name": "TALLER AUTOMOTRIZ MULTIMARCAS \"MARJORIE\"",
       "rating": 4.5,
       "reviewsCount": null,
@@ -295,7 +517,7 @@
       "url": "https://www.google.com/maps/place/TALLER+AUTOMOTRIZ+MULTIMARCAS+%22MARJORIE%22/data=!4m7!3m6!1s0x9105c70c8637e237:0x1fde6240e0904456!8m2!3d-12.0704746!4d-77.0036554!16s%2Fg%2F11t5_m637z!19sChIJN-I3hgzHBZERVkSQ4EBi3h8"
     },
     {
-      "id": "biz_38",
+      "id": "biz_46",
       "name": "MVM RACING - Especialistas en HONDA",
       "rating": 4.5,
       "reviewsCount": null,
@@ -313,7 +535,33 @@
       "url": "https://www.google.com/maps/place/CENTRO+AUTOMOTRIZ+RAFAEL/data=!4m7!3m6!1s0x9105c80585660e89:0x3144c19b71bebd15!8m2!3d-12.119101!4d-77.0184347!16s%2Fg%2F11b6hrrd6w!19sChIJiQ5mhQXIBZERFb2-cZvBRDE"
     },
     {
-      "id": "biz_6",
+      "id": "biz_48",
+      "name": "Electrónica Automotriz MARQUEZ",
+      "rating": 4.4,
+      "reviewsCount": 16,
+      "category": "Taller de reparación de automóviles",
+      "address": "Jr. Carlos Gutiérrez Noriega 294, Lima 15034",
+      "phone": "tel:993774471",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Electr%C3%B3nica+Automotriz+MARQUEZ/data=!4m7!3m6!1s0x9105c884b774c9e7:0xa1e550d2a4bd9ac3!8m2!3d-12.0755445!4d-77.015879!16s%2Fg%2F11c3sr3xcl!19sChIJ58l0t4TIBZERw5q9pNJQ5aE?hl=es",
+      "latitude": -12.0755445,
+      "longitude": -77.015879
+    },
+    {
+      "id": "biz_49",
+      "name": "Automotriz Ricardo Multimarca Y Escaneo General",
+      "rating": 4.4,
+      "reviewsCount": 11,
+      "category": "Taller mecánico",
+      "address": "Av. Gral. Mendiburu 295, Miraflores 15074",
+      "phone": "tel:944996741",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Automotriz+Ricardo+Multimarca+Y+Escaneo+General/data=!4m7!3m6!1s0x9105c83a6000d5c9:0x6091370fa9b5f44b!8m2!3d-12.1169131!4d-77.0435312!16s%2Fg%2F11b6ggy0qw!19sChIJydUAYDrIBZERS_S1qQ83kWA?hl=es",
+      "latitude": -12.1169131,
+      "longitude": -77.0435312
+    },
+    {
+      "id": "biz_50",
       "name": "Evolus Taller Automotriz Multimarca",
       "rating": 4.4,
       "reviewsCount": null,
@@ -322,7 +570,7 @@
       "url": "https://www.google.com/maps/place/Evolus+Taller+Automotriz+Multimarca/data=!4m7!3m6!1s0x9105c76df0a556a3:0x5f06801d33fe3bd9!8m2!3d-12.0411023!4d-76.9340396!16s%2Fg%2F11sg39lpdn!19sChIJo1al8G3HBZER2Tv-Mx2ABl8"
     },
     {
-      "id": "biz_32",
+      "id": "biz_51",
       "name": "AMER AUTOMOTRIZ",
       "rating": 4.4,
       "reviewsCount": null,
@@ -331,7 +579,7 @@
       "url": "https://www.google.com/maps/place/AMER+AUTOMOTRIZ/data=!4m7!3m6!1s0x9105c9b76c4a7fa1:0xd8e5ba7a1b377a5e!8m2!3d-12.0874284!4d-77.088385!16s%2Fg%2F11np3g5gy2!19sChIJoX9KbLfJBZERXno3G3q65dg"
     },
     {
-      "id": "biz_33",
+      "id": "biz_52",
       "name": "GT Automotriz",
       "rating": 4.4,
       "reviewsCount": null,
@@ -340,7 +588,7 @@
       "url": "https://www.google.com/maps/place/GT+Automotriz/data=!4m7!3m6!1s0x9105c6f44543817b:0xf5afa70ef6aab24c!8m2!3d-12.0637559!4d-76.9607925!16s%2Fg%2F1thtf601!19sChIJe4FDRfTGBZERTLKq9g6nr_U"
     },
     {
-      "id": "biz_40",
+      "id": "biz_53",
       "name": "GAMV AUTOMOTRIZ",
       "rating": 4.4,
       "reviewsCount": null,
@@ -349,7 +597,33 @@
       "url": "https://www.google.com/maps/place/GAMV+AUTOMOTRIZ/data=!4m7!3m6!1s0x9105c99efff82b45:0xbc97e535df9eb16!8m2!3d-12.0906742!4d-77.0824897!16s%2Fg%2F11b6jkrztp!19sChIJRSv4_57JBZERFuv5XVN-yQs"
     },
     {
-      "id": "biz_27",
+      "id": "biz_54",
+      "name": "INVERSIONES ASUNCION TALLER AUTOMOTRIZ",
+      "rating": 4.3,
+      "reviewsCount": 42,
+      "category": "Taller de reparación de automóviles",
+      "address": "Av La Mar Mz. a2 Lt. 72 ATE-LIMA, Ate",
+      "phone": "tel:977881462",
+      "website": "http://www.facebook.com/AutomotrizInversionesAsuncion/",
+      "url": "https://www.google.com/maps/place/INVERSIONES+ASUNCION+TALLER+AUTOMOTRIZ/data=!4m7!3m6!1s0x9105c68b0f1e4c51:0x76a43668a7a72214!8m2!3d-12.0573877!4d-76.9605416!16s%2Fg%2F11fx7n5l14!19sChIJUUweD4vGBZERFCKnp2g2pHY?hl=es",
+      "latitude": -12.0573877,
+      "longitude": -76.9605416
+    },
+    {
+      "id": "biz_55",
+      "name": "Taller Mecanico \"LA CLINICA AUTOMOTRIZ\"",
+      "rating": 4.3,
+      "reviewsCount": 6,
+      "category": "Taller de automóviles",
+      "address": "22H5+354, San Juan de Lurigancho 15438",
+      "phone": null,
+      "website": null,
+      "url": "https://www.google.com/maps/place/Taller+Mecanico+%22LA+CLINICA+AUTOMOTRIZ%22/data=!4m7!3m6!1s0x9105c57591261211:0xbea12f9fe37ae62a!8m2!3d-11.9723642!4d-76.9920539!16s%2Fg%2F11gpm3xkfm!19sChIJERImkXXFBZERKuZ6458vob4?hl=es",
+      "latitude": -11.9723642,
+      "longitude": -76.9920539
+    },
+    {
+      "id": "biz_56",
       "name": "Behrens Automotriz",
       "rating": 4.3,
       "reviewsCount": null,
@@ -358,7 +632,7 @@
       "url": "https://www.google.com/maps/place/Behrens+Automotriz/data=!4m7!3m6!1s0x9105c860b98fe34b:0x7af5ca0005a5e6d1!8m2!3d-12.0903373!4d-77.0322958!16s%2Fg%2F11g697sqjt!19sChIJS-OPuWDIBZER0ealBQDK9Xo"
     },
     {
-      "id": "biz_30",
+      "id": "biz_57",
       "name": "TALLERES Y AFINAMIENTO \"MARIO\"ELECTRONICO CERCADO DE LIMA PROLONGACION ARICA",
       "rating": 4.3,
       "reviewsCount": null,
@@ -367,7 +641,7 @@
       "url": "https://www.google.com/maps/place/TALLERES+Y+AFINAMIENTO+%22MARIO%22ELECTRONICO+CERCADO+DE+LIMA+PROLONGACION+ARICA/data=!4m7!3m6!1s0x9105c9b10b72aacb:0x69009286cbc0bac1!8m2!3d-12.0527099!4d-77.0652855!16s%2Fg%2F11fwbpdl1z!19sChIJy6pyC7HJBZERwbrAy4aSAGk"
     },
     {
-      "id": "biz_46",
+      "id": "biz_58",
       "name": "Taller Mecánico RapiAuto",
       "rating": 4.3,
       "reviewsCount": null,
@@ -376,7 +650,7 @@
       "url": "https://www.google.com/maps/place/Taller+Mec%C3%A1nico+RapiAuto/data=!4m7!3m6!1s0x9105c9c7bcd9f7d7:0x7b91acbd533104a2!8m2!3d-12.0725524!4d-77.0577925!16s%2Fg%2F11h2hbl4gl!19sChIJ1_fZvMfJBZERogQxU72skXs"
     },
     {
-      "id": "biz_51",
+      "id": "biz_59",
       "name": "Automotriz Express Barranco",
       "rating": 4.3,
       "reviewsCount": null,
@@ -385,7 +659,7 @@
       "url": "https://www.google.com/maps/place/Automotriz+Express+Barranco/data=!4m7!3m6!1s0x9105b7f712ccc6e7:0x7058beb1a885cd8d!8m2!3d-12.1421002!4d-77.0141051!16s%2Fg%2F11f75zb8bv!19sChIJ58bMEve3BZERjc2FqLG-WHA"
     },
     {
-      "id": "biz_17",
+      "id": "biz_60",
       "name": "Taller Servicer Servicio Automotriz Mecanica",
       "rating": 4.2,
       "reviewsCount": null,
@@ -394,7 +668,7 @@
       "url": "https://www.google.com/maps/place/Taller+Servicer+Servicio+Automotriz+Mecanica/data=!4m7!3m6!1s0x9105c72905bb7bd7:0x2a122cb236e4d5f7!8m2!3d-12.0838417!4d-76.9262464!16s%2Fg%2F11d_bc7rcr!19sChIJ13u7BSnHBZER99XkNrIsEio"
     },
     {
-      "id": "biz_24",
+      "id": "biz_61",
       "name": "AUTOMOTRIZ LIMA WORLD",
       "rating": 4.2,
       "reviewsCount": null,
@@ -403,7 +677,7 @@
       "url": "https://www.google.com/maps/place/AUTOMOTRIZ+LIMA+WORLD/data=!4m7!3m6!1s0x9105c8d9ab92db3f:0x17d933044e113893!8m2!3d-12.0556253!4d-77.0532961!16s%2Fg%2F11b6hqgl3d!19sChIJP9uSq9nIBZERkzgRTgQz2Rc"
     },
     {
-      "id": "biz_49",
+      "id": "biz_62",
       "name": "Automotriz Chankas S.A.C",
       "rating": 4.2,
       "reviewsCount": null,
@@ -412,7 +686,7 @@
       "url": "https://www.google.com/maps/place/Automotriz+Chankas+S.A.C/data=!4m7!3m6!1s0x9105c8d8c042208f:0xdf510e996aadb929!8m2!3d-12.0573308!4d-77.0548747!16s%2Fg%2F11dy87z2m8!19sChIJjyBCwNjIBZERKbmtapkOUd8"
     },
     {
-      "id": "biz_18",
+      "id": "biz_63",
       "name": "AutoVIP Taller Automotriz - LIMA",
       "rating": 4.1,
       "reviewsCount": null,
@@ -421,7 +695,20 @@
       "url": "https://www.google.com/maps/place/AutoVIP+Taller+Automotriz+-+LIMA/data=!4m7!3m6!1s0x9105c6478bfaed11:0xd70483b44caa5bfa!8m2!3d-12.0705203!4d-76.9869963!16s%2Fg%2F11gphpmtpd!19sChIJEe36i0fGBZER-luqTLSDBNc"
     },
     {
-      "id": "biz_28",
+      "id": "biz_64",
+      "name": "Coporación Motors",
+      "rating": 4,
+      "reviewsCount": 53,
+      "category": "Taller de reparación de automóviles",
+      "address": "Av. Angamos Este N° 868, Surquillo 15047",
+      "phone": "tel:920861192",
+      "website": "https://tallerautomotrizcorfigasingenieros.com/",
+      "url": "https://www.google.com/maps/place/Coporaci%C3%B3n+Motors/data=!4m7!3m6!1s0x9105c811f6a1eb21:0xa05fb4b232222d1c!8m2!3d-12.1134862!4d-77.022952!16s%2Fg%2F11btl_y045!19sChIJIeuh9hHIBZERHC0iMrK0X6A?hl=es",
+      "latitude": -12.1134862,
+      "longitude": -77.022952
+    },
+    {
+      "id": "biz_65",
       "name": "“AUTOMIKS TALLER AUTOMOTRIZ”",
       "rating": 4,
       "reviewsCount": null,
@@ -430,7 +717,7 @@
       "url": "https://www.google.com/maps/place/%E2%80%9CAUTOMIKS+TALLER+AUTOMOTRIZ%E2%80%9D/data=!4m7!3m6!1s0x9105cf1cae3978f9:0xccd54bbb0b3a9d84!8m2!3d-12.0573339!4d-77.0484089!16s%2Fg%2F11fqzzpzjf!19sChIJ-Xg5rhzPBZERhJ06C7tL1cw"
     },
     {
-      "id": "biz_36",
+      "id": "biz_66",
       "name": "Tecnica Automotriz J. Leyva",
       "rating": 4,
       "reviewsCount": null,
@@ -439,7 +726,7 @@
       "url": "https://www.google.com/maps/place/Tecnica+Automotriz+J.+Leyva/data=!4m7!3m6!1s0x9105c88cc5fa46c7:0x112671db74436466!8m2!3d-12.0798177!4d-77.0289188!16s%2Fg%2F11bt_h6hzh!19sChIJx0b6xYzIBZERZmRDdNtxJhE"
     },
     {
-      "id": "biz_37",
+      "id": "biz_67",
       "name": "AUTOMOTRIZ ENZO",
       "rating": 4,
       "reviewsCount": null,
@@ -448,7 +735,7 @@
       "url": "https://www.google.com/maps/place/AUTOMOTRIZ+ENZO/data=!4m7!3m6!1s0x9105c792ea6ff417:0xa54cdea24e4c738d!8m2!3d-12.0679899!4d-76.9587791!16s%2Fg%2F11sbr1grft!19sChIJF_Rv6pLHBZERjXNMTqLeTKU"
     },
     {
-      "id": "biz_53",
+      "id": "biz_68",
       "name": "Taller Mecánica Automotriz Cucho",
       "rating": 4,
       "reviewsCount": null,
@@ -457,7 +744,7 @@
       "url": "https://www.google.com/maps/place/Taller+Mec%C3%A1nica+Automotriz+Cucho/data=!4m7!3m6!1s0x9105c7a48bd32f9d:0xfcd1e1f5f0ee1d38!8m2!3d-12.1431016!4d-76.9513845!16s%2Fg%2F11dylx_zrn!19sChIJnS_Ti6THBZEROB3u8PXh0fw"
     },
     {
-      "id": "biz_52",
+      "id": "biz_69",
       "name": "Electromecánica Automotriz José",
       "rating": 3.9,
       "reviewsCount": null,
@@ -466,7 +753,20 @@
       "url": "https://www.google.com/maps/place/Electromec%C3%A1nica+Automotriz+Jos%C3%A9/data=!4m7!3m6!1s0x9105c916878891cb:0xa65f820844ab0ba7!8m2!3d-12.0791617!4d-77.0186384!16s%2Fg%2F11fd7hrd01!19sChIJy5GIhxbJBZERpwurRAiCX6Y"
     },
     {
-      "id": "biz_11",
+      "id": "biz_70",
+      "name": "Taller Mecanico a domicilio",
+      "rating": 3.7,
+      "reviewsCount": 10,
+      "category": "Taller de reparación de automóviles",
+      "address": "Av. Canadá 1437, Lima 15034",
+      "phone": "tel:966740108",
+      "website": "http://mecanicosadomicilio.com/",
+      "url": "https://www.google.com/maps/place/Taller+Mecanico+a+domicilio/data=!4m7!3m6!1s0x9105c7d5333ea54f:0xb739777d138623c3!8m2!3d-12.0845081!4d-77.0084775!16s%2Fg%2F11f36p0vh0!19sChIJT6U-M9XHBZERwyOGE313Obc?hl=es",
+      "latitude": -12.0845081,
+      "longitude": -77.0084775
+    },
+    {
+      "id": "biz_71",
       "name": "Taller Automotriz San Miguel (Sede San Miguel)",
       "rating": 3.6,
       "reviewsCount": null,
@@ -475,7 +775,7 @@
       "url": "https://www.google.com/maps/place/Taller+Automotriz+San+Miguel+%28Sede+San+Miguel%29/data=!4m7!3m6!1s0x9105c99c3690b85b:0xd5ba13d8b11a53b7!8m2!3d-12.0861984!4d-77.0878172!16s%2Fg%2F11jk75nz16!19sChIJW7iQNpzJBZERt1MasdgTutU"
     },
     {
-      "id": "biz_26",
+      "id": "biz_72",
       "name": "Taller Mecánico Automotriz \"MARIO\"",
       "rating": 3.3,
       "reviewsCount": null,
@@ -484,7 +784,7 @@
       "url": "https://www.google.com/maps/place/Taller+Mec%C3%A1nico+Automotriz+%22MARIO%22/data=!4m7!3m6!1s0x9105c68ac7d4f7dd:0xb31b1c62720c1bc9!8m2!3d-12.0600323!4d-76.9623167!16s%2Fg%2F11hbn9l409!19sChIJ3ffUx4rGBZERyRsMcmIcG7M"
     },
     {
-      "id": "biz_2",
+      "id": "biz_73",
       "name": "Mecánica automotriz",
       "rating": 2.5,
       "reviewsCount": null,
@@ -493,7 +793,7 @@
       "url": "https://www.google.com/maps/place/Mec%C3%A1nica+automotriz/data=!4m7!3m6!1s0x9105c38367fc7cc9:0x71db148b106c8821!8m2!3d-12.002012!4d-76.8595496!16s%2Fg%2F11jh2vzh8p!19sChIJyXz8Z4PDBZERIYhsEIsU23E"
     },
     {
-      "id": "biz_44",
+      "id": "biz_74",
       "name": "Taller Solución Automotriz SA",
       "rating": null,
       "reviewsCount": null,

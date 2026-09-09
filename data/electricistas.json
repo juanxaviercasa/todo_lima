@@ -2,7 +2,7 @@
   "category": "electricistas",
   "searchQuery": "electricistas a domicilio en Lima",
   "totalResults": 3,
-  "updatedAt": "2026-09-09T18:03:35.986Z",
+  "updatedAt": "2026-09-09T20:45:16.867Z",
   "topBusinessContext": {
     "id": "biz_2",
     "name": "Yo Te Salvo EIRL - Técnicos Electricistas Profesionales a Domicilio en Lima",
@@ -12,20 +12,47 @@
     "address": "Jirón Cutervo 1818 V102 Condominio Lomas de tingmaria Lima, LIMA 01",
     "url": "https://www.google.com/maps/place/Yo+Te+Salvo+EIRL+-+T%C3%A9cnicos+Electricistas+Profesionales+a+Domicilio+en+Lima/data=!4m7!3m6!1s0x9105c94690abcce7:0x634d15a85d2a1798!8m2!3d-12.053053!4d-77.0577435!16s%2Fg%2F11k1dm_jxh!19sChIJ58yrkEbJBZERmBcqXagVTWM"
   },
-  "pageContent": {
-    "headline": "Los Mejores Expertos en ELECTRICISTAS en Lima: Conoce a Yo Te Salvo EIRL - Técnicos Electricistas Profesionales a Domicilio en Lima",
-    "subtitles": [
-      "Garantiza resultados hoy mismo. Ubicados en Jirón Cutervo 1818 V102 Condominio Lomas de tingmaria Lima, LIMA 01, destacan como la opción número uno validada por usuarios reales.",
-      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
-    ],
-    "ctas": [
-      "Contactar por WhatsApp Ahora",
-      "Ver Directorio Completo"
-    ]
-  },
+  "pageContent": [
+    {
+      "id": "urgencia",
+      "headline": "¿Problemas urgentes? Encuentra ELECTRICISTAS en Lima en menos de 15 Minutos",
+      "subtitles": [
+        "No dejes tu necesidad al azar ni pierdas semanas buscando referencias en la ciudad.",
+        "Garantiza resultados rápidos con especialistas validados. Destaca Yo Te Salvo EIRL - Técnicos Electricistas Profesionales a Domicilio en Lima ubicado en Jirón Cutervo 1818 V102 Condominio Lomas de tingmaria Lima, LIMA 01."
+      ],
+      "ctas": [
+        "Contactar al Especialista por WhatsApp",
+        "Ver Directorio Inmediato"
+      ]
+    },
+    {
+      "id": "autoridad",
+      "headline": "El Directorio Definitivo: El Top 1% de ELECTRICISTAS Validados en Lima",
+      "subtitles": [
+        "Contratar un servicio es una decisión crítica. Tomar una decisión equivocada sale muy caro.",
+        "Filtramos los negocios con mayor tasa de éxito. Conecta directo con líderes como Yo Te Salvo EIRL - Técnicos Electricistas Profesionales a Domicilio en Lima (⭐ 5 estrellas)."
+      ],
+      "ctas": [
+        "Chatear con un Experto",
+        "Explorar Ranking de Especialistas"
+      ]
+    },
+    {
+      "id": "prueba-social",
+      "headline": "Protege tu Inversión con los ELECTRICISTAS Más Recomendados de Lima",
+      "subtitles": [
+        "Cientos de clientes en Lima ya validaron a estos profesionales. No seas el conejillo de indias de nadie.",
+        "Habla hoy mismo y sin intermediarios con los expertos mejor reseñados en Google Maps."
+      ],
+      "ctas": [
+        "Solicitar Evaluación Gratis",
+        "Ver Reseñas Verificadas"
+      ]
+    }
+  ],
   "businesses": [
     {
-      "id": "biz_2",
+      "id": "biz_1",
       "name": "Yo Te Salvo EIRL - Técnicos Electricistas Profesionales a Domicilio en Lima",
       "rating": 5,
       "reviewsCount": null,
@@ -34,7 +61,7 @@
       "url": "https://www.google.com/maps/place/Yo+Te+Salvo+EIRL+-+T%C3%A9cnicos+Electricistas+Profesionales+a+Domicilio+en+Lima/data=!4m7!3m6!1s0x9105c94690abcce7:0x634d15a85d2a1798!8m2!3d-12.053053!4d-77.0577435!16s%2Fg%2F11k1dm_jxh!19sChIJ58yrkEbJBZERmBcqXagVTWM"
     },
     {
-      "id": "biz_3",
+      "id": "biz_2",
       "name": "EVOLUTION - TÉCNICO ELECTRICISTA, electricista industrial, electricista a domicilio, servicio de electricista",
       "rating": 4.8,
       "reviewsCount": null,
@@ -43,7 +70,7 @@
       "url": "https://www.google.com/maps/place/EVOLUTION+-+T%C3%89CNICO+ELECTRICISTA,+electricista+industrial,+electricista+a+domicilio,+servicio+de+electricista/data=!4m7!3m6!1s0x9105c9828eeba851:0xda52ca7d74f5c3a4!8m2!3d-12.0771041!4d-77.0514438!16s%2Fg%2F11j1fwd4kg!19sChIJUajrjoLJBZERpMP1dH3KUto"
     },
     {
-      "id": "biz_1",
+      "id": "biz_3",
       "name": "Electricista a Domicilio en Lima",
       "rating": null,
       "reviewsCount": null,

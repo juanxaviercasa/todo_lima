@@ -12,17 +12,44 @@
     "address": "Jr. Brigadier Mateo Pumacahua 2776, Lima 15073",
     "url": "https://www.google.com/maps/place/Dermatol%C3%B3gica+Dra.+Ursula+Rivas/data=!4m7!3m6!1s0x9105c859812659d5:0x88aa5b1db2aebb9c!8m2!3d-12.0914761!4d-77.042387!16s%2Fg%2F11ddxn09rn!19sChIJ1VkmgVnIBZERnLuush1bqog"
   },
-  "pageContent": {
-    "headline": "Los Mejores Expertos en DERMATOLOGOS en Lima: Conoce a Dermatológica Dra. Ursula Rivas",
-    "subtitles": [
-      "Garantiza resultados hoy mismo. Ubicados en Jr. Brigadier Mateo Pumacahua 2776, Lima 15073, destacan como la opción número uno validada por usuarios reales.",
-      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
-    ],
-    "ctas": [
-      "Contactar por WhatsApp Ahora",
-      "Ver Directorio Completo"
-    ]
-  },
+  "pageContent": [
+    {
+      "id": "urgencia",
+      "headline": "¿Problemas urgentes? Encuentra DERMATOLOGOS en Lima en menos de 15 Minutos",
+      "subtitles": [
+        "No dejes tu necesidad al azar ni pierdas semanas buscando referencias en la ciudad.",
+        "Garantiza resultados rápidos con especialistas validados. Destaca Dermatológica Dra. Ursula Rivas ubicado en Jr. Brigadier Mateo Pumacahua 2776, Lima 15073."
+      ],
+      "ctas": [
+        "Contactar al Especialista por WhatsApp",
+        "Ver Directorio Inmediato"
+      ]
+    },
+    {
+      "id": "autoridad",
+      "headline": "El Directorio Definitivo: El Top 1% de DERMATOLOGOS Validados en Lima",
+      "subtitles": [
+        "Contratar un servicio es una decisión crítica. Tomar una decisión equivocada sale muy caro.",
+        "Filtramos los negocios con mayor tasa de éxito. Conecta directo con líderes como Dermatológica Dra. Ursula Rivas (⭐ 5 estrellas)."
+      ],
+      "ctas": [
+        "Chatear con un Experto",
+        "Explorar Ranking de Especialistas"
+      ]
+    },
+    {
+      "id": "prueba-social",
+      "headline": "Protege tu Inversión con los DERMATOLOGOS Más Recomendados de Lima",
+      "subtitles": [
+        "Cientos de clientes en Lima ya validaron a estos profesionales. No seas el conejillo de indias de nadie.",
+        "Habla hoy mismo y sin intermediarios con los expertos mejor reseñados en Google Maps."
+      ],
+      "ctas": [
+        "Solicitar Evaluación Gratis",
+        "Ver Reseñas Verificadas"
+      ]
+    }
+  ],
   "businesses": [
     {
       "id": "biz_10",

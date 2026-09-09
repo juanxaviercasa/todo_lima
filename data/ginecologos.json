@@ -1,8 +1,8 @@
 {
   "category": "ginecologos",
   "searchQuery": "ginecologos en Lima",
-  "totalResults": 70,
-  "updatedAt": "2026-09-09T17:59:29.254Z",
+  "totalResults": 75,
+  "updatedAt": "2026-09-09T20:30:36.969Z",
   "topBusinessContext": {
     "id": "biz_3",
     "name": "Centro Obstetrico Madre Teresa",
@@ -12,18 +12,71 @@
     "address": "UCV 66 lote 49 zona D, Av. Huaycan, Lima 15006",
     "url": "https://www.google.com/maps/place/Centro+Obstetrico+Madre+Teresa/data=!4m7!3m6!1s0x9105e9e28f31b865:0x124ffe3f3057e489!8m2!3d-12.0174229!4d-76.8251367!16s%2Fg%2F11f4r1crnx!19sChIJZbgxj-LpBZERieRXMD_-TxI"
   },
-  "pageContent": {
-    "headline": "Los Mejores Expertos en GINECOLOGOS en Lima: Conoce a Centro Obstetrico Madre Teresa",
-    "subtitles": [
-      "Garantiza resultados hoy mismo. Ubicados en UCV 66 lote 49 zona D, Av. Huaycan, Lima 15006, destacan como la opción número uno validada por usuarios reales.",
-      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
-    ],
-    "ctas": [
-      "Contactar por WhatsApp Ahora",
-      "Ver Directorio Completo"
-    ]
-  },
+  "pageContent": [
+    {
+      "id": "urgencia",
+      "headline": "¿Problemas urgentes? Encuentra GINECOLOGOS en Lima en menos de 15 Minutos",
+      "subtitles": [
+        "No dejes tu necesidad al azar ni pierdas semanas buscando referencias en la ciudad.",
+        "Garantiza resultados rápidos con especialistas validados. Destaca Centro Obstetrico Madre Teresa ubicado en UCV 66 lote 49 zona D, Av. Huaycan, Lima 15006."
+      ],
+      "ctas": [
+        "Contactar al Especialista por WhatsApp",
+        "Ver Directorio Inmediato"
+      ]
+    },
+    {
+      "id": "autoridad",
+      "headline": "El Directorio Definitivo: El Top 1% de GINECOLOGOS Validados en Lima",
+      "subtitles": [
+        "Contratar un servicio es una decisión crítica. Tomar una decisión equivocada sale muy caro.",
+        "Filtramos los negocios con mayor tasa de éxito. Conecta directo con líderes como Centro Obstetrico Madre Teresa (⭐ 5 estrellas)."
+      ],
+      "ctas": [
+        "Chatear con un Experto",
+        "Explorar Ranking de Especialistas"
+      ]
+    },
+    {
+      "id": "prueba-social",
+      "headline": "Protege tu Inversión con los GINECOLOGOS Más Recomendados de Lima",
+      "subtitles": [
+        "Cientos de clientes en Lima ya validaron a estos profesionales. No seas el conejillo de indias de nadie.",
+        "Habla hoy mismo y sin intermediarios con los expertos mejor reseñados en Google Maps."
+      ],
+      "ctas": [
+        "Solicitar Evaluación Gratis",
+        "Ver Reseñas Verificadas"
+      ]
+    }
+  ],
   "businesses": [
+    {
+      "id": "biz_1",
+      "name": "GINE&Co",
+      "rating": 5,
+      "reviewsCount": 21,
+      "category": "Ginecólogo",
+      "address": "Av. Guardia Civil 770, San Isidro 15036",
+      "phone": "tel:993508764",
+      "website": null,
+      "url": "https://www.google.com/maps/place/GINE%26Co/data=!4m7!3m6!1s0x9105c99f23f060b9:0xfe3bd280bf5b1ddb!8m2!3d-12.0973454!4d-77.0119638!16s%2Fg%2F11z23735y5!19sChIJuWDwI5_JBZER2x1bv4DSO_4?hl=es",
+      "latitude": -12.0973454,
+      "longitude": -77.0119638
+    },
+    {
+      "id": "biz_2",
+      "name": "Bella Mujer Centro especializado Osbtétrico y Estética",
+      "rating": 5,
+      "reviewsCount": 1,
+      "category": "Hospital",
+      "address": "Miguel Grau Mz. L lote 35, Chaclacayo 15476",
+      "phone": "tel:919011369",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Bella+Mujer+Centro+especializado+Osbt%C3%A9trico+y+Est%C3%A9tica/data=!4m7!3m6!1s0x9105e918fe8a08e5:0xa642fb640bbd1023!8m2!3d-11.9873284!4d-76.8145579!16s%2Fg%2F11y8dw8nk5!19sChIJ5QiK_hjpBZERIxC9C2T7QqY?hl=es",
+      "latitude": -11.9873284,
+      "longitude": -76.8145579
+    },
     {
       "id": "biz_3",
       "name": "Centro Obstetrico Madre Teresa",
@@ -34,7 +87,7 @@
       "url": "https://www.google.com/maps/place/Centro+Obstetrico+Madre+Teresa/data=!4m7!3m6!1s0x9105e9e28f31b865:0x124ffe3f3057e489!8m2!3d-12.0174229!4d-76.8251367!16s%2Fg%2F11f4r1crnx!19sChIJZbgxj-LpBZERieRXMD_-TxI"
     },
     {
-      "id": "biz_5",
+      "id": "biz_4",
       "name": "Ginecologo La Molina, Santa Anita, Ate, Surco, Cieneguilla, Pachacamac, Lurin,Lima Dr Jesús Maury",
       "rating": 5,
       "reviewsCount": null,
@@ -43,7 +96,7 @@
       "url": "https://www.google.com/maps/place/Ginecologo+La+Molina,+Santa+Anita,+Ate,+Surco,+Cieneguilla,+Pachacamac,+Lurin,Lima+Dr+Jes%C3%BAs+Maury/data=!4m7!3m6!1s0x9105c7003ecc5155:0xf0a7f3c5fd337c8b!8m2!3d-12.0624455!4d-76.9478338!16s%2Fg%2F11vr786yn0!19sChIJVVHMPgDHBZERi3wz_cXzp_A"
     },
     {
-      "id": "biz_6",
+      "id": "biz_5",
       "name": "Ginecologa Dra. Patricia Huapaya.",
       "rating": 5,
       "reviewsCount": null,
@@ -52,7 +105,7 @@
       "url": "https://www.google.com/maps/place/Ginecologa+Dra.+Patricia+Huapaya./data=!4m7!3m6!1s0x9105c7cd453c9027:0xed8bd093bcf4b201!8m2!3d-12.0623846!4d-76.9478503!16s%2Fg%2F11t0m7mvnj!19sChIJJ5A8Rc3HBZERAbL0vJPQi-0"
     },
     {
-      "id": "biz_8",
+      "id": "biz_6",
       "name": "POR TU SALUD MUJER | Centro Ginecológico",
       "rating": 5,
       "reviewsCount": null,
@@ -61,7 +114,7 @@
       "url": "https://www.google.com/maps/place/POR+TU+SALUD+MUJER+%7C+Centro+Ginecol%C3%B3gico/data=!4m7!3m6!1s0x9105c9db21d4f319:0x684afb63d66c5417!8m2!3d-12.067951!4d-77.0372369!16s%2Fg%2F11zb4th1y5!19sChIJGfPUIdvJBZERF1Rs1mP7Smg"
     },
     {
-      "id": "biz_12",
+      "id": "biz_7",
       "name": "FemSalud Perú",
       "rating": 5,
       "reviewsCount": null,
@@ -70,7 +123,7 @@
       "url": "https://www.google.com/maps/place/FemSalud+Per%C3%BA/data=!4m7!3m6!1s0x9105c86ae3d53607:0x3076e3465d93dafa!8m2!3d-12.0818214!4d-77.033585!16s%2Fg%2F11gv0wc92v!19sChIJBzbV42rIBZER-tqTXUbjdjA"
     },
     {
-      "id": "biz_14",
+      "id": "biz_8",
       "name": "Genesis Care - Diagnóstico Fetal Avanzado y Cirugía Fetal",
       "rating": 5,
       "reviewsCount": null,
@@ -79,7 +132,7 @@
       "url": "https://www.google.com/maps/place/Genesis+Care+-+Diagn%C3%B3stico+Fetal+Avanzado+y+Cirug%C3%ADa+Fetal/data=!4m7!3m6!1s0x9105c9fc1f699583:0xafd66cc0477f9c64!8m2!3d-12.0786042!4d-77.0569228!16s%2Fg%2F11zkhxdvs8!19sChIJg5VpH_zJBZERZJx_R8Bs1q8"
     },
     {
-      "id": "biz_16",
+      "id": "biz_9",
       "name": "Consultorio Gineco-Obstétrico \"Salud de la Mujer\"",
       "rating": 5,
       "reviewsCount": null,
@@ -88,7 +141,7 @@
       "url": "https://www.google.com/maps/place/Consultorio+Gineco-Obst%C3%A9trico+%22Salud+de+la+Mujer%22/data=!4m7!3m6!1s0x9105c9c59ab040cf:0x6f83575c855dfea3!8m2!3d-12.0680993!4d-77.0360474!16s%2Fg%2F11h00c5h0j!19sChIJz0CwmsXJBZERo_5dhVxXg28"
     },
     {
-      "id": "biz_21",
+      "id": "biz_10",
       "name": "Dra. Priscilla Rivera Morón - Ginecología y Obstetricia",
       "rating": 5,
       "reviewsCount": null,
@@ -97,7 +150,7 @@
       "url": "https://www.google.com/maps/place/Dra.+Priscilla+Rivera+Mor%C3%B3n+-+Ginecolog%C3%ADa+y+Obstetricia/data=!4m7!3m6!1s0x9105c931c3b2411d:0xd9db7996226c1696!8m2!3d-12.1273525!4d-77.0136222!16s%2Fg%2F11ym_ytqzk!19sChIJHUGywzHJBZERlhZsIpZ529k"
     },
     {
-      "id": "biz_22",
+      "id": "biz_11",
       "name": "Centro Médico Dra Ghet",
       "rating": 5,
       "reviewsCount": null,
@@ -106,7 +159,7 @@
       "url": "https://www.google.com/maps/place/Centro+M%C3%A9dico+Dra+Ghet/data=!4m7!3m6!1s0x9105cef3a063aa63:0xff7d23f9b398bac2!8m2!3d-12.0052796!4d-77.0764981!16s%2Fg%2F11d_854q7t!19sChIJY6pjoPPOBZERwrqYs_kjff8"
     },
     {
-      "id": "biz_24",
+      "id": "biz_12",
       "name": "Clinica Afrodita",
       "rating": 5,
       "reviewsCount": null,
@@ -115,7 +168,7 @@
       "url": "https://www.google.com/maps/place/Clinica+Afrodita/data=!4m7!3m6!1s0x6d87722e9fe95435:0xde9f43f8886add7f!8m2!3d-12.0819843!4d-77.0361223!16s%2Fg%2F11vz88gm47!19sChIJNVTpny5yh20Rf91qiPhDn94"
     },
     {
-      "id": "biz_27",
+      "id": "biz_13",
       "name": "Dra. Ivette Espinoza, Ginecólogo y Obstetra | Lima - Perú",
       "rating": 5,
       "reviewsCount": null,
@@ -124,7 +177,7 @@
       "url": "https://www.google.com/maps/place/Dra.+Ivette+Espinoza,+Ginec%C3%B3logo+y+Obstetra+%7C+Lima+-+Per%C3%BA/data=!4m7!3m6!1s0x9105c9d4b695fc4f:0x1d6d888ef795d99a!8m2!3d-12.0846541!4d-77.062043!16s%2Fg%2F11y17tkkrn!19sChIJT_yVttTJBZERmtmV946IbR0"
     },
     {
-      "id": "biz_32",
+      "id": "biz_14",
       "name": "Clínica Atraso Menstrual | Lima - Callao",
       "rating": 5,
       "reviewsCount": null,
@@ -133,7 +186,7 @@
       "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Atraso+Menstrual+%7C+Lima+-+Callao/data=!4m7!3m6!1s0x9105c90006179b5f:0xd57a6db3582cd743!8m2!3d-12.0725941!4d-77.0429761!16s%2Fg%2F11z588zj_k!19sChIJX5sXBgDJBZERQ9csWLNtetU"
     },
     {
-      "id": "biz_33",
+      "id": "biz_15",
       "name": "Virgen de las Mercedes - Obstetricia y Ginecología",
       "rating": 5,
       "reviewsCount": null,
@@ -142,7 +195,7 @@
       "url": "https://www.google.com/maps/place/Virgen+de+las+Mercedes+-+Obstetricia+y+Ginecolog%C3%ADa/data=!4m7!3m6!1s0x9105cf208d4d210f:0x2f8c455b450b852b!8m2!3d-12.0260038!4d-77.0563002!16s%2Fg%2F11b6gdvyb4!19sChIJDyFNjSDPBZERK4ULRVtFjC8"
     },
     {
-      "id": "biz_34",
+      "id": "biz_16",
       "name": "Dra. Susana Sánchez Morales, Ginecólogo",
       "rating": 5,
       "reviewsCount": null,
@@ -151,7 +204,7 @@
       "url": "https://www.google.com/maps/place/Dra.+Susana+S%C3%A1nchez+Morales,+Ginec%C3%B3logo/data=!4m7!3m6!1s0x9105c90d1cb3d137:0xc5ef86901ec5f9d2!8m2!3d-12.0933782!4d-77.035442!16s%2Fg%2F11jcq3ttp8!19sChIJN9GzHA3JBZER0vnFHpCG78U"
     },
     {
-      "id": "biz_36",
+      "id": "biz_17",
       "name": "Dr. Tomás Gutiérrez Figueroa | Cirugía Intima avanzada | Prolapso Genital | Incontinencia Urinaria | Armonización Vulvar",
       "rating": 5,
       "reviewsCount": null,
@@ -160,7 +213,7 @@
       "url": "https://www.google.com/maps/place/Dr.+Tom%C3%A1s+Guti%C3%A9rrez+Figueroa+%7C+Cirug%C3%ADa+Intima+avanzada+%7C+Prolapso+Genital+%7C+Incontinencia+Urinaria+%7C+Armonizaci%C3%B3n+Vulvar/data=!4m7!3m6!1s0x9105c503634ddcd3:0xa91867d00df1dfb1!8m2!3d-12.0819843!4d-77.0361223!16s%2Fg%2F11zbh0_bt7!19sChIJ09xNYwPFBZERsd_xDdBnGKk"
     },
     {
-      "id": "biz_37",
+      "id": "biz_18",
       "name": "Mundo Materno",
       "rating": 5,
       "reviewsCount": null,
@@ -169,7 +222,7 @@
       "url": "https://www.google.com/maps/place/Mundo+Materno/data=!4m7!3m6!1s0x9105cf400b258c63:0x8198536bf84884e6!8m2!3d-12.0217998!4d-77.0541442!16s%2Fg%2F11wjnnq90d!19sChIJY4wlC0DPBZER5oRI-GtTmIE"
     },
     {
-      "id": "biz_40",
+      "id": "biz_19",
       "name": "Dr. Percy Pantoja Soto",
       "rating": 5,
       "reviewsCount": null,
@@ -178,7 +231,7 @@
       "url": "https://www.google.com/maps/place/Dr.+Percy+Pantoja+Soto/data=!4m7!3m6!1s0x9105ced0610651f3:0x20969289dbf2ccfc!8m2!3d-12.032365!4d-77.0652736!16s%2Fg%2F11grvl7r6m!19sChIJ81EGYdDOBZER_Mzy24mSliA"
     },
     {
-      "id": "biz_41",
+      "id": "biz_20",
       "name": "Medfemme",
       "rating": 5,
       "reviewsCount": null,
@@ -187,7 +240,7 @@
       "url": "https://www.google.com/maps/place/Medfemme/data=!4m7!3m6!1s0x9105c7c353810b79:0x8efca23f13418b75!8m2!3d-12.1024637!4d-76.9702024!16s%2Fg%2F11l8ls7pmr!19sChIJeQuBU8PHBZERdYtBEz-i_I4"
     },
     {
-      "id": "biz_43",
+      "id": "biz_21",
       "name": "Centro Médico Profetal",
       "rating": 5,
       "reviewsCount": null,
@@ -196,7 +249,7 @@
       "url": "https://www.google.com/maps/place/Centro+M%C3%A9dico+Profetal/data=!4m7!3m6!1s0x9105c9c343b28753:0xcffe8f7c20e45c55!8m2!3d-12.0758644!4d-77.0501878!16s%2Fg%2F11lrh76d3h!19sChIJU4eyQ8PJBZERVVzkIHyP_s8"
     },
     {
-      "id": "biz_44",
+      "id": "biz_22",
       "name": "Dra. Yeniffer Desireth Merino Zamalloa, Ginecólogo",
       "rating": 5,
       "reviewsCount": null,
@@ -205,7 +258,7 @@
       "url": "https://www.google.com/maps/place/Dra.+Yeniffer+Desireth+Merino+Zamalloa,+Ginec%C3%B3logo/data=!4m7!3m6!1s0x9105c5e42ec2e68f:0x46c0251c2801f420!8m2!3d-12.0040703!4d-77.0066732!16s%2Fg%2F11jcpzdkp6!19sChIJj-bCLuTFBZERIPQBKBwlwEY"
     },
     {
-      "id": "biz_51",
+      "id": "biz_23",
       "name": "LEIDY MARLITH LOZANO MAS",
       "rating": 5,
       "reviewsCount": null,
@@ -214,7 +267,7 @@
       "url": "https://www.google.com/maps/place/LEIDY+MARLITH+LOZANO+MAS/data=!4m7!3m6!1s0x9105c8eb96462753:0x6d9cb75ca4a26ff4!8m2!3d-12.0676769!4d-77.0371667!16s%2Fg%2F11v19bh0cz!19sChIJUydGluvIBZER9G-ipFy3nG0"
     },
     {
-      "id": "biz_52",
+      "id": "biz_24",
       "name": "Ginecóloga en los Olivos (VIDA Y SALUD)",
       "rating": 5,
       "reviewsCount": null,
@@ -223,7 +276,7 @@
       "url": "https://www.google.com/maps/place/Ginec%C3%B3loga+en+los+Olivos+%28VIDA+Y+SALUD%29/data=!4m7!3m6!1s0x9105ce243c0dd629:0xf30a74ee6812a90d!8m2!3d-11.9598074!4d-77.0719751!16s%2Fg%2F11btrqs_5r!19sChIJKdYNPCTOBZERDakSaO50CvM"
     },
     {
-      "id": "biz_60",
+      "id": "biz_25",
       "name": "Ginecologia Y Obstetricia",
       "rating": 5,
       "reviewsCount": null,
@@ -232,7 +285,7 @@
       "url": "https://www.google.com/maps/place/Ginecologia+Y+Obstetricia/data=!4m7!3m6!1s0x9105c8f1707fc38f:0xf66388301d929491!8m2!3d-12.0782278!4d-77.0399233!16s%2Fg%2F11dynys85n!19sChIJj8N_cPHIBZERkZSSHTCIY_Y"
     },
     {
-      "id": "biz_65",
+      "id": "biz_26",
       "name": "Dra. Maira Romero Ginecologa",
       "rating": 5,
       "reviewsCount": null,
@@ -241,7 +294,7 @@
       "url": "https://www.google.com/maps/place/Dra.+Maira+Romero+Ginecologa/data=!4m7!3m6!1s0x9105c94bf238ad79:0xb82f4d3deb7868b1!8m2!3d-12.0771181!4d-77.0720174!16s%2Fg%2F11t2sg29jj!19sChIJea048kvJBZERsWh46z1NL7g"
     },
     {
-      "id": "biz_10",
+      "id": "biz_27",
       "name": "Clínica Ginecológica GINECIRUGIA: Ginecología en Lima",
       "rating": 4.9,
       "reviewsCount": null,
@@ -250,7 +303,7 @@
       "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Ginecol%C3%B3gica+GINECIRUGIA:+Ginecolog%C3%ADa+en+Lima/data=!4m7!3m6!1s0x9105c9a922df2b9b:0xe756f8711f201d70!8m2!3d-12.100926!4d-77.026288!16s%2Fg%2F11rhdy8l7r!19sChIJmyvfIqnJBZERcB0gH3H4Vuc"
     },
     {
-      "id": "biz_11",
+      "id": "biz_28",
       "name": "Vientre Materno Perú - Sede Santa Anita",
       "rating": 4.9,
       "reviewsCount": null,
@@ -259,7 +312,7 @@
       "url": "https://www.google.com/maps/place/Vientre+Materno+Per%C3%BA+-+Sede+Santa+Anita/data=!4m7!3m6!1s0x9105c7d0d9a69ecd:0xccbe7cff8923d071!8m2!3d-12.0566129!4d-76.9728797!16s%2Fg%2F11t2rldfrs!19sChIJzZ6m2dDHBZERcdAjif98vsw"
     },
     {
-      "id": "biz_26",
+      "id": "biz_29",
       "name": "MUJER PRO",
       "rating": 4.9,
       "reviewsCount": null,
@@ -268,7 +321,7 @@
       "url": "https://www.google.com/maps/place/MUJER+PRO/data=!4m7!3m6!1s0x9105c703772444ef:0xdddd4b7596ea9885!8m2!3d-12.0733576!4d-77.0520515!16s%2Fg%2F11g4cpvtn4!19sChIJ70QkdwPHBZERhZjqlnVL3d0"
     },
     {
-      "id": "biz_38",
+      "id": "biz_30",
       "name": "CME MUJER SAC",
       "rating": 4.9,
       "reviewsCount": null,
@@ -277,7 +330,7 @@
       "url": "https://www.google.com/maps/place/CME+MUJER+SAC/data=!4m7!3m6!1s0x9105c9a779ee8b43:0xbb3246ace16c321d!8m2!3d-12.0733768!4d-77.0520459!16s%2Fg%2F11vzf4t4w6!19sChIJQ4vueafJBZERHTJs4axGMrs"
     },
     {
-      "id": "biz_69",
+      "id": "biz_31",
       "name": "Clinica Atraso Menstrual | Yo Decido",
       "rating": 4.9,
       "reviewsCount": null,
@@ -286,7 +339,20 @@
       "url": "https://www.google.com/maps/place/Clinica+Atraso+Menstrual+%7C+Yo+Decido/data=!4m7!3m6!1s0x9105c9890ba6e013:0xb69afbcb0fd0468a!8m2!3d-12.0622467!4d-77.0409296!16s%2Fg%2F11xdr3skhq!19sChIJE-CmC4nJBZERikbQD8v7mrY"
     },
     {
-      "id": "biz_30",
+      "id": "biz_32",
+      "name": "Consultorio médico ginecológico Señor Cautivo (Dr. Martín Inga)",
+      "rating": 4.8,
+      "reviewsCount": 5,
+      "category": "Ginecólogo",
+      "address": "Avenida Honorio Delgado 311, SMP, Lima, Av. Honorio Delgado 311, San Martín de Porres 15102",
+      "phone": "tel:991222947",
+      "website": "https://www.facebook.com/profile.php?id=100089465978502&mibextid=ZbWKwL",
+      "url": "https://www.google.com/maps/place/Consultorio+m%C3%A9dico+ginecol%C3%B3gico+Se%C3%B1or+Cautivo+%28Dr.+Mart%C3%ADn+Inga%29/data=!4m7!3m6!1s0x9105cfc83e7e0e9b:0x7b0e5551629971ab!8m2!3d-12.022846!4d-77.054944!16s%2Fg%2F11sjph4_39!19sChIJmw5-PsjPBZERq3GZYlFVDns?hl=es",
+      "latitude": -12.022846,
+      "longitude": -77.054944
+    },
+    {
+      "id": "biz_33",
       "name": "Fertilidad y Ginecología Avanzada La Molina - Dr. Daniel Lindo",
       "rating": 4.8,
       "reviewsCount": null,
@@ -295,7 +361,7 @@
       "url": "https://www.google.com/maps/place/Fertilidad+y+Ginecolog%C3%ADa+Avanzada+La+Molina+-+Dr.+Daniel+Lindo/data=!4m7!3m6!1s0x9105c742f8e2f3a5:0x9f8d77bd4d11f7f8!8m2!3d-12.0734278!4d-76.9551538!16s%2Fg%2F11jp3y4p9b!19sChIJpfPi-ELHBZER-PcRTb13jZ8"
     },
     {
-      "id": "biz_7",
+      "id": "biz_34",
       "name": "Centro Ginecológico Especializado \"Mujer\" CEGIEM",
       "rating": 4.7,
       "reviewsCount": null,
@@ -304,7 +370,7 @@
       "url": "https://www.google.com/maps/place/Centro+Ginecol%C3%B3gico+Especializado+%22Mujer%22+CEGIEM/data=!4m7!3m6!1s0x9105c88ada277b39:0x22a2bcd21cf4f3ea!8m2!3d-12.0830849!4d-77.032568!16s%2Fg%2F11b6g96fk_!19sChIJOXsn2orIBZER6vP0HNK8oiI"
     },
     {
-      "id": "biz_47",
+      "id": "biz_35",
       "name": "Gynocenter",
       "rating": 4.7,
       "reviewsCount": null,
@@ -313,7 +379,7 @@
       "url": "https://www.google.com/maps/place/Gynocenter/data=!4m7!3m6!1s0x9105cf5ca882dd19:0x7a49d60d07c73d82!8m2!3d-12.0246195!4d-77.0561765!16s%2Fg%2F11twqsxm65!19sChIJGd2CqFzPBZERgj3HBw3WSXo"
     },
     {
-      "id": "biz_17",
+      "id": "biz_36",
       "name": "CONSULTORIO \"VIDAFEM\"",
       "rating": 4.6,
       "reviewsCount": null,
@@ -322,7 +388,7 @@
       "url": "https://www.google.com/maps/place/CONSULTORIO+%22VIDAFEM%22/data=!4m7!3m6!1s0x9105c563bb7c67b9:0x7fc3252092bf6abc!8m2!3d-12.0314053!4d-76.9266138!16s%2Fg%2F11sqz_f7w4!19sChIJuWd8u2PFBZERvGq_kiAlw38"
     },
     {
-      "id": "biz_20",
+      "id": "biz_37",
       "name": "GINECOLOGIA , TRATAMIENTO CON OZONO",
       "rating": 4.6,
       "reviewsCount": null,
@@ -331,7 +397,7 @@
       "url": "https://www.google.com/maps/place/GINECOLOGIA+,+TRATAMIENTO+CON+OZONO/data=!4m7!3m6!1s0x9105c7d519091eb1:0xcb98e4170d61f9ae!8m2!3d-12.105953!4d-76.940717!16s%2Fg%2F11jgd05d9g!19sChIJsR4JGdXHBZERrvlhDRfkmMs"
     },
     {
-      "id": "biz_31",
+      "id": "biz_38",
       "name": "GYNEMEF SALUD",
       "rating": 4.6,
       "reviewsCount": null,
@@ -340,7 +406,7 @@
       "url": "https://www.google.com/maps/place/GYNEMEF+SALUD/data=!4m7!3m6!1s0x9105ce53275379d7:0xff3245d31fd72676!8m2!3d-11.9892953!4d-77.0579224!16s%2Fg%2F11ffw4gcv8!19sChIJ13lTJ1POBZERdibXH9NFMv8"
     },
     {
-      "id": "biz_57",
+      "id": "biz_39",
       "name": "Dr. Daniel Paul Lindo Gutarra",
       "rating": 4.6,
       "reviewsCount": null,
@@ -349,7 +415,7 @@
       "url": "https://www.google.com/maps/place/Dr.+Daniel+Paul+Lindo+Gutarra/data=!4m7!3m6!1s0x9105c65f33f777b3:0x23a4fb30818eb457!8m2!3d-12.0654982!4d-76.9660588!16s%2Fg%2F11rxzqpqpl!19sChIJs3f3M1_GBZERV7SOgTD7pCM"
     },
     {
-      "id": "biz_61",
+      "id": "biz_40",
       "name": "Colegio de Obstetras Del Perú",
       "rating": 4.6,
       "reviewsCount": null,
@@ -358,7 +424,7 @@
       "url": "https://www.google.com/maps/place/Colegio+de+Obstetras+Del+Per%C3%BA/data=!4m7!3m6!1s0x9105c91c02215db9:0x24b70b43ac51107e!8m2!3d-12.0704483!4d-77.0620137!16s%2Fg%2F11bzyzk34b!19sChIJuV0hAhzJBZERfhBRrEMLtyQ"
     },
     {
-      "id": "biz_13",
+      "id": "biz_41",
       "name": "Dra. Anet Arias, Ginecólogo",
       "rating": 4.5,
       "reviewsCount": null,
@@ -367,7 +433,7 @@
       "url": "https://www.google.com/maps/place/Dra.+Anet+Arias,+Ginec%C3%B3logo/data=!4m7!3m6!1s0x9105c79a8f1ba201:0xef01657859f42105!8m2!3d-12.0933782!4d-77.035442!16s%2Fg%2F11jm5j1b4d!19sChIJAaIbj5rHBZERBSH0WXhlAe8"
     },
     {
-      "id": "biz_39",
+      "id": "biz_42",
       "name": "POLICLÍNICO GLOBALS MEDIC",
       "rating": 4.5,
       "reviewsCount": null,
@@ -376,7 +442,7 @@
       "url": "https://www.google.com/maps/place/POLICL%C3%8DNICO+GLOBALS+MEDIC/data=!4m7!3m6!1s0x9105e9d39b1e06bf:0x4f1f38851898a258!8m2!3d-11.9892467!4d-76.8193557!16s%2Fg%2F11hbv8v_74!19sChIJvwYem9PpBZERWKKYGIU4H08"
     },
     {
-      "id": "biz_18",
+      "id": "biz_43",
       "name": "Mara - Mujer y Ginecología",
       "rating": 4.4,
       "reviewsCount": null,
@@ -385,7 +451,7 @@
       "url": "https://www.google.com/maps/place/Mara+-+Mujer+y+Ginecolog%C3%ADa/data=!4m7!3m6!1s0x9105c9bf9accac3f:0xbf3130d2327735bb!8m2!3d-12.1106592!4d-77.0298092!16s%2Fg%2F11qpwqnmfv!19sChIJP6zMmr_JBZERuzV3MtIwMb8"
     },
     {
-      "id": "biz_23",
+      "id": "biz_44",
       "name": "Centro Ginecologico Salud Mujer",
       "rating": 4.4,
       "reviewsCount": null,
@@ -394,7 +460,7 @@
       "url": "https://www.google.com/maps/place/Centro+Ginecologico+Salud+Mujer/data=!4m7!3m6!1s0x9105c9f54b05365f:0xe9898d015df3d681!8m2!3d-12.0819141!4d-77.0335696!16s%2Fg%2F11hzmmnpn7!19sChIJXzYFS_XJBZERgdbzXQGNiek"
     },
     {
-      "id": "biz_64",
+      "id": "biz_45",
       "name": "New Hope Fertilidad y Ginecología",
       "rating": 4.4,
       "reviewsCount": null,
@@ -403,7 +469,7 @@
       "url": "https://www.google.com/maps/place/New+Hope+Fertilidad+y+Ginecolog%C3%ADa/data=!4m7!3m6!1s0x9105c90115d4408d:0xc1407f90f127d3a7!8m2!3d-12.0832895!4d-77.0631597!16s%2Fg%2F11c2mcqcqy!19sChIJjUDUFQHJBZERp9Mn8ZB_QME"
     },
     {
-      "id": "biz_50",
+      "id": "biz_46",
       "name": "Gynecolife, Clínica Ginecológica Ambulatoria",
       "rating": 4.3,
       "reviewsCount": null,
@@ -412,7 +478,7 @@
       "url": "https://www.google.com/maps/place/Gynecolife,+Cl%C3%ADnica+Ginecol%C3%B3gica+Ambulatoria/data=!4m7!3m6!1s0x9105b78294454119:0x7812cb4e7013e3a7!8m2!3d-12.1734252!4d-77.0202198!16s%2Fg%2F11fct84yn_!19sChIJGUFFlIK3BZERp-MTcE7LEng"
     },
     {
-      "id": "biz_19",
+      "id": "biz_47",
       "name": "Dra. Katherine Sedano Rojas, Ginecólogo",
       "rating": 4.2,
       "reviewsCount": null,
@@ -430,7 +496,20 @@
       "url": "https://www.google.com/maps/place/Centro+Medico+Mujer/data=!4m7!3m6!1s0x9105c942876439fd:0xe207d4783ce1ecff!8m2!3d-12.0692281!4d-77.0139036!16s%2Fg%2F11gnsgqxy0!19sChIJ_Tlkh0LJBZER_-zhPHjUB-I"
     },
     {
-      "id": "biz_9",
+      "id": "biz_49",
+      "name": "Ginecóloga Dra. Karina León Moreyra",
+      "rating": 4,
+      "reviewsCount": 8,
+      "category": "Clínica ginecológica",
+      "address": "Av. Los Próceres 600, San Martín de Porres 15107",
+      "phone": "tel:986113015",
+      "website": "http://midoctoraginecologa.com/",
+      "url": "https://www.google.com/maps/place/Ginec%C3%B3loga+Dra.+Karina+Le%C3%B3n+Moreyra/data=!4m7!3m6!1s0x9105cf2cf4d03d0d:0xed65999709d72e25!8m2!3d-12.0142047!4d-77.0868641!16s%2Fg%2F11ll56nrfp!19sChIJDT3Q9CzPBZERJS7XCZeZZe0?hl=es",
+      "latitude": -12.0142047,
+      "longitude": -77.0868641
+    },
+    {
+      "id": "biz_50",
       "name": "MUJER GINECÓLOGAS",
       "rating": 4,
       "reviewsCount": null,
@@ -439,7 +518,7 @@
       "url": "https://www.google.com/maps/place/MUJER+GINEC%C3%93LOGAS/data=!4m7!3m6!1s0x9105c8e3291aab49:0xea3606dd2098b494!8m2!3d-12.0846475!4d-77.0620402!16s%2Fg%2F11b6hf8_d7!19sChIJSasaKePIBZERlLSYIN0GNuo"
     },
     {
-      "id": "biz_15",
+      "id": "biz_51",
       "name": "Dr. Joel Alfaro, Ginecólogo Obstetra",
       "rating": 4,
       "reviewsCount": null,
@@ -448,7 +527,7 @@
       "url": "https://www.google.com/maps/place/Dr.+Joel+Alfaro,+Ginec%C3%B3logo+Obstetra/data=!4m7!3m6!1s0x9105c91605925271:0xaa9b54d1f9e120f9!8m2!3d-12.0973182!4d-77.0119176!16s%2Fg%2F11jcpvgk2j!19sChIJcVKSBRbJBZER-SDh-dFUm6o"
     },
     {
-      "id": "biz_25",
+      "id": "biz_52",
       "name": "Dra. Maria Isabel Mercado Herrera, Ginecólogo",
       "rating": 4,
       "reviewsCount": null,
@@ -457,7 +536,7 @@
       "url": "https://www.google.com/maps/place/Dra.+Maria+Isabel+Mercado+Herrera,+Ginec%C3%B3logo/data=!4m7!3m6!1s0x9105c9c732e15cef:0x9e1283761601e427!8m2!3d-12.1256711!4d-77.0345142!16s%2Fg%2F11v0gmcq_c!19sChIJ71zhMsfJBZERJ-QBFnaDEp4"
     },
     {
-      "id": "biz_46",
+      "id": "biz_53",
       "name": "GINECOLOGAS EN LIMA",
       "rating": 4,
       "reviewsCount": null,
@@ -466,7 +545,7 @@
       "url": "https://www.google.com/maps/place/GINECOLOGAS+EN+LIMA/data=!4m7!3m6!1s0xa15eb83f32dbd60f:0x2bcd65906cd1a81!8m2!3d-12.0892785!4d-77.0581673!16s%2Fg%2F11tpbnb18t!19sChIJD9bbMj-4XqERgRrNBlnWvAI"
     },
     {
-      "id": "biz_53",
+      "id": "biz_54",
       "name": "Consultorio ginecologico Cardenas",
       "rating": 4,
       "reviewsCount": null,
@@ -475,7 +554,7 @@
       "url": "https://www.google.com/maps/place/Consultorio+ginecologico+Cardenas/data=!4m7!3m6!1s0x9105c9a7f5a28ea1:0x943f4d33188f42c0!8m2!3d-12.055134!4d-77.0422502!16s%2Fg%2F11h3kxtt27!19sChIJoY6i9afJBZERwEKPGDNNP5Q"
     },
     {
-      "id": "biz_66",
+      "id": "biz_55",
       "name": "Dinohouse",
       "rating": 4,
       "reviewsCount": null,
@@ -484,7 +563,7 @@
       "url": "https://www.google.com/maps/place/Dinohouse/data=!4m7!3m6!1s0x9105c9001fd0bf35:0x6d62166231d6d710!8m2!3d-12.0619764!4d-77.0717533!16s%2Fg%2F11yr53t5ph!19sChIJNb_QHwDJBZERENfWMWIWYm0"
     },
     {
-      "id": "biz_49",
+      "id": "biz_56",
       "name": "Ginecomater Ginecología y obstetricia",
       "rating": 3.7,
       "reviewsCount": null,
@@ -493,7 +572,7 @@
       "url": "https://www.google.com/maps/place/Ginecomater+Ginecolog%C3%ADa+y+obstetricia/data=!4m7!3m6!1s0x9105c9ba43f61c95:0x541d40b99887f1d0!8m2!3d-12.0627752!4d-77.0979805!16s%2Fg%2F11sssqsv4s!19sChIJlRz2Q7rJBZER0PGHmLlAHVQ"
     },
     {
-      "id": "biz_70",
+      "id": "biz_57",
       "name": "Instituto Nacional Materno Perinatal.",
       "rating": 3.7,
       "reviewsCount": null,
@@ -502,7 +581,7 @@
       "url": "https://www.google.com/maps/place/Instituto+Nacional+Materno+Perinatal./data=!4m7!3m6!1s0x9105c8bab27c7053:0x67af675fa29e3e2!8m2!3d-12.0527686!4d-77.0221638!16s%2Fg%2F11f38ws7v4!19sChIJU3B8srrIBZER4uMp-nX2egY"
     },
     {
-      "id": "biz_2",
+      "id": "biz_58",
       "name": "Villa Salud - Sede San Juan de Lurigancho",
       "rating": 3.6,
       "reviewsCount": null,
@@ -511,7 +590,7 @@
       "url": "https://www.google.com/maps/place/Villa+Salud+-+Sede+San+Juan+de+Lurigancho/data=!4m7!3m6!1s0x9105c537c2b6662d:0xbdd13339934cdfb3!8m2!3d-11.958772!4d-76.986337!16s%2Fg%2F11gcqxc094!19sChIJLWa2wjfFBZERs99Mkzkz0b0"
     },
     {
-      "id": "biz_29",
+      "id": "biz_59",
       "name": "Instituto Médico de la Mujer",
       "rating": 3.6,
       "reviewsCount": null,
@@ -520,7 +599,7 @@
       "url": "https://www.google.com/maps/place/Instituto+M%C3%A9dico+de+la+Mujer/data=!4m7!3m6!1s0x9105c87f48ac6b93:0x4a581b0433c97d56!8m2!3d-12.0895047!4d-77.0114231!16s%2Fg%2F1260sgbsh!19sChIJk2usSH_IBZERVn3JMwQbWEo"
     },
     {
-      "id": "biz_55",
+      "id": "biz_60",
       "name": "Urogyne Perú",
       "rating": 3.6,
       "reviewsCount": null,
@@ -529,7 +608,20 @@
       "url": "https://www.google.com/maps/place/Urogyne+Per%C3%BA/data=!4m7!3m6!1s0x9105c9e23a911737:0x5536fd3d238bde2d!8m2!3d-12.0831265!4d-77.0348579!16s%2Fg%2F11vwk7jnms!19sChIJNxeROuLJBZERLd6LIz39NlU"
     },
     {
-      "id": "biz_1",
+      "id": "biz_61",
+      "name": "Laboratorios Integrados",
+      "rating": 3.5,
+      "reviewsCount": 11,
+      "category": "Laboratorio de análisis clínicos",
+      "address": "Av. Arequipa 2685, Lince 15046",
+      "phone": "tel:997160739",
+      "website": "http://www.labintegrados.com/",
+      "url": "https://www.google.com/maps/place/Laboratorios+Integrados/data=!4m7!3m6!1s0x9105c85e1d59c9bd:0x977423705eecc0a4!8m2!3d-12.090367!4d-77.033326!16s%2Fg%2F11b6ggdj07!19sChIJvclZHV7IBZERpMDsXnAjdJc?hl=es",
+      "latitude": -12.090367,
+      "longitude": -77.033326
+    },
+    {
+      "id": "biz_62",
       "name": "Clínica Ricardo Palma",
       "rating": 3.5,
       "reviewsCount": null,
@@ -538,7 +630,7 @@
       "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Ricardo+Palma/data=!4m7!3m6!1s0x9105c87b8819d459:0x6da256a012fc08ab!8m2!3d-12.090602!4d-77.018276!16s%2Fg%2F1hm6gs93b!19sChIJWdQZiHvIBZERqwj8EqBWom0"
     },
     {
-      "id": "biz_4",
+      "id": "biz_63",
       "name": "Policlinico Bienestar Y Salud",
       "rating": 3.4,
       "reviewsCount": null,
@@ -547,7 +639,7 @@
       "url": "https://www.google.com/maps/place/Policlinico+Bienestar+Y+Salud/data=!4m7!3m6!1s0x9105c23f6d32d72f:0x7b1ca7cb63c987f6!8m2!3d-12.0114743!4d-76.8527123!16s%2Fg%2F11c71lxp6z!19sChIJL9cybT_CBZER9ofJY8unHHs"
     },
     {
-      "id": "biz_58",
+      "id": "biz_64",
       "name": "Gynefem Ginecología y Obstetricia",
       "rating": 3.3,
       "reviewsCount": null,
@@ -556,7 +648,7 @@
       "url": "https://www.google.com/maps/place/Gynefem+Ginecolog%C3%ADa+y+Obstetricia/data=!4m7!3m6!1s0x9105c9abceed82e7:0x8c81c7e876922b66!8m2!3d-12.0631389!4d-77.1006963!16s%2Fg%2F11fnc9wp80!19sChIJ54LtzqvJBZERZiuSdujHgYw"
     },
     {
-      "id": "biz_35",
+      "id": "biz_65",
       "name": "Dr. Pablo Moreno Martínez, Ginecólogo",
       "rating": 3,
       "reviewsCount": null,
@@ -565,7 +657,7 @@
       "url": "https://www.google.com/maps/place/Dr.+Pablo+Moreno+Mart%C3%ADnez,+Ginec%C3%B3logo/data=!4m7!3m6!1s0x9105c9ecda23ef87:0x3dd3180e9214f4ca!8m2!3d-12.0973182!4d-77.0119176!16s%2Fg%2F11knbvm4h6!19sChIJh-8j2uzJBZERyvQUkg4Y0z0"
     },
     {
-      "id": "biz_63",
+      "id": "biz_66",
       "name": "Centro Diagnóstico en Ginecología & Medicina Fetal",
       "rating": 3,
       "reviewsCount": null,
@@ -574,7 +666,7 @@
       "url": "https://www.google.com/maps/place/Centro+Diagn%C3%B3stico+en+Ginecolog%C3%ADa+%26+Medicina+Fetal/data=!4m7!3m6!1s0x9105c7d51a0ea5e7:0x54deec5379732622!8m2!3d-12.0862192!4d-77.0082051!16s%2Fg%2F11rk08yhty!19sChIJ56UOGtXHBZERIiZzeVPs3lQ"
     },
     {
-      "id": "biz_42",
+      "id": "biz_67",
       "name": "Tu Ginecóloga del Perú",
       "rating": 2.5,
       "reviewsCount": null,
@@ -592,7 +684,7 @@
       "url": "https://www.google.com/maps/place/MEDICGYN+CENTRO+GINECOLOGICO/data=!4m7!3m6!1s0x9105c9c72eda7a39:0x19f538ac4bc6c6cf!8m2!3d-12.0706982!4d-77.0617079!16s%2Fg%2F11f657c889!19sChIJOXraLsfJBZERz8bGS6w49Rk"
     },
     {
-      "id": "biz_28",
+      "id": "biz_69",
       "name": "CEMEMUSA Ginecología",
       "rating": null,
       "reviewsCount": null,
@@ -601,7 +693,7 @@
       "url": "https://www.google.com/maps/place/CEMEMUSA+Ginecolog%C3%ADa/data=!4m7!3m6!1s0x9105c9005e8abc57:0x3f0da05f71c78f04!8m2!3d-12.0786553!4d-77.0348379!16s%2Fg%2F11nvtn0n21!19sChIJV7yKXgDJBZERBI_HcV-gDT8"
     },
     {
-      "id": "biz_45",
+      "id": "biz_70",
       "name": "CM GINECOLOGICO MUJER SALUD",
       "rating": null,
       "reviewsCount": null,
@@ -610,7 +702,7 @@
       "url": "https://www.google.com/maps/place/CM+GINECOLOGICO+MUJER+SALUD/data=!4m7!3m6!1s0x9105c92ccfadff85:0xfcf0236410272960!8m2!3d-12.0786553!4d-77.0348379!16s%2Fg%2F11z39xcp2h!19sChIJhf-tzyzJBZERYCknEGQj8Pw"
     },
     {
-      "id": "biz_54",
+      "id": "biz_71",
       "name": "Dra. Angie Paredes",
       "rating": null,
       "reviewsCount": null,
@@ -619,7 +711,7 @@
       "url": "https://www.google.com/maps/place/Dra.+Angie+Paredes/data=!4m7!3m6!1s0x9105c90006092c21:0x40aae36e0af36b!8m2!3d-12.0739688!4d-77.0592212!16s%2Fg%2F11nqrf94d7!19sChIJISwJBgDJBZERa_MKbuOqQAA"
     },
     {
-      "id": "biz_56",
+      "id": "biz_72",
       "name": "Equilibria | Ginecología Funcional",
       "rating": null,
       "reviewsCount": null,
@@ -628,7 +720,7 @@
       "url": "https://www.google.com/maps/place/Equilibria+%7C+Ginecolog%C3%ADa+Funcional/data=!4m7!3m6!1s0x9105c9401bca694f:0x7fb149d822e1c974!8m2!3d-12.0657247!4d-77.0455504!16s%2Fg%2F11npng5jbc!19sChIJT2nKG0DJBZERdMnhIthJsX8"
     },
     {
-      "id": "biz_59",
+      "id": "biz_73",
       "name": "SANAFEM.MED Ginecología y Obstetricia, Ecografía",
       "rating": null,
       "reviewsCount": null,
@@ -637,7 +729,7 @@
       "url": "https://www.google.com/maps/place/SANAFEM.MED+Ginecolog%C3%ADa+y+Obstetricia,+Ecograf%C3%ADa/data=!4m7!3m6!1s0x9105c9567ae3e837:0x1fd4dd3f0ad079ec!8m2!3d-12.0595476!4d-77.0680276!16s%2Fg%2F11yjzbxsjk!19sChIJN-jjelbJBZER7HnQCj_d1B8"
     },
     {
-      "id": "biz_62",
+      "id": "biz_74",
       "name": "LA CLINICA DE LA MUJER",
       "rating": null,
       "reviewsCount": null,
@@ -646,7 +738,7 @@
       "url": "https://www.google.com/maps/place/LA+CLINICA+DE+LA+MUJER/data=!4m7!3m6!1s0x9105c9c62165d1b1:0x7563b0c09a69b9df!8m2!3d-12.054651!4d-77.0426168!16s%2Fg%2F11zdblyrmb!19sChIJsdFlIcbJBZER37lpmsCwY3U"
     },
     {
-      "id": "biz_67",
+      "id": "biz_75",
       "name": "Atraso menstrual clinica lima peru",
       "rating": null,
       "reviewsCount": null,

@@ -1,8 +1,8 @@
 {
   "category": "fisioterapia",
   "searchQuery": "centros de fisioterapia y rehabilitacion en Lima",
-  "totalResults": 56,
-  "updatedAt": "2026-09-09T17:51:12.741Z",
+  "totalResults": 76,
+  "updatedAt": "2026-09-09T20:29:48.454Z",
   "topBusinessContext": {
     "id": "biz_4",
     "name": "CENTRO DE TERAPIAS ADHA HUAYCAN",
@@ -12,20 +12,164 @@
     "address": "NUCLEO CENTRAL DE SERVICIOS COMUNALES DE HUAYCAN, MZ C LT 02 -B, Ate 15023",
     "url": "https://www.google.com/maps/place/CENTRO+DE+TERAPIAS+ADHA+HUAYCAN/data=!4m7!3m6!1s0x9105c3f18e8a98c1:0x1d6c4d3ce533e9cb!8m2!3d-12.0140373!4d-76.8270783!16s%2Fg%2F11snqzzv42!19sChIJwZiKjvHDBZERy-kz5TxNbB0"
   },
-  "pageContent": {
-    "headline": "Los Mejores Expertos en FISIOTERAPIA en Lima: Conoce a CENTRO DE TERAPIAS ADHA HUAYCAN",
-    "subtitles": [
-      "Garantiza resultados hoy mismo. Ubicados en NUCLEO CENTRAL DE SERVICIOS COMUNALES DE HUAYCAN, MZ C LT 02 -B, Ate 15023, destacan como la opción número uno validada por usuarios reales.",
-      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
-    ],
-    "ctas": [
-      "Contactar por WhatsApp Ahora",
-      "Ver Directorio Completo"
-    ]
-  },
+  "pageContent": [
+    {
+      "id": "urgencia",
+      "headline": "¿Problemas urgentes? Encuentra FISIOTERAPIA en Lima en menos de 15 Minutos",
+      "subtitles": [
+        "No dejes tu necesidad al azar ni pierdas semanas buscando referencias en la ciudad.",
+        "Garantiza resultados rápidos con especialistas validados. Destaca CENTRO DE TERAPIAS ADHA HUAYCAN ubicado en NUCLEO CENTRAL DE SERVICIOS COMUNALES DE HUAYCAN, MZ C LT 02 -B, Ate 15023."
+      ],
+      "ctas": [
+        "Contactar al Especialista por WhatsApp",
+        "Ver Directorio Inmediato"
+      ]
+    },
+    {
+      "id": "autoridad",
+      "headline": "El Directorio Definitivo: El Top 1% de FISIOTERAPIA Validados en Lima",
+      "subtitles": [
+        "Contratar un servicio es una decisión crítica. Tomar una decisión equivocada sale muy caro.",
+        "Filtramos los negocios con mayor tasa de éxito. Conecta directo con líderes como CENTRO DE TERAPIAS ADHA HUAYCAN (⭐ 5 estrellas)."
+      ],
+      "ctas": [
+        "Chatear con un Experto",
+        "Explorar Ranking de Especialistas"
+      ]
+    },
+    {
+      "id": "prueba-social",
+      "headline": "Protege tu Inversión con los FISIOTERAPIA Más Recomendados de Lima",
+      "subtitles": [
+        "Cientos de clientes en Lima ya validaron a estos profesionales. No seas el conejillo de indias de nadie.",
+        "Habla hoy mismo y sin intermediarios con los expertos mejor reseñados en Google Maps."
+      ],
+      "ctas": [
+        "Solicitar Evaluación Gratis",
+        "Ver Reseñas Verificadas"
+      ]
+    }
+  ],
   "businesses": [
     {
+      "id": "biz_1",
+      "name": "FISIOTERAPIA MIRAFLORES",
+      "rating": 5,
+      "reviewsCount": 417,
+      "category": "Clínica de fisioterapia",
+      "address": "Av. Ernesto Diez Canseco 236, Miraflores 15074",
+      "phone": "tel:940549960",
+      "website": "https://fisio21.com/",
+      "url": "https://www.google.com/maps/place/FISIOTERAPIA+MIRAFLORES/data=!4m7!3m6!1s0x9105c9823da97195:0x2732c6e17992d49c!8m2!3d-12.1224735!4d-77.0284842!16s%2Fg%2F11j0ywzrh7!19sChIJlXGpPYLJBZERnNSSeeHGMic?hl=es",
+      "latitude": -12.1224735,
+      "longitude": -77.0284842
+    },
+    {
+      "id": "biz_2",
+      "name": "Fisio Rehab Center sede SMP - Centro de Rehabilitación y Fisioterapia",
+      "rating": 5,
+      "reviewsCount": 402,
+      "category": "Clínica de fisioterapia",
+      "address": "Jr. Huancayo 474, San Martín de Porres 15106",
+      "phone": "tel:936220328",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Fisio+Rehab+Center+sede+SMP+-+Centro+de+Rehabilitaci%C3%B3n+y+Fisioterapia/data=!4m7!3m6!1s0x9105cd4b7a04fee7:0x1ef637b77ec4bacb!8m2!3d-12.0300254!4d-77.0896356!16s%2Fg%2F11t75fr5zn!19sChIJ5_4EekvNBZERy7rEfrc39h4?hl=es",
+      "latitude": -12.0300254,
+      "longitude": -77.0896356
+    },
+    {
+      "id": "biz_3",
+      "name": "Medicina física y Rehabilitación | Centro Médico OSI | Chacarilla",
+      "rating": 4.8,
+      "reviewsCount": 274,
+      "category": "Clínica de fisioterapia",
+      "address": "Av. del Pinar 198, Santiago de Surco 15038",
+      "phone": "tel:958077755",
+      "website": "https://www.centromedicoosi.com/",
+      "url": "https://www.google.com/maps/place/Medicina+f%C3%ADsica+y+Rehabilitaci%C3%B3n+%7C+Centro+M%C3%A9dico+OSI+%7C+Chacarilla/data=!4m7!3m6!1s0x9105c7eb626f654f:0x8d27aabc8960bee6!8m2!3d-12.1113347!4d-76.9892606!16s%2Fg%2F1tmplksy!19sChIJT2VvYuvHBZER5r5gibyqJ40?hl=es",
+      "latitude": -12.1113347,
+      "longitude": -76.9892606
+    },
+    {
       "id": "biz_4",
+      "name": "Expert Fisio | Fisioterapia y Rehabilitación",
+      "rating": 5,
+      "reviewsCount": 40,
+      "category": "Clínica de fisioterapia",
+      "address": "Av. República de Panamá 6021, Miraflores 15046",
+      "phone": "tel:925991762",
+      "website": "https://www.expertfisio.com.pe/",
+      "url": "https://www.google.com/maps/place/Expert+Fisio+%7C+Fisioterapia+y+Rehabilitaci%C3%B3n/data=!4m7!3m6!1s0x9105c9f68da7e30f:0x8cf0691a52675e95!8m2!3d-12.1236253!4d-77.0179446!16s%2Fg%2F11w_wg1f7f!19sChIJD-OnjfbJBZERlV5nUhpp8Iw?hl=es",
+      "latitude": -12.1236253,
+      "longitude": -77.0179446
+    },
+    {
+      "id": "biz_5",
+      "name": "FlexZen Centro de Fisioterapia",
+      "rating": 5,
+      "reviewsCount": 33,
+      "category": "Centro de salud y bienestar",
+      "address": "Av. Gran Chimú 1070, San Juan de Lurigancho 15427",
+      "phone": "tel:973208139",
+      "website": "https://www.tiktok.com/@flexzen_fisioterapia?_r=1&_t=ZS-98pzy2uwxkL",
+      "url": "https://www.google.com/maps/place/FlexZen+Centro+de+Fisioterapia/data=!4m7!3m6!1s0x9105c5e9863a613b:0x153df72659b6df4e!8m2!3d-12.024542!4d-76.9947228!16s%2Fg%2F11l_29r27m!19sChIJO2E6hunFBZERTt-2WSb3PRU?hl=es",
+      "latitude": -12.024542,
+      "longitude": -76.9947228
+    },
+    {
+      "id": "biz_6",
+      "name": "Fisiocele",
+      "rating": 5,
+      "reviewsCount": 31,
+      "category": "Clínica de fisioterapia",
+      "address": "C. Carlos Tenaud 186, Santiago de Surco 15038",
+      "phone": "tel:907235784",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Fisiocele/data=!4m7!3m6!1s0x9105c7b514f37779:0x6c7bd901532cb4b9!8m2!3d-12.1290961!4d-76.9978095!16s%2Fg%2F11jzp_m70j!19sChIJeXfzFLXHBZERubQsUwHZe2w?hl=es",
+      "latitude": -12.1290961,
+      "longitude": -76.9978095
+    },
+    {
+      "id": "biz_7",
+      "name": "D'Silva Terapia física y rehabilitación - Huachipa",
+      "rating": 5,
+      "reviewsCount": 6,
+      "category": "Clínica de fisioterapia",
+      "address": "X3Q4+3V2, C. Las Perdices, Lima 15457",
+      "phone": "tel:948883590",
+      "website": null,
+      "url": "https://www.google.com/maps/place/D%27Silva+Terapia+f%C3%ADsica+y+rehabilitaci%C3%B3n+-+Huachipa/data=!4m7!3m6!1s0x9105c500593af317:0x10a86d5f76e25f0f!8m2!3d-12.0123559!4d-76.9428607!16s%2Fg%2F11y_k3ght1!19sChIJF_M6WQDFBZERD1_idl9tqBA?hl=es",
+      "latitude": -12.0123559,
+      "longitude": -76.9428607
+    },
+    {
+      "id": "biz_8",
+      "name": "FISIOBIENESTAR Centro de fisioterapia y Rehabilitación",
+      "rating": 5,
+      "reviewsCount": 5,
+      "category": "Fisioterapeuta",
+      "address": "Juan Castilla 1198, Lima 15801",
+      "phone": null,
+      "website": null,
+      "url": "https://www.google.com/maps/place/FISIOBIENESTAR+Centro+de+fisioterapia+y+Rehabilitaci%C3%B3n/data=!4m7!3m6!1s0x9105b900543f78a9:0xd589db5380de6ffb!8m2!3d-12.1598409!4d-76.959609!16s%2Fg%2F11y493vwdf!19sChIJqXg_VAC5BZER-2_egFPbidU?hl=es",
+      "latitude": -12.1598409,
+      "longitude": -76.959609
+    },
+    {
+      "id": "biz_9",
+      "name": "Centro de Terapia Fisica y Rehabilitacion - Fisiolyc",
+      "rating": 5,
+      "reviewsCount": 1,
+      "category": "Fisioterapeuta",
+      "address": "Av. Gral. Manuel I. Vivanco 969, Pueblo Libre 15084",
+      "phone": "tel:975504771",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Centro+de+Terapia+Fisica+y+Rehabilitacion+-+Fisiolyc/data=!4m7!3m6!1s0x9105c94fef477c49:0xa80607918eadac36!8m2!3d-12.0775884!4d-77.0642213!16s%2Fg%2F11l33ksk8k!19sChIJSXxH70_JBZERNqytjpEHBqg?hl=es",
+      "latitude": -12.0775884,
+      "longitude": -77.0642213
+    },
+    {
+      "id": "biz_10",
       "name": "CENTRO DE TERAPIAS ADHA HUAYCAN",
       "rating": 5,
       "reviewsCount": null,
@@ -34,7 +178,7 @@
       "url": "https://www.google.com/maps/place/CENTRO+DE+TERAPIAS+ADHA+HUAYCAN/data=!4m7!3m6!1s0x9105c3f18e8a98c1:0x1d6c4d3ce533e9cb!8m2!3d-12.0140373!4d-76.8270783!16s%2Fg%2F11snqzzv42!19sChIJwZiKjvHDBZERy-kz5TxNbB0"
     },
     {
-      "id": "biz_5",
+      "id": "biz_11",
       "name": "Centro de Terapias Fisiorelax",
       "rating": 5,
       "reviewsCount": null,
@@ -43,7 +187,7 @@
       "url": "https://www.google.com/maps/place/Centro+de+Terapias+Fisiorelax/data=!4m7!3m6!1s0x9105c727d7da5f57:0x3461a584d7b62b96!8m2!3d-11.9884349!4d-76.8199063!16s%2Fg%2F11j5_2qhwd!19sChIJV1_a1yfHBZERliu214SlYTQ"
     },
     {
-      "id": "biz_8",
+      "id": "biz_12",
       "name": "Cálido Alivio Fisioterapia - Santa Clara (Ate)",
       "rating": 5,
       "reviewsCount": null,
@@ -52,7 +196,7 @@
       "url": "https://www.google.com/maps/place/C%C3%A1lido+Alivio+Fisioterapia+-+Santa+Clara+%28Ate%29/data=!4m7!3m6!1s0x9105c34b8d7aa2f9:0x82c49ceb2114115d!8m2!3d-12.0171752!4d-76.8827028!16s%2Fg%2F11svw6tt4z!19sChIJ-aJ6jUvDBZERXREUIeucxII"
     },
     {
-      "id": "biz_9",
+      "id": "biz_13",
       "name": "Cálido Alivio Fisioterapia - Chacarilla (Surco / San Borja)",
       "rating": 5,
       "reviewsCount": null,
@@ -61,7 +205,7 @@
       "url": "https://www.google.com/maps/place/C%C3%A1lido+Alivio+Fisioterapia+-+Chacarilla+%28Surco+%2F+San+Borja%29/data=!4m7!3m6!1s0x9105c77bbde78565:0xb221c14e06f7eafb!8m2!3d-12.1114955!4d-76.9905541!16s%2Fg%2F11yxhjnz9d!19sChIJZYXnvXvHBZER--r3Bk7BIbI"
     },
     {
-      "id": "biz_12",
+      "id": "biz_14",
       "name": "Fisioterapia en Santa Clara Ate | Movimúsculos.Perú",
       "rating": 5,
       "reviewsCount": null,
@@ -88,7 +232,7 @@
       "url": "https://www.google.com/maps/place/FLEXUS+-+Centro+de+Fisioterapia+y+Rehabilitaci%C3%B3n/data=!4m7!3m6!1s0x64a57b6935f7dee9:0x1db8ec5a22f5e6bf!8m2!3d-12.1033979!4d-76.9702003!16s%2Fg%2F11z07rj7gl!19sChIJ6d73NWl7pWQRv-b1IlrsuB0"
     },
     {
-      "id": "biz_18",
+      "id": "biz_17",
       "name": "Cerbif (Centro de rehabilitación y bienestar físico)",
       "rating": 5,
       "reviewsCount": null,
@@ -97,7 +241,7 @@
       "url": "https://www.google.com/maps/place/Cerbif+%28Centro+de+rehabilitaci%C3%B3n+y+bienestar+f%C3%ADsico%29/data=!4m7!3m6!1s0x9105b96ca4bb392b:0xe8cb881d58aa63f4!8m2!3d-12.163261!4d-76.9962684!16s%2Fg%2F11zh2gkgqd!19sChIJKzm7pGy5BZER9GOqWB2Iy-g"
     },
     {
-      "id": "biz_24",
+      "id": "biz_18",
       "name": "FISIOAVANZA - Centro de Fisioterapia y Rehabilitación",
       "rating": 5,
       "reviewsCount": null,
@@ -106,7 +250,7 @@
       "url": "https://www.google.com/maps/place/FISIOAVANZA+-+Centro+de+Fisioterapia+y+Rehabilitaci%C3%B3n/data=!4m7!3m6!1s0x9105c5b872849a55:0x52ad19393b067bd1!8m2!3d-11.9946736!4d-77.0091958!16s%2Fg%2F11jz19bpv2!19sChIJVZqEcrjFBZER0XsGOzkZrVI"
     },
     {
-      "id": "biz_26",
+      "id": "biz_19",
       "name": "Unstop Fisioterapia y Rehabilitación",
       "rating": 5,
       "reviewsCount": null,
@@ -115,7 +259,7 @@
       "url": "https://www.google.com/maps/place/Unstop+Fisioterapia+y+Rehabilitaci%C3%B3n/data=!4m7!3m6!1s0x9105c9a2e5d4fd4f:0xee0357b235355131!8m2!3d-12.0895352!4d-77.0109923!16s%2Fg%2F11lt9lj039!19sChIJT_3U5aLJBZERMVE1NbJXA-4"
     },
     {
-      "id": "biz_27",
+      "id": "biz_20",
       "name": "Fisiomas \"Centro de Terapia Física Y Rehabilitación",
       "rating": 5,
       "reviewsCount": null,
@@ -124,7 +268,7 @@
       "url": "https://www.google.com/maps/place/Fisiomas+%22Centro+de+Terapia+F%C3%ADsica+Y+Rehabilitaci%C3%B3n/data=!4m7!3m6!1s0x9105c67c0c05b259:0x5ccea49fe4a393b1!8m2!3d-12.0458224!4d-76.9692817!16s%2Fg%2F11c6lv2sq8!19sChIJWbIFDHzGBZERsZOj5J-kzlw"
     },
     {
-      "id": "biz_29",
+      "id": "biz_21",
       "name": "La Rehabilitadora - Centro de Fisioterapia y Rehabilitación",
       "rating": 5,
       "reviewsCount": null,
@@ -133,7 +277,7 @@
       "url": "https://www.google.com/maps/place/La+Rehabilitadora+-+Centro+de+Fisioterapia+y+Rehabilitaci%C3%B3n/data=!4m7!3m6!1s0x9105c9240eb7c103:0x9b84857076323b79!8m2!3d-12.0770194!4d-77.0566491!16s%2Fg%2F11z7k3y011!19sChIJA8G3DiTJBZEReTsydnCFhJs"
     },
     {
-      "id": "biz_30",
+      "id": "biz_22",
       "name": "Forza Therapy - Terapia Física y Rehabilitación",
       "rating": 5,
       "reviewsCount": null,
@@ -142,7 +286,7 @@
       "url": "https://www.google.com/maps/place/Forza+Therapy+-+Terapia+F%C3%ADsica+y+Rehabilitaci%C3%B3n/data=!4m7!3m6!1s0x9105c7696d92e8e9:0xe7af08ba226dd13a!8m2!3d-12.0444343!4d-76.9724634!16s%2Fg%2F11yfvw3y29!19sChIJ6eiSbWnHBZEROtFtIroIr-c"
     },
     {
-      "id": "biz_31",
+      "id": "biz_23",
       "name": "Manantial De Bienestar",
       "rating": 5,
       "reviewsCount": null,
@@ -151,7 +295,7 @@
       "url": "https://www.google.com/maps/place/Manantial+De+Bienestar/data=!4m7!3m6!1s0x9105c6346503eb25:0x790dd477c7c7e583!8m2!3d-12.111396!4d-77.0375127!16s%2Fg%2F11hd1sp8_6!19sChIJJesDZTTGBZERg-XHx3fUDXk"
     },
     {
-      "id": "biz_32",
+      "id": "biz_24",
       "name": "Fisioterapia - Centro de Terapia Física Fisanar Salamanca",
       "rating": 5,
       "reviewsCount": null,
@@ -160,7 +304,7 @@
       "url": "https://www.google.com/maps/place/Fisioterapia+-+Centro+de+Terapia+F%C3%ADsica+Fisanar+Salamanca/data=!4m7!3m6!1s0x9105c63644ceb239:0x1cd6815073f6a338!8m2!3d-12.0761912!4d-76.9894851!16s%2Fg%2F11gtzb6jft!19sChIJObLORDbGBZEROKP2c1CB1hw"
     },
     {
-      "id": "biz_34",
+      "id": "biz_25",
       "name": "PHYSICAL HEALTH Centro de Terapia Física y Rehabilitación",
       "rating": 5,
       "reviewsCount": null,
@@ -169,7 +313,7 @@
       "url": "https://www.google.com/maps/place/PHYSICAL+HEALTH+Centro+de+Terapia+F%C3%ADsica+y+Rehabilitaci%C3%B3n/data=!4m7!3m6!1s0x9105c7fbf72b247d:0xeab8d7e926ddfa1a!8m2!3d-12.0675944!4d-76.9767561!16s%2Fg%2F11fl8zgqxm!19sChIJfSQr9_vHBZERGvrdJunXuOo"
     },
     {
-      "id": "biz_36",
+      "id": "biz_26",
       "name": "Cerebro Perú - Centro de rehabilitación basado en robótica",
       "rating": 5,
       "reviewsCount": null,
@@ -178,7 +322,7 @@
       "url": "https://www.google.com/maps/place/Cerebro+Per%C3%BA+-+Centro+de+rehabilitaci%C3%B3n+basado+en+rob%C3%B3tica/data=!4m7!3m6!1s0x9105c9af84eeb3d3:0xf19369c84594635b!8m2!3d-12.1052582!4d-77.0267393!16s%2Fg%2F11tp6z5w84!19sChIJ07PuhK_JBZERW2OURchpk_E"
     },
     {
-      "id": "biz_39",
+      "id": "biz_27",
       "name": "FisioTeam QF E.I.R.L. Centro de Medicina Física y Rehabilitación.",
       "rating": 5,
       "reviewsCount": null,
@@ -187,7 +331,7 @@
       "url": "https://www.google.com/maps/place/FisioTeam+QF+E.I.R.L.+Centro+de+Medicina+F%C3%ADsica+y+Rehabilitaci%C3%B3n./data=!4m7!3m6!1s0x9105c9a0af919e79:0x79e800305402053c!8m2!3d-12.1189711!4d-77.0299223!16s%2Fg%2F11krtyl2mt!19sChIJeZ6Rr6DJBZERPAUCVDAA6Hk"
     },
     {
-      "id": "biz_40",
+      "id": "biz_28",
       "name": "Centro de Terapia física y rehabilitación-SABI",
       "rating": 5,
       "reviewsCount": null,
@@ -196,7 +340,7 @@
       "url": "https://www.google.com/maps/place/Centro+de+Terapia+f%C3%ADsica+y+rehabilitaci%C3%B3n-SABI/data=!4m7!3m6!1s0x9105c9949433312f:0x5ff7d5233a44b3f1!8m2!3d-12.0866253!4d-77.0399175!16s%2Fg%2F11fj91stc_!19sChIJLzEzlJTJBZER8bNEOiPV918"
     },
     {
-      "id": "biz_42",
+      "id": "biz_29",
       "name": "Fisiothera",
       "rating": 5,
       "reviewsCount": null,
@@ -205,7 +349,7 @@
       "url": "https://www.google.com/maps/place/Fisiothera/data=!4m7!3m6!1s0x9105c7e577bf8315:0xbbbbe8e1905a4a01!8m2!3d-12.1149092!4d-76.999687!16s%2Fg%2F11rd2wrw8k!19sChIJFYO_d-XHBZERAUpakOHou7s"
     },
     {
-      "id": "biz_43",
+      "id": "biz_30",
       "name": "FISIOFIX TERAPIA Y REHABILITACION EN LIMA",
       "rating": 5,
       "reviewsCount": null,
@@ -214,7 +358,7 @@
       "url": "https://www.google.com/maps/place/FISIOFIX+TERAPIA+Y+REHABILITACION+EN+LIMA/data=!4m7!3m6!1s0x9105c971cd524f15:0xb66949b36c33eda7!8m2!3d-12.0892785!4d-77.0581673!16s%2Fg%2F11tp4jb6r7!19sChIJFU9SzXHJBZERp-0zbLNJabY"
     },
     {
-      "id": "biz_44",
+      "id": "biz_31",
       "name": "Fisio Centro - Lima",
       "rating": 5,
       "reviewsCount": null,
@@ -223,7 +367,7 @@
       "url": "https://www.google.com/maps/place/Fisio+Centro+-+Lima/data=!4m7!3m6!1s0x9105c9f721cab0f9:0x98ca29ddb32266b9!8m2!3d-12.0584192!4d-77.0440467!16s%2Fg%2F11jrkycvlb!19sChIJ-bDKIffJBZERuWYis90pypg"
     },
     {
-      "id": "biz_48",
+      "id": "biz_32",
       "name": "Centro de Ondas de Choque Perú E.I.R.L.",
       "rating": 5,
       "reviewsCount": null,
@@ -232,7 +376,7 @@
       "url": "https://www.google.com/maps/place/Centro+de+Ondas+de+Choque+Per%C3%BA+E.I.R.L./data=!4m7!3m6!1s0x9105c92020bb7613:0xc522e0c6c2d081d0!8m2!3d-12.0831328!4d-77.0344412!16s%2Fg%2F11k3rkpwrg!19sChIJE3a7ICDJBZER0IHQwsbgIsU"
     },
     {
-      "id": "biz_50",
+      "id": "biz_33",
       "name": "Fisiothera Jesús Maria",
       "rating": 5,
       "reviewsCount": null,
@@ -241,7 +385,7 @@
       "url": "https://www.google.com/maps/place/Fisiothera+Jes%C3%BAs+Maria/data=!4m7!3m6!1s0x9105c9341bfee679:0xfcff49b46c54c34a!8m2!3d-12.0753963!4d-77.044911!16s%2Fg%2F11z51d1rq7!19sChIJeeb-GzTJBZERSsNUbLRJ__w"
     },
     {
-      "id": "biz_51",
+      "id": "biz_34",
       "name": "Fix U - Centro Médico Rehabilitación y Fisioterapia",
       "rating": 5,
       "reviewsCount": null,
@@ -250,7 +394,7 @@
       "url": "https://www.google.com/maps/place/Fix+U+-+Centro+M%C3%A9dico+Rehabilitaci%C3%B3n+y+Fisioterapia/data=!4m7!3m6!1s0x9105c9293de882af:0x1f74832646665210!8m2!3d-12.1245055!4d-77.0367896!16s%2Fg%2F11vcmvnb2f!19sChIJr4LoPSnJBZEREFJmRiaDdB8"
     },
     {
-      "id": "biz_54",
+      "id": "biz_35",
       "name": "CENTRO DE TERAPIA FÍSICA “FISIOKINESIS”",
       "rating": 5,
       "reviewsCount": null,
@@ -259,7 +403,7 @@
       "url": "https://www.google.com/maps/place/CENTRO+DE+TERAPIA+F%C3%8DSICA+%E2%80%9CFISIOKINESIS%E2%80%9D/data=!4m7!3m6!1s0x9105c580eeea2c1d:0x295ac11a8f114693!8m2!3d-12.0381834!4d-76.9928727!16s%2Fg%2F11h6y1z_j5!19sChIJHSzq7oDFBZERk0YRjxrBWik"
     },
     {
-      "id": "biz_55",
+      "id": "biz_36",
       "name": "FISIO Therapy Centro de fisioterapia y rehabilitación",
       "rating": 5,
       "reviewsCount": null,
@@ -268,7 +412,7 @@
       "url": "https://www.google.com/maps/place/FISIO+Therapy+Centro+de+fisioterapia+y+rehabilitaci%C3%B3n/data=!4m7!3m6!1s0x9105cf347442cf43:0x1c2d77144c4511ac!8m2!3d-12.0271742!4d-77.0904636!16s%2Fg%2F11j4mrzhg3!19sChIJQ89CdDTPBZERrBFFTBR3LRw"
     },
     {
-      "id": "biz_56",
+      "id": "biz_37",
       "name": "Rehto Salud",
       "rating": 5,
       "reviewsCount": null,
@@ -277,7 +421,46 @@
       "url": "https://www.google.com/maps/place/Rehto+Salud/data=!4m7!3m6!1s0x9105c97b1959a513:0xbee9155b95bc3670!8m2!3d-12.0781457!4d-77.0362275!16s%2Fg%2F11w1cx_x8v!19sChIJE6VZGXvJBZERcDa8lVsV6b4"
     },
     {
-      "id": "biz_3",
+      "id": "biz_38",
+      "name": "Medicina física y Rehabilitación | Centro Médico OSI | Los Olivos",
+      "rating": 4.7,
+      "reviewsCount": 263,
+      "category": "Clínica de fisioterapia",
+      "address": "Av. Jose Santos Chocano 1010, Los Olivos 15301",
+      "phone": "tel:017390888",
+      "website": "http://www.centromedicoosi.com/",
+      "url": "https://www.google.com/maps/place/Medicina+f%C3%ADsica+y+Rehabilitaci%C3%B3n+%7C+Centro+M%C3%A9dico+OSI+%7C+Los+Olivos/data=!4m7!3m6!1s0x9105ce5a71d0a6cf:0xe759fbc466d50f53!8m2!3d-11.9901767!4d-77.0686922!16s%2Fg%2F11xs_rt_3!19sChIJz6bQcVrOBZERUw_VZsT7Wec?hl=es",
+      "latitude": -11.9901767,
+      "longitude": -77.0686922
+    },
+    {
+      "id": "biz_39",
+      "name": "NOPAIN Fisioterapia y Rehabilitación - Miraflores",
+      "rating": 4.9,
+      "reviewsCount": 40,
+      "category": "Clínica de fisioterapia",
+      "address": "C. Chiclayo 723, Miraflores 15074",
+      "phone": "tel:976953599",
+      "website": "https://www.nopain.com.pe/",
+      "url": "https://www.google.com/maps/place/NOPAIN+Fisioterapia+y+Rehabilitaci%C3%B3n+-+Miraflores/data=!4m7!3m6!1s0x9105c83dcbabb71f:0xb9ae6c29cb7039aa!8m2!3d-12.1149514!4d-77.0360834!16s%2Fg%2F11c5btv2vh!19sChIJH7eryz3IBZERqjlwyylsrrk?hl=es",
+      "latitude": -12.1149514,
+      "longitude": -77.0360834
+    },
+    {
+      "id": "biz_40",
+      "name": "Fisiodinámica - Sede Miraflores - Centro de Fisioterapia, Osteopatía y Rehabilitación",
+      "rating": 4.9,
+      "reviewsCount": 34,
+      "category": "Clínica de fisioterapia",
+      "address": "Av. Angamos Oeste 351 - 355, Miraflores 15074",
+      "phone": "tel:934960801",
+      "website": "https://www.fisiodinamica.pe/",
+      "url": "https://www.google.com/maps/place/Fisiodin%C3%A1mica+-+Sede+Miraflores+-+Centro+de+Fisioterapia,+Osteopat%C3%ADa+y+Rehabilitaci%C3%B3n/data=!4m7!3m6!1s0x9105c929faa0045d:0xc7a2f2eca888ab7c!8m2!3d-12.1140167!4d-77.0317904!16s%2Fg%2F11sf0_r21m!19sChIJXQSg-inJBZERfKuIqOzyosc?hl=es",
+      "latitude": -12.1140167,
+      "longitude": -77.0317904
+    },
+    {
+      "id": "biz_41",
       "name": "Rehabilitate Centro De Terapias en Huaycan",
       "rating": 4.9,
       "reviewsCount": null,
@@ -286,7 +469,7 @@
       "url": "https://www.google.com/maps/place/Rehabilitate+Centro+De+Terapias+en+Huaycan/data=!4m7!3m6!1s0x9105e9ee494a3c5b:0xa76445cbbf92f7a5!8m2!3d-12.0122616!4d-76.8229795!16s%2Fg%2F11fpspsflz!19sChIJWzxKSe7pBZERpfeSv8tFZKc"
     },
     {
-      "id": "biz_6",
+      "id": "biz_42",
       "name": "FISIOSALUD - Centro de Rehabilitación y Fisioterapia",
       "rating": 4.9,
       "reviewsCount": null,
@@ -295,7 +478,7 @@
       "url": "https://www.google.com/maps/place/FISIOSALUD+-+Centro+de+Rehabilitaci%C3%B3n+y+Fisioterapia/data=!4m7!3m6!1s0x9105c9f9db2c1699:0xab591f993509975!8m2!3d-12.1098792!4d-76.9755295!16s%2Fg%2F11h231dvhx!19sChIJmRYs2_nJBZERdZlQk_mRtQo"
     },
     {
-      "id": "biz_10",
+      "id": "biz_43",
       "name": "Fisio Synergia \"Centro de Terapia Física y Rehabilitación\"",
       "rating": 4.9,
       "reviewsCount": null,
@@ -304,7 +487,7 @@
       "url": "https://www.google.com/maps/place/Fisio+Synergia+%22Centro+de+Terapia+F%C3%ADsica+y+Rehabilitaci%C3%B3n%22/data=!4m7!3m6!1s0x9105c5376626f97d:0x2d9d90da5f660eab!8m2!3d-12.0252586!4d-76.9204823!16s%2Fg%2F11nfvshp5x!19sChIJffkmZjfFBZERqw5mX9qQnS0"
     },
     {
-      "id": "biz_13",
+      "id": "biz_44",
       "name": "Medicina física y Rehabilitación | Centro Médico OSI | La Molina",
       "rating": 4.9,
       "reviewsCount": null,
@@ -313,7 +496,7 @@
       "url": "https://www.google.com/maps/place/Medicina+f%C3%ADsica+y+Rehabilitaci%C3%B3n+%7C+Centro+M%C3%A9dico+OSI+%7C+La+Molina/data=!4m7!3m6!1s0x9105c768aead8a15:0x5bd08e2819adbaf6!8m2!3d-12.0904075!4d-76.9507878!16s%2Fg%2F11fhw87d9k!19sChIJFYqtrmjHBZER9rqtGSiO0Fs"
     },
     {
-      "id": "biz_21",
+      "id": "biz_45",
       "name": "FISIOWELLNESS - Centro de Terapia Física y Rehabilitación",
       "rating": 4.9,
       "reviewsCount": null,
@@ -322,7 +505,7 @@
       "url": "https://www.google.com/maps/place/FISIOWELLNESS+-+Centro+de+Terapia+F%C3%ADsica+y+Rehabilitaci%C3%B3n/data=!4m7!3m6!1s0x9105c9ce6d0e5a1f:0xdf4fdc9a808a7792!8m2!3d-12.0704797!4d-77.0470309!16s%2Fg%2F11tb65v30f!19sChIJH1oObc7JBZERkneKgJrcT98"
     },
     {
-      "id": "biz_28",
+      "id": "biz_46",
       "name": "Centro de Fisioterapia y Rehabilitación | HABILÍTATE | Miraflores",
       "rating": 4.9,
       "reviewsCount": null,
@@ -331,7 +514,7 @@
       "url": "https://www.google.com/maps/place/Centro+de+Fisioterapia+y+Rehabilitaci%C3%B3n+%7C+HABIL%C3%8DTATE+%7C+Miraflores/data=!4m7!3m6!1s0x9105c972b967b013:0x1316a543f3be74ff!8m2!3d-12.1137535!4d-77.0349135!16s%2Fg%2F11vb7rlxx8!19sChIJE7BnuXLJBZER_3S-80OlFhM"
     },
     {
-      "id": "biz_49",
+      "id": "biz_47",
       "name": "Precissa Terapia Fisica y Rehabilitacion",
       "rating": 4.9,
       "reviewsCount": null,
@@ -340,7 +523,7 @@
       "url": "https://www.google.com/maps/place/Precissa+Terapia+Fisica+y+Rehabilitacion/data=!4m7!3m6!1s0x9105c96b73ef1fc7:0x7022376d0d372fc6!8m2!3d-12.1149546!4d-77.0436958!16s%2Fg%2F11j01q15wz!19sChIJxx_vc2vJBZERxi83DW03InA"
     },
     {
-      "id": "biz_52",
+      "id": "biz_48",
       "name": "FISIOGALENO (Medicina Física y Rehabilitación)",
       "rating": 4.9,
       "reviewsCount": null,
@@ -349,7 +532,7 @@
       "url": "https://www.google.com/maps/place/FISIOGALENO+%28Medicina+F%C3%ADsica+y+Rehabilitaci%C3%B3n%29/data=!4m7!3m6!1s0x9105c9503b777aaf:0x34b5dc3ab764b1cf!8m2!3d-12.0739326!4d-77.0473041!16s%2Fg%2F11j8zfqc86!19sChIJr3p3O1DJBZERz7FktzrctTQ"
     },
     {
-      "id": "biz_7",
+      "id": "biz_49",
       "name": "Fisioped - Sede Miguel Grau",
       "rating": 4.8,
       "reviewsCount": null,
@@ -358,7 +541,7 @@
       "url": "https://www.google.com/maps/place/Fisioped+-+Sede+Miguel+Grau/data=!4m7!3m6!1s0x9105e9d2b058a477:0x49495debf021e27c!8m2!3d-11.9864729!4d-76.8152733!16s%2Fg%2F11c0vxplff!19sChIJd6RYsNLpBZERfOIh8OtdSUk"
     },
     {
-      "id": "biz_19",
+      "id": "biz_50",
       "name": "THERA Centro de Rehabilitacion y Fisioterapia",
       "rating": 4.8,
       "reviewsCount": null,
@@ -367,7 +550,7 @@
       "url": "https://www.google.com/maps/place/THERA+Centro+de+Rehabilitacion+y+Fisioterapia/data=!4m7!3m6!1s0x9105c9d9eb6d0485:0xbdcaa6dc7547f5ce!8m2!3d-12.1106737!4d-77.0298648!16s%2Fg%2F11h_2cgcl4!19sChIJhQRt69nJBZERzvVHddymyr0"
     },
     {
-      "id": "biz_22",
+      "id": "biz_51",
       "name": "Fisioterapia Maher",
       "rating": 4.8,
       "reviewsCount": null,
@@ -376,7 +559,7 @@
       "url": "https://www.google.com/maps/place/Fisioterapia+Maher/data=!4m7!3m6!1s0x9105c5c7b4bef7f9:0x2db327e6cc1ab2d4!8m2!3d-12.0295623!4d-76.9442833!16s%2Fg%2F11gk7hjx51!19sChIJ-fe-tMfFBZER1LIazOYnsy0"
     },
     {
-      "id": "biz_37",
+      "id": "biz_52",
       "name": "Cálido Alivio Fisioterapia - La Molina",
       "rating": 4.8,
       "reviewsCount": null,
@@ -385,7 +568,7 @@
       "url": "https://www.google.com/maps/place/C%C3%A1lido+Alivio+Fisioterapia+-+La+Molina/data=!4m7!3m6!1s0x9105c76368e3b3df:0x6f89d92572d50e01!8m2!3d-12.0679328!4d-76.9581732!16s%2Fg%2F11wbdbp4v0!19sChIJ37PjaGPHBZERAQ7VciXZiW8"
     },
     {
-      "id": "biz_47",
+      "id": "biz_53",
       "name": "FisioPoint - Terapia Física y Podología",
       "rating": 4.8,
       "reviewsCount": null,
@@ -394,7 +577,59 @@
       "url": "https://www.google.com/maps/place/FisioPoint+-+Terapia+F%C3%ADsica+y+Podolog%C3%ADa/data=!4m7!3m6!1s0x9105c59b0046d623:0x40de2470650d686d!8m2!3d-12.0061971!4d-77.0077161!16s%2Fg%2F11fhvyp9ts!19sChIJI9ZGAJvFBZERbWgNZXAk3kA"
     },
     {
-      "id": "biz_25",
+      "id": "biz_54",
+      "name": "Medicina física y Rehabilitación | Centro Médico OSI | Surquillo",
+      "rating": 4.5,
+      "reviewsCount": 254,
+      "category": "Clínica de fisioterapia",
+      "address": "Av. Aviación 4004, Surquillo 15038",
+      "phone": "tel:017390888",
+      "website": "http://www.centromedicoosi.com/",
+      "url": "https://www.google.com/maps/place/Medicina+f%C3%ADsica+y+Rehabilitaci%C3%B3n+%7C+Centro+M%C3%A9dico+OSI+%7C+Surquillo/data=!4m7!3m6!1s0x9105c7e55c2dbc63:0xf15166c8cabdec2d!8m2!3d-12.1163211!4d-76.9993498!16s%2Fg%2F11b6gcz3tk!19sChIJY7wtXOXHBZERLey9yshmUfE?hl=es",
+      "latitude": -12.1163211,
+      "longitude": -76.9993498
+    },
+    {
+      "id": "biz_55",
+      "name": "Centro E'Manuel",
+      "rating": 4.6,
+      "reviewsCount": 132,
+      "category": "Fisioterapeuta",
+      "address": "Av. San Luis 2647, Lima 15037",
+      "phone": "tel:998616726",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Centro+E%27Manuel/data=!4m7!3m6!1s0x9105c7c3ed14a041:0xe6faf58cda066cd0!8m2!3d-12.1014127!4d-76.9942904!16s%2Fg%2F11cjp8x2bx!19sChIJQaAU7cPHBZER0GwG2oz1-uY?hl=es",
+      "latitude": -12.1014127,
+      "longitude": -76.9942904
+    },
+    {
+      "id": "biz_56",
+      "name": "CRYMEF Centro de Reeducación Neuromuscular y Medicina Física",
+      "rating": 4.7,
+      "reviewsCount": 12,
+      "category": "Clínica de fisioterapia",
+      "address": "Bernini 287, San Borja 15036",
+      "phone": "tel:012264492",
+      "website": "http://www.crymef.com/",
+      "url": "https://www.google.com/maps/place/CRYMEF+Centro+de+Reeducaci%C3%B3n+Neuromuscular+y+Medicina+F%C3%ADsica/data=!4m7!3m6!1s0x9105c7d6f558aa6b:0xc1a40606ac5bbd55!8m2!3d-12.0915449!4d-77.0073415!16s%2Fg%2F11b6fkd1m0!19sChIJa6pY9dbHBZERVb1brAYGpME?hl=es",
+      "latitude": -12.0915449,
+      "longitude": -77.0073415
+    },
+    {
+      "id": "biz_57",
+      "name": "CERFID - Medicina Física y Rehabilitación | La Molina",
+      "rating": 4.7,
+      "reviewsCount": 6,
+      "category": "Centro médico",
+      "address": "Auxiliar Av. La Molina 1125, La Molina 15024",
+      "phone": "tel:013770959",
+      "website": "https://cerfid.com.pe/",
+      "url": "https://www.google.com/maps/place/CERFID+-+Medicina+F%C3%ADsica+y+Rehabilitaci%C3%B3n+%7C+La+Molina/data=!4m7!3m6!1s0x9105c72d6241dfaf:0x3e4a905975f649ae!8m2!3d-12.0726182!4d-76.9558419!16s%2Fg%2F11f8gr9mtd!19sChIJr99BYi3HBZERrkn2dVmQSj4?hl=es",
+      "latitude": -12.0726182,
+      "longitude": -76.9558419
+    },
+    {
+      "id": "biz_58",
       "name": "Fisiodinámica - Sede Monterrico Surco. Centro de Fisioterapia, Osteopatía y Rehabilitación",
       "rating": 4.7,
       "reviewsCount": null,
@@ -403,7 +638,7 @@
       "url": "https://www.google.com/maps/place/Fisiodin%C3%A1mica+-+Sede+Monterrico+Surco.+Centro+de+Fisioterapia,+Osteopat%C3%ADa+y+Rehabilitaci%C3%B3n/data=!4m7!3m6!1s0x9105c7c7347af669:0xb0562d92b82658e0!8m2!3d-12.1044011!4d-76.9731497!16s%2Fg%2F11vdsgw1jm!19sChIJafZ6NMfHBZER4FgmuJItVrA"
     },
     {
-      "id": "biz_38",
+      "id": "biz_59",
       "name": "Medicina física y Rehabilitación | Centro Médico OSI | Magdalena",
       "rating": 4.7,
       "reviewsCount": null,
@@ -412,7 +647,20 @@
       "url": "https://www.google.com/maps/place/Medicina+f%C3%ADsica+y+Rehabilitaci%C3%B3n+%7C+Centro+M%C3%A9dico+OSI+%7C+Magdalena/data=!4m7!3m6!1s0x9105c9a77fc533fd:0x851b61a61cd8a9a0!8m2!3d-12.0926435!4d-77.0612467!16s%2Fg%2F11ffvwlmxh!19sChIJ_TPFf6fJBZERoKnYHKZhG4U"
     },
     {
-      "id": "biz_33",
+      "id": "biz_60",
+      "name": "Medicina física y Rehabilitación | Centro Médico OSI | San Miguel",
+      "rating": 4.6,
+      "reviewsCount": 91,
+      "category": "Clínica de fisioterapia",
+      "address": "Av. Rafael Escardó 656, San Miguel 15088",
+      "phone": "tel:017390888",
+      "website": "https://www.centromedicoosi.com/",
+      "url": "https://www.google.com/maps/place/Medicina+f%C3%ADsica+y+Rehabilitaci%C3%B3n+%7C+Centro+M%C3%A9dico+OSI+%7C+San+Miguel/data=!4m7!3m6!1s0x9105c92c332aa5f1:0x6089f4398e0e64c9!8m2!3d-12.0744435!4d-77.0919241!16s%2Fg%2F11qgz9cff2!19sChIJ8aUqMyzJBZERyWQOjjn0iWA?hl=es",
+      "latitude": -12.0744435,
+      "longitude": -77.0919241
+    },
+    {
+      "id": "biz_61",
       "name": "FisioProgress",
       "rating": 4.6,
       "reviewsCount": null,
@@ -421,7 +669,7 @@
       "url": "https://www.google.com/maps/place/FisioProgress/data=!4m7!3m6!1s0x9105b8f1acdef981:0xb82c5d26e90ea628!8m2!3d-12.1574498!4d-76.9551371!16s%2Fg%2F11f5hk7cbq!19sChIJgfnerPG4BZERKKYO6SZdLLg"
     },
     {
-      "id": "biz_35",
+      "id": "biz_62",
       "name": "REHAB Center Sede Lince",
       "rating": 4.6,
       "reviewsCount": null,
@@ -430,7 +678,7 @@
       "url": "https://www.google.com/maps/place/REHAB+Center+Sede+Lince/data=!4m7!3m6!1s0x9105c8f50eec1f2b:0xa9c36655a96cfcc!8m2!3d-12.0836174!4d-77.0359929!16s%2Fg%2F11srbc0j2y!19sChIJKx_sDvXIBZERzM-WWmU2nAo"
     },
     {
-      "id": "biz_46",
+      "id": "biz_63",
       "name": "Fisiocare Chaclacayo",
       "rating": 4.6,
       "reviewsCount": null,
@@ -439,7 +687,7 @@
       "url": "https://www.google.com/maps/place/Fisiocare+Chaclacayo/data=!4m7!3m6!1s0x9105e9c2fcdc5b43:0x3e92a232d5f4c89e!8m2!3d-11.9721285!4d-76.7560434!16s%2Fg%2F11pqrdhpt6!19sChIJQ1vc_MLpBZERnsj01TKikj4"
     },
     {
-      "id": "biz_53",
+      "id": "biz_64",
       "name": "Centro Especializado Terapia Física y Rehabilitacion",
       "rating": 4.5,
       "reviewsCount": null,
@@ -448,7 +696,20 @@
       "url": "https://www.google.com/maps/place/Centro+Especializado+Terapia+F%C3%ADsica+y+Rehabilitacion/data=!4m7!3m6!1s0x9105c41eac61cab9:0x803047e533ceaeb3!8m2!3d-12.0316081!4d-76.9358854!16s%2Fg%2F11c506srjh!19sChIJucphrB7EBZERs67OM-VHMIA"
     },
     {
-      "id": "biz_17",
+      "id": "biz_65",
+      "name": "EsFisio Fisioterapia & Rehabilitación",
+      "rating": 4.4,
+      "reviewsCount": 25,
+      "category": "Centro de salud y bienestar",
+      "address": "Jesús María LIMA 11",
+      "phone": "tel:985687071",
+      "website": null,
+      "url": "https://www.google.com/maps/place/EsFisio+Fisioterapia+%26+Rehabilitaci%C3%B3n/data=!4m7!3m6!1s0x9105c854d6d1d0d9:0x4214dbb7d39a74d2!8m2!3d-12.0897096!4d-77.0559517!16s%2Fg%2F11g69947nd!19sChIJ2dDR1lTIBZER0nSa07fbFEI?hl=es",
+      "latitude": -12.0897096,
+      "longitude": -77.0559517
+    },
+    {
+      "id": "biz_66",
       "name": "FISIOFIT",
       "rating": 4.4,
       "reviewsCount": null,
@@ -457,7 +718,7 @@
       "url": "https://www.google.com/maps/place/FISIOFIT/data=!4m7!3m6!1s0x9105c6eba8e9e067:0xe6a9be54e503bed1!8m2!3d-12.0609475!4d-76.9432271!16s%2Fg%2F11c59vm9x_!19sChIJZ-DpqOvGBZER0b4D5VS-qeY"
     },
     {
-      "id": "biz_1",
+      "id": "biz_67",
       "name": "Centro Médico Callao",
       "rating": 4.2,
       "reviewsCount": null,
@@ -466,7 +727,7 @@
       "url": "https://www.google.com/maps/place/Centro+M%C3%A9dico+Callao/data=!4m7!3m6!1s0x9105cb0df747f61f:0xb1ff6c8b4b6df63b!8m2!3d-12.062821!4d-77.122226!16s%2Fg%2F11vhsj8txr!19sChIJH_ZH9w3LBZERO_ZtS4ts_7E"
     },
     {
-      "id": "biz_14",
+      "id": "biz_68",
       "name": "Aliviar - Centro de Fisioterapia y Rehabilitación en Lima - Perú",
       "rating": 4.1,
       "reviewsCount": null,
@@ -475,7 +736,7 @@
       "url": "https://www.google.com/maps/place/Aliviar+-+Centro+de+Fisioterapia+y+Rehabilitaci%C3%B3n+en+Lima+-+Per%C3%BA/data=!4m7!3m6!1s0x9105c76bda5d77af:0xcdb653804f32a231!8m2!3d-12.1105676!4d-76.9880319!16s%2Fg%2F11fctb7wgn!19sChIJr3dd2mvHBZERMaIyT4BTts0"
     },
     {
-      "id": "biz_23",
+      "id": "biz_69",
       "name": "Aliviar - Centro de Fisioterapia y Rehabilitación en Lima - Perú",
       "rating": 4.1,
       "reviewsCount": null,
@@ -484,7 +745,33 @@
       "url": "https://www.google.com/maps/place/Aliviar+-+Centro+de+Fisioterapia+y+Rehabilitaci%C3%B3n+en+Lima+-+Per%C3%BA/data=!4m7!3m6!1s0x9105c9af5745cc5d:0xb20b696e404d205d!8m2!3d-12.0942458!4d-77.0573346!16s%2Fg%2F11f_zmv5_l!19sChIJXcxFV6_JBZERXSBNQG5pC7I"
     },
     {
-      "id": "biz_41",
+      "id": "biz_70",
+      "name": "CERFID - Medicina Física y Rehabilitación | Lince",
+      "rating": 4,
+      "reviewsCount": 51,
+      "category": "Centro médico",
+      "address": "Av. Arequipa 1802, Lince 15046",
+      "phone": "tel:014711314",
+      "website": "https://www.cerfid.com.pe/",
+      "url": "https://www.google.com/maps/place/CERFID+-+Medicina+F%C3%ADsica+y+Rehabilitaci%C3%B3n+%7C+Lince/data=!4m7!3m6!1s0x9105c8f4e079cb6d:0xd95bb28b57d4afd5!8m2!3d-12.082763!4d-77.03495!16s%2Fg%2F11b6gngxdl!19sChIJbct54PTIBZER1a_UV4uyW9k?hl=es",
+      "latitude": -12.082763,
+      "longitude": -77.03495
+    },
+    {
+      "id": "biz_71",
+      "name": "Medicina Fisica y Rehabilitación Clinica Internacional",
+      "rating": 4,
+      "reviewsCount": 1,
+      "category": "Fisioterapeuta",
+      "address": "Jr. Washington 1407, Lima 15001",
+      "phone": null,
+      "website": null,
+      "url": "https://www.google.com/maps/place/Medicina+Fisica+y+Rehabilitaci%C3%B3n+Clinica+Internacional/data=!4m7!3m6!1s0x9105c90065fb136b:0x3394a4da9a3c5283!8m2!3d-12.0583867!4d-77.0391282!16s%2Fg%2F11yxgl08mk!19sChIJaxP7ZQDJBZERg1I8mtqklDM?hl=es",
+      "latitude": -12.0583867,
+      "longitude": -77.0391282
+    },
+    {
+      "id": "biz_72",
       "name": "Fisioterapia y rehabilitación física .Dalila la torre",
       "rating": 1,
       "reviewsCount": null,
@@ -493,7 +780,7 @@
       "url": "https://www.google.com/maps/place/Fisioterapia+y+rehabilitaci%C3%B3n+f%C3%ADsica+.Dalila+la+torre/data=!4m7!3m6!1s0x9105e903aa5d674d:0x257233e00d9d829f!8m2!3d-11.9844746!4d-76.8090853!16s%2Fg%2F11tnv2drrv!19sChIJTWddqgPpBZERn4KdDeAzciU"
     },
     {
-      "id": "biz_2",
+      "id": "biz_73",
       "name": "Ames Fisioterapia",
       "rating": null,
       "reviewsCount": null,
@@ -502,7 +789,7 @@
       "url": "https://www.google.com/maps/place/Ames+Fisioterapia/data=!4m7!3m6!1s0x9105c2714127a0d9:0x7dabe6d3ed8729f5!8m2!3d-12.0022265!4d-76.8329187!16s%2Fg%2F11f1nk8btj!19sChIJ2aAnQXHCBZER9SmH7dPmq30"
     },
     {
-      "id": "biz_11",
+      "id": "biz_74",
       "name": "Centro de Terapia Integral FIAT. Terapia física / Terapia de lenguaje",
       "rating": null,
       "reviewsCount": null,
@@ -511,7 +798,7 @@
       "url": "https://www.google.com/maps/place/Centro+de+Terapia+Integral+FIAT.+Terapia+f%C3%ADsica+%2F+Terapia+de+lenguaje/data=!4m7!3m6!1s0x9105e91fdbb911c3:0xc5e095bd9317a071!8m2!3d-11.9896008!4d-76.8200235!16s%2Fg%2F11nxcyrvzg!19sChIJwxG52x_pBZERcaAXk72V4MU"
     },
     {
-      "id": "biz_20",
+      "id": "biz_75",
       "name": "Centro de Terapia Fisica Integral",
       "rating": null,
       "reviewsCount": null,
@@ -520,7 +807,7 @@
       "url": "https://www.google.com/maps/place/Centro+de+Terapia+Fisica+Integral/data=!4m7!3m6!1s0x9105c330f6b6b271:0x992528e30c45833b!8m2!3d-12.0199997!4d-76.8711664!16s%2Fg%2F11v3zqslcq!19sChIJcbK29jDDBZERO4NFDOMoJZk"
     },
     {
-      "id": "biz_45",
+      "id": "biz_76",
       "name": "Centro de rehabilitación terapia física",
       "rating": null,
       "reviewsCount": null,
