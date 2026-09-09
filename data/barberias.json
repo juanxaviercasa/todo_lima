@@ -1,0 +1,928 @@
+{
+  "category": "barberias",
+  "searchQuery": "barberias en Lima",
+  "totalResults": 100,
+  "updatedAt": "2026-09-09T18:48:26.374Z",
+  "topBusinessContext": {
+    "id": "biz_2",
+    "name": "BRUNKHALEE Barber Studio",
+    "rating": 5,
+    "reviewsCount": null,
+    "category": "Barbería",
+    "address": "X5X8+92V, Unnamed Road, Cercado de Lima 15476",
+    "url": "https://www.google.com/maps/place/BRUNKHALEE+Barber+Studio/data=!4m7!3m6!1s0x9105c35085070103:0x8a8e996237ff0dd!8m2!3d-12.0015097!4d-76.8349407!16s%2Fg%2F11qndrl19x!19sChIJAwEHhVDDBZER3fB_I5bpqAg"
+  },
+  "pageContent": {
+    "headline": "Los Mejores Expertos en BARBERIAS en Lima: Conoce a BRUNKHALEE Barber Studio",
+    "subtitles": [
+      "Garantiza resultados hoy mismo. Ubicados en X5X8+92V, Unnamed Road, Cercado de Lima 15476, destacan como la opción número uno validada por usuarios reales.",
+      "Descubre por qué cuentan con una calificación de 5 estrellas en Google. No dejes tu necesidad al azar."
+    ],
+    "ctas": [
+      "Contactar por WhatsApp Ahora",
+      "Ver Directorio Completo"
+    ]
+  },
+  "businesses": [
+    {
+      "id": "biz_2",
+      "name": "BRUNKHALEE Barber Studio",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "X5X8+92V, Unnamed Road, Cercado de Lima 15476",
+      "url": "https://www.google.com/maps/place/BRUNKHALEE+Barber+Studio/data=!4m7!3m6!1s0x9105c35085070103:0x8a8e996237ff0dd!8m2!3d-12.0015097!4d-76.8349407!16s%2Fg%2F11qndrl19x!19sChIJAwEHhVDDBZER3fB_I5bpqAg"
+    },
+    {
+      "id": "biz_6",
+      "name": "Barbershop art and style",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "X5R2+44X, Ate 15476",
+      "url": "https://www.google.com/maps/place/Barbershop+art+and+style/data=!4m7!3m6!1s0x9105c34b2bc7af23:0x7fd906aa957d9e8a!8m2!3d-12.0096416!4d-76.8496305!16s%2Fg%2F11hf9x8nr5!19sChIJI6_HK0vDBZERip59laoG2X8"
+    },
+    {
+      "id": "biz_17",
+      "name": "Family Barber y Tattos",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Los Olivos 224, Lima 15464",
+      "url": "https://www.google.com/maps/place/Family+Barber+y+Tattos/data=!4m7!3m6!1s0x9105c385b6571ad7:0x555f3e91747fe7c6!8m2!3d-11.9848299!4d-76.8355904!16s%2Fg%2F11k_d5c4n4!19sChIJ1xpXtoXDBZERxud_dJE-X1U"
+    },
+    {
+      "id": "biz_25",
+      "name": "Valentino for Men Barbershop | Barranco",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Almte. Miguel Grau 1108, Barranco LIMA 18",
+      "url": "https://www.google.com/maps/place/Valentino+for+Men+Barbershop+%7C+Barranco/data=!4m7!3m6!1s0x9105b7d2f1ff2389:0xbfba1b07ce911d18!8m2!3d-12.140124!4d-77.0221322!16s%2Fg%2F11ldjbzf4t!19sChIJiSP_8dK3BZERGB2Rzgcbur8"
+    },
+    {
+      "id": "biz_40",
+      "name": "Barbería MIL Hair Concept Miraflores",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Ca. Libertad 176, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+MIL+Hair+Concept+Miraflores/data=!4m7!3m6!1s0x9105c91ec041657d:0x1452195213d3a193!8m2!3d-12.1203592!4d-77.032846!16s%2Fg%2F11wmxb9ss5!19sChIJfWVBwB7JBZERk6HTE1IZUhQ"
+    },
+    {
+      "id": "biz_48",
+      "name": "BARBERIA DE LIMA - Miraflores",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Emilio Cavenecia 175, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/BARBERIA+DE+LIMA+-+Miraflores/data=!4m7!3m6!1s0x9105c927bc85a32d:0xb3327ff3855f2217!8m2!3d-12.1093537!4d-77.0380734!16s%2Fg%2F11y_xfycw8!19sChIJLaOFvCfJBZERFyJfhfN_MrM"
+    },
+    {
+      "id": "biz_54",
+      "name": "HALE KANE",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "halekanegroup@gmail.com, Río Napo 417, San Juan de Lurigancho LIMA 15",
+      "url": "https://www.google.com/maps/place/HALE+KANE/data=!4m7!3m6!1s0x9105c50afe2b2a05:0xbfe7a02a1bca0a51!8m2!3d-11.9770788!4d-77.002525!16s%2Fg%2F11t7d4y8hf!19sChIJBSor_grFBZERUQrKGyqg578"
+    },
+    {
+      "id": "biz_68",
+      "name": "BARBERIA Miraflores I ROTTERDAM",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Calle Alcanfores 229, Miraflores 15048",
+      "url": "https://www.google.com/maps/place/BARBERIA+Miraflores+I+ROTTERDAM/data=!4m7!3m6!1s0x9105c9418a567e03:0xdb3c3ff3cf4e9642!8m2!3d-12.1218626!4d-77.0275677!16s%2Fg%2F11t7yjrjx0!19sChIJA35WikHJBZERQpZOz_M_PNs"
+    },
+    {
+      "id": "biz_70",
+      "name": "Bronco barberia",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "C. Alfonso Ugarte 211, Miraflores 15047",
+      "url": "https://www.google.com/maps/place/Bronco+barberia/data=!4m7!3m6!1s0x9105c91f05616229:0x5d1cdd81e2874fde!8m2!3d-12.1182279!4d-77.0268158!16s%2Fg%2F11l2snmthm!19sChIJKWJhBR_JBZER3k-H4oHdHF0"
+    },
+    {
+      "id": "biz_85",
+      "name": "BarberShop M & L - \"recomendado \"",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Emancipación 975, Lima 15003",
+      "url": "https://www.google.com/maps/place/BarberShop+M+%26+L+-+%22recomendado+%22/data=!4m7!3m6!1s0x9105c9edb5f88d51:0x869a91303ae1003c!8m2!3d-12.0438015!4d-77.0420646!16s%2Fg%2F11njznkpr_!19sChIJUY34te3JBZERPADhOjCRmoY"
+    },
+    {
+      "id": "biz_88",
+      "name": "Tati Urban Barbershop",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Jirón Conde de La Vega del Ren 519, Lima 15079",
+      "url": "https://www.google.com/maps/place/Tati+Urban+Barbershop/data=!4m7!3m6!1s0x9105cf0074c1bf7b:0x77924080b81f5ffe!8m2!3d-12.0391517!4d-77.0511207!16s%2Fg%2F11zymcy3n1!19sChIJe7_BdADPBZER_l8fuIBAknc"
+    },
+    {
+      "id": "biz_89",
+      "name": "Barbería Cordova",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Aviación, Cercado de Lima 15038",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+Cordova/data=!4m7!3m6!1s0x9105c73bf3c10ae3:0x66b8d665f2617d21!8m2!3d-12.126648!4d-77.00062!16s%2Fg%2F11rcy31r8z!19sChIJ4wrB8zvHBZERIX1h8mXWuGY"
+    },
+    {
+      "id": "biz_91",
+      "name": "Barber Men’s Club",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Galeria comercial, Jr. Ucayali 724, Lima 00051",
+      "url": "https://www.google.com/maps/place/Barber+Men%E2%80%99s+Club/data=!4m7!3m6!1s0x9105c9640fa51f69:0x4f5a1fadf4156636!8m2!3d-12.0513313!4d-77.0255121!16s%2Fg%2F11m6608lk6!19sChIJaR-lD2TJBZERNmYV9K0fWk8"
+    },
+    {
+      "id": "biz_97",
+      "name": "JHONA BARBER - BARBERIA LA VICTORIA-SAN BORJA",
+      "rating": 5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "",
+      "url": "https://www.google.com/maps/place/JHONA+BARBER+-+BARBERIA+LA+VICTORIA-SAN+BORJA/data=!4m7!3m6!1s0x9105c79cc8eaba01:0x47223bf20a22aeab!8m2!3d-12.0849168!4d-77.0068946!16s%2Fg%2F11y422vzv_!19sChIJAbrqyJzHBZERq64iCvI7Ikc"
+    },
+    {
+      "id": "biz_10",
+      "name": "Montreal Spa & Barberia",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Spa de masajes",
+      "address": "Ca. San Martín 377, Miraflores LIMA 01",
+      "url": "https://www.google.com/maps/place/Montreal+Spa+%26+Barberia/data=!4m7!3m6!1s0x9105c9dd955ff5d7:0x4461382bbe85761d!8m2!3d-12.1253418!4d-77.0307346!16s%2Fg%2F11g0rys57t!19sChIJ1_Vfld3JBZERHXaFvis4YUQ"
+    },
+    {
+      "id": "biz_14",
+      "name": "Barbería Barba Negra",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Calle El Parque 213, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+Barba+Negra/data=!4m7!3m6!1s0x9105c9933f9be01d:0xe30e9d437d5e9fa9!8m2!3d-12.094226!4d-77.0254576!16s%2Fg%2F11lylyl48z!19sChIJHeCbP5PJBZERqZ9efUOdDuM"
+    },
+    {
+      "id": "biz_16",
+      "name": "Klipperz Barbershop",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Angamos Este 2268, Surquillo 15036",
+      "url": "https://www.google.com/maps/place/Klipperz+Barbershop/data=!4m7!3m6!1s0x9105c7e16288b02b:0x2824cfbea1720063!8m2!3d-12.1123006!4d-77.0064398!16s%2Fg%2F11b6dz6wz9!19sChIJK7CIYuHHBZERYwByob7PJCg"
+    },
+    {
+      "id": "biz_20",
+      "name": "VALENTINO FOR MEN - BARBERSHOP",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Alfredo Benavides 340, Miraflores LIMA 18",
+      "url": "https://www.google.com/maps/place/VALENTINO+FOR+MEN+-+BARBERSHOP/data=!4m7!3m6!1s0x9105c8192d3c0b03:0x1c8e1c07ebeea994!8m2!3d-12.1245759!4d-77.0299438!16s%2Fg%2F11jzcfblp0!19sChIJAws8LRnIBZERlKnu6wccjhw"
+    },
+    {
+      "id": "biz_22",
+      "name": "Jacovich Barberia Clasica",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Petit Thouars 3215, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/Jacovich+Barberia+Clasica/data=!4m7!3m6!1s0x9105c947edf23c31:0x1d5e4ce6ab3f221d!8m2!3d-12.0942398!4d-77.0318276!16s%2Fg%2F11sqqfp16k!19sChIJMTzy7UfJBZERHSI_q-ZMXh0"
+    },
+    {
+      "id": "biz_28",
+      "name": "Classic Man Barbershop",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "C. Berlín 149, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Classic+Man+Barbershop/data=!4m7!3m6!1s0x9105c977cad38a87:0x965bdd02533efe94!8m2!3d-12.1223676!4d-77.031719!16s%2Fg%2F11t_wgbf5j!19sChIJh4rTynfJBZERlP4-UwLdW5Y"
+    },
+    {
+      "id": "biz_30",
+      "name": "Barbería El Duque ( Barbershop )",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Gral. Juan Antonio Álvarez de Arenales 2397, Lince 15073",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+El+Duque+%28+Barbershop+%29/data=!4m7!3m6!1s0x9105c9455770ed6f:0x791c8f4c123061bd!8m2!3d-12.0880347!4d-77.0349839!16s%2Fg%2F11l1mq16rb!19sChIJb-1wV0XJBZERvWEwEkyPHHk"
+    },
+    {
+      "id": "biz_31",
+      "name": "Barbershop Fito",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Primavera 1909, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/Barbershop+Fito/data=!4m7!3m6!1s0x9105c7747301fb8f:0x36827af547bd5085!8m2!3d-12.1067956!4d-76.9679675!16s%2Fg%2F11h6dc7dww!19sChIJj_sBc3THBZERhVC9R_V6gjY"
+    },
+    {
+      "id": "biz_32",
+      "name": "HIGHCUTS BARBER SHOP",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Lima 562, San Miguel 15086",
+      "url": "https://www.google.com/maps/place/HIGHCUTS+BARBER+SHOP/data=!4m7!3m6!1s0x9105c9a1a3f5c6bf:0xa2465200ad7739d8!8m2!3d-12.089095!4d-77.0792932!16s%2Fg%2F11f24x7qnc!19sChIJv8b1o6HJBZER2Dl3rQBSRqI"
+    },
+    {
+      "id": "biz_34",
+      "name": "Celebrity Barber Studio A1 VIP",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Carlos Izaguirre 771, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/Celebrity+Barber+Studio+A1+VIP/data=!4m7!3m6!1s0x9105cf2934f15931:0x6c42d706349474ae!8m2!3d-11.9911015!4d-77.0698947!16s%2Fg%2F11l33lx2pf!19sChIJMVnxNCnPBZERrnSUNAbXQmw"
+    },
+    {
+      "id": "biz_36",
+      "name": "MONARCA Barberia Premium",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Petit Thouars 3008, San Isidro 15046",
+      "url": "https://www.google.com/maps/place/MONARCA+Barberia+Premium/data=!4m7!3m6!1s0x9105c91774ee681b:0x48e3605f2a76f648!8m2!3d-12.0928481!4d-77.0322049!16s%2Fg%2F11y446w51m!19sChIJG2judBfJBZERSPZ2Kl9g40g"
+    },
+    {
+      "id": "biz_41",
+      "name": "El Turco Barbería – San Isidro (Alberto del Campo)",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Alberto del Campo 295, San Isidro 15076",
+      "url": "https://www.google.com/maps/place/El+Turco+Barber%C3%ADa+%E2%80%93+San+Isidro+%28Alberto+del+Campo%29/data=!4m7!3m6!1s0x9105c930850070df:0x9cefe9c64166e9cf!8m2!3d-12.0982616!4d-77.055524!16s%2Fg%2F11l3dt29l3!19sChIJ33AAhTDJBZERz-lmQcbp75w"
+    },
+    {
+      "id": "biz_43",
+      "name": "Sigma Barber Club",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Isabel la catolica con, Jr. Sáenz Peña 901, La Victoria 15033",
+      "url": "https://www.google.com/maps/place/Sigma+Barber+Club/data=!4m7!3m6!1s0x9105c954126cf171:0x6da0eafe3c9aeee0!8m2!3d-12.0703995!4d-77.02908!16s%2Fg%2F11t15dfgzk!19sChIJcfFsElTJBZER4O6aPP7qoG0"
+    },
+    {
+      "id": "biz_44",
+      "name": "Stereo Barber Pool - Barbería en Lima",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Acuario 825, Los Olivos 15301",
+      "url": "https://www.google.com/maps/place/Stereo+Barber+Pool+-+Barber%C3%ADa+en+Lima/data=!4m7!3m6!1s0x9105cf524c7ec1d7:0xe4d3e09aa955fbae!8m2!3d-11.9952687!4d-77.0702027!16s%2Fg%2F11x6wfk0wr!19sChIJ18F-TFLPBZERrvtVqZrg0-Q"
+    },
+    {
+      "id": "biz_49",
+      "name": "BarberiaBastardos Chorrillos",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av Paseo de la República 355, Chorrillos 15064",
+      "url": "https://www.google.com/maps/place/BarberiaBastardos+Chorrillos/data=!4m7!3m6!1s0x9105b7baafb11bb1:0xe2d3a0184a95f5f6!8m2!3d-12.1739741!4d-77.01356!16s%2Fg%2F11p620pq3w!19sChIJsRuxr7q3BZER9vWVShig0-I"
+    },
+    {
+      "id": "biz_51",
+      "name": "Barbershop A&S",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "avda. Jose Pardo 620 en el sótano Tda#18. Miraflores, Lima 15047",
+      "url": "https://www.google.com/maps/place/Barbershop+A%26S/data=!4m7!3m6!1s0x9105c83d36c18abb:0xcae1c71719e24b5b!8m2!3d-12.1188865!4d-77.0354794!16s%2Fg%2F11c1w0_zq6!19sChIJu4rBNj3IBZERW0viGRfH4co"
+    },
+    {
+      "id": "biz_52",
+      "name": "VIR Barberias",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Ca. los Pinos 120, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/VIR+Barberias/data=!4m7!3m6!1s0x9105c9001455ebcb:0x268208be1c586c6c!8m2!3d-12.123019!4d-77.0306453!16s%2Fg%2F11n543h17v!19sChIJy-tVFADJBZERbGxYHL4IgiY"
+    },
+    {
+      "id": "biz_53",
+      "name": "Barberia Miguel Nuñez cercado de lima",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Roberto Thorndike Galup, Lima 15081",
+      "url": "https://www.google.com/maps/place/Barberia+Miguel+Nu%C3%B1ez+cercado+de+lima/data=!4m7!3m6!1s0x9105c98e39f4c383:0x1f8ed013ced5aa21!8m2!3d-12.0549305!4d-77.0690931!16s%2Fg%2F11h774x6n0!19sChIJg8P0OY7JBZERIarVzhPQjh8"
+    },
+    {
+      "id": "biz_55",
+      "name": "BarberSamVip",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Militar 2043, Lince 15072",
+      "url": "https://www.google.com/maps/place/BarberSamVip/data=!4m7!3m6!1s0x9105c94a7be7fa47:0x5fe128632f1e0e5a!8m2!3d-12.0847343!4d-77.0314127!16s%2Fg%2F11vyzt65yp!19sChIJR_rne0rJBZERWg4eL2Mo4V8"
+    },
+    {
+      "id": "biz_59",
+      "name": "MONARCA Barberia Premium",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Mariscal La Mar 549, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/MONARCA+Barberia+Premium/data=!4m7!3m6!1s0x9105c942672808d3:0xfbca3629a4173741!8m2!3d-12.1152026!4d-77.0439351!16s%2Fg%2F11rpqm9dgn!19sChIJ0wgoZ0LJBZERQTcXpCk2yvs"
+    },
+    {
+      "id": "biz_64",
+      "name": "SAPRA BARBERSHOP MIRAFLORES",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Ca. Libertad 176, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/SAPRA+BARBERSHOP+MIRAFLORES/data=!4m7!3m6!1s0x9105c94f4a7afc7d:0x46bdeba2fb7605ee!8m2!3d-12.1203592!4d-77.032846!16s%2Fg%2F11j0rtctt3!19sChIJffx6Sk_JBZER7gV2-6LrvUY"
+    },
+    {
+      "id": "biz_65",
+      "name": "WOLFS DEN BARBERIA | MIRAFLORES",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "15046, Miraflores 15046",
+      "url": "https://www.google.com/maps/place/WOLFS+DEN+BARBERIA+%7C+MIRAFLORES/data=!4m7!3m6!1s0x9105c934d65469fb:0x7d4905ff92ae85b2!8m2!3d-12.1064614!4d-77.0303547!16s%2Fg%2F11wqwc05pq!19sChIJ-2lU1jTJBZERsoWukv8FSX0"
+    },
+    {
+      "id": "biz_75",
+      "name": "MATHIAS Peluquería Clásica",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "C. Chinchón 836, San Isidro LIMA 01",
+      "url": "https://www.google.com/maps/place/MATHIAS+Peluquer%C3%ADa+Cl%C3%A1sica/data=!4m7!3m6!1s0x9105c86611d09aab:0xd6fbab520e34734f!8m2!3d-12.095846!4d-77.028365!16s%2Fg%2F11b7f0_59x!19sChIJq5rQEWbIBZERT3M0DlKr-9Y"
+    },
+    {
+      "id": "biz_76",
+      "name": "Barone Barbería Premium",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. del Ejército 1180, Magdalena del Mar 15076",
+      "url": "https://www.google.com/maps/place/Barone+Barber%C3%ADa+Premium/data=!4m7!3m6!1s0x9105c99c0c1a5f5f:0xaa3c096aedf00157!8m2!3d-12.1016026!4d-77.0599758!16s%2Fg%2F11ty16tdy6!19sChIJX18aDJzJBZERVwHw7WoJPKo"
+    },
+    {
+      "id": "biz_84",
+      "name": "Barbería Rey De Reyes",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Galería Espaderos, Jr. de la Unión 526, Lima 15001",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+Rey+De+Reyes/data=!4m7!3m6!1s0x9105c90046241177:0xb9955b5c73dacdf3!8m2!3d-12.0473611!4d-77.0323515!16s%2Fg%2F11y33htxqb!19sChIJdxEkRgDJBZER883ac1xblbk"
+    },
+    {
+      "id": "biz_93",
+      "name": "Top Vision Barbershop | Villa El Salvador",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Sector 1 Grupo 10 Manzana A, Villa EL Salvador",
+      "url": "https://www.google.com/maps/place/Top+Vision+Barbershop+%7C+Villa+El+Salvador/data=!4m7!3m6!1s0x9105b98c915f5e6d:0x761602f14f6a2ee5!8m2!3d-12.1983172!4d-76.9425668!16s%2Fg%2F11p5qdfs19!19sChIJbV5fkYy5BZER5S5qT_ECFnY"
+    },
+    {
+      "id": "biz_95",
+      "name": "La Gallera Barber Classic",
+      "rating": 4.9,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Jirón Caracas 2477, Jesús María LIMA 11",
+      "url": "https://www.google.com/maps/place/La+Gallera+Barber+Classic/data=!4m7!3m6!1s0x9105c95ef94acd0f:0x1005d119d2b40db6!8m2!3d-12.0864376!4d-77.0573338!16s%2Fg%2F11f7b0p0_j!19sChIJD81K-V7JBZERtg200hnRBRA"
+    },
+    {
+      "id": "biz_13",
+      "name": "Barbería MASCHIO",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Jirón Ica 181, Lima 15001",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+MASCHIO/data=!4m7!3m6!1s0x9105c9a3491d8b1d:0x2b5a04003a928d4a!8m2!3d-12.0467266!4d-77.0329701!16s%2Fg%2F11lkg79_hq!19sChIJHYsdSaPJBZERSo2SOgAEWis"
+    },
+    {
+      "id": "biz_15",
+      "name": "El Turco Barbería – Surco (CC El Polo)",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "El Polo 740, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/El+Turco+Barber%C3%ADa+%E2%80%93+Surco+%28CC+El+Polo%29/data=!4m7!3m6!1s0x9105c7853ca67251:0xde9a5d14a025397!8m2!3d-12.101067!4d-76.9714451!16s%2Fg%2F11rgr0rc3t!19sChIJUXKmPIXHBZERl1MCStGl6Q0"
+    },
+    {
+      "id": "biz_29",
+      "name": "BARBER HOUSE | SEDE SCHELL",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Ca. Schell 449, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/BARBER+HOUSE+%7C+SEDE+SCHELL/data=!4m7!3m6!1s0x9105c96fce907389:0x674d24eac52255e8!8m2!3d-12.1231481!4d-77.027342!16s%2Fg%2F11kjhjbqpk!19sChIJiXOQzm_JBZER6FUixeokTWc"
+    },
+    {
+      "id": "biz_37",
+      "name": "MAGNUX V Barberia",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Jorge Chávez 129, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/MAGNUX+V+Barberia/data=!4m7!3m6!1s0x9105c83cd2c52c83:0x4686cc64032ac6b3!8m2!3d-12.1196141!4d-77.0367503!16s%2Fg%2F11c2kd0fb1!19sChIJgyzF0jzIBZERs8YqA2TMhkY"
+    },
+    {
+      "id": "biz_45",
+      "name": "Barbería The Barber Company - San Isidro",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Los Conquistadores 133, San Isidro 15073",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+The+Barber+Company+-+San+Isidro/data=!4m7!3m6!1s0x9105c9b1a3c40317:0x89c3b124d8778ee6!8m2!3d-12.0970469!4d-77.0356146!16s%2Fg%2F11t58tgkbz!19sChIJFwPEo7HJBZER5o532CSxw4k"
+    },
+    {
+      "id": "biz_63",
+      "name": "La fama barbershop",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. México 1545, La Victoria 15018",
+      "url": "https://www.google.com/maps/place/La+fama+barbershop/data=!4m7!3m6!1s0x9105c9e58c2d3bfd:0xbd021953643e18de!8m2!3d-12.0723927!4d-77.0136828!16s%2Fg%2F11pkp8s087!19sChIJ_TstjOXJBZER3hg-ZFMZAr0"
+    },
+    {
+      "id": "biz_67",
+      "name": "Bargo Barber studio",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Jirón José Pezet y Monel 2127 15073, Lima 15073",
+      "url": "https://www.google.com/maps/place/Bargo+Barber+studio/data=!4m7!3m6!1s0x9105c94285ff5db3:0xcbf3091dc90c7a14!8m2!3d-12.0872447!4d-77.0419279!16s%2Fg%2F11frqlk9w2!19sChIJs13_hULJBZERFHoMyR0J88s"
+    },
+    {
+      "id": "biz_71",
+      "name": "Elite barberia",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Mercedes Gallagher de Parks 295, San Miguel 15087",
+      "url": "https://www.google.com/maps/place/Elite+barberia/data=!4m7!3m6!1s0x9105c9d6c7bc6495:0x3aafa1e511ccbaaf!8m2!3d-12.0789968!4d-77.0843088!16s%2Fg%2F11trx294rv!19sChIJlWS8x9bJBZERr7rMEeWhrzo"
+    },
+    {
+      "id": "biz_78",
+      "name": "OG Barbershop",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Reynaldo Saavedra Pinón 2647, Lima 15081",
+      "url": "https://www.google.com/maps/place/OG+Barbershop/data=!4m7!3m6!1s0x9105c9004482043b:0xaf65c2b905847000!8m2!3d-12.0548599!4d-77.0704644!16s%2Fg%2F11w4jzz5j6!19sChIJOwSCRADJBZERAHCEBbnCZa8"
+    },
+    {
+      "id": "biz_80",
+      "name": "The City Barber Shop - Perú",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Perú 4046, San Martín de Porres 15082",
+      "url": "https://www.google.com/maps/place/The+City+Barber+Shop+-+Per%C3%BA/data=!4m7!3m6!1s0x9105c9277395d07f:0x18b4154233660aa8!8m2!3d-12.029932!4d-77.09289!16s%2Fg%2F11b6plhmwc!19sChIJf9CVcyfJBZERqApmM0IVtBg"
+    },
+    {
+      "id": "biz_83",
+      "name": "Barbería - The Razor Club",
+      "rating": 4.8,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Ca. las Palmeras 207, San Isidro 15036",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+-+The+Razor+Club/data=!4m7!3m6!1s0x9105c9b7b98f9309:0x832d761284b746be!8m2!3d-12.0916377!4d-77.0387046!16s%2Fg%2F11s87mwx_j!19sChIJCZOPubfJBZERvka3hBJ2LYM"
+    },
+    {
+      "id": "biz_8",
+      "name": "Cupper's 65 Barber Shop",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "15047, Av. República de Panamá 6550, Lima",
+      "url": "https://www.google.com/maps/place/Cupper%27s+65+Barber+Shop/data=!4m7!3m6!1s0x9105b7fd96fb2525:0x1506e56bfe558bce!8m2!3d-12.1308468!4d-77.0182181!16s%2Fg%2F11cs38npw7!19sChIJJSX7lv23BZERzotV_mvlBhU"
+    },
+    {
+      "id": "biz_11",
+      "name": "Barber Shop El 10",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Sinchi Roca, Lima 15822",
+      "url": "https://www.google.com/maps/place/Barber+Shop+El+10/data=!4m7!3m6!1s0x9105c3c608c8a019:0x2a13453f42c0e1e6!8m2!3d-12.0172241!4d-76.8855399!16s%2Fg%2F11dx93gp7l!19sChIJGaDICMbDBZER5uHAQj9FEyo"
+    },
+    {
+      "id": "biz_23",
+      "name": "Barberia El caballero barbershop",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Roberto Thorndike Galup 1534, Lima 15081",
+      "url": "https://www.google.com/maps/place/Barberia+El+caballero+barbershop/data=!4m7!3m6!1s0x9105c9c06b44e1df:0xc6de42101e0f63a1!8m2!3d-12.0564119!4d-77.0688462!16s%2Fg%2F11fqc80cdf!19sChIJ3-FEa8DJBZERoWMPHhBC3sY"
+    },
+    {
+      "id": "biz_26",
+      "name": "Barbería IL CAPO - San Borja",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. San Borja Nte. 301, Lima 15036",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+IL+CAPO+-+San+Borja/data=!4m7!3m6!1s0x9105c7d7748c08f3:0x96746ba8a9518bc1!8m2!3d-12.094331!4d-77.0073723!16s%2Fg%2F11g02qgy21!19sChIJ8wiMdNfHBZERwYtRqahrdJY"
+    },
+    {
+      "id": "biz_27",
+      "name": "Barbaros Barber Shop",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "WWXQ+GP9, Lima 15082",
+      "url": "https://www.google.com/maps/place/Barbaros+Barber+Shop/data=!4m7!3m6!1s0x9105c928e7d66e45:0x31864eec441b22fa!8m2!3d-12.0512201!4d-77.0606478!16s%2Fg%2F11f9_9r7lz!19sChIJRW7W5yjJBZER-iIbROxOhjE"
+    },
+    {
+      "id": "biz_35",
+      "name": "Barberia The Barber Company - San Borja",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Aviación 3464, San Borja 15036",
+      "url": "https://www.google.com/maps/place/Barberia+The+Barber+Company+-+San+Borja/data=!4m7!3m6!1s0x9105c788be70771b:0xbb66ffe6b2ea3490!8m2!3d-12.1065476!4d-77.001332!16s%2Fg%2F11h6f_fcr4!19sChIJG3dwvojHBZERkDTqsub_Zrs"
+    },
+    {
+      "id": "biz_50",
+      "name": "BOSS BARBER",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. José Gálvez Barrenechea 1005, San Borja 15036",
+      "url": "https://www.google.com/maps/place/BOSS+BARBER/data=!4m7!3m6!1s0x9105c90039f1ea7b:0x4cbc5d68d280b721!8m2!3d-12.1054024!4d-77.0106371!16s%2Fg%2F11w3hj36bm!19sChIJe-rxOQDJBZERIbeA0mhdvEw"
+    },
+    {
+      "id": "biz_61",
+      "name": "NewYork Barber Studio, Barranco - Lima - Peru",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. San Martín 457, Barranco 15063",
+      "url": "https://www.google.com/maps/place/NewYork+Barber+Studio,+Barranco+-+Lima+-+Peru/data=!4m7!3m6!1s0x9105b74e5869d3d1:0xea9357e1d1614fd9!8m2!3d-12.1415892!4d-77.0234776!16s%2Fg%2F11pgt3k62_!19sChIJ0dNpWE63BZER2U9h0eFXk-o"
+    },
+    {
+      "id": "biz_66",
+      "name": "LA BARBERA PERÚ",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "C. Alfonso Ugarte 226, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/LA+BARBERA+PER%C3%9A/data=!4m7!3m6!1s0x9105c810c5a7ea71:0x6f7a6ccc79f9b90c!8m2!3d-12.117927!4d-77.026622!16s%2Fg%2F11fxz6lxqk!19sChIJceqnxRDIBZERDLn5ecxsem8"
+    },
+    {
+      "id": "biz_69",
+      "name": "NewYork Barbería Clásica, Surco - Lima - Peru",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Primavera 1431, Santiago de Surco 15023",
+      "url": "https://www.google.com/maps/place/NewYork+Barber%C3%ADa+Cl%C3%A1sica,+Surco+-+Lima+-+Peru/data=!4m7!3m6!1s0x9105c7afc2f4dda5:0x8cb47db6b4078efc!8m2!3d-12.1097549!4d-76.9738623!16s%2Fg%2F11nfzqcjb3!19sChIJpd30wq_HBZER_I4HtLZ9tIw"
+    },
+    {
+      "id": "biz_81",
+      "name": "Londres Barbería Clásica Jesús María",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. San Felipe 1059, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Londres+Barber%C3%ADa+Cl%C3%A1sica+Jes%C3%BAs+Mar%C3%ADa/data=!4m7!3m6!1s0x9105c9b2021399cd:0xceb70b0377f2e62d!8m2!3d-12.0818883!4d-77.046881!16s%2Fg%2F11s7n_6tsq!19sChIJzZkTArLJBZERLebydwMLt84"
+    },
+    {
+      "id": "biz_99",
+      "name": "Barbería Hudson - Miraflores",
+      "rating": 4.7,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. 28 de Julio 1200, Urb, Miraflores 15047",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+Hudson+-+Miraflores/data=!4m7!3m6!1s0x9105b741035697cd:0xa5ce506a1c8909f9!8m2!3d-12.1306347!4d-77.0203367!16s%2Fg%2F11y6brs6f4!19sChIJzZdWA0G3BZER-QmJHGpQzqU"
+    },
+    {
+      "id": "biz_3",
+      "name": "Exclusive Barber Shop",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "El Lucumo Mz. A Lote 9 Ate Huaycan ate vitarte, LIMA 51",
+      "url": "https://www.google.com/maps/place/Exclusive+Barber+Shop/data=!4m7!3m6!1s0x9105c3b6e6bdf66f:0xb799bb50c3913ef7!8m2!3d-12.0075224!4d-76.8273513!16s%2Fg%2F11gxfyvbr1!19sChIJb_a95rbDBZER9z6Rw1C7mbc"
+    },
+    {
+      "id": "biz_24",
+      "name": "Barbería Barba Negra",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "C. Colón 185, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+Barba+Negra/data=!4m7!3m6!1s0x9105c9e902ec06c5:0xd48929415306fcb4!8m2!3d-12.1252603!4d-77.0303229!16s%2Fg%2F11s5lzqyxk!19sChIJxQbsAunJBZERtPwGU0EpidQ"
+    },
+    {
+      "id": "biz_46",
+      "name": "Barbería The Barber Company - Porta Miraflores",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "194, Calle Porta Street, Miraflores",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+The+Barber+Company+-+Porta+Miraflores/data=!4m7!3m6!1s0x9105c9ad91349fdf:0x33154ab46cc5def4!8m2!3d-12.1239273!4d-77.0316612!16s%2Fg%2F11g1kkp2x0!19sChIJ3580ka3JBZER9N7FbLRKFTM"
+    },
+    {
+      "id": "biz_47",
+      "name": "Markus Barberia",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Jr. Pedro Gárezon 1544, Lima 15079",
+      "url": "https://www.google.com/maps/place/Markus+Barberia/data=!4m7!3m6!1s0x9105ced4a29ecc35:0xba540d59418bcda0!8m2!3d-12.0407368!4d-77.0621216!16s%2Fg%2F11g6qxm3hl!19sChIJNcyeotTOBZERoM2LQVkNVLo"
+    },
+    {
+      "id": "biz_56",
+      "name": "FORTI Barber Studio - San Borja",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. San Luis 2081, San Borja 15037",
+      "url": "https://www.google.com/maps/place/FORTI+Barber+Studio+-+San+Borja/data=!4m7!3m6!1s0x9105c7e85efb8201:0xe5c0bc1c2948be39!8m2!3d-12.091092!4d-76.995791!16s%2Fg%2F11b6pftcj2!19sChIJAYL7XujHBZEROb5IKRy8wOU"
+    },
+    {
+      "id": "biz_60",
+      "name": "El Imperio Barberia",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "S.J.L, Av. Portada del Sol 521, Lima 15401",
+      "url": "https://www.google.com/maps/place/El+Imperio+Barberia/data=!4m7!3m6!1s0x9105c5ee699cc099:0xd44c40b1f122ea69!8m2!3d-12.0235006!4d-76.9970473!16s%2Fg%2F11bx528dv0!19sChIJmcCcae7FBZERaeoi8bFATNQ"
+    },
+    {
+      "id": "biz_92",
+      "name": "The brothers barbershop",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "paradero ex cine - independencia, Av. Chinchaysuyo 465, Independencia 15423",
+      "url": "https://www.google.com/maps/place/The+brothers+barbershop/data=!4m7!3m6!1s0x9105cf572fe39d75:0xb26146a50f8232f2!8m2!3d-11.9778549!4d-77.0515172!16s%2Fg%2F11fl5qbzy7!19sChIJdZ3jL1fPBZER8jKCD6VGYbI"
+    },
+    {
+      "id": "biz_98",
+      "name": "MARKUS Barberia",
+      "rating": 4.6,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av Antonio José de Sucre 1073, Pueblo Libre 15084",
+      "url": "https://www.google.com/maps/place/MARKUS+Barberia/data=!4m7!3m6!1s0x9105c9060b32e637:0xad23714cf285fa72!8m2!3d-12.0818203!4d-77.0665264!16s%2Fg%2F11hbghkbdv!19sChIJN-YyCwbJBZERcvqF8kxxI60"
+    },
+    {
+      "id": "biz_9",
+      "name": "Bulgaria Barber Studio",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "12.011513 76.852883, Ate 15476",
+      "url": "https://www.google.com/maps/place/Bulgaria+Barber+Studio/data=!4m7!3m6!1s0x9105c30026b7da9f:0x849a060c5a342e80!8m2!3d-12.0113498!4d-76.8529086!16s%2Fg%2F11vr27g92v!19sChIJn9q3JgDDBZERgC40WgwGmoQ"
+    },
+    {
+      "id": "biz_18",
+      "name": "Carppone barberia",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Ca. Schell 361, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Carppone+barberia/data=!4m7!3m6!1s0x9105c8196777d81f:0x2e9e039790b169ef!8m2!3d-12.1229643!4d-77.0283421!16s%2Fg%2F11cp7h269g!19sChIJH9h3ZxnIBZER72mxkJcDni4"
+    },
+    {
+      "id": "biz_21",
+      "name": "Barbería The Barber Company - Lince",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Gral. Juan Antonio Álvarez de Arenales 2211, Lince 15046",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+The+Barber+Company+-+Lince/data=!4m7!3m6!1s0x9105c85f918a92c3:0x5b497efd28792250!8m2!3d-12.0866612!4d-77.0353048!16s%2Fg%2F11c208q_b4!19sChIJw5KKkV_IBZERUCJ5KP1-SVs"
+    },
+    {
+      "id": "biz_33",
+      "name": "Lima Cutz",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Caminos del Inca 3189, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Lima+Cutz/data=!4m7!3m6!1s0x9105b875d0459143:0x3feb8acd460e1e14!8m2!3d-12.1430461!4d-76.9849554!16s%2Fg%2F11cm8jblf4!19sChIJQ5FF0HW4BZERFB4ORs2K6z8"
+    },
+    {
+      "id": "biz_38",
+      "name": "Barbería The Barber Company - Primavera Surco",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Primavera 1676, Santiago de Surco LIMA 33",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+The+Barber+Company+-+Primavera+Surco/data=!4m7!3m6!1s0x9105c7999ddeb6c5:0x44c5bb89486b5dbc!8m2!3d-12.1091489!4d-76.9706531!16s%2Fg%2F11c30_thxx!19sChIJxbbenZnHBZERvF1rSIm7xUQ"
+    },
+    {
+      "id": "biz_39",
+      "name": "D'Perú Barber Shop",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. los Fresnos 1191, La Molina 15024",
+      "url": "https://www.google.com/maps/place/D%27Per%C3%BA+Barber+Shop/data=!4m7!3m6!1s0x9105c7154257df4f:0x6439f6b4e2ad2cb7!8m2!3d-12.1023829!4d-76.9420278!16s%2Fg%2F11dxdyrx_g!19sChIJT99XQhXHBZERtyyt4rT2OWQ"
+    },
+    {
+      "id": "biz_42",
+      "name": "Barbería The Barber Company La Molina",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Javier Prado Este 5295, La Molina 15023",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+The+Barber+Company+La+Molina/data=!4m7!3m6!1s0x9105c65601dceb6b:0xfc2c9fa45f5a6e10!8m2!3d-12.0767249!4d-76.9645481!16s%2Fg%2F11f5jps33q!19sChIJa-vcAVbGBZEREG5aX6SfLPw"
+    },
+    {
+      "id": "biz_57",
+      "name": "Barbería Perú Style",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "C. Tarata 181, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+Per%C3%BA+Style/data=!4m7!3m6!1s0x9105c9e458cb2c91:0xf56dc5998c62862!8m2!3d-12.1234085!4d-77.0295491!16s%2Fg%2F11f7ybh0q_!19sChIJkSzLWOTJBZERYijGmFncVg8"
+    },
+    {
+      "id": "biz_62",
+      "name": "Barbería Templo",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Alfredo Benavides 567, Miraflores 15074",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+Templo/data=!4m7!3m6!1s0x9105c931b49355e3:0x97d8a462d5ec2c40!8m2!3d-12.1246603!4d-77.0277593!16s%2Fg%2F11kj0hzjw4!19sChIJ41WTtDHJBZERQCzs1WKk2Jc"
+    },
+    {
+      "id": "biz_72",
+      "name": "Rasato Barberia",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Carlos Izaguirre 464, Los Olivos 15311",
+      "url": "https://www.google.com/maps/place/Rasato+Barberia/data=!4m7!3m6!1s0x9105cf0e79402b77:0x185109bfc8887fce!8m2!3d-11.9900574!4d-77.0659709!16s%2Fg%2F11qpbd5th_!19sChIJdytAeQ7PBZERzn-IyL8JURg"
+    },
+    {
+      "id": "biz_79",
+      "name": "Taller 961 Barbershop",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Almte. Miguel Grau 961, Lima 15063",
+      "url": "https://www.google.com/maps/place/Taller+961+Barbershop/data=!4m7!3m6!1s0x9105b7efe3f6a83b:0x3352590509381d6b!8m2!3d-12.141934!4d-77.022289!16s%2Fg%2F11c1wwsdrk!19sChIJO6j24--3BZERax04CQVZUjM"
+    },
+    {
+      "id": "biz_96",
+      "name": "Waldorf Barber Studio, sede Lince",
+      "rating": 4.5,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "15073, Lince 15073",
+      "url": "https://www.google.com/maps/place/Waldorf+Barber+Studio,+sede+Lince/data=!4m7!3m6!1s0x9105c9f0e1f8a631:0x3ab8904a80d9a085!8m2!3d-12.0883953!4d-77.0308822!16s%2Fg%2F11j1czrl0d!19sChIJMab44fDJBZERhaDZgEqQuDo"
+    },
+    {
+      "id": "biz_82",
+      "name": "La Barbería - Men´s Club",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Rafael Escardó 723, San Miguel 15088",
+      "url": "https://www.google.com/maps/place/La+Barber%C3%ADa+-+Men%C2%B4s+Club/data=!4m7!3m6!1s0x9105c96255cd7f47:0xe6a16f87d0fea3f4!8m2!3d-12.0737072!4d-77.0921964!16s%2Fg%2F11b6q2wptk!19sChIJR3_NVWLJBZER9KP-0IdvoeY"
+    },
+    {
+      "id": "biz_86",
+      "name": "Calle 14 Barbershop",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Jirón Huaraz 1478, Lima 15083",
+      "url": "https://www.google.com/maps/place/Calle+14+Barbershop/data=!4m7!3m6!1s0x9105c8e762eb8529:0x169edb88700b852b!8m2!3d-12.0640517!4d-77.0486289!16s%2Fg%2F11ffv1hrjk!19sChIJKYXrYufIBZERK4ULcIjbnhY"
+    },
+    {
+      "id": "biz_100",
+      "name": "El Bronx 176 Barberia Urbana",
+      "rating": 4.4,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Jr. Andahuaylas 1450, Lima 15033",
+      "url": "https://www.google.com/maps/place/El+Bronx+176+Barberia+Urbana/data=!4m7!3m6!1s0x9105c929c3954593:0x5822a37cc800fe30!8m2!3d-12.0740422!4d-77.0248946!16s%2Fg%2F11flw3wdjg!19sChIJk0WVwynJBZERMP4AyHyjIlg"
+    },
+    {
+      "id": "biz_58",
+      "name": "MACHOS barberia",
+      "rating": 4.3,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. de la Cultura 1250, Lima 15011",
+      "url": "https://www.google.com/maps/place/MACHOS+barberia/data=!4m7!3m6!1s0x9105c524712d796d:0x46dea773b66941f3!8m2!3d-12.0337581!4d-76.9494688!16s%2Fg%2F11n19vv0vg!19sChIJbXktcSTFBZER80FptnOn3kY"
+    },
+    {
+      "id": "biz_74",
+      "name": "Barbershop Air Fresh Lima",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "V296+C8M, Av. Alejandro Velasco Astete, Santiago de Surco 15039",
+      "url": "https://www.google.com/maps/place/Barbershop+Air+Fresh+Lima/data=!4m7!3m6!1s0x9105b9d7fea3cf9f:0x1f353eba2995f831!8m2!3d-12.1314042!4d-76.9892076!16s%2Fg%2F11j90lm0lb!19sChIJn8-j_te5BZERMfiVKbo-NR8"
+    },
+    {
+      "id": "biz_77",
+      "name": "Barbería Perú Style - Jesús María",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Arnaldo Márquez 1263, Jesús María 15072",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+Per%C3%BA+Style+-+Jes%C3%BAs+Mar%C3%ADa/data=!4m7!3m6!1s0x9105c8193c32340d:0xa041ed472ed7d022!8m2!3d-12.0733!4d-77.0490909!16s%2Fg%2F11hbqz886x!19sChIJDTQyPBnIBZERItDXLkftQaA"
+    },
+    {
+      "id": "biz_87",
+      "name": "EL PATRIOTA💈 BARBERIA CLÁSICA",
+      "rating": 4.2,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. Alfonso Ugarte 1440, Breña 15082",
+      "url": "https://www.google.com/maps/place/EL+PATRIOTA%F0%9F%92%88+BARBERIA+CL%C3%81SICA/data=!4m7!3m6!1s0x9105c8c39dbcbf79:0x94944a8c295c37d9!8m2!3d-12.0589772!4d-77.0419471!16s%2Fg%2F11gyxch547!19sChIJeb-8ncPIBZER2TdcKYxKlJQ"
+    },
+    {
+      "id": "biz_73",
+      "name": "Melo Barber Studio💈",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Avenida Agustín de la Rosa Toro 718, San Luis 15021",
+      "url": "https://www.google.com/maps/place/Melo+Barber+Studio%F0%9F%92%88/data=!4m7!3m6!1s0x9105c7554d93aedb:0x64d35e8b9317a78b!8m2!3d-12.07749!4d-76.9949831!16s%2Fg%2F11vbjfr6d3!19sChIJ266TTVXHBZERi6cXk4te02Q"
+    },
+    {
+      "id": "biz_90",
+      "name": "Wael Barber Supply",
+      "rating": 4.1,
+      "reviewsCount": null,
+      "category": "Tienda de artículos de aseo personal",
+      "address": "Galeria tradiciones 592, Jirón Cusco 592, Lima 15001",
+      "url": "https://www.google.com/maps/place/Wael+Barber+Supply/data=!4m7!3m6!1s0x9105c9d902f1b5a5:0xc4923e2781c00f8b!8m2!3d-12.052288!4d-77.0280715!16s%2Fg%2F11rkfvm_x2!19sChIJpbXxAtnJBZERiw_AgSc-ksQ"
+    },
+    {
+      "id": "biz_7",
+      "name": "Lakers Barbershop",
+      "rating": 3.4,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Av. José Carlos Mariátegui Lt. 4, Ate 15479",
+      "url": "https://www.google.com/maps/place/Lakers+Barbershop/data=!4m7!3m6!1s0x9105e9e1f22607b1:0x4c3ecc30d7136281!8m2!3d-12.0137626!4d-76.8246873!16s%2Fg%2F11hbg9dy3w!19sChIJsQcm8uHpBZERgWIT1zDMPkw"
+    },
+    {
+      "id": "biz_94",
+      "name": "Joos barber escuela de barberia",
+      "rating": 3,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "Puente Bayli Santa Clara 7149, Lima 15487",
+      "url": "https://www.google.com/maps/place/Joos+barber+escuela+de+barberia/data=!4m7!3m6!1s0x9105c35db5a43e7d:0xb6d1619129847e6d!8m2!3d-12.0149059!4d-76.8865014!16s%2Fg%2F11gxsgjhmm!19sChIJfT6ktV3DBZERbX6EKZFh0bY"
+    },
+    {
+      "id": "biz_1",
+      "name": "Barbería TEXAS",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "X5Q5+XJH, Av. Horacio Zeballos, Lima 15476",
+      "url": "https://www.google.com/maps/place/Barber%C3%ADa+TEXAS/data=!4m7!3m6!1s0x9105c3002d63b6a3:0x1949be25fc113fdf!8m2!3d-12.0100568!4d-76.8408787!16s%2Fg%2F11wb4g7s3s!19sChIJo7ZjLQDDBZER3z8R_CW-SRk"
+    },
+    {
+      "id": "biz_4",
+      "name": "R7 Barber Studio",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "AV. Gloria MZ. Unica, Ate 15476",
+      "url": "https://www.google.com/maps/place/R7+Barber+Studio/data=!4m7!3m6!1s0x9105c3384ace891d:0xa8ca3c0a88261246!8m2!3d-12.0079287!4d-76.8529649!16s%2Fg%2F11zdq3vngj!19sChIJHYnOSjjDBZERRhImiAo8yqg"
+    },
+    {
+      "id": "biz_5",
+      "name": "Limacutz Barber Shop",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Barbería",
+      "address": "X5V4+7M3, Av. Horacio Zeballos, Lima 15476",
+      "url": "https://www.google.com/maps/place/Limacutz+Barber+Shop/data=!4m7!3m6!1s0x9105c26b7fd21a75:0xf2ca695967b193df!8m2!3d-12.0068578!4d-76.843322!16s%2Fg%2F11yc7_whc5!19sChIJdRrSf2vCBZER35OxZ1lpyvI"
+    },
+    {
+      "id": "biz_12",
+      "name": "Montano Salon - Spa & Barberia",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Peluquería",
+      "address": "X5X8+92V, Lima 15476",
+      "url": "https://www.google.com/maps/place/Montano+Salon+-+Spa+%26+Barberia/data=!4m7!3m6!1s0x9105c3002c707ec1:0x1aac3077d746e6e9!8m2!3d-12.0016273!4d-76.835108!16s%2Fg%2F11mdny106z!19sChIJwX5wLADDBZER6eZG13cwrBo"
+    },
+    {
+      "id": "biz_19",
+      "name": "Hair Styles Salón & Barbería",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "barberias",
+      "address": "X5M6+292, Av. Jaime Zubieta Calderon, Lima 15476",
+      "url": "https://www.google.com/maps/place/Hair+Styles+Sal%C3%B3n+%26+Barber%C3%ADa/data=!4m7!3m6!1s0x9105c211b452a61b:0x877320e38b0f7bb9!8m2!3d-12.0174847!4d-76.8391244!16s%2Fg%2F11x2pc0wsh!19sChIJG6ZStBHCBZERuXsPi-Mgc4c"
+    }
+  ]
+}
