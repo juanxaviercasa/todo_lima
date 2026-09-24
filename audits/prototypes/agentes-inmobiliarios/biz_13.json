@@ -1,0 +1,114 @@
+{
+  "businessId": "biz_13",
+  "name": "DEPAS CON ANDRES - Agente Inmobiliario en Lima | Especialista en Compra, Venta y Alquiler de depas",
+  "categorySlug": "agentes-inmobiliarios",
+  "district": "Lima",
+  "address": "Av. Principal, Lima, Lima",
+  "rating": "5.0",
+  "reviewsCount": 48,
+  "suggestedSubdomain": "depas-con-andres-agente-inmobili.agentes-inmobiliarios.todolima.com",
+  "theme": {
+    "primary": "#1e3a8a",
+    "accent": "#d97706",
+    "bg": "#090d16",
+    "cardBg": "#131b2e",
+    "textLight": "#f8fafc",
+    "styleName": "Corporativo & Prestigio"
+  },
+  "phoneData": {
+    "raw": null,
+    "clean": null,
+    "isMobile": false,
+    "international": null,
+    "waLink": null
+  },
+  "waLink": "https://wa.me/51999999999?text=Hola%20DEPAS%20CON%20ANDRES%20-%20Agente%20Inmobiliario%20en%20Lima%20%7C%20Especialista%20en%20Compra%2C%20Venta%20y%20Alquiler%20de%20depas%20%F0%9F%91%8B%2C%20vi%20su%20p%C3%A1gina%20web%20oficial%20en%20Lima%20y%20deseo%20cotizar%2Fagendar%20sus%20servicios.",
+  "hero": {
+    "eyebrow": "⭐ 5.0 de 5.0 en Google Maps • Atención en Lima",
+    "title": "DEPAS CON ANDRES - Agente Inmobiliario en Lima | Especialista en Compra, Venta y Alquiler de depas",
+    "headline": "Especialistas en Agentes Inmobiliarios y Corretaje con la Mayor Calificación en Lima",
+    "subtitle": "Respaldados por más de 48 opiniones verificadas en Lima. Consulta hoy mismo tus dudas o solicita cotización con atención directa a tu WhatsApp.",
+    "primaryCta": "Consultar por WhatsApp Ahora",
+    "secondaryCta": "Ver Servicios y Ubicación"
+  },
+  "valuePillars": [
+    {
+      "icon": "Award",
+      "title": "Atención Verificada",
+      "desc": "Calificación destacada de ⭐ 5.0 en Google Maps."
+    },
+    {
+      "icon": "Clock",
+      "title": "Respuesta Inmediata",
+      "desc": "Atención ágil sin intermediarios vía WhatsApp."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "100% de Confianza",
+      "desc": "Ubicación formal y acreditada en Lima."
+    },
+    {
+      "icon": "MapPin",
+      "title": "Cobertura Local",
+      "desc": "Céntrico acceso en Lima y zonas aledañas."
+    }
+  ],
+  "services": [
+    {
+      "title": "Venta Exclusiva de Inmuebles",
+      "desc": "Promoción estratégica en portales premium y base de inversionistas en Lima."
+    },
+    {
+      "title": "Alquiler Residencial y Corporativo",
+      "desc": "Filtro riguroso de inquilinos, contratos blindados y cobranza puntual."
+    },
+    {
+      "title": "Tasación Comercial de Propiedades",
+      "desc": "Estudio de mercado profesional para fijar el precio óptimo de venta en tu zona."
+    },
+    {
+      "title": "Asesoría Notarial y Registral",
+      "desc": "Acompañamiento legal completo desde la minuta hasta la entrega de llaves."
+    }
+  ],
+  "processSteps": [
+    {
+      "step": "01",
+      "title": "Escríbenos por WhatsApp",
+      "desc": "Cuéntanos tu requerimiento o consulta en 1 minuto."
+    },
+    {
+      "step": "02",
+      "title": "Presupuesto o Cita",
+      "desc": "Te brindamos la asesoría personalizada y tarifas claras."
+    },
+    {
+      "step": "03",
+      "title": "Solución Garantizada",
+      "desc": "Recibe la atención de primera que tu caso merece."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿En qué horarios atiende DEPAS CON ANDRES - Agente Inmobiliario en Lima | Especialista en Compra, Venta y Alquiler de depas?",
+      "a": "Atendemos de lunes a sábado con atención presencial en nuestro local de Lima y coordinación directa por WhatsApp."
+    },
+    {
+      "q": "¿Cómo puedo agendar una consulta o cotización?",
+      "a": "Simplemente haz clic en el botón de WhatsApp de esta página y te responderemos al instante."
+    },
+    {
+      "q": "¿Cuentan con garantía en sus servicios?",
+      "a": "Sí, todos nuestros trabajos y atenciones cuentan con el respaldo de nuestro equipo profesional y ⭐ 5.0 estrellas en Google Maps."
+    },
+    {
+      "q": "¿Dónde están ubicados exactamente en Lima?",
+      "a": "Nos encontramos en Av. Principal, Lima, Lima. Puedes encontrarnos fácilmente con Google Maps o Waze."
+    }
+  ],
+  "meta": {
+    "generatedAt": "2026-09-24T23:28:05.598Z",
+    "source": "todolima.com Prototype Engine",
+    "priorityTier": "TIER_1_ELITE"
+  }
+}

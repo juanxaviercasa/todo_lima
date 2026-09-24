@@ -16,7 +16,11 @@
     "audit": "node auditor/run-audit.js",
     "audit:all": "node auditor/run-audit.js --all",
     "audit:fast": "node auditor/run-audit.js --all --skip-http",
-    "audit:category": "node auditor/run-audit.js --category"
+    "audit:category": "node auditor/run-audit.js --category",
+    "prototype": "node auditor/generate-prototypes.js",
+    "prototype:rank": "node auditor/generate-prototypes.js --rank",
+    "prototype:top5": "node auditor/generate-prototypes.js --top 5",
+    "prototype:ranking": "node auditor/generate-prototypes.js --list-ranking"
   },
   "dependencies": {
     "lucide-react": "^1.42.0",

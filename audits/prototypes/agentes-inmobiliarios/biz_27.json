@@ -1,0 +1,114 @@
+{
+  "businessId": "biz_27",
+  "name": "Mariana Jiménez - Agente Inmobiliaria",
+  "categorySlug": "agentes-inmobiliarios",
+  "district": "Santiago de Surco",
+  "address": "RIMAC SURCO SURQUILLO, LIMA MAGDALENA, San Borja 15072",
+  "rating": "5.0",
+  "reviewsCount": 48,
+  "suggestedSubdomain": "mariana-jimenez-agente-inmobilia.agentes-inmobiliarios.todolima.com",
+  "theme": {
+    "primary": "#1e3a8a",
+    "accent": "#d97706",
+    "bg": "#090d16",
+    "cardBg": "#131b2e",
+    "textLight": "#f8fafc",
+    "styleName": "Corporativo & Prestigio"
+  },
+  "phoneData": {
+    "raw": null,
+    "clean": null,
+    "isMobile": false,
+    "international": null,
+    "waLink": null
+  },
+  "waLink": "https://wa.me/51999999999?text=Hola%20Mariana%20Jim%C3%A9nez%20-%20Agente%20Inmobiliaria%20%F0%9F%91%8B%2C%20vi%20su%20p%C3%A1gina%20web%20oficial%20en%20Santiago%20de%20Surco%20y%20deseo%20cotizar%2Fagendar%20sus%20servicios.",
+  "hero": {
+    "eyebrow": "⭐ 5.0 de 5.0 en Google Maps • Atención en Santiago de Surco",
+    "title": "Mariana Jiménez - Agente Inmobiliaria",
+    "headline": "Especialistas en Agentes Inmobiliarios y Corretaje con la Mayor Calificación en Santiago de Surco",
+    "subtitle": "Respaldados por más de 48 opiniones verificadas en Lima. Consulta hoy mismo tus dudas o solicita cotización con atención directa a tu WhatsApp.",
+    "primaryCta": "Consultar por WhatsApp Ahora",
+    "secondaryCta": "Ver Servicios y Ubicación"
+  },
+  "valuePillars": [
+    {
+      "icon": "Award",
+      "title": "Atención Verificada",
+      "desc": "Calificación destacada de ⭐ 5.0 en Google Maps."
+    },
+    {
+      "icon": "Clock",
+      "title": "Respuesta Inmediata",
+      "desc": "Atención ágil sin intermediarios vía WhatsApp."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "100% de Confianza",
+      "desc": "Ubicación formal y acreditada en Santiago de Surco."
+    },
+    {
+      "icon": "MapPin",
+      "title": "Cobertura Local",
+      "desc": "Céntrico acceso en Santiago de Surco y zonas aledañas."
+    }
+  ],
+  "services": [
+    {
+      "title": "Venta Exclusiva de Inmuebles",
+      "desc": "Promoción estratégica en portales premium y base de inversionistas en Lima."
+    },
+    {
+      "title": "Alquiler Residencial y Corporativo",
+      "desc": "Filtro riguroso de inquilinos, contratos blindados y cobranza puntual."
+    },
+    {
+      "title": "Tasación Comercial de Propiedades",
+      "desc": "Estudio de mercado profesional para fijar el precio óptimo de venta en tu zona."
+    },
+    {
+      "title": "Asesoría Notarial y Registral",
+      "desc": "Acompañamiento legal completo desde la minuta hasta la entrega de llaves."
+    }
+  ],
+  "processSteps": [
+    {
+      "step": "01",
+      "title": "Escríbenos por WhatsApp",
+      "desc": "Cuéntanos tu requerimiento o consulta en 1 minuto."
+    },
+    {
+      "step": "02",
+      "title": "Presupuesto o Cita",
+      "desc": "Te brindamos la asesoría personalizada y tarifas claras."
+    },
+    {
+      "step": "03",
+      "title": "Solución Garantizada",
+      "desc": "Recibe la atención de primera que tu caso merece."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿En qué horarios atiende Mariana Jiménez - Agente Inmobiliaria?",
+      "a": "Atendemos de lunes a sábado con atención presencial en nuestro local de Santiago de Surco y coordinación directa por WhatsApp."
+    },
+    {
+      "q": "¿Cómo puedo agendar una consulta o cotización?",
+      "a": "Simplemente haz clic en el botón de WhatsApp de esta página y te responderemos al instante."
+    },
+    {
+      "q": "¿Cuentan con garantía en sus servicios?",
+      "a": "Sí, todos nuestros trabajos y atenciones cuentan con el respaldo de nuestro equipo profesional y ⭐ 5.0 estrellas en Google Maps."
+    },
+    {
+      "q": "¿Dónde están ubicados exactamente en Santiago de Surco?",
+      "a": "Nos encontramos en RIMAC SURCO SURQUILLO, LIMA MAGDALENA, San Borja 15072. Puedes encontrarnos fácilmente con Google Maps o Waze."
+    }
+  ],
+  "meta": {
+    "generatedAt": "2026-09-24T23:28:05.627Z",
+    "source": "todolima.com Prototype Engine",
+    "priorityTier": "TIER_1_ELITE"
+  }
+}
