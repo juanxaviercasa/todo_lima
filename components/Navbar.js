@@ -36,6 +36,13 @@ export default function Navbar({ categoryTitle }) {
             <span>Datos Verificados 2026</span>
           </div>
 
+          <Link
+            href="/auditoria"
+            className="hidden md:inline-flex items-center text-xs font-semibold text-sky-700 bg-sky-50 hover:bg-sky-100 border border-sky-200 transition-colors py-1.5 px-3 rounded-xl"
+          >
+            📊 Auditoría B2B
+          </Link>
+
           <a
             href="https://wa.me/51999999999?text=Hola,%20deseo%20publicar%20mi%20negocio%20en%20todolima.com"
             target="_blank"

@@ -12,7 +12,11 @@
     "runner:loop": "node scraper/runner.js --loop",
     "runner:batch": "node scraper/runner.js --limit 3",
     "ghl:master": "node scraper/master-ghl-runner.js",
-    "ghl:category": "node scraper/master-ghl-runner.js --slug"
+    "ghl:category": "node scraper/master-ghl-runner.js --slug",
+    "audit": "node auditor/run-audit.js",
+    "audit:all": "node auditor/run-audit.js --all",
+    "audit:fast": "node auditor/run-audit.js --all --skip-http",
+    "audit:category": "node auditor/run-audit.js --category"
   },
   "dependencies": {
     "lucide-react": "^1.42.0",
