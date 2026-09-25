@@ -23,6 +23,7 @@ import { generatePrototypeBlueprint } from '../../../../auditor/engine/prototype
 import { extractDistrict, parsePhone } from '../../../../auditor/engine/districtExtractor.js';
 
 import LuxuryHeader from '../../../../components/LuxuryHeader.js';
+import LuxuryContactSection from '../../../../components/LuxuryContactSection.js';
 
 export async function generateMetadata({ params }) {
   const { category, id } = params;
@@ -124,6 +125,7 @@ export default function DemoPrototypePage({ params }) {
   const heroImg = isSilvana ? '/demo/silvana-verano/hero.jpg' : null;
   const portraitImg = isSilvana ? '/demo/silvana-verano/portrait.jpg' : null;
   const propertyImg = isSilvana ? '/demo/silvana-verano/property.jpg' : null;
+  const logoImg = isSilvana ? '/demo/silvana-verano/logo.jpg' : null;
 
   // Teléfono limpio
   const cleanPhone = phoneData?.raw || '999958372';
@@ -143,6 +145,7 @@ export default function DemoPrototypePage({ params }) {
 
       {/* HEADER EDITORIAL RESPONSIVE CLIENT COMPONENT */}
       <LuxuryHeader 
+        logoImg={logoImg}
         initials={initials}
         displayName={displayName}
         credentialTitle={credentialTitle}
@@ -876,14 +879,43 @@ export default function DemoPrototypePage({ params }) {
         </div>
       </section>
 
+      {/* SECCIÓN INTERACTIVA DE CONTACTO (EMAIL / WHATSAPP) Y MAPA INTERACTIVO GOOGLE MAPS ("UBÍCANOS") */}
+      <LuxuryContactSection 
+        displayName={displayName}
+        licenseNumber={licenseNumber}
+        address={address}
+        cleanPhone={cleanPhone}
+        intlPhone={intlPhone}
+        district={district}
+        googleMapsUrl={googleMapsUrl}
+        latitude={blueprint.latitude || -12.0971697}
+        longitude={blueprint.longitude || -77.0577323}
+      />
+
       {/* FOOTER CORPORATIVO DE LUJO */}
-      <footer id="contacto" className="bg-[#0A192F] text-white py-16 border-t border-[#C5A880]/20">
+      <footer className="bg-[#0A192F] text-white py-16 border-t border-[#C5A880]/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pb-12 border-b border-white/10">
             <div>
-              <span className="font-serif text-2xl font-bold tracking-tight text-white block mb-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
-                {displayName ? displayName.toUpperCase() : 'SILVANA VERANO'}
-              </span>
+              {logoImg ? (
+                <div className="flex items-center gap-3.5 mb-4">
+                  <div className="w-12 h-12 border border-[#C5A880] overflow-hidden bg-white/5 shrink-0 shadow-sm">
+                    <img src={logoImg} alt={displayName} className="w-full h-full object-cover" />
+                  </div>
+                  <div>
+                    <span className="font-serif text-xl font-bold tracking-tight text-white block leading-none">
+                      {displayName.toUpperCase()}
+                    </span>
+                    <span className="text-[10px] text-[#C5A880] uppercase tracking-wider font-mono mt-1 block">
+                      {licenseNumber || 'PN-11229-MVCS'}
+                    </span>
+                  </div>
+                </div>
+              ) : (
+                <span className="font-serif text-2xl font-bold tracking-tight text-white block mb-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                  {displayName ? displayName.toUpperCase() : 'SILVANA VERANO'}
+                </span>
+              )}
               <p className="text-xs text-[#C5A880] font-mono tracking-widest uppercase mb-4">
                 {credentialTitle || 'Agente Inmobiliario Registrado'} {licenseNumber ? `• ${licenseNumber}` : '• PN-11229-MVCS'}
               </p>

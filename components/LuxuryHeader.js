@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 
 export default function LuxuryHeader({
+  logoImg = null,
   initials = 'SV',
   displayName = 'Silvana Verano',
   credentialTitle = 'Agente Inmobiliario Registrado',
@@ -72,9 +73,19 @@ export default function LuxuryHeader({
           
           {/* LOGOTIPO & IDENTIDAD EDITORIAL */}
           <a href="#" className="flex items-center gap-3 shrink-0 group">
-            <div className="w-10 h-10 sm:w-11 sm:h-11 border border-[#C5A880] bg-[#0A192F] flex items-center justify-center text-[#C5A880] font-serif font-black text-lg sm:text-xl shadow-sm tracking-wider group-hover:scale-105 transition-transform shrink-0">
-              {initials}
-            </div>
+            {logoImg ? (
+              <div className="w-11 h-11 border border-[#C5A880] overflow-hidden shadow-sm shrink-0 group-hover:scale-105 transition-transform bg-[#0A192F]">
+                <img 
+                  src={logoImg} 
+                  alt={displayName} 
+                  className="w-full h-full object-cover" 
+                />
+              </div>
+            ) : (
+              <div className="w-10 h-10 sm:w-11 sm:h-11 border border-[#C5A880] bg-[#0A192F] flex items-center justify-center text-[#C5A880] font-serif font-black text-lg sm:text-xl shadow-sm tracking-wider group-hover:scale-105 transition-transform shrink-0">
+                {initials}
+              </div>
+            )}
             <div className="min-w-0">
               <span 
                 className="font-serif text-base sm:text-lg lg:text-xl font-bold tracking-tight text-[#0A192F] block leading-none truncate" 
@@ -162,9 +173,15 @@ export default function LuxuryHeader({
             <div>
               <div className="flex items-center justify-between pb-6 border-b border-white/15">
                 <div className="flex items-center gap-3">
-                  <div className="w-9 h-9 border border-[#C5A880] bg-white/10 flex items-center justify-center text-[#C5A880] font-serif font-black text-base">
-                    {initials}
-                  </div>
+                  {logoImg ? (
+                    <div className="w-10 h-10 border border-[#C5A880] overflow-hidden bg-white/10 shrink-0">
+                      <img src={logoImg} alt={displayName} className="w-full h-full object-cover" />
+                    </div>
+                  ) : (
+                    <div className="w-9 h-9 border border-[#C5A880] bg-white/10 flex items-center justify-center text-[#C5A880] font-serif font-black text-base">
+                      {initials}
+                    </div>
+                  )}
                   <div>
                     <h3 className="font-serif text-base font-bold text-white leading-none">
                       {displayName}
