@@ -222,6 +222,24 @@ export function generatePrototypeBlueprint(business, categorySlug, district, pho
       badge: "Usuario Verificado • Google Maps",
       transaction: "Asesoría Notarial y Sunarp",
       content: "Impresionante seriedad y profesionalismo. Resolvió un tema de saneamiento registral en Sunarp que otros brokers no supieron manejar. Su acompañamiento hasta la firma de la escritura nos dio total tranquilidad."
+    },
+    {
+      author: "Gonzalo Miró Quesada",
+      role: "Inversionista",
+      rating: 5,
+      date: "Hace 5 meses",
+      badge: "Local Guide • Google Maps",
+      transaction: "Compra de Departamento de Estreno",
+      content: "Gran sentido de oportunidad y transparencia. Nos asesoró en la adquisición de una unidad boutique con excelente proyección de renta. Su intermediación nos ahorró semanas de trámites."
+    },
+    {
+      author: "Lucía Echecopar de Romero",
+      role: `Propietaria en ${district}`,
+      rating: 5,
+      date: "Hace 6 meses",
+      badge: "Usuario Verificado • Google Maps",
+      transaction: "Venta Residencial Exclusiva",
+      content: `Silvana demostró una ética intachable y un manejo impecable de la negociación. Su cartera de clientes es realmente de primer nivel. Recomendable a ojos cerrados en ${district}.`
     }
   ];
 

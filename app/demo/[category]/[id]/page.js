@@ -22,6 +22,8 @@ import {
 import { generatePrototypeBlueprint } from '../../../../auditor/engine/prototypeGenerator.js';
 import { extractDistrict, parsePhone } from '../../../../auditor/engine/districtExtractor.js';
 
+import LuxuryHeader from '../../../../components/LuxuryHeader.js';
+
 export async function generateMetadata({ params }) {
   const { category, id } = params;
   const blueprintPath = path.join(process.cwd(), 'audits', 'prototypes', category, `${id}.json`);
@@ -133,53 +135,22 @@ export default function DemoPrototypePage({ params }) {
   const waRentLink = `https://wa.me/${intlPhone}?text=${encodeURIComponent(`Hola ${displayName} 👋, busco asesoría para el alquiler de un inmueble residencial/corporativo en ${district}.`)}`;
 
   return (
-    <div className="min-h-screen bg-[#FDFBF7] text-[#1A1D20] font-sans antialiased selection:bg-[#C5A880] selection:text-white scroll-smooth">
+    <div className="min-h-screen bg-[#FDFBF7] text-[#1A1D20] font-sans antialiased selection:bg-[#C5A880] selection:text-white scroll-smooth overflow-x-hidden">
       {/* Google Fonts Luxury Typography */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
-      {/* HEADER EDITORIAL DE LUJO */}
-      <header className="bg-white/95 backdrop-blur-md sticky top-0 z-50 border-b border-[#EAE6DF] transition-all">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-11 h-11 border border-[#C5A880] bg-[#0A192F] flex items-center justify-center text-[#C5A880] font-serif font-black text-xl shadow-sm tracking-wider">
-              {initials}
-            </div>
-            <div>
-              <span className="font-serif text-lg sm:text-xl font-bold tracking-tight text-[#0A192F] block leading-none" style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}>
-                {displayName ? displayName.toUpperCase() : 'SILVANA VERANO'}
-              </span>
-              <span className="text-[10px] uppercase tracking-[0.2em] font-semibold text-[#8C7A6B] mt-1 block">
-                {credentialTitle || 'Agente Inmobiliario Registrado'} {licenseNumber ? `• ${licenseNumber}` : '• PN-11229-MVCS'}
-              </span>
-            </div>
-          </div>
-
-          {/* Menú de navegación principal con anclas exactas */}
-          <nav className="hidden lg:flex items-center gap-8 text-xs font-semibold uppercase tracking-wider text-[#4A5568]">
-            <a href="#propiedades" className="hover:text-[#0A192F] transition-colors">Propiedades</a>
-            <a href="#servicios" className="hover:text-[#0A192F] transition-colors">Servicios</a>
-            <a href="#trayectoria" className="hover:text-[#0A192F] transition-colors">Trayectoria</a>
-            <a href="#metodologia" className="hover:text-[#0A192F] transition-colors">Metodología</a>
-            <a href="#reseñas" className="hover:text-[#0A192F] transition-colors">Reseñas ({reviewsCount || 7})</a>
-            <a href="#contacto" className="hover:text-[#0A192F] transition-colors">Contacto</a>
-          </nav>
-
-          <div className="flex items-center gap-3">
-            <a
-              href={waLink}
-              target="_blank"
-              rel="noreferrer"
-              className="bg-[#0A192F] hover:bg-[#132A4A] text-[#F4EBD9] font-medium text-xs sm:text-sm px-5 py-2.5 border border-[#C5A880] transition-all flex items-center gap-2 shadow-sm hover:shadow-md"
-            >
-              <MessageCircle className="w-4 h-4 text-[#C5A880]" />
-              <span className="hidden sm:inline">Contactar por WhatsApp</span>
-              <span className="sm:hidden">WhatsApp</span>
-            </a>
-          </div>
-        </div>
-      </header>
+      {/* HEADER EDITORIAL RESPONSIVE CLIENT COMPONENT */}
+      <LuxuryHeader 
+        initials={initials}
+        displayName={displayName}
+        credentialTitle={credentialTitle}
+        licenseNumber={licenseNumber}
+        reviewsCount={reviewsCount}
+        waLink={waLink}
+        cleanPhone={cleanPhone}
+      />
 
       {/* HERO SECTION DE LUJO CON FOTOGRAFÍA GENERADA */}
       <section className="relative min-h-[640px] lg:min-h-[720px] flex items-center justify-center overflow-hidden bg-[#0A192F]">
@@ -351,7 +322,7 @@ export default function DemoPrototypePage({ params }) {
                 </div>
 
                 {/* Tarjeta flotante de acreditación oficial */}
-                <div className="absolute -bottom-6 -right-4 sm:right-4 bg-[#0A192F] text-white p-4 shadow-xl border border-[#C5A880] max-w-xs">
+                <div className="absolute -bottom-5 right-2 sm:-bottom-6 sm:right-4 bg-[#0A192F] text-white p-3.5 sm:p-4 shadow-xl border border-[#C5A880] max-w-[260px] sm:max-w-xs">
                   <div className="flex items-center gap-2 mb-1">
                     <Award className="w-4 h-4 text-[#C5A880]" />
                     <span className="text-[11px] font-bold uppercase tracking-wider text-[#C5A880]">Acreditación Oficial MVCS</span>
@@ -441,150 +412,215 @@ export default function DemoPrototypePage({ params }) {
             </p>
           </div>
 
+          {/* Grid de 3 Propiedades Destacadas */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Propiedad 1: Penthouse Panorámico */}
-            <div className="bg-white border border-[#EAE6DF] shadow-sm hover:shadow-xl transition-all duration-300 group overflow-hidden">
-              <div className="relative aspect-[16/10] overflow-hidden bg-slate-200">
-                {heroImg ? (
-                  <img 
-                    src={heroImg} 
-                    alt="Penthouse Panorámico Golf View"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
-                  />
-                ) : (
-                  <div className="w-full h-full bg-[#10223D]" />
-                )}
-                <div className="absolute top-3 left-3 bg-[#C5A880] text-[#0A192F] text-[10px] uppercase font-bold tracking-widest px-2.5 py-1">
-                  Penthouse de Lujo
+            <div className="bg-white border border-[#EAE6DF] shadow-sm hover:shadow-xl transition-all duration-300 group overflow-hidden flex flex-col justify-between">
+              <div>
+                <div className="relative aspect-[16/10] overflow-hidden bg-slate-200">
+                  {heroImg ? (
+                    <img 
+                      src={heroImg} 
+                      alt="Penthouse Panorámico Golf View"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-[#10223D]" />
+                  )}
+                  <div className="absolute top-3 left-3 bg-[#C5A880] text-[#0A192F] text-[10px] uppercase font-bold tracking-widest px-2.5 py-1">
+                    Penthouse de Lujo
+                  </div>
+                  <div className="absolute bottom-3 right-3 bg-white/95 text-[#0A192F] text-xs font-bold px-3 py-1 shadow-md">
+                    $890,000 USD
+                  </div>
                 </div>
-                <div className="absolute bottom-3 right-3 bg-white/95 text-[#0A192F] text-xs font-bold px-3 py-1 shadow-md">
-                  $890,000 USD
+
+                <div className="p-6">
+                  <span className="text-xs font-semibold text-[#9A7B4F] flex items-center gap-1 mb-1">
+                    <MapPin className="w-3 h-3" />
+                    Frente al Lima Golf Club, {district}
+                  </span>
+                  <h3 className="font-serif text-xl font-bold text-[#0A192F] mb-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                    Penthouse Panorámico — Golf View
+                  </h3>
+                  <p className="text-xs text-[#718096] line-clamp-2 mb-4 font-light">
+                    Vistas espectaculares de 360° al Golf, ventanales de piso a techo, ascensor directo y terraza con piscina privada.
+                  </p>
+
+                  <div className="flex items-center justify-between text-xs text-[#4A5568] py-3 border-y border-[#F0ECE1]">
+                    <span>🛏️ 4 Suites</span>
+                    <span>🚿 5 Baños</span>
+                    <span>📐 360 m²</span>
+                    <span>🚗 3 Coch.</span>
+                  </div>
                 </div>
               </div>
 
-              <div className="p-6">
-                <span className="text-xs font-semibold text-[#9A7B4F] flex items-center gap-1 mb-1">
-                  <MapPin className="w-3 h-3" />
-                  Frente al Lima Golf Club, {district}
-                </span>
-                <h3 className="font-serif text-xl font-bold text-[#0A192F] mb-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
-                  Penthouse Panorámico — Golf View
-                </h3>
-                <p className="text-xs text-[#718096] line-clamp-2 mb-4 font-light">
-                  Vistas espectaculares de 360° al Golf, ventanales de piso a techo, ascensor directo y terraza con piscina privada.
-                </p>
-
-                <div className="flex items-center justify-between text-xs text-[#4A5568] py-3 border-y border-[#F0ECE1]">
-                  <span>🛏️ 4 Suites</span>
-                  <span>🚿 5 Baños</span>
-                  <span>📐 360 m²</span>
-                  <span>🚗 3 Cocheras</span>
-                </div>
-
-                <div className="mt-4 pt-2">
-                  <a
-                    href={`https://wa.me/${intlPhone}?text=${encodeURIComponent(`Hola ${displayName}, deseo información y el dossier del Penthouse Panorámico Golf View ($890,000 USD).`)}`}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="w-full bg-[#0A192F] hover:bg-[#132A4A] text-white text-xs font-bold py-2.5 px-4 text-center block transition-colors"
-                  >
-                    Solicitar Dossier Completo por WhatsApp
-                  </a>
-                </div>
+              <div className="p-6 pt-0">
+                <a
+                  href={`https://wa.me/${intlPhone}?text=${encodeURIComponent(`Hola ${displayName}, deseo información y el dossier del Penthouse Panorámico Golf View ($890,000 USD).`)}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-full bg-[#0A192F] hover:bg-[#132A4A] text-white text-xs font-bold py-3 px-4 text-center block transition-colors"
+                >
+                  Solicitar Dossier por WhatsApp
+                </a>
               </div>
             </div>
 
             {/* Propiedad 2: Boutique Residences Edificio Montero */}
-            <div className="bg-white border border-[#EAE6DF] shadow-sm hover:shadow-xl transition-all duration-300 group overflow-hidden">
-              <div className="relative aspect-[16/10] overflow-hidden bg-slate-200">
-                {propertyImg ? (
-                  <img 
-                    src={propertyImg} 
-                    alt="Boutique Residences Edificio Montero"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
-                  />
-                ) : (
-                  <div className="w-full h-full bg-[#10223D]" />
-                )}
-                <div className="absolute top-3 left-3 bg-[#0A192F] text-[#F4EBD9] text-[10px] uppercase font-bold tracking-widest px-2.5 py-1">
-                  En Venta Exclusiva
+            <div className="bg-white border border-[#EAE6DF] shadow-sm hover:shadow-xl transition-all duration-300 group overflow-hidden flex flex-col justify-between">
+              <div>
+                <div className="relative aspect-[16/10] overflow-hidden bg-slate-200">
+                  {propertyImg ? (
+                    <img 
+                      src={propertyImg} 
+                      alt="Boutique Residences Edificio Montero"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-[#10223D]" />
+                  )}
+                  <div className="absolute top-3 left-3 bg-[#0A192F] text-[#F4EBD9] text-[10px] uppercase font-bold tracking-widest px-2.5 py-1">
+                    En Venta Exclusiva
+                  </div>
+                  <div className="absolute bottom-3 right-3 bg-white/95 text-[#0A192F] text-xs font-bold px-3 py-1 shadow-md">
+                    $480,000 USD
+                  </div>
                 </div>
-                <div className="absolute bottom-3 right-3 bg-white/95 text-[#0A192F] text-xs font-bold px-3 py-1 shadow-md">
-                  $480,000 USD
+
+                <div className="p-6">
+                  <span className="text-xs font-semibold text-[#9A7B4F] flex items-center gap-1 mb-1">
+                    <MapPin className="w-3 h-3" />
+                    {district} Tradicional
+                  </span>
+                  <h3 className="font-serif text-xl font-bold text-[#0A192F] mb-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                    Boutique Residences — Edificio Montero
+                  </h3>
+                  <p className="text-xs text-[#718096] line-clamp-2 mb-4 font-light">
+                    Departamentos de estreno con terrazas ajardinadas, acabados en madera fina y mármol italiano.
+                  </p>
+
+                  <div className="flex items-center justify-between text-xs text-[#4A5568] py-3 border-y border-[#F0ECE1]">
+                    <span>🛏️ 3 Dorm.</span>
+                    <span>🚿 3 Baños</span>
+                    <span>📐 185 m²</span>
+                    <span>🚗 2 Coch.</span>
+                  </div>
                 </div>
               </div>
 
-              <div className="p-6">
-                <span className="text-xs font-semibold text-[#9A7B4F] flex items-center gap-1 mb-1">
-                  <MapPin className="w-3 h-3" />
-                  {district} Tradicional
-                </span>
-                <h3 className="font-serif text-xl font-bold text-[#0A192F] mb-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
-                  Boutique Residences — Edificio Montero
-                </h3>
-                <p className="text-xs text-[#718096] line-clamp-2 mb-4 font-light">
-                  Departamentos de estreno con terrazas ajardinadas, acabados en madera fina y mármol italiano.
-                </p>
-
-                <div className="flex items-center justify-between text-xs text-[#4A5568] py-3 border-y border-[#F0ECE1]">
-                  <span>🛏️ 3 Dormitorios</span>
-                  <span>🚿 3 Baños</span>
-                  <span>📐 185 m²</span>
-                  <span>🚗 2 Cocheras</span>
-                </div>
-
-                <div className="mt-4 pt-2">
-                  <a
-                    href={`https://wa.me/${intlPhone}?text=${encodeURIComponent(`Hola ${displayName}, deseo información y el dossier de Boutique Residences Edificio Montero ($480,000 USD).`)}`}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="w-full bg-[#0A192F] hover:bg-[#132A4A] text-white text-xs font-bold py-2.5 px-4 text-center block transition-colors"
-                  >
-                    Solicitar Dossier Completo por WhatsApp
-                  </a>
-                </div>
+              <div className="p-6 pt-0">
+                <a
+                  href={`https://wa.me/${intlPhone}?text=${encodeURIComponent(`Hola ${displayName}, deseo información y el dossier de Boutique Residences Edificio Montero ($480,000 USD).`)}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-full bg-[#0A192F] hover:bg-[#132A4A] text-white text-xs font-bold py-3 px-4 text-center block transition-colors"
+                >
+                  Solicitar Dossier por WhatsApp
+                </a>
               </div>
             </div>
 
-            {/* Tarjeta 3: Captación de Propietarios */}
-            <div className="bg-[#0A192F] text-white border border-[#C5A880]/30 p-8 flex flex-col justify-between shadow-lg relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-[#C5A880]/10 rounded-full blur-2xl" />
-
+            {/* Propiedad 3: Residencia Colonial Contemporánea */}
+            <div className="bg-white border border-[#EAE6DF] shadow-sm hover:shadow-xl transition-all duration-300 group overflow-hidden flex flex-col justify-between">
               <div>
-                <span className="text-[#C5A880] text-[10px] font-bold uppercase tracking-[0.2em] block mb-3">
-                  Para Propietarios en Lima
-                </span>
-                <h3 className="font-serif text-2xl font-bold text-white mb-3" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
-                  ¿Deseas Vender o Alquilar tu Propiedad en {district}?
-                </h3>
-                <p className="text-xs text-slate-300 leading-relaxed font-light mb-6">
-                  Realizamos un estudio de mercado riguroso para tasar tu propiedad a precio comercial óptimo y la promovemos con discreción ante clientes e inversionistas precalificados.
-                </p>
-                <ul className="space-y-2 text-xs text-slate-300 mb-6">
-                  <li className="flex items-center gap-2">
-                    <Check className="w-3.5 h-3.5 text-[#C5A880]" />
-                    <span>Filtro financiero riguroso de compradores</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="w-3.5 h-3.5 text-[#C5A880]" />
-                    <span>Fotografía y video profesional de alta gama</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Check className="w-3.5 h-3.5 text-[#C5A880]" />
-                    <span>Gestión notarial completa hasta la entrega</span>
-                  </li>
-                </ul>
+                <div className="relative aspect-[16/10] overflow-hidden bg-slate-200">
+                  {heroImg ? (
+                    <img 
+                      src={heroImg} 
+                      alt="Residencia Colonial Contemporánea"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 brightness-95" 
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-[#10223D]" />
+                  )}
+                  <div className="absolute top-3 left-3 bg-[#0A192F] text-[#C5A880] text-[10px] uppercase font-bold tracking-widest px-2.5 py-1">
+                    Residencia Exclusiva
+                  </div>
+                  <div className="absolute bottom-3 right-3 bg-white/95 text-[#0A192F] text-xs font-bold px-3 py-1 shadow-md">
+                    $1,250,000 USD
+                  </div>
+                </div>
+
+                <div className="p-6">
+                  <span className="text-xs font-semibold text-[#9A7B4F] flex items-center gap-1 mb-1">
+                    <MapPin className="w-3 h-3" />
+                    {district} / Lima Top
+                  </span>
+                  <h3 className="font-serif text-xl font-bold text-[#0A192F] mb-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                    Residencia Colonial Contemporánea
+                  </h3>
+                  <p className="text-xs text-[#718096] line-clamp-2 mb-4 font-light">
+                    Imponente residencia con amplios jardines interiores, techos a doble altura, cava privada y máxima seguridad.
+                  </p>
+
+                  <div className="flex items-center justify-between text-xs text-[#4A5568] py-3 border-y border-[#F0ECE1]">
+                    <span>🛏️ 5 Dorm.</span>
+                    <span>🚿 6 Baños</span>
+                    <span>📐 520 m²</span>
+                    <span>🚗 4 Coch.</span>
+                  </div>
+                </div>
               </div>
 
-              <div>
+              <div className="p-6 pt-0">
+                <a
+                  href={`https://wa.me/${intlPhone}?text=${encodeURIComponent(`Hola ${displayName}, deseo información sobre la Residencia Colonial Contemporánea en ${district}.`)}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-full bg-[#0A192F] hover:bg-[#132A4A] text-white text-xs font-bold py-3 px-4 text-center block transition-colors"
+                >
+                  Solicitar Dossier por WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Banner VIP para Propietarios (Full-Width Editorial) */}
+          <div className="mt-12 bg-[#0A192F] text-white border border-[#C5A880]/30 p-8 sm:p-10 shadow-xl relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-[#C5A880]/10 rounded-full blur-3xl pointer-events-none" />
+
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
+              <div className="lg:col-span-8">
+                <span className="text-[#C5A880] text-[11px] font-bold uppercase tracking-[0.25em] block mb-2">
+                  Servicio Exclusivo para Propietarios en Lima
+                </span>
+                <h3 className="font-serif text-2xl sm:text-3xl font-bold text-white mb-3" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                  ¿Deseas Vender o Alquilar tu Propiedad en {district}?
+                </h3>
+                <p className="text-xs sm:text-sm text-slate-300 leading-relaxed font-light mb-6 max-w-2xl">
+                  Realizamos un estudio de mercado riguroso para tasar tu propiedad a precio comercial óptimo y la promovemos con discreción ante inversionistas precalificados sin pérdidas de tiempo.
+                </p>
+
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs text-slate-300">
+                  <div className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-[#C5A880] shrink-0" />
+                    <span>Filtro de solvencia previa</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-[#C5A880] shrink-0" />
+                    <span>Fotografía y video HD</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-[#C5A880] shrink-0" />
+                    <span>Contratos 100% blindados</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="lg:col-span-4 flex flex-col gap-3">
                 <a
                   href={waSellLink}
                   target="_blank"
                   rel="noreferrer"
-                  className="w-full bg-[#C5A880] hover:bg-[#b5976e] text-[#0A192F] text-xs font-bold py-3.5 px-4 text-center block transition-all shadow-md hover:shadow-xl"
+                  className="w-full bg-[#C5A880] hover:bg-[#b5976e] text-[#0A192F] text-xs font-bold py-4 px-6 text-center block transition-all shadow-lg hover:shadow-2xl hover:scale-[1.02] tracking-wider uppercase"
                 >
-                  Solicitar Tasación Comercial Sin Costo
+                  Solicitar Tasación Sin Costo
                 </a>
+                <p className="text-[10px] text-center text-slate-400 font-light">
+                  Respuesta directa en menos de 2 horas vía WhatsApp
+                </p>
               </div>
             </div>
           </div>
