@@ -253,25 +253,30 @@ export default function LuxuryContactSection({
             )}
           </div>
 
-          {/* COLUMNA 2: MAPA INTERACTIVO GOOGLE MAPS ("UBÍCANOS / ENCUÉNTRANOS") (5 COLS) */}
-          <div className="lg:col-span-5 space-y-6">
+          {/* COLUMNA 2: MAPA INTERACTIVO GOOGLE MAPS ("UBICACIÓN & GPS") (5 COLS) */}
+          <div className="lg:col-span-5 flex flex-col">
             
             {/* Contenedor del Mapa Google Maps */}
-            <div className="bg-white border border-[#EAE6DF] p-3 shadow-lg">
-              <div className="flex items-center justify-between p-2 mb-2">
+            <div className="bg-white border border-[#EAE6DF] p-4 sm:p-5 shadow-lg flex flex-col flex-1">
+              <div className="flex items-center justify-between pb-3 mb-3 border-b border-[#F0ECE1]">
                 <div className="flex items-center gap-2">
                   <MapPin className="w-4 h-4 text-[#C5A880]" />
                   <span className="font-serif text-lg font-bold text-[#0A192F]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                     Ubicación en Google Maps
                   </span>
                 </div>
-                <span className="text-[10px] font-mono uppercase bg-[#0A192F] text-[#C5A880] px-2 py-0.5 font-bold">
+                <span className="text-[10px] font-mono uppercase bg-[#0A192F] text-[#C5A880] px-2.5 py-1 font-bold tracking-wider">
                   {district}
                 </span>
               </div>
 
-              {/* Iframe interactivo embebido */}
-              <div className="relative w-full h-[320px] sm:h-[360px] overflow-hidden bg-slate-100 border border-[#EAE6DF]">
+              {/* Dirección de referencia */}
+              <div className="text-xs text-[#718096] mb-3 flex items-center gap-1.5 font-light">
+                <span className="font-medium text-[#0A192F]">{address}</span>
+              </div>
+
+              {/* Iframe interactivo embebido expandido verticalmente */}
+              <div className="relative w-full h-[380px] sm:h-[420px] lg:h-[450px] overflow-hidden bg-slate-100 border border-[#EAE6DF] shadow-inner">
                 <iframe
                   title={`Ubicación de ${displayName} en Google Maps`}
                   src={mapEmbedUrl}
@@ -281,17 +286,17 @@ export default function LuxuryContactSection({
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  className="w-full h-full"
+                  className="w-full h-full absolute inset-0"
                 />
               </div>
 
-              {/* Botones de navegación GPS */}
-              <div className="grid grid-cols-2 gap-2 mt-3 pt-2 border-t border-[#F0ECE1]">
+              {/* Botones de navegación GPS directa */}
+              <div className="grid grid-cols-2 gap-3 mt-4 pt-3 border-t border-[#F0ECE1]">
                 <a
                   href={googleMapsUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-[#0A192F] hover:bg-[#132A4A] text-white text-xs font-semibold py-2.5 px-3 text-center flex items-center justify-center gap-1.5 transition-colors"
+                  className="bg-[#0A192F] hover:bg-[#132A4A] text-white text-xs font-semibold py-2.5 px-3 text-center flex items-center justify-center gap-1.5 transition-colors shadow-sm"
                 >
                   <Compass className="w-3.5 h-3.5 text-[#C5A880]" />
                   <span>Google Maps ↗</span>
@@ -301,55 +306,9 @@ export default function LuxuryContactSection({
                   href={wazeUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-[#29B6F6] hover:bg-[#0288D1] text-white text-xs font-semibold py-2.5 px-3 text-center flex items-center justify-center gap-1.5 transition-colors"
+                  className="bg-[#29B6F6] hover:bg-[#0288D1] text-white text-xs font-semibold py-2.5 px-3 text-center flex items-center justify-center gap-1.5 transition-colors shadow-sm"
                 >
                   <span>Abrir en Waze ↗</span>
-                </a>
-              </div>
-            </div>
-
-            {/* Ficha de Información de la Oficina */}
-            <div className="bg-[#0A192F] text-white p-6 border border-[#C5A880]/30 shadow-md space-y-4">
-              <div className="flex items-center gap-3 pb-3 border-b border-white/10">
-                <div className="w-9 h-9 border border-[#C5A880] bg-white/10 flex items-center justify-center text-[#C5A880] font-serif font-black text-sm shrink-0">
-                  SV
-                </div>
-                <div>
-                  <h4 className="font-serif text-base font-bold text-white leading-none">
-                    Oficina de Atención Presencial
-                  </h4>
-                  <p className="text-[10px] text-[#C5A880] uppercase tracking-wider font-mono mt-1">
-                    {licenseNumber || 'PN-11229-MVCS'}
-                  </p>
-                </div>
-              </div>
-
-              <div className="space-y-2.5 text-xs text-slate-300 font-light">
-                <p className="flex items-start gap-2.5">
-                  <MapPin className="w-4 h-4 text-[#C5A880] shrink-0 mt-0.5" />
-                  <span>{address}</span>
-                </p>
-
-                <p className="flex items-center gap-2.5">
-                  <Phone className="w-4 h-4 text-[#C5A880] shrink-0" />
-                  <span>Teléfono / WhatsApp: <strong className="text-white font-mono">{cleanPhone}</strong></span>
-                </p>
-
-                <p className="flex items-center gap-2.5">
-                  <Clock className="w-4 h-4 text-[#C5A880] shrink-0" />
-                  <span>Lunes a Sábado: 9:00 AM – 7:00 PM (Previa Cita)</span>
-                </p>
-              </div>
-
-              <div className="pt-2">
-                <a
-                  href={waDirectLink}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="w-full bg-[#C5A880] hover:bg-[#b5976e] text-[#0A192F] font-bold text-xs uppercase tracking-wider py-3 px-4 flex items-center justify-center gap-2 transition-all shadow"
-                >
-                  <MessageCircle className="w-4 h-4 fill-[#0A192F]" />
-                  <span>Agendar Cita en Oficina</span>
                 </a>
               </div>
             </div>

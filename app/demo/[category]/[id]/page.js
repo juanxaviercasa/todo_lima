@@ -925,47 +925,77 @@ export default function DemoPrototypePage({ params }) {
             </div>
 
             <div>
-              <h4 className="text-xs uppercase font-bold tracking-widest text-[#C5A880] mb-4">Ubicación & Atención</h4>
-              <p className="text-xs text-slate-300 flex items-start gap-2 mb-2 font-light">
-                <MapPin className="w-4 h-4 text-[#C5A880] shrink-0 mt-0.5" />
-                <span>{address}</span>
-              </p>
-              <p className="text-xs text-slate-300 flex items-center gap-2 mb-2 font-light">
-                <Phone className="w-4 h-4 text-[#C5A880] shrink-0" />
-                <span>Teléfono / WhatsApp: {cleanPhone}</span>
-              </p>
-              <p className="text-xs text-slate-300 flex items-center gap-2 font-light">
-                <Clock className="w-4 h-4 text-[#C5A880] shrink-0" />
-                <span>Lunes a Sábado: 9:00 AM - 7:00 PM</span>
-              </p>
+              <h4 className="text-xs uppercase font-bold tracking-widest text-[#C5A880] mb-4">Navegación del Portal</h4>
+              <ul className="space-y-2 text-xs text-slate-400 font-light">
+                <li>
+                  <a href="#propiedades" className="hover:text-[#C5A880] transition-colors flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#C5A880]/60"></span>
+                    <span>Propiedades en Cartera Exclusiva</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#servicios" className="hover:text-[#C5A880] transition-colors flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#C5A880]/60"></span>
+                    <span>Servicios Inmobiliarios & Tasaciones</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#trayectoria" className="hover:text-[#C5A880] transition-colors flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#C5A880]/60"></span>
+                    <span>Trayectoria & Credenciales Notariales</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#metodologia" className="hover:text-[#C5A880] transition-colors flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#C5A880]/60"></span>
+                    <span>Metodología de Venta & Blindaje Legal</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#testimonios" className="hover:text-[#C5A880] transition-colors flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#C5A880]/60"></span>
+                    <span>Reseñas Verificadas Google Maps (5.0 ★)</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#contacto" className="hover:text-[#C5A880] transition-colors flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#C5A880]/60"></span>
+                    <span>Consulta Inmobiliaria Directa</span>
+                  </a>
+                </li>
+              </ul>
             </div>
 
             <div>
-              <h4 className="text-xs uppercase font-bold tracking-widest text-[#C5A880] mb-4">Contacto Directo</h4>
-              <p className="text-xs text-slate-400 font-light mb-4">
-                Coordina una visita guiada o solicita la tasación comercial de tu inmueble directamente con {displayName}.
+              <h4 className="text-xs uppercase font-bold tracking-widest text-[#C5A880] mb-4">Atención & Asesoría</h4>
+              <p className="text-xs text-slate-400 font-light mb-4 leading-relaxed">
+                Asesoría personalizada para propietarios, compradores e inversionistas en San Isidro y Lima Top.
               </p>
-              <div className="flex flex-col gap-2">
+              <div className="space-y-3">
                 <a
-                  href={waLink}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-[#C5A880] hover:bg-[#b5976e] text-[#0A192F] text-xs font-bold py-3 px-5 transition-all"
+                  href={`tel:${cleanPhone}`}
+                  className="flex items-center gap-2.5 text-xs text-slate-300 hover:text-white transition-colors group"
                 >
-                  <MessageCircle className="w-4 h-4 fill-[#0A192F]" />
-                  <span>Escribir al WhatsApp Oficial</span>
+                  <Phone className="w-4 h-4 text-[#C5A880] group-hover:scale-110 transition-transform" />
+                  <span>Central Directa: <strong className="text-white font-mono">{cleanPhone}</strong></span>
                 </a>
-                {googleMapsUrl && (
+
+                <div className="flex items-center gap-2.5 text-xs text-slate-400 font-light">
+                  <Clock className="w-4 h-4 text-[#C5A880] shrink-0" />
+                  <span>Lun a Sáb: 9:00 AM – 7:00 PM (Previa Cita)</span>
+                </div>
+
+                <div className="pt-2">
                   <a
-                    href={googleMapsUrl}
+                    href={waLink}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center justify-center gap-1.5 text-xs text-slate-300 hover:text-white py-2 border border-white/20 transition-colors"
+                    className="inline-flex items-center justify-center gap-2 w-full bg-[#C5A880] hover:bg-[#b5976e] text-[#0A192F] text-xs font-bold py-3 px-4 transition-all shadow"
                   >
-                    <span>Abrir en Google Maps</span>
-                    <ExternalLink className="w-3 h-3 text-[#C5A880]" />
+                    <MessageCircle className="w-4 h-4 fill-[#0A192F]" />
+                    <span>Contactar a Silvana por WhatsApp</span>
                   </a>
-                )}
+                </div>
               </div>
             </div>
           </div>
