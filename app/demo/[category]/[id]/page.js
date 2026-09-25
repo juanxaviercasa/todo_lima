@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 import { generatePrototypeBlueprint } from '../../../../auditor/engine/prototypeGenerator.js';
 import { extractDistrict, parsePhone } from '../../../../auditor/engine/districtExtractor.js';
+import ZipWpCopyButton from '../../../../components/ZipWpCopyButton.js';
 
 export async function generateMetadata({ params }) {
   const { category, id } = params;
@@ -77,13 +78,18 @@ export default function DemoPrototypePage({ params }) {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-sky-500 selection:text-white">
       {/* Banner de Prototipo Comercial Exclusivo */}
-      <div className="bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 text-slate-950 px-4 py-2 text-xs font-black tracking-wide text-center sticky top-0 z-50 shadow-md flex items-center justify-center gap-2 flex-wrap">
-        <Sparkles className="w-4 h-4 shrink-0" />
-        <span>PROTOTIPO EXCLUSIVO DISEÑADO PARA: <strong>{blueprint.name.toUpperCase()}</strong></span>
-        <span className="hidden sm:inline">•</span>
-        <span className="text-[11px] font-bold bg-slate-950 text-amber-300 px-2 py-0.5 rounded-md">
-          Listo para Desplegar en {blueprint.suggestedSubdomain}
-        </span>
+      <div className="bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 text-slate-950 px-4 py-2 text-xs font-black tracking-wide text-center sticky top-0 z-50 shadow-md flex items-center justify-between gap-3 flex-wrap">
+        <div className="flex items-center gap-2">
+          <Sparkles className="w-4 h-4 shrink-0 text-slate-950" />
+          <span>PROTOTIPO EXCLUSIVO PARA: <strong>{blueprint.name.toUpperCase()}</strong></span>
+          <span className="hidden sm:inline">•</span>
+          <span className="text-[11px] font-bold bg-slate-950 text-amber-300 px-2 py-0.5 rounded-md">
+            {blueprint.suggestedSubdomain}
+          </span>
+        </div>
+
+        {/* Botón de 1 Clic para ZipWP */}
+        <ZipWpCopyButton promptText={blueprint.zipwpPrompt} />
       </div>
 
       {/* Header del Negocio */}

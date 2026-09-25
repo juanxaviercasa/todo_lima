@@ -157,7 +157,9 @@ Al ver que aún no cuentan con una página web oficial con catálogo y reserva d
       demoUrlLocal: demoUrl,
       demoUrlProd: prodDemoUrl,
       waDemoUrl,
-      pitchWithDemo
+      pitchWithDemo,
+      zipwpPrompt: blueprint.zipwpPrompt,
+      zipwpLength: blueprint.zipwpLength
     });
   }
 

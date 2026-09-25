@@ -23,6 +23,8 @@
     "waLink": null
   },
   "waLink": "https://wa.me/51999999999?text=Hola%20Agentes%20y%20Asesor%C3%ADas%20Inmobiliarias%20S.R.L%20%F0%9F%91%8B%2C%20vi%20su%20p%C3%A1gina%20web%20oficial%20en%20Lince%20y%20deseo%20cotizar%2Fagendar%20sus%20servicios.",
+  "zipwpPrompt": "Crea un sitio web profesional y corporativo en español para \"Agentes y Asesorías Inmobiliarias S.R.L\", un negocio de Agentes Inmobiliarios y Corretaje ubicado en Lince, Lima, Perú.\nCalificación destacada: ⭐ 4.9/5.0 con más de 48 opiniones en Google Maps.\n\nEstructura requerida:\n1. Héroe Principal: Título de alto impacto que proyecte autoridad en Lince, subtítulo persuasivo y botón directo a WhatsApp (\"Contactar por WhatsApp\") y llamada táctil.\n2. Servicios Principales:\n• Venta Exclusiva de Inmuebles: Promoción estratégica en portales premium y base de inversionistas en Lima.\n• Alquiler Residencial y Corporativo: Filtro riguroso de inquilinos, contratos blindados y cobranza puntual.\n• Tasación Comercial de Propiedades: Estudio de mercado profesional para fijar el precio óptimo de venta en tu zona.\n• Asesoría Notarial y Registral: Acompañamiento legal completo desde la minuta hasta la entrega de llaves.\n3. Por qué elegirnos: Confianza, atención rápida en Lince, satisfacción garantizada y atención personalizada.\n4. Testimonios: Reseñas de clientes satisfechos en Lima valorando la puntualidad, profesionalismo y trato de primera.\n5. Preguntas Frecuentes (FAQs): Preguntas clave sobre tarifas, reservas y horarios de atención.\n6. Pie de Página y Contacto: Dirección física (Av. Petit Thouars 1775, Lince 15046), botón de WhatsApp flotante y mapa de ubicación.\n\nEstilo y diseño:\n- Tono: Profesional, elegante, confiable y enfocado en conversión comercial.\n- Colores recomendados: Corporativo & Prestigio (#1e3a8a y #d97706) sobre fondo blanco limpio.\n- Mobile First: Optimizado para celulares con botones grandes para WhatsApp y llamadas.",
+  "zipwpLength": 1648,
   "hero": {
     "eyebrow": "⭐ 4.9 de 5.0 en Google Maps • Atención en Lince",
     "title": "Agentes y Asesorías Inmobiliarias S.R.L",
@@ -107,7 +109,7 @@
     }
   ],
   "meta": {
-    "generatedAt": "2026-09-24T23:28:05.654Z",
+    "generatedAt": "2026-09-25T00:59:08.035Z",
     "source": "todolima.com Prototype Engine",
     "priorityTier": "TIER_1_ELITE"
   }

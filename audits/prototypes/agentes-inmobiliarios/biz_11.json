@@ -23,6 +23,8 @@
     "waLink": null
   },
   "waLink": "https://wa.me/51999999999?text=Hola%20Inmobiliaria%20JY%20%F0%9F%91%8B%2C%20vi%20su%20p%C3%A1gina%20web%20oficial%20en%20La%20Molina%20y%20deseo%20cotizar%2Fagendar%20sus%20servicios.",
+  "zipwpPrompt": "Crea un sitio web profesional y corporativo en español para \"Inmobiliaria JY\", un negocio de Agentes Inmobiliarios y Corretaje ubicado en La Molina, Lima, Perú.\nCalificación destacada: ⭐ 5.0/5.0 con más de 48 opiniones en Google Maps.\n\nEstructura requerida:\n1. Héroe Principal: Título de alto impacto que proyecte autoridad en La Molina, subtítulo persuasivo y botón directo a WhatsApp (\"Contactar por WhatsApp\") y llamada táctil.\n2. Servicios Principales:\n• Venta Exclusiva de Inmuebles: Promoción estratégica en portales premium y base de inversionistas en Lima.\n• Alquiler Residencial y Corporativo: Filtro riguroso de inquilinos, contratos blindados y cobranza puntual.\n• Tasación Comercial de Propiedades: Estudio de mercado profesional para fijar el precio óptimo de venta en tu zona.\n• Asesoría Notarial y Registral: Acompañamiento legal completo desde la minuta hasta la entrega de llaves.\n3. Por qué elegirnos: Confianza, atención rápida en La Molina, satisfacción garantizada y atención personalizada.\n4. Testimonios: Reseñas de clientes satisfechos en Lima valorando la puntualidad, profesionalismo y trato de primera.\n5. Preguntas Frecuentes (FAQs): Preguntas clave sobre tarifas, reservas y horarios de atención.\n6. Pie de Página y Contacto: Dirección física (Av. Alameda Del Corregidor 1500 Urbanización, La Molina), botón de WhatsApp flotante y mapa de ubicación.\n\nEstilo y diseño:\n- Tono: Profesional, elegante, confiable y enfocado en conversión comercial.\n- Colores recomendados: Corporativo & Prestigio (#1e3a8a y #d97706) sobre fondo blanco limpio.\n- Mobile First: Optimizado para celulares con botones grandes para WhatsApp y llamadas.",
+  "zipwpLength": 1656,
   "hero": {
     "eyebrow": "⭐ 5.0 de 5.0 en Google Maps • Atención en La Molina",
     "title": "Inmobiliaria JY",
@@ -107,7 +109,7 @@
     }
   ],
   "meta": {
-    "generatedAt": "2026-09-24T23:28:05.597Z",
+    "generatedAt": "2026-09-25T00:59:07.997Z",
     "source": "todolima.com Prototype Engine",
     "priorityTier": "TIER_1_ELITE"
   }

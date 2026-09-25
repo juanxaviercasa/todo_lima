@@ -156,7 +156,17 @@ export default function AuditoriaClient({ initialData }) {
             </div>
 
             {/* Botones de acción del Modal */}
-            <div className="mt-6 flex flex-wrap gap-3">
+            <div className="mt-6 flex flex-wrap gap-2.5">
+              <a
+                href={`/demo/${selectedBiz.categorySlug}/${selectedBiz.id}`}
+                target="_blank"
+                rel="noreferrer"
+                className="flex-1 bg-sky-500 hover:bg-sky-600 text-slate-950 font-bold px-4 py-3 rounded-xl flex items-center justify-center gap-2 transition"
+              >
+                <Sparkles className="w-4 h-4 fill-slate-950" />
+                <span>Ver Prototipo Demo en Vivo</span>
+              </a>
+
               {selectedBiz.proposal.whatsappUrl && (
                 <a
                   href={selectedBiz.proposal.whatsappUrl}
@@ -165,9 +175,10 @@ export default function AuditoriaClient({ initialData }) {
                   className="flex-1 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold px-4 py-3 rounded-xl flex items-center justify-center gap-2 transition"
                 >
                   <Send className="w-4 h-4" />
-                  <span>Abrir WhatsApp con Mensaje</span>
+                  <span>Abrir WhatsApp</span>
                 </a>
               )}
+
               <button
                 onClick={() => copyToClipboard(selectedBiz.proposal.whatsappPitch)}
                 className="bg-slate-800 hover:bg-slate-700 text-white font-semibold px-4 py-3 rounded-xl flex items-center justify-center gap-2 border border-slate-700 transition"

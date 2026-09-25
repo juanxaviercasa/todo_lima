@@ -160,6 +160,29 @@ export function generatePrototypeBlueprint(business, categorySlug, district, pho
     ? `https://wa.me/${phoneData.international}?text=${waPreText}`
     : `https://wa.me/51999999999?text=${waPreText}`;
 
+  // Generar Prompt Maestro para ZipWP (≤ 2000 caracteres)
+  const servicesText = services.map(s => `• ${s.title}: ${s.desc}`).join('\n');
+  let zipwpPrompt = `Crea un sitio web profesional y corporativo en español para "${name}", un negocio de ${rankInfo.name || categorySlug} ubicado en ${district}, Lima, Perú.
+Calificación destacada: ⭐ ${rating}/5.0 con más de ${reviewsCount} opiniones en Google Maps.
+
+Estructura requerida:
+1. Héroe Principal: Título de alto impacto que proyecte autoridad en ${district}, subtítulo persuasivo y botón directo a WhatsApp ("Contactar por WhatsApp") y llamada táctil${phoneData.raw ? ` (${phoneData.raw})` : ''}.
+2. Servicios Principales:
+${servicesText}
+3. Por qué elegirnos: Confianza, atención rápida en ${district}, satisfacción garantizada y atención personalizada.
+4. Testimonios: Reseñas de clientes satisfechos en Lima valorando la puntualidad, profesionalismo y trato de primera.
+5. Preguntas Frecuentes (FAQs): Preguntas clave sobre tarifas, reservas y horarios de atención.
+6. Pie de Página y Contacto: Dirección física (${address}), botón de WhatsApp flotante y mapa de ubicación.
+
+Estilo y diseño:
+- Tono: Profesional, elegante, confiable y enfocado en conversión comercial.
+- Colores recomendados: ${theme.styleName} (${theme.primary} y ${theme.accent}) sobre fondo blanco limpio.
+- Mobile First: Optimizado para celulares con botones grandes para WhatsApp y llamadas.`;
+
+  if (zipwpPrompt.length > 1980) {
+    zipwpPrompt = zipwpPrompt.substring(0, 1975) + '...';
+  }
+
   // Blueprint Estructurado para Renderizado en Next.js
   return {
     businessId: business.id || subSlug,
@@ -173,6 +196,8 @@ export function generatePrototypeBlueprint(business, categorySlug, district, pho
     theme,
     phoneData,
     waLink,
+    zipwpPrompt,
+    zipwpLength: zipwpPrompt.length,
     hero: {
       eyebrow: `⭐ ${rating} de 5.0 en Google Maps • Atención en ${district}`,
       title: `${name}`,
