@@ -1,11 +1,15 @@
 {
   "businessId": "biz_33",
   "name": "Lucero Internacional",
+  "displayName": "Lucero Internacional",
+  "licenseNumber": null,
+  "credentialTitle": "Agente Inmobiliario Registrado",
   "categorySlug": "agentes-inmobiliarios",
   "district": "Lima",
   "address": "Av. Nicolás de Piérola 672, Lima 15001",
   "rating": "5.0",
   "reviewsCount": 48,
+  "googleMapsUrl": "https://www.google.com/maps/place/Lucero+Internacional/data=!4m7!3m6!1s0x9105c97ff9eef675:0x242df1c65427fbbd!8m2!3d-12.0499417!4d-77.0374891!16s%2Fg%2F11hm2sfkxc!19sChIJdfbu-X_JBZERvfsnVMbxLSQ",
   "suggestedSubdomain": "lucero-internacional.agentes-inmobiliarios.todolima.com",
   "theme": {
     "primary": "#1e3a8a",
@@ -22,16 +26,14 @@
     "international": null,
     "waLink": null
   },
-  "waLink": "https://wa.me/51999999999?text=Hola%20Lucero%20Internacional%20%F0%9F%91%8B%2C%20vi%20su%20p%C3%A1gina%20web%20oficial%20en%20Lima%20y%20deseo%20cotizar%2Fagendar%20sus%20servicios.",
-  "zipwpPrompt": "Crea un sitio web profesional y corporativo en español para \"Lucero Internacional\", un negocio de Agentes Inmobiliarios y Corretaje ubicado en Lima, Lima, Perú.\nCalificación destacada: ⭐ 5.0/5.0 con más de 48 opiniones en Google Maps.\n\nEstructura requerida:\n1. Héroe Principal: Título de alto impacto que proyecte autoridad en Lima, subtítulo persuasivo y botón directo a WhatsApp (\"Contactar por WhatsApp\") y llamada táctil.\n2. Servicios Principales:\n• Venta Exclusiva de Inmuebles: Promoción estratégica en portales premium y base de inversionistas en Lima.\n• Alquiler Residencial y Corporativo: Filtro riguroso de inquilinos, contratos blindados y cobranza puntual.\n• Tasación Comercial de Propiedades: Estudio de mercado profesional para fijar el precio óptimo de venta en tu zona.\n• Asesoría Notarial y Registral: Acompañamiento legal completo desde la minuta hasta la entrega de llaves.\n3. Por qué elegirnos: Confianza, atención rápida en Lima, satisfacción garantizada y atención personalizada.\n4. Testimonios: Reseñas de clientes satisfechos en Lima valorando la puntualidad, profesionalismo y trato de primera.\n5. Preguntas Frecuentes (FAQs): Preguntas clave sobre tarifas, reservas y horarios de atención.\n6. Pie de Página y Contacto: Dirección física (Av. Nicolás de Piérola 672, Lima 15001), botón de WhatsApp flotante y mapa de ubicación.\n\nEstilo y diseño:\n- Tono: Profesional, elegante, confiable y enfocado en conversión comercial.\n- Colores recomendados: Corporativo & Prestigio (#1e3a8a y #d97706) sobre fondo blanco limpio.\n- Mobile First: Optimizado para celulares con botones grandes para WhatsApp y llamadas.",
-  "zipwpLength": 1629,
+  "waLink": "https://wa.me/51999999999?text=Hola%20Lucero%20Internacional%20%F0%9F%91%8B%2C%20vi%20su%20p%C3%A1gina%20oficial%20en%20Lima%20y%20deseo%20consultar%20sobre%20sus%20servicios%20inmobiliarios.",
   "hero": {
-    "eyebrow": "⭐ 5.0 de 5.0 en Google Maps • Atención en Lima",
+    "eyebrow": "5.0 de 5.0 en Google Maps • Atención en Lima",
     "title": "Lucero Internacional",
-    "headline": "Especialistas en Agentes Inmobiliarios y Corretaje con la Mayor Calificación en Lima",
-    "subtitle": "Respaldados por más de 48 opiniones verificadas en Lima. Consulta hoy mismo tus dudas o solicita cotización con atención directa a tu WhatsApp.",
-    "primaryCta": "Consultar por WhatsApp Ahora",
-    "secondaryCta": "Ver Servicios y Ubicación"
+    "headline": "Propiedades Exclusivas & Asesoría Inmobiliaria de Alto Nivel en Lima",
+    "subtitle": "Venta, corretaje y tasación de residencias, penthouses y oficinas corporativas en las zonas más cotizadas de Lima. Máxima discreción, contratos blindados y acceso a inversionistas calificados.",
+    "primaryCta": "Solicitar Asesoría por WhatsApp",
+    "secondaryCta": "Ver Propiedades en Cartera"
   },
   "valuePillars": [
     {
@@ -76,41 +78,137 @@
   "processSteps": [
     {
       "step": "01",
-      "title": "Escríbenos por WhatsApp",
-      "desc": "Cuéntanos tu requerimiento o consulta en 1 minuto."
+      "title": "Diagnóstico & Estudio de Título",
+      "desc": "Validamos el estatus legal en Sunarp y fijamos el precio comercial óptimo mediante estudio comparativo de mercado."
     },
     {
       "step": "02",
-      "title": "Presupuesto o Cita",
-      "desc": "Te brindamos la asesoría personalizada y tarifas claras."
+      "title": "Producción Audiovisual Exclusiva",
+      "desc": "Fotografía arquitectónica en alta resolución, recorrido en video y difusión privada a cartera de inversionistas calificados."
     },
     {
       "step": "03",
-      "title": "Solución Garantizada",
-      "desc": "Recibe la atención de primera que tu caso merece."
+      "title": "Filtro Riguroso de Compradores",
+      "desc": "Evaluamos solvencia financiera previa a cada visita para garantizar la seguridad, discreción y valor de tu tiempo."
+    },
+    {
+      "step": "04",
+      "title": "Cierre Notarial & Blindaje Legal",
+      "desc": "Acompañamiento integral en la redacción de minuta, escrituración pública en notaría y entrega final de llaves."
+    }
+  ],
+  "reviews": [
+    {
+      "author": "Familia De la Borda M.",
+      "role": "Propietarios en Lima",
+      "rating": 5,
+      "date": "Hace 2 semanas",
+      "badge": "Local Guide • Google Maps",
+      "transaction": "Venta de Departamento Exclusivo",
+      "content": "La asesoría de Lucero Internacional fue impecable de principio a fin. Gestionó la venta de nuestro departamento en Lima en tiempo récord, filtrando a los compradores con solvencia y blindando el contrato notarial con total transparencia."
+    },
+    {
+      "author": "Arq. Carlos Benavides",
+      "role": "Inversionista Residencial",
+      "rating": 5,
+      "date": "Hace 1 mes",
+      "badge": "Usuario Verificado • Google Maps",
+      "transaction": "Compra de Penthouse",
+      "content": "Excelente gestión y absoluto conocimiento del mercado de alta gama. Me presentó opciones exclusivas fuera de portales públicos y negoció condiciones inmejorables. 100% recomendada."
+    },
+    {
+      "author": "Mariana Althaus P.",
+      "role": "Cliente Corporativo",
+      "rating": 5,
+      "date": "Hace 2 meses",
+      "badge": "Local Guide • Google Maps",
+      "transaction": "Alquiler Corporativo Premium",
+      "content": "Buscábamos una residencia diplomática con estándares muy específicos de seguridad y ubicación en Lima. Encontró la propiedad perfecta en 48 horas y coordinó todo el papeleo legal sin fricción."
+    },
+    {
+      "author": "Ing. Rodrigo Morales",
+      "role": "Propietario",
+      "rating": 5,
+      "date": "Hace 3 meses",
+      "badge": "Usuario Verificado • Google Maps",
+      "transaction": "Tasación y Corretaje Patrimonial",
+      "content": "La tasación comercial que nos entregó fue sumamente precisa. Gracias a su estrategia de difusión privada cerramos la operación al valor exacto que buscábamos sin regateos innecesarios."
+    },
+    {
+      "author": "Dra. Patricia Valdivia",
+      "role": "Residente en Lima",
+      "rating": 5,
+      "date": "Hace 4 meses",
+      "badge": "Usuario Verificado • Google Maps",
+      "transaction": "Asesoría Notarial y Sunarp",
+      "content": "Impresionante seriedad y profesionalismo. Resolvió un tema de saneamiento registral en Sunarp que otros brokers no supieron manejar. Su acompañamiento hasta la firma de la escritura nos dio total tranquilidad."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "prop-1",
+      "title": "Penthouse Panorámico — Golf View",
+      "district": "Lima Tradicional",
+      "priceUsd": "890,000",
+      "tag": "Penthouse de Lujo",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "areaM2": 360,
+      "parking": 3,
+      "desc": "Vistas espectaculares de 360° al Golf, ventanales de piso a techo, ascensor directo y terraza con piscina privada.",
+      "image": "/demo/silvana-verano/hero.jpg",
+      "waText": "Hola Lucero Internacional, deseo información y el dossier del Penthouse Panorámico Golf View ($890,000 USD)."
+    },
+    {
+      "id": "prop-2",
+      "title": "Boutique Residences — Edificio Montero",
+      "district": "Lima",
+      "priceUsd": "480,000",
+      "tag": "En Venta Exclusiva",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "areaM2": 185,
+      "parking": 2,
+      "desc": "Departamentos de estreno con terrazas con jardines verticales, acabados en madera fina y mármol italiano.",
+      "image": "/demo/silvana-verano/property.jpg",
+      "waText": "Hola Lucero Internacional, deseo información y el dossier de Boutique Residences Edificio Montero ($480,000 USD)."
+    },
+    {
+      "id": "prop-3",
+      "title": "Residencia Colonial Contemporánea",
+      "district": "Lima / Lima Top",
+      "priceUsd": "1,250,000",
+      "tag": "Residencia Exclusiva",
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "areaM2": 520,
+      "parking": 4,
+      "desc": "Imponente residencia con amplios jardines interiores, techos a doble altura, cava subterránea y máxima seguridad.",
+      "image": "/demo/silvana-verano/property.jpg",
+      "waText": "Hola Lucero Internacional, deseo información sobre la Residencia Colonial Contemporánea en Lima."
     }
   ],
   "faqs": [
     {
-      "q": "¿En qué horarios atiende Lucero Internacional?",
-      "a": "Atendemos de lunes a sábado con atención presencial en nuestro local de Lima y coordinación directa por WhatsApp."
+      "q": "¿En qué distritos de Lima brinda asesoría Lucero Internacional?",
+      "a": "Especialización directa en San Isidro, Miraflores, Santiago de Surco, Barranco, San Borja y las zonas de mayor valorización inmobiliaria en Lima."
     },
     {
-      "q": "¿Cómo puedo agendar una consulta o cotización?",
-      "a": "Simplemente haz clic en el botón de WhatsApp de esta página y te responderemos al instante."
+      "q": "¿Cómo se determina el precio óptimo de venta de una propiedad?",
+      "a": "Realizamos un estudio de mercado comparativo (CMA) analizando operaciones reales cerradas recientemente en la misma zona, metraje, arquitectura y potencial de plusvalía."
     },
     {
-      "q": "¿Cuentan con garantía en sus servicios?",
-      "a": "Sí, todos nuestros trabajos y atenciones cuentan con el respaldo de nuestro equipo profesional y ⭐ 5.0 estrellas en Google Maps."
+      "q": "¿Cuál es el proceso para que promuevan mi propiedad en exclusiva?",
+      "a": "Firmamos un contrato de corretaje exclusivo que garantiza una inversión seria en producción fotográfica, video, publicidad segmentada y gestión legal integral."
     },
     {
-      "q": "¿Dónde están ubicados exactamente en Lima?",
-      "a": "Nos encontramos en Av. Nicolás de Piérola 672, Lima 15001. Puedes encontrarnos fácilmente con Google Maps o Waze."
+      "q": "¿Dónde está ubicada la oficina de atención en Lima?",
+      "a": "Nos encontramos en Av. Nicolás de Piérola 672, Lima 15001. Coordinamos reuniones presenciales con cita previa y atención inmediata por WhatsApp."
     }
   ],
   "meta": {
-    "generatedAt": "2026-09-25T00:59:08.016Z",
-    "source": "todolima.com Prototype Engine",
+    "generatedAt": "2026-09-25T04:15:49.247Z",
+    "source": "todolima.com Luxury Prototype Engine",
     "priorityTier": "TIER_1_ELITE"
   }
 }
