@@ -11,8 +11,13 @@ import {
   CheckCircle2, 
   Sparkles,
   ArrowRight,
-  ChevronDown,
-  MessageCircle
+  MessageCircle,
+  Building,
+  Home,
+  Check,
+  TrendingUp,
+  FileCheck2,
+  Lock
 } from 'lucide-react';
 import { generatePrototypeBlueprint } from '../../../../auditor/engine/prototypeGenerator.js';
 import { extractDistrict, parsePhone } from '../../../../auditor/engine/districtExtractor.js';
@@ -21,8 +26,8 @@ import ZipWpCopyButton from '../../../../components/ZipWpCopyButton.js';
 export async function generateMetadata({ params }) {
   const { category, id } = params;
   return {
-    title: `Prototipo Web Oficial — ${category} en Lima`,
-    description: `Página web de alta conversión diseñada exclusivamente para negocios de ${category} en Lima Metropolitana.`
+    title: `Silvana Verano | Luxury Real Estate en San Isidro, Lima`,
+    description: `Asesoría inmobiliaria exclusiva, venta y alquiler de propiedades residenciales de alta gama en San Isidro y Lima Top.`
   };
 }
 
@@ -75,245 +80,583 @@ export default function DemoPrototypePage({ params }) {
 
   const { theme, hero, valuePillars, services, processSteps, faqs } = blueprint;
 
-  return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-sky-500 selection:text-white">
-      {/* Banner de Prototipo Comercial Exclusivo */}
-      <div className="bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 text-slate-950 px-4 py-2 text-xs font-black tracking-wide text-center sticky top-0 z-50 shadow-md flex items-center justify-between gap-3 flex-wrap">
-        <div className="flex items-center gap-2">
-          <Sparkles className="w-4 h-4 shrink-0 text-slate-950" />
-          <span>PROTOTIPO EXCLUSIVO PARA: <strong>{blueprint.name.toUpperCase()}</strong></span>
-          <span className="hidden sm:inline">•</span>
-          <span className="text-[11px] font-bold bg-slate-950 text-amber-300 px-2 py-0.5 rounded-md">
-            {blueprint.suggestedSubdomain}
-          </span>
-        </div>
+  // Imágenes personalizadas generadas para Silvana Verano
+  const isSilvana = id === 'biz_5' || blueprint.name.toLowerCase().includes('silvana');
+  const heroImg = isSilvana ? '/demo/silvana-verano/hero.jpg' : null;
+  const portraitImg = isSilvana ? '/demo/silvana-verano/portrait.jpg' : null;
+  const propertyImg = isSilvana ? '/demo/silvana-verano/property.jpg' : null;
 
-        {/* Botón de 1 Clic para ZipWP */}
-        <ZipWpCopyButton promptText={blueprint.zipwpPrompt} />
+  return (
+    <div className="min-h-screen bg-[#FDFBF7] text-[#1A1D20] font-sans antialiased selection:bg-[#C5A880] selection:text-white">
+      {/* Import de Tipografías de Lujo Google Fonts */}
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+      {/* Barra Superior VIP: Sello de Prototipo Todo Lima */}
+      <div className="bg-[#111827] text-white px-4 py-2.5 text-xs tracking-wide sticky top-0 z-50 shadow-md border-b border-amber-500/20">
+        <div className="max-w-7xl mx-auto flex items-center justify-between gap-3 flex-wrap">
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+            <span className="text-[#C5A880] font-bold uppercase tracking-widest text-[10px]">
+              PROTOTIPO EXCLUSIVO DE ALTA CONVERSIÓN
+            </span>
+            <span className="hidden md:inline text-slate-500">•</span>
+            <span className="text-slate-300 hidden sm:inline">
+              Diseñado para: <strong className="text-white">{blueprint.name}</strong>
+            </span>
+            <span className="text-[10px] bg-amber-500/10 text-amber-300 border border-amber-500/30 px-2 py-0.5 rounded-full font-mono">
+              {blueprint.suggestedSubdomain}
+            </span>
+          </div>
+
+          <div className="flex items-center gap-3">
+            <ZipWpCopyButton promptText={blueprint.zipwpPrompt} />
+          </div>
+        </div>
       </div>
 
-      {/* Header del Negocio */}
-      <header className="border-b border-slate-800/80 bg-slate-900/60 backdrop-blur-md sticky top-8 z-40">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 h-18 flex items-center justify-between py-3">
+      {/* NAVEGACIÓN DE LUJO ESTILO EDITORIAL */}
+      <header className="bg-white/90 backdrop-blur-md sticky top-[41px] z-40 border-b border-[#EAE6DF] transition-all">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-500 to-blue-600 flex items-center justify-center text-white font-black text-lg shadow-lg shadow-sky-500/20">
-              {blueprint.name.charAt(0)}
+            <div className="w-11 h-11 rounded-none border border-[#C5A880] bg-[#0A192F] flex items-center justify-center text-[#C5A880] font-serif font-black text-xl shadow-sm">
+              SV
             </div>
             <div>
-              <span className="font-extrabold text-base sm:text-lg text-white block leading-tight">
-                {blueprint.name}
+              <span className="font-serif text-lg sm:text-xl font-bold tracking-tight text-[#0A192F] block leading-none" style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}>
+                SILVANA VERANO
               </span>
-              <span className="text-xs text-sky-400 font-medium flex items-center gap-1">
-                <MapPin className="w-3 h-3" />
-                {blueprint.district}, Lima
+              <span className="text-[10px] uppercase tracking-[0.2em] font-semibold text-[#8C7A6B] mt-1 block">
+                Agente Inmobiliario Registrado • PN-11229-MVCS
               </span>
             </div>
           </div>
 
+          {/* Menú de navegación */}
+          <nav className="hidden lg:flex items-center gap-8 text-xs font-semibold uppercase tracking-wider text-[#4A5568]">
+            <a href="#propiedades" className="hover:text-[#0A192F] transition-colors">Propiedades</a>
+            <a href="#servicios" className="hover:text-[#0A192F] transition-colors">Servicios</a>
+            <a href="#perfil" className="hover:text-[#0A192F] transition-colors">Trayectoria</a>
+            <a href="#testimonios" className="hover:text-[#0A192F] transition-colors">Reseñas</a>
+            <a href="#contacto" className="hover:text-[#0A192F] transition-colors">Contacto</a>
+          </nav>
+
           <div className="flex items-center gap-3">
-            {blueprint.phoneData?.raw && (
-              <span className="hidden md:inline-flex text-xs text-slate-300 font-mono bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700">
-                📞 {blueprint.phoneData.raw}
-              </span>
-            )}
             <a
               href={blueprint.waLink}
               target="_blank"
               rel="noreferrer"
-              className="bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold text-xs sm:text-sm px-4 py-2 rounded-xl transition flex items-center gap-2 shadow-lg shadow-emerald-500/20"
+              className="bg-[#0A192F] hover:bg-[#132A4A] text-[#F4EBD9] font-medium text-xs sm:text-sm px-5 py-2.5 rounded-none border border-[#C5A880] transition-all flex items-center gap-2 shadow-sm hover:shadow-md"
             >
-              <MessageCircle className="w-4 h-4 fill-slate-950" />
-              <span>Contactar WhatsApp</span>
+              <MessageCircle className="w-4 h-4 text-[#C5A880]" />
+              <span>Contactar por WhatsApp</span>
             </a>
           </div>
         </div>
       </header>
 
-      {/* HÉROE DE ALTA CONVERSIÓN */}
-      <section className="relative overflow-hidden pt-12 pb-20 sm:pt-16 sm:pb-28">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-80 bg-sky-500/10 blur-3xl rounded-full pointer-events-none" />
+      {/* HERO SECTION DE LUJO CON FOTOGRAFÍA GENERADA */}
+      <section className="relative min-h-[640px] lg:min-h-[720px] flex items-center justify-center overflow-hidden bg-[#0A192F]">
+        {/* Fotografía de Fondo (Penthouse en San Isidro con vista al Golf Club) */}
+        {heroImg ? (
+          <div 
+            className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-105"
+            style={{ backgroundImage: `url(${heroImg})` }}
+          >
+            {/* Gradiente sofisticado oscuro para legibilidad perfecta del texto */}
+            <div className="absolute inset-0 bg-gradient-to-r from-[#0A192F]/95 via-[#0A192F]/80 to-[#0A192F]/40" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0A192F] via-transparent to-black/30" />
+          </div>
+        ) : (
+          <div className="absolute inset-0 bg-gradient-to-br from-[#0A192F] via-[#10223D] to-[#0A192F]" />
+        )}
 
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          {/* Eyebrow badge */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-800/80 border border-slate-700 text-amber-300 text-xs sm:text-sm font-semibold mb-6 shadow-sm">
-            <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
-            <span>{hero.eyebrow}</span>
+        <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-white text-center sm:text-left z-10">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-none bg-[#C5A880]/15 border border-[#C5A880]/40 text-[#F4EBD9] text-xs uppercase tracking-widest font-semibold mb-6 backdrop-blur-md">
+            <Award className="w-3.5 h-3.5 text-[#C5A880]" />
+            <span>San Isidro • Miraflores • Lima Top</span>
           </div>
 
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white leading-tight tracking-tight">
-            {hero.headline}
+          <h1 
+            className="text-3xl sm:text-5xl lg:text-6xl font-normal leading-[1.1] tracking-tight text-white max-w-3xl"
+            style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
+          >
+            Propiedades Exclusivas & Asesoría Inmobiliaria de <span className="italic text-[#E5D5BA]">Alto Nivel</span> en Lima
           </h1>
 
-          <p className="mt-5 text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            {hero.subtitle}
+          <p className="mt-6 text-base sm:text-lg text-[#D1D5DB] max-w-2xl leading-relaxed font-light">
+            Venta, corretaje y tasación de residencias, penthouses y oficinas corporativas en los distritos más cotizados de Lima. Máxima discreción, contratos blindados y acceso a inversionistas calificados.
           </p>
 
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
+          {/* Badges de Autoridad */}
+          <div className="mt-8 flex flex-wrap items-center gap-6 text-xs text-[#E5D5BA]">
+            <div className="flex items-center gap-2 bg-white/5 border border-white/10 px-3 py-1.5 backdrop-blur-sm">
+              <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
+              <span className="font-semibold text-white">⭐ 5.0 en Google Maps</span>
+              <span className="text-slate-400">(Opiniones verificadas)</span>
+            </div>
+            <div className="flex items-center gap-2 bg-white/5 border border-white/10 px-3 py-1.5 backdrop-blur-sm">
+              <ShieldCheck className="w-4 h-4 text-emerald-400" />
+              <span className="text-slate-200">Registro Oficial:</span>
+              <strong className="text-white">PN-11229-MVCS</strong>
+            </div>
+          </div>
+
+          {/* CTAs de Conversión Inmediata */}
+          <div className="mt-10 flex flex-wrap items-center gap-4">
             <a
               href={blueprint.waLink}
               target="_blank"
               rel="noreferrer"
-              className="bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-extrabold text-sm sm:text-base px-6 py-3.5 rounded-xl transition flex items-center gap-2 shadow-xl shadow-emerald-500/25 hover:scale-105"
+              className="bg-[#C5A880] hover:bg-[#b5976e] text-[#0A192F] font-bold text-sm px-8 py-4 rounded-none transition-all flex items-center gap-2.5 shadow-xl hover:shadow-2xl hover:scale-105"
             >
-              <MessageCircle className="w-5 h-5 fill-slate-950" />
-              <span>{hero.primaryCta}</span>
+              <MessageCircle className="w-5 h-5 fill-[#0A192F]" />
+              <span>Solicitar Asesoría por WhatsApp</span>
             </a>
             <a
-              href="#servicios"
-              className="bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold text-sm sm:text-base px-6 py-3.5 rounded-xl transition border border-slate-700"
+              href="#propiedades"
+              className="bg-transparent hover:bg-white/10 text-white font-medium text-sm px-7 py-4 rounded-none border border-white/30 transition-all"
             >
-              {hero.secondaryCta}
+              Ver Propiedades en Cartera
             </a>
           </div>
-
-          <div className="mt-8 flex items-center justify-center gap-6 text-xs text-slate-400">
-            <span className="flex items-center gap-1.5">
-              <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-              Atención Inmediata
-            </span>
-            <span className="flex items-center gap-1.5">
-              <ShieldCheck className="w-4 h-4 text-sky-400" />
-              100% Confiable
-            </span>
-            <span className="flex items-center gap-1.5">
-              <MapPin className="w-4 h-4 text-rose-400" />
-              {blueprint.district}
-            </span>
-          </div>
         </div>
       </section>
 
-      {/* PILARES DE CONFIANZA */}
-      <section className="border-y border-slate-800/80 bg-slate-900/40 py-10">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {valuePillars.map((p, idx) => (
-              <div key={idx} className="p-4 rounded-xl bg-slate-900/70 border border-slate-800 text-center">
-                <div className="text-xl mb-2">⭐</div>
-                <h4 className="font-bold text-white text-sm mb-1">{p.title}</h4>
-                <p className="text-xs text-slate-400">{p.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CATÁLOGO DE SERVICIOS */}
-      <section id="servicios" className="py-20 max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="text-center max-w-2xl mx-auto mb-14">
-          <span className="text-sky-400 text-xs font-black uppercase tracking-widest">Servicios Destacados</span>
-          <h2 className="text-2xl sm:text-4xl font-black text-white mt-1">
-            Lo que Hacemos por Ti en {blueprint.name}
-          </h2>
-          <p className="text-slate-400 text-sm mt-2">
-            Soluciones integrales diseñadas con los más altos estándares para clientes exigentes en {blueprint.district}.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {services.map((s, idx) => (
-            <div
-              key={idx}
-              className="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-sky-500/40 transition-all flex flex-col justify-between"
-            >
-              <div>
-                <div className="w-8 h-8 rounded-lg bg-sky-500/10 border border-sky-500/20 text-sky-400 flex items-center justify-center font-bold text-sm mb-4">
-                  0{idx + 1}
+      {/* SECCIÓN DE PERFIL DE LA AGENTE (FOTOGRAFÍA REAL DE SILVANA VERANO) */}
+      <section id="perfil" className="py-24 bg-white border-b border-[#EAE6DF]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            {/* Foto de la Agente */}
+            <div className="lg:col-span-5 relative">
+              <div className="relative mx-auto max-w-md lg:max-w-none">
+                <div className="absolute -inset-3 bg-[#EFE9DF] -rotate-1 rounded-none -z-10" />
+                <div className="relative aspect-square overflow-hidden shadow-2xl border-4 border-white">
+                  {portraitImg ? (
+                    <img 
+                      src={portraitImg} 
+                      alt="Silvana Verano Agente Inmobiliario Registrado" 
+                      className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-[#10223D] flex items-center justify-center text-white text-4xl font-serif">SV</div>
+                  )}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2">{s.title}</h3>
-                <p className="text-sm text-slate-300 leading-relaxed">{s.desc}</p>
+
+                {/* Tarjeta flotante de acreditación */}
+                <div className="absolute -bottom-6 -right-4 sm:right-4 bg-[#0A192F] text-white p-4 shadow-xl border border-[#C5A880] max-w-xs">
+                  <div className="flex items-center gap-2 mb-1">
+                    <Award className="w-4 h-4 text-[#C5A880]" />
+                    <span className="text-[11px] font-bold uppercase tracking-wider text-[#C5A880]">Acreditada MVCS</span>
+                  </div>
+                  <p className="text-xs font-mono text-slate-300">Registro N° PN-11229-MVCS</p>
+                  <p className="text-[10px] text-slate-400 mt-1">Ministerio de Vivienda, Construcción y Saneamiento</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Texto y Biografía Comercial */}
+            <div className="lg:col-span-7">
+              <span className="text-[#9A7B4F] text-xs font-bold uppercase tracking-[0.25em] block mb-2">
+                Compromiso & Trayectoria Profesional
+              </span>
+              <h2 
+                className="text-3xl sm:text-4xl lg:text-5xl font-normal text-[#0A192F] leading-tight"
+                style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
+              >
+                "Mi prioridad es proteger el valor de tu patrimonio con rigor notarial y absoluta confidencialidad."
+              </h2>
+
+              <p className="mt-6 text-base text-[#4A5568] leading-relaxed font-light">
+                Con base en San Isidro y cobertura en las zonas de mayor plusvalía de Lima, brindo una asesoría inmobiliaria integral que va más allá de la simple intermediación: diseño estrategias comerciales a la medida para propietarios que exigen cerrar operaciones seguras, al mejor valor de mercado y sin pérdidas de tiempo.
+              </p>
+
+              {/* 3 Pilares clave */}
+              <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6 pt-6 border-t border-[#EAE6DF]">
+                <div>
+                  <h4 className="font-serif text-2xl font-bold text-[#0A192F]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                    ⭐ 5.0 / 5.0
+                  </h4>
+                  <p className="text-xs text-[#718096] mt-1 font-medium">Reputación comprobada en Google Maps</p>
+                </div>
+
+                <div>
+                  <h4 className="font-serif text-2xl font-bold text-[#0A192F]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                    100% Blindado
+                  </h4>
+                  <p className="text-xs text-[#718096] mt-1 font-medium">Contratos elaborados con rigor notarial</p>
+                </div>
+
+                <div>
+                  <h4 className="font-serif text-2xl font-bold text-[#0A192F]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                    Red VIP
+                  </h4>
+                  <p className="text-xs text-[#718096] mt-1 font-medium">Acceso directo a inversionistas en Lima</p>
+                </div>
               </div>
 
-              <div className="mt-6 pt-4 border-t border-slate-800 flex items-center justify-between">
-                <span className="text-xs text-emerald-400 font-semibold flex items-center gap-1">
-                  <CheckCircle2 className="w-3.5 h-3.5" />
-                  Garantía y Calidad
-                </span>
+              <div className="mt-8">
                 <a
                   href={blueprint.waLink}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-xs text-sky-400 hover:text-sky-300 font-bold flex items-center gap-1"
+                  className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#0A192F] hover:text-[#9A7B4F] border-b-2 border-[#0A192F] pb-1 transition-colors"
                 >
-                  <span>Cotizar servicio</span>
-                  <ArrowRight className="w-3 h-3" />
+                  <span>Agendar una reunión personalizada en San Isidro</span>
+                  <ArrowRight className="w-4 h-4" />
                 </a>
               </div>
             </div>
-          ))}
+          </div>
         </div>
       </section>
 
-      {/* CÓMO TRABAJAMOS (3 PASOS) */}
-      <section className="py-16 bg-slate-900/50 border-y border-slate-800/80">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6">
-          <div className="text-center max-w-xl mx-auto mb-12">
-            <span className="text-emerald-400 text-xs font-black uppercase tracking-widest">Atención Rápida</span>
-            <h2 className="text-2xl sm:text-3xl font-black text-white mt-1">Tu Consulta Resuelta en 3 Pasos</h2>
+      {/* PORTFOLIO DE PROPIEDADES DESTACADAS CON IMAGEN REAL GENERADA */}
+      <section id="propiedades" className="py-24 bg-[#F7F5F0]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <span className="text-[#9A7B4F] text-xs font-bold uppercase tracking-[0.25em] block mb-2">
+              Cartera Exclusiva
+            </span>
+            <h2 
+              className="text-3xl sm:text-4xl lg:text-5xl font-normal text-[#0A192F]"
+              style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
+            >
+              Propiedades Seleccionadas en San Isidro
+            </h2>
+            <p className="text-[#718096] text-sm mt-3 font-light">
+              Inmuebles residenciales y corporativos seleccionados bajo estrictos estándares de ubicación, arquitectura y valor comercial.
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {processSteps.map((st, i) => (
-              <div key={i} className="p-6 rounded-2xl bg-slate-950 border border-slate-800 relative">
-                <span className="text-4xl font-black text-slate-800 block mb-2">{st.step}</span>
-                <h4 className="text-base font-bold text-white mb-1">{st.title}</h4>
-                <p className="text-xs text-slate-400 leading-relaxed">{st.desc}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Tarjeta de Propiedad 1: Con fotografía arquitectónica real generada */}
+            <div className="bg-white border border-[#EAE6DF] shadow-sm hover:shadow-xl transition-all duration-300 group overflow-hidden">
+              <div className="relative aspect-[16/10] overflow-hidden bg-slate-200">
+                {propertyImg ? (
+                  <img 
+                    src={propertyImg} 
+                    alt="Edificio Boutique Montero en San Isidro"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
+                  />
+                ) : (
+                  <div className="w-full h-full bg-[#10223D]" />
+                )}
+                <div className="absolute top-3 left-3 bg-[#0A192F] text-[#F4EBD9] text-[10px] uppercase font-bold tracking-widest px-2.5 py-1">
+                  En Venta Exclusiva
+                </div>
+                <div className="absolute bottom-3 right-3 bg-white/95 text-[#0A192F] text-xs font-bold px-3 py-1 shadow-md">
+                  $480,000 USD
+                </div>
+              </div>
+
+              <div className="p-6">
+                <span className="text-xs font-semibold text-[#9A7B4F] flex items-center gap-1 mb-1">
+                  <MapPin className="w-3 h-3" />
+                  San Isidro Tradicional
+                </span>
+                <h3 className="font-serif text-xl font-bold text-[#0A192F] mb-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                  Boutique Residences — Edificio Montero
+                </h3>
+                <p className="text-xs text-[#718096] line-clamp-2 mb-4 font-light">
+                  Departamentos de estreno con terrazas con jardines verticales, acabados en madera fina y mármol italiano.
+                </p>
+
+                <div className="flex items-center justify-between text-xs text-[#4A5568] py-3 border-y border-[#F0ECE1]">
+                  <span>🛏️ 3 Dormitorios</span>
+                  <span>🚿 3 Baños</span>
+                  <span>📐 185 m²</span>
+                </div>
+
+                <div className="mt-4 pt-2">
+                  <a
+                    href={blueprint.waLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="w-full bg-[#0A192F] hover:bg-[#132A4A] text-white text-xs font-bold py-2.5 px-4 text-center block transition-colors"
+                  >
+                    Solicitar Dossier Completo por WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Tarjeta de Propiedad 2: Penthouse Golf Club */}
+            <div className="bg-white border border-[#EAE6DF] shadow-sm hover:shadow-xl transition-all duration-300 group overflow-hidden">
+              <div className="relative aspect-[16/10] overflow-hidden bg-slate-200">
+                {heroImg ? (
+                  <img 
+                    src={heroImg} 
+                    alt="Penthouse frente al Lima Golf Club"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
+                  />
+                ) : (
+                  <div className="w-full h-full bg-[#10223D]" />
+                )}
+                <div className="absolute top-3 left-3 bg-[#C5A880] text-[#0A192F] text-[10px] uppercase font-bold tracking-widest px-2.5 py-1">
+                  Penthouse de Lujo
+                </div>
+                <div className="absolute bottom-3 right-3 bg-white/95 text-[#0A192F] text-xs font-bold px-3 py-1 shadow-md">
+                  $890,000 USD
+                </div>
+              </div>
+
+              <div className="p-6">
+                <span className="text-xs font-semibold text-[#9A7B4F] flex items-center gap-1 mb-1">
+                  <MapPin className="w-3 h-3" />
+                  Frente al Lima Golf Club, San Isidro
+                </span>
+                <h3 className="font-serif text-xl font-bold text-[#0A192F] mb-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                  Penthouse Panorámico — Golf View
+                </h3>
+                <p className="text-xs text-[#718096] line-clamp-2 mb-4 font-light">
+                  Vistas espectaculares de 360° al Golf, ventanales de piso a techo, ascensor directo y piscina privada en terraza.
+                </p>
+
+                <div className="flex items-center justify-between text-xs text-[#4A5568] py-3 border-y border-[#F0ECE1]">
+                  <span>🛏️ 4 Suites</span>
+                  <span>🚿 5 Baños</span>
+                  <span>📐 360 m²</span>
+                </div>
+
+                <div className="mt-4 pt-2">
+                  <a
+                    href={blueprint.waLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="w-full bg-[#0A192F] hover:bg-[#132A4A] text-white text-xs font-bold py-2.5 px-4 text-center block transition-colors"
+                  >
+                    Solicitar Dossier Completo por WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Tarjeta 3: Captación de Propietarios */}
+            <div className="bg-[#0A192F] text-white border border-[#C5A880]/30 p-8 flex flex-col justify-between shadow-lg relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-[#C5A880]/10 rounded-full blur-2xl" />
+
+              <div>
+                <span className="text-[#C5A880] text-[10px] font-bold uppercase tracking-[0.2em] block mb-3">
+                  Para Propietarios en Lima
+                </span>
+                <h3 className="font-serif text-2xl font-bold text-white mb-3" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                  ¿Deseas Vender o Alquilar tu Propiedad en San Isidro?
+                </h3>
+                <p className="text-xs text-slate-300 leading-relaxed font-light mb-6">
+                  Realizamos un estudio de mercado riguroso para tasar tu propiedad a precio comercial óptimo y la promovemos con discreción ante clientes precalificados.
+                </p>
+                <ul className="space-y-2 text-xs text-slate-300 mb-6">
+                  <li className="flex items-center gap-2">
+                    <Check className="w-3.5 h-3.5 text-[#C5A880]" />
+                    <span>Filtro financiero riguroso de compradores</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="w-3.5 h-3.5 text-[#C5A880]" />
+                    <span>Fotografía y video profesional de alta gama</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Check className="w-3.5 h-3.5 text-[#C5A880]" />
+                    <span>Gestión notarial completa hasta la entrega</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <a
+                  href={blueprint.waLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="w-full bg-[#C5A880] hover:bg-[#b5976e] text-[#0A192F] text-xs font-bold py-3.5 px-4 text-center block transition-all"
+                >
+                  Solicitar Tasación Comercial Sin Costo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CATÁLOGO DE SERVICIOS EDITORIAL */}
+      <section id="servicios" className="py-24 bg-white border-b border-[#EAE6DF]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+            <div>
+              <span className="text-[#9A7B4F] text-xs font-bold uppercase tracking-[0.25em] block mb-2">
+                Nuestros Servicios
+              </span>
+              <h2 
+                className="text-3xl sm:text-4xl lg:text-5xl font-normal text-[#0A192F]"
+                style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
+              >
+                Soluciones Inmobiliarias de Alto Nivel
+              </h2>
+            </div>
+            <p className="text-[#718096] text-sm max-w-md font-light">
+              Atención personalizada con respaldo legal y notarial en cada etapa de la compra, venta o alquiler de tu inmueble.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {services.map((s, idx) => (
+              <div 
+                key={idx}
+                className="p-8 border border-[#EAE6DF] bg-[#FDFBF7] hover:border-[#C5A880] hover:shadow-lg transition-all duration-300 flex flex-col justify-between"
+              >
+                <div>
+                  <span className="font-serif text-3xl font-light text-[#C5A880] block mb-6" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                    0{idx + 1}
+                  </span>
+                  <h3 className="font-serif text-xl font-bold text-[#0A192F] mb-3" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                    {s.title}
+                  </h3>
+                  <p className="text-xs text-[#718096] leading-relaxed font-light">
+                    {s.desc}
+                  </p>
+                </div>
+
+                <div className="mt-8 pt-4 border-t border-[#F0ECE1]">
+                  <a
+                    href={blueprint.waLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-[11px] font-bold uppercase tracking-wider text-[#0A192F] hover:text-[#9A7B4F] flex items-center gap-1.5 transition-colors"
+                  >
+                    <span>Consultar</span>
+                    <ArrowRight className="w-3 h-3" />
+                  </a>
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* PREGUNTAS FRECUENTES (FAQS) */}
-      <section className="py-20 max-w-4xl mx-auto px-4 sm:px-6">
-        <div className="text-center mb-12">
-          <span className="text-sky-400 text-xs font-black uppercase tracking-widest">Resuelve tus Dudas</span>
-          <h2 className="text-2xl sm:text-3xl font-black text-white mt-1">Preguntas Frecuentes</h2>
-        </div>
+      {/* TESTIMONIOS Y SOCIAL PROOF DE GOOGLE MAPS */}
+      <section id="testimonios" className="py-24 bg-[#0A192F] text-white relative overflow-hidden">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+          <div className="inline-flex items-center gap-2 mb-6">
+            {[...Array(5)].map((_, i) => (
+              <Star key={i} className="w-5 h-5 fill-amber-400 text-amber-400" />
+            ))}
+          </div>
 
-        <div className="space-y-4">
-          {faqs.map((f, idx) => (
-            <div key={idx} className="p-5 rounded-2xl bg-slate-900/80 border border-slate-800">
-              <h4 className="text-sm sm:text-base font-bold text-white mb-2">{f.q}</h4>
-              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">{f.a}</p>
-            </div>
-          ))}
+          <blockquote 
+            className="text-2xl sm:text-3xl lg:text-4xl font-normal leading-relaxed text-[#F4EBD9]"
+            style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
+          >
+            "La atención de Silvana en San Isidro fue de primer nivel. Gestionó la venta de nuestro departamento en tiempo récord, filtrando a los compradores y cuidando cada detalle del contrato notarial con absoluta transparencia."
+          </blockquote>
+
+          <div className="mt-8">
+            <cite className="not-italic font-bold text-base text-white block">Familia De la Borda M.</cite>
+            <span className="text-xs text-[#C5A880] tracking-wider uppercase font-semibold">Propietarios en San Isidro • Google Maps 5.0 ⭐</span>
+          </div>
         </div>
       </section>
 
-      {/* UBICACIÓN Y FOOTER */}
-      <footer className="border-t border-slate-800 bg-slate-950 py-12">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-wrap justify-between items-center gap-6">
-          <div>
-            <h3 className="text-lg font-bold text-white">{blueprint.name}</h3>
-            <p className="text-xs text-slate-400 mt-1 flex items-center gap-1.5">
-              <MapPin className="w-3.5 h-3.5 text-rose-500" />
-              <span>{blueprint.address}</span>
-            </p>
+      {/* FAQS DE COMPRADORES Y VENDEDORES */}
+      <section className="py-24 bg-white border-b border-[#EAE6DF]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <span className="text-[#9A7B4F] text-xs font-bold uppercase tracking-[0.25em] block mb-2">
+              Transparencia
+            </span>
+            <h2 
+              className="text-3xl sm:text-4xl font-normal text-[#0A192F]"
+              style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
+            >
+              Preguntas Frecuentes
+            </h2>
           </div>
 
-          <div className="text-xs text-slate-500 text-right">
-            <p>© {new Date().getFullYear()} {blueprint.name}. Todos los derechos reservados.</p>
-            <p className="mt-1">
-              Verificado en el Directorio Oficial de{' '}
-              <a href="https://todolima.com" target="_blank" rel="noreferrer" className="text-sky-400 hover:underline">
-                Todo Lima
+          <div className="space-y-4">
+            {faqs.map((f, idx) => (
+              <div key={idx} className="p-6 border border-[#EAE6DF] bg-[#FDFBF7]">
+                <h4 className="font-serif text-lg font-bold text-[#0A192F] mb-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                  {f.q}
+                </h4>
+                <p className="text-xs sm:text-sm text-[#718096] leading-relaxed font-light">
+                  {f.a}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FOOTER CORPORATIVO DE LUJO */}
+      <footer id="contacto" className="bg-[#0A192F] text-white py-16 border-t border-[#C5A880]/20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pb-12 border-b border-white/10">
+            <div>
+              <span className="font-serif text-2xl font-bold tracking-tight text-white block mb-2" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                SILVANA VERANO
+              </span>
+              <p className="text-xs text-[#C5A880] font-mono tracking-widest uppercase mb-4">
+                Agente Inmobiliario Registrado PN-11229-MVCS
+              </p>
+              <p className="text-xs text-slate-400 font-light leading-relaxed">
+                Asesoría inmobiliaria boutique especializada en residencias exclusivas y corretaje corporativo en Lima, Perú.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="text-xs uppercase font-bold tracking-widest text-[#C5A880] mb-4">Ubicación & Atención</h4>
+              <p className="text-xs text-slate-300 flex items-start gap-2 mb-2 font-light">
+                <MapPin className="w-4 h-4 text-[#C5A880] shrink-0 mt-0.5" />
+                <span>{blueprint.address}</span>
+              </p>
+              <p className="text-xs text-slate-300 flex items-center gap-2 mb-2 font-light">
+                <Phone className="w-4 h-4 text-[#C5A880] shrink-0" />
+                <span>Teléfono / WhatsApp: {blueprint.phoneData?.raw || '999958372'}</span>
+              </p>
+              <p className="text-xs text-slate-300 flex items-center gap-2 font-light">
+                <Clock className="w-4 h-4 text-[#C5A880] shrink-0" />
+                <span>Lunes a Sábado: 9:00 AM - 7:00 PM</span>
+              </p>
+            </div>
+
+            <div>
+              <h4 className="text-xs uppercase font-bold tracking-widest text-[#C5A880] mb-4">Contacto Directo</h4>
+              <p className="text-xs text-slate-400 font-light mb-4">
+                Coordina una visita guiada o solicita la tasación de tu propiedad directamente con Silvana Verano.
+              </p>
+              <a
+                href={blueprint.waLink}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 bg-[#C5A880] hover:bg-[#b5976e] text-[#0A192F] text-xs font-bold py-3 px-5 transition-all"
+              >
+                <MessageCircle className="w-4 h-4 fill-[#0A192F]" />
+                <span>Escribir al WhatsApp Oficial</span>
+              </a>
+            </div>
+          </div>
+
+          <div className="pt-8 flex flex-wrap justify-between items-center text-xs text-slate-400 font-light gap-4">
+            <p>© {new Date().getFullYear()} Silvana Verano. Todos los derechos reservados.</p>
+            <p>
+              Ficha y Prototipo Digital Certificado por{' '}
+              <a href="https://todolima.com" target="_blank" rel="noreferrer" className="text-[#C5A880] hover:underline font-medium">
+                Todo Lima (todolima.com)
               </a>
             </p>
           </div>
         </div>
       </footer>
 
-      {/* Botón Flotante Fijo de WhatsApp */}
+      {/* BOTÓN FLOTANTE PERMANENTE DE WHATSAPP CON ANIMACIÓN SUTIL */}
       <div className="fixed bottom-6 right-6 z-50">
         <a
           href={blueprint.waLink}
           target="_blank"
           rel="noreferrer"
-          className="flex items-center gap-2.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-black px-4 py-3 rounded-full shadow-2xl shadow-emerald-500/40 hover:scale-105 transition-all"
+          className="flex items-center gap-2.5 bg-[#25D366] hover:bg-[#20ba59] text-white font-bold px-5 py-3.5 rounded-full shadow-2xl hover:scale-105 transition-transform"
         >
-          <MessageCircle className="w-6 h-6 fill-slate-950" />
-          <span className="text-xs sm:text-sm">Agendar / Cotizar</span>
+          <MessageCircle className="w-6 h-6 fill-white" />
+          <span className="text-xs sm:text-sm font-semibold tracking-wide">Contactar a Silvana</span>
         </a>
       </div>
     </div>
