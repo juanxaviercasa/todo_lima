@@ -1,7 +1,12 @@
 import fs from 'fs';
 import path from 'path';
+import Navbar from '../../../components/Navbar.js';
+import Footer from '../../../components/Footer.js';
+import BusinessCard from '../../../components/BusinessCard.js';
+import { Star, ShieldCheck, MapPin } from 'lucide-react';
+import Link from 'next/link';
 
-// Genera las rutas estáticas del directorio legado.
+// Genera las rutas estáticas del directorio
 export async function generateStaticParams() {
   const dataDir = path.join(process.cwd(), 'data');
   const files = fs.readdirSync(dataDir);
@@ -15,63 +20,89 @@ export default async function DirectorioPage({ params }) {
   const filePath = path.join(process.cwd(), 'data', `${categoria}.json`);
 
   if (!fs.existsSync(filePath)) {
-    return <h1 className="text-center text-2xl mt-20">Directorio en construcción...</h1>;
+    return (
+      <div className="min-h-screen flex flex-col bg-slate-50">
+        <Navbar />
+        <main className="flex-grow flex items-center justify-center p-6 text-center">
+          <div className="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm max-w-md">
+            <h1 className="text-2xl font-black text-slate-900 mb-2">Directorio en Construcción</h1>
+            <p className="text-slate-500 text-sm mb-6">Estamos recopilando las mejores fichas para esta categoría.</p>
+            <Link href="/" className="font-bold text-xs bg-slate-900 text-white px-4 py-2.5 rounded-xl">
+              Volver al Inicio
+            </Link>
+          </div>
+        </main>
+        <Footer />
+      </div>
+    );
   }
 
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-  const { pageContent, businesses } = data;
+  const { pageContent, businesses = [] } = data;
 
   const isArray = Array.isArray(pageContent);
   const activeCopy = isArray
     ? pageContent[Math.floor(Math.random() * pageContent.length)]
     : pageContent;
 
+  const categoryName = categoria.replace(/-/g, ' ');
+
   return (
-    <main className="min-h-screen bg-gray-50 text-gray-900 p-6 font-sans">
-      <div className="max-w-4xl mx-auto">
-        <div className="bg-blue-900 text-white p-10 rounded-2xl shadow-lg mb-10 text-center">
-          <span className="text-blue-300 font-semibold tracking-wider uppercase text-sm mb-4 block">
-            Gancho activo: {activeCopy?.id || 'Normal'}
-          </span>
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">{activeCopy?.headline}</h1>
+    <div className="min-h-screen flex flex-col bg-slate-50">
+      <Navbar categoryTitle={categoryName} />
 
-          {activeCopy?.subtitles?.map((sub, i) => (
-            <p key={i} className="text-lg md:text-xl mb-3 text-blue-100">{sub}</p>
-          ))}
-
-          <a href="#" className="inline-block mt-6 bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full transition-transform transform hover:scale-105 shadow-xl">
-            {activeCopy?.ctas?.[0] || 'Ver directorio'}
-          </a>
-        </div>
-
-        <h2 className="text-3xl font-bold mb-6 text-gray-800">
-          Top {businesses.length} Especialistas Validados
-        </h2>
-
-        <div className="grid gap-6">
-          {businesses.map((biz) => (
-            <div key={biz.id} className="bg-white p-6 rounded-xl shadow-md border border-gray-100 flex flex-col md:flex-row justify-between items-start md:items-center">
-              <div>
-                <h3 className="text-2xl font-bold text-gray-900">{biz.name}</h3>
-                <p className="text-gray-500 mt-1 flex items-center">
-                  📍 {biz.address}
-                </p>
-                <span className="inline-block mt-3 bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full uppercase">
-                  {biz.category}
-                </span>
-              </div>
-              <div className="mt-4 md:mt-0 text-right">
-                <div className="text-yellow-500 text-xl font-black">
-                  {biz.rating ? `⭐ ${biz.rating}` : '⭐ Nuevo'}
-                </div>
-                <div className="text-sm text-gray-400 font-medium">
-                  {biz.reviewsCount ? `${biz.reviewsCount} reseñas verificadas` : 'Sin reseñas aún'}
-                </div>
-              </div>
+      <main className="flex-grow">
+        {/* Cabecera con Open Design */}
+        <section className="mesh-gradient-hero text-white py-16 px-4 sm:px-6 lg:px-8 text-center relative overflow-hidden">
+          <div className="max-w-4xl mx-auto relative z-10">
+            <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-400/30 text-emerald-300 text-xs font-bold mb-4">
+              <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+              <span>Directorio Verificado • Lima</span>
             </div>
-          ))}
-        </div>
-      </div>
-    </main>
+
+            <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-white mb-4">
+              {activeCopy?.headline || `Los Mejores Especialistas de ${categoryName} en Lima`}
+            </h1>
+
+            {activeCopy?.subtitles?.map((sub, i) => (
+              <p key={i} className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto mb-2">
+                {sub}
+              </p>
+            ))}
+
+            <div className="mt-6 flex items-center justify-center gap-4 text-xs font-bold text-slate-300">
+              <span className="flex items-center gap-1">
+                <Star className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
+                <span>4.8+ Calificación</span>
+              </span>
+              <span>•</span>
+              <span>{businesses.length} Negocios Listados</span>
+            </div>
+          </div>
+        </section>
+
+        {/* Fichas de Negocios */}
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="flex items-center justify-between mb-8 pb-4 border-b border-slate-200">
+            <div>
+              <h2 className="text-2xl font-black text-slate-900">
+                Top {businesses.length} Especialistas Validados
+              </h2>
+              <p className="text-xs sm:text-sm text-slate-500 mt-0.5">
+                Ordenados por reputación en Google Maps.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {businesses.map((biz, idx) => (
+              <BusinessCard key={biz.id || idx} business={biz} rank={idx + 1} />
+            ))}
+          </div>
+        </section>
+      </main>
+
+      <Footer />
+    </div>
   );
 }
