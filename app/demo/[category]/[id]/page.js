@@ -25,6 +25,27 @@ import { extractDistrict, parsePhone } from '../../../../auditor/engine/district
 import LuxuryHeader from '../../../../components/LuxuryHeader.js';
 import LuxuryContactSection from '../../../../components/LuxuryContactSection.js';
 
+export async function generateStaticParams() {
+  const baseDir = path.join(process.cwd(), 'audits', 'prototypes');
+  if (!fs.existsSync(baseDir)) return [];
+  try {
+    const categories = fs.readdirSync(baseDir);
+    const params = [];
+    for (const cat of categories) {
+      const catDir = path.join(baseDir, cat);
+      if (fs.statSync(catDir).isDirectory()) {
+        const files = fs.readdirSync(catDir).filter(f => f.endsWith('.json') && !f.startsWith('_'));
+        for (const file of files) {
+          params.push({ category: cat, id: file.replace('.json', '') });
+        }
+      }
+    }
+    return params;
+  } catch (e) {
+    return [];
+  }
+}
+
 export async function generateMetadata({ params }) {
   const { category, id } = params;
   const blueprintPath = path.join(process.cwd(), 'audits', 'prototypes', category, `${id}.json`);
