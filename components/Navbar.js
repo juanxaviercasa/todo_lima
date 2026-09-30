@@ -68,9 +68,11 @@ export default function Navbar({ categoryTitle = null }) {
           <div className="flex items-center gap-3">
             <Link href="/" className="flex items-center gap-2.5 group">
               <div className="relative">
-                <span className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-sky-600 via-blue-600 to-indigo-700 flex items-center justify-center text-white font-black text-lg shadow-md shadow-sky-500/25 group-hover:scale-105 transition-transform duration-300">
-                  TL
-                </span>
+                <img 
+                  src="/images/logo.jpg" 
+                  alt="Todo Lima Logo" 
+                  className="w-10 h-10 rounded-2xl object-cover shadow-md shadow-sky-500/20 group-hover:scale-105 transition-transform duration-300 border border-slate-200/80"
+                />
                 <span className="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-emerald-500 border-2 border-white rounded-full"></span>
               </div>
               <div className="flex flex-col">
@@ -168,10 +170,12 @@ export default function Navbar({ categoryTitle = null }) {
           <div className="relative bg-white w-full max-h-[88vh] overflow-y-auto rounded-t-3xl shadow-2xl border-t border-slate-200 p-6 flex flex-col z-10 animate-in slide-in-from-bottom duration-300">
             {/* Header del drawer */}
             <div className="flex items-center justify-between pb-4 border-b border-slate-100">
-              <div className="flex items-center gap-2">
-                <span className="w-8 h-8 rounded-xl bg-sky-600 flex items-center justify-center text-white font-extrabold text-sm">
-                  TL
-                </span>
+              <div className="flex items-center gap-2.5">
+                <img
+                  src="/images/logo.jpg"
+                  alt="Todo Lima"
+                  className="w-9 h-9 rounded-xl object-cover border border-slate-200"
+                />
                 <div>
                   <div className="font-extrabold text-base text-slate-900">Todo Lima</div>
                   <div className="text-[10px] text-slate-400 font-medium">Directorio Oficial</div>

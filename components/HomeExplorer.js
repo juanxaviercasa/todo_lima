@@ -292,18 +292,137 @@ export default function HomeExplorer({ categories = [] }) {
         </div>
       </section>
 
-      {/* Sección: ¿Cómo funciona Todo Lima? (Open Design 3-Column) */}
+      {/* Showcase Visual: Sectores Más Demandados en Lima */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
+          <div>
+            <span className="text-xs font-black uppercase tracking-widest text-sky-600 bg-sky-50 py-1 px-3.5 rounded-full border border-sky-200">
+              Especialidades Líderes
+            </span>
+            <h2 className="mt-3 text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+              Sectores Más Consultados en Lima
+            </h2>
+            <p className="mt-1 text-xs sm:text-sm text-slate-500">
+              Atención médica de élite y técnicos garantizados a domicilio.
+            </p>
+          </div>
+
+          <Link
+            href="/#directorios"
+            className="inline-flex items-center gap-1.5 text-xs font-bold text-sky-600 hover:text-sky-800 transition-colors self-start sm:self-auto"
+          >
+            <span>Ver todas las 38 categorías</span>
+            <ArrowRight className="w-3.5 h-3.5" />
+          </Link>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {/* Card 1: Salud y Medicina */}
+          <div className="open-card relative rounded-3xl overflow-hidden border border-slate-200/90 shadow-sm bg-white group flex flex-col justify-between">
+            <div className="relative h-64 sm:h-72 w-full overflow-hidden">
+              <img
+                src="/images/salud-feature.jpg"
+                alt="Médicos y Especialistas en Lima"
+                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/30 to-transparent" />
+              
+              <div className="absolute top-4 left-4 inline-flex items-center gap-1.5 bg-rose-500/90 text-white text-[11px] font-black px-3 py-1 rounded-xl backdrop-blur-md shadow-sm">
+                <Stethoscope className="w-3.5 h-3.5" />
+                <span>Salud & Medicina</span>
+              </div>
+
+              <div className="absolute bottom-4 left-4 right-4 text-white">
+                <div className="flex items-center gap-1.5 text-amber-300 text-xs font-bold mb-1">
+                  <Star className="w-3.5 h-3.5 fill-amber-300" />
+                  <span>4.9★ Promedio • San Isidro, Surco, Miraflores</span>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-black leading-tight text-white">
+                  Clínicas y Médicos Especialistas
+                </h3>
+              </div>
+            </div>
+
+            <div className="p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+              <p className="text-xs sm:text-sm text-slate-500 leading-relaxed max-w-sm">
+                Doctores, dentistas, pediatras y dermatólogos con opiniones auditadas y citas inmediatas por WhatsApp.
+              </p>
+
+              <Link
+                href="/doctores"
+                className="shrink-0 inline-flex items-center gap-2 bg-slate-900 hover:bg-sky-600 text-white font-bold text-xs py-3 px-5 rounded-2xl transition-colors shadow-sm"
+              >
+                <span>Ver Fichas Médicas</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+          </div>
+
+          {/* Card 2: Hogar y Reparaciones */}
+          <div className="open-card relative rounded-3xl overflow-hidden border border-slate-200/90 shadow-sm bg-white group flex flex-col justify-between">
+            <div className="relative h-64 sm:h-72 w-full overflow-hidden">
+              <img
+                src="/images/hogar-feature.jpg"
+                alt="Técnicos a Domicilio en Lima"
+                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/30 to-transparent" />
+              
+              <div className="absolute top-4 left-4 inline-flex items-center gap-1.5 bg-amber-500/90 text-white text-[11px] font-black px-3 py-1 rounded-xl backdrop-blur-md shadow-sm">
+                <Wrench className="w-3.5 h-3.5" />
+                <span>Hogar & Reparaciones</span>
+              </div>
+
+              <div className="absolute bottom-4 left-4 right-4 text-white">
+                <div className="flex items-center gap-1.5 text-emerald-300 text-xs font-bold mb-1">
+                  <CheckCircle2 className="w-3.5 h-3.5" />
+                  <span>Servicio de Emergencia 24/7 en Todo Lima</span>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-black leading-tight text-white">
+                  Técnicos y Gasfiteros a Domicilio
+                </h3>
+              </div>
+            </div>
+
+            <div className="p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+              <p className="text-xs sm:text-sm text-slate-500 leading-relaxed max-w-sm">
+                Gasfiteros, electricistas, cerrajeros y técnicos de electrodomésticos con respuesta rápida en tu distrito.
+              </p>
+
+              <Link
+                href="/gasfiteros"
+                className="shrink-0 inline-flex items-center gap-2 bg-slate-900 hover:bg-amber-600 text-white font-bold text-xs py-3 px-5 rounded-2xl transition-colors shadow-sm"
+              >
+                <span>Ver Técnicos Listos</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Sección: ¿Cómo funciona Todo Lima? (Open Design 3-Column con Sello 3D) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-        <div className="text-center max-w-2xl mx-auto mb-12">
-          <span className="text-xs font-bold uppercase tracking-widest text-emerald-700 bg-emerald-50 py-1 px-3.5 rounded-full border border-emerald-200">
-            Transparencia Radical
-          </span>
-          <h2 className="mt-3 text-2xl sm:text-3xl font-black text-slate-900">
-            ¿Por qué elegir profesionales desde Todo Lima?
-          </h2>
-          <p className="mt-2 text-sm text-slate-500">
-            Diseñado para ahorrarte tiempo, malas experiencias y sobrecostos.
-          </p>
+        <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-14 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white p-8 sm:p-10 rounded-3xl shadow-xl">
+          <div className="max-w-2xl">
+            <span className="text-xs font-bold uppercase tracking-widest text-emerald-400 bg-emerald-950/80 py-1 px-3.5 rounded-full border border-emerald-800">
+              Sello de Confianza Oficial
+            </span>
+            <h2 className="mt-4 text-2xl sm:text-4xl font-black text-white tracking-tight">
+              Garantía de Auditoría Abierta en Google Maps
+            </h2>
+            <p className="mt-2.5 text-sm sm:text-base text-slate-300 leading-relaxed">
+              Cada negocio listado en Todo Lima ha superado filtros de calificación, volumen de opiniones comprobadas y canales de contacto activos.
+            </p>
+          </div>
+
+          <div className="shrink-0 flex items-center justify-center">
+            <img
+              src="/images/badge-verified.jpg"
+              alt="Sello de Verificación Todo Lima"
+              className="w-28 h-28 sm:w-36 sm:h-36 rounded-2xl object-cover shadow-2xl border border-white/20 hover:scale-105 transition-transform"
+            />
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

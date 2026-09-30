@@ -56,9 +56,11 @@ export default function Footer() {
           {/* Columna de Marca (2 columnas de ancho) */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-2.5 group">
-              <span className="w-9 h-9 rounded-xl bg-gradient-to-tr from-sky-600 via-blue-600 to-indigo-700 flex items-center justify-center text-white font-black text-base shadow-md shadow-sky-500/20 group-hover:scale-105 transition-transform">
-                TL
-              </span>
+              <img 
+                src="/images/logo.jpg" 
+                alt="Todo Lima Logo" 
+                className="w-9 h-9 rounded-xl object-cover shadow-sm group-hover:scale-105 transition-transform"
+              />
               <div className="flex flex-col">
                 <span className="font-black text-xl text-white tracking-tight">
                   Todo<span className="text-sky-500">Lima</span>

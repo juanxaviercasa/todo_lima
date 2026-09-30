@@ -39,7 +39,12 @@ export default function GHLConversionSections({ category }) {
     <div className="bg-slate-50 border-t border-slate-200/80 mt-20">
       {/* Sección 1: Tres Pilares de Confianza */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
-        <div className="text-center max-w-3xl mx-auto">
+        <div className="flex flex-col items-center text-center max-w-3xl mx-auto">
+          <img
+            src="/images/badge-verified.jpg"
+            alt="Sello de Calidad Verificada"
+            className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl object-cover mb-4 shadow-lg border border-slate-200/80 hover:scale-105 transition-transform"
+          />
           <span className="text-xs font-black uppercase tracking-widest text-sky-600 bg-sky-50 py-1.5 px-4 rounded-full border border-sky-200">
             Estándar de Calidad Todo Lima
           </span>

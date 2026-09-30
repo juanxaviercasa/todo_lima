@@ -18,9 +18,20 @@ export default function HomePage() {
 
       <main className="flex-grow">
         {/* Héroe del Portal Principal con Open Design */}
-        <section className="relative overflow-hidden mesh-gradient-hero text-white pt-16 pb-24 sm:pt-24 sm:pb-32">
+        <section className="relative overflow-hidden bg-slate-950 text-white pt-16 pb-24 sm:pt-24 sm:pb-32">
+          {/* Fondo fotográfico cinemático de Lima con overlay atmosférico */}
+          <div className="absolute inset-0 pointer-events-none">
+            <img 
+              src="/images/lima-hero.jpg" 
+              alt="Lima Skyline Costa Verde" 
+              className="w-full h-full object-cover object-center opacity-25"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-950/70 to-slate-950" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(2,6,23,0.85)_100%)]" />
+          </div>
+
           {/* Resplandores ambientales de fondo */}
-          <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-full max-w-5xl h-96 bg-sky-500/10 blur-[120px] rounded-full pointer-events-none" />
+          <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-full max-w-5xl h-96 bg-sky-500/15 blur-[120px] rounded-full pointer-events-none" />
           <div className="absolute -top-10 left-10 w-72 h-72 bg-emerald-500/10 blur-[100px] rounded-full pointer-events-none" />
           
           <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
