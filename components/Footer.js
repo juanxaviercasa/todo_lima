@@ -77,13 +77,13 @@ export default function Footer() {
 
             <div className="mt-6 flex flex-col gap-2">
               <a
-                href="https://wa.me/51999999999?text=Hola,%20deseo%20publicar%20mi%20negocio%20en%20todolima.com"
+                href="https://wa.me/51925475034?text=Hola,%20deseo%20publicar%20mi%20negocio%20en%20todolima.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-xs font-bold text-emerald-400 hover:text-emerald-300 transition-colors"
               >
                 <PhoneCall className="w-4 h-4" />
-                <span>Contacto WhatsApp para Negocios</span>
+                <span>WhatsApp Negocios: +51 925 475 034</span>
               </a>
               <Link
                 href="/auditoria"

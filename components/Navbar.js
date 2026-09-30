@@ -135,7 +135,7 @@ export default function Navbar({ categoryTitle = null }) {
 
             {/* CTA Publicar Negocio */}
             <a
-              href="https://wa.me/51999999999?text=Hola,%20deseo%20publicar%20mi%20negocio%20en%20todolima.com"
+              href="https://wa.me/51925475034?text=Hola,%20deseo%20publicar%20mi%20negocio%20en%20todolima.com"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-white bg-gradient-to-r from-slate-900 to-slate-800 hover:from-sky-700 hover:to-blue-700 transition-all duration-300 py-2.5 px-4 rounded-xl shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98]"
@@ -250,7 +250,7 @@ export default function Navbar({ categoryTitle = null }) {
             {/* Call to Action Móvil */}
             <div className="pt-4 border-t border-slate-100 space-y-2 mt-auto">
               <a
-                href="https://wa.me/51999999999?text=Hola,%20deseo%20publicar%20mi%20negocio%20en%20todolima.com"
+                href="https://wa.me/51925475034?text=Hola,%20deseo%20publicar%20mi%20negocio%20en%20todolima.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm shadow-md transition-colors"

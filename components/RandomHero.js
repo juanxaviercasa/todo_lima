@@ -78,7 +78,7 @@ export default function RandomHero({ category, pageContent, totalResults, update
           </a>
 
           <a
-            href="https://wa.me/51999999999?text=Hola,%20deseo%20publicar%20mi%20negocio%20en%20todolima.com"
+            href="https://wa.me/51925475034?text=Hola,%20deseo%20publicar%20mi%20negocio%20en%20todolima.com"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/15 text-white font-bold px-6 py-3.5 rounded-2xl border border-white/10 transition-colors text-sm"

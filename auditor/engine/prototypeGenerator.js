@@ -174,7 +174,7 @@ export function generatePrototypeBlueprint(business, categorySlug, district, pho
   );
   const waLink = phoneData.isMobile && phoneData.international
     ? `https://wa.me/${phoneData.international}?text=${waPreText}`
-    : `https://wa.me/51999999999?text=${waPreText}`;
+    : `https://wa.me/51925475034?text=${waPreText}`;
 
   // Reseñas verificadas auténticas y detalladas de Google Maps
   const verifiedReviews = [
