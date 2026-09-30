@@ -1,4 +1,5 @@
 import { getCategoryData } from '../../lib/getData.js';
+import { CATEGORIES } from '../../scraper/config/categories.js';
 import Navbar from '../../components/Navbar.js';
 import RandomHero from '../../components/RandomHero.js';
 import CategoryDirectorioClient from '../../components/CategoryDirectorioClient.js';
@@ -6,6 +7,12 @@ import GHLConversionSections from '../../components/GHLConversionSections.js';
 import Footer from '../../components/Footer.js';
 import { AlertCircle, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
+
+export async function generateStaticParams() {
+  return CATEGORIES.map((cat) => ({
+    subdomain: cat.slug,
+  }));
+}
 
 export async function generateMetadata({ params }) {
   const { subdomain } = params;
