@@ -35,7 +35,7 @@ export default function RandomHero({ category, pageContent, totalResults, update
       <div className="absolute inset-0 z-0">
         {category?.slug && (
           <img 
-            src={`/images/categories/${category.slug}.webp`}
+            src={`/images/categories/${category.slug.replace(/-/g, '_')}.webp`}
             alt={`Fondo de ${category.title}`}
             className="w-full h-full object-cover object-center opacity-40"
           />

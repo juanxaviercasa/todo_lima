@@ -166,7 +166,7 @@ export default function HomeExplorer({ categories = [] }) {
                   {/* Image Header */}
                   <div className="relative w-full h-48 overflow-hidden bg-slate-100">
                     <img 
-                      src={`/images/categories/${cat.slug}.webp`} 
+                      src={`/images/categories/${cat.slug.replace(/-/g, '_')}.webp`} 
                       alt={cat.title} 
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       onError={(e) => { e.target.style.display = 'none' }}
