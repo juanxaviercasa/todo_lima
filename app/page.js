@@ -24,10 +24,10 @@ export default function HomePage() {
             <img 
               src="/images/lima-hero.jpg" 
               alt="Lima Skyline Costa Verde" 
-              className="w-full h-full object-cover object-center opacity-25"
+              className="w-full h-full object-cover object-center opacity-40"
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-950/70 to-slate-950" />
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(2,6,23,0.85)_100%)]" />
+            <div className="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-950/50 to-slate-950/90" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(2,6,23,0.7)_100%)]" />
           </div>
 
           {/* Resplandores ambientales de fondo */}

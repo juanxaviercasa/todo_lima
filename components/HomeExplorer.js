@@ -82,8 +82,8 @@ export default function HomeExplorer({ categories = [] }) {
             )}
           </div>
 
-          {/* Filtros de Rubros / Píldoras Horizontales con scroll táctil */}
-          <div className="flex items-center gap-2 overflow-x-auto pt-3 pb-1 scrollbar-none text-xs font-bold no-scrollbar">
+          {/* Filtros de Rubros / Píldoras con wrap */}
+          <div className="flex flex-wrap items-center justify-center gap-2 pt-3 pb-1 text-xs font-bold">
             {Object.entries(NICHE_CONFIG).map(([key, config]) => {
               const Icon = config.icon;
               const isSelected = selectedNiche === key;
@@ -220,7 +220,7 @@ export default function HomeExplorer({ categories = [] }) {
                   </div>
 
                   {/* Footer de la tarjeta con subdominio y flecha de apertura */}
-                  <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                  <div className="mt-auto pt-4 pb-6 px-6 border-t border-slate-100 flex items-center justify-between">
                     <span className="text-xs font-mono font-bold text-slate-500 group-hover:text-sky-600 transition-colors">
                       todolima.com/{cat.slug}
                     </span>
