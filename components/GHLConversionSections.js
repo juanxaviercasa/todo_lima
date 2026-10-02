@@ -174,7 +174,7 @@ export default function GHLConversionSections({ category }) {
                 ¿Ofreces servicios en este rubro en Lima?
               </h3>
               <p className="mt-3 text-sm sm:text-base text-slate-300 leading-relaxed">
-                Posiciona tu consultorio, clínica o empresa frente a miles de personas que buscan atención confiable a diario en los subdominios de Todo Lima.
+                Posiciona tu consultorio, clínica o empresa frente a miles de personas que buscan atención confiable a diario en los directorios de Todo Lima.
               </p>
             </div>
 

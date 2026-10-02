@@ -30,12 +30,25 @@ export default function RandomHero({ category, pageContent, totalResults, update
     : 'Septiembre 2026';
 
   return (
-    <section className="relative overflow-hidden mesh-gradient-hero text-white pt-12 pb-20 sm:pt-16 sm:pb-28">
-      {/* Luces y resplandores ambientales de fondo */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-6xl h-96 bg-sky-500/10 blur-[130px] pointer-events-none rounded-full" />
-      <div className="absolute -bottom-10 right-10 w-80 h-80 bg-emerald-500/10 blur-[100px] pointer-events-none rounded-full" />
+    <section className="relative overflow-hidden bg-slate-900 text-white pt-12 pb-20 sm:pt-16 sm:pb-28">
+      {/* Imagen de fondo específica de la categoría generada con IA */}
+      <div className="absolute inset-0 z-0">
+        {category?.slug && (
+          <img 
+            src={`/images/categories/${category.slug}.webp`}
+            alt={`Fondo de ${category.title}`}
+            className="w-full h-full object-cover object-center opacity-40"
+          />
+        )}
+        {/* Gradiente para asegurar legibilidad del texto */}
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-900/60 to-slate-900" />
+      </div>
 
-      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      {/* Luces y resplandores ambientales de fondo (ahora sobre la imagen pero detrás del texto) */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-6xl h-96 bg-sky-500/20 blur-[130px] pointer-events-none rounded-full z-0" />
+      <div className="absolute -bottom-10 right-10 w-80 h-80 bg-emerald-500/10 blur-[100px] pointer-events-none rounded-full z-0" />
+
+      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Breadcrumb navegable */}
         <div className="inline-flex items-center gap-2 text-xs font-semibold text-slate-400 mb-6 bg-white/5 border border-white/10 px-3.5 py-1.5 rounded-full backdrop-blur-md">
           <Link href="/" className="hover:text-white transition-colors">

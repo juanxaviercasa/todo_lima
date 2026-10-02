@@ -222,7 +222,7 @@ export default function HomeExplorer({ categories = [] }) {
                   {/* Footer de la tarjeta con subdominio y flecha de apertura */}
                   <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
                     <span className="text-xs font-mono font-bold text-slate-500 group-hover:text-sky-600 transition-colors">
-                      {cat.slug}.todolima.com
+                      todolima.com/{cat.slug}
                     </span>
                     <div className="w-8 h-8 rounded-xl bg-slate-50 group-hover:bg-sky-50 text-slate-400 group-hover:text-sky-600 flex items-center justify-center transition-colors">
                       <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
@@ -484,7 +484,7 @@ export default function HomeExplorer({ categories = [] }) {
                 ¿Tienes un negocio o prestas servicios en Lima?
               </h3>
               <p className="mt-3 text-sm sm:text-base text-slate-300 leading-relaxed">
-                Aparece destacado en la red de subdominios de Todo Lima y recibe consultas directas de clientes potenciales todos los días.
+                Aparece destacado en la red de directorios de Todo Lima y recibe consultas directas de clientes potenciales todos los días.
               </p>
             </div>
 
