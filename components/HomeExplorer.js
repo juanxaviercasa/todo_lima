@@ -161,28 +161,40 @@ export default function HomeExplorer({ categories = [] }) {
                 <Link
                   key={cat.slug}
                   href={`/${cat.slug}`}
-                  className="open-card bg-white rounded-3xl border border-slate-200/90 p-6 sm:p-7 flex flex-col justify-between group relative overflow-hidden shadow-xs hover:border-sky-300"
+                  className="open-card bg-white rounded-3xl border border-slate-200/90 p-0 flex flex-col justify-between group relative overflow-hidden shadow-xs hover:border-sky-300 transition-all hover:shadow-md"
                 >
-                  {/* Píldora de rubro y status */}
-                  <div>
-                    <div className="flex items-center justify-between gap-2 mb-4">
-                      <div className="flex items-center gap-1.5 bg-slate-100/90 py-1 px-2.5 rounded-lg text-slate-600 text-[11px] font-bold">
-                        <NicheIcon className="w-3.5 h-3.5 text-slate-500" />
+                  {/* Image Header */}
+                  <div className="relative w-full h-48 overflow-hidden bg-slate-100">
+                    <img 
+                      src={`/images/categories/${cat.slug}.webp`} 
+                      alt={cat.title} 
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      onError={(e) => { e.target.style.display = 'none' }}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent" />
+                    
+                    {/* Status badges absolute on top of image */}
+                    <div className="absolute bottom-3 left-4 right-4 flex items-center justify-between gap-2">
+                      <div className="flex items-center gap-1.5 bg-white/95 backdrop-blur-md py-1 px-2.5 rounded-lg text-slate-700 text-[11px] font-bold shadow-sm">
+                        <NicheIcon className="w-3.5 h-3.5 text-sky-500" />
                         <span className="capitalize">{cat.niche}</span>
                       </div>
 
                       {cat.hasData ? (
-                        <span className="inline-flex items-center gap-1.5 text-[11px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/80 px-2.5 py-0.5 rounded-full">
-                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                        <span className="inline-flex items-center gap-1.5 text-[11px] font-bold text-white bg-emerald-500/90 backdrop-blur-md px-2.5 py-1 rounded-full shadow-sm">
+                          <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
                           Directorio listo
                         </span>
                       ) : (
-                        <span className="text-[11px] font-medium text-slate-400 bg-slate-50 px-2.5 py-0.5 rounded-full border border-slate-100">
+                        <span className="text-[11px] font-medium text-slate-600 bg-white/90 backdrop-blur-md px-2.5 py-1 rounded-full shadow-sm">
                           Próximamente
                         </span>
                       )}
                     </div>
+                  </div>
 
+                  {/* Card Content */}
+                  <div className="p-6">
                     {/* Título de la categoría */}
                     <h3 className="text-xl font-black text-slate-900 group-hover:text-sky-600 transition-colors leading-snug">
                       {cat.title}
