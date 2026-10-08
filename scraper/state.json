@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "createdAt": "2026-09-08T04:52:33.387Z",
-  "lastUpdated": "2026-10-08T20:27:07.620Z",
+  "lastUpdated": "2026-10-08T21:42:25.661Z",
   "totalCompleted": 22,
   "categories": {
     "dentistas": {
@@ -186,6 +186,30 @@
     },
     "casas-de-cambio": {
       "lastScraped": "2026-10-08T20:27:07.620Z",
+      "status": "success",
+      "resultsCount": 100,
+      "error": null
+    },
+    "podologos": {
+      "lastScraped": "2026-10-08T21:25:57.992Z",
+      "status": "success",
+      "resultsCount": 100,
+      "error": null
+    },
+    "laboratorios-clinicos": {
+      "lastScraped": "2026-10-08T21:31:09.824Z",
+      "status": "success",
+      "resultsCount": 100,
+      "error": null
+    },
+    "traumatologos": {
+      "lastScraped": "2026-10-08T21:36:35.501Z",
+      "status": "success",
+      "resultsCount": 100,
+      "error": null
+    },
+    "grooming-canino": {
+      "lastScraped": "2026-10-08T21:42:25.661Z",
       "status": "success",
       "resultsCount": 100,
       "error": null
