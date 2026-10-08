@@ -1,15 +1,10 @@
-import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 import { NextResponse } from 'next/server';
 
 /**
- * Middleware de seguridad y multi-inquilino de Todo Lima:
- * 1. Autenticación con Clerk para proteger /admin/*
- * 2. Redirección y reescritura para subdominios comodín (*.todolima.com)
+ * Middleware de enrutamiento y multi-inquilino de Todo Lima:
+ * Redirección y reescritura para subdominios comodín (*.todolima.com)
  */
-
-const hasClerk = Boolean(process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY);
-
-function handleRouting(req) {
+export default function middleware(req) {
   const url = req.nextUrl;
   const hostname = req.headers.get('host') || '';
 
@@ -48,32 +43,6 @@ function handleRouting(req) {
   }
 
   return NextResponse.next();
-}
-
-let middlewareHandler;
-
-if (hasClerk) {
-  const isAdminRoute = createRouteMatcher(['/admin(.*)']);
-  const clerkHandler = clerkMiddleware((auth, req) => {
-    // Proteger panel privado /admin con Clerk
-    if (isAdminRoute(req)) {
-      auth().protect();
-    }
-    return handleRouting(req);
-  });
-  middlewareHandler = (req, evt) => clerkHandler(req, evt);
-} else {
-  middlewareHandler = (req) => {
-    // Blindaje de seguridad por defecto: proteger /admin redirigiendo a login
-    if (req.nextUrl.pathname.startsWith('/admin')) {
-      return NextResponse.redirect(new URL('/sign-in', req.url));
-    }
-    return handleRouting(req);
-  };
-}
-
-export default function middleware(req, evt) {
-  return middlewareHandler(req, evt);
 }
 
 export const config = {

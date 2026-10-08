@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
-import pg from 'pg';
 import { 
   Building2, 
   Users, 
@@ -22,63 +21,24 @@ export const metadata = {
   title: 'Dashboard Administrativo | Todo Lima',
 };
 
-export const dynamic = 'force-dynamic';
-
-export default async function AdminDashboardPage() {
+export default function AdminDashboardPage() {
   let auditSummary = {
-    totalBusinesses: 0,
-    noWebsite: 0,
-    withMobilePhone: 0,
-    noWebsitePct: 0
+    totalBusinesses: 3268,
+    noWebsite: 3042,
+    withMobilePhone: 2196,
+    noWebsitePct: 93
   };
 
-  const dbUrl = process.env.DATABASE_URL;
-  let isDbConnected = false;
-
-  // 1. Intentar cargar métricas en vivo desde Supabase
-  if (dbUrl) {
-    const { Client } = pg;
-    const client = new Client({
-      connectionString: dbUrl,
-      ssl: { rejectUnauthorized: false }
-    });
-
+  const auditsSummaryPath = path.join(process.cwd(), 'audits', 'summary.json');
+  if (fs.existsSync(auditsSummaryPath)) {
     try {
-      await client.connect();
-      const totalRes = await client.query('SELECT COUNT(*) as count FROM public.businesses;');
-      const mobileRes = await client.query('SELECT COUNT(*) as count FROM public.leads_prospecting WHERE is_mobile = true;');
-      const noWebRes = await client.query("SELECT COUNT(*) as count FROM public.leads_prospecting WHERE has_website = false;");
-
-      const totalCount = parseInt(totalRes.rows[0]?.count || '0', 10);
-      const withMobile = parseInt(mobileRes.rows[0]?.count || '0', 10);
-      const noWeb = parseInt(noWebRes.rows[0]?.count || '0', 10);
-
-      auditSummary = {
-        totalBusinesses: totalCount,
-        withMobilePhone: withMobile,
-        noWebsite: noWeb,
-        noWebsitePct: totalCount > 0 ? Math.round((noWeb / totalCount) * 100) : 0
-      };
-      isDbConnected = true;
-      await client.end();
-    } catch (e) {
-      console.error('Error conectando a Supabase en dashboard:', e.message);
-    }
-  }
-
-  // 2. Fallback a summary.json si no hay base de datos conectada
-  if (!isDbConnected) {
-    const auditsSummaryPath = path.join(process.cwd(), 'audits', 'summary.json');
-    if (fs.existsSync(auditsSummaryPath)) {
-      try {
-        const raw = fs.readFileSync(auditsSummaryPath, 'utf-8');
-        const parsed = JSON.parse(raw);
-        if (parsed.summary) {
-          auditSummary = parsed.summary;
-        }
-      } catch (e) {
-        console.error('Error al leer summary.json en dashboard:', e);
+      const raw = fs.readFileSync(auditsSummaryPath, 'utf-8');
+      const parsed = JSON.parse(raw);
+      if (parsed.summary) {
+        auditSummary = parsed.summary;
       }
+    } catch (e) {
+      console.error('Error al leer summary.json en dashboard:', e);
     }
   }
 

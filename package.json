@@ -22,7 +22,8 @@
     "prototype:top5": "node auditor/generate-prototypes.js --top 5",
     "prototype:ranking": "node auditor/generate-prototypes.js --list-ranking",
     "pipeline": "node scripts/pipeline.js",
-    "db:sync": "node scripts/bulk-migration.js"
+    "db:sync": "node scripts/bulk-migration.js",
+    "postinstall": "node scripts/patch-next-export.js"
   },
   "dependencies": {
     "@clerk/nextjs": "^5.7.6",

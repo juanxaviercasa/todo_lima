@@ -1,6 +1,7 @@
+'use client';
+
 import Link from 'next/link';
-import { UserButton } from '@clerk/nextjs';
-import { currentUser } from '@clerk/nextjs/server';
+import { UserButton, useUser } from '@clerk/nextjs';
 import { 
   LayoutDashboard, 
   Users, 
@@ -11,20 +12,19 @@ import {
   Building2 
 } from 'lucide-react';
 
-export const metadata = {
-  title: 'Consola Administrativa Privada | Todo Lima',
-  description: 'Panel privado de control, prospección B2B y ejecución de tareas de Todo Lima.',
-  robots: {
-    index: false,
-    follow: false,
-  },
-};
+export default function AdminLayout({ children }) {
+  const { isLoaded, isSignedIn, user } = useUser();
+  const allowedEmail = 'j76018445@gmail.com';
+  const userEmail = user?.primaryEmailAddress?.emailAddress?.toLowerCase().trim();
+  const isAuthorized = isSignedIn && userEmail === allowedEmail;
 
-export default async function AdminLayout({ children }) {
-  const user = await currentUser();
-  const allowedEmail = (process.env.ADMIN_ALLOWED_EMAIL || 'j76018445@gmail.com').toLowerCase().trim();
-  const userEmail = user?.emailAddresses?.[0]?.emailAddress?.toLowerCase().trim();
-  const isAuthorized = user && userEmail === allowedEmail;
+  if (!isLoaded) {
+    return (
+      <div className="min-h-screen bg-slate-950 text-slate-100 flex items-center justify-center">
+        <div className="w-8 h-8 border-2 border-sky-400 border-t-transparent rounded-full animate-spin" />
+      </div>
+    );
+  }
 
   // Si no está autorizado o intentó entrar con otra cuenta
   if (!isAuthorized) {
