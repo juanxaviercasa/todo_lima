@@ -108,6 +108,20 @@ export default function AdminEjecucionesPage() {
           <span>Comandos de Ejecución Local / Servidor</span>
         </h3>
 
+        {/* Banner Comando Maestro Todo-en-Uno */}
+        <div className="mb-6 p-4 rounded-2xl bg-gradient-to-r from-emerald-500/10 via-sky-500/10 to-indigo-500/10 border border-emerald-500/30">
+          <div className="flex items-center gap-2 text-emerald-400 font-bold text-xs uppercase mb-1">
+            <Sparkles className="w-4 h-4" />
+            <span>Comando Maestro Todo-en-Uno (Scraping + Auditoría + Sincronización Supabase)</span>
+          </div>
+          <div className="text-emerald-300 font-mono text-sm bg-slate-950 p-3 rounded-xl border border-slate-800 select-all my-2">
+            npm run pipeline -- --slug veterinarias
+          </div>
+          <p className="text-slate-400 text-xs font-sans">
+            Este comando corre Playwright en Google Maps, audita sitios y teléfonos, redacta los mensajes de WhatsApp y los inserta directamente en tu base de datos Supabase en un solo paso.
+          </p>
+        </div>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 text-xs font-mono">
           <div className="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
             <span className="text-slate-400 text-[11px] font-sans font-bold block">1. Extracción de Google Maps (Playwright)</span>

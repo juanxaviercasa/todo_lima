@@ -20,7 +20,9 @@
     "prototype": "node auditor/generate-prototypes.js",
     "prototype:rank": "node auditor/generate-prototypes.js --rank",
     "prototype:top5": "node auditor/generate-prototypes.js --top 5",
-    "prototype:ranking": "node auditor/generate-prototypes.js --list-ranking"
+    "prototype:ranking": "node auditor/generate-prototypes.js --list-ranking",
+    "pipeline": "node scripts/pipeline.js",
+    "db:sync": "node scripts/bulk-migration.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.3",
