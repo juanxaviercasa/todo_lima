@@ -15,8 +15,10 @@ export const viewport = {
   themeColor: '#0f172a',
 };
 
+const DEFAULT_CLERK_KEY = 'pk_test_ZW1pbmVudC1tb25rZXktNDI3MS5jbGVyay5hY2NvdW50cy5kZXYk';
+
 export default function RootLayout({ children }) {
-  const publishableKey = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
+  const publishableKey = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY || DEFAULT_CLERK_KEY;
 
   return (
     <ClerkProviderWrapper publishableKey={publishableKey}>
