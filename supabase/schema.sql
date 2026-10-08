@@ -82,7 +82,7 @@ CREATE INDEX IF NOT EXISTS idx_leads_sales_stage ON public.leads_prospecting(sal
 -- ==============================================================================
 CREATE TABLE IF NOT EXISTS public.outreach_pitches (
     id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    business_id VARCHAR(100) REFERENCES public.businesses(id) ON DELETE CASCADE,
+    business_id VARCHAR(100) UNIQUE REFERENCES public.businesses(id) ON DELETE CASCADE,
     suggested_subdomain VARCHAR(255),
     whatsapp_pitch TEXT NOT NULL,
     phone_script TEXT,

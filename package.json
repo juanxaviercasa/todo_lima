@@ -23,8 +23,10 @@
     "prototype:ranking": "node auditor/generate-prototypes.js --list-ranking"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.117.3",
     "lucide-react": "^1.42.0",
     "next": "^14.2.35",
+    "pg": "^8.23.1",
     "playwright": "^1.50.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
