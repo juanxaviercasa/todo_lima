@@ -22,22 +22,26 @@ export const metadata = {
 
 export default async function AdminLayout({ children }) {
   const user = await currentUser();
-  const allowedEmail = process.env.ADMIN_ALLOWED_EMAIL || 'j76018445@gmail.com';
-  
-  const userEmail = user?.emailAddresses?.[0]?.emailAddress?.toLowerCase();
-  const isAuthorized = !user || userEmail === allowedEmail.toLowerCase();
+  const allowedEmail = (process.env.ADMIN_ALLOWED_EMAIL || 'j76018445@gmail.com').toLowerCase().trim();
+  const userEmail = user?.emailAddresses?.[0]?.emailAddress?.toLowerCase().trim();
+  const isAuthorized = user && userEmail === allowedEmail;
 
-  // Si el usuario inició sesión con otra cuenta no autorizada
-  if (user && !isAuthorized) {
+  // Si no está autorizado o intentó entrar con otra cuenta
+  if (!isAuthorized) {
     return (
       <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col items-center justify-center p-6 text-center">
         <div className="max-w-md bg-slate-900 border border-rose-500/30 p-8 rounded-3xl shadow-2xl">
           <div className="w-16 h-16 rounded-2xl bg-rose-500/10 text-rose-500 flex items-center justify-center mx-auto mb-4 border border-rose-500/20">
             <ShieldAlert className="w-8 h-8" />
           </div>
-          <h2 className="text-xl font-black text-white mb-2">Acceso No Autorizado</h2>
+          <h2 className="text-xl font-black text-white mb-2">Acceso Exclusivo de Gerencia General</h2>
           <p className="text-xs text-slate-400 mb-4 leading-relaxed">
-            Has iniciado sesión como <strong className="text-white">{userEmail}</strong>, pero esta cuenta no tiene permisos de administrador para Todo Lima.
+            Este panel es de uso estrictamente confidencial para el Gerente General de Todo Lima.
+            {userEmail ? (
+              <> La cuenta actual (<strong className="text-rose-400">{userEmail}</strong>) no tiene autorización.</>
+            ) : (
+              <> Debes iniciar sesión con la cuenta oficial autorizada.</>
+            )}
           </p>
           <div className="flex items-center justify-center gap-3 pt-4 border-t border-slate-800">
             <span className="text-xs text-slate-400">Cerrar sesión:</span>

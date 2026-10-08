@@ -47,13 +47,17 @@ export default function SignInPage() {
               socialButtonsBlockButtonText: 'text-white font-medium text-xs',
               dividerLine: 'bg-slate-800',
               dividerText: 'text-slate-500 text-xs',
-              footerActionLink: 'text-sky-400 hover:text-sky-300',
+              footer: 'hidden',
+              footerAction: 'hidden',
+              footerActionLink: 'hidden',
+              footerActionText: 'hidden',
               identityPreviewText: 'text-slate-300',
               identityPreviewEditButton: 'text-sky-400',
             },
           }}
           routing="path"
           path="/sign-in"
+          signUpUrl="/sign-in"
           fallbackRedirectUrl="/admin"
         />
       </div>
