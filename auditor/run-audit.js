@@ -213,13 +213,11 @@ async function main() {
   console.log(`⚙️ Modo HTTP: ${skipHttp ? 'OFF (Análisis instantáneo sin red)' : 'ON (Sondeo técnico en vivo)'}`);
 
   const results = {};
-  const allBusinessesFlattened = [];
 
   for (const slug of categoriesToAudit) {
     const catResult = await auditCategory(slug);
     if (catResult) {
       results[slug] = catResult;
-      allBusinessesFlattened.push(...catResult.businesses);
     }
   }
 
