@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "createdAt": "2026-09-08T04:52:33.387Z",
-  "lastUpdated": "2026-10-08T19:57:59.811Z",
+  "lastUpdated": "2026-10-08T20:27:07.620Z",
   "totalCompleted": 22,
   "categories": {
     "dentistas": {
@@ -156,6 +156,36 @@
     },
     "cafeterias": {
       "lastScraped": "2026-10-08T19:57:59.811Z",
+      "status": "success",
+      "resultsCount": 100,
+      "error": null
+    },
+    "florerias": {
+      "lastScraped": "2026-10-08T20:04:44.212Z",
+      "status": "success",
+      "resultsCount": 100,
+      "error": null
+    },
+    "opticas": {
+      "lastScraped": "2026-10-08T20:10:09.582Z",
+      "status": "success",
+      "resultsCount": 100,
+      "error": null
+    },
+    "lavanderias": {
+      "lastScraped": "2026-10-08T20:15:28.244Z",
+      "status": "success",
+      "resultsCount": 100,
+      "error": null
+    },
+    "escuelas-de-manejo": {
+      "lastScraped": "2026-10-08T20:21:12.643Z",
+      "status": "success",
+      "resultsCount": 100,
+      "error": null
+    },
+    "casas-de-cambio": {
+      "lastScraped": "2026-10-08T20:27:07.620Z",
       "status": "success",
       "resultsCount": 100,
       "error": null
