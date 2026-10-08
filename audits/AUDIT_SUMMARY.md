@@ -1,6 +1,6 @@
 # REPORTE EJECUTIVO DE AUDITORÍA COMERCIAL — TODO LIMA
-> **Fecha de ejecución:** 8/10/2026, 4:42:26 p. m.  
-> **Total Categorías:** 52 | **Total Negocios Auditados:** 4668
+> **Fecha de ejecución:** 8/10/2026, 5:06:57 p. m.  
+> **Total Categorías:** 56 | **Total Negocios Auditados:** 5068
 
 ---
 
@@ -8,11 +8,11 @@
 
 | Métrica | Cantidad | % del Total | Interpretación Comercial |
 | :--- | :---: | :---: | :--- |
-| **Total Negocios Auditados** | **4668** | 100% | Negocios extraídos de Google Maps en Lima |
-| **Sin Sitio Web (Oportunidad Máxima)** | **3708** | **79%** | **Fuga masiva de clientes. Urgente propuesta web.** |
-| **Solo Red Social (Facebook/IG)** | **211** | **5%** | Dependencia de plataformas ajenas sin SEO local |
-| **Con Sitio Web Propio** | **749** | **16%** | Candidatos a rediseño, optimización y afiliación |
-| **Con WhatsApp Móvil Verificado** | **1210** | **26%** | **Listos para prospección directa con 1 clic** |
+| **Total Negocios Auditados** | **5068** | 100% | Negocios extraídos de Google Maps en Lima |
+| **Sin Sitio Web (Oportunidad Máxima)** | **3925** | **77%** | **Fuga masiva de clientes. Urgente propuesta web.** |
+| **Solo Red Social (Facebook/IG)** | **285** | **6%** | Dependencia de plataformas ajenas sin SEO local |
+| **Con Sitio Web Propio** | **858** | **17%** | Candidatos a rediseño, optimización y afiliación |
+| **Con WhatsApp Móvil Verificado** | **1492** | **29%** | **Listos para prospección directa con 1 clic** |
 | **Puntaje Promedio Web (0-100)** | **51/100** | — | Rendimiento técnico de los sitios existentes |
 
 ---
@@ -24,6 +24,7 @@
 | **abogados** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
 | **agentes-inmobiliarios** | 70 | **59** (84%) | 📲 **11** | 11 | 75/100 |
 | **aire-acondicionado** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
+| **alquiler-de-canchas** | 100 | **80** (80%) | 📲 **60** | 11 | 0/100 |
 | **auxilio-mecanico** | 71 | **60** (85%) | 📲 **14** | 9 | 49/100 |
 | **barberias** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
 | **cafeterias** | 100 | **42** (42%) | 📲 **64** | 38 | 0/100 |
@@ -36,6 +37,7 @@
 | **cevicherias** | 100 | **41** (41%) | 📲 **47** | 48 | 0/100 |
 | **chifas** | 100 | **74** (74%) | 📲 **31** | 17 | 0/100 |
 | **contadores** | 79 | **77** (97%) | 📲 **3** | 1 | 73/100 |
+| **decoracion-de-eventos** | 100 | **48** (48%) | 📲 **88** | 25 | 0/100 |
 | **dentistas** | 100 | **87** (87%) | 📲 **16** | 8 | 13/100 |
 | **dermatologos** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
 | **doctores** | 100 | **80** (80%) | 📲 **21** | 20 | 40/100 |
@@ -46,11 +48,13 @@
 | **fotografia-eventos** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
 | **fumigacion** | 31 | **24** (77%) | 📲 **7** | 6 | 65/100 |
 | **gasfiteros** | 81 | **55** (68%) | 📲 **53** | 21 | 66/100 |
+| **gimnasios** | 100 | **46** (46%) | 📲 **63** | 38 | 0/100 |
 | **ginecologos** | 75 | **72** (96%) | 📲 **5** | 2 | 37/100 |
 | **grooming-canino** | 100 | **43** (43%) | 📲 **89** | 42 | 0/100 |
 | **laboratorios-clinicos** | 100 | **34** (34%) | 📲 **46** | 65 | 0/100 |
 | **lavanderias** | 100 | **76** (76%) | 📲 **51** | 17 | 0/100 |
 | **llanterias** | 51 | **48** (94%) | 📲 **4** | 3 | 85/100 |
+| **locales-de-eventos** | 100 | **43** (43%) | 📲 **71** | 35 | 0/100 |
 | **mudanzas** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
 | **notarias** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
 | **nutricionistas** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
@@ -78,7 +82,7 @@
 
 ## 🎯 Plan de Acción de Prospección Comercial
 
-1. **Fase 1: Prospección Inmediata a los 1210 Negocios con WhatsApp Móvil:**
+1. **Fase 1: Prospección Inmediata a los 1492 Negocios con WhatsApp Móvil:**
    - Enviar el mensaje persuasivo preconfigurado con el enlace de su subdominio sugerido en Todo Lima (ej. `negocio.categoria.todolima.com`).
    - Tasa de apertura esperada en WhatsApp: **85% - 95%**.
 2. **Fase 2: Presentación de Maqueta Demo:**

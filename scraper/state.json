@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "createdAt": "2026-09-08T04:52:33.387Z",
-  "lastUpdated": "2026-10-08T21:42:25.661Z",
+  "lastUpdated": "2026-10-08T22:06:55.452Z",
   "totalCompleted": 22,
   "categories": {
     "dentistas": {
@@ -210,6 +210,30 @@
     },
     "grooming-canino": {
       "lastScraped": "2026-10-08T21:42:25.661Z",
+      "status": "success",
+      "resultsCount": 100,
+      "error": null
+    },
+    "gimnasios": {
+      "lastScraped": "2026-10-08T21:48:55.980Z",
+      "status": "success",
+      "resultsCount": 100,
+      "error": null
+    },
+    "locales-de-eventos": {
+      "lastScraped": "2026-10-08T21:55:15.496Z",
+      "status": "success",
+      "resultsCount": 100,
+      "error": null
+    },
+    "decoracion-de-eventos": {
+      "lastScraped": "2026-10-08T22:01:11.084Z",
+      "status": "success",
+      "resultsCount": 100,
+      "error": null
+    },
+    "alquiler-de-canchas": {
+      "lastScraped": "2026-10-08T22:06:55.452Z",
       "status": "success",
       "resultsCount": 100,
       "error": null
