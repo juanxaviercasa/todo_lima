@@ -114,12 +114,14 @@ export default function Navbar({ categoryTitle = null }) {
                 38
               </span>
             </a>
-            <Link 
-              href="/auditoria" 
-              className="hover:text-sky-600 transition-colors py-1 flex items-center gap-1.5"
+            <a 
+              href="https://wa.me/51925475034?text=Hola,%20deseo%20publicar%20mi%20negocio%20en%20todolima.com" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-sky-600 transition-colors py-1 flex items-center gap-1.5 text-emerald-600 font-bold"
             >
-              <span>Auditoría B2B</span>
-            </Link>
+              <span>Publicar Negocio</span>
+            </a>
           </nav>
 
           {/* Badges de Confianza y Acciones */}
@@ -212,14 +214,16 @@ export default function Navbar({ categoryTitle = null }) {
                 </div>
                 <ChevronRight className="w-4 h-4 text-slate-400" />
               </a>
-              <Link
-                href="/auditoria"
+              <a
+                href="https://wa.me/51925475034?text=Hola,%20deseo%20publicar%20mi%20negocio%20en%20todolima.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMobileMenuOpen(false)}
-                className="flex items-center justify-between p-3 rounded-xl hover:bg-slate-50 text-slate-800 font-bold text-base transition-colors"
+                className="flex items-center justify-between p-3 rounded-xl hover:bg-emerald-50 text-emerald-700 font-bold text-base transition-colors"
               >
-                <span>Panel de Auditoría B2B</span>
-                <ChevronRight className="w-4 h-4 text-slate-400" />
-              </Link>
+                <span>Publicar mi Negocio</span>
+                <ChevronRight className="w-4 h-4 text-emerald-500" />
+              </a>
             </div>
 
             {/* Rubros Populares en Móvil */}

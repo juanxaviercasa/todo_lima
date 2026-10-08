@@ -499,12 +499,12 @@ export default function HomeExplorer({ categories = [] }) {
                 <ArrowRight className="w-4 h-4" />
               </a>
 
-              <Link
-                href="/auditoria"
+              <a
+                href="#directorios"
                 className="inline-flex items-center justify-center gap-2 bg-slate-800/80 hover:bg-slate-700/80 text-white font-bold text-sm py-4 px-6 rounded-2xl border border-slate-700 transition-colors text-center"
               >
-                <span>Ver Reporte de Auditoría</span>
-              </Link>
+                <span>Explorar las 38 Categorías</span>
+              </a>
             </div>
           </div>
         </div>

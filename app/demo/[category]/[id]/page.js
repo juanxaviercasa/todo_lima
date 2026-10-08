@@ -105,8 +105,8 @@ export default function DemoPrototypePage({ params }) {
         <div className="text-center max-w-md">
           <h1 className="text-2xl font-bold mb-2">Prototipo no encontrado</h1>
           <p className="text-slate-400 mb-6">No se encontraron datos para la categoría {category} e id {id}.</p>
-          <Link href="/auditoria" className="bg-sky-500 hover:bg-sky-600 px-5 py-2.5 rounded-xl font-bold">
-            Volver a la Auditoría
+          <Link href="/" className="bg-sky-500 hover:bg-sky-600 px-5 py-2.5 rounded-xl font-bold">
+            Volver al Inicio
           </Link>
         </div>
       </div>

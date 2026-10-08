@@ -85,12 +85,6 @@ export default function Footer() {
                 <PhoneCall className="w-4 h-4" />
                 <span>WhatsApp Negocios: +51 925 475 034</span>
               </a>
-              <Link
-                href="/auditoria"
-                className="inline-flex items-center gap-1.5 text-xs font-bold text-sky-400 hover:text-sky-300 transition-colors"
-              >
-                <span>📊 Ver Panel de Auditoría B2B</span>
-              </Link>
             </div>
           </div>
 
@@ -181,9 +175,9 @@ export default function Footer() {
             <Link href="/" className="hover:text-slate-400 transition-colors">
               Inicio
             </Link>
-            <Link href="/auditoria" className="hover:text-slate-400 transition-colors">
-              Auditoría
-            </Link>
+            <a href="/#directorios" className="hover:text-slate-400 transition-colors">
+              Categorías
+            </a>
             <button
               onClick={scrollToTop}
               className="inline-flex items-center gap-1.5 text-slate-400 hover:text-white transition-colors bg-slate-900 border border-slate-800 py-1.5 px-3 rounded-xl"
