@@ -58,7 +58,7 @@ export default function HomePage() {
             <div className="mt-10 flex flex-wrap items-center justify-center gap-3 sm:gap-6 text-xs sm:text-sm text-slate-200">
               <div className="flex items-center gap-2 bg-white/5 border border-white/10 backdrop-blur-md px-3.5 py-2 rounded-2xl">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                <span className="font-semibold">38 Categorías Mapeadas</span>
+                <span className="font-semibold">{categories.length} Categorías Mapeadas</span>
               </div>
               <div className="flex items-center gap-2 bg-white/5 border border-white/10 backdrop-blur-md px-3.5 py-2 rounded-2xl">
                 <Star className="w-4 h-4 text-amber-400 fill-amber-400" />

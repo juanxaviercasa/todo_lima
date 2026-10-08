@@ -19,17 +19,29 @@ import {
   Laptop,
   Flame,
   MapPin,
-  ExternalLink
+  ExternalLink,
+  UtensilsCrossed,
+  GraduationCap,
+  Dumbbell,
+  Dog,
+  Gift,
+  Coins
 } from 'lucide-react';
 
 const NICHE_CONFIG = {
   all: { label: 'Todos los Rubros', icon: Sparkles, color: 'sky' },
+  gastronomia: { label: 'Gastronomía y Comida', icon: UtensilsCrossed, color: 'orange' },
   salud: { label: 'Salud y Medicina', icon: Stethoscope, color: 'rose' },
   hogar: { label: 'Hogar y Reparaciones', icon: Wrench, color: 'amber' },
-  legal: { label: 'Legal y Finanzas', icon: Scale, color: 'indigo' },
-  automotriz: { label: 'Automotriz y Auxilio', icon: Car, color: 'blue' },
+  educacion: { label: 'Educación y Manejo', icon: GraduationCap, color: 'teal' },
+  fitness: { label: 'Fitness y Deportes', icon: Dumbbell, color: 'cyan' },
   eventos: { label: 'Eventos y Fiestas', icon: PartyPopper, color: 'purple' },
   belleza: { label: 'Belleza y Estilo', icon: Sparkle, color: 'pink' },
+  mascotas: { label: 'Mascotas', icon: Dog, color: 'amber' },
+  comercio: { label: 'Comercio y Regalos', icon: Gift, color: 'rose' },
+  legal: { label: 'Legal y Notarías', icon: Scale, color: 'indigo' },
+  finanzas: { label: 'Finanzas y Divisas', icon: Coins, color: 'emerald' },
+  automotriz: { label: 'Automotriz y Auxilio', icon: Car, color: 'blue' },
   tecnologia: { label: 'Tecnología y Seguridad', icon: Laptop, color: 'emerald' },
 };
 

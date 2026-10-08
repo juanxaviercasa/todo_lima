@@ -22,8 +22,8 @@ async function bulkMigrate() {
     await client.connect();
     console.log('✅ Conexión establecida.');
 
-    // 1. MIGRAR 38 CATEGORÍAS
-    console.log('📦 1. Sincronizando 38 categorías maestras...');
+    // 1. MIGRAR CATEGORÍAS MAESTRAS
+    console.log(`📦 1. Sincronizando ${CATEGORIES.length} categorías maestras...`);
     for (const cat of CATEGORIES) {
       await client.query(`
         INSERT INTO public.categories (slug, title, niche, query, hero_hook, is_active)
@@ -36,10 +36,9 @@ async function bulkMigrate() {
             updated_at = timezone('utc'::text, now());
       `, [cat.slug, cat.title, cat.niche, cat.query, cat.heroHook]);
     }
-    console.log('✅ 38 categorías maestras sincronizadas.');
+    console.log(`✅ ${CATEGORIES.length} categorías maestras sincronizadas.`);
 
-    // 2. LIMPIAR PRUEBAS ANTERIORES PARA MIGRACIÓN LIMPIA
-    await client.query('DELETE FROM public.businesses;');
+    // 2. MIGRAR O ACTUALIZAR NEGOCIOS EN LOTES (BULK UPSERTS)
 
     // 3. MIGRAR NEGOCIOS EN LOTES (BULK INSERTS)
     const summaryPath = path.join(rootDir, 'audits', 'summary.json');

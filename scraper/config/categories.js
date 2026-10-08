@@ -286,6 +286,140 @@ export const CATEGORIES = [
     title: 'Instalación de Cámaras de Seguridad y Alarmas en Lima',
     niche: 'tecnologia',
     heroHook: 'Protege tu hogar y negocio con sistemas de videovigilancia y alarmas monitoreadas 24/7 en Lima.'
+  },
+
+  // GASTRONOMÍA & RESTAURANTES
+  {
+    slug: 'cevicherias',
+    query: 'cevicherias en Lima',
+    title: 'Cevicherías y Marisquerías en Lima',
+    niche: 'gastronomia',
+    heroHook: 'Disfruta del mejor ceviche y pescados frescos de Lima en las cevicherías y marisquerías mejor valoradas.'
+  },
+  {
+    slug: 'pollerias',
+    query: 'pollerias en Lima',
+    title: 'Pollerías y Pollos a la Brasa en Lima',
+    niche: 'gastronomia',
+    heroHook: 'El auténtico sabor del pollo a la brasa limeño con crujientes papas y salsas caseras con delivery inmediato.'
+  },
+  {
+    slug: 'chifas',
+    query: 'chifas en Lima',
+    title: 'Chifas y Restaurantes Orientales en Lima',
+    niche: 'gastronomia',
+    heroHook: 'Saborea lo mejor de la fusión peruano-china con los chifas tradicionales mejor calificados de Lima.'
+  },
+  {
+    slug: 'pizzerias',
+    query: 'pizzerias en Lima',
+    title: 'Pizzerías Artesanales y Tradicionales en Lima',
+    niche: 'gastronomia',
+    heroHook: 'Pizzas a la leña, masa madre e ingredientes premium con los mejores maestros pizzeros de Lima.'
+  },
+  {
+    slug: 'cafeterias',
+    query: 'cafeterias de especialidad en Lima',
+    title: 'Cafeterías de Especialidad y Brunch en Lima',
+    niche: 'gastronomia',
+    heroHook: 'Descubre los mejores cafés de especialidad, postres artesanales y brunch en los espacios más acogedores de Lima.'
+  },
+
+  // SERVICIOS ESENCIALES & COMERCIO
+  {
+    slug: 'florerias',
+    query: 'florerias en Lima',
+    title: 'Florerías y Delivery de Regalos en Lima',
+    niche: 'comercio',
+    heroHook: 'Sorprende en cualquier ocasión con arreglos florales exclusivos, rosas frescas y delivery puntual en todo Lima.'
+  },
+  {
+    slug: 'opticas',
+    query: 'opticas en Lima',
+    title: 'Ópticas y Salud Visual en Lima',
+    niche: 'salud',
+    heroHook: 'Cuida tu vista con exámenes computarizados, lunas antirreflejo y las mejores monturas de marca en Lima.'
+  },
+  {
+    slug: 'lavanderias',
+    query: 'lavanderias en Lima',
+    title: 'Lavanderías y Tintorerías en Lima',
+    niche: 'hogar',
+    heroHook: 'Prendas impecables, lavado en seco y servicio de recojo a domicilio rápido y confiable en Lima.'
+  },
+  {
+    slug: 'escuelas-de-manejo',
+    query: 'escuelas de conductores en Lima',
+    title: 'Escuelas de Conductores y Brevetes en Lima',
+    niche: 'educacion',
+    heroHook: 'Aprende a manejar con seguridad y aprueba tu brevete A-1 con instructores certificados en todo Lima.'
+  },
+  {
+    slug: 'casas-de-cambio',
+    query: 'casas de cambio en Lima',
+    title: 'Casas de Cambio y Compra/Venta de Dólares en Lima',
+    niche: 'finanzas',
+    heroHook: 'Cambia dólares y euros con el mejor tipo de cambio del mercado, total seguridad y garantía en Lima.'
+  },
+
+  // SALUD ESPECIALIZADA & MASCOTAS
+  {
+    slug: 'podologos',
+    query: 'podologos en Lima',
+    title: 'Podólogos y Clínicas del Pie en Lima',
+    niche: 'salud',
+    heroHook: 'Salud y bienestar para tus pies con podólogos especialistas en pie diabético, uñas encarnadas y tratamientos integrales.'
+  },
+  {
+    slug: 'laboratorios-clinicos',
+    query: 'laboratorios clinicos en Lima',
+    title: 'Laboratorios de Análisis Clínicos en Lima',
+    niche: 'salud',
+    heroHook: 'Resultados rápidos, seguros y confiables en análisis de sangre, perfiles médicos y pruebas especiales en Lima.'
+  },
+  {
+    slug: 'traumatologos',
+    query: 'traumatologos en Lima',
+    title: 'Traumatólogos y Especialistas de Columna en Lima',
+    niche: 'salud',
+    heroHook: 'Alivia dolores articulares y lesiones deportivas con los médicos traumatólogos más recomendados de Lima.'
+  },
+  {
+    slug: 'grooming-canino',
+    query: 'peluqueria canina y grooming en Lima',
+    title: 'Peluquería Canina y Spa de Mascotas en Lima',
+    niche: 'mascotas',
+    heroHook: 'El mejor cuidado, baño medicado y corte de pelo para tu engreído con especialistas en estética canina en Lima.'
+  },
+
+  // FITNESS & EVENTOS
+  {
+    slug: 'gimnasios',
+    query: 'gimnasios en Lima',
+    title: 'Gimnasios y Centros Fitness en Lima',
+    niche: 'fitness',
+    heroHook: 'Transforma tu salud y alcanza tus metas con las mejores máquinas, entrenadores y clases grupales en Lima.'
+  },
+  {
+    slug: 'locales-de-eventos',
+    query: 'locales para eventos en Lima',
+    title: 'Salones y Locales de Eventos en Lima',
+    niche: 'eventos',
+    heroHook: 'Celebra bodas, quinceañeros y eventos corporativos en los salones y casas de campo más exclusivos de Lima.'
+  },
+  {
+    slug: 'decoracion-de-eventos',
+    query: 'decoracion de fiestas y eventos en Lima',
+    title: 'Decoración de Fiestas y Eventos en Lima',
+    niche: 'eventos',
+    heroHook: 'Transforma tus celebraciones con temáticas mágicas, ambientación personalizada y tendencias exclusivas en Lima.'
+  },
+  {
+    slug: 'alquiler-de-canchas',
+    query: 'canchas de grass sintetico en Lima',
+    title: 'Alquiler de Canchas Sintéticas en Lima',
+    niche: 'fitness',
+    heroHook: 'Reserva al instante las mejores canchas de grass sintético con iluminación led para tus pichangas en Lima.'
   }
 ];
 

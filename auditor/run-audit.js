@@ -223,7 +223,29 @@ async function main() {
     }
   }
 
-  // Resumen global
+  // Agregación acumulativa: consolidar todas las categorías auditadas disponibles
+  const catAuditsDir = path.join(auditsDir, 'categories');
+  const allCatFiles = fs.existsSync(catAuditsDir) ? fs.readdirSync(catAuditsDir).filter(f => f.endsWith('.json')) : [];
+  
+  const aggregatedCategories = { ...results };
+  const allBusinessesFlattened = [];
+
+  for (const catFile of allCatFiles) {
+    try {
+      const catData = JSON.parse(fs.readFileSync(path.join(catAuditsDir, catFile), 'utf-8'));
+      aggregatedCategories[catData.slug] = catData;
+    } catch (e) {
+      console.warn(`⚠️ Error leyendo archivo de auditoría ${catFile}:`, e.message);
+    }
+  }
+
+  for (const catData of Object.values(aggregatedCategories)) {
+    if (Array.isArray(catData.businesses)) {
+      allBusinessesFlattened.push(...catData.businesses);
+    }
+  }
+
+  // Resumen global acumulado
   const totalBusinesses = allBusinessesFlattened.length;
   const noWebsite = allBusinessesFlattened.filter(b => b.webAudit.type === 'NO_WEBSITE' || b.webAudit.type === 'INVALID_URL').length;
   const socialOnly = allBusinessesFlattened.filter(b => b.webAudit.type === 'SOCIAL_ONLY').length;
@@ -234,7 +256,7 @@ async function main() {
   const avgWebScore = testedWebs.length ? Math.round(testedWebs.reduce((a, b) => a + b.webAudit.score, 0) / testedWebs.length) : 0;
 
   const globalSummary = {
-    totalCategories: categoriesToAudit.length,
+    totalCategories: Object.keys(aggregatedCategories).length,
     totalBusinesses,
     noWebsite,
     noWebsitePct: totalBusinesses ? Math.round((noWebsite / totalBusinesses) * 100) : 0,
@@ -250,7 +272,7 @@ async function main() {
   const finalAuditPayload = {
     updatedAt: new Date().toISOString(),
     summary: globalSummary,
-    categories: results,
+    categories: aggregatedCategories,
     businesses: allBusinessesFlattened
   };
 
