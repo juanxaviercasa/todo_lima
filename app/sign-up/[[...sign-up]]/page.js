@@ -1,24 +1,24 @@
-import { SignIn } from '@clerk/nextjs';
+import { SignUp } from '@clerk/nextjs';
 import Link from 'next/link';
 import { ArrowLeft, ShieldCheck } from 'lucide-react';
 
 export const metadata = {
-  title: 'Iniciar Sesión | Todo Lima Admin',
-  description: 'Acceso seguro al panel de administración de Todo Lima.',
+  title: 'Registro de Administrador | Todo Lima',
+  description: 'Registro de credenciales para la gerencia de Todo Lima.',
   robots: {
     index: false,
     follow: false,
   },
 };
 
-export default function SignInPage() {
+export default function SignUpPage() {
   return (
     <div className="min-h-screen bg-slate-950 flex flex-col items-center justify-center p-4 relative overflow-hidden">
       {/* Resplandores ambientales de fondo */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-full max-w-4xl h-96 bg-sky-500/10 blur-[120px] rounded-full pointer-events-none" />
       <div className="absolute -top-10 left-10 w-72 h-72 bg-emerald-500/10 blur-[100px] rounded-full pointer-events-none" />
 
-      {/* Header del Login */}
+      {/* Header del Registro */}
       <div className="relative z-10 text-center mb-6">
         <Link href="/" className="inline-flex items-center gap-2 mb-4 group">
           <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-500 to-indigo-600 flex items-center justify-center text-white font-black text-base shadow-lg shadow-sky-500/20 group-hover:scale-105 transition-transform">
@@ -28,13 +28,13 @@ export default function SignInPage() {
         </Link>
         <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-slate-300 text-xs font-semibold">
           <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-          <span>Panel de Control & Consola Administrativa</span>
+          <span>Alta de Usuario Gerencial</span>
         </div>
       </div>
 
-      {/* Componente SignIn de Clerk */}
+      {/* Componente SignUp de Clerk */}
       <div className="relative z-10">
-        <SignIn
+        <SignUp
           appearance={{
             elements: {
               card: 'bg-slate-900/90 border border-slate-800 shadow-2xl backdrop-blur-md rounded-3xl',
@@ -56,8 +56,8 @@ export default function SignInPage() {
             },
           }}
           routing="path"
-          path="/sign-in"
-          signUpUrl="/sign-up"
+          path="/sign-up"
+          signInUrl="/sign-in"
           fallbackRedirectUrl="/admin"
         />
       </div>

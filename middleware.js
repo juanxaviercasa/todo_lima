@@ -45,7 +45,8 @@ export default clerkMiddleware((auth, req) => {
     subdomain && 
     subdomain !== 'www' && 
     !url.pathname.startsWith('/admin') && 
-    !url.pathname.startsWith('/sign-in')
+    !url.pathname.startsWith('/sign-in') &&
+    !url.pathname.startsWith('/sign-up')
   ) {
     const rewritePath = `/${subdomain}${url.pathname === '/' ? '' : url.pathname}`;
     return NextResponse.rewrite(new URL(rewritePath, req.url));
