@@ -36,7 +36,7 @@ const hasFlag = (flag, alias) => args.includes(flag) || (alias && args.includes(
 
 if (hasFlag('--list-ranking') || hasFlag('-l')) {
   console.log(`\n======================================================`);
-  console.log(`🏆 RANKING DE PODER ADQUISITIVO (38 CATEGORÍAS)`);
+  console.log(`🏆 RANKING DE PODER ADQUISITIVO (${PURCHASING_POWER_RANKING.length} CATEGORÍAS)`);
   console.log(`======================================================\n`);
   PURCHASING_POWER_RANKING.forEach(c => {
     console.log(

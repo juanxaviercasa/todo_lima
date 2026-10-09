@@ -193,7 +193,7 @@ async function auditCategory(slug) {
 async function main() {
   console.log(`\n======================================================`);
   console.log(`🚀 INICIANDO AUDITORÍA COMERCIAL & GENERADOR DE PROPUESTAS`);
-  console.log(`   todolima.com — 38 Categorías de Lima Metropolitana`);
+  console.log(`   todolima.com — Red Oficial de Categorías de Lima Metropolitana`);
   console.log(`======================================================\n`);
 
   if (!fs.existsSync(auditsDir)) {

@@ -199,7 +199,7 @@ export default function AuditoriaClient({ initialData }) {
               <h1 className="text-lg font-bold text-white flex items-center gap-2">
                 <span>Auditoría Comercial & Generador de Propuestas</span>
                 <span className="text-xs bg-sky-500/10 text-sky-400 border border-sky-500/25 px-2 py-0.5 rounded-full font-semibold">
-                  38 Categorías
+                  {categoriesList.length} Categorías
                 </span>
               </h1>
               <p className="text-xs text-slate-400">Todo Lima (todolima.com) — Matriz de Prospección Local</p>

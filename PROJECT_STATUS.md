@@ -57,7 +57,7 @@ Al retomar el trabajo, estos son los pasos a seguir:
      - `A` -> `@` -> `76.76.21.21`
      - `CNAME` -> `*` -> `cname.vercel-dns.com`
 3. **Expansión de la Matriz:**
-   - Ampliar `scraper/config/categories.js` de las 38 categorías base actuales hasta la lista completa de 170+.
+   - Ampliar `scraper/config/categories.js` de las 56 categorías actuales hasta la lista completa de 170+.
 4. **Activación de la Automatización Masiva:**
    - Iniciar el orquestador desatendido: `npm run runner:loop` (o en segundo plano con PM2) para que procese y publique automáticamente todas las categorías restantes.
 

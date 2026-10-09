@@ -9,9 +9,10 @@ import {
   PhoneCall, 
   CheckCircle2, 
   Sparkles,
-  BookOpen
+  BookOpen,
+  Mail
 } from 'lucide-react';
-import { TODOLIMA_WHATSAPP_DISPLAY, buildWhatsAppLink } from '../lib/contact.js';
+import { TODOLIMA_EMAIL, TODOLIMA_WHATSAPP_DISPLAY, buildWhatsAppLink } from '../lib/contact.js';
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -77,7 +78,7 @@ export default function Footer() {
               La mayor red de directorios locales hiperespecializados para Lima, Perú. Conectamos directamente a familias y empresas con los especialistas y negocios mejor valorados de la ciudad.
             </p>
 
-            <div className="mt-6 flex flex-col gap-2">
+            <div className="mt-6 flex flex-col gap-2.5">
               <a
                 href={buildWhatsAppLink('Hola Todo Lima 👋, deseo información sobre la publicación o verificación de mi negocio en todolima.com.')}
                 target="_blank"
@@ -86,6 +87,13 @@ export default function Footer() {
               >
                 <PhoneCall className="w-4 h-4" />
                 <span>WhatsApp Negocios: {TODOLIMA_WHATSAPP_DISPLAY}</span>
+              </a>
+              <a
+                href={`mailto:${TODOLIMA_EMAIL}`}
+                className="inline-flex items-center gap-2 text-xs font-bold text-sky-400 hover:text-sky-300 transition-colors"
+              >
+                <Mail className="w-4 h-4" />
+                <span>Contacto Oficial: {TODOLIMA_EMAIL}</span>
               </a>
             </div>
           </div>
@@ -170,7 +178,15 @@ export default function Footer() {
         {/* Barra inferior de copyright y enlaces legales */}
         <div className="mt-14 pt-8 border-t border-slate-800/80 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div>
-            © {new Date().getFullYear()} Todo Lima Network (todolima.com). Todos los derechos reservados.
+            © {new Date().getFullYear()} Todo Lima Network (todolima.com). Todos los derechos reservados. • Desarrollado por{' '}
+            <a 
+              href="https://xavier.cabellosalirosas.com" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-sky-400 hover:text-sky-300 font-bold underline transition-colors"
+            >
+              Xavier Cabello
+            </a>
           </div>
 
           <div className="flex flex-wrap items-center gap-4 sm:gap-6 justify-center">

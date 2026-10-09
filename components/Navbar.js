@@ -17,8 +17,11 @@ import {
   Car,
   PartyPopper,
   Sparkle,
-  Laptop
+  Laptop,
+  Mail
 } from 'lucide-react';
+import { CATEGORIES } from '../scraper/config/categories.js';
+import { TODOLIMA_EMAIL, TODOLIMA_WHATSAPP_DISPLAY, buildWhatsAppLink } from '../lib/contact.js';
 
 export default function Navbar({ categoryTitle = null }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -53,6 +56,8 @@ export default function Navbar({ categoryTitle = null }) {
     { label: 'Belleza', icon: Sparkle, href: '/#directorios', color: 'text-pink-500 bg-pink-50' },
     { label: 'Tecnología', icon: Laptop, href: '/#directorios', color: 'text-emerald-500 bg-emerald-50' }
   ];
+
+  const publishWaLink = buildWhatsAppLink('Hola Todo Lima 👋, deseo información sobre la publicación o verificación de mi negocio en todolima.com.');
 
   return (
     <>
@@ -111,11 +116,11 @@ export default function Navbar({ categoryTitle = null }) {
             >
               <span>Categorías</span>
               <span className="text-[10px] font-black bg-sky-100 text-sky-700 px-1.5 py-0.5 rounded-full">
-                38
+                {CATEGORIES.length}
               </span>
             </a>
             <a 
-              href="https://wa.me/51925475034?text=Hola,%20deseo%20publicar%20mi%20negocio%20en%20todolima.com" 
+              href={publishWaLink}
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-sky-600 transition-colors py-1 flex items-center gap-1.5 text-emerald-600 font-bold"
@@ -137,7 +142,7 @@ export default function Navbar({ categoryTitle = null }) {
 
             {/* CTA Publicar Negocio */}
             <a
-              href="https://wa.me/51925475034?text=Hola,%20deseo%20publicar%20mi%20negocio%20en%20todolima.com"
+              href={publishWaLink}
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-white bg-gradient-to-r from-slate-900 to-slate-800 hover:from-sky-700 hover:to-blue-700 transition-all duration-300 py-2.5 px-4 rounded-xl shadow-sm hover:shadow-md hover:scale-[1.02] active:scale-[0.98]"
@@ -209,13 +214,13 @@ export default function Navbar({ categoryTitle = null }) {
                 <div className="flex items-center gap-2">
                   <span>Explorar Categorías</span>
                   <span className="text-xs bg-sky-100 text-sky-700 font-extrabold px-2 py-0.5 rounded-full">
-                    38
+                    {CATEGORIES.length}
                   </span>
                 </div>
                 <ChevronRight className="w-4 h-4 text-slate-400" />
               </a>
               <a
-                href="https://wa.me/51925475034?text=Hola,%20deseo%20publicar%20mi%20negocio%20en%20todolima.com"
+                href={publishWaLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMobileMenuOpen(false)}
@@ -223,6 +228,17 @@ export default function Navbar({ categoryTitle = null }) {
               >
                 <span>Publicar mi Negocio</span>
                 <ChevronRight className="w-4 h-4 text-emerald-500" />
+              </a>
+              <a
+                href={`mailto:${TODOLIMA_EMAIL}`}
+                onClick={() => setMobileMenuOpen(false)}
+                className="flex items-center justify-between p-3 rounded-xl hover:bg-sky-50 text-slate-700 font-bold text-sm transition-colors"
+              >
+                <div className="flex items-center gap-2">
+                  <Mail className="w-4 h-4 text-sky-500" />
+                  <span>{TODOLIMA_EMAIL}</span>
+                </div>
+                <ChevronRight className="w-4 h-4 text-slate-400" />
               </a>
             </div>
 
@@ -254,7 +270,7 @@ export default function Navbar({ categoryTitle = null }) {
             {/* Call to Action Móvil */}
             <div className="pt-4 border-t border-slate-100 space-y-2 mt-auto">
               <a
-                href="https://wa.me/51925475034?text=Hola,%20deseo%20publicar%20mi%20negocio%20en%20todolima.com"
+                href={publishWaLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm shadow-md transition-colors"

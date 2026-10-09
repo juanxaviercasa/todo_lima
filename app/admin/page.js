@@ -105,7 +105,7 @@ export default function AdminDashboardPage() {
             <Layers className="w-4 h-4 text-indigo-400" />
           </div>
           <div className="text-3xl font-black text-indigo-400">{CATEGORIES.length} / {CATEGORIES.length}</div>
-          <div className="text-xs text-indigo-300 mt-1 font-medium">38 categorías oficiales activas</div>
+          <div className="text-xs text-indigo-300 mt-1 font-medium">{CATEGORIES.length} categorías oficiales activas</div>
         </div>
       </div>
 
@@ -144,7 +144,7 @@ export default function AdminDashboardPage() {
               Consola de Ejecuciones & Automatización
             </h3>
             <p className="text-xs sm:text-sm text-slate-400 leading-relaxed mb-6">
-              Supervisa el estado de las 38 categorías locales, consulta comandos de extracción masiva con Playwright, auditorías web y generadores de prototipos para tu terminal o backend.
+              Supervisa el estado de las {CATEGORIES.length} categorías locales, consulta comandos de extracción masiva con Playwright, auditorías web y generadores de prototipos para tu terminal o backend.
             </p>
           </div>
 

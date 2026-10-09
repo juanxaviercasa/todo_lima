@@ -67,7 +67,7 @@ export default function AdminEjecucionesPage() {
           Consola de Ejecuciones & Control de Scraping
         </h1>
         <p className="text-xs sm:text-sm text-slate-400 mt-1">
-          Supervisa el estado de la base de datos de las 38 categorías locales y los atajos para correr Playwright y auditorías.
+          Supervisa el estado de la base de datos de las {CATEGORIES.length} categorías locales y los atajos para correr Playwright y auditorías.
         </p>
       </div>
 
@@ -169,7 +169,7 @@ export default function AdminEjecucionesPage() {
       <div className="bg-slate-900/80 border border-slate-800 rounded-3xl overflow-hidden">
         <div className="p-5 border-b border-slate-800 flex justify-between items-center">
           <div>
-            <h3 className="text-sm font-bold text-white">Estado de las 38 Categorías</h3>
+            <h3 className="text-sm font-bold text-white">Estado de las {CATEGORIES.length} Categorías</h3>
             <p className="text-xs text-slate-400">Registro de archivos y negocios en memoria local</p>
           </div>
         </div>

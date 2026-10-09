@@ -1,6 +1,6 @@
 /**
  * Matriz de Clasificación por Poder Adquisitivo y Ticket Promedio
- * para las 38 categorías de Todo Lima (todolima.com).
+ * para las categorías de Todo Lima (todolima.com).
  *
  * Criterios de ponderación:
  * 1. Ticket promedio por cliente / transacción en Lima.
@@ -477,6 +477,204 @@ export const PURCHASING_POWER_RANKING = [
     avgTicketUSD: 45,
     investmentCapacity: 'BAJA',
     digitalUrgency: 'MEDIA'
+  },
+  {
+    rank: 39,
+    slug: 'laboratorios-clinicos',
+    name: 'Laboratorios Clínicos y Análisis de Sangre',
+    niche: 'salud',
+    tier: 'TIER_1_ELITE',
+    avgTicketPEN: 350,
+    avgTicketUSD: 95,
+    investmentCapacity: 'ALTA',
+    digitalUrgency: 'ALTA'
+  },
+  {
+    rank: 40,
+    slug: 'traumatologos',
+    name: 'Traumatólogos y Especialistas de Columna',
+    niche: 'salud',
+    tier: 'TIER_1_ELITE',
+    avgTicketPEN: 450,
+    avgTicketUSD: 120,
+    investmentCapacity: 'ALTA',
+    digitalUrgency: 'ALTA'
+  },
+  {
+    rank: 41,
+    slug: 'locales-de-eventos',
+    name: 'Locales de Eventos y Recepciones',
+    niche: 'eventos',
+    tier: 'TIER_1_ELITE',
+    avgTicketPEN: 3500,
+    avgTicketUSD: 950,
+    investmentCapacity: 'ALTA',
+    digitalUrgency: 'CRÍTICA'
+  },
+  {
+    rank: 42,
+    slug: 'casas-de-cambio',
+    name: 'Casas de Cambio y Divisas',
+    niche: 'finanzas',
+    tier: 'TIER_2_PRO_SERVICES',
+    avgTicketPEN: 1500,
+    avgTicketUSD: 400,
+    investmentCapacity: 'ALTA',
+    digitalUrgency: 'CRÍTICA'
+  },
+  {
+    rank: 43,
+    slug: 'escuelas-de-manejo',
+    name: 'Escuelas de Manejo y Brevetes',
+    niche: 'educacion',
+    tier: 'TIER_2_PRO_SERVICES',
+    avgTicketPEN: 650,
+    avgTicketUSD: 175,
+    investmentCapacity: 'ALTA',
+    digitalUrgency: 'ALTA'
+  },
+  {
+    rank: 44,
+    slug: 'gimnasios',
+    name: 'Gimnasios y Centros de Fitness',
+    niche: 'fitness',
+    tier: 'TIER_2_PRO_SERVICES',
+    avgTicketPEN: 280,
+    avgTicketUSD: 75,
+    investmentCapacity: 'ALTA',
+    digitalUrgency: 'ALTA'
+  },
+  {
+    rank: 45,
+    slug: 'decoracion-de-eventos',
+    name: 'Decoración de Eventos y Bodas',
+    niche: 'eventos',
+    tier: 'TIER_2_PRO_SERVICES',
+    avgTicketPEN: 1200,
+    avgTicketUSD: 320,
+    investmentCapacity: 'MEDIA',
+    digitalUrgency: 'CRÍTICA'
+  },
+  {
+    rank: 46,
+    slug: 'opticas',
+    name: 'Ópticas y Examen Visual',
+    niche: 'salud',
+    tier: 'TIER_2_PRO_SERVICES',
+    avgTicketPEN: 380,
+    avgTicketUSD: 100,
+    investmentCapacity: 'ALTA',
+    digitalUrgency: 'ALTA'
+  },
+  {
+    rank: 47,
+    slug: 'podologos',
+    name: 'Podólogos y Cuidado del Pie',
+    niche: 'salud',
+    tier: 'TIER_3_OPERATIONAL',
+    avgTicketPEN: 120,
+    avgTicketUSD: 32,
+    investmentCapacity: 'MEDIA',
+    digitalUrgency: 'ALTA'
+  },
+  {
+    rank: 48,
+    slug: 'alquiler-de-canchas',
+    name: 'Alquiler de Canchas Sintéticas y Grass',
+    niche: 'fitness',
+    tier: 'TIER_3_OPERATIONAL',
+    avgTicketPEN: 160,
+    avgTicketUSD: 45,
+    investmentCapacity: 'MEDIA',
+    digitalUrgency: 'CRÍTICA'
+  },
+  {
+    rank: 49,
+    slug: 'grooming-canino',
+    name: 'Grooming Canino y Baño de Mascotas',
+    niche: 'mascotas',
+    tier: 'TIER_3_OPERATIONAL',
+    avgTicketPEN: 85,
+    avgTicketUSD: 23,
+    investmentCapacity: 'MEDIA',
+    digitalUrgency: 'ALTA'
+  },
+  {
+    rank: 50,
+    slug: 'florerias',
+    name: 'Florerías y Arreglos Florales a Domicilio',
+    niche: 'comercio',
+    tier: 'TIER_3_OPERATIONAL',
+    avgTicketPEN: 140,
+    avgTicketUSD: 38,
+    investmentCapacity: 'MEDIA',
+    digitalUrgency: 'CRÍTICA'
+  },
+  {
+    rank: 51,
+    slug: 'lavanderias',
+    name: 'Lavanderías y Tintorerías a Domicilio',
+    niche: 'hogar',
+    tier: 'TIER_3_OPERATIONAL',
+    avgTicketPEN: 95,
+    avgTicketUSD: 26,
+    investmentCapacity: 'MEDIA',
+    digitalUrgency: 'MEDIA'
+  },
+  {
+    rank: 52,
+    slug: 'cevicherias',
+    name: 'Cevicherías y Pescados y Mariscos',
+    niche: 'gastronomia',
+    tier: 'TIER_3_OPERATIONAL',
+    avgTicketPEN: 110,
+    avgTicketUSD: 30,
+    investmentCapacity: 'MEDIA',
+    digitalUrgency: 'CRÍTICA'
+  },
+  {
+    rank: 53,
+    slug: 'pollerias',
+    name: 'Pollerías y Pollos a la Brasa',
+    niche: 'gastronomia',
+    tier: 'TIER_3_OPERATIONAL',
+    avgTicketPEN: 90,
+    avgTicketUSD: 25,
+    investmentCapacity: 'ALTA',
+    digitalUrgency: 'CRÍTICA'
+  },
+  {
+    rank: 54,
+    slug: 'chifas',
+    name: 'Chifas y Comida Chino-Peruana',
+    niche: 'gastronomia',
+    tier: 'TIER_3_OPERATIONAL',
+    avgTicketPEN: 95,
+    avgTicketUSD: 26,
+    investmentCapacity: 'MEDIA',
+    digitalUrgency: 'ALTA'
+  },
+  {
+    rank: 55,
+    slug: 'pizzerias',
+    name: 'Pizzerías Artesanales y Pastas',
+    niche: 'gastronomia',
+    tier: 'TIER_3_OPERATIONAL',
+    avgTicketPEN: 85,
+    avgTicketUSD: 23,
+    investmentCapacity: 'MEDIA',
+    digitalUrgency: 'CRÍTICA'
+  },
+  {
+    rank: 56,
+    slug: 'cafeterias',
+    name: 'Cafeterías de Especialidad y Brunch',
+    niche: 'gastronomia',
+    tier: 'TIER_3_OPERATIONAL',
+    avgTicketPEN: 65,
+    avgTicketUSD: 18,
+    investmentCapacity: 'MEDIA',
+    digitalUrgency: 'CRÍTICA'
   }
 ];
 

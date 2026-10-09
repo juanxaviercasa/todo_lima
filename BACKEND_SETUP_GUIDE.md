@@ -33,7 +33,7 @@ ADMIN_SECRET_KEY=tu_clave_secreta_admin
 ```
 
 ### Paso 4: Migrar Datos Existentes
-Ejecuta el script automático para subir las 38 categorías y los negocios auditados:
+Ejecuta el script automático para subir las 56 categorías y los negocios auditados:
 ```bash
 npm install @supabase/supabase-js
 node scripts/migrate-to-supabase.js

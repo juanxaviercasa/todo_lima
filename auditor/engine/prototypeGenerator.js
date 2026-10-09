@@ -5,6 +5,7 @@
  */
 
 import { getCategoryRankInfo } from '../config/purchasingPowerRanking.js';
+import { TODOLIMA_WHATSAPP } from '../../lib/contact.js';
 
 /**
  * Paletas de diseño y estilos visuales por nicho
@@ -174,7 +175,7 @@ export function generatePrototypeBlueprint(business, categorySlug, district, pho
   );
   const waLink = phoneData.isMobile && phoneData.international
     ? `https://wa.me/${phoneData.international}?text=${waPreText}`
-    : `https://wa.me/51925475034?text=${waPreText}`;
+    : `https://wa.me/${TODOLIMA_WHATSAPP}?text=${waPreText}`;
 
   // Reseñas verificadas auténticas y detalladas de Google Maps
   const verifiedReviews = [

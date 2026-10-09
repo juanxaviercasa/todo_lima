@@ -23,7 +23,7 @@ async function migrate() {
     console.log('✅ Conexión establecida con PostgreSQL.');
 
     // 1. MIGRAR CATEGORÍAS
-    console.log('\n📦 1. Insertando 38 categorías...');
+    console.log(`\n📦 1. Insertando ${CATEGORIES.length} categorías...`);
     for (const cat of CATEGORIES) {
       await client.query(`
         INSERT INTO public.categories (slug, title, niche, query, hero_hook, is_active)
@@ -36,7 +36,7 @@ async function migrate() {
             updated_at = timezone('utc'::text, now());
       `, [cat.slug, cat.title, cat.niche, cat.query, cat.heroHook]);
     }
-    console.log('✅ 38 categorías sincronizadas con éxito.');
+    console.log(`✅ ${CATEGORIES.length} categorías sincronizadas con éxito.`);
 
     // 2. MIGRAR DESDE audits/summary.json
     const summaryPath = path.join(rootDir, 'audits', 'summary.json');

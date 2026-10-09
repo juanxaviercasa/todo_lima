@@ -27,6 +27,7 @@ import {
   Gift,
   Coins
 } from 'lucide-react';
+import { buildWhatsAppLink } from '../lib/contact.js';
 
 const NICHE_CONFIG = {
   all: { label: 'Todos los Rubros', icon: Sparkles, color: 'sky' },
@@ -142,7 +143,7 @@ export default function HomeExplorer({ categories = [] }) {
               {searchQuery || selectedNiche !== 'all' ? (
                 <>Mostrando <span className="font-bold text-slate-800">{filteredCategories.length}</span> directorios para tu búsqueda</>
               ) : (
-                <>Explora las 38 categorías sincronizadas con Google Maps</>
+                <>Explora las {categories.length} categorías sincronizadas con Google Maps</>
               )}
             </p>
           </div>
@@ -260,7 +261,7 @@ export default function HomeExplorer({ categories = [] }) {
                 onClick={() => { setSearchQuery(''); setSelectedNiche('all'); }}
                 className="inline-flex items-center justify-center font-bold text-xs text-white bg-slate-900 hover:bg-slate-800 px-5 py-3 rounded-xl transition-colors shadow-sm"
               >
-                Ver todos los directorios (38)
+                Ver todos los directorios ({categories.length})
               </button>
             </div>
           </div>
@@ -335,7 +336,7 @@ export default function HomeExplorer({ categories = [] }) {
             href="/#directorios"
             className="inline-flex items-center gap-1.5 text-xs font-bold text-sky-600 hover:text-sky-800 transition-colors self-start sm:self-auto"
           >
-            <span>Ver todas las 38 categorías</span>
+            <span>Ver todas las {categories.length} categorías</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </Link>
         </div>
@@ -502,7 +503,7 @@ export default function HomeExplorer({ categories = [] }) {
 
             <div className="flex flex-col sm:flex-row gap-3.5 shrink-0 w-full lg:w-auto">
               <a
-                href="https://wa.me/51925475034?text=Hola,%20tengo%20un%20negocio%20en%20Lima%20y%20quiero%20publicarme%20en%20todolima.com"
+                href={buildWhatsAppLink('Hola Todo Lima 👋, tengo un negocio en Lima y quiero publicarme en todolima.com.')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm py-4 px-6 rounded-2xl shadow-lg hover:scale-105 active:scale-95 transition-all text-center"
@@ -515,7 +516,7 @@ export default function HomeExplorer({ categories = [] }) {
                 href="#directorios"
                 className="inline-flex items-center justify-center gap-2 bg-slate-800/80 hover:bg-slate-700/80 text-white font-bold text-sm py-4 px-6 rounded-2xl border border-slate-700 transition-colors text-center"
               >
-                <span>Explorar las 38 Categorías</span>
+                <span>Explorar las {categories.length} Categorías</span>
               </a>
             </div>
           </div>

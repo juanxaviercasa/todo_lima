@@ -12,6 +12,7 @@ import {
   Sparkles,
   PhoneCall
 } from 'lucide-react';
+import { buildWhatsAppLink } from '../lib/contact.js';
 
 export default function GHLConversionSections({ category }) {
   const [openFaq, setOpenFaq] = useState(0);
@@ -179,7 +180,7 @@ export default function GHLConversionSections({ category }) {
             </div>
 
             <a
-              href="https://wa.me/51925475034?text=Hola,%20tengo%20un%20negocio%20en%20Lima%20y%20quiero%20publicarme%20en%20todolima.com"
+              href={buildWhatsAppLink('Hola Todo Lima 👋, tengo un negocio en Lima y deseo postularme para publicarme en todolima.com.')}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm sm:text-base py-4 px-7 rounded-2xl shadow-xl hover:scale-105 active:scale-95 transition-all shrink-0 w-full lg:w-auto text-center"

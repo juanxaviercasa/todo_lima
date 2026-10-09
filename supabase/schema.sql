@@ -59,7 +59,7 @@ CREATE TABLE IF NOT EXISTS public.leads_prospecting (
     id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     business_id VARCHAR(100) UNIQUE REFERENCES public.businesses(id) ON DELETE CASCADE,
     mobile_phone_raw VARCHAR(50),
-    mobile_phone_intl VARCHAR(50), -- Ej: '51925475034'
+    mobile_phone_intl VARCHAR(50), -- Ej: '51961277467'
     is_mobile BOOLEAN DEFAULT FALSE,
     has_website BOOLEAN DEFAULT FALSE,
     web_audit_type VARCHAR(50), -- 'NO_WEBSITE', 'SOCIAL_ONLY', 'REDESIGN_WEBSITE', etc.

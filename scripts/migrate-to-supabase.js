@@ -52,7 +52,7 @@ async function runMigration() {
   const supabase = createClient(supabaseUrl, supabaseKey);
 
   // 1. MIGRAR CATEGORÍAS
-  console.log('📦 1. Migrando 38 categorías maestras...');
+  console.log(`📦 1. Migrando ${CATEGORIES.length} categorías maestras...`);
   const categoryPayload = CATEGORIES.map(cat => ({
     slug: cat.slug,
     title: cat.title,

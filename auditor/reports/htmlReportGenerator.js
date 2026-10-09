@@ -14,6 +14,7 @@ import path from 'path';
  */
 export function generateHtmlReport(auditData, outputPath) {
   const jsonData = JSON.stringify(auditData);
+  const totalCategories = new Set((auditData.businesses || []).map(b => b.categorySlug)).size || 56;
 
   const html = `<!DOCTYPE html>
 <html lang="es">
@@ -494,11 +495,11 @@ export function generateHtmlReport(auditData, outputPath) {
       <div class="brand-logo">TL</div>
       <div class="brand-title">
         <h1>Todo Lima — Auditoría Comercial & Generador de Propuestas</h1>
-        <p>Motor de análisis de 38 categorías de Lima Metropolitana (todolima.com)</p>
+        <p>Motor de análisis de ${totalCategories} categorías de Lima Metropolitana (todolima.com)</p>
       </div>
     </div>
     <div class="header-badge">
-      <span>●</span> 38 Categorías Auditadas
+      <span>●</span> ${totalCategories} Categorías Auditadas
     </div>
   </header>
 
@@ -534,7 +535,7 @@ export function generateHtmlReport(auditData, outputPath) {
     <div class="filters-group">
       <!-- Categoria -->
       <select id="filter-category" class="control-select">
-        <option value="">Todas las 38 Categorías</option>
+        <option value="">Todas las Categorías (${totalCategories})</option>
       </select>
 
       <!-- Estado -->
