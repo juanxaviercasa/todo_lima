@@ -27,7 +27,9 @@ import {
   Gift,
   Coins,
   ChevronDown,
-  Compass
+  Compass,
+  ArrowDownAZ,
+  ArrowUpZA
 } from 'lucide-react';
 import { buildWhatsAppLink } from '../lib/contact.js';
 import { LIMA_ZONES, POPULAR_DISTRICTS, getDistrictZone, extractDistrict } from '../lib/districts.js';
@@ -49,32 +51,83 @@ const NICHE_CONFIG = {
   tecnologia: { label: 'Tecnología y Seguridad', icon: Laptop, color: 'emerald' },
 };
 
+const SPANISH_ALPHABET = [
+  'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 
+  'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 
+  'U', 'V', 'W', 'X', 'Y', 'Z'
+];
+
+/**
+ * Normaliza la primera letra del título para el índice alfabético (ej. Ópticas -> O)
+ */
+function getFirstLetter(title) {
+  if (!title) return '';
+  const first = title.trim().charAt(0).toUpperCase();
+  return first.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
 export default function HomeExplorer({ categories = [] }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedNiche, setSelectedNiche] = useState('all');
   const [selectedDistrict, setSelectedDistrict] = useState('all');
+  const [selectedLetter, setSelectedLetter] = useState('all');
+  const [sortOrder, setSortOrder] = useState('az'); // 'az' (A-Z), 'za' (Z-A), 'popular'
   const [showAllDistricts, setShowAllDistricts] = useState(false);
 
-  // Filtrado reactivo en tiempo real
+  // Conteo de categorías disponibles por letra en el estado actual
+  const letterCounts = useMemo(() => {
+    const counts = {};
+    categories.forEach(cat => {
+      if (selectedNiche !== 'all' && cat.niche !== selectedNiche) return;
+      const l = getFirstLetter(cat.title);
+      counts[l] = (counts[l] || 0) + 1;
+    });
+    return counts;
+  }, [categories, selectedNiche]);
+
+  // Filtrado y ordenamiento reactivo en tiempo real
   const filteredCategories = useMemo(() => {
-    return categories.filter((cat) => {
+    let result = categories.filter((cat) => {
       const matchesNiche = selectedNiche === 'all' || cat.niche === selectedNiche;
+      const catLetter = getFirstLetter(cat.title);
+      const matchesLetter = selectedLetter === 'all' || catLetter === selectedLetter;
       
-      if (!searchQuery.trim()) return matchesNiche;
+      if (!matchesNiche || !matchesLetter) return false;
+
+      if (!searchQuery.trim()) return true;
       
       const q = searchQuery.toLowerCase().trim();
-      const matchesSearch = 
+      return (
         cat.title.toLowerCase().includes(q) ||
         cat.slug.toLowerCase().includes(q) ||
         cat.heroHook.toLowerCase().includes(q) ||
-        (cat.query && cat.query.toLowerCase().includes(q));
-
-      return matchesNiche && matchesSearch;
+        (cat.query && cat.query.toLowerCase().includes(q))
+      );
     });
-  }, [categories, searchQuery, selectedNiche]);
+
+    // Ordenamiento alfabético estricto o por popularidad
+    if (sortOrder === 'az') {
+      result.sort((a, b) => a.title.localeCompare(b.title, 'es', { sensitivity: 'base' }));
+    } else if (sortOrder === 'za') {
+      result.sort((a, b) => b.title.localeCompare(a.title, 'es', { sensitivity: 'base' }));
+    }
+    // 'popular' preserva el orden original auditado
+
+    return result;
+  }, [categories, searchQuery, selectedNiche, selectedLetter, sortOrder]);
 
   const totalReady = categories.filter(c => c.hasData).length;
   const activeZone = selectedDistrict !== 'all' ? getDistrictZone(selectedDistrict) : null;
+
+  const resetAllFilters = () => {
+    setSearchQuery('');
+    setSelectedNiche('all');
+    setSelectedDistrict('all');
+    setSelectedLetter('all');
+    setSortOrder('az');
+  };
+
+  const hasActiveFilters = searchQuery || selectedNiche !== 'all' || selectedDistrict !== 'all' || selectedLetter !== 'all';
 
   return (
     <div className="w-full">
@@ -138,7 +191,10 @@ export default function HomeExplorer({ categories = [] }) {
               return (
                 <button
                   key={key}
-                  onClick={() => setSelectedNiche(key)}
+                  onClick={() => {
+                    setSelectedNiche(key);
+                    setSelectedLetter('all');
+                  }}
                   className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl shrink-0 transition-all duration-200 ${
                     isSelected
                       ? 'bg-slate-900 text-white shadow-sm'
@@ -176,7 +232,7 @@ export default function HomeExplorer({ categories = [] }) {
                   </span>
                 </div>
                 <p className="text-xs sm:text-sm text-slate-600 mt-0.5 leading-relaxed">
-                  Al abrir cualquier categoría verás automáticamente los especialistas verificados en <strong>{selectedDistrict}</strong> con contacto directo por WhatsApp.
+                  Las categorías abajo se encuentran ordenadas alfabéticamente para <strong>{selectedDistrict}</strong> con enlace directo a WhatsApp.
                 </p>
               </div>
             </div>
@@ -190,8 +246,8 @@ export default function HomeExplorer({ categories = [] }) {
           </div>
         )}
 
-        {/* Cabecera de resultados */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
+        {/* Cabecera de resultados con Controles de Orden Alfabético (A-Z / Z-A) */}
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
           <div>
             <div className="flex items-center gap-2">
               <span className="w-2.5 h-2.5 rounded-full bg-sky-500 animate-pulse" />
@@ -200,30 +256,129 @@ export default function HomeExplorer({ categories = [] }) {
               </h2>
             </div>
             <p className="text-sm text-slate-500 mt-1">
-              {searchQuery || selectedNiche !== 'all' || selectedDistrict !== 'all' ? (
+              {hasActiveFilters ? (
                 <>Mostrando <span className="font-bold text-slate-800">{filteredCategories.length}</span> directorios para tu búsqueda {selectedDistrict !== 'all' ? `en ${selectedDistrict}` : ''}</>
               ) : (
-                <>Explora las {categories.length} categorías sincronizadas con Google Maps</>
+                <>Explora las {categories.length} categorías sincronizadas en orden alfabético</>
               )}
             </p>
           </div>
 
-          <div className="flex items-center gap-3">
-            {(searchQuery || selectedNiche !== 'all' || selectedDistrict !== 'all') && (
+          {/* Botones de Ordenamiento Alfabético */}
+          <div className="flex items-center gap-2 flex-wrap">
+            <div className="inline-flex items-center bg-slate-100 p-1 rounded-2xl border border-slate-200/80 shadow-2xs text-xs font-bold text-slate-700">
               <button
-                onClick={() => { setSearchQuery(''); setSelectedNiche('all'); setSelectedDistrict('all'); }}
-                className="text-xs font-bold text-sky-600 hover:text-sky-800 bg-sky-50 hover:bg-sky-100 border border-sky-200 py-1.5 px-3 rounded-xl transition-colors"
+                onClick={() => setSortOrder('az')}
+                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl transition-all ${
+                  sortOrder === 'az'
+                    ? 'bg-white text-slate-900 font-black shadow-xs'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+                title="Ordenar de la A a la Z"
               >
-                Restablecer todos los filtros
+                <ArrowDownAZ className="w-4 h-4 text-sky-600" />
+                <span>A → Z</span>
+              </button>
+
+              <button
+                onClick={() => setSortOrder('za')}
+                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl transition-all ${
+                  sortOrder === 'za'
+                    ? 'bg-white text-slate-900 font-black shadow-xs'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+                title="Ordenar de la Z a la A"
+              >
+                <ArrowUpZA className="w-4 h-4 text-indigo-600" />
+                <span>Z → A</span>
+              </button>
+
+              <button
+                onClick={() => setSortOrder('popular')}
+                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl transition-all ${
+                  sortOrder === 'popular'
+                    ? 'bg-white text-slate-900 font-black shadow-xs'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+                title="Ordenar por mayor demanda y volumen de negocios"
+              >
+                <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+                <span>Destacadas</span>
+              </button>
+            </div>
+
+            {hasActiveFilters && (
+              <button
+                onClick={resetAllFilters}
+                className="text-xs font-bold text-sky-600 hover:text-sky-800 bg-sky-50 hover:bg-sky-100 border border-sky-200 py-2 px-3 rounded-xl transition-colors"
+              >
+                Restablecer filtros
               </button>
             )}
-            <div className="text-xs font-bold text-slate-600 bg-white border border-slate-200/90 py-1.5 px-3.5 rounded-xl shadow-xs">
-              <span className="text-emerald-600 font-extrabold">{totalReady}</span> de {categories.length} categorías listas
-            </div>
           </div>
         </div>
 
-        {/* Tarjetas de Directorios */}
+        {/* Barra de Abecedario Interactivo (Índice A - Z) */}
+        <div className="bg-white rounded-3xl border border-slate-200/90 p-3 sm:p-4 mb-8 shadow-xs">
+          <div className="flex items-center justify-between gap-1 sm:gap-1.5 overflow-x-auto pb-1 scrollbar-none">
+            <button
+              onClick={() => setSelectedLetter('all')}
+              className={`px-3 py-2 rounded-xl text-xs font-black shrink-0 transition-all ${
+                selectedLetter === 'all'
+                  ? 'bg-slate-900 text-white shadow-xs'
+                  : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
+              }`}
+            >
+              Todas (A-Z)
+            </button>
+
+            {SPANISH_ALPHABET.map((letter) => {
+              const count = letterCounts[letter] || 0;
+              const hasItems = count > 0;
+              const isSelected = selectedLetter === letter;
+
+              return (
+                <button
+                  key={letter}
+                  disabled={!hasItems}
+                  onClick={() => setSelectedLetter(isSelected ? 'all' : letter)}
+                  title={hasItems ? `${count} categorías que empiezan con "${letter}"` : `Sin categorías con "${letter}"`}
+                  className={`w-8 h-8 sm:w-9 sm:h-9 rounded-xl text-xs font-black shrink-0 flex items-center justify-center transition-all ${
+                    isSelected
+                      ? 'bg-sky-600 text-white shadow-md scale-105 ring-2 ring-sky-300'
+                      : hasItems
+                      ? 'bg-slate-100 hover:bg-sky-100 hover:text-sky-800 text-slate-800 cursor-pointer hover:scale-105'
+                      : 'bg-slate-50 text-slate-300 cursor-not-allowed opacity-35'
+                  }`}
+                >
+                  {letter}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Banner de Letra Activa */}
+          {selectedLetter !== 'all' && (
+            <div className="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-slate-600">
+              <span className="flex items-center gap-1.5">
+                <span className="w-5 h-5 rounded-lg bg-sky-500 text-white flex items-center justify-center font-black text-[11px]">
+                  {selectedLetter}
+                </span>
+                <span>
+                  Mostrando categorías que inician con <strong>"{selectedLetter}"</strong> ({filteredCategories.length} resultados)
+                </span>
+              </span>
+              <button
+                onClick={() => setSelectedLetter('all')}
+                className="text-sky-600 hover:text-sky-800 underline text-xs"
+              >
+                Ver todas las letras
+              </button>
+            </div>
+          )}
+        </div>
+
+        {/* Tarjetas de Directorios en Orden Alfabético */}
         {filteredCategories.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredCategories.map((cat) => {
@@ -232,6 +387,7 @@ export default function HomeExplorer({ categories = [] }) {
               const categoryHref = selectedDistrict !== 'all'
                 ? `/${cat.slug}?distrito=${encodeURIComponent(selectedDistrict)}`
                 : `/${cat.slug}`;
+              const firstLetter = getFirstLetter(cat.title);
 
               return (
                 <Link
@@ -256,16 +412,23 @@ export default function HomeExplorer({ categories = [] }) {
                         <span className="capitalize">{cat.niche}</span>
                       </div>
 
-                      {cat.hasData ? (
-                        <span className="inline-flex items-center gap-1.5 text-[11px] font-bold text-white bg-emerald-500/90 backdrop-blur-md px-2.5 py-1 rounded-full shadow-sm">
-                          <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
-                          Directorio listo
+                      <div className="flex items-center gap-1.5">
+                        {/* Indicador de Letra Alfabética */}
+                        <span className="bg-slate-900/80 backdrop-blur-md text-white font-black text-[11px] px-2 py-1 rounded-lg">
+                          {firstLetter}
                         </span>
-                      ) : (
-                        <span className="text-[11px] font-medium text-slate-600 bg-white/90 backdrop-blur-md px-2.5 py-1 rounded-full shadow-sm">
-                          Próximamente
-                        </span>
-                      )}
+
+                        {cat.hasData ? (
+                          <span className="inline-flex items-center gap-1.5 text-[11px] font-bold text-white bg-emerald-500/90 backdrop-blur-md px-2.5 py-1 rounded-full shadow-sm">
+                            <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
+                            Directorio listo
+                          </span>
+                        ) : (
+                          <span className="text-[11px] font-medium text-slate-600 bg-white/90 backdrop-blur-md px-2.5 py-1 rounded-full shadow-sm">
+                            Próximamente
+                          </span>
+                        )}
+                      </div>
                     </div>
                   </div>
 
@@ -323,17 +486,17 @@ export default function HomeExplorer({ categories = [] }) {
               <Search className="w-8 h-8" />
             </div>
             <h3 className="text-xl font-black text-slate-900">
-              No encontramos directorios con "{searchQuery}"
+              No encontramos directorios {selectedLetter !== 'all' ? `con la letra "${selectedLetter}"` : ''} {searchQuery ? `para "${searchQuery}"` : ''}
             </h3>
             <p className="mt-2 text-sm text-slate-500 leading-relaxed">
-              Prueba con otro término (por ejemplo: "dentistas", "gasfiteros", "abogados", "mecánicos") o restablece los filtros.
+              Prueba cambiando la letra seleccionada, busca otro término (ej. "dentistas", "gasfiteros", "abogados") o restablece los filtros.
             </p>
             <div className="mt-6">
               <button
-                onClick={() => { setSearchQuery(''); setSelectedNiche('all'); setSelectedDistrict('all'); }}
+                onClick={resetAllFilters}
                 className="inline-flex items-center justify-center font-bold text-xs text-white bg-slate-900 hover:bg-slate-800 px-5 py-3 rounded-xl transition-colors shadow-sm"
               >
-                Ver todos los directorios ({categories.length})
+                Ver todos los directorios en orden A-Z ({categories.length})
               </button>
             </div>
           </div>
@@ -351,7 +514,7 @@ export default function HomeExplorer({ categories = [] }) {
               Especialistas con Cobertura en Todos los Distritos
             </h2>
             <p className="mt-2.5 text-sm sm:text-base text-slate-500">
-              Selecciona tu distrito para encontrar los especialistas y servicios mejor valorados cerca de ti.
+              Selecciona tu distrito para encontrar los especialistas y servicios mejor valorados cerca de ti en orden alfabético.
             </p>
 
             {selectedDistrict !== 'all' && (
