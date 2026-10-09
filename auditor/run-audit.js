@@ -282,24 +282,24 @@ async function main() {
   // Exportar leads listos para WhatsApp
   if (shouldExportLeads) {
     const readyLeads = allBusinessesFlattened
-      .filter(b => b.phoneData.isMobile && b.proposal.status !== 'OPTIMIZE_WEBSITE')
+      .filter(b => b.phoneData.isMobile && b.proposal?.whatsappUrl)
       .sort((a, b) => (b.rating || 0) - (a.rating || 0));
 
     const leadsPath = path.join(auditsDir, 'leads-ready-to-contact.json');
     fs.writeFileSync(leadsPath, JSON.stringify(readyLeads, null, 2), 'utf-8');
 
-    // Exportar también en CSV para Excel / Google Sheets
-    const csvHeader = 'Nombre,Categoria,Distrito,Rating,Opiniones,Telefono,Tipo_Oportunidad,Subdominio_Sugerido,Enlace_WhatsApp\n';
+    // Exportar también en CSV para Excel / Google Sheets con Servicio Recomendado y Prioridad
+    const csvHeader = 'Nombre,Categoria,Distrito,Rating,Opiniones,Telefono,Servicio_Recomendado,Prioridad,Subdominio_Sugerido,Enlace_WhatsApp\n';
     const csvRows = readyLeads.map(l => {
       const cleanName = `"${(l.name || '').replace(/"/g, '""')}"`;
       const cleanAddr = `"${(l.district || '').replace(/"/g, '""')}"`;
       const cleanWaUrl = `"${(l.proposal.whatsappUrl || '').replace(/"/g, '""')}"`;
-      return `${cleanName},${l.categorySlug},${cleanAddr},${l.rating || ''},${l.reviewsCount || 0},${l.phoneData.clean || ''},${l.proposal.status},${l.proposal.suggestedSubdomain},${cleanWaUrl}`;
+      return `${cleanName},${l.categorySlug},${cleanAddr},${l.rating || ''},${l.reviewsCount || 0},${l.phoneData.clean || ''},${l.proposal.status || 'NEEDS_WEBSITE'},${l.proposal.priority || 'MEDIUM'},${l.proposal.suggestedSubdomain || ''},${cleanWaUrl}`;
     }).join('\n');
 
     const csvPath = path.join(auditsDir, 'leads-ready-to-contact.csv');
     fs.writeFileSync(csvPath, '\uFEFF' + csvHeader + csvRows, 'utf-8'); // \uFEFF para UTF-8 BOM compatible con Excel
-    console.log(`📱 [Leads WhatsApp] ${readyLeads.length} prospectos listos exportados en:`);
+    console.log(`📱 [Leads WhatsApp 360°] ${readyLeads.length} prospectos listos exportados en:`);
     console.log(`   - JSON: ${leadsPath}`);
     console.log(`   - CSV (Excel): ${csvPath}`);
   }

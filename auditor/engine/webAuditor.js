@@ -168,7 +168,14 @@ export async function auditWebsite(url, timeoutMs = 7000) {
       html = '';
     }
 
-    // Análisis de etiquetas y estructura
+    // 1. Análisis de Ciberseguridad & Headers HTTP
+    const headers = response.headers;
+    const hasHsts = headers.has('strict-transport-security');
+    const hasCsp = headers.has('content-security-policy');
+    const hasXFrame = headers.has('x-frame-options');
+    const hasXContentType = headers.has('x-content-type-options');
+
+    // 2. Análisis de Etiquetas y Estructura
     const titleMatch = html.match(/<title[^>]*>([^<]+)<\/title>/i);
     const title = titleMatch ? titleMatch[1].trim() : null;
 
@@ -180,12 +187,36 @@ export async function auditWebsite(url, timeoutMs = 7000) {
     const h1Matches = html.match(/<h1[^>]*>([^<]+)<\/h1>/gi) || [];
     const h1Count = h1Matches.length;
 
-    // Análisis de conversión (WhatsApp y Teléfono)
+    // 3. Análisis de Conversión Básica
     const hasWhatsApp = /(wa\.me|api\.whatsapp\.com|whatsapp:\/\/)/i.test(html);
     const hasPhoneLink = /href=["']tel:[^"']+["']/i.test(html);
     const hasContactForm = /<form[^>]*>/i.test(html);
 
-    // Detección de Tecnologías
+    // 4. Ciberseguridad en Código y Formularios
+    const hasCaptcha = /recaptcha|hcaptcha|turnstile|cf-turnstile/i.test(html);
+    const generatorMatch = html.match(/<meta[^>]*name=["']generator["'][^>]*content=["']([^"']*)["']/i);
+    const exposedGenerator = generatorMatch ? generatorMatch[1].trim() : null;
+
+    // 5. Marketing Digital & Pauta Publicitaria (Pixels & Tracking)
+    const hasMetaPixel = /fbevents\.js|fbq\(|connect\.facebook\.net/i.test(html);
+    const hasGoogleAds = /googletagmanager\.com|gtag\(|google-analytics\.com/i.test(html);
+    const hasTikTokPixel = /analytics\.tiktok\.com|ttq\./i.test(html);
+    const hasHotjarOrClarity = /hotjar\.com|clarity\.ms/i.test(html);
+
+    // 6. Redes Sociales, Branding & Contenido
+    const hasInstagram = /instagram\.com/i.test(html);
+    const hasFacebook = /facebook\.com/i.test(html);
+    const hasTikTok = /tiktok\.com/i.test(html);
+    const hasLinkedIn = /linkedin\.com/i.test(html);
+    const hasYouTube = /youtube\.com/i.test(html);
+    const hasVideoContent = /<video|<iframe[^>]*youtube|<iframe[^>]*vimeo/i.test(html);
+
+    // 7. Agentes de IA, Chatbots, CRM & Software a Medida
+    const hasChatbot = /livechat|tidio|manychat|drift|intercom|jivochat|zendesk|crisp\.chat|chatbase|botpress/i.test(html);
+    const hasBookingSystem = /calendly\.com|booksy|fresha|simplybook|acuityscheduling|reservas|agendar/i.test(html);
+    const hasEcommerce = /woocommerce|shopify|vtex|tiendanube|carrito|cart/i.test(html);
+
+    // 8. Detección de Tecnologías
     const techStack = [];
     if (/wp-content|wordpress/i.test(html)) techStack.push('WordPress');
     if (/elementor/i.test(html)) techStack.push('Elementor');
@@ -197,7 +228,7 @@ export async function auditWebsite(url, timeoutMs = 7000) {
     if (/bootstrap/i.test(html)) techStack.push('Bootstrap');
     if (category.provider === 'Google Sites') techStack.push('Google Sites');
 
-    // Detección de antigüedad en copyright
+    // 9. Detección de antigüedad en copyright
     let outdatedYear = null;
     const yearMatch = html.match(/©\s*(20[0-2][0-9])/);
     if (yearMatch) {

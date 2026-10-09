@@ -1,5 +1,5 @@
 # REPORTE EJECUTIVO DE AUDITORÍA COMERCIAL — TODO LIMA
-> **Fecha de ejecución:** 8/10/2026, 5:06:57 p. m.  
+> **Fecha de ejecución:** 8/10/2026, 7:18:51 p. m.  
 > **Total Categorías:** 56 | **Total Negocios Auditados:** 5068
 
 ---
@@ -13,7 +13,7 @@
 | **Solo Red Social (Facebook/IG)** | **285** | **6%** | Dependencia de plataformas ajenas sin SEO local |
 | **Con Sitio Web Propio** | **858** | **17%** | Candidatos a rediseño, optimización y afiliación |
 | **Con WhatsApp Móvil Verificado** | **1492** | **29%** | **Listos para prospección directa con 1 clic** |
-| **Puntaje Promedio Web (0-100)** | **51/100** | — | Rendimiento técnico de los sitios existentes |
+| **Puntaje Promedio Web (0-100)** | **0/100** | — | Rendimiento técnico de los sitios existentes |
 
 ---
 
@@ -22,38 +22,38 @@
 | Categoría | Total Negocios | Sin Web (Leads) | Con WhatsApp Móvil | Web Propia | Score Promedio |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **abogados** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
-| **agentes-inmobiliarios** | 70 | **59** (84%) | 📲 **11** | 11 | 75/100 |
+| **agentes-inmobiliarios** | 70 | **59** (84%) | 📲 **11** | 11 | 0/100 |
 | **aire-acondicionado** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
 | **alquiler-de-canchas** | 100 | **80** (80%) | 📲 **60** | 11 | 0/100 |
-| **auxilio-mecanico** | 71 | **60** (85%) | 📲 **14** | 9 | 49/100 |
+| **auxilio-mecanico** | 71 | **60** (85%) | 📲 **14** | 9 | 0/100 |
 | **barberias** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
 | **cafeterias** | 100 | **42** (42%) | 📲 **64** | 38 | 0/100 |
-| **camaras-de-seguridad** | 97 | **94** (97%) | 📲 **1** | 3 | 77/100 |
-| **car-wash** | 74 | **71** (96%) | 📲 **14** | 2 | 64/100 |
-| **carpinteros** | 100 | **77** (77%) | 📲 **67** | 15 | 51/100 |
+| **camaras-de-seguridad** | 97 | **94** (97%) | 📲 **1** | 3 | 0/100 |
+| **car-wash** | 74 | **71** (96%) | 📲 **14** | 2 | 0/100 |
+| **carpinteros** | 100 | **77** (77%) | 📲 **67** | 15 | 0/100 |
 | **casas-de-cambio** | 100 | **49** (49%) | 📲 **31** | 49 | 0/100 |
-| **catering** | 70 | **60** (86%) | 📲 **14** | 6 | 57/100 |
-| **cerrajeros** | 95 | **69** (73%) | 📲 **54** | 14 | 63/100 |
+| **catering** | 70 | **60** (86%) | 📲 **14** | 6 | 0/100 |
+| **cerrajeros** | 95 | **69** (73%) | 📲 **54** | 14 | 0/100 |
 | **cevicherias** | 100 | **41** (41%) | 📲 **47** | 48 | 0/100 |
 | **chifas** | 100 | **74** (74%) | 📲 **31** | 17 | 0/100 |
-| **contadores** | 79 | **77** (97%) | 📲 **3** | 1 | 73/100 |
+| **contadores** | 79 | **77** (97%) | 📲 **3** | 1 | 0/100 |
 | **decoracion-de-eventos** | 100 | **48** (48%) | 📲 **88** | 25 | 0/100 |
-| **dentistas** | 100 | **87** (87%) | 📲 **16** | 8 | 13/100 |
+| **dentistas** | 100 | **87** (87%) | 📲 **16** | 8 | 0/100 |
 | **dermatologos** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
-| **doctores** | 100 | **80** (80%) | 📲 **21** | 20 | 40/100 |
+| **doctores** | 100 | **80** (80%) | 📲 **21** | 20 | 0/100 |
 | **electricistas** | 3 | **3** (100%) | 📲 **0** | 0 | 0/100 |
 | **escuelas-de-manejo** | 100 | **42** (42%) | 📲 **71** | 46 | 0/100 |
-| **fisioterapia** | 76 | **64** (84%) | 📲 **12** | 11 | 57/100 |
+| **fisioterapia** | 76 | **64** (84%) | 📲 **12** | 11 | 0/100 |
 | **florerias** | 100 | **25** (25%) | 📲 **79** | 66 | 0/100 |
 | **fotografia-eventos** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
-| **fumigacion** | 31 | **24** (77%) | 📲 **7** | 6 | 65/100 |
-| **gasfiteros** | 81 | **55** (68%) | 📲 **53** | 21 | 66/100 |
+| **fumigacion** | 31 | **24** (77%) | 📲 **7** | 6 | 0/100 |
+| **gasfiteros** | 81 | **55** (68%) | 📲 **53** | 21 | 0/100 |
 | **gimnasios** | 100 | **46** (46%) | 📲 **63** | 38 | 0/100 |
-| **ginecologos** | 75 | **72** (96%) | 📲 **5** | 2 | 37/100 |
+| **ginecologos** | 75 | **72** (96%) | 📲 **5** | 2 | 0/100 |
 | **grooming-canino** | 100 | **43** (43%) | 📲 **89** | 42 | 0/100 |
 | **laboratorios-clinicos** | 100 | **34** (34%) | 📲 **46** | 65 | 0/100 |
 | **lavanderias** | 100 | **76** (76%) | 📲 **51** | 17 | 0/100 |
-| **llanterias** | 51 | **48** (94%) | 📲 **4** | 3 | 85/100 |
+| **llanterias** | 51 | **48** (94%) | 📲 **4** | 3 | 0/100 |
 | **locales-de-eventos** | 100 | **43** (43%) | 📲 **71** | 35 | 0/100 |
 | **mudanzas** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
 | **notarias** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
@@ -61,18 +61,18 @@
 | **oftalmologos** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
 | **opticas** | 100 | **55** (55%) | 📲 **69** | 30 | 0/100 |
 | **pediatras** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
-| **pintores** | 100 | **69** (69%) | 📲 **60** | 22 | 52/100 |
+| **pintores** | 100 | **69** (69%) | 📲 **60** | 22 | 0/100 |
 | **pizzerias** | 100 | **29** (29%) | 📲 **60** | 52 | 0/100 |
 | **podologos** | 100 | **56** (56%) | 📲 **74** | 27 | 0/100 |
 | **pollerias** | 100 | **71** (71%) | 📲 **46** | 17 | 0/100 |
 | **psicologos** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
-| **reparacion-celulares** | 100 | **98** (98%) | 📲 **0** | 1 | 10/100 |
+| **reparacion-celulares** | 100 | **98** (98%) | 📲 **0** | 1 | 0/100 |
 | **reparacion-laptops** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
 | **reparacion-lavadoras** | 78 | **78** (100%) | 📲 **1** | 0 | 0/100 |
-| **reparacion-refrigeradoras** | 73 | **63** (86%) | 📲 **16** | 6 | 10/100 |
+| **reparacion-refrigeradoras** | 73 | **63** (86%) | 📲 **16** | 6 | 0/100 |
 | **salones-de-belleza** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
 | **spas** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
-| **talleres-mecanicos** | 74 | **64** (86%) | 📲 **16** | 8 | 10/100 |
+| **talleres-mecanicos** | 74 | **64** (86%) | 📲 **16** | 8 | 0/100 |
 | **tortas-personalizadas** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
 | **traumatologos** | 100 | **29** (29%) | 📲 **63** | 66 | 0/100 |
 | **veterinarias** | 70 | **70** (100%) | 📲 **0** | 0 | 0/100 |
