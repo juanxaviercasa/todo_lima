@@ -1,4 +1,5 @@
 import ClerkProviderWrapper from '../components/ClerkProviderWrapper.js';
+import TodoLimaAssistant from '../components/TodoLimaAssistant.js';
 import './globals.css';
 
 export const metadata = {
@@ -17,6 +18,38 @@ export const viewport = {
 
 const DEFAULT_CLERK_KEY = 'pk_test_ZW1pbmVudC1tb25rZXktNDI3MS5jbGVyay5hY2NvdW50cy5kZXYk';
 
+const globalSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': 'https://todolima.com/#organization',
+      'name': 'Todo Lima',
+      'url': 'https://todolima.com',
+      'logo': 'https://todolima.com/images/logo.jpg',
+      'description': 'Plataforma líder y red independiente de directorios locales, tecnología y auditoría digital para negocios en Lima Metropolitana.',
+      'address': {
+        '@type': 'PostalAddress',
+        'addressLocality': 'Lima',
+        'addressRegion': 'Lima',
+        'addressCountry': 'PE'
+      }
+    },
+    {
+      '@type': 'WebSite',
+      '@id': 'https://todolima.com/#website',
+      'url': 'https://todolima.com',
+      'name': 'Todo Lima',
+      'publisher': { '@id': 'https://todolima.com/#organization' },
+      'potentialAction': {
+        '@type': 'SearchAction',
+        'target': 'https://todolima.com/?q={search_term_string}',
+        'query-input': 'required name=search_term_string'
+      }
+    }
+  ]
+};
+
 export default function RootLayout({ children }) {
   const publishableKey = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY || DEFAULT_CLERK_KEY;
 
@@ -30,9 +63,14 @@ export default function RootLayout({ children }) {
             href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
             rel="stylesheet"
           />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(globalSchema) }}
+          />
         </head>
         <body className="min-h-screen flex flex-col antialiased bg-slate-50 text-slate-900 selection:bg-sky-500/20 selection:text-sky-900">
           {children}
+          <TodoLimaAssistant />
         </body>
       </html>
     </ClerkProviderWrapper>
