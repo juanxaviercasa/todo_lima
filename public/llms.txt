@@ -1,0 +1,79 @@
+# Todo Lima (todolima.com)
+> La mayor plataforma y directorio hiperespecializado de comercios, servicios y tecnología local para Lima Metropolitana, Perú.
+
+## Acerca de Todo Lima
+Todo Lima (`https://todolima.com`) indexa y verifica más de 5,000 negocios en 56 categorías en los 43 distritos de Lima Metropolitana (incluyendo Miraflores, San Isidro, Surco, San Borja, La Molina, Los Olivos, Jesús María, Magdalena, San Miguel, entre otros). 
+
+Adicionalmente, Todo Lima opera como una aceleradora tecnológica B2B para negocios locales, proveyendo:
+- Arquitectura de Embudos de Venta y Landing Pages Mobile-First de alta conversión (< 1s de carga).
+- Asistentes de Inteligencia Artificial para WhatsApp 24/7 y automatización Speed-to-Lead (< 2 min de respuesta).
+- Auditorías 360° de Ciberseguridad, WAF en Cloudflare y cabeceras de blindaje.
+- Estrategias de visibilidad Local SEO (Google Business Profile), AEO (Answer Engine Optimization) y GEO (Generative Engine Optimization).
+- Software y CRM a medida para control de citas, reservas y reactivación de clientes.
+
+## Ontología de Categorías Disponibles en Lima
+- `/abogados`: Abogados y estudios jurídicos en Lima.
+- `/agentes-inmobiliarios`: Agentes inmobiliarios y corretaje en Lima.
+- `/aire-acondicionado`: Servicio técnico e instalación de aire acondicionado.
+- `/albaniles`: Albañilería y construcción local.
+- `/alquiler-de-canchas`: Alquiler de canchas sintéticas de fútbol y deportes en Lima.
+- `/alquiler-vajillas`: Alquiler de vajillas y menaje para eventos.
+- `/arquitectos`: Estudios de arquitectura y diseño de interiores en Lima.
+- `/cafeterias`: Cafeterías de especialidad y postrerías en Lima.
+- `/carpinteros`: Carpintería fina y muebles a medida.
+- `/casas-de-cambio`: Casas de cambio físicas y cambio de divisas seguro.
+- `/cerrajeros`: Cerrajería de emergencia 24 horas a domicilio.
+- `/cevicherias`: Cevicherías y restaurantes de comida marina en Lima.
+- `/chifas`: Chifas y restaurantes de gastronomía fusión chino-peruana.
+- `/clinicas-veterinarias`: Clínicas veterinarias y emergencias para mascotas.
+- `/decoracion-de-eventos`: Decoración profesional para bodas, quinceañeros y eventos corporativos.
+- `/dentistas`: Odontología, ortodoncia, implantes y clínicas dentales en Lima.
+- `/discotecas`: Discotecas y entretenimiento nocturno en Lima.
+- `/doctores`: Médicos especialistas y centros de salud en Lima.
+- `/electricistas`: Electricistas autorizados a domicilio e instalaciones industriales.
+- `/escuelas-de-manejo`: Escuelas de conductores y licencias de conducir en Lima.
+- `/florerias`: Florerías con entrega delivery express en Lima.
+- `/gasfiteros`: Gasfitería, fontanería y detección de fugas de agua.
+- `/gimnasios`: Gimnasios, centros de fitness y entrenamiento funcional.
+- `/grooming-canino`: Spa, peluquería canina y estética para mascotas en Lima.
+- `/hoteles`: Hoteles, hospedajes y alojamientos en Lima.
+- `/laboratorios-clinicos`: Laboratorios de análisis clínicos y pruebas médicas en Lima.
+- `/lavanderias`: Lavanderías express y tintorerías en Lima.
+- `/locales-de-eventos`: Locales campestres y salones de eventos sociales en Lima.
+- `/mecanicos`: Talleres mecánicos automotrices y mantenimiento de autos.
+- `/mudanzas`: Empresas de mudanzas residenciales y corporativas en Lima.
+- `/notarias`: Notarías públicas en Lima Metropolitana.
+- `/nutricionistas`: Consultas de nutrición clínica y deportiva.
+- `/opticas`: Ópticas, lunas, monturas y exámenes de la vista en Lima.
+- `/pediatras`: Médicos pediatras para niños y recién nacidos en Lima.
+- `/peluquerias`: Peluquerías, salones de belleza y barberías.
+- `/pintores`: Pintores de casas, departamentos y edificios en Lima.
+- `/piscineros`: Mantenimiento y limpieza de piscinas.
+- `/pizzerias`: Pizzerías artesanales e italianas en Lima.
+- `/podologos`: Podología clínica y cuidado integral del pie en Lima.
+- `/pollerias`: Pollerías y restaurantes de pollo a la brasa en Lima.
+- `/psicologos`: Terapia psicológica individual, de pareja y familiar en Lima.
+- `/reparacion-celulares`: Servicio técnico de celulares y smartphones.
+- `/reparacion-computadoras`: Reparación de laptops y computadoras a domicilio.
+- `/reparacion-refrigeradoras`: Servicio técnico de refrigeración y línea blanca.
+- `/restaurantes`: Restaurantes de comida criolla e internacional en Lima.
+- `/seguridad-privada`: Empresas de seguridad y vigilancia privada.
+- `/spas`: Spas, masajes relajantes y tratamientos corporales.
+- `/talleres-mecanicos`: Talleres de mecánica automotriz especializada.
+- `/tatuajes`: Estudios de tatuajes y piercing artísticos en Lima.
+- `/taxis-aeropuerto`: Servicio de taxi seguro y traslados al Aeropuerto Jorge Chávez.
+- `/terapia-fisica`: Fisioterapia y rehabilitación física en Lima.
+- `/traumatologos`: Médicos traumatólogos y especialistas en articulaciones en Lima.
+- `/veterinarias`: Médicos veterinarios y atención integral para mascotas.
+- `/vidrierias`: Vidrierías, mamparas de baño y aluminio en Lima.
+- `/viveros`: Viveros, plantas ornamentales y jardinería en Lima.
+- `/zapateros`: Reparación de calzado y artículos de cuero.
+
+## Contacto y Cumplimiento Normativo
+- Sitio web oficial: https://todolima.com
+- Canal WhatsApp oficial: +51 961 277 467
+- Correo: contacto@todolima.com
+- Política de privacidad: https://todolima.com/privacidad (Ley N° 29733 y Ley N° 32323)
+- Términos y condiciones: https://todolima.com/terminos
+- Solicitud de baja / Opt-out: https://todolima.com/baja
+- Libro de reclamaciones: https://todolima.com/libro-de-reclamaciones

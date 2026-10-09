@@ -8,8 +8,10 @@ import {
   ArrowUp, 
   PhoneCall, 
   CheckCircle2, 
-  Sparkles 
+  Sparkles,
+  BookOpen
 } from 'lucide-react';
+import { TODOLIMA_WHATSAPP_DISPLAY, buildWhatsAppLink } from '../lib/contact.js';
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -32,7 +34,7 @@ export default function Footer() {
               <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
             </span>
             <span className="text-xs font-bold text-slate-300">
-              Red Operativa: 38 Directorios Sincronizados con Google Maps en Lima
+              Red Operativa: {CATEGORIES.length} Directorios Especializados en Lima Metropolitana
             </span>
           </div>
 
@@ -77,13 +79,13 @@ export default function Footer() {
 
             <div className="mt-6 flex flex-col gap-2">
               <a
-                href="https://wa.me/51925475034?text=Hola,%20deseo%20publicar%20mi%20negocio%20en%20todolima.com"
+                href={buildWhatsAppLink('Hola Todo Lima 👋, deseo información sobre la publicación o verificación de mi negocio en todolima.com.')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-xs font-bold text-emerald-400 hover:text-emerald-300 transition-colors"
               >
                 <PhoneCall className="w-4 h-4" />
-                <span>WhatsApp Negocios: +51 925 475 034</span>
+                <span>WhatsApp Negocios: {TODOLIMA_WHATSAPP_DISPLAY}</span>
               </a>
             </div>
           </div>
@@ -165,22 +167,28 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Barra inferior de copyright y botón volver arriba */}
-        <div className="mt-14 pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        {/* Barra inferior de copyright y enlaces legales */}
+        <div className="mt-14 pt-8 border-t border-slate-800/80 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div>
-            © {new Date().getFullYear()} Todo Lima Network (`todolima.com`). Todos los derechos reservados.
+            © {new Date().getFullYear()} Todo Lima Network (todolima.com). Todos los derechos reservados.
           </div>
 
-          <div className="flex items-center gap-6">
-            <Link href="/" className="hover:text-slate-400 transition-colors">
-              Inicio
+          <div className="flex flex-wrap items-center gap-4 sm:gap-6 justify-center">
+            <Link href="/privacidad" className="hover:text-slate-300 transition-colors">
+              Privacidad & Datos
             </Link>
-            <a href="/#directorios" className="hover:text-slate-400 transition-colors">
-              Categorías
-            </a>
+            <Link href="/terminos" className="hover:text-slate-300 transition-colors">
+              Términos
+            </Link>
+            <Link href="/baja" className="text-rose-400 hover:text-rose-300 transition-colors">
+              Baja / Opt-Out
+            </Link>
+            <Link href="/libro-de-reclamaciones" className="text-amber-400 hover:text-amber-300 transition-colors flex items-center gap-1">
+              <BookOpen className="w-3.5 h-3.5" /> Libro de Reclamaciones
+            </Link>
             <button
               onClick={scrollToTop}
-              className="inline-flex items-center gap-1.5 text-slate-400 hover:text-white transition-colors bg-slate-900 border border-slate-800 py-1.5 px-3 rounded-xl"
+              className="inline-flex items-center gap-1.5 text-slate-400 hover:text-white transition-colors bg-slate-900 border border-slate-800 py-1.5 px-3 rounded-xl ml-2"
               title="Volver arriba"
             >
               <span>Subir</span>

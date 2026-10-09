@@ -81,6 +81,43 @@ export default function SubdomainPage({ params }) {
 
         {/* Módulos de Conversión, Autoridad y FAQs */}
         <GHLConversionSections category={meta} />
+
+        {/* Schema FAQPage para Answer Engine Optimization (AEO & GEO) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              'mainEntity': [
+                {
+                  '@type': 'Question',
+                  'name': `¿Cómo encontrar los mejores profesionales de ${meta.title} en Lima?`,
+                  'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': `En Todo Lima puedes filtrar y contactar a los especialistas de ${meta.title} con más de 4.5 estrellas en Google Maps y atención directa por WhatsApp en los diferentes distritos de Lima Metropolitana.`
+                  }
+                },
+                {
+                  '@type': 'Question',
+                  'name': `¿Cómo contactar por WhatsApp con ${meta.title} en Lima?`,
+                  'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': `Elige el comercio o especialista en el directorio y haz clic en "Contactar por WhatsApp Directo" para chatear en tiempo real sin comisiones.`
+                  }
+                },
+                {
+                  '@type': 'Question',
+                  'name': `¿Cómo reclamar la ficha de mi negocio en ${meta.title}?`,
+                  'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': `Si eres el dueño o representante, haz clic en "¿Eres el dueño? Reclama tu ficha" en la tarjeta de tu comercio o escribe a nuestro WhatsApp oficial (+51 961 277 467) para recibir una Auditoría 360° gratuita.`
+                  }
+                }
+              ]
+            })
+          }}
+        />
       </main>
 
       <Footer />

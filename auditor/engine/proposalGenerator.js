@@ -1,7 +1,6 @@
 /**
- * Generador Inteligente de Propuestas Comerciales y Pitches de Venta para Todo Lima.
- * Crea mensajes persuasivos de WhatsApp, propuestas ejecutivas y guiones telefónicos
- * personalizados según la situación técnica real de cada negocio.
+ * Generador Inteligente de Propuestas Comerciales, Embudos de Conversión y RevOps para Todo Lima.
+ * Integra metodologías de vanguardia: Sales Funnels, CRO, Speed-to-Lead, Conversational Commerce y GEO.
  */
 
 import { getNicheTemplate } from '../config/nicheTemplates.js';
@@ -20,7 +19,7 @@ function slugify(text) {
 }
 
 /**
- * Genera la propuesta y pitches comerciales para un negocio auditado
+ * Genera la propuesta y diagnóstico comercial para un negocio auditado
  * @param {object} business Objeto del negocio desde el JSON
  * @param {string} categorySlug Slug de la categoría (ej. "dentistas")
  * @param {string} district Distrito de Lima identificado
@@ -31,7 +30,8 @@ export function generateProposal(business, categorySlug, district, phoneData, we
   const niche = getNicheTemplate(categorySlug);
   const name = business.name || 'Estimado profesional';
   const rating = business.rating ? Number(business.rating).toFixed(1) : '5.0';
-  const reviews = business.reviewsCount ? `${business.reviewsCount} opiniones` : 'excelentes opiniones';
+  const reviewsCount = business.reviewsCount || 0;
+  const reviews = reviewsCount ? `${reviewsCount} opiniones` : 'excelentes opiniones';
   const businessSlug = slugify(name);
   const suggestedSubdomain = `${businessSlug}.${categorySlug}.todolima.com`;
 
@@ -43,10 +43,21 @@ export function generateProposal(business, categorySlug, district, phoneData, we
   let salesArguments = [];
   let callScript = '';
 
-  // Determinar estatus de la oportunidad comercial y tier tecnológico
-  const isHighVolume = (business.reviewsCount || 0) >= 40 || (business.rating || 0) >= 4.5;
-  const isOperationalNiche = ['dentistas', 'doctores', 'veterinarias', 'talleres-mecanicos', 'escuelas-de-manejo', 'locales-de-eventos', 'alquiler-de-canchas', 'laboratorios-clinicos', 'traumatologos', 'podologos'].includes(categorySlug);
+  // Estimación de Fuga de Ingresos Mensual en Soles (Revenue Leakage)
+  // Basada en tráfico estimado por volumen de reseñas en Google Maps
+  const baseMonthlyLeads = Math.max(15, Math.min(300, Math.round(reviewsCount * 1.5)));
+  const estimatedTicketSoles = ['dentistas', 'doctores', 'traumatologos', 'abogados', 'arquitectos'].includes(categorySlug) ? 250 : 80;
+  const lostLeadsRate = (webAudit.type === 'NO_WEBSITE' || !webAudit.hasWhatsApp) ? 0.45 : 0.25;
+  const monthlyLostRevenueSoles = Math.round(baseMonthlyLeads * lostLeadsRate * estimatedTicketSoles);
 
+  const isHighVolume = reviewsCount >= 40 || (business.rating || 0) >= 4.5;
+  const isOperationalNiche = [
+    'dentistas', 'doctores', 'veterinarias', 'talleres-mecanicos', 
+    'escuelas-de-manejo', 'locales-de-eventos', 'alquiler-de-canchas', 
+    'laboratorios-clinicos', 'traumatologos', 'podologos'
+  ].includes(categorySlug);
+
+  // Clasificación por Oportunidad de Ecosistema & Embudo
   if (webAudit.type === 'NO_WEBSITE' || webAudit.type === 'INVALID_URL') {
     status = 'NEEDS_WEBSITE';
     priority = (business.rating >= 4.5 && phoneData.isMobile) ? 'CRITICAL' : 'HIGH';
@@ -57,272 +68,266 @@ export function generateProposal(business, categorySlug, district, phoneData, we
     status = 'REDESIGN_WEBSITE';
     priority = phoneData.isMobile ? 'HIGH' : 'MEDIUM';
   } else if (isOperationalNiche && isHighVolume) {
-    // Negocio consolidado con alto flujo operativo -> Software a Medida, Agente IA & CRM
     status = 'AI_AGENT_CRM_SOFTWARE';
     priority = 'CRITICAL';
   } else if (webAudit.techStack && (webAudit.techStack.includes('WordPress') || webAudit.outdatedYear)) {
-    // Riesgo de seguridad o CMS expuesto
     status = 'SECURITY_HARDENING';
     priority = 'HIGH';
   } else if (isHighVolume) {
-    // Negocio de alto tráfico -> Marketing Digital, Paid Ads & Contenido
     status = 'GROWTH_MARKETING_ADS';
     priority = 'HIGH';
   } else {
-    // Consultoría Tecnológica & Partner 360°
     status = 'ENTERPRISE_360';
     priority = 'MEDIUM';
   }
 
-  // 1. CASO A: NO TIENEN PÁGINA WEB (Digitalización Express)
+  // 1. CASO A: SIN PÁGINA WEB -> Lanzamiento de Embudo de Ventas & Conversión
   if (status === 'NEEDS_WEBSITE') {
-    proposalTitle = `Propuesta de Lanzamiento Web & Captación WhatsApp para ${name}`;
+    proposalTitle = `Ecosistema de Embudo de Ventas & Conversión WhatsApp para ${name}`;
 
     salesArguments = [
-      `Posicionamiento actual: Tienen ⭐ ${rating} en Google Maps (${reviews}), generando alta intención de búsqueda en ${district}.`,
-      `Fuga de clientes: Al no contar con web propia, hasta un 70% de usuarios optan por competidores con catálogo y contacto rápido.`,
-      `Solución inmediata: Landing page ultrarrápida (< 1s) conectada a su subdominio exclusivo en Todo Lima (${suggestedSubdomain}) y a su WhatsApp.`,
-      `Captura directa: Botón de WhatsApp flotante con mensaje precargado para cerrar cotizaciones en segundos.`
+      `Fuga de facturación estimada: ~S/ ${monthlyLostRevenueSoles.toLocaleString()} al mes por falta de embudo propio y puntos de contacto friccionados.`,
+      `Tracción local actual: ⭐ ${rating} en Google Maps (${reviews}) en ${district}, con alto interés de compra desperdiciado.`,
+      `Solución de Embudo: Landing page ultrarrápida (< 1s) conectada a subdominio oficial (${suggestedSubdomain}) diseñada para convertir visitas en chats de WhatsApp.`,
+      `Captura instantánea: Botón flotante con pre-calificación para cerrar ventas en segundos.`
     ];
 
-    whatsappPitch = `Hola equipo de *${name}* 👋, los saluda el equipo de *Todo Lima* (todolima.com).
+    whatsappPitch = `Hola equipo de *${name}* 👋, les saluda el equipo de *Todo Lima* (todolima.com).
 
-Vimos que son uno de los negocios con mejor reputación en Google Maps en *${district}* (⭐ *${rating}* con ${reviews}) ¡Felicitaciones por tan buen trabajo! 👏
+Vimos que tienen una excelente calificación en Google Maps en *${district}* (⭐ *${rating}* con ${reviews}) ¡Felicitaciones! 👏
 
-Revisamos su ficha y notamos que *aún no cuentan con una página web oficial* donde sus clientes puedan consultar sus servicios y agendar directamente por WhatsApp.
+Al auditar su presencia digital, identificamos que *no cuentan con un embudo web de ventas propio*. En Lima, hasta el 50% de clientes que buscan en Google abandonan si no encuentran una landing page con catálogo y botón directo para cotizar por WhatsApp (fuga estimada de ~S/ ${monthlyLostRevenueSoles.toLocaleString()}/mes).
 
-En *Todo Lima* creamos landing pages ultrarrápidas pensadas para negocios locales:
-✅ Subdominio verificado: *${suggestedSubdomain}*
-✅ Botón de WhatsApp directo para recibir pedidos y citas al instante
-✅ Mapa interactivo para que lleguen a su local en ${district}
-✅ Carga en menos de 1 segundo en celulares
-✅ Ficha destacada en el directorio todolima.com
+En *Todo Lima* implementamos **Embudos de Alta Conversión para Negocios Locales**:
+✅ Landing page móvil ultrarrápida (< 1 seg) bajo subdominio verificado: *${suggestedSubdomain}*
+✅ Botón de WhatsApp directo con mensaje preconfigurado para acelerar el cierre
+✅ Ficha oficial destacada en todolima.com
+✅ Posicionamiento en motores de IA (AEO / GEO para ChatGPT y Google AI)
 
-Preparamos una demostración sin costo de cómo se vería la web de *${name}*. ¿Les gustaría que les comparta el enlace de prueba por aquí? 🚀`;
+Preparamos una maqueta interactiva sin costo para *${name}*. ¿Les gustaría ver el enlace de prueba? 🚀`;
 
-    executiveSummary = `El negocio ${name} cuenta con un excelente posicionamiento de confianza en ${district} con calificación ⭐ ${rating} y ${reviews}. Sin embargo, carece de presencia digital propietaria, dependiendo exclusivamente del perfil de Google Maps. Se propone la implementación de una página web de alta velocidad y conversión con botón directo a WhatsApp y presencia en todolima.com.`;
+    executiveSummary = `${name} cuenta con sólida confianza en ${district} (⭐ ${rating}), pero pierde aproximadamente S/ ${monthlyLostRevenueSoles.toLocaleString()} mensuales al carecer de un embudo web propietario. Se propone el despliegue de una arquitectura de conversión mobile-first con canalización a WhatsApp.`;
 
-    callScript = `Hola buenos días/tardes, ¿me comunico con ${name}? Mucho gusto, mi nombre es [Tu Nombre] de Todo Lima. La razón de mi llamada es muy breve: vimos que tienen una de las calificaciones más altas de ${district} en Google con ${rating} estrellas, pero al buscar su web para que clientes nuevos coticen por WhatsApp vimos que no la tienen registrada. En Todo Lima estamos activando las webs oficiales de los 10 mejores negocios de la zona para que reciban clientes directos en su celular. ¿Con quién puedo coordinar 2 minutos para enviarles un enlace demo gratuito de cómo quedaría?`;
+    callScript = `Hola, buenos días, ¿me comunico con ${name}? Mi nombre es [Tu Nombre] de Todo Lima. Los contacto porque tienen una de las mejores calificaciones de ${district} en Google Maps, pero notamos que no cuentan con un embudo web para recibir y cotizar pacientes/clientes en WhatsApp. Estimamos que se están fugando varias cotizaciones al mes. Diseñamos un prototipo gratuito de cómo quedaría su embudo de conversión. ¿A qué WhatsApp puedo compartirles el enlace demo?`;
   }
 
-  // 2. CASO B: TIENEN SOLO RED SOCIAL (Migración a Web Propia)
+  // 2. CASO B: SOLO RED SOCIAL -> Migración a Ecosistema Web Propio
   else if (status === 'UPGRADE_SOCIAL') {
-    proposalTitle = `Propuesta de Migración a Web Profesional y Captación Directa para ${name}`;
+    proposalTitle = `Migración a Ecosistema Web Propio y Reducción de Fricción para ${name}`;
 
     salesArguments = [
-      `Presencia actual limitada: Tienen su enlace apuntando a ${webAudit.provider}.`,
-      `Limitación técnica: Las redes sociales obligan al cliente a iniciar sesión, muestran anuncios de la competencia y no posicionan en Google para búsquedas locales transaccionales.`,
-      `Ventaja competitiva: Una web propia eleva el valor percibido y multiplica la conversión directa sin intermediarios.`
+      `Dependencia de terceros: Actualmente dirigen a los clientes hacia su perfil de ${webAudit.provider}.`,
+      `Fricción y distracción: Las redes sociales obligan a iniciar sesión y muestran publicidad de competidores directos en ${district}.`,
+      `Fuga estimada: ~S/ ${monthlyLostRevenueSoles.toLocaleString()} al mes en clientes que prefieren cotizar rápido sin entrar a una red social.`
     ];
 
-    whatsappPitch = `Hola equipo de *${name}* 👋, les escribe el equipo de *Todo Lima*.
+    whatsappPitch = `Hola equipo de *${name}* 👋, les escribe el área de crecimiento de *Todo Lima*.
 
-Revisamos su destacada presencia en Google Maps en *${district}* (⭐ *${rating}* estrellas). Notamos que su enlace de contacto actual es un perfil de *${webAudit.provider}*.
+Revisamos su excelente reputación en Google Maps en *${district}* (⭐ *${rating}*). Notamos que su único enlace web apunta a *${webAudit.provider}*.
 
-Muchos clientes que buscan servicios en Google prefieren una web rápida donde ver catálogo, fotos y tarifas sin tener que entrar a una red social o ver distracciones de la competencia.
+Muchos clientes en Lima prefieren consultar tarifas y servicios en un portal independiente rápido, sin distracciones de la competencia ni la obligación de abrir una app social.
 
-¿Les interesaría complementar su ${webAudit.provider} con una página web oficial (*${suggestedSubdomain}*) con botón directo a WhatsApp y presencia prioritaria en Todo Lima?
+Podemos complementar su ${webAudit.provider} con un **Embudo de Conversión Web Propio** (*${suggestedSubdomain}*) integrado con WhatsApp directo y presencia destacada en Todo Lima.
 
-Tenemos una maqueta lista para mostrarles sin compromiso. ¿Se las comparto por este medio? 📲`;
+Tenemos una demo lista para mostrarles sin compromiso. ¿Les comparto el acceso? 📲`;
 
-    executiveSummary = `${name} utiliza un perfil de ${webAudit.provider} como único punto de aterrizaje web. Si bien genera interacción social, carece de independencia de marca y fricciona la conversión de usuarios que buscan en Google sin tener la aplicación abierta. Se propone dotar al negocio de un portal web propio de conversión instantánea.`;
+    executiveSummary = `${name} depende exclusivamente de ${webAudit.provider}. Se propone migrar a un ecosistema web independiente con catálogo y captación directa para blindar la conversión y reducir el costo de adquisición de clientes.`;
 
-    callScript = `Hola, ¿hablo con ${name}? Le saludo de Todo Lima. Vi que tienen excelentes recomendaciones en ${district}. Quería consultarles: vimos que en Google solo tienen vinculado su perfil de ${webAudit.provider}. ¿Han evaluado tener su propia web oficial con botón de WhatsApp directo para los clientes que buscan en Google? Les preparamos una demo sin costo. ¿Le puedo enviar el link a este WhatsApp?`;
+    callScript = `Hola, ¿hablo con ${name}? Los saludo de Todo Lima. Vimos sus excelentes recomendaciones en ${district}. Les consulto: vimos que en Google solo tienen vinculado su perfil de ${webAudit.provider}. ¿Han evaluado tener su propia página web oficial con embudo de WhatsApp para clientes que buscan directamente en Google? Les preparamos una demo sin costo. ¿Se las comparto a este número?`;
   }
 
-  // 3. CASO C: SITIO WEB DEFICIENTE O LENTO (Rediseño & Conversión)
+  // 3. CASO C: WEB CON FALLAS O LENTA -> Optimización de Embudo & CRO
   else if (status === 'REDESIGN_WEBSITE') {
-    proposalTitle = `Auditoría y Plan de Optimización Web para ${name}`;
+    proposalTitle = `Auditoría CRO, Optimización de Embudo y Aceleración Web para ${name}`;
 
     const mainIssuesList = webAudit.issues.slice(0, 3).map(i => `• ${i}`).join('\n');
 
     salesArguments = [
-      `Puntaje de rendimiento técnico actual: ${webAudit.score}/100.`,
-      ...webAudit.issues.slice(0, 3),
-      `Oportunidad: Modernizar la web hacia una arquitectura Next.js de carga instantánea con botón de WhatsApp para duplicar prospectos.`
+      `Puntaje de conversión y velocidad: ${webAudit.score}/100.`,
+      `Fuga por latencia: Su web tarda ${(webAudit.latencyMs / 1000).toFixed(1)}s en cargar. En celulares, cada segundo adicional reduce la conversión en 20%.`,
+      ...webAudit.issues.slice(0, 2),
+      `Optimización CRO: Rediseño del embudo con carga instantánea y botón de WhatsApp optimizado para duplicar contactos calificados.`
     ];
 
     whatsappPitch = `Hola equipo de *${name}* 👋, gusto en saludarlos.
 
-Les escribimos desde *Todo Lima*. Al revisar a los referentes de *${district}* (donde ustedes destacan con ⭐ *${rating}*), realizamos una auditoría técnica gratuita a su web actual (*${webAudit.url}*).
+Les escribimos desde *Todo Lima*. Al evaluar a los principales referentes de *${district}* (⭐ *${rating}*), realizamos una auditoría técnica y de conversión a su web (*${webAudit.url}*).
 
-Detectamos algunos puntos críticos que podrían estar frenando sus consultas:
+Detectamos puntos críticos que están frenando sus conversiones de compra:
 ${mainIssuesList}
+${webAudit.latencyMs > 2500 ? `👉 *Velocidad:* Tarda ${(webAudit.latencyMs / 1000).toFixed(1)}s en cargar en celulares (el estándar recomendado es < 1.5s).` : ''}
+${!webAudit.hasWhatsApp ? '👉 *Atención inmediata:* Carece de botón de WhatsApp flotante para cerrar cotizaciones en tiempo real.' : ''}
 
-${!webAudit.hasWhatsApp ? '👉 *Dato clave:* El 65% de usuarios en Lima abandonan una web si no encuentran un botón flotante de WhatsApp para consultar en el momento.' : ''}
-${webAudit.latencyMs > 3000 ? `👉 *Velocidad:* Su web tarda ${(webAudit.latencyMs / 1000).toFixed(1)}s en responder, cuando el estándar recomendado para móviles es menor a 1.5s.` : ''}
+Podemos modernizar su web hacia un **Embudo de Alta Conversión (CRO)** que cargue al instante y multiplique sus contactos. ¿Les gustaría recibir el reporte completo? 📊`;
 
-Podemos modernizar su web para que cargue al instante y multiplique sus contactos por WhatsApp. ¿Les gustaría que les enviemos el reporte técnico completo? 📊`;
+    executiveSummary = `Auditoría técnica y de conversión sobre ${webAudit.url} de ${name}. Puntaje: ${webAudit.score}/100. Se detectaron puntos críticos de fuga de prospectos (${webAudit.issues.join('; ')}). Se propone reconstrucción con arquitectura Next.js de alta velocidad y optimización de embudo de ventas.`;
 
-    executiveSummary = `Auditoría técnica realizada sobre el dominio ${webAudit.url} de ${name}. Puntaje obtenido: ${webAudit.score}/100. Se identificaron fricciones clave en conversión y experiencia móvil (${webAudit.issues.join('; ')}). Se propone actualización y optimización a plataforma Next.js con embudo directo a WhatsApp.`;
-
-    callScript = `Hola, buenos días, llamo de Todo Lima. Hicimos una auditoría de rendimiento a las páginas web de los mejores negocios de ${district} y vimos la web de ${name}. Detectamos que actualmente ${webAudit.issues[0] || 'tiene una velocidad de carga lenta en celulares'}. Queríamos hacerles llegar el reporte gratuito y una propuesta de optimización para que reciban más clientes en WhatsApp. ¿A qué número o correo se los podemos enviar?`;
+    callScript = `Hola, buenos días, llamo de Todo Lima. Realizamos una auditoría de velocidad y conversión a las webs comerciales de ${district} y analizamos la página de ${name}. Detectamos que su web tiene lentitud de carga y problemas para convertir visitas móviles en WhatsApp. Queríamos hacerles llegar el reporte gratuito y una propuesta de optimización. ¿A qué contacto de gerencia se lo podemos enviar?`;
   }
 
-  // 4. CASO D: AGENTE IA, CRM & SOFTWARE A MEDIDA (Flujo Operativo Alto)
+  // 4. CASO D: AGENTE IA 24/7 & SPEED-TO-LEAD (Alto Flujo Operativo)
   else if (status === 'AI_AGENT_CRM_SOFTWARE') {
-    proposalTitle = `Solución de Automatización con Agente IA 24/7 y Software CRM a Medida para ${name}`;
+    proposalTitle = `Automatización con Agente IA 24/7, Speed-to-Lead y CRM para ${name}`;
 
     salesArguments = [
-      `Volumen comercial alto: Cuentan con ${reviews} y gran tracción en ${district}.`,
-      `Pérdida de prospectos por tiempo de respuesta: Hasta el 45% de clientes cotizan fuera de horario comercial o en fines de semana.`,
-      `Solución de IA: Agente de Inteligencia Artificial en WhatsApp que atiende en 5 segundos, responde precios, filtra clientes y agenda citas automáticamente.`,
-      `Software y CRM a medida: Pipeline visual para organizar prospectos, citas confirmadas y seguimiento post-venta sin perder chats.`
+      `Regla de Oro Speed-to-Lead: Responder a un prospecto en menos de 2 minutos multiplica por 7 la tasa de cierre frente a responder en 30 minutos.`,
+      `Alta demanda operativa: Cuentan con ${reviews} en ${district}, recibiendo consultas constantes.`,
+      `Fuga fuera de horario: Hasta el 45% de consultas ocurren en noches o fines de semana sin personal activo.`,
+      `Solución IA Conversacional: Asistente entrenado en WhatsApp que atiende en 5 segundos, responde dudas, filtra clientes y agenda citas en CRM.`
     ];
 
     whatsappPitch = `Hola equipo de *${name}* 👋, los saludamos desde *Todo Lima* (todolima.com).
 
-Revisamos su excelente reputación en *${district}* (⭐ *${rating}* con ${reviews}) y felicitamos a su equipo por su gran volumen de pacientes y clientes. 🏆
+Felicitamos a su equipo por su destacada reputación y demanda en *${district}* (⭐ *${rating}* con ${reviews}). 🏆
 
-Viendo la alta demanda de su rubro, desarrollamos **Agentes de Inteligencia Artificial para WhatsApp y Software CRM a Medida** diseñados para empresas líderes:
-🤖 **Asistente IA 24/7:** Responde consultas de servicios, precios y disponibilidad en segundos, incluso de noche o domingos.
-📅 **Agendamiento y Reservas Automáticas:** Sincronizado en tiempo real sin requerir una persona atendiendo el celular todo el día.
-📊 **CRM & Pipeline de Ventas:** Control de prospectos, recordatorios automáticos de citas (reduce inasistencias en 40%) y reactivación de clientes antiguos.
-🛡️ **Software a Medida:** Adaptado 100% a la operativa de ${name}.
+Viendo el alto flujo de su rubro, implementamos **Agentes de Inteligencia Artificial para WhatsApp con enfoque Speed-to-Lead**:
+🤖 **Respuesta en 5 segundos (24/7):** Ningún cliente queda esperando, incluso de noche o domingos.
+📅 **Agendamiento Inteligente:** Citas sincronizadas en Google Calendar sin requerir secretarias atendiendo el celular 24 horas.
+📊 **CRM Centralizado:** Recordatorios automáticos 24h antes que reducen las inasistencias en 40%.
+🔄 **Reactivación de Clientes:** Campañas automatizadas a su base histórica con un solo clic.
 
-¿Les gustaría ver una demostración de 5 minutos de un Agente IA configurado para su negocio? Quedamos a su disposición. 🚀`;
+¿Les gustaría ver una demostración de 5 minutos de un Asistente IA configurado para ${name}? Quedamos a su disposición. 🚀`;
 
-    executiveSummary = `${name} posee un alto volumen de clientes en ${district}. La principal fuga de ingresos en este segmento se produce por retrasos en atención por WhatsApp y gestión manual de citas. Se propone la implementación de un Agente de Inteligencia Artificial conversacional 24/7 y un sistema CRM / Software a medida para automatizar el agendamiento y maximizar conversiones.`;
+    executiveSummary = `${name} maneja alta demanda en ${district}. La mayor fuga de facturación ocurre por demoras en la atención de WhatsApp fuera de horario comercial. Se propone la implementación de un Asistente IA 24/7 con integración CRM y agendamiento automático.`;
 
-    callScript = `Hola, buenos días, me comunico con gerencia o administración de ${name}. Mi nombre es [Tu Nombre] de Todo Lima. Vemos que tienen una demanda altísima en ${district} con más de ${reviews} en Google. Les llamo porque ayudamos a las principales empresas de su sector a implementar Asistentes de Inteligencia Artificial en WhatsApp para que atiendan cotizaciones y agenden citas 24/7 sin que se les escape ningún cliente fuera de horario. ¿Con quién puedo coordinar una videollamada de 10 minutos para mostrarles una demo funcionando?`;
+    callScript = `Hola, me comunico con administración de ${name}. Mi nombre es [Tu Nombre] de Todo Lima. Vemos que tienen una demanda altísima en ${district} con ${reviews} en Google. Ayudamos a clínicas y negocios de su sector a implementar Asistentes de IA en WhatsApp para que atiendan en menos de 5 segundos, coticen y agenden citas 24/7 sin perder prospectos. ¿Con quién puedo coordinar 10 minutos para mostrarles una demo funcionando?`;
   }
 
-  // 5. CASO E: CIBERSEGURIDAD, BLINDAJE & PROTECCIÓN ANTI-HACKING
+  // 5. CASO E: CIBERSEGURIDAD, WAF & BLINDAJE
   else if (status === 'SECURITY_HARDENING') {
-    proposalTitle = `Auditoría de Ciberseguridad, Blindaje Web y Protección de Datos para ${name}`;
+    proposalTitle = `Blindaje de Ciberseguridad, WAF en Cloudflare y Protección Web para ${name}`;
 
     salesArguments = [
-      `Arquitectura vulnerable: Su sitio web está construido sobre ${webAudit.techStack?.join(', ') || 'tecnología CMS tradicional'} con riesgo de exposición.`,
-      `Falta de cabeceras de seguridad: Sin políticas estrictas CSP/HSTS para frenar inyecciones de código y ataques de fuerza bruta.`,
-      `Solución de Blindaje: Implementación de WAF (Web Application Firewall) en Cloudflare, cifrado de extremo a extremo, protección anti-DDoS y copias de seguridad automáticas.`
+      `Vulnerabilidad en CMS: Su sitio web utiliza ${webAudit.techStack?.join(', ') || 'tecnología CMS tradicional'} con exposición perimetral.`,
+      `Falta de cabeceras de seguridad: Sin políticas HSTS o CSP para prevenir inyecciones y ataques de malware.`,
+      `Solución Cloudflare WAF: Blindaje perimetral, mitigación anti-DDoS, certificado SSL bancario y respaldos automáticos.`
     ];
 
     whatsappPitch = `Hola equipo de *${name}* 👋, les escribe el área técnica de *Todo Lima*.
 
-Al realizar un escaneo de seguridad a los portales web comerciales de *${district}*, detectamos que su sitio (*${webAudit.url}*) presenta vulnerabilidades en cabeceras HTTP y configuraciones de servidor que podrían exponerlo a ataques de inyección, spam masivo o bloqueos de Google por 'sitio no seguro'.
+Al monitorear la infraestructura web en *${district}*, detectamos que su portal (*${webAudit.url}*) presenta vulnerabilidades en cabeceras HTTP y configuraciones de servidor que podrían exponerlo a inyecciones de código, malware o advertencias de seguridad en Google.
 
-Contamos con un servicio de **Blindaje de Ciberseguridad & Hardening Web**:
-🛡️ Implementación de Firewall WAF y protección anti-hacking en Cloudflare
-🔒 Cifrado SSL de grado bancario y cabeceras de protección HSTS
-⚡ Optimización de código y eliminación de brechas en su CMS
-💾 Respaldos diarios automáticos en la nube
+Contamos con un servicio especializado de **Blindaje Web & Ciberseguridad**:
+🛡️ Implementación de Firewall WAF en Cloudflare y protección perimetral
+🔒 Cabeceras estrictas HSTS y cifrado grado bancario
+⚡ Mitigación de brechas en CMS y formularios
+💾 Respaldos automáticos en la nube
 
-¿Les interesaría recibir el reporte de vulnerabilidades detallado sin costo? 📋`;
+¿Les interesaría recibir el reporte técnico de vulnerabilidades preventivo sin costo? 📋`;
 
-    executiveSummary = `Evaluación de ciberseguridad sobre ${webAudit.url} de ${name}. Se detectaron debilidades en políticas de seguridad perimetral y exposición potencial de gestores de contenido. Se propone un plan integral de blindaje técnico, protección WAF y mitigación de riesgos de ciberataques.`;
+    executiveSummary = `Escaneo de ciberseguridad sobre ${webAudit.url} de ${name}. Se detectaron riesgos de exposición perimetral en cabeceras y gestores de contenido. Se propone blindaje perimetral con Cloudflare WAF y cifrado HSTS.`;
 
-    callScript = `Hola, buenos días, me comunico con el área de sistemas o administración de ${name}. Los contacto de Todo Lima. Realizamos un monitoreo de ciberseguridad a sitios comerciales de ${district} y detectamos que su portal web tiene vulnerabilidades en cabeceras de protección que facilitan ataques automatizados. Queríamos hacerles llegar el informe de seguridad preventivo. ¿A qué correo o WhatsApp del responsable técnico se lo comparto?`;
+    callScript = `Hola, me comunico con el área de sistemas o administración de ${name}. Los contacto de Todo Lima. Al realizar un monitoreo de seguridad en ${district}, detectamos que su portal web tiene vulnerabilidades en cabeceras que facilitan ataques automatizados. Queríamos hacerles llegar el informe preventivo. ¿A qué contacto técnico se lo comparto?`;
   }
 
-  // 6. CASO F: MARKETING DIGITAL, PAID ADS, BRANDING & CONTENIDO (Growth)
+  // 6. CASO F: PAUTA PUBLICITARIA, CLICK-TO-WHATSAPP ADS & CONTENIDO (Growth)
   else if (status === 'GROWTH_MARKETING_ADS') {
-    proposalTitle = `Estrategia de Crecimiento 360°: Meta Ads, Google Ads y Producción de Contenido para ${name}`;
+    proposalTitle = `Estrategia de Escala: Click-to-WhatsApp Ads, Tracking Server-Side y Video para ${name}`;
 
     salesArguments = [
-      `Demanda insatisfecha: Gran reputación local (⭐ ${rating}) pero sin pauta activa para capturar búsquedas transaccionales en Google.`,
-      `Falta de Píxel de Retargeting: Los usuarios que visitan su web y se van no vuelven a ver anuncios de su negocio.`,
-      `Oportunidad de Contenido: Videos verticales (Reels y TikTok) para posicionar la marca como la autoridad número 1 de ${district}.`,
-      `Escala comercial: Campañas de Meta Ads y Google Search directo a WhatsApp con retorno medible.`
+      `Demanda no capturada: Excelente calificación (⭐ ${rating}), pero sin pauta activa para capturar búsquedas transaccionales en Google o Meta.`,
+      `Falta de Conversions API: La pérdida de datos por bloqueadores de anuncios y cookies de terceros impide optimizar el costo por cliente.`,
+      `Click-to-WhatsApp Ads: Campañas de Meta geolocalizadas en ${district} que abren chats con clientes con alta intención de compra.`,
+      `Producción de Video Vertical: Reels y TikToks para consolidar la marca como la autoridad #1 de la zona.`
     ];
 
     whatsappPitch = `Hola equipo de *${name}* 👋, les saluda el equipo de crecimiento de *Todo Lima*.
 
-Revisamos su posicionamiento en *${district}* (⭐ *${rating}*) y vemos que cuentan con un gran servicio y reconocimiento. 🌟
+Revisamos su posicionamiento en *${district}* (⭐ *${rating}*) y vemos que cuentan con un gran prestigio en su sector. 🌟
 
-Sin embargo, notamos que no están aprovechando al 100% la pauta publicitaria digital en su zona:
-🎯 **Google Ads de Alta Intención:** Aparecer de primeros cuando alguien busca su servicio exacto en ${district}.
-📱 **Meta Ads (Instagram & Facebook):** Anuncios geolocalizados dirigidos a su cliente ideal en su radio de atención.
-🎬 **Producción de Contenido & Video:** Creación de videos verticales de alta calidad (Reels/TikTok) que generan confianza inmediata.
-📈 **Embudo de Medición:** Medición exacta de costo por cliente y retorno de inversión publicitaria.
+Sin embargo, notamos que no están aprovechando las estrategias avanzadas de captación digital:
+🎯 **Anuncios Click-to-WhatsApp (Meta Ads):** Tráfico calificado directo a su chat de WhatsApp con ventana comercial prioritaria.
+📈 **Tracking de Servidor (Conversions API):** Medición exacta de ventas sin depender de píxeles bloqueados.
+🎬 **Producción de Contenido y Reels:** Videos verticales de alta autoridad que generan confianza inmediata.
+⭐ **Flywheel de Reseñas:** Automatización para solicitar y publicar testimonios positivos en Google Maps.
 
-Podemos armar un plan para aumentar sus clientes calificados este mes. ¿Coordinamos una llamada breve para presentarles la estrategia? 📈`;
+¿Les gustaría evaluar un plan para incrementar sus clientes este mes con retorno medible? 📈`;
 
-    executiveSummary = `${name} cuenta con la validación social y operativa para escalar. La oportunidad radica en la activación de pauta publicitaria pagada (Google Ads & Meta Ads) combinada con producción de contenido audiovisual y embudos de captación directa a WhatsApp.`;
+    executiveSummary = `${name} cuenta con validación social en ${district}. Se propone una estrategia de crecimiento basada en Click-to-WhatsApp Ads, tracking server-side y producción audiovisual vertical.`;
 
-    callScript = `Hola, buenas tardes, me comunico con la gerencia de marketing o dueños de ${name}. Los saludo de Todo Lima. Vemos que tienen una calificación excelente de ${rating} estrellas en ${district}. Nos comunicamos porque estamos seleccionando a una sola empresa líder de su rubro en la zona para gestionarles campañas de adquisición de clientes con Google Ads y videos para redes sociales con retorno garantizado. ¿Con quién puedo coordinar 5 minutos para explicarles los detalles?`;
+    callScript = `Hola, buenas tardes, me comunico con la gerencia de marketing de ${name}. Los saludo de Todo Lima. Vemos su calificación de ${rating} estrellas en ${district}. Ayudamos a empresas líderes de su sector a implementar campañas Click-to-WhatsApp Ads y videos con retorno de inversión medible. ¿Con quién puedo coordinar 5 minutos para explicarles los detalles?`;
   }
 
-  // 7. CASO G: PARTNER TECNOLÓGICO 360° (Solución Integral)
+  // 7. CASO G: CONSULTORÍA INTEGRAL 360° & REVOPS
   else {
-    proposalTitle = `Alianza Tecnológica 360° y Posicionamiento Estratégico para ${name}`;
+    proposalTitle = `Transformación Digital 360°, RevOps e Inteligencia Artificial para ${name}`;
 
     salesArguments = [
-      `Negocio referente en ${district} con calificación ⭐ ${rating} y presencia digital activa.`,
-      `Oportunidad: Consultoría integral que une Software a Medida, Inteligencia Artificial, Ciberseguridad y Marketing Predictivo.`,
-      `Presencia VIP en todolima.com como Negocio Verificado Oficial.`
+      `Empresa referente en ${district} con calificación ⭐ ${rating} y presencia digital activa.`,
+      `Enfoque RevOps: Unificación de marketing, embudo de conversión, IA conversacional y retención en un solo sistema.`,
+      `Visibilidad GEO & AEO: Posicionamiento prioritario en motores de respuesta con Inteligencia Artificial (ChatGPT, Perplexity, Google AI Overviews).`
     ];
 
     whatsappPitch = `Hola equipo de *${name}* 👋, los saludamos desde *Todo Lima* (todolima.com).
 
-Auditamos su presencia digital en *${district}* y queremos felicitarlos: son un referente destacado en su categoría. 🌟
+Auditamos su presencia digital en *${district}* y queremos felicitarlos por ser un referente destacado en su categoría. 🌟
 
-En *Todo Lima* trabajamos como **Partner Tecnológico y de Crecimiento 360°** para empresas líderes, implementando:
-🤖 Agentes de IA en WhatsApp para atención y agendamiento 24/7
-💻 Software web y CRM a medida para automatizar operaciones
-🛡️ Auditoría de ciberseguridad y protección de datos
-📈 Estrategia de GEO (posicionamiento en Google Maps) y campañas de atracción
+En *Todo Lima* trabajamos como **Partner Tecnológico y de Crecimiento Integral 360°**:
+🤖 Agentes de IA en WhatsApp para atención y citas en < 5 segundos
+💻 Embudos de conversión y software a medida para automatizar operaciones
+🛡️ Auditoría de ciberseguridad continua y blindaje WAF
+🔍 Posicionamiento en motores de IA (GEO & AEO para ChatGPT y Google AI)
 ⭐ Sello oficial de "Negocio Verificado" en todolima.com
 
-Nos encantaría conversar sobre cómo potenciar la operativa y facturación de ${name}. ¿Podemos agendar una reunión virtual de 10 minutos? 🤝`;
+Nos encantaría conversar sobre cómo optimizar la captación y rentabilidad de ${name}. ¿Podemos agendar una videollamada de 10 minutos? 🤝`;
 
-    executiveSummary = `Alianza estratégica y tecnológica integral para ${name}. Se propone integrar soluciones de Agentes de IA, Software a Medida, Ciberseguridad y Posicionamiento GEO para blindar su liderazgo comercial en ${district}.`;
+    executiveSummary = `Alianza tecnológica integral para ${name}. Se propone integrar soluciones de Agentes de IA, Embudos de Conversión, Ciberseguridad y GEO para consolidar su liderazgo de mercado en ${district}.`;
 
-    callScript = `Hola, buenas tardes, me comunico con ${name}. Los contacto de Todo Lima. Felicitamos a su equipo por su liderazgo en ${district}. Queríamos presentarles nuestra consultoría tecnológica 360° en Inteligencia Artificial y software para empresas de su sector. ¿Con quién de gerencia o dirección puedo coordinar una reunión breve?`;
+    callScript = `Hola, me comunico con la gerencia general de ${name}. Los contacto de Todo Lima. Felicitamos a su equipo por su liderazgo en ${district}. Deseamos presentarles nuestra consultoría tecnológica 360° en IA y embudos de ventas. ¿Con quién de dirección puedo coordinar una reunión breve?`;
   }
 
-  // Enlace directo de WhatsApp con mensaje preconfigurado si cuenta con móvil
+  // Enlace directo de WhatsApp condicionado a política inbound
   let whatsappUrl = null;
   if (phoneData.isMobile && phoneData.international) {
     const encodedText = encodeURIComponent(whatsappPitch);
     whatsappUrl = `https://wa.me/${phoneData.international}?text=${encodedText}`;
   }
 
-  // Entregables personalizados según el tipo de propuesta
   const deliverablesByStatus = {
     NEEDS_WEBSITE: [
-      'Desarrollo de Landing Page responsive de alta conversión (< 1s de carga)',
+      'Desarrollo de Embudo Mobile-First de alta conversión (< 1s de carga)',
       'Alojamiento cloud de alta disponibilidad en Cloudflare Edge',
-      'Integración de botón flotante de WhatsApp con mensaje pre-configurado',
-      'Sello de Negocio Verificado en todolima.com',
-      'Optimización SEO y ficha interactiva en Google Maps'
+      'Botón directo a WhatsApp con pre-calificación de prospectos',
+      'Estructuración SEO, AEO y GEO para Google Maps y motores de IA',
+      'Insignia de Negocio Verificado en todolima.com'
     ],
     UPGRADE_SOCIAL: [
-      'Portal web independiente oficial sin fugas a redes de competidores',
-      'Catálogo / Menú digital interactivo accesible con código QR',
+      'Ecosistema web independiente sin distracciones de competidores',
+      'Catálogo / Carta digital interactiva accesible por QR',
       'Integración directa de pedidos y reservas a WhatsApp',
-      'Posicionamiento orgánico en Google para búsquedas de compra local'
+      'Posicionamiento orgánico para búsquedas de compra local en Google'
     ],
     REDESIGN_WEBSITE: [
-      'Migración de arquitectura hacia Next.js 14 y Core Web Vitals optimizados',
-      'Rediseño Mobile-First con llamadas a la acción directas',
-      'Integración de botón flotante de WhatsApp e historial de métricas',
-      'Certificado SSL grado A+ y velocidad de carga menor a 1.2 segundos'
+      'Migración de arquitectura a Next.js 14 y Core Web Vitals en verde',
+      'Optimización de tasa de conversión (CRO) y diseño Mobile-First',
+      'Integración de botón flotante de WhatsApp y analítica de clics',
+      'Certificado SSL bancario y velocidad de carga menor a 1.2 segundos'
     ],
     AI_AGENT_CRM_SOFTWARE: [
-      'Desarrollo e implementación de Agente de IA para WhatsApp 24/7',
-      'Configuración de CRM a medida con embudo de ventas Kanban',
-      'Módulo de agendamiento automático de citas y reservas en tiempo real',
-      'Sistema de recordatorios automáticos 24h antes por WhatsApp para evitar ausencias',
-      'Dashboard de control y reportes de conversión para gerencia'
+      'Agente de Inteligencia Artificial para WhatsApp 24/7 (Speed-to-Lead < 5s)',
+      'Configuración de CRM visual tipo Kanban para control de prospectos',
+      'Agendamiento automático de citas sincronizado en tiempo real',
+      'Recordatorios automáticos 24h antes por WhatsApp para reducir ausencias',
+      'Campañas de reactivación periódica a clientes inactivos'
     ],
     SECURITY_HARDENING: [
-      'Auditoría completa de vulnerabilidades y escaneo de puertos',
+      'Auditoría completa de vulnerabilidades y escaneo perimetral',
       'Implementación de Cloudflare WAF, anti-DDoS y cabeceras HSTS/CSP',
-      'Blindaje de paneles de administración y protección de formularios con CAPTCHA',
-      'Certificado de Seguridad y copias de respaldo automatizadas en la nube'
+      'Blindaje de formularios con protección anti-spam y CAPTCHA',
+      'Copias de seguridad diarias automatizadas en la nube'
     ],
     GROWTH_MARKETING_ADS: [
-      'Instalación y configuración de Meta Pixel y API de Conversiones',
-      'Campañas de Google Ads Search para capturar búsquedas con intención de compra',
-      'Producción y edición de videos verticales (Reels / TikTok) de alta calidad',
-      'Estrategia de GEO y posicionamiento prioritario en Google Maps (Review Funnel)'
+      'Campañas de Click-to-WhatsApp Ads en Meta y Google Ads Search',
+      'Instalación de Conversions API (CAPI) para tracking de servidor',
+      'Producción y edición de videos verticales (Reels / TikTok) de alta autoridad',
+      'Motor automatizado de solicitud de reseñas en Google Maps'
     ],
     ENTERPRISE_360: [
-      'Consultoría tecnológica y de crecimiento integral 360°',
+      'Consultoría integral de RevOps y crecimiento recurrente',
       'Desarrollo de Software y herramientas a medida para la empresa',
       'Automatización con Inteligencia Artificial y CRM corporativo',
-      'Auditoría y blindaje de ciberseguridad continua',
-      'Insignia de Empresa Verificada y posición destacada en Todo Lima'
+      'Blindaje de ciberseguridad continua y monitoreo 24/7',
+      'Posición preferencial y patrocinada en todolima.com'
     ]
   };
 
@@ -336,6 +341,8 @@ Nos encantaría conversar sobre cómo potenciar la operativa y facturación de $
     whatsappUrl,
     executiveSummary,
     callScript,
+    monthlyLostRevenueSoles,
+    contactPolicy: 'INBOUND_ONLY',
     deliverables: deliverablesByStatus[status] || deliverablesByStatus.NEEDS_WEBSITE
   };
 }

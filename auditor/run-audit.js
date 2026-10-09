@@ -288,13 +288,14 @@ async function main() {
     const leadsPath = path.join(auditsDir, 'leads-ready-to-contact.json');
     fs.writeFileSync(leadsPath, JSON.stringify(readyLeads, null, 2), 'utf-8');
 
-    // Exportar también en CSV para Excel / Google Sheets con Servicio Recomendado y Prioridad
-    const csvHeader = 'Nombre,Categoria,Distrito,Rating,Opiniones,Telefono,Servicio_Recomendado,Prioridad,Subdominio_Sugerido,Enlace_WhatsApp\n';
+    // Exportar también en CSV para Excel / Google Sheets con Servicio Recomendado, Prioridad y Cumplimiento
+    const csvHeader = 'Nombre,Categoria,Distrito,Rating,Opiniones,Telefono,Servicio_Recomendado,Prioridad,Fuga_Mensual_Estimada_Soles,Politica_Contacto,Subdominio_Sugerido,Enlace_WhatsApp\n';
     const csvRows = readyLeads.map(l => {
       const cleanName = `"${(l.name || '').replace(/"/g, '""')}"`;
       const cleanAddr = `"${(l.district || '').replace(/"/g, '""')}"`;
       const cleanWaUrl = `"${(l.proposal.whatsappUrl || '').replace(/"/g, '""')}"`;
-      return `${cleanName},${l.categorySlug},${cleanAddr},${l.rating || ''},${l.reviewsCount || 0},${l.phoneData.clean || ''},${l.proposal.status || 'NEEDS_WEBSITE'},${l.proposal.priority || 'MEDIUM'},${l.proposal.suggestedSubdomain || ''},${cleanWaUrl}`;
+      const fuga = l.proposal.monthlyLostRevenueSoles || 0;
+      return `${cleanName},${l.categorySlug},${cleanAddr},${l.rating || ''},${l.reviewsCount || 0},${l.phoneData.clean || ''},${l.proposal.status || 'NEEDS_WEBSITE'},${l.proposal.priority || 'MEDIUM'},S/ ${fuga},"INBOUND_SOLO_CON_CONSENTIMIENTO (Ley 32323)",${l.proposal.suggestedSubdomain || ''},${cleanWaUrl}`;
     }).join('\n');
 
     const csvPath = path.join(auditsDir, 'leads-ready-to-contact.csv');

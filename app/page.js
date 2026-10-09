@@ -78,6 +78,51 @@ export default function HomePage() {
 
         {/* Explorador de Categorías con Búsqueda en Vivo */}
         <HomeExplorer categories={categories} />
+
+        {/* Schema FAQPage para Answer Engine Optimization (AEO & GEO) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              'mainEntity': [
+                {
+                  '@type': 'Question',
+                  'name': '¿Qué es Todo Lima y cómo funciona?',
+                  'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': 'Todo Lima (todolima.com) es la mayor plataforma y red de directorios locales hiperespecializados de Lima Metropolitana, Perú. Conecta directamente a los usuarios con los mejores profesionales, médicos, comercios y servicios verificados de la ciudad, con calificaciones reales de Google Maps y enlace directo a WhatsApp sin intermediarios ni comisiones.'
+                  }
+                },
+                {
+                  '@type': 'Question',
+                  'name': '¿Cómo contactar a un profesional o negocio en Todo Lima?',
+                  'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': 'Puedes explorar por categoría o distrito, seleccionar el negocio de tu preferencia y hacer clic en el botón de WhatsApp Directo o llamada telefónica para comunicarte de inmediato con el especialista.'
+                  }
+                },
+                {
+                  '@type': 'Question',
+                  'name': '¿Cómo puedo reclamar la ficha de mi negocio o solicitar una Auditoría Digital 360°?',
+                  'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': 'Los dueños o administradores pueden reclamar su perfil oficial haciendo clic en "¿Eres el dueño? Reclama tu ficha" en la tarjeta de su negocio o escribiendo a nuestro WhatsApp oficial (+51 961 277 467) para recibir una Auditoría 360° gratuita de embudo de ventas, posicionamiento Local SEO y velocidad web.'
+                  }
+                },
+                {
+                  '@type': 'Question',
+                  'name': '¿Todo Lima cobra comisiones por los servicios contratados?',
+                  'acceptedAnswer': {
+                    '@type': 'Answer',
+                    'text': 'No. Todo Lima es un directorio abierto y transparente. La coordinación de presupuestos, citas y pagos se realiza de forma directa entre el cliente y el comercio o profesional.'
+                  }
+                }
+              ]
+            })
+          }}
+        />
       </main>
 
       <Footer />

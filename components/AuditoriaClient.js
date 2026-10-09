@@ -156,36 +156,33 @@ export default function AuditoriaClient({ initialData }) {
             </div>
 
             {/* Botones de acción del Modal */}
-            <div className="mt-6 flex flex-wrap gap-2.5">
-              <a
-                href={`/demo/${selectedBiz.categorySlug}/${selectedBiz.id}`}
-                target="_blank"
-                rel="noreferrer"
-                className="flex-1 bg-sky-500 hover:bg-sky-600 text-slate-950 font-bold px-4 py-3 rounded-xl flex items-center justify-center gap-2 transition"
-              >
-                <Sparkles className="w-4 h-4 fill-slate-950" />
-                <span>Ver Prototipo Demo en Vivo</span>
-              </a>
+            <div className="mt-6 flex flex-col gap-3">
+              <div className="w-full p-3 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs flex items-start gap-2">
+                <AlertTriangle className="w-4 h-4 shrink-0 text-amber-400 mt-0.5" />
+                <span>
+                  <strong>Contacto en frío bloqueado (Ley N° 32323):</strong> Prohibido enviar mensajes comerciales no solicitados por WhatsApp. Este pitch se utilizará exclusivamente una vez que el dueño inicie el contacto en todolima.com (Reclama tu ficha) o en visita presencial.
+                </span>
+              </div>
 
-              {selectedBiz.proposal.whatsappUrl && (
+              <div className="flex flex-wrap gap-2.5">
                 <a
-                  href={selectedBiz.proposal.whatsappUrl}
+                  href={`/demo/${selectedBiz.categorySlug}/${selectedBiz.id}`}
                   target="_blank"
                   rel="noreferrer"
-                  className="flex-1 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold px-4 py-3 rounded-xl flex items-center justify-center gap-2 transition"
+                  className="flex-1 bg-sky-500 hover:bg-sky-600 text-slate-950 font-bold px-4 py-3 rounded-xl flex items-center justify-center gap-2 transition text-xs"
                 >
-                  <Send className="w-4 h-4" />
-                  <span>Abrir WhatsApp</span>
+                  <Sparkles className="w-4 h-4 fill-slate-950" />
+                  <span>Ver Prototipo Demo en Vivo</span>
                 </a>
-              )}
 
-              <button
-                onClick={() => copyToClipboard(selectedBiz.proposal.whatsappPitch)}
-                className="bg-slate-800 hover:bg-slate-700 text-white font-semibold px-4 py-3 rounded-xl flex items-center justify-center gap-2 border border-slate-700 transition"
-              >
-                <Copy className="w-4 h-4" />
-                <span>Copiar Mensaje</span>
-              </button>
+                <button
+                  onClick={() => copyToClipboard(selectedBiz.proposal.whatsappPitch)}
+                  className="bg-slate-800 hover:bg-slate-700 text-white font-semibold px-4 py-3 rounded-xl flex items-center justify-center gap-2 border border-slate-700 transition text-xs"
+                >
+                  <Copy className="w-4 h-4" />
+                  <span>Copiar Diagnóstico Preparado</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -265,10 +262,10 @@ export default function AuditoriaClient({ initialData }) {
               onChange={(e) => setCategoryFilter(e.target.value)}
               className="bg-slate-950 border border-slate-800 text-slate-200 text-sm rounded-xl px-3.5 py-2.5 outline-none focus:border-sky-500"
             >
-              <option value="">Todas las 38 Categorías</option>
+              <option value="">Todas las Categorías ({categoriesList.length})</option>
               {categoriesList.map(cat => (
                 <option key={cat} value={cat}>
-                  {cat.charAt(0).toUpperCase() + cat.slice(1).replace('-', ' ')}
+                  {cat.charAt(0).toUpperCase() + cat.slice(1).replace(/-/g, ' ')}
                 </option>
               ))}
             </select>
@@ -279,11 +276,14 @@ export default function AuditoriaClient({ initialData }) {
               onChange={(e) => setStatusFilter(e.target.value)}
               className="bg-slate-950 border border-slate-800 text-slate-200 text-sm rounded-xl px-3.5 py-2.5 outline-none focus:border-sky-500"
             >
-              <option value="">Todos los Estados</option>
-              <option value="NEEDS_WEBSITE">Sin Página Web (Oportunidad Alta)</option>
-              <option value="UPGRADE_SOCIAL">Solo Red Social (Facebook/IG)</option>
-              <option value="REDESIGN_WEBSITE">Web con Fallas / Lenta</option>
-              <option value="OPTIMIZE_WEBSITE">Web Buena</option>
+              <option value="">Todos los Servicios & Embudos</option>
+              <option value="NEEDS_WEBSITE">Lanzamiento de Embudo & WhatsApp</option>
+              <option value="UPGRADE_SOCIAL">Migración Red Social a Embudo Web</option>
+              <option value="REDESIGN_WEBSITE">Embudo de Conversión & CRO</option>
+              <option value="AI_AGENT_CRM_SOFTWARE">Asistente IA 24/7 & Speed-to-Lead CRM</option>
+              <option value="SECURITY_HARDENING">Blindaje Web & Ciberseguridad WAF</option>
+              <option value="GROWTH_MARKETING_ADS">Pauta Meta/Google Ads & Contenido</option>
+              <option value="ENTERPRISE_360">Transformación Digital 360°</option>
             </select>
 
             {/* Buscador */}
@@ -396,25 +396,14 @@ export default function AuditoriaClient({ initialData }) {
 
                 {/* Actions */}
                 <div className="flex gap-2 pt-3 border-t border-slate-800/80">
-                  {b.proposal.whatsappUrl ? (
-                    <a
-                      href={b.proposal.whatsappUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="flex-1 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold text-xs py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 transition"
-                      title="Abrir chat en WhatsApp con el mensaje precargado"
-                    >
-                      <Send className="w-3.5 h-3.5" />
-                      <span>WhatsApp</span>
-                    </a>
-                  ) : (
-                    <button
-                      disabled
-                      className="flex-1 bg-slate-800/40 text-slate-500 font-medium text-xs py-2.5 px-3 rounded-xl cursor-not-allowed"
-                    >
-                      Sin WhatsApp
-                    </button>
-                  )}
+                  <button
+                    onClick={() => setSelectedBiz(b)}
+                    className="flex-1 bg-sky-500/10 hover:bg-sky-500/20 text-sky-400 font-bold text-xs py-2 px-3 rounded-xl border border-sky-500/30 flex items-center justify-center gap-1.5 transition"
+                    title="Ver diagnóstico y propuesta preparada para cuando el dueño contacte"
+                  >
+                    <Search className="w-3.5 h-3.5" />
+                    <span>Ver Diagnóstico Inbound</span>
+                  </button>
 
                   <button
                     onClick={() => copyToClipboard(b.proposal.whatsappPitch)}

@@ -15,6 +15,7 @@ import {
   Clock,
   Sparkles
 } from 'lucide-react';
+import { buildClaimListingLink } from '../lib/contact';
 
 // Distritos comunes en Lima para etiquetado inteligente
 const LIMA_DISTRICTS = [
@@ -222,6 +223,20 @@ export default function BusinessCard({ business, rank }) {
               <Globe className="w-4 h-4" />
             </a>
           )}
+        </div>
+
+        {/* CTA Inbound: Reclamar ficha oficial y solicitar Auditoría 360° gratuita */}
+        <div className="pt-2 text-center">
+          <a
+            href={buildClaimListingLink(business.name, business.id)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-[11px] font-semibold text-slate-500 hover:text-indigo-600 transition-colors py-1 px-2 rounded-lg hover:bg-indigo-50/60"
+            title="Reclamar administración de este perfil en Todo Lima"
+          >
+            <ShieldCheck className="w-3.5 h-3.5 text-indigo-500" />
+            <span>¿Eres el dueño? Reclama tu ficha y recibe tu Auditoría 360° gratis</span>
+          </a>
         </div>
       </div>
     </article>

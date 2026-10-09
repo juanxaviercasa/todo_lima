@@ -1,37 +1,36 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { 
   ShieldCheck, 
   Sparkles, 
   Bot, 
-  TrendingUp, 
   MessageSquare, 
   X, 
-  ChevronRight,
-  Lock,
-  BarChart3
+  ChevronRight, 
+  Lock, 
+  BarChart3,
+  CheckCircle2
 } from 'lucide-react';
+import { buildWhatsAppLink } from '../lib/contact';
 
 export default function TodoLimaAssistant() {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Número oficial de atención comercial Todo Lima
-  const whatsappNumber = '51961277467';
-
   const handleAction = (tipo) => {
     let mensaje = '';
     if (tipo === 'auditoria') {
-      mensaje = 'Hola Todo Lima 👋, tengo un negocio y deseo una Auditoría Técnica & Comercial 360° gratuita de mi presencia digital (Web, SEO en Google Maps, Ciberseguridad y Redes).';
+      mensaje = 'Hola Todo Lima 👋, tengo un negocio y solicito una Auditoría 360° gratuita de mi embudo de ventas, posicionamiento en Google Maps y velocidad web.\n\nAcepto recibir mi diagnóstico y coordinar por este chat de WhatsApp. (Puedo escribir BAJA en cualquier momento).';
     } else if (tipo === 'ia_crm') {
-      mensaje = 'Hola Todo Lima 👋, me interesa implementar un Agente de IA para WhatsApp 24/7 y un CRM / software a medida para automatizar las ventas de mi empresa.';
+      mensaje = 'Hola Todo Lima 👋, me interesa implementar un Asistente IA para WhatsApp 24/7 y un sistema CRM / Funnel a medida para automatizar las ventas de mi empresa.\n\nAcepto recibir información por este medio. (Puedo escribir BAJA en cualquier momento).';
     } else if (tipo === 'verificacion') {
-      mensaje = 'Hola Todo Lima 👋, deseo postular a mi negocio para la insignia oficial de "Negocio Verificado" en el directorio todolima.com.';
+      mensaje = 'Hola Todo Lima 👋, deseo postular a mi negocio para la insignia oficial de "Negocio Verificado" en el directorio todolima.com.\n\nAcepto ser contactado por WhatsApp para validar los datos de mi ficha.';
     } else {
-      mensaje = 'Hola equipo de Todo Lima 👋, deseo información sobre sus servicios de crecimiento y tecnología para negocios.';
+      mensaje = 'Hola equipo de Todo Lima 👋, deseo información sobre sus servicios de crecimiento digital, embudos y tecnología para negocios locales en Lima.\n\nAcepto ser contactado por este canal.';
     }
 
-    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(mensaje)}`;
+    const url = buildWhatsAppLink(mensaje);
     window.open(url, '_blank');
   };
 
@@ -61,7 +60,7 @@ export default function TodoLimaAssistant() {
 
       {/* Modal / Panel Desplegable */}
       {isOpen && (
-        <div className="w-[360px] sm:w-[400px] bg-slate-900/95 backdrop-blur-xl border border-slate-700/80 rounded-2xl shadow-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-200 text-white">
+        <div className="w-[360px] sm:w-[420px] bg-slate-900/95 backdrop-blur-xl border border-slate-700/80 rounded-2xl shadow-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-200 text-white">
           {/* Header */}
           <div className="bg-gradient-to-r from-sky-600 via-indigo-600 to-slate-900 p-5 relative">
             <button
@@ -77,7 +76,7 @@ export default function TodoLimaAssistant() {
               Lleva tu empresa en Lima al siguiente nivel
             </h3>
             <p className="text-xs text-sky-100/90 mt-1">
-              Desarrollamos tecnología, ciberseguridad, agentes de IA y marketing predictivo para empresas líderes.
+              Embudos de alta conversión, speed-to-lead con IA 24/7 y posicionamiento para empresas líderes.
             </p>
           </div>
 
@@ -92,11 +91,11 @@ export default function TodoLimaAssistant() {
               </div>
               <div className="flex-1">
                 <div className="text-sm font-bold text-slate-200 group-hover:text-white flex items-center justify-between">
-                  Auditoría Digital 360° Gratuita
+                  Auditoría Digital & Embudo 360°
                   <ChevronRight className="w-4 h-4 text-slate-400 group-hover:translate-x-1 transition-transform" />
                 </div>
                 <div className="text-xs text-slate-400 mt-0.5">
-                  Evaluamos tu Google Maps, velocidad web, fallas y fugas de ventas.
+                  Detección de fugas de ventas en Google Maps, velocidad web y conversión WhatsApp.
                 </div>
               </div>
             </button>
@@ -110,11 +109,11 @@ export default function TodoLimaAssistant() {
               </div>
               <div className="flex-1">
                 <div className="text-sm font-bold text-slate-200 group-hover:text-white flex items-center justify-between">
-                  Agente IA 24/7 & Software a Medida
+                  Asistente IA 24/7 & Speed-to-Lead
                   <ChevronRight className="w-4 h-4 text-slate-400 group-hover:translate-x-1 transition-transform" />
                 </div>
                 <div className="text-xs text-slate-400 mt-0.5">
-                  Asistente inteligente para WhatsApp, CRM personalizado y automatización.
+                  Responde en &lt; 2 min, agenda citas en automático y centraliza chats en CRM.
                 </div>
               </div>
             </button>
@@ -124,30 +123,43 @@ export default function TodoLimaAssistant() {
               className="w-full text-left p-3.5 rounded-xl bg-slate-800/80 hover:bg-slate-750 border border-slate-700/60 hover:border-amber-500/50 transition-all group flex items-start gap-3.5"
             >
               <div className="p-2 rounded-lg bg-amber-500/10 text-amber-400 group-hover:bg-amber-500 group-hover:text-white transition-colors shrink-0 mt-0.5">
-                <ShieldCheck className="w-5 h-5" />
+                <CheckCircle2 className="w-5 h-5" />
               </div>
               <div className="flex-1">
                 <div className="text-sm font-bold text-slate-200 group-hover:text-white flex items-center justify-between">
-                  Insignia de Negocio Verificado
+                  Reclamar Ficha de Negocio Verificado
                   <ChevronRight className="w-4 h-4 text-slate-400 group-hover:translate-x-1 transition-transform" />
                 </div>
                 <div className="text-xs text-slate-400 mt-0.5">
-                  Posición preferencial en todolima.com y sello de confianza oficial.
+                  Toma el control oficial de tu perfil en todolima.com y activa beneficios Pro.
                 </div>
               </div>
             </button>
           </div>
 
+          {/* Aviso Legal de Consentimiento Previo y Opt-Out (Ley 32323 / Ley 29733) */}
+          <div className="px-4 py-2.5 bg-slate-950/80 border-t border-slate-800 text-[11px] text-slate-400 leading-snug">
+            <div className="flex items-start gap-1.5 mb-1 text-slate-300">
+              <Lock className="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5" />
+              <span>
+                Al escribirnos por WhatsApp solicitas la atención de Todo Lima. Puedes escribir <strong>BAJA</strong> en cualquier momento para revocar el contacto. Conoce nuestra{' '}
+                <Link href="/privacidad" className="text-sky-400 underline hover:text-sky-300">
+                  Política de Privacidad
+                </Link>.
+              </span>
+            </div>
+          </div>
+
           {/* Footer del Modal */}
-          <div className="p-4 bg-slate-950/60 border-t border-slate-800 text-center flex items-center justify-between">
-            <span className="text-[11px] text-slate-400 flex items-center gap-1.5">
-              <Lock className="w-3.5 h-3.5 text-emerald-400" /> Ciberseguridad & Confidencialidad
+          <div className="p-3 bg-slate-950 border-t border-slate-800/80 flex items-center justify-between">
+            <span className="text-[11px] text-slate-500">
+              Respuesta promedio: &lt; 5 min
             </span>
             <button
               onClick={() => handleAction('general')}
-              className="text-xs font-bold text-sky-400 hover:text-sky-300 flex items-center gap-1 transition-colors"
+              className="text-xs font-bold text-sky-400 hover:text-sky-300 flex items-center gap-1.5 transition-colors"
             >
-              <MessageSquare className="w-3.5 h-3.5" /> Chatear en WhatsApp
+              <MessageSquare className="w-3.5 h-3.5" /> Abrir WhatsApp Oficial
             </button>
           </div>
         </div>

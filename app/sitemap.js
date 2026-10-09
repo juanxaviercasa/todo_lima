@@ -2,14 +2,38 @@ import fs from 'fs';
 import path from 'path';
 
 export default function sitemap() {
-  const baseUrl = 'https://todo-lima.vercel.app';
+  const baseUrl = 'https://todolima.com';
 
-  const routes = [
+  const staticRoutes = [
     {
       url: baseUrl,
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: 'daily',
       priority: 1.0,
+    },
+    {
+      url: `${baseUrl}/privacidad`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.5,
+    },
+    {
+      url: `${baseUrl}/terminos`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.5,
+    },
+    {
+      url: `${baseUrl}/baja`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.5,
+    },
+    {
+      url: `${baseUrl}/libro-de-reclamaciones`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.4,
     },
   ];
 
@@ -33,5 +57,5 @@ export default function sitemap() {
     console.error('Error generando el sitemap:', error);
   }
 
-  return [...routes, ...categoryRoutes];
+  return [...staticRoutes, ...categoryRoutes];
 }
