@@ -13,6 +13,7 @@ import {
   Mail
 } from 'lucide-react';
 import { TODOLIMA_EMAIL, TODOLIMA_WHATSAPP_DISPLAY, buildWhatsAppLink } from '../lib/contact.js';
+import ThemeToggle from './ThemeToggle.js';
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -80,7 +81,7 @@ export default function Footer() {
 
             <div className="mt-6 flex flex-col gap-2.5">
               <a
-                href={buildWhatsAppLink('Hola Todo Lima 👋, deseo información sobre la publicación o verificación de mi negocio en todolima.com.')}
+                href={buildWhatsAppLink('Hola Todo Lima, deseo informacion sobre la publicacion o verificacion de mi negocio en todolima.com.')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-xs font-bold text-emerald-400 hover:text-emerald-300 transition-colors"
@@ -234,14 +235,17 @@ export default function Footer() {
                 </a>
               </div>
 
-              <button
-                onClick={scrollToTop}
-                className="inline-flex items-center gap-1.5 text-slate-400 hover:text-white transition-colors bg-slate-900 border border-slate-800 py-1.5 px-3 rounded-xl"
-                title="Volver arriba"
-              >
-                <span>Subir</span>
-                <ArrowUp className="w-3.5 h-3.5" />
-              </button>
+              <div className="flex items-center gap-2">
+                <ThemeToggle />
+                <button
+                  onClick={scrollToTop}
+                  className="inline-flex items-center gap-1.5 text-slate-400 hover:text-white transition-colors bg-slate-900 border border-slate-800 py-1.5 px-3 rounded-xl"
+                  title="Volver arriba"
+                >
+                  <span>Subir</span>
+                  <ArrowUp className="w-3.5 h-3.5" />
+                </button>
+              </div>
             </div>
           </div>
         </div>

@@ -22,6 +22,7 @@ import {
 } from 'lucide-react';
 import { CATEGORIES } from '../scraper/config/categories.js';
 import { TODOLIMA_EMAIL, TODOLIMA_WHATSAPP_DISPLAY, buildWhatsAppLink } from '../lib/contact.js';
+import ThemeToggle from './ThemeToggle.js';
 
 export default function Navbar({ categoryTitle = null }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -57,7 +58,7 @@ export default function Navbar({ categoryTitle = null }) {
     { label: 'Tecnología', icon: Laptop, href: '/#directorios', color: 'text-emerald-500 bg-emerald-50' }
   ];
 
-  const publishWaLink = buildWhatsAppLink('Hola Todo Lima 👋, deseo información sobre la publicación o verificación de mi negocio en todolima.com.');
+  const publishWaLink = buildWhatsAppLink('Hola Todo Lima, deseo informacion sobre la publicacion o verificacion de mi negocio en todolima.com.');
 
   return (
     <>
@@ -140,6 +141,9 @@ export default function Navbar({ categoryTitle = null }) {
               <span>Datos Verificados 2026</span>
             </div>
 
+            {/* Toggle de Modo Oscuro / Claro */}
+            <ThemeToggle />
+
             {/* CTA Publicar Negocio */}
             <a
               href={publishWaLink}
@@ -196,8 +200,16 @@ export default function Navbar({ categoryTitle = null }) {
               </button>
             </div>
 
+            {/* Selector de Tema en Móvil */}
+            <div className="flex items-center justify-between p-3 rounded-2xl bg-slate-100 my-2">
+              <span className="text-xs font-bold text-slate-700">
+                Tema de visualización
+              </span>
+              <ThemeToggle />
+            </div>
+
             {/* Enlaces Principales */}
-            <div className="py-4 space-y-1">
+            <div className="py-2 space-y-1">
               <Link
                 href="/"
                 onClick={() => setMobileMenuOpen(false)}

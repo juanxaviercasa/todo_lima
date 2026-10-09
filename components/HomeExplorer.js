@@ -872,7 +872,7 @@ export default function HomeExplorer({ categories = [] }) {
 
             <div className="flex flex-col sm:flex-row gap-3.5 shrink-0 w-full lg:w-auto">
               <a
-                href={buildWhatsAppLink('Hola Todo Lima 👋, tengo un negocio en Lima y quiero publicarme en todolima.com.')}
+                href={buildWhatsAppLink('Hola Todo Lima, tengo un negocio en Lima y quiero publicarme en todolima.com.')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm py-4 px-6 rounded-2xl shadow-lg hover:scale-105 active:scale-95 transition-all text-center"

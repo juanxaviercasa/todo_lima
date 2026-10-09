@@ -65,6 +65,22 @@ export default function RootLayout({ children }) {
             rel="stylesheet"
           />
           <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                (function() {
+                  try {
+                    var t = localStorage.getItem('todolima_theme');
+                    if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                      document.documentElement.classList.add('dark');
+                    } else {
+                      document.documentElement.classList.remove('dark');
+                    }
+                  } catch(e) {}
+                })();
+              `
+            }}
+          />
+          <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(globalSchema) }}
           />

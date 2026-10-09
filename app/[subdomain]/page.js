@@ -114,7 +114,7 @@ export default function SubdomainPage({ params }) {
                   'name': `¿Cómo reclamar la ficha de mi negocio en ${meta.title}?`,
                   'acceptedAnswer': {
                     '@type': 'Answer',
-                    'text': `Si eres el dueño o representante, haz clic en "¿Eres el dueño? Reclama tu ficha" en la tarjeta de tu comercio o escribe a nuestro WhatsApp oficial (+51 961 277 467) para recibir una Auditoría 360° gratuita.`
+                    'text': `Si eres el dueño o representante, haz clic en "¿Eres el dueño? Reclama tu ficha" en la tarjeta de tu comercio o escribe a nuestro WhatsApp oficial (+51 925 475 034) para recibir una Auditoría 360° gratuita.`
                   }
                 }
               ]

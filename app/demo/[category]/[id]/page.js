@@ -153,9 +153,9 @@ export default function DemoPrototypePage({ params }) {
   const intlPhone = phoneData?.international || '51999958372';
 
   // Links rápidos a WhatsApp por intención de usuario
-  const waBuyLink = `https://wa.me/${intlPhone}?text=${encodeURIComponent(`Hola ${displayName} 👋, vi su cartera en ${district} y deseo consultar sobre departamentos o penthouses en venta.`)}`;
-  const waSellLink = `https://wa.me/${intlPhone}?text=${encodeURIComponent(`Hola ${displayName} 👋, tengo una propiedad en ${district} y deseo solicitar una tasación comercial para venta/alquiler.`)}`;
-  const waRentLink = `https://wa.me/${intlPhone}?text=${encodeURIComponent(`Hola ${displayName} 👋, busco asesoría para el alquiler de un inmueble residencial/corporativo en ${district}.`)}`;
+  const waBuyLink = `https://wa.me/${intlPhone}?text=${encodeURIComponent(`Hola ${displayName}, vi su cartera en ${district} y deseo consultar sobre departamentos o inmuebles en venta.`)}`;
+  const waSellLink = `https://wa.me/${intlPhone}?text=${encodeURIComponent(`Hola ${displayName}, tengo una propiedad en ${district} y deseo solicitar una tasacion comercial para venta o alquiler.`)}`;
+  const waRentLink = `https://wa.me/${intlPhone}?text=${encodeURIComponent(`Hola ${displayName}, busco asesoria para el alquiler de un inmueble residencial o corporativo en ${district}.`)}`;
 
   return (
     <div className="min-h-screen bg-[#FDFBF7] text-[#1A1D20] font-sans antialiased selection:bg-[#C5A880] selection:text-white scroll-smooth overflow-x-hidden">

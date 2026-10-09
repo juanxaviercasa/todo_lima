@@ -92,7 +92,7 @@ export default function RandomHero({ category, pageContent, totalResults, update
           </a>
 
           <a
-            href={buildWhatsAppLink('Hola Todo Lima 👋, deseo publicar mi negocio en todolima.com.')}
+            href={buildWhatsAppLink('Hola Todo Lima, deseo publicar mi negocio en todolima.com.')}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/15 text-white font-bold px-6 py-3.5 rounded-2xl border border-white/10 transition-colors text-sm"

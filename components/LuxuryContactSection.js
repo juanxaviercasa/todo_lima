@@ -57,7 +57,7 @@ export default function LuxuryContactSection({
   };
 
   const waPreText = encodeURIComponent(
-    `Hola ${displayName} 👋, le escribo desde su página web oficial.\n` +
+    `Hola ${displayName}, le escribo desde su pagina web oficial.\n` +
     `*Nombre:* ${formState.name || 'Cliente'}\n` +
     `*Teléfono:* ${formState.phone || 'No especificado'}\n` +
     `*Email:* ${formState.email || 'No especificado'}\n` +

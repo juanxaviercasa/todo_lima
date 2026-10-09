@@ -21,13 +21,13 @@ export default function TodoLimaAssistant() {
   const handleAction = (tipo) => {
     let mensaje = '';
     if (tipo === 'auditoria') {
-      mensaje = 'Hola Todo Lima 👋, tengo un negocio y solicito una Auditoría 360° gratuita de mi embudo de ventas, posicionamiento en Google Maps y velocidad web.\n\nAcepto recibir mi diagnóstico y coordinar por este chat de WhatsApp. (Puedo escribir BAJA en cualquier momento).';
+      mensaje = 'Hola Todo Lima, tengo un negocio y solicito una Auditoria 360 Gratuita de mi embudo de ventas, posicionamiento en Google Maps y velocidad web.\n\nAcepto recibir mi diagnostico y coordinar por este chat de WhatsApp. (Puedo escribir BAJA en cualquier momento).';
     } else if (tipo === 'ia_crm') {
-      mensaje = 'Hola Todo Lima 👋, me interesa implementar un Asistente IA para WhatsApp 24/7 y un sistema CRM / Funnel a medida para automatizar las ventas de mi empresa.\n\nAcepto recibir información por este medio. (Puedo escribir BAJA en cualquier momento).';
+      mensaje = 'Hola Todo Lima, me interesa implementar un Asistente IA para WhatsApp 24/7 y un sistema CRM / Funnel a medida para automatizar las ventas de mi empresa.\n\nAcepto recibir informacion por este medio. (Puedo escribir BAJA en cualquier momento).';
     } else if (tipo === 'verificacion') {
-      mensaje = 'Hola Todo Lima 👋, deseo postular a mi negocio para la insignia oficial de "Negocio Verificado" en el directorio todolima.com.\n\nAcepto ser contactado por WhatsApp para validar los datos de mi ficha.';
+      mensaje = 'Hola Todo Lima, deseo postular a mi negocio para la insignia oficial de "Negocio Verificado" en el directorio todolima.com.\n\nAcepto ser contactado por WhatsApp para validar los datos de mi ficha.';
     } else {
-      mensaje = 'Hola equipo de Todo Lima 👋, deseo información sobre sus servicios de crecimiento digital, embudos y tecnología para negocios locales en Lima.\n\nAcepto ser contactado por este canal.';
+      mensaje = 'Hola equipo de Todo Lima, deseo informacion sobre sus servicios de crecimiento digital, embudos y tecnologia para negocios locales en Lima.\n\nAcepto ser contactado por este canal.';
     }
 
     const url = buildWhatsAppLink(mensaje);

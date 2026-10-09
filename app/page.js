@@ -108,7 +108,7 @@ export default function HomePage() {
                   'name': '¿Cómo puedo reclamar la ficha de mi negocio o solicitar una Auditoría Digital 360°?',
                   'acceptedAnswer': {
                     '@type': 'Answer',
-                    'text': 'Los dueños o administradores pueden reclamar su perfil oficial haciendo clic en "¿Eres el dueño? Reclama tu ficha" en la tarjeta de su negocio o escribiendo a nuestro WhatsApp oficial (+51 961 277 467) para recibir una Auditoría 360° gratuita de embudo de ventas, posicionamiento Local SEO y velocidad web.'
+                    'text': 'Los dueños o administradores pueden reclamar su perfil oficial haciendo clic en "¿Eres el dueño? Reclama tu ficha" en la tarjeta de su negocio o escribiendo a nuestro WhatsApp oficial (+51 925 475 034) para recibir una Auditoría 360° gratuita de embudo de ventas, posicionamiento Local SEO y velocidad web.'
                   }
                 },
                 {
