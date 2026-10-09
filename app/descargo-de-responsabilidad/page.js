@@ -16,27 +16,27 @@ export const metadata = {
 
 export default function DescargoResponsabilidadPage() {
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-100 flex flex-col font-sans">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 flex flex-col font-sans transition-colors">
       <Navbar />
 
       <main className="flex-1 max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
-        <div className="bg-slate-800/80 border border-slate-700/80 rounded-2xl p-6 sm:p-10 shadow-xl backdrop-blur-sm">
+        <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/85 border border-slate-200/90 dark:border-slate-800/90 rounded-3xl p-6 sm:p-10 shadow-xl dark:shadow-[0_20px_50px_rgba(0,0,0,0.6)] backdrop-blur-sm">
           
-          <div className="flex items-center gap-3 text-amber-400 mb-4">
-            <AlertTriangle className="w-8 h-8 text-amber-400" />
-            <span className="text-xs font-bold uppercase tracking-widest text-amber-300">
+          <div className="flex items-center gap-3 text-amber-500 dark:text-amber-400 mb-4">
+            <AlertTriangle className="w-8 h-8 text-amber-500 dark:text-amber-400" />
+            <span className="text-xs font-bold uppercase tracking-widest text-amber-600 dark:text-amber-300">
               Deslinde Legal • Descargo de Responsabilidad (Disclaimer)
             </span>
           </div>
 
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-4">
+          <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight mb-4">
             Descargo de Responsabilidad y Régimen de Información Pública
           </h1>
-          <p className="text-sm text-slate-400 mb-8 pb-6 border-b border-slate-700">
+          <p className="text-sm text-slate-500 dark:text-slate-400 mb-8 pb-6 border-b border-slate-200 dark:border-slate-800">
             Aviso legal general para usuarios, consumidores y comercios en Lima Metropolitana • todolima.com
           </p>
 
-          <div className="space-y-8 text-sm text-slate-300 leading-relaxed">
+          <div className="space-y-8 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
             
             {/* 1. Naturaleza del Directorio */}
             <section>

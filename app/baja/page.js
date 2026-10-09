@@ -49,24 +49,24 @@ export default function BajaPage() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-100 flex flex-col font-sans">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 flex flex-col font-sans transition-colors">
       <Navbar />
 
       <main className="flex-1 max-w-2xl mx-auto px-4 py-12 sm:px-6">
-        <div className="bg-slate-800/90 border border-slate-700 rounded-2xl p-6 sm:p-10 shadow-xl backdrop-blur-sm">
+        <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/85 border border-slate-200/90 dark:border-slate-800/90 rounded-3xl p-6 sm:p-10 shadow-xl dark:shadow-[0_20px_50px_rgba(0,0,0,0.6)] backdrop-blur-sm">
           
-          <div className="flex items-center gap-2 text-rose-400 mb-3">
+          <div className="flex items-center gap-2 text-rose-500 dark:text-rose-400 mb-3">
             <ShieldAlert className="w-6 h-6" />
             <span className="text-xs font-bold uppercase tracking-wider">
               Garantía de Privacidad y No Contacto
             </span>
           </div>
 
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-white mb-3">
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mb-3">
             Solicitud de Baja y Rectificación de Datos
           </h1>
           
-          <p className="text-sm text-slate-300 mb-6 leading-relaxed">
+          <p className="text-sm text-slate-600 dark:text-slate-300 mb-6 leading-relaxed">
             En cumplimiento de la <strong>Ley N° 32323</strong> y la <strong>Ley N° 29733</strong> de Protección de Datos Personales, usted puede solicitar en cualquier momento y de forma gratuita la exclusión de comunicaciones comerciales o la actualización/eliminación de la ficha de su negocio en nuestro directorio.
           </p>
 

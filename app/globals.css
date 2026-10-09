@@ -32,8 +32,14 @@ html.dark {
 }
 
 html.dark body {
-  color: #f1f5f9;
-  background-color: #0b1120;
+  color: #f8fafc;
+  background-color: #030712;
+  background-image: 
+    radial-gradient(at 10% 0%, rgba(14, 165, 233, 0.12) 0px, transparent 40%),
+    radial-gradient(at 90% 15%, rgba(99, 102, 241, 0.09) 0px, transparent 45%),
+    radial-gradient(at 50% 60%, rgba(16, 185, 129, 0.07) 0px, transparent 50%),
+    radial-gradient(at 80% 95%, rgba(14, 165, 233, 0.08) 0px, transparent 40%);
+  background-attachment: fixed;
 }
 
 /* Utilidades de Open Design */
@@ -45,10 +51,11 @@ html.dark body {
 }
 
 html.dark .glass-panel {
-  background: rgba(17, 24, 39, 0.85) !important;
+  background: rgba(15, 23, 42, 0.85) !important;
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(51, 65, 85, 0.6) !important;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
 }
 
 .glass-panel-dark {
@@ -65,6 +72,10 @@ html.dark .glass-panel {
 .open-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 20px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+}
+
+html.dark .open-card:hover {
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.6), 0 0 25px -5px rgba(14, 165, 233, 0.15);
 }
 
 /* Efecto de gradiente sutil y dinámico */

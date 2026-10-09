@@ -48,7 +48,7 @@ export default function ThemeToggle({ className = '' }) {
       title={isDark ? 'Modo Claro' : 'Modo Oscuro'}
       className={`relative inline-flex items-center justify-center w-9 h-9 rounded-xl transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-sky-500/50 shadow-xs active:scale-95 ${
         isDark
-          ? 'bg-slate-800 text-amber-400 hover:bg-slate-700 border border-slate-700 hover:text-amber-300'
+          ? 'bg-slate-800/90 text-amber-400 hover:bg-slate-700 border border-amber-400/30 hover:border-amber-400/60 hover:text-amber-300 shadow-[0_0_12px_rgba(251,191,36,0.2)]'
           : 'bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200/90 hover:text-slate-900'
       } ${className}`}
     >

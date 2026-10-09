@@ -59,20 +59,20 @@ export default function SubdomainPage({ params }) {
           </Suspense>
         ) : (
           <div className="max-w-xl mx-auto px-4 my-16">
-            <div className="bg-white rounded-3xl border border-slate-200/90 p-8 sm:p-12 text-center shadow-sm">
-              <div className="w-16 h-16 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center mx-auto mb-4 border border-amber-200">
+            <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/85 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-8 sm:p-12 text-center shadow-sm dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)]">
+              <div className="w-16 h-16 rounded-2xl bg-amber-50 dark:bg-amber-500/15 text-amber-600 dark:text-amber-400 flex items-center justify-center mx-auto mb-4 border border-amber-200 dark:border-amber-500/30 dark:shadow-[0_0_15px_rgba(245,158,11,0.2)]">
                 <AlertCircle className="w-8 h-8" />
               </div>
-              <h3 className="text-xl font-black text-slate-900">
+              <h3 className="text-xl font-black text-slate-900 dark:text-white">
                 Extrayendo negocios para {meta.title}...
               </h3>
-              <p className="mt-3 text-sm text-slate-500 leading-relaxed">
+              <p className="mt-3 text-sm text-slate-500 dark:text-slate-300 leading-relaxed">
                 El robot de Playwright se encuentra procesando las fichas públicas de Google Maps para esta categoría. En breve estará disponible el directorio con los mejores especialistas de Lima.
               </p>
               <div className="mt-6">
                 <Link
                   href="/"
-                  className="inline-flex items-center gap-2 font-bold text-xs text-sky-700 bg-sky-50 border border-sky-200 px-5 py-3 rounded-xl hover:bg-sky-100 transition-colors"
+                  className="inline-flex items-center gap-2 font-bold text-xs text-sky-700 dark:text-sky-300 bg-sky-50 dark:bg-sky-950/60 border border-sky-200 dark:border-sky-800/80 px-5 py-3 rounded-xl hover:bg-sky-100 dark:hover:bg-sky-900/60 transition-colors"
                 >
                   <ArrowLeft className="w-4 h-4" />
                   <span>Explorar otras categorías listas</span>

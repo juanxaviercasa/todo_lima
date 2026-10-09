@@ -102,16 +102,16 @@ export default function RandomHero({ category, pageContent, totalResults, update
         </div>
 
         {/* Puntos destacados */}
-        <div className="mt-10 flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs sm:text-sm text-slate-300 font-semibold">
-          <div className="flex items-center gap-2 bg-slate-800/80 px-4 py-2 rounded-2xl border border-slate-700/80 shadow-xs">
+        <div className="mt-10 flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs sm:text-sm text-slate-200 font-semibold">
+          <div className="flex items-center gap-2 bg-slate-800/80 backdrop-blur-md px-4 py-2 rounded-2xl border border-slate-700/80 shadow-xs hover:border-amber-400/50 hover:shadow-[0_0_15px_rgba(245,158,11,0.2)] transition-all">
             <Star className="w-4 h-4 text-amber-400 fill-amber-400" />
             <span>Top 4.5+ Estrellas</span>
           </div>
-          <div className="flex items-center gap-2 bg-slate-800/80 px-4 py-2 rounded-2xl border border-slate-700/80 shadow-xs">
+          <div className="flex items-center gap-2 bg-slate-800/80 backdrop-blur-md px-4 py-2 rounded-2xl border border-slate-700/80 shadow-xs hover:border-emerald-400/50 hover:shadow-[0_0_15px_rgba(16,185,129,0.2)] transition-all">
             <PhoneCall className="w-4 h-4 text-emerald-400" />
             <span>WhatsApp Directo</span>
           </div>
-          <div className="flex items-center gap-2 bg-slate-800/80 px-4 py-2 rounded-2xl border border-slate-700/80 shadow-xs">
+          <div className="flex items-center gap-2 bg-slate-800/80 backdrop-blur-md px-4 py-2 rounded-2xl border border-slate-700/80 shadow-xs hover:border-sky-400/50 hover:shadow-[0_0_15px_rgba(14,165,233,0.2)] transition-all">
             <Zap className="w-4 h-4 text-sky-400" />
             <span>Sin Intermediarios</span>
           </div>
@@ -119,18 +119,18 @@ export default function RandomHero({ category, pageContent, totalResults, update
 
         {/* Tarjetas de métricas numéricas con Open Design */}
         <div className="mt-12 pt-8 border-t border-slate-800/80 grid grid-cols-3 gap-3 sm:gap-6 max-w-2xl mx-auto">
-          <div className="bg-white/5 border border-white/5 rounded-2xl p-4">
+          <div className="bg-slate-800/60 backdrop-blur-md border border-slate-700/70 rounded-2xl p-4 shadow-sm hover:border-sky-400/50 hover:shadow-[0_0_15px_rgba(14,165,233,0.15)] transition-all">
             <div className="text-2xl sm:text-3xl font-black text-white">{totalResults || '30+'}</div>
             <div className="text-[10px] sm:text-xs text-slate-400 mt-1 uppercase font-bold tracking-wider">Negocios listados</div>
           </div>
-          <div className="bg-white/5 border border-white/5 rounded-2xl p-4">
-            <div className="text-2xl sm:text-3xl font-black text-amber-400 flex items-center justify-center gap-1">
-              4.9 <Star className="w-4 h-4 sm:w-5 sm:h-5 fill-amber-400" />
+          <div className="bg-slate-800/60 backdrop-blur-md border border-slate-700/70 rounded-2xl p-4 shadow-sm hover:border-amber-400/50 hover:shadow-[0_0_15px_rgba(245,158,11,0.15)] transition-all">
+            <div className="text-2xl sm:text-3xl font-black text-amber-300 flex items-center justify-center gap-1">
+              4.9 <Star className="w-4 h-4 sm:w-5 sm:h-5 fill-amber-300" />
             </div>
             <div className="text-[10px] sm:text-xs text-slate-400 mt-1 uppercase font-bold tracking-wider">Promedio Google</div>
           </div>
-          <div className="bg-white/5 border border-white/5 rounded-2xl p-4">
-            <div className="text-2xl sm:text-3xl font-black text-emerald-400">100%</div>
+          <div className="bg-slate-800/60 backdrop-blur-md border border-slate-700/70 rounded-2xl p-4 shadow-sm hover:border-emerald-400/50 hover:shadow-[0_0_15px_rgba(16,185,129,0.15)] transition-all">
+            <div className="text-2xl sm:text-3xl font-black text-emerald-300">100%</div>
             <div className="text-[10px] sm:text-xs text-slate-400 mt-1 uppercase font-bold tracking-wider">Opiniones reales</div>
           </div>
         </div>

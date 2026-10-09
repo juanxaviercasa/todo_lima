@@ -58,23 +58,23 @@ export default function LibroReclamacionesPage() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-100 flex flex-col font-sans">
+    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 flex flex-col font-sans transition-colors">
       <Navbar />
 
       <main className="flex-1 max-w-3xl mx-auto px-4 py-12 sm:px-6">
-        <div className="bg-slate-800/90 border border-slate-700 rounded-2xl p-6 sm:p-10 shadow-xl backdrop-blur-sm">
+        <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/85 border border-slate-200/90 dark:border-slate-800/90 rounded-3xl p-6 sm:p-10 shadow-xl dark:shadow-[0_20px_50px_rgba(0,0,0,0.6)] backdrop-blur-sm">
           
-          <div className="flex items-center gap-2 text-amber-400 mb-3">
+          <div className="flex items-center gap-2 text-amber-500 dark:text-amber-400 mb-3">
             <BookOpen className="w-6 h-6" />
-            <span className="text-xs font-bold uppercase tracking-wider">
+            <span className="text-xs font-bold uppercase tracking-wider text-amber-600 dark:text-amber-300">
               Conforme a Ley N° 29571 • D.S. N° 011-2011-PCM
             </span>
           </div>
 
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-white mb-2">
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mb-2">
             Libro de Reclamaciones Virtual
           </h1>
-          <p className="text-xs text-slate-400 mb-6 pb-4 border-b border-slate-700">
+          <p className="text-xs text-slate-500 dark:text-slate-400 mb-6 pb-4 border-b border-slate-200 dark:border-slate-800">
             Todo Lima • [RAZÓN SOCIAL] • RUC: [RUC] • Lima Metropolitana, Perú
           </p>
 

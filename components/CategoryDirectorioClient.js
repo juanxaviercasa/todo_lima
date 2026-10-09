@@ -87,17 +87,17 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
   return (
     <section id="directorio" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
       {/* Controles de búsqueda y filtros */}
-      <div className="bg-white dark:bg-slate-900/95 rounded-3xl border border-slate-200/90 dark:border-slate-800 p-5 sm:p-7 shadow-xs mb-8 transition-all">
+      <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/85 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-5 sm:p-7 shadow-xs dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)] mb-8 transition-all backdrop-blur-md">
         <div className="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4">
           {/* Título de la sección */}
           <div>
             <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
+              <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_8px_rgba(16,185,129,0.6)]" />
               <h2 className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white tracking-tight">
                 Ranking de Fichas Verificadas
               </h2>
             </div>
-            <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-1">
+            <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-300 mt-1">
               Negocios seleccionados por reputación y opiniones reales en Google Maps Lima.
             </p>
           </div>
@@ -110,7 +110,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Buscar por nombre, distrito o dirección..."
-              className="w-full pl-10 pr-9 py-2.5 rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 text-xs sm:text-sm font-medium text-slate-800 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-sky-500/20 focus:border-sky-500 transition-all"
+              className="w-full pl-10 pr-9 py-2.5 rounded-2xl bg-slate-50 dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700/80 text-xs sm:text-sm font-medium text-slate-800 dark:text-white placeholder-slate-400 dark:placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-500/20 focus:border-sky-500 dark:focus:border-sky-400 transition-all"
             />
             {searchQuery && (
               <button
@@ -125,7 +125,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
         </div>
 
         {/* Barra de Filtro de Distritos y Ordenamiento */}
-        <div className="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800 flex flex-col gap-3">
+        <div className="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800/80 flex flex-col gap-3">
           <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
             {/* Píldoras de Distritos Frecuentes */}
             <div className="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-1 scrollbar-none">
@@ -133,8 +133,8 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
                 onClick={() => setSelectedDistrict('all')}
                 className={`px-3 py-1.5 rounded-xl text-xs font-bold shrink-0 transition-colors ${
                   selectedDistrict === 'all'
-                    ? 'bg-sky-600 dark:bg-sky-500 text-white shadow-xs'
-                    : 'bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300'
+                    ? 'bg-sky-600 dark:bg-gradient-to-r dark:from-sky-500 dark:to-blue-600 text-white shadow-xs dark:shadow-[0_0_15px_rgba(14,165,233,0.35)]'
+                    : 'bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200 dark:hover:bg-slate-750 dark:border dark:border-slate-700/60 text-slate-700 dark:text-slate-200'
                 }`}
               >
                 Todos los distritos ({businesses.length})
@@ -146,11 +146,11 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
                   onClick={() => setSelectedDistrict(dist)}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold shrink-0 transition-colors flex items-center gap-1.5 ${
                     selectedDistrict.toLowerCase() === dist.toLowerCase()
-                      ? 'bg-sky-600 dark:bg-sky-500 text-white shadow-xs'
-                      : 'bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300'
+                      ? 'bg-sky-600 dark:bg-gradient-to-r dark:from-sky-500 dark:to-blue-600 text-white shadow-xs dark:shadow-[0_0_15px_rgba(14,165,233,0.35)]'
+                      : 'bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200 dark:hover:bg-slate-750 dark:border dark:border-slate-700/60 text-slate-700 dark:text-slate-200'
                   }`}
                 >
-                  <MapPin className={`w-3 h-3 ${selectedDistrict.toLowerCase() === dist.toLowerCase() ? 'text-white' : 'text-rose-500'}`} />
+                  <MapPin className={`w-3 h-3 ${selectedDistrict.toLowerCase() === dist.toLowerCase() ? 'text-white' : 'text-rose-500 dark:text-rose-400'}`} />
                   <span>{dist}</span>
                   <span className={`text-[10px] ${selectedDistrict.toLowerCase() === dist.toLowerCase() ? 'text-sky-100' : 'text-slate-400 dark:text-slate-400'}`}>
                     ({count})
@@ -166,7 +166,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
                 <select
                   value={selectedDistrict}
                   onChange={(e) => setSelectedDistrict(e.target.value)}
-                  className="bg-slate-100 dark:bg-slate-800 hover:bg-slate-200/80 dark:hover:bg-slate-750 border border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200 text-xs font-bold py-1.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
+                  className="bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/80 dark:hover:bg-slate-750 border border-slate-200 dark:border-slate-700/80 text-slate-800 dark:text-slate-100 text-xs font-bold py-1.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
                 >
                   <option value="all">📍 Ver todos los distritos ({businesses.length})</option>
                   {Object.values(LIMA_ZONES).map(zone => {
@@ -197,7 +197,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
                 <select
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
-                  className="bg-slate-100 dark:bg-slate-800 hover:bg-slate-200/80 dark:hover:bg-slate-750 border border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200 text-xs font-bold py-1.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
+                  className="bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/80 dark:hover:bg-slate-750 border border-slate-200 dark:border-slate-700/80 text-slate-800 dark:text-slate-100 text-xs font-bold py-1.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
                 >
                   <option value="ranking" className="dark:bg-slate-900">Ranking Todo Lima</option>
                   <option value="rating" className="dark:bg-slate-900">Mayor Calificación (⭐)</option>
@@ -213,19 +213,19 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
 
       {/* Banner de Distrito Activo */}
       {selectedDistrict !== 'all' && (
-        <div className="bg-sky-50/90 dark:bg-sky-950/40 border border-sky-200/90 dark:border-sky-800/60 rounded-2xl p-4 mb-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-2xs">
+        <div className="bg-sky-50/90 dark:bg-gradient-to-r dark:from-sky-950/60 dark:via-indigo-950/40 dark:to-slate-900/80 border border-sky-200/90 dark:border-sky-800/70 rounded-2xl p-4 mb-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-2xs dark:shadow-[0_0_25px_rgba(14,165,233,0.12)]">
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl bg-sky-500 text-white flex items-center justify-center shrink-0 shadow-sm">
+            <div className="w-9 h-9 rounded-xl bg-sky-500 text-white flex items-center justify-center shrink-0 shadow-sm dark:shadow-[0_0_12px_rgba(14,165,233,0.4)]">
               <MapPin className="w-5 h-5" />
             </div>
             <div>
               <div className="text-xs sm:text-sm font-black text-slate-900 dark:text-white flex items-center gap-2">
                 <span>Especialistas en {selectedDistrict}</span>
-                <span className="text-[11px] font-bold bg-sky-100 dark:bg-sky-900/60 text-sky-800 dark:text-sky-200 px-2 py-0.5 rounded-full border border-sky-200 dark:border-sky-700">
+                <span className="text-[11px] font-bold bg-sky-100 dark:bg-sky-900/80 text-sky-800 dark:text-sky-200 px-2 py-0.5 rounded-full border border-sky-200 dark:border-sky-700">
                   {filteredBusinesses.length} {filteredBusinesses.length === 1 ? 'negocio' : 'negocios'}
                 </span>
               </div>
-              <div className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
+              <div className="text-[11px] text-slate-500 dark:text-slate-300 mt-0.5">
                 Zona: <strong>{activeZone}</strong> • Calificaciones comprobadas en Google Maps y WhatsApp directo.
               </div>
             </div>

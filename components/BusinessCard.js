@@ -48,7 +48,7 @@ export default function BusinessCard({ business, rank, onSelectDistrict }) {
   const getRankBadgeStyle = (r) => {
     if (r === 1) {
       return {
-        wrapper: 'bg-gradient-to-r from-amber-500/15 to-yellow-500/15 dark:from-amber-500/20 dark:to-yellow-500/20 border-amber-300 dark:border-amber-500/40 text-amber-900 dark:text-amber-300',
+        wrapper: 'bg-gradient-to-r from-amber-500/15 via-yellow-500/15 to-amber-500/10 dark:from-amber-500/25 dark:via-yellow-500/20 dark:to-amber-500/10 border-amber-300 dark:border-amber-400/60 text-amber-900 dark:text-amber-200 shadow-xs dark:shadow-[0_0_18px_rgba(245,158,11,0.25)]',
         badge: 'bg-amber-500 text-white',
         text: 'Oro • Top #1 Lima',
         icon: Award
@@ -56,7 +56,7 @@ export default function BusinessCard({ business, rank, onSelectDistrict }) {
     }
     if (r === 2) {
       return {
-        wrapper: 'bg-slate-100 dark:bg-slate-800 border-slate-300 dark:border-slate-600 text-slate-800 dark:text-slate-200',
+        wrapper: 'bg-slate-100 dark:bg-slate-800/90 border-slate-300 dark:border-slate-500/70 text-slate-800 dark:text-slate-100 shadow-xs dark:shadow-[0_0_15px_rgba(148,163,184,0.2)]',
         badge: 'bg-slate-700 text-white',
         text: 'Plata • Top #2',
         icon: Award
@@ -64,14 +64,14 @@ export default function BusinessCard({ business, rank, onSelectDistrict }) {
     }
     if (r === 3) {
       return {
-        wrapper: 'bg-orange-50 dark:bg-orange-950/40 border-orange-200 dark:border-orange-500/40 text-orange-900 dark:text-orange-300',
+        wrapper: 'bg-orange-50 dark:bg-orange-950/70 border-orange-200 dark:border-orange-500/60 text-orange-900 dark:text-orange-200 shadow-xs dark:shadow-[0_0_18px_rgba(249,115,22,0.25)]',
         badge: 'bg-orange-600 text-white',
         text: 'Bronce • Top #3',
         icon: Award
       };
     }
     return {
-      wrapper: 'bg-slate-50 dark:bg-slate-800/80 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300',
+      wrapper: 'bg-slate-50 dark:bg-sky-950/40 border-slate-200 dark:border-sky-800/60 text-slate-700 dark:text-sky-300 shadow-xs',
       badge: 'bg-slate-200 text-slate-700',
       text: `#${r} Verificado`,
       icon: ShieldCheck
@@ -82,7 +82,7 @@ export default function BusinessCard({ business, rank, onSelectDistrict }) {
   const RankIcon = rankStyle.icon;
 
   return (
-    <article className="open-card relative bg-white dark:bg-slate-900/95 rounded-3xl border border-slate-200/90 dark:border-slate-800 shadow-xs hover:border-sky-300/80 dark:hover:border-sky-500/50 p-6 sm:p-7 flex flex-col justify-between group transition-all duration-300">
+    <article className="open-card relative bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 shadow-xs dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)] hover:border-sky-300/80 dark:hover:border-sky-400/60 dark:hover:shadow-[0_15px_35px_-5px_rgba(14,165,233,0.2)] p-6 sm:p-7 flex flex-col justify-between group transition-all duration-300 backdrop-blur-sm">
       <div>
         {/* Fila superior: Ranking, Categoría y Rating */}
         <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
@@ -99,7 +99,7 @@ export default function BusinessCard({ business, rank, onSelectDistrict }) {
                 type="button"
                 onClick={() => onSelectDistrict(district)}
                 title={`Filtrar especialistas en ${district}`}
-                className="inline-flex items-center gap-1 text-[11px] font-bold text-rose-700 dark:text-rose-300 bg-rose-50 dark:bg-rose-950/50 hover:bg-rose-100 dark:hover:bg-rose-900/60 py-1 px-2.5 rounded-lg border border-rose-200/80 dark:border-rose-800/60 transition-colors cursor-pointer group/dist shadow-2xs"
+                className="inline-flex items-center gap-1 text-[11px] font-bold text-rose-700 dark:text-rose-300 bg-rose-50 dark:bg-rose-500/15 hover:bg-rose-100 dark:hover:bg-rose-500/25 py-1 px-2.5 rounded-lg border border-rose-200/80 dark:border-rose-500/40 dark:hover:border-rose-400/60 transition-colors cursor-pointer group/dist shadow-2xs dark:shadow-[0_0_12px_rgba(244,63,94,0.18)]"
               >
                 <MapPin className="w-3 h-3 text-rose-500 group-hover/dist:scale-110 transition-transform" />
                 <span>{district}</span>
@@ -114,10 +114,10 @@ export default function BusinessCard({ business, rank, onSelectDistrict }) {
 
           {/* Calificación de Google Maps */}
           {business.rating && (
-            <div className="inline-flex items-center gap-1.5 bg-amber-50/90 dark:bg-amber-950/40 border border-amber-200/80 dark:border-amber-800/50 px-2.5 py-1 rounded-xl shadow-2xs">
+            <div className="inline-flex items-center gap-1.5 bg-amber-50/90 dark:bg-amber-500/15 border border-amber-200/80 dark:border-amber-500/40 px-2.5 py-1 rounded-xl shadow-2xs dark:shadow-[0_0_12px_rgba(245,158,11,0.2)]">
               <Star className="w-4 h-4 text-amber-500 fill-amber-500" />
               <span className="font-black text-sm text-slate-900 dark:text-amber-200">{business.rating}</span>
-              <span className="text-[11px] text-slate-500 dark:text-slate-400 font-semibold">
+              <span className="text-[11px] text-slate-500 dark:text-slate-300 font-semibold">
                 ({business.reviewsCount ?? 0})
               </span>
             </div>
@@ -137,8 +137,8 @@ export default function BusinessCard({ business, rank, onSelectDistrict }) {
         )}
 
         {/* Dirección física legible */}
-        <div className="mt-4 flex items-start gap-2 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-          <MapPin className="w-4 h-4 text-slate-400 dark:text-slate-500 shrink-0 mt-0.5" />
+        <div className="mt-4 flex items-start gap-2 text-xs sm:text-sm text-slate-600 dark:text-slate-200 leading-relaxed">
+          <MapPin className="w-4 h-4 text-slate-400 dark:text-sky-400 shrink-0 mt-0.5" />
           <span className="line-clamp-2">{business.address || 'Lima, Perú'}</span>
         </div>
 
@@ -166,7 +166,7 @@ export default function BusinessCard({ business, rank, onSelectDistrict }) {
             href={waLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-500 hover:to-green-500 text-white font-black text-sm py-3 px-4 rounded-2xl shadow-sm hover:shadow-md transition-all active:scale-[0.99] text-center"
+            className="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-500 hover:to-green-500 dark:from-emerald-500 dark:to-green-500 dark:hover:from-emerald-400 dark:hover:to-green-400 text-white font-black text-sm py-3 px-4 rounded-2xl shadow-sm hover:shadow-md dark:shadow-[0_4px_25px_rgba(16,185,129,0.35)] transition-all active:scale-[0.99] text-center"
           >
             <MessageCircle className="w-4 h-4" />
             <span>Contactar por WhatsApp Directo</span>
@@ -182,7 +182,7 @@ export default function BusinessCard({ business, rank, onSelectDistrict }) {
           {telLink ? (
             <a
               href={telLink}
-              className="flex-1 inline-flex items-center justify-center gap-2 bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700/80 text-slate-800 dark:text-slate-100 font-bold text-xs sm:text-sm py-2.5 px-3 rounded-xl border border-slate-200/80 dark:border-slate-700 transition-colors"
+              className="flex-1 inline-flex items-center justify-center gap-2 bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-750 text-slate-800 dark:text-slate-100 font-bold text-xs sm:text-sm py-2.5 px-3 rounded-xl border border-slate-200/80 dark:border-slate-700/80 transition-colors"
             >
               <Phone className="w-3.5 h-3.5 text-slate-600 dark:text-slate-400" />
               <span className="truncate">{rawPhone}</span>
@@ -196,7 +196,7 @@ export default function BusinessCard({ business, rank, onSelectDistrict }) {
               className={`p-2.5 rounded-xl border transition-all text-xs font-bold flex items-center gap-1 ${
                 copied
                   ? 'bg-emerald-50 dark:bg-emerald-950/60 border-emerald-300 dark:border-emerald-700 text-emerald-700 dark:text-emerald-300'
-                  : 'bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700/80 border-slate-200/80 dark:border-slate-700 text-slate-600 dark:text-slate-300'
+                  : 'bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-750 border-slate-200/80 dark:border-slate-700/80 text-slate-600 dark:text-slate-200'
               }`}
               title="Copiar número"
             >
@@ -210,7 +210,7 @@ export default function BusinessCard({ business, rank, onSelectDistrict }) {
               href={business.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700/80 border border-slate-200/80 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors"
+              className="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-750 border border-slate-200/80 dark:border-slate-700/80 text-slate-600 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white transition-colors"
               title="Visitar sitio web oficial"
             >
               <Globe className="w-4 h-4" />

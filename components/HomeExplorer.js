@@ -133,7 +133,7 @@ export default function HomeExplorer({ categories = [] }) {
     <div className="w-full">
       {/* Barra de Búsqueda Interactiva con Filtro de Distrito & Filtros Rápidos */}
       <div className="relative max-w-4xl mx-auto -mt-8 sm:-mt-10 px-4 sm:px-6 z-20">
-        <div className="bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl p-3 sm:p-4 rounded-3xl shadow-xl shadow-slate-900/10 dark:shadow-slate-950/50 border border-slate-200/90 dark:border-slate-800 transition-all">
+        <div className="bg-white/95 dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/85 backdrop-blur-xl p-3 sm:p-4 rounded-3xl shadow-xl shadow-slate-900/10 dark:shadow-[0_20px_50px_rgba(0,0,0,0.6)] border border-slate-200/90 dark:border-slate-800/90 transition-all">
           <div className="flex flex-col sm:flex-row items-stretch gap-2.5">
             {/* Input de búsqueda por servicio o profesional */}
             <div className="relative flex-grow flex items-center">
@@ -143,7 +143,7 @@ export default function HomeExplorer({ categories = [] }) {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="¿Qué servicio o especialista necesitas? (Ej. Gasfiteros, Dentistas...)"
-                className="w-full pl-12 pr-10 py-3.5 sm:py-4 rounded-2xl bg-slate-50 dark:bg-slate-800/80 border border-slate-200/80 dark:border-slate-700 text-sm sm:text-base font-medium text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-sky-500/30 focus:border-sky-500 transition-all"
+                className="w-full pl-12 pr-10 py-3.5 sm:py-4 rounded-2xl bg-slate-50 dark:bg-slate-800/90 border border-slate-200/80 dark:border-slate-700/80 text-sm sm:text-base font-medium text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30 focus:border-sky-500 dark:focus:border-sky-400 transition-all"
               />
               {searchQuery && (
                 <button
@@ -163,7 +163,7 @@ export default function HomeExplorer({ categories = [] }) {
                 <select
                   value={selectedDistrict}
                   onChange={(e) => setSelectedDistrict(e.target.value)}
-                  className="w-full h-full pl-9 pr-8 py-3 sm:py-4 rounded-2xl bg-slate-50 dark:bg-slate-800/80 hover:bg-slate-100/80 dark:hover:bg-slate-750 border border-slate-200/80 dark:border-slate-700 text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-sky-500/30 focus:border-sky-500 cursor-pointer appearance-none transition-all shadow-2xs"
+                  className="w-full h-full pl-9 pr-8 py-3 sm:py-4 rounded-2xl bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100/80 dark:hover:bg-slate-750 border border-slate-200/80 dark:border-slate-700/80 text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-sky-500/30 focus:border-sky-500 cursor-pointer appearance-none transition-all shadow-2xs"
                 >
                   <option value="all" className="dark:bg-slate-900">📍 Toda Lima Metropolitana</option>
                   {Object.values(LIMA_ZONES).map(zone => (
@@ -197,8 +197,8 @@ export default function HomeExplorer({ categories = [] }) {
                   }}
                   className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl shrink-0 transition-all duration-200 ${
                     isSelected
-                      ? 'bg-slate-900 dark:bg-sky-600 text-white shadow-sm'
-                      : 'bg-slate-100 dark:bg-slate-800 hover:bg-slate-200/80 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300'
+                      ? 'bg-slate-900 dark:bg-gradient-to-r dark:from-sky-500 dark:to-blue-600 text-white shadow-sm dark:shadow-[0_0_15px_rgba(14,165,233,0.35)]'
+                      : 'bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/80 dark:hover:bg-slate-750 dark:border dark:border-slate-700/60 text-slate-700 dark:text-slate-200'
                   }`}
                 >
                   <Icon className={`w-3.5 h-3.5 ${isSelected ? 'text-sky-400 dark:text-white' : 'text-slate-500 dark:text-slate-400'}`} />
@@ -319,14 +319,14 @@ export default function HomeExplorer({ categories = [] }) {
         </div>
 
         {/* Barra de Abecedario Interactivo (Índice A - Z) */}
-        <div className="bg-white dark:bg-slate-900/95 rounded-3xl border border-slate-200/90 dark:border-slate-800 p-3 sm:p-4 mb-8 shadow-xs">
+        <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/85 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-3 sm:p-4 mb-8 shadow-xs dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)]">
           <div className="flex items-center justify-between gap-1 sm:gap-1.5 overflow-x-auto pb-1 scrollbar-none">
             <button
               onClick={() => setSelectedLetter('all')}
               className={`px-3 py-2 rounded-xl text-xs font-black shrink-0 transition-all ${
                 selectedLetter === 'all'
-                  ? 'bg-slate-900 dark:bg-sky-600 text-white shadow-xs'
-                  : 'bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300'
+                  ? 'bg-slate-900 dark:bg-gradient-to-r dark:from-sky-500 dark:to-blue-600 text-white shadow-xs dark:shadow-[0_0_15px_rgba(14,165,233,0.35)]'
+                  : 'bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 dark:border dark:border-slate-700/60'
               }`}
             >
               Todas (A-Z)
@@ -345,10 +345,10 @@ export default function HomeExplorer({ categories = [] }) {
                   title={hasItems ? `${count} categorías que empiezan con "${letter}"` : `Sin categorías con "${letter}"`}
                   className={`w-8 h-8 sm:w-9 sm:h-9 rounded-xl text-xs font-black shrink-0 flex items-center justify-center transition-all ${
                     isSelected
-                      ? 'bg-sky-600 dark:bg-sky-500 text-white shadow-md scale-105 ring-2 ring-sky-300 dark:ring-sky-600'
+                      ? 'bg-sky-600 dark:bg-gradient-to-r dark:from-sky-500 dark:to-blue-600 text-white shadow-md dark:shadow-[0_0_18px_rgba(14,165,233,0.4)] scale-105 ring-2 ring-sky-300 dark:ring-sky-400'
                       : hasItems
-                      ? 'bg-slate-100 dark:bg-slate-800 hover:bg-sky-100 dark:hover:bg-sky-950/60 hover:text-sky-800 dark:hover:text-sky-300 text-slate-800 dark:text-slate-200 cursor-pointer hover:scale-105'
-                      : 'bg-slate-50 dark:bg-slate-850/60 text-slate-300 dark:text-slate-700 cursor-not-allowed opacity-35'
+                      ? 'bg-slate-100 dark:bg-slate-800/90 hover:bg-sky-100 dark:hover:bg-sky-950/60 hover:text-sky-800 dark:hover:text-sky-300 text-slate-800 dark:text-slate-200 cursor-pointer hover:scale-105 dark:border dark:border-slate-700/60'
+                      : 'bg-slate-50 dark:bg-slate-800/20 text-slate-300 dark:text-slate-600 cursor-not-allowed opacity-35'
                   }`}
                 >
                   {letter}
@@ -359,9 +359,9 @@ export default function HomeExplorer({ categories = [] }) {
 
           {/* Banner de Letra Activa */}
           {selectedLetter !== 'all' && (
-            <div className="mt-3 pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs font-bold text-slate-600 dark:text-slate-300">
+            <div className="mt-3 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between text-xs font-bold text-slate-600 dark:text-slate-300">
               <span className="flex items-center gap-1.5">
-                <span className="w-5 h-5 rounded-lg bg-sky-500 text-white flex items-center justify-center font-black text-[11px]">
+                <span className="w-5 h-5 rounded-lg bg-sky-500 text-white flex items-center justify-center font-black text-[11px] shadow-sm dark:shadow-[0_0_10px_rgba(14,165,233,0.4)]">
                   {selectedLetter}
                 </span>
                 <span>
@@ -393,7 +393,7 @@ export default function HomeExplorer({ categories = [] }) {
                 <Link
                   key={cat.slug}
                   href={categoryHref}
-                  className="open-card bg-white dark:bg-slate-900/95 rounded-3xl border border-slate-200/90 dark:border-slate-800 p-0 flex flex-col justify-between group relative overflow-hidden shadow-xs hover:border-sky-300 dark:hover:border-sky-500/50 transition-all hover:shadow-md"
+                  className="open-card bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-0 flex flex-col justify-between group relative overflow-hidden shadow-xs hover:border-sky-300 dark:hover:border-sky-400/60 transition-all hover:shadow-md dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] dark:hover:shadow-[0_15px_35px_-5px_rgba(14,165,233,0.2)]"
                 >
                   {/* Image Header */}
                   <div className="relative w-full h-48 overflow-hidden bg-slate-100 dark:bg-slate-800">
@@ -403,23 +403,23 @@ export default function HomeExplorer({ categories = [] }) {
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       onError={(e) => { e.target.style.display = 'none' }}
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-900/30 to-transparent" />
                     
                     {/* Status badges absolute on top of image */}
                     <div className="absolute bottom-3 left-4 right-4 flex items-center justify-between gap-2">
                       <div className="flex items-center gap-1.5 bg-white/95 dark:bg-slate-900/90 backdrop-blur-md py-1 px-2.5 rounded-lg text-slate-700 dark:text-slate-200 text-[11px] font-bold shadow-sm border border-slate-200/50 dark:border-slate-700/60">
-                        <NicheIcon className="w-3.5 h-3.5 text-sky-500" />
+                        <NicheIcon className="w-3.5 h-3.5 text-sky-500 dark:text-sky-400" />
                         <span className="capitalize">{cat.niche}</span>
                       </div>
 
                       <div className="flex items-center gap-1.5">
                         {/* Indicador de Letra Alfabética */}
-                        <span className="bg-slate-900/80 dark:bg-slate-950/80 backdrop-blur-md text-white font-black text-[11px] px-2 py-1 rounded-lg">
+                        <span className="bg-slate-900/80 dark:bg-slate-950/90 backdrop-blur-md text-white font-black text-[11px] px-2 py-1 rounded-lg border dark:border-slate-700/60">
                           {firstLetter}
                         </span>
 
                         {cat.hasData ? (
-                          <span className="inline-flex items-center gap-1.5 text-[11px] font-bold text-white bg-emerald-500/90 backdrop-blur-md px-2.5 py-1 rounded-full shadow-sm">
+                          <span className="inline-flex items-center gap-1.5 text-[11px] font-bold text-white bg-emerald-500/90 dark:bg-emerald-500/80 backdrop-blur-md px-2.5 py-1 rounded-full shadow-sm dark:shadow-[0_0_12px_rgba(16,185,129,0.3)]">
                             <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
                             Directorio listo
                           </span>
@@ -440,21 +440,21 @@ export default function HomeExplorer({ categories = [] }) {
                     </h3>
 
                     {/* Hook persuasivo */}
-                    <p className="mt-2.5 text-xs sm:text-sm text-slate-500 dark:text-slate-400 line-clamp-2 leading-relaxed">
+                    <p className="mt-2.5 text-xs sm:text-sm text-slate-500 dark:text-slate-300 line-clamp-2 leading-relaxed">
                       {cat.heroHook}
                     </p>
 
                     {/* Distrito Activo Badge en Card */}
                     {selectedDistrict !== 'all' && (
-                      <div className="mt-3.5 inline-flex items-center gap-1.5 text-xs font-bold text-sky-700 dark:text-sky-300 bg-sky-50 dark:bg-sky-950/50 px-2.5 py-1 rounded-xl border border-sky-200/80 dark:border-sky-800/60">
+                      <div className="mt-3.5 inline-flex items-center gap-1.5 text-xs font-bold text-sky-700 dark:text-rose-300 bg-sky-50 dark:bg-rose-500/15 px-2.5 py-1 rounded-xl border border-sky-200/80 dark:border-rose-500/30 dark:shadow-[0_0_10px_rgba(244,63,94,0.15)]">
                         <MapPin className="w-3 h-3 text-rose-500" />
                         <span>Ver especialistas en {selectedDistrict}</span>
-                        <ArrowRight className="w-3 h-3 text-sky-500" />
+                        <ArrowRight className="w-3 h-3 text-sky-500 dark:text-rose-300" />
                       </div>
                     )}
 
                     {/* Mini beneficios del rubro */}
-                    <div className="mt-4 flex items-center gap-3 text-[11px] font-semibold text-slate-500 dark:text-slate-400">
+                    <div className="mt-4 flex items-center gap-3 text-[11px] font-semibold text-slate-500 dark:text-slate-300">
                       <span className="flex items-center gap-1">
                         <Star className="w-3 h-3 text-amber-400 fill-amber-400" />
                         <span>4.8+ Google</span>
@@ -468,11 +468,11 @@ export default function HomeExplorer({ categories = [] }) {
                   </div>
 
                   {/* Footer de la tarjeta con subdominio y flecha de apertura */}
-                  <div className="mt-auto pt-4 pb-6 px-6 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+                  <div className="mt-auto pt-4 pb-6 px-6 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between">
                     <span className="text-xs font-mono font-bold text-slate-500 dark:text-slate-400 group-hover:text-sky-600 dark:group-hover:text-sky-400 transition-colors">
                       todolima.com/{cat.slug}
                     </span>
-                    <div className="w-8 h-8 rounded-xl bg-slate-50 dark:bg-slate-800 group-hover:bg-sky-50 dark:group-hover:bg-sky-950/50 text-slate-400 dark:text-slate-500 group-hover:text-sky-600 dark:group-hover:text-sky-400 flex items-center justify-center transition-colors">
+                    <div className="w-8 h-8 rounded-xl bg-slate-50 dark:bg-slate-800/80 group-hover:bg-sky-50 dark:group-hover:bg-sky-500/20 text-slate-400 dark:text-slate-400 group-hover:text-sky-600 dark:group-hover:text-sky-300 flex items-center justify-center transition-colors dark:border dark:border-slate-700/50">
                       <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                     </div>
                   </div>
@@ -481,8 +481,8 @@ export default function HomeExplorer({ categories = [] }) {
             })}
           </div>
         ) : (
-          <div className="bg-white dark:bg-slate-900/95 rounded-3xl border border-slate-200 dark:border-slate-800 p-12 text-center max-w-xl mx-auto my-8 shadow-sm">
-            <div className="w-16 h-16 rounded-2xl bg-sky-50 dark:bg-sky-950/50 text-sky-600 dark:text-sky-400 flex items-center justify-center mx-auto mb-4 border border-sky-100 dark:border-sky-800/60">
+          <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/85 rounded-3xl border border-slate-200 dark:border-slate-800/90 p-12 text-center max-w-xl mx-auto my-8 shadow-sm dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)]">
+            <div className="w-16 h-16 rounded-2xl bg-sky-50 dark:bg-sky-500/15 text-sky-600 dark:text-sky-400 flex items-center justify-center mx-auto mb-4 border border-sky-100 dark:border-sky-500/30 dark:shadow-[0_0_15px_rgba(14,165,233,0.2)]">
               <Search className="w-8 h-8" />
             </div>
             <h3 className="text-xl font-black text-slate-900 dark:text-white">
@@ -504,26 +504,26 @@ export default function HomeExplorer({ categories = [] }) {
       </section>
 
       {/* Sección de Distritos Populares en Lima — Filtro Interactivo por Zona */}
-      <section id="cobertura-distritos" className="bg-white dark:bg-slate-900/50 border-y border-slate-200/80 dark:border-slate-800 py-16 scroll-mt-20">
+      <section id="cobertura-distritos" className="bg-white dark:bg-slate-950/40 border-y border-slate-200/80 dark:border-slate-800/80 py-16 scroll-mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-10">
-            <span className="text-xs font-black uppercase tracking-widest text-sky-600 dark:text-sky-400 bg-sky-50 dark:bg-sky-950/50 py-1 px-3.5 rounded-full border border-sky-200 dark:border-sky-800/60">
+            <span className="text-xs font-black uppercase tracking-widest text-sky-600 dark:text-sky-400 bg-sky-50 dark:bg-sky-500/15 py-1 px-3.5 rounded-full border border-sky-200 dark:border-sky-500/30 dark:shadow-[0_0_12px_rgba(14,165,233,0.2)]">
               Cobertura en Lima Metropolitana
             </span>
             <h2 className="mt-4 text-2xl sm:text-4xl font-black text-slate-900 dark:text-white tracking-tight">
               Especialistas con Cobertura en Todos los Distritos
             </h2>
-            <p className="mt-2.5 text-sm sm:text-base text-slate-500 dark:text-slate-400">
+            <p className="mt-2.5 text-sm sm:text-base text-slate-500 dark:text-slate-300">
               Selecciona tu distrito para encontrar los especialistas y servicios mejor valorados cerca de ti en orden alfabético.
             </p>
 
             {selectedDistrict !== 'all' && (
-              <div className="mt-4 inline-flex items-center gap-2 bg-sky-50 dark:bg-sky-950/50 border border-sky-200 dark:border-sky-800/60 px-4 py-2 rounded-2xl text-xs font-bold text-sky-800 dark:text-sky-200 shadow-2xs">
+              <div className="mt-4 inline-flex items-center gap-2 bg-sky-50 dark:bg-rose-500/15 border border-sky-200 dark:border-rose-500/30 px-4 py-2 rounded-2xl text-xs font-bold text-sky-800 dark:text-rose-200 shadow-2xs dark:shadow-[0_0_15px_rgba(244,63,94,0.18)]">
                 <MapPin className="w-4 h-4 text-rose-500" />
                 <span>Distrito seleccionado: <strong>{selectedDistrict}</strong></span>
                 <button
                   onClick={() => setSelectedDistrict('all')}
-                  className="ml-2 text-rose-600 dark:text-rose-400 hover:text-rose-800 dark:hover:text-rose-300 underline font-bold"
+                  className="ml-2 text-rose-600 dark:text-rose-300 hover:text-rose-800 dark:hover:text-rose-100 underline font-bold"
                 >
                   Quitar filtro
                 </button>
@@ -550,13 +550,13 @@ export default function HomeExplorer({ categories = [] }) {
                   }}
                   className={`text-left rounded-2xl p-4 transition-all duration-200 group relative border cursor-pointer ${
                     isSelected
-                      ? 'bg-slate-900 dark:bg-sky-900 text-white border-sky-500 ring-2 ring-sky-400 shadow-md'
-                      : 'bg-slate-50/80 dark:bg-slate-800/70 hover:bg-white dark:hover:bg-slate-800 border-slate-200/80 dark:border-slate-700/80 hover:shadow-md hover:border-sky-300 dark:hover:border-sky-500'
+                      ? 'bg-slate-900 dark:bg-gradient-to-r dark:from-sky-500 dark:to-blue-600 text-white border-sky-500 dark:border-sky-400 ring-2 ring-sky-400 shadow-md dark:shadow-[0_0_18px_rgba(14,165,233,0.35)]'
+                      : 'bg-slate-50/80 dark:bg-slate-900/80 hover:bg-white dark:hover:bg-slate-850 border-slate-200/80 dark:border-slate-800/90 hover:shadow-md hover:border-sky-300 dark:hover:border-sky-500/50 dark:hover:shadow-[0_0_15px_rgba(14,165,233,0.15)]'
                   }`}
                 >
                   <div className="flex items-center justify-between mb-1.5">
                     <div className="flex items-center gap-1.5 text-rose-500">
-                      <MapPin className={`w-3.5 h-3.5 shrink-0 ${isSelected ? 'text-rose-400 scale-110' : 'group-hover:scale-110'} transition-transform`} />
+                      <MapPin className={`w-3.5 h-3.5 shrink-0 ${isSelected ? 'text-white scale-110' : 'group-hover:scale-110'} transition-transform`} />
                       <span className={`text-xs font-black ${isSelected ? 'text-white' : 'text-slate-900 dark:text-slate-100 group-hover:text-sky-600 dark:group-hover:text-sky-400'} transition-colors`}>
                         {dist.name}
                       </span>
@@ -565,10 +565,10 @@ export default function HomeExplorer({ categories = [] }) {
                       <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                     )}
                   </div>
-                  <p className={`text-[11px] font-medium ${isSelected ? 'text-slate-300' : 'text-slate-400 dark:text-slate-400'}`}>
+                  <p className={`text-[11px] font-medium ${isSelected ? 'text-white/80' : 'text-slate-400 dark:text-slate-400'}`}>
                     {dist.label}
                   </p>
-                  <div className={`mt-2 text-[10px] font-bold ${isSelected ? 'text-sky-300' : 'text-sky-600 dark:text-sky-400 group-hover:translate-x-0.5'} transition-transform`}>
+                  <div className={`mt-2 text-[10px] font-bold ${isSelected ? 'text-white font-black' : 'text-sky-600 dark:text-sky-400 group-hover:translate-x-0.5'} transition-transform`}>
                     {isSelected ? '✓ Distrito Activo' : 'Ver especialistas →'}
                   </div>
                 </button>
@@ -581,7 +581,7 @@ export default function HomeExplorer({ categories = [] }) {
             <button
               type="button"
               onClick={() => setShowAllDistricts(!showAllDistricts)}
-              className="inline-flex items-center gap-2 text-xs font-bold text-slate-700 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700 py-2.5 px-5 rounded-2xl transition-all shadow-2xs"
+              className="inline-flex items-center gap-2 text-xs font-bold text-slate-700 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white bg-slate-100 dark:bg-slate-900/90 hover:bg-slate-200 dark:hover:bg-slate-800 border border-slate-200 dark:border-slate-800 py-2.5 px-5 rounded-2xl transition-all shadow-2xs dark:shadow-md"
             >
               <Compass className="w-4 h-4 text-sky-600 dark:text-sky-400" />
               <span>{showAllDistricts ? 'Ocultar mapa completo de distritos' : 'Explorar los 43 distritos de Lima Metropolitana por Zonas'}</span>
@@ -591,16 +591,16 @@ export default function HomeExplorer({ categories = [] }) {
 
           {/* Desglose de los 43 distritos agrupados por Zonas */}
           {showAllDistricts && (
-            <div className="mt-8 bg-slate-50 dark:bg-slate-900/90 rounded-3xl border border-slate-200 dark:border-slate-800 p-6 sm:p-8 animate-in fade-in slide-in-from-top-2 duration-300">
+            <div className="mt-8 bg-slate-50 dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/85 rounded-3xl border border-slate-200 dark:border-slate-800/90 p-6 sm:p-8 animate-in fade-in slide-in-from-top-2 duration-300 dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)]">
               <h3 className="text-sm font-black text-slate-900 dark:text-white uppercase tracking-wider mb-6 text-center">
                 Mapa Integral de Lima Metropolitana y Callao
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {Object.values(LIMA_ZONES).map(zone => (
-                  <div key={zone.id} className="bg-white dark:bg-slate-800/90 rounded-2xl p-5 border border-slate-200/90 dark:border-slate-700/80 shadow-2xs">
-                    <div className="flex items-center justify-between mb-3 border-b border-slate-100 dark:border-slate-700 pb-2">
+                  <div key={zone.id} className="bg-white dark:bg-slate-900/90 rounded-2xl p-5 border border-slate-200/90 dark:border-slate-800/90 shadow-2xs">
+                    <div className="flex items-center justify-between mb-3 border-b border-slate-100 dark:border-slate-800/80 pb-2">
                       <h4 className="font-black text-xs text-slate-900 dark:text-white uppercase tracking-wide flex items-center gap-1.5">
-                        <span className="w-2 h-2 rounded-full bg-sky-500" />
+                        <span className="w-2 h-2 rounded-full bg-sky-500 dark:shadow-[0_0_8px_rgba(14,165,233,0.5)]" />
                         <span>{zone.name}</span>
                       </h4>
                       <span className="text-[10px] text-slate-400 dark:text-slate-400 font-medium">{zone.description}</span>
@@ -619,8 +619,8 @@ export default function HomeExplorer({ categories = [] }) {
                             }}
                             className={`text-[11px] font-bold px-2.5 py-1 rounded-xl transition-all ${
                               isSelected
-                                ? 'bg-slate-900 dark:bg-sky-600 text-white shadow-xs'
-                                : 'bg-slate-100 dark:bg-slate-700/70 hover:bg-sky-50 dark:hover:bg-sky-900/50 hover:text-sky-700 dark:hover:text-sky-300 text-slate-700 dark:text-slate-300'
+                                ? 'bg-slate-900 dark:bg-gradient-to-r dark:from-sky-500 dark:to-blue-600 text-white shadow-xs dark:shadow-[0_0_12px_rgba(14,165,233,0.35)]'
+                                : 'bg-slate-100 dark:bg-slate-800/90 hover:bg-sky-50 dark:hover:bg-sky-950/60 hover:text-sky-700 dark:hover:text-sky-300 text-slate-700 dark:text-slate-200 dark:border dark:border-slate-700/60'
                             }`}
                           >
                             {d}
@@ -636,10 +636,10 @@ export default function HomeExplorer({ categories = [] }) {
 
           {/* Hub de Servicios Rápidos para el Distrito Seleccionado */}
           {selectedDistrict !== 'all' && (
-            <div className="mt-10 bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white p-6 sm:p-8 rounded-3xl shadow-xl">
+            <div className="mt-10 bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white p-6 sm:p-8 rounded-3xl shadow-xl dark:shadow-[0_15px_40px_rgba(14,165,233,0.15)] border dark:border-slate-800">
               <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 mb-4 pb-4 border-b border-white/10">
                 <div>
-                  <span className="text-[10px] font-black uppercase tracking-widest text-emerald-400 bg-emerald-950/80 px-2.5 py-1 rounded-full border border-emerald-800">
+                  <span className="text-[10px] font-black uppercase tracking-widest text-emerald-400 bg-emerald-950/80 px-2.5 py-1 rounded-full border border-emerald-800 dark:shadow-[0_0_12px_rgba(16,185,129,0.25)]">
                     Servicios Cercanos
                   </span>
                   <h3 className="text-lg sm:text-xl font-black mt-2">
@@ -712,7 +712,7 @@ export default function HomeExplorer({ categories = [] }) {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Card 1: Salud y Medicina */}
-          <div className="open-card relative rounded-3xl overflow-hidden border border-slate-200/90 dark:border-slate-800 shadow-sm bg-white dark:bg-slate-900/95 group flex flex-col justify-between">
+          <div className="open-card relative rounded-3xl overflow-hidden border border-slate-200/90 dark:border-slate-800/90 shadow-sm dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)] bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 group flex flex-col justify-between dark:hover:border-sky-400/50">
             <div className="relative h-64 sm:h-72 w-full overflow-hidden">
               <img
                 src="/images/salud-feature.jpg"
@@ -721,7 +721,7 @@ export default function HomeExplorer({ categories = [] }) {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/30 to-transparent" />
               
-              <div className="absolute top-4 left-4 inline-flex items-center gap-1.5 bg-rose-500/90 text-white text-[11px] font-black px-3 py-1 rounded-xl backdrop-blur-md shadow-sm">
+              <div className="absolute top-4 left-4 inline-flex items-center gap-1.5 bg-rose-500/90 text-white text-[11px] font-black px-3 py-1 rounded-xl backdrop-blur-md shadow-sm dark:shadow-[0_0_12px_rgba(244,63,94,0.35)]">
                 <Stethoscope className="w-3.5 h-3.5" />
                 <span>Salud & Medicina</span>
               </div>
@@ -738,13 +738,13 @@ export default function HomeExplorer({ categories = [] }) {
             </div>
 
             <div className="p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-              <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed max-w-sm">
+              <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-300 leading-relaxed max-w-sm">
                 Doctores, dentistas, pediatras y dermatólogos con opiniones auditadas y citas inmediatas por WhatsApp.
               </p>
 
               <Link
                 href={selectedDistrict !== 'all' ? `/doctores?distrito=${encodeURIComponent(selectedDistrict)}` : '/doctores'}
-                className="shrink-0 inline-flex items-center gap-2 bg-slate-900 dark:bg-sky-600 hover:bg-sky-600 dark:hover:bg-sky-500 text-white font-bold text-xs py-3 px-5 rounded-2xl transition-colors shadow-sm"
+                className="shrink-0 inline-flex items-center gap-2 bg-slate-900 dark:bg-gradient-to-r dark:from-sky-500 dark:to-blue-600 hover:bg-sky-600 dark:hover:from-sky-400 dark:hover:to-blue-500 text-white font-bold text-xs py-3 px-5 rounded-2xl transition-all shadow-sm dark:shadow-[0_0_18px_rgba(14,165,233,0.35)]"
               >
                 <span>Ver Fichas Médicas</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -753,7 +753,7 @@ export default function HomeExplorer({ categories = [] }) {
           </div>
 
           {/* Card 2: Hogar y Reparaciones */}
-          <div className="open-card relative rounded-3xl overflow-hidden border border-slate-200/90 dark:border-slate-800 shadow-sm bg-white dark:bg-slate-900/95 group flex flex-col justify-between">
+          <div className="open-card relative rounded-3xl overflow-hidden border border-slate-200/90 dark:border-slate-800/90 shadow-sm dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)] bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 group flex flex-col justify-between dark:hover:border-amber-400/50">
             <div className="relative h-64 sm:h-72 w-full overflow-hidden">
               <img
                 src="/images/hogar-feature.jpg"
@@ -762,7 +762,7 @@ export default function HomeExplorer({ categories = [] }) {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/30 to-transparent" />
               
-              <div className="absolute top-4 left-4 inline-flex items-center gap-1.5 bg-amber-500/90 text-white text-[11px] font-black px-3 py-1 rounded-xl backdrop-blur-md shadow-sm">
+              <div className="absolute top-4 left-4 inline-flex items-center gap-1.5 bg-amber-500/90 text-white text-[11px] font-black px-3 py-1 rounded-xl backdrop-blur-md shadow-sm dark:shadow-[0_0_12px_rgba(245,158,11,0.35)]">
                 <Wrench className="w-3.5 h-3.5" />
                 <span>Hogar & Reparaciones</span>
               </div>
@@ -779,13 +779,13 @@ export default function HomeExplorer({ categories = [] }) {
             </div>
 
             <div className="p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-              <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed max-w-sm">
+              <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-300 leading-relaxed max-w-sm">
                 Gasfiteros, electricistas, cerrajeros y técnicos de electrodomésticos con respuesta rápida en tu distrito.
               </p>
 
               <Link
                 href={selectedDistrict !== 'all' ? `/gasfiteros?distrito=${encodeURIComponent(selectedDistrict)}` : '/gasfiteros'}
-                className="shrink-0 inline-flex items-center gap-2 bg-slate-900 dark:bg-amber-600 hover:bg-amber-600 dark:hover:bg-amber-500 text-white font-bold text-xs py-3 px-5 rounded-2xl transition-colors shadow-sm"
+                className="shrink-0 inline-flex items-center gap-2 bg-slate-900 dark:bg-gradient-to-r dark:from-amber-500 dark:to-orange-600 hover:bg-amber-600 dark:hover:from-amber-400 dark:hover:to-orange-500 text-white font-bold text-xs py-3 px-5 rounded-2xl transition-all shadow-sm dark:shadow-[0_0_18px_rgba(245,158,11,0.35)]"
               >
                 <span>Ver Técnicos Listos</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -797,9 +797,9 @@ export default function HomeExplorer({ categories = [] }) {
 
       {/* Sección: ¿Cómo funciona Todo Lima? (Open Design 3-Column con Sello 3D) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-14 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white p-8 sm:p-10 rounded-3xl shadow-xl">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-14 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white p-8 sm:p-10 rounded-3xl shadow-xl dark:shadow-[0_15px_40px_rgba(0,0,0,0.6)] border dark:border-slate-800">
           <div className="max-w-2xl">
-            <span className="text-xs font-bold uppercase tracking-widest text-emerald-400 bg-emerald-950/80 py-1 px-3.5 rounded-full border border-emerald-800">
+            <span className="text-xs font-bold uppercase tracking-widest text-emerald-400 bg-emerald-950/80 py-1 px-3.5 rounded-full border border-emerald-800 dark:shadow-[0_0_12px_rgba(16,185,129,0.25)]">
               Sello de Confianza Oficial
             </span>
             <h2 className="mt-4 text-2xl sm:text-4xl font-black text-white tracking-tight">
@@ -820,32 +820,32 @@ export default function HomeExplorer({ categories = [] }) {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white dark:bg-slate-900/95 rounded-3xl border border-slate-200/90 dark:border-slate-800 p-8 shadow-xs hover:shadow-md transition-shadow">
-            <div className="w-12 h-12 rounded-2xl bg-sky-500/10 text-sky-600 dark:text-sky-400 flex items-center justify-center font-black text-xl mb-5">
+          <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-8 shadow-xs hover:shadow-md dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] transition-all">
+            <div className="w-12 h-12 rounded-2xl bg-sky-500/10 dark:bg-sky-500/15 text-sky-600 dark:text-sky-300 dark:border dark:border-sky-500/30 dark:shadow-[0_0_12px_rgba(14,165,233,0.25)] flex items-center justify-center font-black text-xl mb-5">
               1
             </div>
             <h3 className="text-lg font-black text-slate-900 dark:text-white">100% Datos de Google Maps</h3>
-            <p className="mt-2 text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+            <p className="mt-2 text-sm text-slate-500 dark:text-slate-300 leading-relaxed">
               Analizamos de forma automática el volumen de reseñas, antigüedad y calificaciones reales otorgadas por clientes en Lima.
             </p>
           </div>
 
-          <div className="bg-white dark:bg-slate-900/95 rounded-3xl border border-slate-200/90 dark:border-slate-800 p-8 shadow-xs hover:shadow-md transition-shadow">
-            <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-black text-xl mb-5">
+          <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-8 shadow-xs hover:shadow-md dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] transition-all">
+            <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 dark:bg-emerald-500/15 text-emerald-600 dark:text-emerald-300 dark:border dark:border-emerald-500/30 dark:shadow-[0_0_12px_rgba(16,185,129,0.25)] flex items-center justify-center font-black text-xl mb-5">
               2
             </div>
             <h3 className="text-lg font-black text-slate-900 dark:text-white">Contacto Directo sin Cobros</h3>
-            <p className="mt-2 text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+            <p className="mt-2 text-sm text-slate-500 dark:text-slate-300 leading-relaxed">
               No somos un intermediario que te exige tarjetas ni datos personales. El botón de WhatsApp te conecta directo al teléfono del especialista.
             </p>
           </div>
 
-          <div className="bg-white dark:bg-slate-900/95 rounded-3xl border border-slate-200/90 dark:border-slate-800 p-8 shadow-xs hover:shadow-md transition-shadow">
-            <div className="w-12 h-12 rounded-2xl bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 flex items-center justify-center font-black text-xl mb-5">
+          <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-8 shadow-xs hover:shadow-md dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] transition-all">
+            <div className="w-12 h-12 rounded-2xl bg-indigo-500/10 dark:bg-indigo-500/15 text-indigo-600 dark:text-indigo-300 dark:border dark:border-indigo-500/30 dark:shadow-[0_0_12px_rgba(99,102,241,0.25)] flex items-center justify-center font-black text-xl mb-5">
               3
             </div>
             <h3 className="text-lg font-black text-slate-900 dark:text-white">Actualización Permanente</h3>
-            <p className="mt-2 text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+            <p className="mt-2 text-sm text-slate-500 dark:text-slate-300 leading-relaxed">
               Nuestros robots de Playwright auditan continuamente teléfonos, direcciones y estado de los locales en toda Lima Metropolitana.
             </p>
           </div>
