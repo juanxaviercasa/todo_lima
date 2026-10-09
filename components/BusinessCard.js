@@ -16,28 +16,9 @@ import {
   Sparkles
 } from 'lucide-react';
 import { buildClaimListingLink } from '../lib/contact';
+import { extractDistrict } from '../lib/districts';
 
-// Distritos comunes en Lima para etiquetado inteligente
-const LIMA_DISTRICTS = [
-  'Miraflores', 'San Isidro', 'Surco', 'Santiago de Surco', 'San Borja', 'La Molina', 
-  'Barranco', 'San Miguel', 'Magdalena', 'Jesús María', 'Lince', 'Pueblo Libre', 
-  'Breña', 'Cercado de Lima', 'Lima', 'Los Olivos', 'Independencia', 'San Martín de Porres', 
-  'Comas', 'San Juan de Lurigancho', 'Ate', 'Santa Anita', 'Chorrillos', 'San Juan de Miraflores', 
-  'Villa El Salvador', 'Callao', 'Bellavista', 'La Perla', 'Ventanilla', 'Puente Piedra', 'Carabayllo'
-];
-
-function extractDistrict(address) {
-  if (!address) return 'Lima';
-  for (const dist of LIMA_DISTRICTS) {
-    const regex = new RegExp(`\\b${dist}\\b`, 'i');
-    if (regex.test(address)) {
-      return dist;
-    }
-  }
-  return 'Lima Metropolitana';
-}
-
-export default function BusinessCard({ business, rank }) {
+export default function BusinessCard({ business, rank, onSelectDistrict }) {
   const [copied, setCopied] = useState(false);
 
   // Normalización de número para WhatsApp
@@ -113,10 +94,22 @@ export default function BusinessCard({ business, rank }) {
             </div>
 
             {/* Distrito extraído */}
-            <span className="inline-flex items-center gap-1 text-[11px] font-bold text-slate-600 bg-slate-100/90 py-1 px-2.5 rounded-lg border border-slate-200/60">
-              <MapPin className="w-3 h-3 text-rose-500" />
-              <span>{district}</span>
-            </span>
+            {onSelectDistrict ? (
+              <button
+                type="button"
+                onClick={() => onSelectDistrict(district)}
+                title={`Filtrar especialistas en ${district}`}
+                className="inline-flex items-center gap-1 text-[11px] font-bold text-rose-700 bg-rose-50 hover:bg-rose-100 py-1 px-2.5 rounded-lg border border-rose-200/80 transition-colors cursor-pointer group/dist"
+              >
+                <MapPin className="w-3 h-3 text-rose-500 group-hover/dist:scale-110 transition-transform" />
+                <span>{district}</span>
+              </button>
+            ) : (
+              <span className="inline-flex items-center gap-1 text-[11px] font-bold text-slate-600 bg-slate-100/90 py-1 px-2.5 rounded-lg border border-slate-200/60">
+                <MapPin className="w-3 h-3 text-rose-500" />
+                <span>{district}</span>
+              </span>
+            )}
           </div>
 
           {/* Calificación de Google Maps */}

@@ -25,9 +25,12 @@ import {
   Dumbbell,
   Dog,
   Gift,
-  Coins
+  Coins,
+  ChevronDown,
+  Compass
 } from 'lucide-react';
 import { buildWhatsAppLink } from '../lib/contact.js';
+import { LIMA_ZONES, POPULAR_DISTRICTS, getDistrictZone, extractDistrict } from '../lib/districts.js';
 
 const NICHE_CONFIG = {
   all: { label: 'Todos los Rubros', icon: Sparkles, color: 'sky' },
@@ -49,6 +52,8 @@ const NICHE_CONFIG = {
 export default function HomeExplorer({ categories = [] }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedNiche, setSelectedNiche] = useState('all');
+  const [selectedDistrict, setSelectedDistrict] = useState('all');
+  const [showAllDistricts, setShowAllDistricts] = useState(false);
 
   // Filtrado reactivo en tiempo real
   const filteredCategories = useMemo(() => {
@@ -69,30 +74,56 @@ export default function HomeExplorer({ categories = [] }) {
   }, [categories, searchQuery, selectedNiche]);
 
   const totalReady = categories.filter(c => c.hasData).length;
+  const activeZone = selectedDistrict !== 'all' ? getDistrictZone(selectedDistrict) : null;
 
   return (
     <div className="w-full">
-      {/* Barra de Búsqueda Interactiva & Filtros Rápidos */}
+      {/* Barra de Búsqueda Interactiva con Filtro de Distrito & Filtros Rápidos */}
       <div className="relative max-w-4xl mx-auto -mt-8 sm:-mt-10 px-4 sm:px-6 z-20">
         <div className="bg-white/95 backdrop-blur-xl p-3 sm:p-4 rounded-3xl shadow-xl shadow-slate-900/10 border border-slate-200/90 transition-all">
-          <div className="relative flex items-center">
-            <Search className="w-5 h-5 text-sky-600 absolute left-4 pointer-events-none" />
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="¿Qué servicio o especialista necesitas? (Ej. Gasfiteros, Dentistas, Notarías...)"
-              className="w-full pl-12 pr-10 py-3.5 sm:py-4 rounded-2xl bg-slate-50 border border-slate-200/80 text-sm sm:text-base font-medium text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30 focus:border-sky-500 transition-all"
-            />
-            {searchQuery && (
-              <button
-                onClick={() => setSearchQuery('')}
-                className="absolute right-3 p-1.5 rounded-full hover:bg-slate-200 text-slate-400 hover:text-slate-600 transition-colors"
-                title="Limpiar búsqueda"
-              >
-                <X className="w-4 h-4" />
-              </button>
-            )}
+          <div className="flex flex-col sm:flex-row items-stretch gap-2.5">
+            {/* Input de búsqueda por servicio o profesional */}
+            <div className="relative flex-grow flex items-center">
+              <Search className="w-5 h-5 text-sky-600 absolute left-4 pointer-events-none" />
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="¿Qué servicio o especialista necesitas? (Ej. Gasfiteros, Dentistas...)"
+                className="w-full pl-12 pr-10 py-3.5 sm:py-4 rounded-2xl bg-slate-50 border border-slate-200/80 text-sm sm:text-base font-medium text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-500/30 focus:border-sky-500 transition-all"
+              />
+              {searchQuery && (
+                <button
+                  onClick={() => setSearchQuery('')}
+                  className="absolute right-3 p-1.5 rounded-full hover:bg-slate-200 text-slate-400 hover:text-slate-600 transition-colors"
+                  title="Limpiar búsqueda"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              )}
+            </div>
+
+            {/* Selector de Distrito en el Buscador Principal */}
+            <div className="relative shrink-0 sm:w-64">
+              <div className="relative flex items-center h-full">
+                <MapPin className="w-4 h-4 text-rose-500 absolute left-3.5 pointer-events-none z-10" />
+                <select
+                  value={selectedDistrict}
+                  onChange={(e) => setSelectedDistrict(e.target.value)}
+                  className="w-full h-full pl-9 pr-8 py-3 sm:py-4 rounded-2xl bg-slate-50 hover:bg-slate-100/80 border border-slate-200/80 text-xs sm:text-sm font-bold text-slate-800 focus:outline-none focus:ring-2 focus:ring-sky-500/30 focus:border-sky-500 cursor-pointer appearance-none transition-all shadow-2xs"
+                >
+                  <option value="all">📍 Toda Lima Metropolitana</option>
+                  {Object.values(LIMA_ZONES).map(zone => (
+                    <optgroup key={zone.id} label={zone.name}>
+                      {zone.districts.map(d => (
+                        <option key={d} value={d}>{d}</option>
+                      ))}
+                    </optgroup>
+                  ))}
+                </select>
+                <ChevronDown className="w-4 h-4 text-slate-400 absolute right-3 pointer-events-none" />
+              </div>
+            </div>
           </div>
 
           {/* Filtros de Rubros / Píldoras con wrap */}
@@ -129,7 +160,36 @@ export default function HomeExplorer({ categories = [] }) {
       </div>
 
       {/* Grid de Directorios con Open Design */}
-      <section id="directorios" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16 pb-20">
+      <section id="directorios" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16 pb-20 scroll-mt-20">
+        {/* Banner de Distrito Seleccionado */}
+        {selectedDistrict !== 'all' && (
+          <div className="bg-sky-50/95 border border-sky-200/90 rounded-3xl p-5 sm:p-6 mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-sm">
+            <div className="flex items-center gap-3.5">
+              <div className="w-11 h-11 rounded-2xl bg-sky-500 text-white flex items-center justify-center shrink-0 shadow-md">
+                <MapPin className="w-6 h-6" />
+              </div>
+              <div>
+                <div className="text-base sm:text-lg font-black text-slate-900 flex items-center gap-2 flex-wrap">
+                  <span>Filtrando especialistas para: {selectedDistrict}</span>
+                  <span className="text-xs font-bold bg-sky-200/70 text-sky-800 px-2.5 py-0.5 rounded-full">
+                    {activeZone}
+                  </span>
+                </div>
+                <p className="text-xs sm:text-sm text-slate-600 mt-0.5 leading-relaxed">
+                  Al abrir cualquier categoría verás automáticamente los especialistas verificados en <strong>{selectedDistrict}</strong> con contacto directo por WhatsApp.
+                </p>
+              </div>
+            </div>
+
+            <button
+              onClick={() => setSelectedDistrict('all')}
+              className="text-xs font-extrabold text-sky-700 hover:text-sky-900 bg-white hover:bg-sky-100 border border-sky-300 py-2.5 px-4 rounded-xl transition-colors shrink-0 shadow-2xs"
+            >
+              Quitar filtro (Ver toda Lima)
+            </button>
+          </div>
+        )}
+
         {/* Cabecera de resultados */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
           <div>
@@ -140,8 +200,8 @@ export default function HomeExplorer({ categories = [] }) {
               </h2>
             </div>
             <p className="text-sm text-slate-500 mt-1">
-              {searchQuery || selectedNiche !== 'all' ? (
-                <>Mostrando <span className="font-bold text-slate-800">{filteredCategories.length}</span> directorios para tu búsqueda</>
+              {searchQuery || selectedNiche !== 'all' || selectedDistrict !== 'all' ? (
+                <>Mostrando <span className="font-bold text-slate-800">{filteredCategories.length}</span> directorios para tu búsqueda {selectedDistrict !== 'all' ? `en ${selectedDistrict}` : ''}</>
               ) : (
                 <>Explora las {categories.length} categorías sincronizadas con Google Maps</>
               )}
@@ -149,12 +209,12 @@ export default function HomeExplorer({ categories = [] }) {
           </div>
 
           <div className="flex items-center gap-3">
-            {(searchQuery || selectedNiche !== 'all') && (
+            {(searchQuery || selectedNiche !== 'all' || selectedDistrict !== 'all') && (
               <button
-                onClick={() => { setSearchQuery(''); setSelectedNiche('all'); }}
+                onClick={() => { setSearchQuery(''); setSelectedNiche('all'); setSelectedDistrict('all'); }}
                 className="text-xs font-bold text-sky-600 hover:text-sky-800 bg-sky-50 hover:bg-sky-100 border border-sky-200 py-1.5 px-3 rounded-xl transition-colors"
               >
-                Restablecer filtros
+                Restablecer todos los filtros
               </button>
             )}
             <div className="text-xs font-bold text-slate-600 bg-white border border-slate-200/90 py-1.5 px-3.5 rounded-xl shadow-xs">
@@ -169,11 +229,14 @@ export default function HomeExplorer({ categories = [] }) {
             {filteredCategories.map((cat) => {
               const nicheData = NICHE_CONFIG[cat.niche] || NICHE_CONFIG.all;
               const NicheIcon = nicheData.icon;
+              const categoryHref = selectedDistrict !== 'all'
+                ? `/${cat.slug}?distrito=${encodeURIComponent(selectedDistrict)}`
+                : `/${cat.slug}`;
 
               return (
                 <Link
                   key={cat.slug}
-                  href={`/${cat.slug}`}
+                  href={categoryHref}
                   className="open-card bg-white rounded-3xl border border-slate-200/90 p-0 flex flex-col justify-between group relative overflow-hidden shadow-xs hover:border-sky-300 transition-all hover:shadow-md"
                 >
                   {/* Image Header */}
@@ -218,6 +281,15 @@ export default function HomeExplorer({ categories = [] }) {
                       {cat.heroHook}
                     </p>
 
+                    {/* Distrito Activo Badge en Card */}
+                    {selectedDistrict !== 'all' && (
+                      <div className="mt-3.5 inline-flex items-center gap-1.5 text-xs font-bold text-sky-700 bg-sky-50 px-2.5 py-1 rounded-xl border border-sky-200/80">
+                        <MapPin className="w-3 h-3 text-rose-500" />
+                        <span>Ver especialistas en {selectedDistrict}</span>
+                        <ArrowRight className="w-3 h-3 text-sky-500" />
+                      </div>
+                    )}
+
                     {/* Mini beneficios del rubro */}
                     <div className="mt-4 flex items-center gap-3 text-[11px] font-semibold text-slate-500">
                       <span className="flex items-center gap-1">
@@ -258,7 +330,7 @@ export default function HomeExplorer({ categories = [] }) {
             </p>
             <div className="mt-6">
               <button
-                onClick={() => { setSearchQuery(''); setSelectedNiche('all'); }}
+                onClick={() => { setSearchQuery(''); setSelectedNiche('all'); setSelectedDistrict('all'); }}
                 className="inline-flex items-center justify-center font-bold text-xs text-white bg-slate-900 hover:bg-slate-800 px-5 py-3 rounded-xl transition-colors shadow-sm"
               >
                 Ver todos los directorios ({categories.length})
@@ -268,8 +340,8 @@ export default function HomeExplorer({ categories = [] }) {
         )}
       </section>
 
-      {/* Sección de Distritos Populares en Lima (Open Design Grid) */}
-      <section className="bg-white border-y border-slate-200/80 py-16">
+      {/* Sección de Distritos Populares en Lima — Filtro Interactivo por Zona */}
+      <section id="cobertura-distritos" className="bg-white border-y border-slate-200/80 py-16 scroll-mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-10">
             <span className="text-xs font-black uppercase tracking-widest text-sky-600 bg-sky-50 py-1 px-3.5 rounded-full border border-sky-200">
@@ -279,41 +351,175 @@ export default function HomeExplorer({ categories = [] }) {
               Especialistas con Cobertura en Todos los Distritos
             </h2>
             <p className="mt-2.5 text-sm sm:text-base text-slate-500">
-              Encuentra atención rápida y servicio a domicilio en las principales zonas de la capital.
+              Selecciona tu distrito para encontrar los especialistas y servicios mejor valorados cerca de ti.
             </p>
+
+            {selectedDistrict !== 'all' && (
+              <div className="mt-4 inline-flex items-center gap-2 bg-sky-50 border border-sky-200 px-4 py-2 rounded-2xl text-xs font-bold text-sky-800 shadow-2xs">
+                <MapPin className="w-4 h-4 text-rose-500" />
+                <span>Distrito seleccionado: <strong>{selectedDistrict}</strong></span>
+                <button
+                  onClick={() => setSelectedDistrict('all')}
+                  className="ml-2 text-rose-600 hover:text-rose-800 underline font-bold"
+                >
+                  Quitar filtro
+                </button>
+              </div>
+            )}
           </div>
 
+          {/* Grid de Distritos Principales Interactivos */}
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
-            {[
-              { name: 'Miraflores', label: 'Zona Central & Sur' },
-              { name: 'San Isidro', label: 'Financiero & Clínicas' },
-              { name: 'Santiago de Surco', label: 'Residencial Amplio' },
-              { name: 'San Borja', label: 'Salud & Especialistas' },
-              { name: 'La Molina', label: 'Atención a Domicilio' },
-              { name: 'Magdalena del Mar', label: 'Zona Moderna' },
-              { name: 'San Miguel', label: 'Comercial & Servicios' },
-              { name: 'Jesús María', label: 'Zona Médica' },
-              { name: 'Pueblo Libre', label: 'Tradición y Calidad' },
-              { name: 'Barranco', label: 'Estilo & Arte' },
-              { name: 'Los Olivos', label: 'Lima Norte Comercial' },
-              { name: 'Lima Cercado', label: 'Centro Histórico & Legal' }
-            ].map((dist, idx) => (
-              <div 
-                key={idx}
-                className="bg-slate-50/80 hover:bg-white rounded-2xl border border-slate-200/80 p-4 transition-all duration-200 hover:shadow-md hover:border-sky-200 group"
-              >
-                <div className="flex items-center gap-1.5 text-rose-500 mb-1.5">
-                  <MapPin className="w-3.5 h-3.5 shrink-0 group-hover:scale-110 transition-transform" />
-                  <span className="text-xs font-black text-slate-900 group-hover:text-sky-600 transition-colors">
-                    {dist.name}
-                  </span>
-                </div>
-                <p className="text-[11px] text-slate-400 font-medium">
-                  {dist.label}
-                </p>
-              </div>
-            ))}
+            {POPULAR_DISTRICTS.map((dist, idx) => {
+              const isSelected = selectedDistrict.toLowerCase() === dist.name.toLowerCase();
+              return (
+                <button 
+                  key={idx}
+                  type="button"
+                  onClick={() => {
+                    if (isSelected) {
+                      setSelectedDistrict('all');
+                    } else {
+                      setSelectedDistrict(dist.name);
+                      const el = document.getElementById('directorios');
+                      if (el) el.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                  className={`text-left rounded-2xl p-4 transition-all duration-200 group relative border cursor-pointer ${
+                    isSelected
+                      ? 'bg-slate-900 text-white border-sky-500 ring-2 ring-sky-400 shadow-md'
+                      : 'bg-slate-50/80 hover:bg-white border-slate-200/80 hover:shadow-md hover:border-sky-300'
+                  }`}
+                >
+                  <div className="flex items-center justify-between mb-1.5">
+                    <div className="flex items-center gap-1.5 text-rose-500">
+                      <MapPin className={`w-3.5 h-3.5 shrink-0 ${isSelected ? 'text-rose-400 scale-110' : 'group-hover:scale-110'} transition-transform`} />
+                      <span className={`text-xs font-black ${isSelected ? 'text-white' : 'text-slate-900 group-hover:text-sky-600'} transition-colors`}>
+                        {dist.name}
+                      </span>
+                    </div>
+                    {isSelected && (
+                      <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                    )}
+                  </div>
+                  <p className={`text-[11px] font-medium ${isSelected ? 'text-slate-300' : 'text-slate-400'}`}>
+                    {dist.label}
+                  </p>
+                  <div className={`mt-2 text-[10px] font-bold ${isSelected ? 'text-sky-300' : 'text-sky-600 group-hover:translate-x-0.5'} transition-transform`}>
+                    {isSelected ? '✓ Distrito Activo' : 'Ver especialistas →'}
+                  </div>
+                </button>
+              );
+            })}
           </div>
+
+          {/* Botón para expandir todos los 43 distritos por Zonas */}
+          <div className="mt-8 text-center">
+            <button
+              type="button"
+              onClick={() => setShowAllDistricts(!showAllDistricts)}
+              className="inline-flex items-center gap-2 text-xs font-bold text-slate-700 hover:text-slate-900 bg-slate-100 hover:bg-slate-200 border border-slate-200 py-2.5 px-5 rounded-2xl transition-all shadow-2xs"
+            >
+              <Compass className="w-4 h-4 text-sky-600" />
+              <span>{showAllDistricts ? 'Ocultar mapa completo de distritos' : 'Explorar los 43 distritos de Lima Metropolitana por Zonas'}</span>
+              <ChevronDown className={`w-4 h-4 text-slate-500 transition-transform ${showAllDistricts ? 'rotate-180' : ''}`} />
+            </button>
+          </div>
+
+          {/* Desglose de los 43 distritos agrupados por Zonas */}
+          {showAllDistricts && (
+            <div className="mt-8 bg-slate-50 rounded-3xl border border-slate-200 p-6 sm:p-8 animate-in fade-in slide-in-from-top-2 duration-300">
+              <h3 className="text-sm font-black text-slate-900 uppercase tracking-wider mb-6 text-center">
+                Mapa Integral de Lima Metropolitana y Callao
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {Object.values(LIMA_ZONES).map(zone => (
+                  <div key={zone.id} className="bg-white rounded-2xl p-5 border border-slate-200/90 shadow-2xs">
+                    <div className="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
+                      <h4 className="font-black text-xs text-slate-900 uppercase tracking-wide flex items-center gap-1.5">
+                        <span className="w-2 h-2 rounded-full bg-sky-500" />
+                        <span>{zone.name}</span>
+                      </h4>
+                      <span className="text-[10px] text-slate-400 font-medium">{zone.description}</span>
+                    </div>
+                    <div className="flex flex-wrap gap-1.5">
+                      {zone.districts.map(d => {
+                        const isSelected = selectedDistrict.toLowerCase() === d.toLowerCase();
+                        return (
+                          <button
+                            key={d}
+                            type="button"
+                            onClick={() => {
+                              setSelectedDistrict(isSelected ? 'all' : d);
+                              const el = document.getElementById('directorios');
+                              if (el) el.scrollIntoView({ behavior: 'smooth' });
+                            }}
+                            className={`text-[11px] font-bold px-2.5 py-1 rounded-xl transition-all ${
+                              isSelected
+                                ? 'bg-slate-900 text-white shadow-xs'
+                                : 'bg-slate-100 hover:bg-sky-50 hover:text-sky-700 text-slate-700'
+                            }`}
+                          >
+                            {d}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Hub de Servicios Rápidos para el Distrito Seleccionado */}
+          {selectedDistrict !== 'all' && (
+            <div className="mt-10 bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white p-6 sm:p-8 rounded-3xl shadow-xl">
+              <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 mb-4 pb-4 border-b border-white/10">
+                <div>
+                  <span className="text-[10px] font-black uppercase tracking-widest text-emerald-400 bg-emerald-950/80 px-2.5 py-1 rounded-full border border-emerald-800">
+                    Servicios Cercanos
+                  </span>
+                  <h3 className="text-lg sm:text-xl font-black mt-2">
+                    Especialistas más solicitados en {selectedDistrict}
+                  </h3>
+                </div>
+                <button
+                  onClick={() => {
+                    const el = document.getElementById('directorios');
+                    if (el) el.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                  className="text-xs font-bold text-sky-400 hover:text-sky-300 underline"
+                >
+                  Ver todos los directorios para {selectedDistrict} ↓
+                </button>
+              </div>
+
+              <div className="flex flex-wrap gap-2">
+                {[
+                  { slug: 'dentistas', label: 'Dentistas' },
+                  { slug: 'doctores', label: 'Médicos y Clínicas' },
+                  { slug: 'gasfiteros', label: 'Gasfiteros a Domicilio' },
+                  { slug: 'abogados', label: 'Abogados & Notarías' },
+                  { slug: 'veterinarias', label: 'Veterinarias' },
+                  { slug: 'mecanicos', label: 'Talleres Mecánicos' },
+                  { slug: 'electricistas', label: 'Electricistas' },
+                  { slug: 'pediatras', label: 'Pediatras' },
+                  { slug: 'psicologos', label: 'Psicólogos' },
+                  { slug: 'gimnasios', label: 'Gimnasios' },
+                  { slug: 'lavanderias', label: 'Lavanderías' }
+                ].map(item => (
+                  <Link
+                    key={item.slug}
+                    href={`/${item.slug}?distrito=${encodeURIComponent(selectedDistrict)}`}
+                    className="inline-flex items-center gap-1.5 text-xs font-bold bg-white/10 hover:bg-white/20 text-white py-2 px-3.5 rounded-xl border border-white/10 transition-colors"
+                  >
+                    <span>{item.label} en {selectedDistrict}</span>
+                    <ArrowRight className="w-3 h-3 text-sky-400" />
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </section>
 
@@ -374,7 +580,7 @@ export default function HomeExplorer({ categories = [] }) {
               </p>
 
               <Link
-                href="/doctores"
+                href={selectedDistrict !== 'all' ? `/doctores?distrito=${encodeURIComponent(selectedDistrict)}` : '/doctores'}
                 className="shrink-0 inline-flex items-center gap-2 bg-slate-900 hover:bg-sky-600 text-white font-bold text-xs py-3 px-5 rounded-2xl transition-colors shadow-sm"
               >
                 <span>Ver Fichas Médicas</span>
@@ -415,7 +621,7 @@ export default function HomeExplorer({ categories = [] }) {
               </p>
 
               <Link
-                href="/gasfiteros"
+                href={selectedDistrict !== 'all' ? `/gasfiteros?distrito=${encodeURIComponent(selectedDistrict)}` : '/gasfiteros'}
                 className="shrink-0 inline-flex items-center gap-2 bg-slate-900 hover:bg-amber-600 text-white font-bold text-xs py-3 px-5 rounded-2xl transition-colors shadow-sm"
               >
                 <span>Ver Técnicos Listos</span>

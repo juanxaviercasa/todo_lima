@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 import BusinessCard from './BusinessCard.js';
 import { 
   Search, 
@@ -11,49 +12,50 @@ import {
   Clock, 
   CheckCircle2, 
   Award,
-  AlertCircle
+  AlertCircle,
+  ChevronDown,
+  Compass
 } from 'lucide-react';
-
-const COMMON_DISTRICTS = [
-  'Miraflores', 'San Isidro', 'Surco', 'Santiago de Surco', 'San Borja', 'La Molina', 
-  'Barranco', 'San Miguel', 'Magdalena', 'Jesús María', 'Lince', 'Pueblo Libre', 
-  'Breña', 'Cercado de Lima', 'Lima', 'Los Olivos', 'Independencia', 'San Martín de Porres', 
-  'Comas', 'San Juan de Lurigancho', 'Ate', 'Santa Anita', 'Chorrillos', 'San Juan de Miraflores', 
-  'Villa El Salvador', 'Callao', 'Bellavista', 'La Perla', 'Ventanilla'
-];
-
-function getDistrict(address) {
-  if (!address) return 'Lima';
-  for (const dist of COMMON_DISTRICTS) {
-    const regex = new RegExp(`\\b${dist}\\b`, 'i');
-    if (regex.test(address)) {
-      return dist === 'Santiago de Surco' ? 'Surco' : dist;
-    }
-  }
-  return 'Lima';
-}
+import { extractDistrict, LIMA_ZONES, getDistrictZone } from '../lib/districts.js';
 
 export default function CategoryDirectorioClient({ businesses = [], categoryTitle = '' }) {
+  const searchParams = useSearchParams();
+  const urlDistrict = searchParams ? searchParams.get('distrito') : null;
+
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedDistrict, setSelectedDistrict] = useState('all');
+  const [selectedDistrict, setSelectedDistrict] = useState(urlDistrict || 'all');
   const [sortBy, setSortBy] = useState('ranking'); // 'ranking', 'rating', 'reviews', 'name'
 
-  // Identificar los distritos presentes en esta lista de negocios
-  const districtCounts = useMemo(() => {
-    const counts = {};
+  // Si cambia el parámetro de URL, actualizar el filtro
+  useEffect(() => {
+    if (urlDistrict) {
+      setSelectedDistrict(urlDistrict);
+    }
+  }, [urlDistrict]);
+
+  // Mapa de conteo por distrito en esta categoría
+  const districtMap = useMemo(() => {
+    const map = {};
     businesses.forEach(b => {
-      const dist = getDistrict(b.address);
-      counts[dist] = (counts[dist] || 0) + 1;
+      const dist = extractDistrict(b.address);
+      map[dist] = (map[dist] || 0) + 1;
     });
-    // Ordenar distritos por cantidad de negocios
-    return Object.entries(counts).sort((a, b) => b[1] - a[1]);
+    return map;
   }, [businesses]);
+
+  // Distritos ordenados por cantidad de negocios para las píldoras rápidas
+  const topDistricts = useMemo(() => {
+    return Object.entries(districtMap)
+      .filter(([dist]) => dist !== 'Lima')
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 8);
+  }, [districtMap]);
 
   // Filtrar y ordenar negocios
   const filteredBusinesses = useMemo(() => {
     let result = businesses.filter(b => {
-      const dist = getDistrict(b.address);
-      const matchesDistrict = selectedDistrict === 'all' || dist === selectedDistrict;
+      const dist = extractDistrict(b.address);
+      const matchesDistrict = selectedDistrict === 'all' || dist.toLowerCase() === selectedDistrict.toLowerCase();
 
       if (!searchQuery.trim()) return matchesDistrict;
 
@@ -61,7 +63,8 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
       const matchesSearch = 
         (b.name && b.name.toLowerCase().includes(q)) ||
         (b.address && b.address.toLowerCase().includes(q)) ||
-        (b.category && b.category.toLowerCase().includes(q));
+        (b.category && b.category.toLowerCase().includes(q)) ||
+        dist.toLowerCase().includes(q);
 
       return matchesDistrict && matchesSearch;
     });
@@ -79,10 +82,12 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
     return result;
   }, [businesses, searchQuery, selectedDistrict, sortBy]);
 
+  const activeZone = selectedDistrict !== 'all' ? getDistrictZone(selectedDistrict) : null;
+
   return (
     <section id="directorio" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-      {/* Controles de búsqueda y filtros con Open Design */}
-      <div className="bg-white rounded-3xl border border-slate-200/90 p-5 sm:p-7 shadow-xs mb-10 transition-all">
+      {/* Controles de búsqueda y filtros */}
+      <div className="bg-white rounded-3xl border border-slate-200/90 p-5 sm:p-7 shadow-xs mb-8 transition-all">
         <div className="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4">
           {/* Título de la sección */}
           <div>
@@ -104,13 +109,14 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Buscar por nombre o dirección..."
+              placeholder="Buscar por nombre, distrito o dirección..."
               className="w-full pl-10 pr-9 py-2.5 rounded-2xl bg-slate-50 border border-slate-200 text-xs sm:text-sm font-medium text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-500/20 focus:border-sky-500 transition-all"
             />
             {searchQuery && (
               <button
                 onClick={() => setSearchQuery('')}
                 className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600"
+                title="Limpiar búsqueda"
               >
                 <X className="w-4 h-4" />
               </button>
@@ -118,60 +124,127 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
           </div>
         </div>
 
-        {/* Filtros de Distritos y Ordenamiento */}
-        <div className="mt-5 pt-4 border-t border-slate-100 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-          {/* Píldoras de Distritos */}
-          <div className="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-1 scrollbar-none">
-            <button
-              onClick={() => setSelectedDistrict('all')}
-              className={`px-3 py-1.5 rounded-xl text-xs font-bold shrink-0 transition-colors ${
-                selectedDistrict === 'all'
-                  ? 'bg-slate-900 text-white'
-                  : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
-              }`}
-            >
-              Todos los distritos ({businesses.length})
-            </button>
-
-            {districtCounts.slice(0, 7).map(([dist, count]) => (
+        {/* Barra de Filtro de Distritos y Ordenamiento */}
+        <div className="mt-5 pt-4 border-t border-slate-100 flex flex-col gap-3">
+          <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
+            {/* Píldoras de Distritos Frecuentes */}
+            <div className="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-1 scrollbar-none">
               <button
-                key={dist}
-                onClick={() => setSelectedDistrict(dist)}
-                className={`px-3 py-1.5 rounded-xl text-xs font-bold shrink-0 transition-colors flex items-center gap-1 ${
-                  selectedDistrict === dist
-                    ? 'bg-slate-900 text-white'
+                onClick={() => setSelectedDistrict('all')}
+                className={`px-3 py-1.5 rounded-xl text-xs font-bold shrink-0 transition-colors ${
+                  selectedDistrict === 'all'
+                    ? 'bg-slate-900 text-white shadow-xs'
                     : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
                 }`}
               >
-                <MapPin className="w-3 h-3 text-rose-500" />
-                <span>{dist}</span>
-                <span className="text-[10px] opacity-70">({count})</span>
+                Todos los distritos ({businesses.length})
               </button>
-            ))}
-          </div>
 
-          {/* Selector de ordenamiento */}
-          <div className="flex items-center gap-2 shrink-0 self-end md:self-auto text-xs font-bold text-slate-600">
-            <SlidersHorizontal className="w-3.5 h-3.5 text-slate-400" />
-            <span className="hidden sm:inline">Ordenar:</span>
-            <select
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value)}
-              className="bg-slate-100 hover:bg-slate-200/80 border border-slate-200 text-slate-800 text-xs font-bold py-1.5 px-3 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors"
-            >
-              <option value="ranking">Ranking Oficial Todo Lima</option>
-              <option value="rating">Mayor Calificación (⭐)</option>
-              <option value="reviews">Más Reseñas</option>
-              <option value="name">Alfabético (A-Z)</option>
-            </select>
+              {topDistricts.map(([dist, count]) => (
+                <button
+                  key={dist}
+                  onClick={() => setSelectedDistrict(dist)}
+                  className={`px-3 py-1.5 rounded-xl text-xs font-bold shrink-0 transition-colors flex items-center gap-1.5 ${
+                    selectedDistrict.toLowerCase() === dist.toLowerCase()
+                      ? 'bg-slate-900 text-white shadow-xs'
+                      : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
+                  }`}
+                >
+                  <MapPin className={`w-3 h-3 ${selectedDistrict.toLowerCase() === dist.toLowerCase() ? 'text-rose-400' : 'text-rose-500'}`} />
+                  <span>{dist}</span>
+                  <span className={`text-[10px] ${selectedDistrict.toLowerCase() === dist.toLowerCase() ? 'text-slate-300' : 'text-slate-500'}`}>
+                    ({count})
+                  </span>
+                </button>
+              ))}
+            </div>
+
+            {/* Selectores desplegables: Distrito Completo y Ordenamiento */}
+            <div className="flex items-center gap-2 shrink-0">
+              {/* Dropdown de todos los distritos agrupados por zonas */}
+              <div className="relative">
+                <select
+                  value={selectedDistrict}
+                  onChange={(e) => setSelectedDistrict(e.target.value)}
+                  className="bg-slate-100 hover:bg-slate-200/80 border border-slate-200 text-slate-800 text-xs font-bold py-1.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
+                >
+                  <option value="all">📍 Ver todos los distritos ({businesses.length})</option>
+                  {Object.values(LIMA_ZONES).map(zone => {
+                    const zoneDistricts = zone.districts
+                      .map(d => ({ name: d, count: districtMap[d] || 0 }))
+                      .filter(d => d.count > 0);
+
+                    if (zoneDistricts.length === 0) return null;
+
+                    const totalZoneCount = zoneDistricts.reduce((acc, curr) => acc + curr.count, 0);
+
+                    return (
+                      <optgroup key={zone.id} label={`${zone.name} (${totalZoneCount})`}>
+                        {zoneDistricts.map(d => (
+                          <option key={d.name} value={d.name}>
+                            {d.name} ({d.count} negocios)
+                          </option>
+                        ))}
+                      </optgroup>
+                    );
+                  })}
+                </select>
+                <ChevronDown className="w-3.5 h-3.5 text-slate-400 absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />
+              </div>
+
+              {/* Selector de ordenamiento */}
+              <div className="relative">
+                <select
+                  value={sortBy}
+                  onChange={(e) => setSortBy(e.target.value)}
+                  className="bg-slate-100 hover:bg-slate-200/80 border border-slate-200 text-slate-800 text-xs font-bold py-1.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
+                >
+                  <option value="ranking">Ranking Todo Lima</option>
+                  <option value="rating">Mayor Calificación (⭐)</option>
+                  <option value="reviews">Más Reseñas</option>
+                  <option value="name">Alfabético (A-Z)</option>
+                </select>
+                <SlidersHorizontal className="w-3.5 h-3.5 text-slate-400 absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      {/* Contador de resultados activos */}
+      {/* Banner de Distrito Activo */}
+      {selectedDistrict !== 'all' && (
+        <div className="bg-sky-50/90 border border-sky-200/90 rounded-2xl p-4 mb-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-2xs">
+          <div className="flex items-center gap-3">
+            <div className="w-9 h-9 rounded-xl bg-sky-500 text-white flex items-center justify-center shrink-0 shadow-sm">
+              <MapPin className="w-5 h-5" />
+            </div>
+            <div>
+              <div className="text-xs sm:text-sm font-black text-slate-900 flex items-center gap-2">
+                <span>Especialistas en {selectedDistrict}</span>
+                <span className="text-[11px] font-bold bg-sky-100 text-sky-800 px-2 py-0.5 rounded-full">
+                  {filteredBusinesses.length} {filteredBusinesses.length === 1 ? 'negocio' : 'negocios'}
+                </span>
+              </div>
+              <div className="text-[11px] text-slate-500 mt-0.5">
+                Zona: <strong>{activeZone}</strong> • Calificaciones comprobadas en Google Maps y WhatsApp directo.
+              </div>
+            </div>
+          </div>
+
+          <button
+            onClick={() => setSelectedDistrict('all')}
+            className="text-xs font-bold text-sky-700 hover:text-sky-900 bg-white hover:bg-sky-100 border border-sky-300 py-1.5 px-3 rounded-xl transition-colors shrink-0 shadow-2xs"
+          >
+            Quitar filtro de distrito (Ver toda Lima)
+          </button>
+        </div>
+      )}
+
+      {/* Contador y Limpieza de Búsqueda */}
       <div className="flex items-center justify-between mb-6 px-1">
         <span className="text-xs font-bold text-slate-500">
-          Mostrando <span className="text-slate-900">{filteredBusinesses.length}</span> especialistas encontrados
+          Mostrando <span className="text-slate-900 font-extrabold">{filteredBusinesses.length}</span> de {businesses.length} especialistas
+          {selectedDistrict !== 'all' && ` en ${selectedDistrict}`}
         </span>
 
         {(searchQuery || selectedDistrict !== 'all') && (
@@ -179,7 +252,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
             onClick={() => { setSearchQuery(''); setSelectedDistrict('all'); }}
             className="text-xs font-bold text-sky-600 hover:text-sky-800 transition-colors"
           >
-            Limpiar filtros
+            Restablecer todos los filtros
           </button>
         )}
       </div>
@@ -192,6 +265,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
               key={business.id || index}
               business={business}
               rank={index + 1}
+              onSelectDistrict={(dist) => setSelectedDistrict(dist)}
             />
           ))}
         </div>
@@ -201,17 +275,21 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
             <AlertCircle className="w-7 h-7" />
           </div>
           <h3 className="text-lg font-black text-slate-900">
-            No se encontraron resultados
+            No se encontraron negocios {selectedDistrict !== 'all' ? `en ${selectedDistrict}` : ''}
           </h3>
-          <p className="mt-2 text-xs sm:text-sm text-slate-500">
-            No encontramos ningún negocio para "{searchQuery}" {selectedDistrict !== 'all' ? `en ${selectedDistrict}` : ''}.
+          <p className="mt-2 text-xs sm:text-sm text-slate-500 leading-relaxed">
+            {selectedDistrict !== 'all'
+              ? `No tenemos fichas registradas para ${categoryTitle} exactamente en ${selectedDistrict}, pero contamos con ${businesses.length} especialistas con servicio en distritos cercanos de Lima.`
+              : `No encontramos resultados para tu búsqueda "${searchQuery}". Prueba con otro término o limpia los filtros.`}
           </p>
-          <button
-            onClick={() => { setSearchQuery(''); setSelectedDistrict('all'); }}
-            className="mt-5 font-bold text-xs bg-slate-900 hover:bg-slate-800 text-white px-5 py-2.5 rounded-xl transition-colors"
-          >
-            Ver todos los negocios
-          </button>
+          <div className="mt-5 flex items-center justify-center gap-3">
+            <button
+              onClick={() => { setSearchQuery(''); setSelectedDistrict('all'); }}
+              className="font-bold text-xs bg-slate-900 hover:bg-slate-800 text-white px-5 py-2.5 rounded-xl transition-colors shadow-sm"
+            >
+              Ver todos los negocios de Lima ({businesses.length})
+            </button>
+          </div>
         </div>
       )}
     </section>

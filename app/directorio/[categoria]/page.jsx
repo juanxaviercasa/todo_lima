@@ -1,8 +1,9 @@
+import { Suspense } from 'react';
 import fs from 'fs';
 import path from 'path';
 import Navbar from '../../../components/Navbar.js';
 import Footer from '../../../components/Footer.js';
-import BusinessCard from '../../../components/BusinessCard.js';
+import CategoryDirectorioClient from '../../../components/CategoryDirectorioClient.js';
 import { Star, ShieldCheck, MapPin } from 'lucide-react';
 import Link from 'next/link';
 
@@ -81,25 +82,13 @@ export default async function DirectorioPage({ params }) {
           </div>
         </section>
 
-        {/* Fichas de Negocios */}
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="flex items-center justify-between mb-8 pb-4 border-b border-slate-200">
-            <div>
-              <h2 className="text-2xl font-black text-slate-900">
-                Top {businesses.length} Especialistas Validados
-              </h2>
-              <p className="text-xs sm:text-sm text-slate-500 mt-0.5">
-                Ordenados por reputación en Google Maps.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {businesses.map((biz, idx) => (
-              <BusinessCard key={biz.id || idx} business={biz} rank={idx + 1} />
-            ))}
-          </div>
-        </section>
+        {/* Sección del Directorio con Filtrado Interactivo y por Distritos */}
+        <Suspense fallback={<div className="max-w-7xl mx-auto px-4 py-16 text-center text-slate-400 font-medium">Cargando directorio de especialistas...</div>}>
+          <CategoryDirectorioClient
+            businesses={businesses}
+            categoryTitle={categoryName}
+          />
+        </Suspense>
       </main>
 
       <Footer />

@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { getCategoryData } from '../../lib/getData.js';
 import { CATEGORIES } from '../../scraper/config/categories.js';
 import Navbar from '../../components/Navbar.js';
@@ -50,10 +51,12 @@ export default function SubdomainPage({ params }) {
 
         {/* Sección del Directorio con Filtrado Interactivo */}
         {hasData ? (
-          <CategoryDirectorioClient
-            businesses={businesses}
-            categoryTitle={meta.title}
-          />
+          <Suspense fallback={<div className="max-w-7xl mx-auto px-4 py-16 text-center text-slate-400 font-medium">Cargando directorio de especialistas...</div>}>
+            <CategoryDirectorioClient
+              businesses={businesses}
+              categoryTitle={meta.title}
+            />
+          </Suspense>
         ) : (
           <div className="max-w-xl mx-auto px-4 my-16">
             <div className="bg-white rounded-3xl border border-slate-200/90 p-8 sm:p-12 text-center shadow-sm">
