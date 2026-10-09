@@ -2,7 +2,14 @@ import Link from 'next/link';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import { ShieldCheck, Lock, FileText, CheckCircle2, AlertCircle } from 'lucide-react';
-import { TODOLIMA_EMAIL, TODOLIMA_WHATSAPP_DISPLAY, buildWhatsAppLink } from '../../lib/contact';
+import { 
+  TODOLIMA_EMAIL, 
+  TODOLIMA_WHATSAPP_DISPLAY, 
+  buildWhatsAppLink,
+  LEGAL_TITULAR,
+  LEGAL_ENTITY_NAME,
+  LEGAL_DOMICILE
+} from '../../lib/contact';
 
 export const metadata = {
   title: 'Política de Privacidad y Protección de Datos | Todo Lima',
@@ -39,10 +46,10 @@ export default function PrivacidadPage() {
                 <FileText className="w-5 h-5 text-sky-400" /> 1. Identificación del Responsable del Banco de Datos
               </h2>
               <p>
-                El presente portal web <strong>todolima.com</strong> es operado y administrado por <strong>[RAZÓN SOCIAL / TITULAR DEL PROYECTO]</strong> (en adelante, &quot;Todo Lima&quot;), con RUC <strong>[NÚMERO DE RUC]</strong> y domicilio legal en <strong>[DOMICILIO LEGAL EN LIMA, PERÚ]</strong>. Correo electrónico de contacto: <a href={`mailto:${TODOLIMA_EMAIL}`} className="text-sky-400 underline">{TODOLIMA_EMAIL}</a>; atención vía WhatsApp: <strong>{TODOLIMA_WHATSAPP_DISPLAY}</strong>.
+                El presente portal web <strong>todolima.com</strong> es operado y administrado por <strong>{LEGAL_TITULAR}</strong> en representación de <strong>{LEGAL_ENTITY_NAME}</strong> (en adelante, &quot;Todo Lima&quot;), con domicilio fiscal y operativo en <strong>{LEGAL_DOMICILE}</strong>. Correo electrónico oficial de contacto: <a href={`mailto:${TODOLIMA_EMAIL}`} className="text-sky-400 underline">{TODOLIMA_EMAIL}</a>; canal de atención directa: <strong>{TODOLIMA_WHATSAPP_DISPLAY}</strong>.
               </p>
               <p className="mt-2 text-xs text-slate-400">
-                El banco de datos personales correspondiente se encuentra en proceso o debidamente registrado ante el Registro Nacional de Protección de Datos Personales del Ministerio de Justicia y Derechos Humanos (código asignado: [CÓDIGO DE INSCRIPCIÓN ANPD]).
+                El tratamiento de datos personales realizado a través de este portal se encuentra alineado estrictamente a los principios de legalidad, consentimiento, proporcionalidad, seguridad y finalidad contemplados en la Ley N° 29733 y su Reglamento (D.S. N° 003-2013-JUS).
               </p>
             </section>
 

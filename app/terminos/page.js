@@ -2,7 +2,13 @@ import Link from 'next/link';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import { FileCheck, Shield, HelpCircle } from 'lucide-react';
-import { TODOLIMA_EMAIL, TODOLIMA_WHATSAPP_DISPLAY } from '../../lib/contact';
+import { 
+  TODOLIMA_EMAIL, 
+  TODOLIMA_WHATSAPP_DISPLAY,
+  LEGAL_TITULAR,
+  LEGAL_ENTITY_NAME,
+  LEGAL_DOMICILE
+} from '../../lib/contact';
 
 export const metadata = {
   title: 'Términos y Condiciones de Uso | Todo Lima',
@@ -34,9 +40,9 @@ export default function TerminosPage() {
           <div className="space-y-6 text-sm text-slate-300 leading-relaxed">
             
             <section>
-              <h2 className="text-lg font-bold text-white mb-2">1. Objeto y Alcance</h2>
+              <h2 className="text-lg font-bold text-white mb-2">1. Objeto y Titularidad</h2>
               <p>
-                Los presentes Términos regulan el acceso y uso del portal <strong>todolima.com</strong>, una plataforma de indexación, visibilidad local y consultoría digital para comercios, profesionales independientes y empresas en Lima Metropolitana.
+                Los presentes Términos regulan el acceso y uso del portal <strong>todolima.com</strong>, una plataforma de indexación, visibilidad local y consultoría digital operada por <strong>{LEGAL_TITULAR}</strong> en representación de <strong>{LEGAL_ENTITY_NAME}</strong>, con domicilio en <strong>{LEGAL_DOMICILE}</strong>.
               </p>
             </section>
 
@@ -51,7 +57,14 @@ export default function TerminosPage() {
             </section>
 
             <section>
-              <h2 className="text-lg font-bold text-white mb-2">3. Servicios Tecnológicos y de Crecimiento Digital</h2>
+              <h2 className="text-lg font-bold text-white mb-2">3. Exoneración de Responsabilidad por Servicios de Terceros</h2>
+              <p>
+                Todo Lima actúa exclusivamente como un canal de indexación e intermediación informativa. No garantiza, avala ni asume responsabilidad civil o contractual por la idoneidad, calidad, cumplimiento o precios de los servicios contratados con los profesionales o comercios listados en el directorio. Cualquier contratación entre un usuario y un comercio listado constituye una relación jurídica independiente.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-lg font-bold text-white mb-2">4. Servicios Tecnológicos y de Crecimiento Digital</h2>
               <p>
                 Todo Lima ofrece servicios profesionales de:
               </p>
@@ -67,21 +80,28 @@ export default function TerminosPage() {
             </section>
 
             <section>
-              <h2 className="text-lg font-bold text-white mb-2">4. Política de Comunicaciones y Cero Spam</h2>
+              <h2 className="text-lg font-bold text-white mb-2">5. Política de Comunicaciones y Cero Spam</h2>
               <p>
                 En estricto apego a la <strong>Ley N° 32323</strong> del Perú, Todo Lima no realiza prospección comercial invasiva no solicitada por canales privados. Las comunicaciones comerciales directas se efectúan única y exclusivamente tras el contacto previo y voluntario del interesado.
               </p>
             </section>
 
             <section>
-              <h2 className="text-lg font-bold text-white mb-2">5. Propiedad Intelectual</h2>
+              <h2 className="text-lg font-bold text-white mb-2">6. Propiedad Intelectual</h2>
               <p>
                 Los logotipos, software, código fuente, diseño gráfico y contenidos propios de Todo Lima son propiedad exclusiva de sus creadores y están protegidos por las leyes de propiedad intelectual de la República del Perú. Las marcas comerciales y nombres de terceros mencionados en el directorio pertenecen a sus respectivos propietarios y se muestran únicamente con fines referenciales de identificación.
               </p>
             </section>
 
             <section>
-              <h2 className="text-lg font-bold text-white mb-2">6. Contacto y Libro de Reclamaciones</h2>
+              <h2 className="text-lg font-bold text-white mb-2">7. Ley Aplicable y Jurisdicción</h2>
+              <p>
+                Para cualquier controversia derivada del uso del portal o de la interpretación de estos términos, las partes se someten expresamente a la legislación vigente en la República del Perú y a la competencia de los jueces y tribunales del Distrito Judicial de Lima.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-lg font-bold text-white mb-2">8. Contacto y Libro de Reclamaciones</h2>
               <p>
                 Para cualquier consulta respecto a estos términos, comuníquese a <a href={`mailto:${TODOLIMA_EMAIL}`} className="text-sky-400 underline">{TODOLIMA_EMAIL}</a> o al WhatsApp <strong>{TODOLIMA_WHATSAPP_DISPLAY}</strong>. Ponemos a disposición de nuestros usuarios nuestro <Link href="/libro-de-reclamaciones" className="text-sky-400 underline">Libro de Reclamaciones Virtual</Link> conforme a ley.
               </p>

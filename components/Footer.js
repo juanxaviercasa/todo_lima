@@ -175,41 +175,74 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Barra inferior de copyright y enlaces legales */}
-        <div className="mt-14 pt-8 border-t border-slate-800/80 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <div>
-            © {new Date().getFullYear()} Todo Lima Network (todolima.com). Todos los derechos reservados. • Desarrollado por{' '}
-            <a 
-              href="https://xavier.cabellosalirosas.com" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="text-sky-400 hover:text-sky-300 font-bold underline transition-colors"
-            >
-              Xavier Cabello
-            </a>
-          </div>
+        {/* Barra de cumplimiento normativo y legal 360° */}
+        <div className="mt-12 pt-8 border-t border-slate-800/80">
+          <div className="flex flex-col gap-6">
+            <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2.5 text-xs text-slate-400">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-slate-300">Marco Legal:</span>
+              <Link href="/privacidad" className="hover:text-white transition-colors">
+                Privacidad & Datos
+              </Link>
+              <span>•</span>
+              <Link href="/terminos" className="hover:text-white transition-colors">
+                Términos y Condiciones
+              </Link>
+              <span>•</span>
+              <Link href="/cookies" className="hover:text-white transition-colors">
+                Política de Cookies
+              </Link>
+              <span>•</span>
+              <Link href="/aviso-legal" className="hover:text-white transition-colors">
+                Aviso Legal
+              </Link>
+              <span>•</span>
+              <Link href="/derechos-arco" className="hover:text-white transition-colors">
+                Derechos ARCO
+              </Link>
+              <span>•</span>
+              <Link href="/politica-anti-spam" className="hover:text-white transition-colors">
+                Política Anti-Spam
+              </Link>
+              <span>•</span>
+              <Link href="/descargo-de-responsabilidad" className="hover:text-white transition-colors">
+                Descargo de Responsabilidad
+              </Link>
+              <span>•</span>
+              <Link href="/reembolsos-y-garantias" className="hover:text-white transition-colors">
+                Garantías y Reembolsos
+              </Link>
+              <span>•</span>
+              <Link href="/baja" className="text-rose-400 hover:text-rose-300 transition-colors font-medium">
+                Baja / Opt-Out
+              </Link>
+              <span>•</span>
+              <Link href="/libro-de-reclamaciones" className="text-amber-400 hover:text-amber-300 transition-colors font-semibold flex items-center gap-1">
+                <BookOpen className="w-3.5 h-3.5" /> Libro de Reclamaciones
+              </Link>
+            </div>
 
-          <div className="flex flex-wrap items-center gap-4 sm:gap-6 justify-center">
-            <Link href="/privacidad" className="hover:text-slate-300 transition-colors">
-              Privacidad & Datos
-            </Link>
-            <Link href="/terminos" className="hover:text-slate-300 transition-colors">
-              Términos
-            </Link>
-            <Link href="/baja" className="text-rose-400 hover:text-rose-300 transition-colors">
-              Baja / Opt-Out
-            </Link>
-            <Link href="/libro-de-reclamaciones" className="text-amber-400 hover:text-amber-300 transition-colors flex items-center gap-1">
-              <BookOpen className="w-3.5 h-3.5" /> Libro de Reclamaciones
-            </Link>
-            <button
-              onClick={scrollToTop}
-              className="inline-flex items-center gap-1.5 text-slate-400 hover:text-white transition-colors bg-slate-900 border border-slate-800 py-1.5 px-3 rounded-xl ml-2"
-              title="Volver arriba"
-            >
-              <span>Subir</span>
-              <ArrowUp className="w-3.5 h-3.5" />
-            </button>
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400 pt-4 border-t border-slate-900">
+              <div>
+                © {new Date().getFullYear()} Todo Lima Network (todolima.com). Todos los derechos reservados. • Desarrollado por{' '}
+                <a 
+                  href="https://xavier.cabellosalirosas.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-sky-400 hover:text-sky-300 font-bold underline transition-colors"
+                >
+                  Xavier Cabello
+                </a>
+              </div>
+
+              <button
+                onClick={scrollToTop}
+                className="inline-flex items-center gap-1.5 text-slate-400 hover:text-white transition-colors bg-slate-900 border border-slate-800 py-1.5 px-3 rounded-xl"
+                title="Volver arriba"
+              >
+                <span>Subir</span>
+                <ArrowUp className="w-3.5 h-3.5" />
+              </button>
+            </div>
           </div>
         </div>
       </div>

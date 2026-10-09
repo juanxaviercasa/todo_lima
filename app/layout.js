@@ -1,5 +1,6 @@
 import ClerkProviderWrapper from '../components/ClerkProviderWrapper.js';
 import TodoLimaAssistant from '../components/TodoLimaAssistant.js';
+import CookieBanner from '../components/CookieBanner.js';
 import './globals.css';
 
 export const metadata = {
@@ -71,6 +72,7 @@ export default function RootLayout({ children }) {
         <body className="min-h-screen flex flex-col antialiased bg-slate-50 text-slate-900 selection:bg-sky-500/20 selection:text-sky-900">
           {children}
           <TodoLimaAssistant />
+          <CookieBanner />
         </body>
       </html>
     </ClerkProviderWrapper>
