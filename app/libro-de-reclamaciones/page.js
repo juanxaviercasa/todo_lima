@@ -97,28 +97,28 @@ export default function LibroReclamacionesPage() {
               
               {/* Sección 1: Datos del Consumidor */}
               <div>
-                <h2 className="text-sm font-bold text-sky-400 uppercase tracking-wider mb-3">
+                <h2 className="text-sm font-bold text-sky-600 dark:text-sky-400 uppercase tracking-wider mb-3">
                   1. Identificación del Consumidor Reclamante
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   <div className="sm:col-span-2">
-                    <label className="block text-slate-300 mb-1">Nombre y Apellidos Completos *</label>
+                    <label className="block text-slate-700 dark:text-slate-300 mb-1 font-medium">Nombre y Apellidos Completos *</label>
                     <input
                       type="text"
                       name="nombre"
                       required
                       value={formData.nombre}
                       onChange={handleChange}
-                      className="w-full px-3 py-2 rounded-lg bg-slate-900 border border-slate-700 text-white focus:border-sky-500 focus:outline-none"
+                      className="w-full px-3 py-2 rounded-lg bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:border-sky-500 focus:outline-none"
                     />
                   </div>
                   <div>
-                    <label className="block text-slate-300 mb-1">Tipo de Documento *</label>
+                    <label className="block text-slate-700 dark:text-slate-300 mb-1 font-medium">Tipo de Documento *</label>
                     <select
                       name="tipoDoc"
                       value={formData.tipoDoc}
                       onChange={handleChange}
-                      className="w-full px-3 py-2 rounded-lg bg-slate-900 border border-slate-700 text-white focus:border-sky-500 focus:outline-none"
+                      className="w-full px-3 py-2 rounded-lg bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:border-sky-500 focus:outline-none"
                     >
                       <option value="DNI">DNI</option>
                       <option value="CE">Carné de Extranjería</option>
@@ -127,83 +127,83 @@ export default function LibroReclamacionesPage() {
                     </select>
                   </div>
                   <div>
-                    <label className="block text-slate-300 mb-1">Número de Documento *</label>
+                    <label className="block text-slate-700 dark:text-slate-300 mb-1 font-medium">Número de Documento *</label>
                     <input
                       type="text"
                       name="numDoc"
                       required
                       value={formData.numDoc}
                       onChange={handleChange}
-                      className="w-full px-3 py-2 rounded-lg bg-slate-900 border border-slate-700 text-white focus:border-sky-500 focus:outline-none"
+                      className="w-full px-3 py-2 rounded-lg bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:border-sky-500 focus:outline-none"
                     />
                   </div>
                   <div>
-                    <label className="block text-slate-300 mb-1">Teléfono / Celular *</label>
+                    <label className="block text-slate-700 dark:text-slate-300 mb-1 font-medium">Teléfono / Celular *</label>
                     <input
                       type="tel"
                       name="telefono"
                       required
                       value={formData.telefono}
                       onChange={handleChange}
-                      className="w-full px-3 py-2 rounded-lg bg-slate-900 border border-slate-700 text-white focus:border-sky-500 focus:outline-none"
+                      className="w-full px-3 py-2 rounded-lg bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:border-sky-500 focus:outline-none"
                     />
                   </div>
                   <div>
-                    <label className="block text-slate-300 mb-1">Correo Electrónico *</label>
+                    <label className="block text-slate-700 dark:text-slate-300 mb-1 font-medium">Correo Electrónico *</label>
                     <input
                       type="email"
                       name="email"
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-3 py-2 rounded-lg bg-slate-900 border border-slate-700 text-white focus:border-sky-500 focus:outline-none"
+                      className="w-full px-3 py-2 rounded-lg bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:border-sky-500 focus:outline-none"
                     />
                   </div>
                   <div className="sm:col-span-2">
-                    <label className="block text-slate-300 mb-1">Domicilio en Lima o Perú *</label>
+                    <label className="block text-slate-700 dark:text-slate-300 mb-1 font-medium">Domicilio en Lima o Perú *</label>
                     <input
                       type="text"
                       name="domicilio"
                       required
                       value={formData.domicilio}
                       onChange={handleChange}
-                      className="w-full px-3 py-2 rounded-lg bg-slate-900 border border-slate-700 text-white focus:border-sky-500 focus:outline-none"
+                      className="w-full px-3 py-2 rounded-lg bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:border-sky-500 focus:outline-none"
                     />
                   </div>
                 </div>
               </div>
 
               {/* Sección 2: Bien Contratado */}
-              <div className="pt-4 border-t border-slate-700">
-                <h2 className="text-sm font-bold text-sky-400 uppercase tracking-wider mb-3">
+              <div className="pt-4 border-t border-slate-200 dark:border-slate-700">
+                <h2 className="text-sm font-bold text-sky-600 dark:text-sky-400 uppercase tracking-wider mb-3">
                   2. Identificación del Bien Contratado
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   <div>
-                    <label className="block text-slate-300 mb-1">Tipo de Bien</label>
+                    <label className="block text-slate-700 dark:text-slate-300 mb-1 font-medium">Tipo de Bien</label>
                     <select
                       name="tipoBien"
                       value={formData.tipoBien}
                       onChange={handleChange}
-                      className="w-full px-3 py-2 rounded-lg bg-slate-900 border border-slate-700 text-white focus:border-sky-500 focus:outline-none"
+                      className="w-full px-3 py-2 rounded-lg bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:border-sky-500 focus:outline-none"
                     >
                       <option value="servicio">Servicio Digital / Tecnológico</option>
                       <option value="producto">Producto / Directorio</option>
                     </select>
                   </div>
                   <div>
-                    <label className="block text-slate-300 mb-1">Monto Reclamado (Soles, si aplica)</label>
+                    <label className="block text-slate-700 dark:text-slate-300 mb-1 font-medium">Monto Reclamado (Soles, si aplica)</label>
                     <input
                       type="text"
                       name="monto"
                       value={formData.monto}
                       onChange={handleChange}
                       placeholder="S/ 0.00"
-                      className="w-full px-3 py-2 rounded-lg bg-slate-900 border border-slate-700 text-white focus:border-sky-500 focus:outline-none"
+                      className="w-full px-3 py-2 rounded-lg bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:border-sky-500 focus:outline-none"
                     />
                   </div>
                   <div className="sm:col-span-2">
-                    <label className="block text-slate-300 mb-1">Descripción del Servicio o Ficha *</label>
+                    <label className="block text-slate-700 dark:text-slate-300 mb-1 font-medium">Descripción del Servicio o Ficha *</label>
                     <input
                       type="text"
                       name="descripcionBien"
@@ -211,21 +211,21 @@ export default function LibroReclamacionesPage() {
                       value={formData.descripcionBien}
                       onChange={handleChange}
                       placeholder="Ej. Ficha de comercio en todolima.com o Servicio contratado"
-                      className="w-full px-3 py-2 rounded-lg bg-slate-900 border border-slate-700 text-white focus:border-sky-500 focus:outline-none"
+                      className="w-full px-3 py-2 rounded-lg bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:border-sky-500 focus:outline-none"
                     />
                   </div>
                 </div>
               </div>
 
               {/* Sección 3: Detalle de Reclamación */}
-              <div className="pt-4 border-t border-slate-700">
-                <h2 className="text-sm font-bold text-sky-400 uppercase tracking-wider mb-3">
+              <div className="pt-4 border-t border-slate-200 dark:border-slate-700">
+                <h2 className="text-sm font-bold text-sky-600 dark:text-sky-400 uppercase tracking-wider mb-3">
                   3. Detalle de la Reclamación y Pedido
                 </h2>
                 <div className="space-y-3">
                   <div>
-                    <label className="block text-slate-300 mb-1">Naturaleza del Asunto *</label>
-                    <div className="flex gap-4">
+                    <label className="block text-slate-700 dark:text-slate-300 mb-1 font-medium">Naturaleza del Asunto *</label>
+                    <div className="flex gap-4 text-slate-800 dark:text-slate-200">
                       <label className="flex items-center gap-2 cursor-pointer">
                         <input
                           type="radio"
@@ -250,7 +250,7 @@ export default function LibroReclamacionesPage() {
                   </div>
 
                   <div>
-                    <label className="block text-slate-300 mb-1">Detalle del Reclamo o Queja *</label>
+                    <label className="block text-slate-700 dark:text-slate-300 mb-1 font-medium">Detalle del Reclamo o Queja *</label>
                     <textarea
                       name="detalle"
                       required
@@ -258,12 +258,12 @@ export default function LibroReclamacionesPage() {
                       value={formData.detalle}
                       onChange={handleChange}
                       placeholder="Describa de manera clara y detallada los hechos ocurridos..."
-                      className="w-full px-3 py-2 rounded-lg bg-slate-900 border border-slate-700 text-white focus:border-sky-500 focus:outline-none"
+                      className="w-full px-3 py-2 rounded-lg bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:border-sky-500 focus:outline-none"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-slate-300 mb-1">Pedido Concreto *</label>
+                    <label className="block text-slate-700 dark:text-slate-300 mb-1 font-medium">Pedido Concreto *</label>
                     <textarea
                       name="pedido"
                       required
@@ -271,13 +271,13 @@ export default function LibroReclamacionesPage() {
                       value={formData.pedido}
                       onChange={handleChange}
                       placeholder="Indique con precisión qué solicita a Todo Lima para solucionar su reclamo..."
-                      className="w-full px-3 py-2 rounded-lg bg-slate-900 border border-slate-700 text-white focus:border-sky-500 focus:outline-none"
+                      className="w-full px-3 py-2 rounded-lg bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white focus:border-sky-500 focus:outline-none"
                     />
                   </div>
                 </div>
               </div>
 
-              <div className="text-[11px] text-slate-400 bg-slate-900/60 p-3 rounded-lg border border-slate-700/60">
+              <div className="text-[11px] text-slate-600 dark:text-slate-400 bg-slate-50 dark:bg-slate-900/60 p-3 rounded-lg border border-slate-200 dark:border-slate-700/60">
                 La formulación del reclamo no impide acudir a otras vías de solución de controversias ni es requisito previo para interponer una denuncia ante el Indecopi. El proveedor deberá dar respuesta al reclamo en un plazo no mayor a quince (15) días hábiles.
               </div>
 

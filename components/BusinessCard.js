@@ -82,7 +82,7 @@ export default function BusinessCard({ business, rank, onSelectDistrict }) {
   const RankIcon = rankStyle.icon;
 
   return (
-    <article className="open-card relative bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 shadow-xs dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)] hover:border-sky-300/80 dark:hover:border-sky-400/60 dark:hover:shadow-[0_15px_35px_-5px_rgba(14,165,233,0.2)] p-6 sm:p-7 flex flex-col justify-between group transition-all duration-300 backdrop-blur-sm">
+    <article className="open-card relative bg-white dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/85 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 shadow-xs dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)] hover:border-sky-300/80 dark:hover:border-sky-400/60 dark:hover:shadow-[0_15px_35px_-5px_rgba(14,165,233,0.2)] p-6 sm:p-7 flex flex-col justify-between group transition-all duration-300 backdrop-blur-sm">
       <div>
         {/* Fila superior: Ranking, Categoría y Rating */}
         <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
@@ -182,10 +182,10 @@ export default function BusinessCard({ business, rank, onSelectDistrict }) {
           {telLink ? (
             <a
               href={telLink}
-              className="flex-1 inline-flex items-center justify-center gap-2 bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-750 text-slate-800 dark:text-slate-100 font-bold text-xs sm:text-sm py-2.5 px-3 rounded-xl border border-slate-200/80 dark:border-slate-700/80 transition-colors"
+              className="flex-1 inline-flex items-center justify-center gap-2 bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-100 font-bold text-xs sm:text-sm py-2.5 px-3 rounded-xl border border-slate-200/80 dark:border-slate-700/80 transition-colors"
             >
               <Phone className="w-3.5 h-3.5 text-slate-600 dark:text-slate-400" />
-              <span className="truncate">{rawPhone}</span>
+              <span className="truncate">{rawPhone.replace(/^tel:/i, '').trim()}</span>
             </a>
           ) : null}
 
@@ -196,7 +196,7 @@ export default function BusinessCard({ business, rank, onSelectDistrict }) {
               className={`p-2.5 rounded-xl border transition-all text-xs font-bold flex items-center gap-1 ${
                 copied
                   ? 'bg-emerald-50 dark:bg-emerald-950/60 border-emerald-300 dark:border-emerald-700 text-emerald-700 dark:text-emerald-300'
-                  : 'bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-750 border-slate-200/80 dark:border-slate-700/80 text-slate-600 dark:text-slate-200'
+                  : 'bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-700 border-slate-200/80 dark:border-slate-700/80 text-slate-600 dark:text-slate-200'
               }`}
               title="Copiar número"
             >
@@ -210,7 +210,7 @@ export default function BusinessCard({ business, rank, onSelectDistrict }) {
               href={business.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-750 border border-slate-200/80 dark:border-slate-700/80 text-slate-600 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white transition-colors"
+              className="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100 dark:hover:bg-slate-700 border border-slate-200/80 dark:border-slate-700/80 text-slate-600 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white transition-colors"
               title="Visitar sitio web oficial"
             >
               <Globe className="w-4 h-4" />

@@ -22,13 +22,13 @@ export default async function DirectorioPage({ params }) {
 
   if (!fs.existsSync(filePath)) {
     return (
-      <div className="min-h-screen flex flex-col bg-slate-50">
+      <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors">
         <Navbar />
         <main className="flex-grow flex items-center justify-center p-6 text-center">
-          <div className="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm max-w-md">
-            <h1 className="text-2xl font-black text-slate-900 mb-2">Directorio en Construcción</h1>
-            <p className="text-slate-500 text-sm mb-6">Estamos recopilando las mejores fichas para esta categoría.</p>
-            <Link href="/" className="font-bold text-xs bg-slate-900 text-white px-4 py-2.5 rounded-xl">
+          <div className="bg-white dark:bg-slate-900 p-8 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm max-w-md">
+            <h1 className="text-2xl font-black text-slate-900 dark:text-white mb-2">Directorio en Construcción</h1>
+            <p className="text-slate-500 dark:text-slate-400 text-sm mb-6">Estamos recopilando las mejores fichas para esta categoría.</p>
+            <Link href="/" className="font-bold text-xs bg-slate-900 hover:bg-slate-800 dark:bg-sky-600 dark:hover:bg-sky-500 text-white px-4 py-2.5 rounded-xl transition-colors">
               Volver al Inicio
             </Link>
           </div>
@@ -49,7 +49,7 @@ export default async function DirectorioPage({ params }) {
   const categoryName = categoria.replace(/-/g, ' ');
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50">
+    <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors">
       <Navbar categoryTitle={categoryName} />
 
       <main className="flex-grow">

@@ -87,7 +87,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
   return (
     <section id="directorio" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
       {/* Controles de búsqueda y filtros */}
-      <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/85 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-5 sm:p-7 shadow-xs dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)] mb-8 transition-all backdrop-blur-md">
+      <div className="bg-white dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/85 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-5 sm:p-7 shadow-xs dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)] mb-8 transition-all backdrop-blur-md">
         <div className="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4">
           {/* Título de la sección */}
           <div>
@@ -134,7 +134,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
                 className={`px-3 py-1.5 rounded-xl text-xs font-bold shrink-0 transition-colors ${
                   selectedDistrict === 'all'
                     ? 'bg-sky-600 dark:bg-gradient-to-r dark:from-sky-500 dark:to-blue-600 text-white shadow-xs dark:shadow-[0_0_15px_rgba(14,165,233,0.35)]'
-                    : 'bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200 dark:hover:bg-slate-750 dark:border dark:border-slate-700/60 text-slate-700 dark:text-slate-200'
+                    : 'bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200 dark:hover:bg-slate-700 dark:border dark:border-slate-700/60 text-slate-700 dark:text-slate-200'
                 }`}
               >
                 Todos los distritos ({businesses.length})
@@ -147,7 +147,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold shrink-0 transition-colors flex items-center gap-1.5 ${
                     selectedDistrict.toLowerCase() === dist.toLowerCase()
                       ? 'bg-sky-600 dark:bg-gradient-to-r dark:from-sky-500 dark:to-blue-600 text-white shadow-xs dark:shadow-[0_0_15px_rgba(14,165,233,0.35)]'
-                      : 'bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200 dark:hover:bg-slate-750 dark:border dark:border-slate-700/60 text-slate-700 dark:text-slate-200'
+                      : 'bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200 dark:hover:bg-slate-700 dark:border dark:border-slate-700/60 text-slate-700 dark:text-slate-200'
                   }`}
                 >
                   <MapPin className={`w-3 h-3 ${selectedDistrict.toLowerCase() === dist.toLowerCase() ? 'text-white' : 'text-rose-500 dark:text-rose-400'}`} />
@@ -166,7 +166,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
                 <select
                   value={selectedDistrict}
                   onChange={(e) => setSelectedDistrict(e.target.value)}
-                  className="bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/80 dark:hover:bg-slate-750 border border-slate-200 dark:border-slate-700/80 text-slate-800 dark:text-slate-100 text-xs font-bold py-1.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
+                  className="bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/80 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700/80 text-slate-800 dark:text-slate-100 text-xs font-bold py-1.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
                 >
                   <option value="all">📍 Ver todos los distritos ({businesses.length})</option>
                   {Object.values(LIMA_ZONES).map(zone => {
@@ -197,7 +197,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
                 <select
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
-                  className="bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/80 dark:hover:bg-slate-750 border border-slate-200 dark:border-slate-700/80 text-slate-800 dark:text-slate-100 text-xs font-bold py-1.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
+                  className="bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/80 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700/80 text-slate-800 dark:text-slate-100 text-xs font-bold py-1.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
                 >
                   <option value="ranking" className="dark:bg-slate-900">Ranking Todo Lima</option>
                   <option value="rating" className="dark:bg-slate-900">Mayor Calificación (⭐)</option>

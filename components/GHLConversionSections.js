@@ -37,7 +37,7 @@ export default function GHLConversionSections({ category }) {
   ];
 
   return (
-    <div className="bg-slate-50 dark:bg-slate-950 border-t border-slate-200/80 dark:border-slate-850 mt-20 transition-colors">
+    <div className="bg-slate-50 dark:bg-slate-950 border-t border-slate-200/80 dark:border-slate-800 mt-20 transition-colors">
       {/* Sección 1: Tres Pilares de Confianza */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <div className="flex flex-col items-center text-center max-w-3xl mx-auto">
@@ -58,7 +58,7 @@ export default function GHLConversionSections({ category }) {
         </div>
 
         <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="open-card bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 p-8 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 shadow-xs dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] flex flex-col justify-between dark:hover:border-sky-400/50">
+          <div className="open-card bg-white dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/80 p-8 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 shadow-xs dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] flex flex-col justify-between dark:hover:border-sky-400/50">
             <div>
               <div className="w-14 h-14 rounded-2xl bg-sky-50 dark:bg-sky-500/15 border border-sky-100 dark:border-sky-500/30 flex items-center justify-center text-sky-600 dark:text-sky-300 dark:shadow-[0_0_12px_rgba(14,165,233,0.25)] mb-6">
                 <ShieldCheck className="w-7 h-7" />
@@ -76,7 +76,7 @@ export default function GHLConversionSections({ category }) {
             </div>
           </div>
 
-          <div className="open-card bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 p-8 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 shadow-xs dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] flex flex-col justify-between dark:hover:border-emerald-400/50">
+          <div className="open-card bg-white dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/80 p-8 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 shadow-xs dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] flex flex-col justify-between dark:hover:border-emerald-400/50">
             <div>
               <div className="w-14 h-14 rounded-2xl bg-emerald-50 dark:bg-emerald-500/15 border border-emerald-100 dark:border-emerald-500/30 flex items-center justify-center text-emerald-600 dark:text-emerald-300 dark:shadow-[0_0_12px_rgba(16,185,129,0.25)] mb-6">
                 <MessageCircle className="w-7 h-7" />
@@ -94,7 +94,7 @@ export default function GHLConversionSections({ category }) {
             </div>
           </div>
 
-          <div className="open-card bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 p-8 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 shadow-xs dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] flex flex-col justify-between dark:hover:border-indigo-400/50">
+          <div className="open-card bg-white dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/80 p-8 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 shadow-xs dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] flex flex-col justify-between dark:hover:border-indigo-400/50">
             <div>
               <div className="w-14 h-14 rounded-2xl bg-indigo-50 dark:bg-indigo-500/15 border border-indigo-100 dark:border-indigo-500/30 flex items-center justify-center text-indigo-600 dark:text-indigo-300 dark:shadow-[0_0_12px_rgba(99,102,241,0.25)] mb-6">
                 <UserCheck className="w-7 h-7" />
@@ -115,7 +115,7 @@ export default function GHLConversionSections({ category }) {
       </section>
 
       {/* Sección 2: Acordeón de Preguntas Frecuentes con Open Design */}
-      <section className="bg-white dark:bg-slate-950/40 border-y border-slate-200/80 dark:border-slate-850/80 py-16 sm:py-20">
+      <section className="bg-white dark:bg-slate-950/40 border-y border-slate-200/80 dark:border-slate-800 py-16 sm:py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="text-xs font-black uppercase tracking-widest text-slate-400 dark:text-slate-400">
@@ -140,7 +140,7 @@ export default function GHLConversionSections({ category }) {
                   <button
                     onClick={() => setOpenFaq(isOpen ? null : idx)}
                     type="button"
-                    className="w-full flex items-center justify-between p-5 text-left bg-slate-50/60 dark:bg-slate-900/90 hover:bg-slate-50 dark:hover:bg-slate-850 transition-colors focus:outline-none"
+                    className="w-full flex items-center justify-between p-5 text-left bg-slate-50/60 dark:bg-slate-900/90 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors focus:outline-none"
                   >
                     <span className="text-sm sm:text-base font-bold text-slate-900 dark:text-slate-100 pr-4 flex items-center gap-3">
                       <HelpCircle className="w-5 h-5 text-sky-600 dark:text-sky-400 shrink-0" />

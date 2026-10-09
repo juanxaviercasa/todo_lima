@@ -84,7 +84,7 @@ export default function TodoLimaAssistant() {
           <div className="p-4 space-y-2.5">
             <button
               onClick={() => handleAction('auditoria')}
-              className="w-full text-left p-3.5 rounded-xl bg-slate-800/80 hover:bg-slate-750 border border-slate-700/60 hover:border-sky-500/50 transition-all group flex items-start gap-3.5"
+              className="w-full text-left p-3.5 rounded-xl bg-slate-800/80 hover:bg-slate-700 border border-slate-700/60 hover:border-sky-500/50 transition-all group flex items-start gap-3.5"
             >
               <div className="p-2 rounded-lg bg-sky-500/10 text-sky-400 group-hover:bg-sky-500 group-hover:text-white transition-colors shrink-0 mt-0.5">
                 <BarChart3 className="w-5 h-5" />
@@ -102,7 +102,7 @@ export default function TodoLimaAssistant() {
 
             <button
               onClick={() => handleAction('ia_crm')}
-              className="w-full text-left p-3.5 rounded-xl bg-slate-800/80 hover:bg-slate-750 border border-slate-700/60 hover:border-emerald-500/50 transition-all group flex items-start gap-3.5"
+              className="w-full text-left p-3.5 rounded-xl bg-slate-800/80 hover:bg-slate-700 border border-slate-700/60 hover:border-emerald-500/50 transition-all group flex items-start gap-3.5"
             >
               <div className="p-2 rounded-lg bg-emerald-500/10 text-emerald-400 group-hover:bg-emerald-500 group-hover:text-white transition-colors shrink-0 mt-0.5">
                 <Bot className="w-5 h-5" />
@@ -120,7 +120,7 @@ export default function TodoLimaAssistant() {
 
             <button
               onClick={() => handleAction('verificacion')}
-              className="w-full text-left p-3.5 rounded-xl bg-slate-800/80 hover:bg-slate-750 border border-slate-700/60 hover:border-amber-500/50 transition-all group flex items-start gap-3.5"
+              className="w-full text-left p-3.5 rounded-xl bg-slate-800/80 hover:bg-slate-700 border border-slate-700/60 hover:border-amber-500/50 transition-all group flex items-start gap-3.5"
             >
               <div className="p-2 rounded-lg bg-amber-500/10 text-amber-400 group-hover:bg-amber-500 group-hover:text-white transition-colors shrink-0 mt-0.5">
                 <CheckCircle2 className="w-5 h-5" />

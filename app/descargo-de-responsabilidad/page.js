@@ -40,25 +40,25 @@ export default function DescargoResponsabilidadPage() {
             
             {/* 1. Naturaleza del Directorio */}
             <section>
-              <h2 className="text-lg font-bold text-white mb-2">1. Naturaleza Informativa e Indexadora</h2>
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-2">1. Naturaleza Informativa e Indexadora</h2>
               <p>
                 <strong>todolima.com</strong> es una plataforma de catálogo, geolocalización e indexación informativa de acceso abierto. Su propósito es facilitar a los ciudadanos y empresas la localización de negocios, profesionales independientes y servicios disponibles en los 43 distritos de Lima Metropolitana.
               </p>
-              <p className="mt-2 text-slate-300">
+              <p className="mt-2 text-slate-600 dark:text-slate-300">
                 Todo Lima <strong>no presta directamente</strong> los servicios de salud, fontanería, abogacía, mecánica, gastronomía ni ninguna de las actividades profesionales de los comercios indexados.
               </p>
             </section>
 
             {/* 2. Deslinde de Responsabilidad */}
-            <section className="p-5 rounded-xl bg-slate-900/70 border border-amber-500/30">
-              <h2 className="text-lg font-bold text-amber-300 mb-2">2. Deslinde Total de Responsabilidad por Servicios de Terceros</h2>
+            <section className="p-5 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-500/30">
+              <h2 className="text-lg font-bold text-amber-800 dark:text-amber-300 mb-2">2. Deslinde Total de Responsabilidad por Servicios de Terceros</h2>
               <p>
                 Cualquier contratación, cotización, pago, consulta médica, encargo legal o servicio técnico acordado entre un usuario del directorio y cualquiera de los establecimientos o profesionales listados constituye un <strong>contrato privado e independiente</strong> exclusivo entre ambas partes.
               </p>
-              <p className="mt-2 text-xs sm:text-sm text-slate-300">
+              <p className="mt-2 text-xs sm:text-sm text-slate-700 dark:text-slate-300">
                 En consecuencia, <strong>Todo Lima ({LEGAL_TITULAR})</strong> no asume responsabilidad civil, contractual, extracontractual, penal ni administrativa por:
               </p>
-              <ul className="list-disc pl-5 mt-2 space-y-1.5 text-xs sm:text-sm text-slate-400">
+              <ul className="list-disc pl-5 mt-2 space-y-1.5 text-xs sm:text-sm text-slate-600 dark:text-slate-400">
                 <li>La calidad, idoneidad, puntualidad, garantías o legalidad de los servicios provistos por los comercios listados.</li>
                 <li>Mala praxis médica, odontológica, veterinaria o profesional cometida por terceros.</li>
                 <li>Desacuerdos comerciales, cobros indebidos, retrasos o incumplimientos contractuales de los negocios indexados.</li>
@@ -68,31 +68,31 @@ export default function DescargoResponsabilidadPage() {
 
             {/* 3. Fuentes de Información y Veracidad */}
             <section>
-              <h2 className="text-lg font-bold text-white mb-2">3. Procedencia de los Datos (Fuentes de Acceso Público)</h2>
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-2">3. Procedencia de los Datos (Fuentes de Acceso Público)</h2>
               <p>
                 La información de comercios (denominación comercial, dirección, número telefónico público, categoría y calificaciones públicas) es recopilada periódicamente a partir de <strong>fuentes de acceso público</strong> (tales como perfiles públicos de Google Maps, directorios abiertos y sitios web institucionales), amparado en el artículo 13 de la Ley N° 29733 de Protección de Datos Personales del Perú.
               </p>
-              <p className="mt-2 text-slate-300">
+              <p className="mt-2 text-slate-600 dark:text-slate-300">
                 Si bien Todo Lima realiza esfuerzos continuos de actualización, los horarios, números de teléfono, direcciones y tarifas pueden ser modificados por los negocios sin previo aviso. Recomendamos al usuario verificar siempre los detalles antes de contratar.
               </p>
             </section>
 
             {/* 4. Procedimiento de Retirada */}
-            <section className="p-5 rounded-xl bg-slate-900/70 border border-slate-700">
-              <h2 className="text-lg font-bold text-white mb-2">4. Procedimiento de Notificación y Retirada Inmediata (Notice & Takedown)</h2>
+            <section className="p-5 rounded-xl bg-slate-50 dark:bg-slate-900/70 border border-slate-200 dark:border-slate-700">
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-2">4. Procedimiento de Notificación y Retirada Inmediata (Notice & Takedown)</h2>
               <p>
                 Si usted es el titular, apoderado o representante legal de un comercio indexado y desea modificar, enriquecer o <strong>eliminar definitivamente su ficha del directorio</strong>, garantizamos su tramitación gratuita e inmediata:
               </p>
               <div className="mt-4 flex flex-wrap gap-3">
                 <Link
                   href="/baja"
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-sky-600 hover:bg-sky-500 text-white rounded-xl font-bold text-xs transition-colors"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-sky-600 hover:bg-sky-500 text-white rounded-xl font-bold text-xs transition-colors shadow-sm"
                 >
                   <CheckCircle2 className="w-4 h-4" /> Solicitar Retirada / Baja de Ficha
                 </Link>
                 <Link
                   href="/derechos-arco"
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl font-bold text-xs transition-colors"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-slate-200 hover:bg-slate-300 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-900 dark:text-white rounded-xl font-bold text-xs transition-colors"
                 >
                   Canal Formal de Derechos ARCO
                 </Link>
@@ -101,9 +101,9 @@ export default function DescargoResponsabilidadPage() {
 
             {/* 5. Contacto */}
             <section>
-              <h2 className="text-lg font-bold text-white mb-2">5. Contacto Institucional</h2>
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-2">5. Contacto Institucional</h2>
               <p>
-                Para cualquier consulta, requerimiento legal o notificación, comuníquese directamente a nuestro correo oficial <a href={`mailto:${TODOLIMA_EMAIL}`} className="text-sky-400 underline">{TODOLIMA_EMAIL}</a> o mediante nuestro <Link href="/libro-de-reclamaciones" className="text-sky-400 underline">Libro de Reclamaciones</Link>.
+                Para cualquier consulta, requerimiento legal o notificación, comuníquese directamente a nuestro correo oficial <a href={`mailto:${TODOLIMA_EMAIL}`} className="text-sky-600 dark:text-sky-400 underline">{TODOLIMA_EMAIL}</a> o mediante nuestro <Link href="/libro-de-reclamaciones" className="text-sky-600 dark:text-sky-400 underline">Libro de Reclamaciones</Link>.
               </p>
             </section>
 

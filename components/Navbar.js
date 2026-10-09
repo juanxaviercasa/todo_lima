@@ -95,7 +95,7 @@ export default function Navbar({ categoryTitle = null }) {
             {categoryTitle && (
               <div className="hidden lg:flex items-center gap-2 ml-3 pl-3 border-l border-slate-200 dark:border-slate-800">
                 <span className="text-xs text-slate-400 dark:text-slate-500">/</span>
-                <span className="text-xs font-bold text-slate-700 dark:text-slate-100 bg-slate-100/90 dark:bg-slate-850 py-1 px-3 rounded-lg border border-slate-200/80 dark:border-slate-700/80 flex items-center gap-1.5 max-w-xs truncate shadow-2xs">
+                <span className="text-xs font-bold text-slate-700 dark:text-slate-100 bg-slate-100/90 dark:bg-slate-800 py-1 px-3 rounded-lg border border-slate-200/80 dark:border-slate-700/80 flex items-center gap-1.5 max-w-xs truncate shadow-2xs">
                   <MapPin className="w-3.5 h-3.5 text-rose-500 shrink-0" />
                   <span className="truncate">{categoryTitle}</span>
                 </span>
@@ -151,7 +151,7 @@ export default function Navbar({ categoryTitle = null }) {
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               type="button"
-              className="inline-flex md:hidden items-center justify-center p-2 rounded-xl text-slate-700 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 border border-slate-200/80 dark:border-slate-750 transition-colors focus:outline-none"
+              className="inline-flex md:hidden items-center justify-center p-2 rounded-xl text-slate-700 dark:text-slate-200 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 border border-slate-200/80 dark:border-slate-700 transition-colors focus:outline-none"
               aria-label="Abrir menú"
             >
               {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -259,7 +259,7 @@ export default function Navbar({ categoryTitle = null }) {
                       key={i}
                       href={niche.href}
                       onClick={() => setMobileMenuOpen(false)}
-                      className="flex items-center gap-2 p-2.5 rounded-xl border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/80 hover:bg-slate-100 dark:hover:bg-slate-750 text-xs font-bold text-slate-700 dark:text-slate-200 transition-colors"
+                      className="flex items-center gap-2 p-2.5 rounded-xl border border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/80 hover:bg-slate-100 dark:hover:bg-slate-700 text-xs font-bold text-slate-700 dark:text-slate-200 transition-colors"
                     >
                       <span className={`p-1 rounded-lg ${niche.color} dark:bg-slate-700/80`}>
                         <Icon className="w-3.5 h-3.5" />

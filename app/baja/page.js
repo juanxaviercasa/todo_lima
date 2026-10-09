@@ -92,13 +92,13 @@ export default function BajaPage() {
           ) : (
             <>
               {/* Opción Rápida WhatsApp */}
-              <div className="p-4 rounded-xl bg-slate-900/80 border border-slate-700/80 mb-6">
+              <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200 dark:border-slate-700/80 mb-6">
                 <div className="flex items-start justify-between gap-3">
                   <div>
-                    <h2 className="text-sm font-bold text-white flex items-center gap-1.5">
-                      <MessageCircle className="w-4 h-4 text-emerald-400" /> Baja Inmediata por WhatsApp
+                    <h2 className="text-sm font-bold text-slate-900 dark:text-white flex items-center gap-1.5">
+                      <MessageCircle className="w-4 h-4 text-emerald-500 dark:text-emerald-400" /> Baja Inmediata por WhatsApp
                     </h2>
-                    <p className="text-xs text-slate-400 mt-1">
+                    <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">
                       Simplemente envíe la palabra <strong>BAJA</strong> a nuestro número oficial ({TODOLIMA_WHATSAPP_DISPLAY}) y el sistema lo procesará automáticamente.
                     </p>
                   </div>
@@ -116,7 +116,7 @@ export default function BajaPage() {
               {/* Formulario Web */}
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
-                  <label className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1">
+                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">
                     Número de Celular o Teléfono a Excluir *
                   </label>
                   <input
@@ -125,12 +125,12 @@ export default function BajaPage() {
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     placeholder="Ej. 987654321 o +51987654321"
-                    className="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:border-sky-500 focus:outline-none"
+                    className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white text-sm focus:border-sky-500 focus:outline-none"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1">
+                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">
                     Nombre del Negocio o Comercio (Opcional)
                   </label>
                   <input
@@ -138,18 +138,18 @@ export default function BajaPage() {
                     value={businessName}
                     onChange={(e) => setBusinessName(e.target.value)}
                     placeholder="Ej. Clínica Dental San Isidro"
-                    className="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:border-sky-500 focus:outline-none"
+                    className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white text-sm focus:border-sky-500 focus:outline-none"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1">
+                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 uppercase tracking-wider mb-1">
                     Tipo de Solicitud
                   </label>
                   <select
                     value={reason}
                     onChange={(e) => setReason(e.target.value)}
-                    className="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:border-sky-500 focus:outline-none"
+                    className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white text-sm focus:border-sky-500 focus:outline-none"
                   >
                     <option value="opt_out">No deseo recibir comunicaciones comerciales (Opt-out)</option>
                     <option value="delete_listing">Eliminar la ficha de mi negocio de todolima.com</option>

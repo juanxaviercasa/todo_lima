@@ -133,7 +133,7 @@ export default function HomeExplorer({ categories = [] }) {
     <div className="w-full">
       {/* Barra de Búsqueda Interactiva con Filtro de Distrito & Filtros Rápidos */}
       <div className="relative max-w-4xl mx-auto -mt-8 sm:-mt-10 px-4 sm:px-6 z-20">
-        <div className="bg-white/95 dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/85 backdrop-blur-xl p-3 sm:p-4 rounded-3xl shadow-xl shadow-slate-900/10 dark:shadow-[0_20px_50px_rgba(0,0,0,0.6)] border border-slate-200/90 dark:border-slate-800/90 transition-all">
+        <div className="bg-white/95 dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/85 backdrop-blur-xl p-3 sm:p-4 rounded-3xl shadow-xl shadow-slate-900/10 dark:shadow-[0_20px_50px_rgba(0,0,0,0.6)] border border-slate-200/90 dark:border-slate-800/90 transition-all">
           <div className="flex flex-col sm:flex-row items-stretch gap-2.5">
             {/* Input de búsqueda por servicio o profesional */}
             <div className="relative flex-grow flex items-center">
@@ -163,7 +163,7 @@ export default function HomeExplorer({ categories = [] }) {
                 <select
                   value={selectedDistrict}
                   onChange={(e) => setSelectedDistrict(e.target.value)}
-                  className="w-full h-full pl-9 pr-8 py-3 sm:py-4 rounded-2xl bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100/80 dark:hover:bg-slate-750 border border-slate-200/80 dark:border-slate-700/80 text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-sky-500/30 focus:border-sky-500 cursor-pointer appearance-none transition-all shadow-2xs"
+                  className="w-full h-full pl-9 pr-8 py-3 sm:py-4 rounded-2xl bg-slate-50 dark:bg-slate-800/90 hover:bg-slate-100/80 dark:hover:bg-slate-700 border border-slate-200/80 dark:border-slate-700/80 text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-100 focus:outline-none focus:ring-2 focus:ring-sky-500/30 focus:border-sky-500 cursor-pointer appearance-none transition-all shadow-2xs"
                 >
                   <option value="all" className="dark:bg-slate-900">📍 Toda Lima Metropolitana</option>
                   {Object.values(LIMA_ZONES).map(zone => (
@@ -198,7 +198,7 @@ export default function HomeExplorer({ categories = [] }) {
                   className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl shrink-0 transition-all duration-200 ${
                     isSelected
                       ? 'bg-slate-900 dark:bg-gradient-to-r dark:from-sky-500 dark:to-blue-600 text-white shadow-sm dark:shadow-[0_0_15px_rgba(14,165,233,0.35)]'
-                      : 'bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/80 dark:hover:bg-slate-750 dark:border dark:border-slate-700/60 text-slate-700 dark:text-slate-200'
+                      : 'bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/80 dark:hover:bg-slate-700 dark:border dark:border-slate-700/60 text-slate-700 dark:text-slate-200'
                   }`}
                 >
                   <Icon className={`w-3.5 h-3.5 ${isSelected ? 'text-sky-400 dark:text-white' : 'text-slate-500 dark:text-slate-400'}`} />
@@ -319,7 +319,7 @@ export default function HomeExplorer({ categories = [] }) {
         </div>
 
         {/* Barra de Abecedario Interactivo (Índice A - Z) */}
-        <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/85 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-3 sm:p-4 mb-8 shadow-xs dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)]">
+        <div className="bg-white dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/85 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-3 sm:p-4 mb-8 shadow-xs dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)]">
           <div className="flex items-center justify-between gap-1 sm:gap-1.5 overflow-x-auto pb-1 scrollbar-none">
             <button
               onClick={() => setSelectedLetter('all')}
@@ -393,7 +393,7 @@ export default function HomeExplorer({ categories = [] }) {
                 <Link
                   key={cat.slug}
                   href={categoryHref}
-                  className="open-card bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-0 flex flex-col justify-between group relative overflow-hidden shadow-xs hover:border-sky-300 dark:hover:border-sky-400/60 transition-all hover:shadow-md dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] dark:hover:shadow-[0_15px_35px_-5px_rgba(14,165,233,0.2)]"
+                  className="open-card bg-white dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/80 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-0 flex flex-col justify-between group relative overflow-hidden shadow-xs hover:border-sky-300 dark:hover:border-sky-400/60 transition-all hover:shadow-md dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] dark:hover:shadow-[0_15px_35px_-5px_rgba(14,165,233,0.2)]"
                 >
                   {/* Image Header */}
                   <div className="relative w-full h-48 overflow-hidden bg-slate-100 dark:bg-slate-800">
@@ -551,7 +551,7 @@ export default function HomeExplorer({ categories = [] }) {
                   className={`text-left rounded-2xl p-4 transition-all duration-200 group relative border cursor-pointer ${
                     isSelected
                       ? 'bg-slate-900 dark:bg-gradient-to-r dark:from-sky-500 dark:to-blue-600 text-white border-sky-500 dark:border-sky-400 ring-2 ring-sky-400 shadow-md dark:shadow-[0_0_18px_rgba(14,165,233,0.35)]'
-                      : 'bg-slate-50/80 dark:bg-slate-900/80 hover:bg-white dark:hover:bg-slate-850 border-slate-200/80 dark:border-slate-800/90 hover:shadow-md hover:border-sky-300 dark:hover:border-sky-500/50 dark:hover:shadow-[0_0_15px_rgba(14,165,233,0.15)]'
+                      : 'bg-slate-50/80 dark:bg-slate-900/80 hover:bg-white dark:hover:bg-slate-800 border-slate-200/80 dark:border-slate-800/90 hover:shadow-md hover:border-sky-300 dark:hover:border-sky-500/50 dark:hover:shadow-[0_0_15px_rgba(14,165,233,0.15)]'
                   }`}
                 >
                   <div className="flex items-center justify-between mb-1.5">
@@ -591,7 +591,7 @@ export default function HomeExplorer({ categories = [] }) {
 
           {/* Desglose de los 43 distritos agrupados por Zonas */}
           {showAllDistricts && (
-            <div className="mt-8 bg-slate-50 dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/85 rounded-3xl border border-slate-200 dark:border-slate-800/90 p-6 sm:p-8 animate-in fade-in slide-in-from-top-2 duration-300 dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)]">
+            <div className="mt-8 bg-slate-50 dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/85 rounded-3xl border border-slate-200 dark:border-slate-800/90 p-6 sm:p-8 animate-in fade-in slide-in-from-top-2 duration-300 dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)]">
               <h3 className="text-sm font-black text-slate-900 dark:text-white uppercase tracking-wider mb-6 text-center">
                 Mapa Integral de Lima Metropolitana y Callao
               </h3>
@@ -712,7 +712,7 @@ export default function HomeExplorer({ categories = [] }) {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Card 1: Salud y Medicina */}
-          <div className="open-card relative rounded-3xl overflow-hidden border border-slate-200/90 dark:border-slate-800/90 shadow-sm dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)] bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 group flex flex-col justify-between dark:hover:border-sky-400/50">
+          <div className="open-card relative rounded-3xl overflow-hidden border border-slate-200/90 dark:border-slate-800/90 shadow-sm dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)] bg-white dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/80 group flex flex-col justify-between dark:hover:border-sky-400/50">
             <div className="relative h-64 sm:h-72 w-full overflow-hidden">
               <img
                 src="/images/salud-feature.jpg"
@@ -753,7 +753,7 @@ export default function HomeExplorer({ categories = [] }) {
           </div>
 
           {/* Card 2: Hogar y Reparaciones */}
-          <div className="open-card relative rounded-3xl overflow-hidden border border-slate-200/90 dark:border-slate-800/90 shadow-sm dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)] bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 group flex flex-col justify-between dark:hover:border-amber-400/50">
+          <div className="open-card relative rounded-3xl overflow-hidden border border-slate-200/90 dark:border-slate-800/90 shadow-sm dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)] bg-white dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/80 group flex flex-col justify-between dark:hover:border-amber-400/50">
             <div className="relative h-64 sm:h-72 w-full overflow-hidden">
               <img
                 src="/images/hogar-feature.jpg"
@@ -820,7 +820,7 @@ export default function HomeExplorer({ categories = [] }) {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-8 shadow-xs hover:shadow-md dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] transition-all">
+          <div className="bg-white dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/80 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-8 shadow-xs hover:shadow-md dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] transition-all">
             <div className="w-12 h-12 rounded-2xl bg-sky-500/10 dark:bg-sky-500/15 text-sky-600 dark:text-sky-300 dark:border dark:border-sky-500/30 dark:shadow-[0_0_12px_rgba(14,165,233,0.25)] flex items-center justify-center font-black text-xl mb-5">
               1
             </div>
@@ -830,7 +830,7 @@ export default function HomeExplorer({ categories = [] }) {
             </p>
           </div>
 
-          <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-8 shadow-xs hover:shadow-md dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] transition-all">
+          <div className="bg-white dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/80 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-8 shadow-xs hover:shadow-md dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] transition-all">
             <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 dark:bg-emerald-500/15 text-emerald-600 dark:text-emerald-300 dark:border dark:border-emerald-500/30 dark:shadow-[0_0_12px_rgba(16,185,129,0.25)] flex items-center justify-center font-black text-xl mb-5">
               2
             </div>
@@ -840,7 +840,7 @@ export default function HomeExplorer({ categories = [] }) {
             </p>
           </div>
 
-          <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/80 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-8 shadow-xs hover:shadow-md dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] transition-all">
+          <div className="bg-white dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/80 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-8 shadow-xs hover:shadow-md dark:shadow-[0_15px_30px_rgba(0,0,0,0.4)] transition-all">
             <div className="w-12 h-12 rounded-2xl bg-indigo-500/10 dark:bg-indigo-500/15 text-indigo-600 dark:text-indigo-300 dark:border dark:border-indigo-500/30 dark:shadow-[0_0_12px_rgba(99,102,241,0.25)] flex items-center justify-center font-black text-xl mb-5">
               3
             </div>

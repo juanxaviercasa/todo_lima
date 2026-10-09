@@ -77,41 +77,41 @@ export default function DerechosArcoPage() {
 
           {/* Bloque explicativo de los 4 derechos */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10 text-xs sm:text-sm">
-            <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-700/80">
-              <span className="font-bold text-sky-400 block mb-1">1. Acceso</span>
-              <p className="text-slate-300">
+            <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700/80">
+              <span className="font-bold text-sky-600 dark:text-sky-400 block mb-1">1. Acceso</span>
+              <p className="text-slate-600 dark:text-slate-300">
                 Derecho a conocer qué datos personales de su titularidad obran en nuestros registros, cómo fueron recopilados y para qué fin se utilizan.
               </p>
             </div>
 
-            <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-700/80">
-              <span className="font-bold text-emerald-400 block mb-1">2. Rectificación</span>
-              <p className="text-slate-300">
+            <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700/80">
+              <span className="font-bold text-emerald-600 dark:text-emerald-400 block mb-1">2. Rectificación</span>
+              <p className="text-slate-600 dark:text-slate-300">
                 Derecho a solicitar la actualización, corrección o enriquecimiento de datos inexactos, erróneos o incompletos en el directorio.
               </p>
             </div>
 
-            <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-700/80">
-              <span className="font-bold text-rose-400 block mb-1">3. Cancelación (Supresión)</span>
-              <p className="text-slate-300">
+            <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700/80">
+              <span className="font-bold text-rose-600 dark:text-rose-400 block mb-1">3. Cancelación (Supresión)</span>
+              <p className="text-slate-600 dark:text-slate-300">
                 Derecho a solicitar la supresión o eliminación definitiva de sus datos personales cuando hayan dejado de ser necesarios o pertinentes.
               </p>
             </div>
 
-            <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-700/80">
-              <span className="font-bold text-amber-400 block mb-1">4. Oposición</span>
-              <p className="text-slate-300">
+            <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700/80">
+              <span className="font-bold text-amber-600 dark:text-amber-400 block mb-1">4. Oposición</span>
+              <p className="text-slate-600 dark:text-slate-300">
                 Derecho a oponerse al tratamiento de sus datos personales por motivos fundados o cuando se pretenda utilizarlos para fines comerciales no consentidos.
               </p>
             </div>
           </div>
 
           {/* Información de plazos legales */}
-          <div className="p-4 rounded-xl bg-sky-950/40 border border-sky-800/60 mb-10 flex items-start gap-3 text-xs sm:text-sm text-sky-200">
-            <Clock className="w-5 h-5 text-sky-400 shrink-0 mt-0.5" />
+          <div className="p-4 rounded-xl bg-sky-50 dark:bg-sky-950/40 border border-sky-200 dark:border-sky-800/60 mb-10 flex items-start gap-3 text-xs sm:text-sm text-sky-900 dark:text-sky-200">
+            <Clock className="w-5 h-5 text-sky-600 dark:text-sky-400 shrink-0 mt-0.5" />
             <div>
-              <strong className="text-sky-300">Plazos Legales de Atención:</strong>
-              <p className="mt-1 text-slate-300">
+              <strong className="text-sky-700 dark:text-sky-300">Plazos Legales de Atención:</strong>
+              <p className="mt-1 text-slate-700 dark:text-slate-300">
                 Conforme al Art. 55 del D.S. N° 003-2013-JUS, las solicitudes de Rectificación, Cancelación u Oposición se atienden en un plazo máximo de <strong>10 días hábiles</strong>. Las solicitudes de Acceso se responden en un máximo de <strong>20 días hábiles</strong>.
               </p>
             </div>
@@ -142,18 +142,18 @@ export default function DerechosArcoPage() {
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="border-b border-slate-700 pb-3">
-                <h3 className="text-base font-bold text-white flex items-center gap-2">
-                  <UserCheck className="w-4 h-4 text-sky-400" /> Formulario Oficial de Ejercicio de Derechos
+              <div className="border-b border-slate-200 dark:border-slate-700 pb-3">
+                <h3 className="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                  <UserCheck className="w-4 h-4 text-sky-600 dark:text-sky-400" /> Formulario Oficial de Ejercicio de Derechos
                 </h3>
-                <p className="text-xs text-slate-400 mt-1">
+                <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
                   Complete los siguientes campos obligatorios para dar inicio a la tramitación de su requerimiento.
                 </p>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-xs font-semibold text-slate-300 mb-1">
+                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">
                     Nombres y Apellidos Completos *
                   </label>
                   <input
@@ -163,12 +163,12 @@ export default function DerechosArcoPage() {
                     value={formData.nombreCompleto}
                     onChange={handleChange}
                     placeholder="Ej. Juan Pérez Gómez"
-                    className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none focus:border-sky-500"
+                    className="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-slate-900 dark:text-white focus:outline-none focus:border-sky-500"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold text-slate-300 mb-1">
+                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">
                     Tipo y Número de Documento de Identidad *
                   </label>
                   <div className="flex gap-2">
@@ -176,7 +176,7 @@ export default function DerechosArcoPage() {
                       name="tipoDoc"
                       value={formData.tipoDoc}
                       onChange={handleChange}
-                      className="bg-slate-900 border border-slate-700 rounded-xl px-3 py-2.5 text-xs text-white focus:outline-none focus:border-sky-500"
+                      className="bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl px-3 py-2.5 text-xs text-slate-900 dark:text-white focus:outline-none focus:border-sky-500"
                     >
                       <option value="DNI">DNI</option>
                       <option value="CE">C.E.</option>
@@ -190,13 +190,13 @@ export default function DerechosArcoPage() {
                       value={formData.numDoc}
                       onChange={handleChange}
                       placeholder="Número de documento"
-                      className="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none focus:border-sky-500"
+                      className="flex-1 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-slate-900 dark:text-white focus:outline-none focus:border-sky-500"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold text-slate-300 mb-1">
+                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">
                     Correo Electrónico para Notificaciones *
                   </label>
                   <input
@@ -206,12 +206,12 @@ export default function DerechosArcoPage() {
                     value={formData.email}
                     onChange={handleChange}
                     placeholder="ejemplo@correo.com"
-                    className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none focus:border-sky-500"
+                    className="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-slate-900 dark:text-white focus:outline-none focus:border-sky-500"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold text-slate-300 mb-1">
+                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">
                     Teléfono Celular / WhatsApp
                   </label>
                   <input
@@ -220,21 +220,21 @@ export default function DerechosArcoPage() {
                     value={formData.telefono}
                     onChange={handleChange}
                     placeholder="Ej. 987654321"
-                    className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none focus:border-sky-500"
+                    className="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-slate-900 dark:text-white focus:outline-none focus:border-sky-500"
                   />
                 </div>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-xs font-semibold text-slate-300 mb-1">
+                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">
                     Derecho que Solicita Ejercer *
                   </label>
                   <select
                     name="derecho"
                     value={formData.derecho}
                     onChange={handleChange}
-                    className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none focus:border-sky-500"
+                    className="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-slate-900 dark:text-white focus:outline-none focus:border-sky-500"
                   >
                     <option value="cancelacion">Cancelación / Supresión de datos o ficha</option>
                     <option value="rectificacion">Rectificación / Corrección de datos</option>
@@ -244,7 +244,7 @@ export default function DerechosArcoPage() {
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold text-slate-300 mb-1">
+                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">
                     Nombre o Enlace de la Ficha en Todo Lima (Opcional)
                   </label>
                   <input
@@ -253,13 +253,13 @@ export default function DerechosArcoPage() {
                     value={formData.nombreNegocio}
                     onChange={handleChange}
                     placeholder="Ej. Clínica Dental San Juan o URL de la ficha"
-                    className="w-full bg-slate-900 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none focus:border-sky-500"
+                    className="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-slate-900 dark:text-white focus:outline-none focus:border-sky-500"
                   />
                 </div>
               </div>
 
               <div>
-                <label className="block text-xs font-semibold text-slate-300 mb-1">
+                <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">
                   Fundamento y Detalle Concreto de la Solicitud *
                 </label>
                 <textarea
@@ -269,11 +269,11 @@ export default function DerechosArcoPage() {
                   value={formData.detalle}
                   onChange={handleChange}
                   placeholder="Detalle los motivos de su requerimiento y las acciones concretas solicitadas..."
-                  className="w-full bg-slate-900 border border-slate-700 rounded-xl p-3.5 text-xs text-white focus:outline-none focus:border-sky-500"
+                  className="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl p-3.5 text-xs text-slate-900 dark:text-white focus:outline-none focus:border-sky-500"
                 ></textarea>
               </div>
 
-              <div className="flex items-start gap-2.5 text-xs text-slate-400">
+              <div className="flex items-start gap-2.5 text-xs text-slate-600 dark:text-slate-400">
                 <input type="checkbox" required id="declara_veracidad" className="mt-0.5 rounded" />
                 <label htmlFor="declara_veracidad">
                   Declaro bajo juramento ser el titular legítimo de los datos o representante autorizado del comercio, y que la información proporcionada es fidedigna conforme a la Ley N° 29733.
@@ -283,7 +283,7 @@ export default function DerechosArcoPage() {
               <div className="flex items-center justify-between pt-2">
                 <Link
                   href="/baja"
-                  className="text-xs text-sky-400 hover:text-sky-300 underline"
+                  className="text-xs text-sky-600 dark:text-sky-400 hover:text-sky-500 underline"
                 >
                   ¿Deseas una baja automática rápida por WhatsApp?
                 </Link>
@@ -301,8 +301,8 @@ export default function DerechosArcoPage() {
           )}
 
           {/* Advertencia final sobre ANPD */}
-          <div className="mt-12 pt-6 border-t border-slate-700/80 text-xs text-slate-400 flex items-start gap-2.5">
-            <AlertCircle className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+          <div className="mt-12 pt-6 border-t border-slate-200 dark:border-slate-700/80 text-xs text-slate-500 dark:text-slate-400 flex items-start gap-2.5">
+            <AlertCircle className="w-4 h-4 text-amber-500 dark:text-amber-400 shrink-0 mt-0.5" />
             <p>
               En caso de considerar que su solicitud de derechos ARCO no fue atendida satisfactoriamente dentro de los plazos reglamentarios, le asiste el derecho de presentar una reclamación ante la Autoridad Nacional de Protección de Datos Personales (ANPD) del Ministerio de Justicia y Derechos Humanos (MINJUSDH) del Perú.
             </p>

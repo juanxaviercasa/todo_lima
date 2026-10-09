@@ -15,7 +15,7 @@ export default function CookiesPage() {
       <Navbar />
 
       <main className="flex-1 max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
-        <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/85 border border-slate-200/90 dark:border-slate-800/90 rounded-3xl p-6 sm:p-10 shadow-xl dark:shadow-[0_20px_50px_rgba(0,0,0,0.6)] backdrop-blur-sm">
+        <div className="bg-white dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/85 border border-slate-200/90 dark:border-slate-800/90 rounded-3xl p-6 sm:p-10 shadow-xl dark:shadow-[0_20px_50px_rgba(0,0,0,0.6)] backdrop-blur-sm">
           
           <div className="flex items-center gap-3 text-amber-500 dark:text-amber-400 mb-4">
             <Cookie className="w-8 h-8 text-amber-500 dark:text-amber-400" />
@@ -35,8 +35,8 @@ export default function CookiesPage() {
             
             {/* 1. Qué son */}
             <section>
-              <h2 className="text-lg font-bold text-white mb-2 flex items-center gap-2">
-                <Info className="w-5 h-5 text-sky-400" /> 1. ¿Qué son las Cookies y Tecnologías Similares?
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-2 flex items-center gap-2">
+                <Info className="w-5 h-5 text-sky-500 dark:text-sky-400" /> 1. ¿Qué son las Cookies y Tecnologías Similares?
               </h2>
               <p>
                 Las cookies son pequeños archivos de datos que se descargan en su dispositivo (computadora, tableta o teléfono móvil) al acceder a determinadas páginas web. Permiten a una plataforma recordar las acciones y preferencias del usuario (como idioma, filtros de búsqueda y opciones de visualización) a lo largo del tiempo, así como garantizar la seguridad de la navegación.
@@ -48,37 +48,37 @@ export default function CookiesPage() {
 
             {/* 2. Categorías de cookies */}
             <section>
-              <h2 className="text-lg font-bold text-white mb-3 flex items-center gap-2">
-                <Settings className="w-5 h-5 text-amber-400" /> 2. Tipos de Cookies que Empleamos
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-3 flex items-center gap-2">
+                <Settings className="w-5 h-5 text-amber-500 dark:text-amber-400" /> 2. Tipos de Cookies que Empleamos
               </h2>
               <div className="space-y-4">
                 
-                <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-700">
-                  <h3 className="font-bold text-white text-sm mb-1 flex items-center gap-2">
-                    <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
+                <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700">
+                  <h3 className="font-bold text-slate-900 dark:text-white text-sm mb-1 flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
                     a) Cookies Técnicas y Estrictamente Necesarias (Obligatorias)
                   </h3>
-                  <p className="text-xs text-slate-300 leading-relaxed">
+                  <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
                     Son esenciales para el funcionamiento básico del portal y no pueden desactivarse. Permiten la mitigación de ataques cibernéticos a través de Cloudflare (WAF), el balanceo de carga y la prevención de fraudes o consultas automatizadas maliciosas.
                   </p>
                 </div>
 
-                <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-700">
-                  <h3 className="font-bold text-white text-sm mb-1 flex items-center gap-2">
-                    <span className="w-2 h-2 rounded-full bg-sky-400"></span>
+                <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700">
+                  <h3 className="font-bold text-slate-900 dark:text-white text-sm mb-1 flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-sky-500"></span>
                     b) Cookies de Personalización y Preferencias
                   </h3>
-                  <p className="text-xs text-slate-300 leading-relaxed">
+                  <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
                     Permiten recordar las selecciones previas del usuario, como el distrito metropolitano seleccionado para el filtrado de directorios o el estado de aceptación del banner de consentimiento.
                   </p>
                 </div>
 
-                <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-700">
-                  <h3 className="font-bold text-white text-sm mb-1 flex items-center gap-2">
-                    <span className="w-2 h-2 rounded-full bg-purple-400"></span>
+                <div className="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700">
+                  <h3 className="font-bold text-slate-900 dark:text-white text-sm mb-1 flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-purple-500"></span>
                     c) Cookies Analíticas y de Rendimiento (Estadísticas Anónimas)
                   </h3>
-                  <p className="text-xs text-slate-300 leading-relaxed">
+                  <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
                     Recopilan datos cuantitativos y agregados sobre cómo los visitantes interactúan con el directorio (categorías más visitadas, tiempos de respuesta, errores de página). Estos datos se anonimizan sin asociar identificadores personales directos.
                   </p>
                 </div>
@@ -88,10 +88,10 @@ export default function CookiesPage() {
 
             {/* 3. Tabla informativa */}
             <section>
-              <h2 className="text-lg font-bold text-white mb-3">3. Inventario Resumido de Cookies</h2>
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-3">3. Inventario Resumido de Cookies</h2>
               <div className="overflow-x-auto">
-                <table className="w-full text-left text-xs border border-slate-700 rounded-xl overflow-hidden">
-                  <thead className="bg-slate-900 text-slate-300 font-bold border-b border-slate-700">
+                <table className="w-full text-left text-xs border border-slate-200 dark:border-slate-700 rounded-xl overflow-hidden">
+                  <thead className="bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-300 font-bold border-b border-slate-200 dark:border-slate-700">
                     <tr>
                       <th className="p-3">Nombre</th>
                       <th className="p-3">Proveedor</th>
@@ -99,21 +99,21 @@ export default function CookiesPage() {
                       <th className="p-3">Duración</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-slate-800 text-slate-300">
+                  <tbody className="divide-y divide-slate-200 dark:divide-slate-800 text-slate-600 dark:text-slate-300">
                     <tr>
-                      <td className="p-3 font-mono text-sky-400">__cf_bm / cf_clearance</td>
+                      <td className="p-3 font-mono text-sky-600 dark:text-sky-400 font-semibold">__cf_bm / cf_clearance</td>
                       <td className="p-3">Cloudflare</td>
                       <td className="p-3">Seguridad perimetral anti-bots y protección DDoS</td>
                       <td className="p-3">30 min / 1 año</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-mono text-sky-400">tl_cookie_consent</td>
+                      <td className="p-3 font-mono text-sky-600 dark:text-sky-400 font-semibold">tl_cookie_consent</td>
                       <td className="p-3">todolima.com</td>
                       <td className="p-3">Guarda la preferencia del usuario sobre el aviso de cookies</td>
                       <td className="p-3">1 año (LocalStorage)</td>
                     </tr>
                     <tr>
-                      <td className="p-3 font-mono text-sky-400">_ga / _ga_*</td>
+                      <td className="p-3 font-mono text-sky-600 dark:text-sky-400 font-semibold">_ga / _ga_*</td>
                       <td className="p-3">Google Analytics</td>
                       <td className="p-3">Métricas agregadas de navegación y visitas anonimizadas</td>
                       <td className="p-3">13 meses</td>
@@ -125,7 +125,7 @@ export default function CookiesPage() {
 
             {/* 4. Cómo gestionar cookies */}
             <section>
-              <h2 className="text-lg font-bold text-white mb-2">4. ¿Cómo Administrar o Desactivar las Cookies?</h2>
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-2">4. ¿Cómo Administrar o Desactivar las Cookies?</h2>
               <p>
                 Usted puede permitir, bloquear o eliminar las cookies instaladas en su equipo mediante la configuración de las opciones del navegador web que utilice:
               </p>
@@ -135,16 +135,16 @@ export default function CookiesPage() {
                 <li><strong>Apple Safari:</strong> Preferencias &gt; Privacidad &gt; Bloquear todas las cookies.</li>
                 <li><strong>Microsoft Edge:</strong> Configuración &gt; Permisos del sitio &gt; Cookies y datos almacenados.</li>
               </ul>
-              <p className="mt-3 text-xs text-slate-400">
+              <p className="mt-3 text-xs text-slate-500 dark:text-slate-400">
                 Tenga en cuenta que si desactiva las cookies estrictamente necesarias, es posible que algunas funciones de seguridad o búsqueda de comercios no respondan con la fluidez óptima.
               </p>
             </section>
 
             {/* 5. Contacto */}
-            <section className="p-4 rounded-xl bg-slate-900/60 border border-slate-700">
-              <h2 className="text-lg font-bold text-white mb-2">5. Contacto sobre Tratamiento de Cookies</h2>
+            <section className="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700">
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-2">5. Contacto sobre Tratamiento de Cookies</h2>
               <p>
-                Si tiene dudas sobre esta política, puede ponerse en contacto con <strong>{LEGAL_TITULAR}</strong> ({LEGAL_ENTITY_NAME}) enviando un correo a <a href={`mailto:${TODOLIMA_EMAIL}`} className="text-sky-400 underline">{TODOLIMA_EMAIL}</a> o a través de nuestra <Link href="/privacidad" className="text-sky-400 underline">Política de Privacidad Integral</Link>.
+                Si tiene dudas sobre esta política, puede ponerse en contacto con <strong>{LEGAL_TITULAR}</strong> ({LEGAL_ENTITY_NAME}) enviando un correo a <a href={`mailto:${TODOLIMA_EMAIL}`} className="text-sky-600 dark:text-sky-400 underline">{TODOLIMA_EMAIL}</a> o a través de nuestra <Link href="/privacidad" className="text-sky-600 dark:text-sky-400 underline font-semibold">Política de Privacidad Integral</Link>.
               </p>
             </section>
 

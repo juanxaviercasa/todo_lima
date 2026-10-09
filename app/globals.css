@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant dark (.dark &, &.dark);
 
 @layer base {
   :root {
@@ -67,6 +67,10 @@ html.dark .glass-panel {
 
 .open-card {
   transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.28s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.28s ease;
+}
+
+html.dark .open-card {
+  background-color: #0f172a;
 }
 
 .open-card:hover {

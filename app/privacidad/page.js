@@ -22,7 +22,7 @@ export default function PrivacidadPage() {
       <Navbar />
 
       <main className="flex-1 max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
-        <div className="bg-white dark:bg-gradient-to-b dark:from-slate-900/95 dark:to-slate-900/85 border border-slate-200/90 dark:border-slate-800/90 rounded-3xl p-6 sm:p-10 shadow-xl dark:shadow-[0_20px_50px_rgba(0,0,0,0.6)] backdrop-blur-sm">
+        <div className="bg-white dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/85 border border-slate-200/90 dark:border-slate-800/90 rounded-3xl p-6 sm:p-10 shadow-xl dark:shadow-[0_20px_50px_rgba(0,0,0,0.6)] backdrop-blur-sm">
           
           <div className="flex items-center gap-3 text-sky-600 dark:text-sky-400 mb-4">
             <ShieldCheck className="w-8 h-8 text-emerald-500 dark:text-emerald-400" />
@@ -42,35 +42,35 @@ export default function PrivacidadPage() {
             
             {/* 1. Responsable */}
             <section>
-              <h2 className="text-lg font-bold text-white mb-2 flex items-center gap-2">
-                <FileText className="w-5 h-5 text-sky-400" /> 1. Identificación del Responsable del Banco de Datos
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-2 flex items-center gap-2">
+                <FileText className="w-5 h-5 text-sky-500 dark:text-sky-400" /> 1. Identificación del Responsable del Banco de Datos
               </h2>
               <p>
-                El presente portal web <strong>todolima.com</strong> es operado y administrado por <strong>{LEGAL_TITULAR}</strong> en representación de <strong>{LEGAL_ENTITY_NAME}</strong> (en adelante, &quot;Todo Lima&quot;), con domicilio fiscal y operativo en <strong>{LEGAL_DOMICILE}</strong>. Correo electrónico oficial de contacto: <a href={`mailto:${TODOLIMA_EMAIL}`} className="text-sky-400 underline">{TODOLIMA_EMAIL}</a>; canal de atención directa: <strong>{TODOLIMA_WHATSAPP_DISPLAY}</strong>.
+                El presente portal web <strong>todolima.com</strong> es operado y administrado por <strong>{LEGAL_TITULAR}</strong> en representación de <strong>{LEGAL_ENTITY_NAME}</strong> (en adelante, &quot;Todo Lima&quot;), con domicilio fiscal y operativo en <strong>{LEGAL_DOMICILE}</strong>. Correo electrónico oficial de contacto: <a href={`mailto:${TODOLIMA_EMAIL}`} className="text-sky-600 dark:text-sky-400 underline">{TODOLIMA_EMAIL}</a>; canal de atención directa: <strong>{TODOLIMA_WHATSAPP_DISPLAY}</strong>.
               </p>
-              <p className="mt-2 text-xs text-slate-400">
+              <p className="mt-2 text-xs text-slate-500 dark:text-slate-400">
                 El tratamiento de datos personales realizado a través de este portal se encuentra alineado estrictamente a los principios de legalidad, consentimiento, proporcionalidad, seguridad y finalidad contemplados en la Ley N° 29733 y su Reglamento (D.S. N° 003-2013-JUS).
               </p>
             </section>
 
             {/* 2. Principios y Ley 32323 */}
-            <section className="p-4 rounded-xl bg-slate-900/60 border border-emerald-500/30">
-              <h2 className="text-lg font-bold text-emerald-300 mb-2 flex items-center gap-2">
-                <Lock className="w-5 h-5 text-emerald-400" /> 2. Compromiso Anti-Spam (Ley N° 32323 / Art. 58 Código del Consumidor)
+            <section className="p-4 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-500/30">
+              <h2 className="text-lg font-bold text-emerald-800 dark:text-emerald-300 mb-2 flex items-center gap-2">
+                <Lock className="w-5 h-5 text-emerald-600 dark:text-emerald-400" /> 2. Compromiso Anti-Spam (Ley N° 32323 / Art. 58 Código del Consumidor)
               </h2>
-              <p>
+              <p className="text-slate-700 dark:text-slate-300">
                 Todo Lima cumple estrictamente con el marco legal peruano contra comunicaciones no deseadas. Conforme a la <strong>Ley N° 32323</strong> (que modifica el Art. 58 de la Ley 29571):
               </p>
-              <ul className="list-disc pl-5 mt-2 space-y-1 text-slate-300 text-xs sm:text-sm">
+              <ul className="list-disc pl-5 mt-2 space-y-1 text-slate-700 dark:text-slate-300 text-xs sm:text-sm">
                 <li><strong>No realizamos contacto comercial saliente en frío:</strong> No enviamos mensajes publicitarios no solicitados por WhatsApp, SMS o llamadas a números que no hayan tomado la iniciativa previa de contactarnos.</li>
                 <li><strong>Consentimiento previo y explícito:</strong> Todo contacto comercial se realiza únicamente cuando el titular del negocio o usuario escribe primero a Todo Lima y acepta libremente recibir comunicaciones.</li>
-                <li><strong>Revocatoria inmediata (Opt-out):</strong> Cualquier persona puede revocar su consentimiento en cualquier momento escribiendo la palabra <strong>BAJA</strong> a nuestro WhatsApp o a través de nuestra sección <Link href="/baja" className="text-sky-400 underline">Baja / Opt-out</Link>.</li>
+                <li><strong>Revocatoria inmediata (Opt-out):</strong> Cualquier persona puede revocar su consentimiento en cualquier momento escribiendo la palabra <strong>BAJA</strong> a nuestro WhatsApp o a través de nuestra sección <Link href="/baja" className="text-sky-600 dark:text-sky-400 underline font-semibold">Baja / Opt-out</Link>.</li>
               </ul>
             </section>
 
             {/* 3. Datos recopilados */}
             <section>
-              <h2 className="text-lg font-bold text-white mb-2">3. Datos Personales y Comerciales que Recopilamos</h2>
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-2">3. Datos Personales y Comerciales que Recopilamos</h2>
               <p>Tratamos las siguientes categorías de datos:</p>
               <ul className="list-disc pl-5 mt-2 space-y-1.5">
                 <li><strong>Datos de Fuentes de Acceso Público:</strong> Nombre comercial, dirección física pública, distrito, categoría de servicio y datos de contacto comercial expuestos públicamente por los propios titulares en plataformas públicas como Google Maps.</li>
@@ -81,7 +81,7 @@ export default function PrivacidadPage() {
 
             {/* 4. Finalidades */}
             <section>
-              <h2 className="text-lg font-bold text-white mb-2">4. Finalidades del Tratamiento</h2>
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-2">4. Finalidades del Tratamiento</h2>
               <p>Sus datos personales se tratan para las siguientes finalidades necesarias:</p>
               <ul className="list-disc pl-5 mt-2 space-y-1">
                 <li>Operar el directorio público geolocalizado de comercios de Lima Metropolitana en todolima.com.</li>
@@ -93,7 +93,7 @@ export default function PrivacidadPage() {
 
             {/* 5. Transferencias y Encargados */}
             <section>
-              <h2 className="text-lg font-bold text-white mb-2">5. Transferencia a Terceros y Flujo Transfronterizo</h2>
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-2">5. Transferencia a Terceros y Flujo Transfronterizo</h2>
               <p>
                 Todo Lima no vende ni comercializa sus datos personales con terceros para fines ajenos. Para prestar nuestros servicios tecnológicos, compartimos datos estrictamente necesarios con proveedores que actúan en calidad de encargados de tratamiento bajo estrictos estándares de seguridad:
               </p>
@@ -106,8 +106,8 @@ export default function PrivacidadPage() {
             </section>
 
             {/* 6. Derechos ARCO */}
-            <section className="p-4 rounded-xl bg-slate-900/60 border border-slate-700">
-              <h2 className="text-lg font-bold text-white mb-2">6. Ejercicio de Derechos ARCO</h2>
+            <section className="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700">
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-2">6. Ejercicio de Derechos ARCO</h2>
               <p>
                 Conforme a la Ley N° 29733, usted tiene derecho a acceder a sus datos personales, solicitar su actualización o rectificación, pedir su supresión/cancelación cuando considere que no son pertinentes, y oponerse a su tratamiento con fines específicos.
               </p>
@@ -125,12 +125,12 @@ export default function PrivacidadPage() {
                   href={buildWhatsAppLink('BAJA - Deseo ejercer mis derechos ARCO para mi ficha en todolima.com')}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-slate-700 hover:bg-slate-600 text-white rounded-lg font-bold text-xs transition-colors"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 text-slate-800 dark:text-white border border-slate-200 dark:border-slate-600 rounded-lg font-bold text-xs transition-colors"
                 >
                   Canal de WhatsApp Directo
                 </a>
               </div>
-              <p className="mt-3 text-xs text-slate-400">
+              <p className="mt-3 text-xs text-slate-500 dark:text-slate-400">
                 Asimismo, le asiste el derecho de recurrir ante la Autoridad Nacional de Protección de Datos Personales (ANPD) del Ministerio de Justicia si considera que su solicitud no fue atendida debidamente.
               </p>
             </section>
