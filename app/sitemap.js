@@ -1,5 +1,6 @@
 import { getDirectory, getLocalPages, getProfiles } from '../lib/directory.js';
 import { GUIDES } from '../lib/guides.js';
+import { BLOG_POSTS } from '../lib/blog.js';
 import { SITE_URL, EDITORIAL_DATE } from '../lib/seo.js';
 export default function sitemap() {
   const route = (pathname, modified = EDITORIAL_DATE) => ({ url: `${SITE_URL}${pathname}`, lastModified: modified });
@@ -7,6 +8,8 @@ export default function sitemap() {
   // Legal pages have no invented update date. Editorial dates are maintained
   // explicitly when the corresponding content changes.
   return [
+    route('/blog', '2026-10-10'),
+    ...BLOG_POSTS.map(p => route('/blog/'+p.slug,p.modified)),
     ...pages.map(p => p === '' || ['/guias', '/metodologia', '/correcciones', '/para-negocios'].includes(p) ? route(p) : { url: `${SITE_URL}${p}` }),
     ...getDirectory().map(c => route(`/${c.meta.slug}`, new Date(Math.max(Date.parse(c.updatedAt) || 0, Date.parse(c.contentModified))).toISOString())),
     ...getLocalPages().map(p => route(`/${p.category}/${p.slug}`)),

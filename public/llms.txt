@@ -6,6 +6,7 @@ Las fichas utilizan información de fuentes públicas. La inclusión no certific
 ## Navegación
 - [Categorías](https://todolima.com/): Explora los rubros disponibles.
 - [Guías](https://todolima.com/guias): Checklists editoriales para consultar y comparar servicios.
+- [Blog](https://todolima.com/blog): Artículos editoriales sobre lugares, patrimonio y vida local en Lima, con fuentes y alcance explicado.
 - [Metodología](https://todolima.com/metodologia): Fuentes, alcance, orden y política editorial.
 - [Correcciones](https://todolima.com/correcciones): Solicita revisión de un dato.
 - [Para negocios](https://todolima.com/para-negocios): Administración y publicación de fichas.

@@ -1,0 +1,11 @@
+import Link from 'next/link';
+import { BLOG_POSTS, BLOG_CATEGORIES, BLOG_TAGS } from '../lib/blog.js';
+export default function BlogSidebar({exclude}) {
+  const posts = BLOG_POSTS.filter(p => p.slug !== exclude);
+  return <aside aria-label="Explora el blog" className="min-w-0 space-y-5">
+    <section className="editorial-card"><h2 className="text-lg font-bold mb-4">Últimas entradas</h2><ul className="space-y-4">{posts.slice(0,4).map(p=><li key={p.slug}><Link className="text-sm font-semibold hover:text-sky-600" href={'/blog/'+p.slug}>{p.title}</Link></li>)}</ul></section>
+    <section className="editorial-card"><h2 className="text-lg font-bold mb-4">Lecturas recomendadas</h2><ul className="space-y-4">{posts.filter(p=>p.recommended).slice(0,3).map(p=><li key={p.slug}><Link className="text-sm text-sky-600 underline" href={'/blog/'+p.slug}>{p.title}</Link></li>)}</ul><Link href="/guias" className="block mt-4 text-sm underline">Guías para contratar con información →</Link></section>
+    <section className="editorial-card"><h2 className="text-lg font-bold mb-4">Temas publicados</h2><ul className="space-y-3">{BLOG_CATEGORIES.filter(c=>BLOG_POSTS.some(p=>p.category===c.slug)).map(c=><li key={c.slug} className="flex justify-between gap-3 text-sm"><Link href={'/blog/categoria/'+c.slug}>{c.name}</Link><span>{BLOG_POSTS.filter(p=>p.category===c.slug).length}</span></li>)}</ul><details className="text-sm mt-5"><summary className="cursor-pointer text-slate-500">Próximos temas</summary><ul className="space-y-2 mt-3 text-slate-500">{BLOG_CATEGORIES.filter(c=>!BLOG_POSTS.some(p=>p.category===c.slug)).map(c=><li key={c.slug}>{c.name}</li>)}</ul></details></section>
+    <section className="editorial-card"><h2 className="text-lg font-bold mb-4">Etiquetas</h2><div className="flex flex-wrap gap-2">{BLOG_TAGS.map(t=><Link key={t.slug} className="text-xs border rounded-full px-3 py-2" href={'/blog/etiqueta/'+t.slug}>{t.name}</Link>)}</div></section>
+  </aside>;
+}

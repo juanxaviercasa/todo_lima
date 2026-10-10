@@ -1,0 +1,32 @@
+[
+  {
+    "id": "blog-centro-portada",
+    "alt": "Ilustración del patrimonio urbano del Centro Histórico de Lima.",
+    "prompt": "Wide editorial watercolor and ink illustration inspired by Lima Peru historic center, sunlit ochre colonial façades, cathedral silhouettes and balconies around a spacious plaza, small contemporary pedestrians. Recognizably an artistic interpretation, not a photograph or precise architectural record. Warm stone, navy ink and sky blue accents, refined travel magazine composition, landscape 16:9, no text logos watermarks."
+  },
+  {
+    "id": "blog-centro-patrimonio",
+    "alt": "Interpretación artística de balcones y arquitectura limeña.",
+    "prompt": "Wide elegant watercolor and ink illustration of a Lima historic street with carved wooden balconies and ochre facades, contemporary pedestrians at human scale, focus on architectural textures, navy and pale sky blue accents. Clearly drawn artistic interpretation, not documentary photo, no invented signs, no text logo watermark. Landscape 16:9."
+  },
+  {
+    "id": "blog-centro-recorrido",
+    "alt": "Ilustración de personas preparando un paseo cultural.",
+    "prompt": "Editorial watercolor and ink illustration, overhead wooden café table with folded unlabelled city map, walking shoes at edge, camera, notebook and two people's hands planning a cultural city walk in Lima. Do not draw an accurate geographic route or readable text. Warm ochre, sky blue, navy, sophisticated travel magazine artwork, landscape 16:9, no logos watermarks."
+  },
+  {
+    "id": "blog-negocio-portada",
+    "alt": "Personas comparan información de un negocio antes de contactarlo.",
+    "prompt": "Photorealistic natural editorial lifestyle scene in modern modest Lima apartment, Peruvian couple checking a local business listing on laptop and notebook, thoughtful not posing, medium wide landscape 16:9, soft daylight, navy and sky blue clothes, realistic skin and hands, laptop generic abstract interface no readable words, no real business names logos watermarks."
+  },
+  {
+    "id": "blog-negocio-cobertura",
+    "alt": "Clienta consulta la cobertura del servicio por teléfono.",
+    "prompt": "Photorealistic editorial scene, mature Peruvian woman with short hair standing near home entrance calling a provider, holding notebook with abstract location sketch, daylight, contemporary Lima residential backdrop, medium wide landscape 16:9, warm natural colors navy sky blue, realistic hands skin fabric, no identifiable address readable text logos watermarks, not posed testimonial."
+  },
+  {
+    "id": "blog-negocio-condiciones",
+    "alt": "Documentos y notas para comparar las condiciones de un servicio.",
+    "prompt": "Photorealistic editorial overhead close-up of a wooden desk, orderly quotation papers with abstract rows, calculator, closed receipt folder, notebook and hands comparing scope of a service with a pen. Natural daylight, subtle sky blue and navy accents, realistic material textures, landscape 16:9, no legible text personal data business names logos badges watermarks."
+  }
+]
