@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-099",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-portada-patrimonio-arquitectura",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Alameda de los Descalzos: historia y patrimonio del Rímac.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of majestic historic architectural landmark in Lima with preserved colonial and republican stone details. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-099/images/alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-portada-patrimonio-arquitectura.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-099/images/alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-portada-patrimonio-arquitectura-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-099/images/alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-portada-patrimonio-arquitectura-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Conjunto patrimonial arquitectónico de Lima con casonas históricas restauradas y calles empedradas",
+      "caption": "Conjunto patrimonial arquitectónico de Lima con casonas históricas restauradas y calles empedradas. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-detalle-casona-historica",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Alameda de los Descalzos: historia y patrimonio del Rímac.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of close-up of architectural carved stone ornaments and historic wooden doorway in Lima. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-099/images/alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-detalle-casona-historica.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-099/images/alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-detalle-casona-historica-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-099/images/alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-detalle-casona-historica-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Detalle de aldabas de bronce, portones de madera maciza y muros de adobe y quincha en Lima",
+      "caption": "Detalle de aldabas de bronce, portones de madera maciza y muros de adobe y quincha en Lima. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-patio-interior-cultural",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Alameda de los Descalzos: historia y patrimonio del Rímac.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of visitors touring a preserved cultural heritage building in Lima accompanied by a docent. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-099/images/alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-patio-interior-cultural.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-099/images/alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-patio-interior-cultural-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-099/images/alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-patio-interior-cultural-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Visitantes explorando patio interior tradicional con arcos y plantas en casona cultural de Lima",
+      "caption": "Visitantes explorando patio interior tradicional con arcos y plantas en casona cultural de Lima. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

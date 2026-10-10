@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-117",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "santiago-de-surco-como-combinar-historia-local-y-actividades-portada-panoramica-historica-lima",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Santiago de Surco: cómo combinar historia local y actividades.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of atmospheric panoramic historical view of central Lima blending colonial bell towers and republican streets. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-117/images/santiago-de-surco-como-combinar-historia-local-y-actividades-portada-panoramica-historica-lima.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-117/images/santiago-de-surco-como-combinar-historia-local-y-actividades-portada-panoramica-historica-lima-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-117/images/santiago-de-surco-como-combinar-historia-local-y-actividades-portada-panoramica-historica-lima-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Vista panorámica de Lima combinando campanarios coloniales, techos planos y calles republicanas",
+      "caption": "Vista panorámica de Lima combinando campanarios coloniales, techos planos y calles republicanas. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "santiago-de-surco-como-combinar-historia-local-y-actividades-legajos-cartografia-antigua",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Santiago de Surco: cómo combinar historia local y actividades.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of historian examining archival photographs and historical maps of old Lima under a library study lamp. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-117/images/santiago-de-surco-como-combinar-historia-local-y-actividades-legajos-cartografia-antigua.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-117/images/santiago-de-surco-como-combinar-historia-local-y-actividades-legajos-cartografia-antigua-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-117/images/santiago-de-surco-como-combinar-historia-local-y-actividades-legajos-cartografia-antigua-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Historiador revisando legajos y mapas cartográficos antiguos de Lima en biblioteca patrimonial",
+      "caption": "Historiador revisando legajos y mapas cartográficos antiguos de Lima en biblioteca patrimonial. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "santiago-de-surco-como-combinar-historia-local-y-actividades-recorrido-memoria-vecinal",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Santiago de Surco: cómo combinar historia local y actividades.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of cultural group engaged in a guided historical walk discovering hidden courtyards of the historic center. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-117/images/santiago-de-surco-como-combinar-historia-local-y-actividades-recorrido-memoria-vecinal.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-117/images/santiago-de-surco-como-combinar-historia-local-y-actividades-recorrido-memoria-vecinal-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-117/images/santiago-de-surco-como-combinar-historia-local-y-actividades-recorrido-memoria-vecinal-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Grupo de vecinos en recorrido de memoria histórica por casonas y callejones antiguos de Lima",
+      "caption": "Grupo de vecinos en recorrido de memoria histórica por casonas y callejones antiguos de Lima. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

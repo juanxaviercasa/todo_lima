@@ -1,0 +1,74 @@
+{
+  "article_id": "TLB-167",
+  "checked_at": "2026-10-10",
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://bnp.gob.pe/",
+      "title": "Fondos Documentales de Biblioteca Nacional del Perú",
+      "publisher": "Biblioteca Nacional del Perú",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://bnp.gob.pe/",
+      "title": "Colecciones Históricas y Manuscritos de la Biblioteca Nacional del Perú",
+      "publisher": "Biblioteca Nacional del Perú",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://todolima.com/metodologia",
+      "title": "Criterios Editoriales de Verificación Histórica",
+      "publisher": "Todo Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "Las investigaciones custodiadas en Biblioteca Nacional del Perú sustentan la cronología y documentación primaria de Lima.",
+      "block_id_or_index": "seccion-contexto-cronologico",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "La Biblioteca Nacional resguarda planos, bandos oficiales y publicaciones periódicas sobre el desarrollo urbano de la capital.",
+      "block_id_or_index": "seccion-fuentes-documentales",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "Todo Lima fundamenta sus contenidos históricos en investigaciones académicas contrastadas sin inventar testimonios.",
+      "block_id_or_index": "seccion-cierre-historico",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ]
+}

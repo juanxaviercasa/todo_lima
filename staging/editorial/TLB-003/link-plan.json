@@ -1,0 +1,52 @@
+{
+  "article_id": "TLB-003",
+  "internal_outgoing": [
+    {
+      "url": "/blog/que-visitar-centro-historico-lima",
+      "anchor": "ruta por el Centro Histórico de Lima",
+      "section_id": "seccion-barrios-gastronomicos",
+      "purpose": "Conectar con las tabernas y casonas históricas del Cercado",
+      "verification_status": "verified"
+    },
+    {
+      "url": "/directorio?distrito=miraflores",
+      "anchor": "restaurantes y cafeterías en Miraflores",
+      "section_id": "seccion-degustacion-consejos",
+      "purpose": "Orientar sobre opciones gastronómicas en distritos turísticos",
+      "verification_status": "verified"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://www.peru.travel/es/gastronomia",
+      "anchor": "guía gastronómica de PROMPERÚ",
+      "section_id": "seccion-raices-culinarias",
+      "claim_ids": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "url": "https://cultura.pe/",
+      "anchor": "declaratoria del Ministerio de Cultura",
+      "section_id": "seccion-platos-emblematicos",
+      "claim_ids": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "ecosystem_outgoing": [],
+  "internal_incoming_proposals": [
+    {
+      "source_url": "/blog/que-visitar-centro-historico-lima",
+      "target_url": "/blog/gastronomia-limena-platos-e-influencias-para-entender-su-diversidad",
+      "anchor": "diversidad culinaria de Lima",
+      "suggested_context": "Para conocer la historia de los sabores de la ciudad, te invitamos a leer nuestro ensayo sobre la diversidad culinaria de Lima.",
+      "reason": "Enlace temático complementario",
+      "status": "proposed"
+    }
+  ],
+  "external_incoming_opportunities": [],
+  "ecosystem_notes": "Sin enlaces forzados al ecosistema para preservar el rigor puramente cultural."
+}

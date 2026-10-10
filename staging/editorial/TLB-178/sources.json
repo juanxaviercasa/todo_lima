@@ -1,0 +1,74 @@
+{
+  "article_id": "TLB-178",
+  "checked_at": "2026-10-10",
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://munlima.gob.pe/",
+      "title": "Reglamento y Servicios de Municipalidad Metropolitana de Lima",
+      "publisher": "Municipalidad Metropolitana de Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://serpar.gob.pe/",
+      "title": "Directorio Oficial de Clubes Metropolitanos y Parques de Lima",
+      "publisher": "SERPAR",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://todolima.com/metodologia",
+      "title": "Metodología Editorial de Ocio y Espacios Públicos",
+      "publisher": "Todo Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "Las ordenanzas y directivas de Municipalidad Metropolitana de Lima determinan el uso correcto de áreas recreativas públicas en Lima.",
+      "block_id_or_index": "seccion-criterios-eleccion",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": true,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "SERPAR establece normativas específicas sobre ingreso libre para adultos mayores y niños menores de 10 años en clubes zonales.",
+      "block_id_or_index": "seccion-accesibilidad-tarifas",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": true,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "Todo Lima no cobra comisiones por sugerir actividades ni garantiza condiciones de operadores privados.",
+      "block_id_or_index": "seccion-cierre-planes",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ]
+}

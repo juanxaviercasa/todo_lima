@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-047",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno-portada-plaza-san-martin",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Plaza Mayor de Lima: edificios y memoria de su entorno.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of majestic Plaza San Martín in Lima with neoclassical white facades, grand bronze equestrian statue, and dusk streetlamps. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-047/images/plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno-portada-plaza-san-martin.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-047/images/plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno-portada-plaza-san-martin-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-047/images/plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno-portada-plaza-san-martin-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Plaza San Martín en Lima con fachadas neoclásicas blancas, monumento central y farolas al anochecer",
+      "caption": "Plaza San Martín en Lima con fachadas neoclásicas blancas, monumento central y farolas al anochecer. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno-portales-arquitectura-plaza",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Plaza Mayor de Lima: edificios y memoria de su entorno.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of architectural perspective of the historic colonnaded portals surrounding the plaza with warm evening light. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-047/images/plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno-portales-arquitectura-plaza.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-047/images/plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno-portales-arquitectura-plaza-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-047/images/plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno-portales-arquitectura-plaza-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Portales con arquerías coloniales y teatro histórico rodeando la Plaza San Martín de Lima",
+      "caption": "Portales con arquerías coloniales y teatro histórico rodeando la Plaza San Martín de Lima. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno-paseo-ciudadano-explanada",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Plaza Mayor de Lima: edificios y memoria de su entorno.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of people strolling peacefully across the polished stone square under tall swaying palm trees. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-047/images/plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno-paseo-ciudadano-explanada.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-047/images/plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno-paseo-ciudadano-explanada-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-047/images/plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno-paseo-ciudadano-explanada-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Ciudadanos y turistas paseando por la explanada de la plaza entre jardines y palmeras",
+      "caption": "Ciudadanos y turistas paseando por la explanada de la plaza entre jardines y palmeras. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

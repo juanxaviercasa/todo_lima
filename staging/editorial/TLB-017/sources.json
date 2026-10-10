@@ -1,0 +1,74 @@
+{
+  "article_id": "TLB-017",
+  "checked_at": "2026-10-10",
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://www.gob.pe/atu",
+      "title": "Directrices Oficiales de Autoridad de Transporte Urbano (ATU)",
+      "publisher": "Autoridad de Transporte Urbano (ATU)",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://www.gob.pe/indecopi",
+      "title": "Código de Protección y Defensa del Consumidor",
+      "publisher": "Indecopi",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://todolima.com/metodologia",
+      "title": "Metodología de Verificación y Fuentes Locales",
+      "publisher": "Todo Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "Las directrices vigentes de Autoridad de Transporte Urbano (ATU) establecen estándares de información clara y oportuna para usuarios en Lima.",
+      "block_id_or_index": "seccion-criterios-clave",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": true,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "Indecopi respalda el derecho a recibir comprobantes de pago y exigir condiciones pactadas por escrito.",
+      "block_id_or_index": "seccion-documentacion-acuerdos",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "Todo Lima documenta datos de contacto y sedes disponibles sin sustituir la confirmación directa con el proveedor.",
+      "block_id_or_index": "seccion-cierre-practico",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ]
+}

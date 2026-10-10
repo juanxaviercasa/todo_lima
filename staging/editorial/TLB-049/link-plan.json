@@ -1,0 +1,63 @@
+{
+  "article_id": "TLB-049",
+  "internal_outgoing": [
+    {
+      "url": "/blog/que-visitar-centro-historico-lima",
+      "anchor": "recorrido por el Centro Histórico de Lima",
+      "section_id": "seccion-huellas-urbanas",
+      "purpose": "Vincular los hechos históricos con los monumentos visibles del Cercado",
+      "verification_status": "verified"
+    },
+    {
+      "url": "/directorio?distrito=pueblo-libre",
+      "anchor": "patrimonio y museos en Pueblo Libre",
+      "section_id": "seccion-cierre-historico",
+      "purpose": "Conectar con el distrito que custodia repositorios históricos",
+      "verification_status": "verified"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://munlima.gob.pe/prolima",
+      "anchor": "archivo oficial de PROLIMA - Programa Municipal para la Recuperación del Centro Histórico",
+      "section_id": "seccion-contexto-cronologico",
+      "claim_ids": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "url": "https://bnp.gob.pe/",
+      "anchor": "fondos históricos de la BNP",
+      "section_id": "seccion-fuentes-documentales",
+      "claim_ids": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "ecosystem_outgoing": [
+    {
+      "project": "Mundos Simulados",
+      "url": "https://mundossimulados.online/",
+      "anchor": "escenarios sobre colapsos, adaptabilidad y evolución de civilizaciones",
+      "section_id": "seccion-reflexion-tiempo",
+      "purpose": "Lectura complementaria sobre dinámicas históricas y resiliencia urbana",
+      "relationship_disclosure": "Proyecto aliado de divulgación tecnológica.",
+      "rel_required": null,
+      "verification_status": "verified"
+    }
+  ],
+  "internal_incoming_proposals": [
+    {
+      "source_url": "/blog/que-visitar-centro-historico-lima",
+      "target_url": "/blog/por-que-lima-recibio-el-nombre-de-ciudad-de-los-reyes",
+      "anchor": "por qué lima recibió el nombre de ciudad de los reyes",
+      "suggested_context": "Para comprender las raíces de estos espacios, revisa nuestra investigación histórica sobre por qué lima recibió el nombre de ciudad de los reyes.",
+      "reason": "Profundización historiográfica",
+      "status": "proposed"
+    }
+  ],
+  "external_incoming_opportunities": [],
+  "ecosystem_notes": "Incluye enlace a Mundos Simulados sobre transformaciones históricas y resiliencia de metrópolis."
+}

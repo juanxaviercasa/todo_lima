@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-070",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente-portada-taller-negocio-barrio",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Qué información debe tener una ficha de negocio para ayudar al cliente.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of thriving independent neighborhood business in Lima with artisan craftmanship and dedicated customer service. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-070/images/que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente-portada-taller-negocio-barrio.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-070/images/que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente-portada-taller-negocio-barrio-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-070/images/que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente-portada-taller-negocio-barrio-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Taller artesanal y negocio de barrio en Lima con mostrador ordenado y atención personalizada",
+      "caption": "Taller artesanal y negocio de barrio en Lima con mostrador ordenado y atención personalizada. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente-herramientas-cotizaciones-taller",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Qué información debe tener una ficha de negocio para ayudar al cliente.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of business owner organizing professional supplies, tools, and appointment logs in an organized workspace. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-070/images/que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente-herramientas-cotizaciones-taller.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-070/images/que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente-herramientas-cotizaciones-taller-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-070/images/que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente-herramientas-cotizaciones-taller-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Maestro de oficio organizando herramientas de trabajo y cotizaciones en taller de Lima",
+      "caption": "Maestro de oficio organizando herramientas de trabajo y cotizaciones en taller de Lima. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente-comercio-local-vecinos-confianza",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Qué información debe tener una ficha de negocio para ayudar al cliente.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of friendly neighborhood interaction between a local merchant and long-time neighborhood residents. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-070/images/que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente-comercio-local-vecinos-confianza.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-070/images/que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente-comercio-local-vecinos-confianza-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-070/images/que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente-comercio-local-vecinos-confianza-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Interacción de confianza entre comerciante local y vecinos frecuentes del barrio en Lima",
+      "caption": "Interacción de confianza entre comerciante local y vecinos frecuentes del barrio en Lima. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

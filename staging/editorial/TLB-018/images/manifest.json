@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-018",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable-portada-pantanos-de-villa",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Pantanos de Villa: naturaleza y preparación de una visita responsable.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of scenic view of Pantanos de Villa protected wetland in Lima with tranquil lagoons, tall bulrushes, and wading birds. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-018/images/pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable-portada-pantanos-de-villa.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-018/images/pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable-portada-pantanos-de-villa-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-018/images/pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable-portada-pantanos-de-villa-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Humedal protegido de Pantanos de Villa en Lima con lagunas serenas, totorales y aves silvestres",
+      "caption": "Humedal protegido de Pantanos de Villa en Lima con lagunas serenas, totorales y aves silvestres. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable-observacion-aves-binoculares",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Pantanos de Villa: naturaleza y preparación de una visita responsable.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of nature observer using binoculars from a wooden birdwatching hide tower overlooking the water. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-018/images/pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable-observacion-aves-binoculares.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-018/images/pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable-observacion-aves-binoculares-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-018/images/pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable-observacion-aves-binoculares-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Visitante observando aves migratorias con binoculares desde torre mirador de madera en Chorrillos",
+      "caption": "Visitante observando aves migratorias con binoculares desde torre mirador de madera en Chorrillos. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable-pasarela-juncales-humedal",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Pantanos de Villa: naturaleza y preparación de una visita responsable.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of family walking along the elevated wooden boardwalk trail through the coastal wetland reserve. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-018/images/pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable-pasarela-juncales-humedal.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-018/images/pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable-pasarela-juncales-humedal-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-018/images/pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable-pasarela-juncales-humedal-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Sendero de pasarelas de madera entre juncales en área natural protegida de Lima",
+      "caption": "Sendero de pasarelas de madera entre juncales en área natural protegida de Lima. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

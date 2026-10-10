@@ -1,0 +1,74 @@
+{
+  "article_id": "TLB-003",
+  "checked_at": "2026-10-10",
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://www.peru.travel/es/gastronomia",
+      "title": "Portal Oficial de Gastronomía Peruana de PROMPERÚ",
+      "publisher": "PROMPERÚ",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://cultura.pe/",
+      "title": "Registro Nacional del Patrimonio Cultural Inmaterial",
+      "publisher": "Ministerio de Cultura del Perú",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://cenfotur.edu.pe/",
+      "title": "Estudios sobre Cocina Peruana Tradicional",
+      "publisher": "CENFOTUR",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "PROMPERÚ documenta la cocina limeña como un crisol de tradiciones andinas, hispanas, africanas, cantonesas, japonesas e italianas.",
+      "block_id_or_index": "seccion-raices-culinarias",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "El Ministerio de Cultura declaró la preparación y el consumo del ceviche peruano como Patrimonio Cultural de la Nación.",
+      "block_id_or_index": "seccion-platos-emblematicos",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "CENFOTUR sistematiza las técnicas tradicionales de sazón criolla basadas en el sofrito de ajíes, ajo y cebolla.",
+      "block_id_or_index": "seccion-sazon-tecnicas",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ]
+}

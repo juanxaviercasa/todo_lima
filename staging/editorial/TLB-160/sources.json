@@ -1,0 +1,74 @@
+{
+  "article_id": "TLB-160",
+  "checked_at": "2026-10-10",
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://bnp.gob.pe/",
+      "title": "Registro Oficial de Expresiones Culturales de Biblioteca Nacional del Perú",
+      "publisher": "Biblioteca Nacional del Perú",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://cultura.pe/",
+      "title": "Declaratorias de Patrimonio Cultural de la Nación",
+      "publisher": "Ministerio de Cultura del Perú",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://todolima.com/metodologia",
+      "title": "Criterios Editoriales para Expresiones Culturales",
+      "publisher": "Todo Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "Las declaratorias oficiales de Biblioteca Nacional del Perú reconocen la trascendencia de estas expresiones en la identidad nacional.",
+      "block_id_or_index": "seccion-significado-cultural",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "El Ministerio de Cultura promueve salvaguardas patrimoniales para la música criolla y tradiciones afroperuanas.",
+      "block_id_or_index": "seccion-comunidades-portadoras",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "Todo Lima no comercializa presentaciones artísticas ni certifica autenticidad de locales privados sin evidencia.",
+      "block_id_or_index": "seccion-cierre-cultural",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ]
+}

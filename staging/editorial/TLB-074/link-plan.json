@@ -1,0 +1,63 @@
+{
+  "article_id": "TLB-074",
+  "internal_outgoing": [
+    {
+      "url": "/directorio?distrito=san-borja",
+      "anchor": "áreas verdes y servicios en San Borja",
+      "section_id": "seccion-criterios-eleccion",
+      "purpose": "Conectar con distritos de amplia infraestructura recreativa",
+      "verification_status": "verified"
+    },
+    {
+      "url": "/blog/revisar-informacion-negocio-lima",
+      "anchor": "verificar condiciones antes de contratar",
+      "section_id": "seccion-cierre-planes",
+      "purpose": "Recomendar cautela al reservar servicios recreativos privados",
+      "verification_status": "verified"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://ipd.gob.pe/",
+      "anchor": "portal oficial de Instituto Peruano del Deporte (IPD)",
+      "section_id": "seccion-criterios-eleccion",
+      "claim_ids": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "url": "https://serpar.gob.pe/",
+      "anchor": "tarifario y reglas de SERPAR",
+      "section_id": "seccion-accesibilidad-tarifas",
+      "claim_ids": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "ecosystem_outgoing": [
+    {
+      "project": "Mundos Simulados",
+      "url": "https://mundossimulados.online/",
+      "anchor": "escenarios sobre ciudades inteligentes y bienestar urbano",
+      "section_id": "seccion-convivencia-ciudad",
+      "purpose": "Lectura complementaria sobre urbanismo, áreas verdes y futuro de la habitabilidad",
+      "relationship_disclosure": "Proyecto aliado de divulgación tecnológica.",
+      "rel_required": null,
+      "verification_status": "verified"
+    }
+  ],
+  "internal_incoming_proposals": [
+    {
+      "source_url": "/blog/revisar-informacion-negocio-lima",
+      "target_url": "/blog/como-reservar-una-cancha-en-lima-para-jugar-con-amigos",
+      "anchor": "cómo reservar una cancha en lima para jugar con amigos",
+      "suggested_context": "Si buscas alternativas de esparcimiento en la capital, revisa nuestra guía sobre cómo reservar una cancha en lima para jugar con amigos.",
+      "reason": "Enlace interno temático",
+      "status": "proposed"
+    }
+  ],
+  "external_incoming_opportunities": [],
+  "ecosystem_notes": "Incluye enlace reflexivo a Mundos Simulados sobre espacio público y calidad de vida urbana."
+}

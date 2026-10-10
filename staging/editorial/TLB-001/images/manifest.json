@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-001",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "museos-lima-portada",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Transmitir la experiencia de amplitud y contemplación al recorrer las salas de un museo en Lima, con iluminación cálida y espacio superior despejado para titular.",
+      "asset_type": "ilustracion_ia",
+      "prompt": "Editorial illustration of visitors exploring a spacious modern museum exhibition hall in Lima Peru. Contemporary architectural interior with warm wooden accents and soft natural light from clerestory windows. In the background carefully lit minimalist display cases showcase ceramic vessels and pre-Columbian textiles. Two diverse visitors observe an exhibit with curiosity. Wide cinematic composition 16:9 aspect ratio clean visual margins warm sophisticated lighting balanced negative space in upper third. No embedded text no logos no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas reales inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": "staging/editorial/TLB-001/images/museos-lima-portada-original.jpg",
+      "original_width": 1376,
+      "original_height": 768,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-portada.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-portada-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-portada-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Visitantes recorren una galería luminosa de museo observando piezas prehispánicas en vitrinas.",
+      "caption": "Ilustración editorial generada con IA; interpretación artística sobre la experiencia museística en Lima, no constituye fotografía documental de una colección registrada.",
+      "provider_used": "antigravity_imagen",
+      "model_used": "native_image_generator",
+      "source_url": null,
+      "license_or_permission": "Uso editorial interno generado para Todo Lima",
+      "status": "generado_y_verificado",
+      "visually_reviewed": true
+    },
+    {
+      "id": "museos-lima-curaduria",
+      "role": "interna-01",
+      "section_id": "seccion-arte-y-curaduria",
+      "visual_goal": "Mostrar un momento pedagógico cercano donde una mediadora cultural explica técnicas de tejido y conservación prehispánica a una visitante.",
+      "asset_type": "ilustracion_ia",
+      "prompt": "Editorial illustration of an educational moment inside an art and history museum gallery in Lima Peru. A visitor and a docent look closely at an informational museum display case showing pre-Inca textile weaving techniques and tools. Clear focus warm ambient gallery lighting 16:9 aspect ratio clean margins elegant pedagogical museum atmosphere. No embedded text no logos no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas reales inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": "staging/editorial/TLB-001/images/museos-lima-curaduria-original.jpg",
+      "original_width": 1376,
+      "original_height": 768,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-curaduria.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-curaduria-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-curaduria-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Una mediadora cultural explica detalles de textiles prehispánicos frente a una vitrina explicativa.",
+      "caption": "Ilustración editorial generada con IA; interpretación sobre la mediación cultural y educativa en salas de museo en Lima.",
+      "provider_used": "antigravity_imagen",
+      "model_used": "native_image_generator",
+      "source_url": null,
+      "license_or_permission": "Uso editorial interno generado para Todo Lima",
+      "status": "generado_y_verificado",
+      "visually_reviewed": true
+    },
+    {
+      "id": "museos-lima-patio",
+      "role": "interna-02",
+      "section_id": "seccion-organizacion-visita",
+      "visual_goal": "Representar la pausa y planificación de la visita en un patio tradicional limeño con arquerías, buganvilias y fuente.",
+      "asset_type": "ilustracion_ia",
+      "prompt": "Editorial illustration of visitors resting and planning their cultural itinerary in a sunny courtyard of a historic museum in Lima Peru. Bougainvillea flowers climbing stucco arches stone fountain in center wooden benches. Two people sit consulting a museum map and smartphone. Calm reflective cultural atmosphere soft daylight wide 16:9 aspect ratio clean margins. No embedded text no logos no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas reales inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": "staging/editorial/TLB-001/images/museos-lima-patio-original.jpg",
+      "original_width": 1376,
+      "original_height": 768,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-patio.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-patio-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-patio-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Dos personas sentadas en una banca de patio colonial con arcos y plantas revisando un mapa cultural.",
+      "caption": "Ilustración editorial generada con IA; recreación visual de la arquitectura y patios de descanso de casonas y museos en Lima.",
+      "provider_used": "antigravity_imagen",
+      "model_used": "native_image_generator",
+      "source_url": null,
+      "license_or_permission": "Uso editorial interno generado para Todo Lima",
+      "status": "generado_y_verificado",
+      "visually_reviewed": true
+    }
+  ]
+}

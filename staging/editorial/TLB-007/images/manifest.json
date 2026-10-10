@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-007",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "mucen-en-lima-colecciones-y-preparacion-de-la-visita-portada-vivienda-servicios-hogar",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre MUCEN en Lima: colecciones y preparación de la visita.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of modern, organized residential neighborhood in Lima with reliable domestic services and well-kept streets. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-007/images/mucen-en-lima-colecciones-y-preparacion-de-la-visita-portada-vivienda-servicios-hogar.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-007/images/mucen-en-lima-colecciones-y-preparacion-de-la-visita-portada-vivienda-servicios-hogar-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-007/images/mucen-en-lima-colecciones-y-preparacion-de-la-visita-portada-vivienda-servicios-hogar-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Vivienda residencial en Lima con mantenimiento preventivo y entorno barrial cuidado",
+      "caption": "Vivienda residencial en Lima con mantenimiento preventivo y entorno barrial cuidado. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "mucen-en-lima-colecciones-y-preparacion-de-la-visita-presupuesto-desglosado-garantia",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre MUCEN en Lima: colecciones y preparación de la visita.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of resident reviewing service documentation, warranty receipts, and official customer contacts at a desk. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-007/images/mucen-en-lima-colecciones-y-preparacion-de-la-visita-presupuesto-desglosado-garantia.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-007/images/mucen-en-lima-colecciones-y-preparacion-de-la-visita-presupuesto-desglosado-garantia-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-007/images/mucen-en-lima-colecciones-y-preparacion-de-la-visita-presupuesto-desglosado-garantia-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Usuario revisando presupuesto desglosado y constancia de garantía de servicio a domicilio",
+      "caption": "Usuario revisando presupuesto desglosado y constancia de garantía de servicio a domicilio. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "mucen-en-lima-colecciones-y-preparacion-de-la-visita-entrega-servicio-conformidad",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para MUCEN en Lima: colecciones y preparación de la visita.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of professional service provider delivering completed assistance to a resident at home with written confirmation. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-007/images/mucen-en-lima-colecciones-y-preparacion-de-la-visita-entrega-servicio-conformidad.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-007/images/mucen-en-lima-colecciones-y-preparacion-de-la-visita-entrega-servicio-conformidad-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-007/images/mucen-en-lima-colecciones-y-preparacion-de-la-visita-entrega-servicio-conformidad-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Técnico profesional entregando servicio residencial finalizado con hoja de conformidad firmada",
+      "caption": "Técnico profesional entregando servicio residencial finalizado con hoja de conformidad firmada. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

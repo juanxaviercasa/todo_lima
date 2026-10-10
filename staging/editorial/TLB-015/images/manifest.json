@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-015",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas-portada-restaurante-nikkei",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Cocina nikkei en Lima: origen y diferencias con otras propuestas.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of contemporary Nikkei culinary dining room in Lima blending Peruvian elements and minimalist Japanese aesthetics. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-015/images/cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas-portada-restaurante-nikkei.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-015/images/cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas-portada-restaurante-nikkei-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-015/images/cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas-portada-restaurante-nikkei-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Salón contemporáneo de cocina nikkei en Lima fusionando diseño peruano y estética japonesa",
+      "caption": "Salón contemporáneo de cocina nikkei en Lima fusionando diseño peruano y estética japonesa. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas-tiradito-nikkei-preparacion",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Cocina nikkei en Lima: origen y diferencias con otras propuestas.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of sushi chef delicately torching and plating fresh tiradito slices garnished with yellow chili emulsion. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-015/images/cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas-tiradito-nikkei-preparacion.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-015/images/cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas-tiradito-nikkei-preparacion-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-015/images/cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas-tiradito-nikkei-preparacion-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Chef flameando láminas de tiradito nikkei con emulsión de ají amarillo en barra gastronómica",
+      "caption": "Chef flameando láminas de tiradito nikkei con emulsión de ají amarillo en barra gastronómica. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas-barra-sushi-degustacion",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Cocina nikkei en Lima: origen y diferencias con otras propuestas.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of couple enjoying an artistic tasting menu with chopsticks and ceramic tableware at an open sushi counter. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-015/images/cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas-barra-sushi-degustacion.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-015/images/cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas-barra-sushi-degustacion-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-015/images/cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas-barra-sushi-degustacion-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Comensales disfrutando de platos nikkei y sushi fusión con vajilla artesanal en Miraflores",
+      "caption": "Comensales disfrutando de platos nikkei y sushi fusión con vajilla artesanal en Miraflores. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

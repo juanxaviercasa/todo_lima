@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-160",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "artesania-en-lima-materiales-oficios-y-lugares-de-encuentro-portada-mercado-artesanal-lima",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Artesanía en Lima: materiales, oficios y lugares de encuentro.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of bustling traditional artisan market in Lima with stalls of vibrant Andean textiles, ceramics, and carved gourds. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-160/images/artesania-en-lima-materiales-oficios-y-lugares-de-encuentro-portada-mercado-artesanal-lima.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-160/images/artesania-en-lima-materiales-oficios-y-lugares-de-encuentro-portada-mercado-artesanal-lima-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-160/images/artesania-en-lima-materiales-oficios-y-lugares-de-encuentro-portada-mercado-artesanal-lima-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Mercado artesanal de Lima con puestos de tejidos tradicionales, retablos y cerámicas decoradas",
+      "caption": "Mercado artesanal de Lima con puestos de tejidos tradicionales, retablos y cerámicas decoradas. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "artesania-en-lima-materiales-oficios-y-lugares-de-encuentro-artesano-retablo-taller",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Artesanía en Lima: materiales, oficios y lugares de encuentro.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of artisan hand-painting intricate floral patterns on a traditional Ayacucho retablo wooden altar box. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-160/images/artesania-en-lima-materiales-oficios-y-lugares-de-encuentro-artesano-retablo-taller.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-160/images/artesania-en-lima-materiales-oficios-y-lugares-de-encuentro-artesano-retablo-taller-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-160/images/artesania-en-lima-materiales-oficios-y-lugares-de-encuentro-artesano-retablo-taller-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Artesano pintando a mano figuras tradicionales en taller de imaginería y retablos en Lima",
+      "caption": "Artesano pintando a mano figuras tradicionales en taller de imaginería y retablos en Lima. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "artesania-en-lima-materiales-oficios-y-lugares-de-encuentro-feria-artesanias-textiles",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Artesanía en Lima: materiales, oficios y lugares de encuentro.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of visitors admiring handmade jewelry and textiles while conversing with local craftspeople at a market stall. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-160/images/artesania-en-lima-materiales-oficios-y-lugares-de-encuentro-feria-artesanias-textiles.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-160/images/artesania-en-lima-materiales-oficios-y-lugares-de-encuentro-feria-artesanias-textiles-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-160/images/artesania-en-lima-materiales-oficios-y-lugares-de-encuentro-feria-artesanias-textiles-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Visitantes apreciando piezas de platería y telares andinos en feria artesanal de Miraflores",
+      "caption": "Visitantes apreciando piezas de platería y telares andinos en feria artesanal de Miraflores. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

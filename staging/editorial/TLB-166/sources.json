@@ -1,0 +1,74 @@
+{
+  "article_id": "TLB-166",
+  "checked_at": "2026-10-10",
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://www.gob.pe/indecopi",
+      "title": "Plataforma y Normativa Oficial de Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI)",
+      "publisher": "Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI)",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://www.gob.pe/indecopi",
+      "title": "Guía de Buenas Prácticas Comerciales y Protección al Consumidor",
+      "publisher": "Indecopi",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://todolima.com/metodologia",
+      "title": "Criterios Editoriales y Registro Comercial",
+      "publisher": "Todo Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "Las disposiciones vigentes de Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI) establecen los marcos regulatorios y procedimientos formales en el Perú.",
+      "block_id_or_index": "seccion-marco-normativo",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": true,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "Indecopi fiscaliza que los comercios brinden información veraz sobre precios, promociones y canales de atención de reclamos.",
+      "block_id_or_index": "seccion-pasos-implementacion",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "Todo Lima publica información de negocios con fines informativos y de enlace sin avalar transacciones privadas.",
+      "block_id_or_index": "seccion-cierre-negocios",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ]
+}

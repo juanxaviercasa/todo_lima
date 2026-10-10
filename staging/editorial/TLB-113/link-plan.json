@@ -1,0 +1,52 @@
+{
+  "article_id": "TLB-113",
+  "internal_outgoing": [
+    {
+      "url": "/blog/que-visitar-centro-historico-lima",
+      "anchor": "ruta por el Centro Histórico de Lima",
+      "section_id": "seccion-historia-origen",
+      "purpose": "Vincular con la gastronomía tradicional del casco monumental",
+      "verification_status": "verified"
+    },
+    {
+      "url": "/directorio?distrito=barranco",
+      "anchor": "cafés y gastronomía en Barranco",
+      "section_id": "seccion-cierre-gastronomico",
+      "purpose": "Conectar con opciones de comida y descanso en el distrito",
+      "verification_status": "verified"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://www.peru.travel/es/gastronomia",
+      "anchor": "portal gastronómico de PROMPERÚ",
+      "section_id": "seccion-historia-origen",
+      "claim_ids": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "url": "https://cenfotur.edu.pe/",
+      "anchor": "publicaciones de CENFOTUR",
+      "section_id": "seccion-preparacion-calidad",
+      "claim_ids": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "ecosystem_outgoing": [],
+  "internal_incoming_proposals": [
+    {
+      "source_url": "/blog/que-visitar-centro-historico-lima",
+      "target_url": "/blog/cafeterias-para-trabajar-en-lima-conectividad-consumo-y-condiciones",
+      "anchor": "cafeterías para trabajar en lima: conectividad, consumo y condiciones",
+      "suggested_context": "Para quienes deseen profundizar en los sabores limeños, recomendamos revisar nuestra guía sobre cafeterías para trabajar en lima: conectividad, consumo y condiciones.",
+      "reason": "Recomendación culinaria contextual",
+      "status": "proposed"
+    }
+  ],
+  "external_incoming_opportunities": [],
+  "ecosystem_notes": "Sin enlaces al ecosistema por ser de corte culinario estricto."
+}

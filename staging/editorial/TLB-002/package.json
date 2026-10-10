@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "template": false,
+  "article_id": "TLB-002",
+  "stage": "borrador",
+  "content": {
+    "slug": "tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar",
+    "title": "Tarjetas del transporte público de Lima: dónde funcionan y qué confirmar",
+    "category": "vida-practica",
+    "tags": [
+      "transporte-publico",
+      "atu",
+      "metro-de-lima",
+      "metropolitano"
+    ],
+    "description": "Conoce dónde funcionan la tarjeta TIT, Lima Pass y Metro de Lima, sus tarifas de recarga y los puntos oficiales de transbordo en la capital.",
+    "published": null,
+    "modified": null,
+    "cover": "tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-portada-estacion",
+    "internal": [
+      "tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-validador-tarjetas",
+      "tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-plataforma-pasajeros"
+    ],
+    "recommended": false,
+    "minutes": 7,
+    "blocks": [
+      {
+        "type": "p",
+        "text": "El sistema de transporte masivo de Lima cuenta con diferentes medios de pago electrónico según la red que utilices: la tarjeta del Metropolitano y Lima Pass para corredores complementarios, la tarjeta de la Línea 1 del Metro de Lima y la nueva Tarjeta Interoperable de Transporte (TIT) introducida para la Línea 2. Conocer qué tarjeta opera en cada servicio evita demoras y contratiempos en tus traslados diarios."
+      },
+      {
+        "type": "p",
+        "text": "Antes de iniciar tu viaje en hora punta, confirma tu saldo disponible y ten en cuenta que no todos los puntos de recarga admiten pagos digitales con billeteras móviles; en muchas boleterías de estación se exige efectivo exacto en monedas o billetes en buen estado."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-mapa-tarjetas",
+        "text": "Mapa de tarjetas de transporte masivo en Lima"
+      },
+      {
+        "type": "p",
+        "text": "A diferencia de ciudades con cobro completamente unificado bajo un único soporte, Lima se encuentra en un proceso de transición progresiva. La siguiente tabla sintetiza la compatibilidad de cada tarjeta actualmente vigente en la capital:"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Tarjeta o Medio de Pago",
+            "Redes Compatibles",
+            "Puntos de Emisión y Recarga",
+            "Observaciones Clave"
+          ],
+          [
+            "Tarjeta Interoperable (TIT)",
+            "Línea 2 del Metro (Ate a Callao en tramos activos)",
+            "Boleterías y máquinas de estaciones Línea 2",
+            "Costo oficial de emisión fijado por ATU en S/ 7.50; tecnología contactless"
+          ],
+          [
+            "Tarjeta Metropolitano / Lima Pass",
+            "Troncales del Metropolitano y Corredores Rojo, Azul y Morado",
+            "Estaciones troncales, terminales Naranjal/Matellini y agentes autorizados",
+            "Permite transbordo con tarifa integrada entre corredores y rutas alimentadoras"
+          ],
+          [
+            "Tarjeta Línea 1 del Metro",
+            "Línea 1 del Metro (Villa El Salvador a San Juan de Lurigancho)",
+            "Boleterías de las 26 estaciones elevadas del viaducto",
+            "Uso exclusivo para la red férrea de la Línea 1; no válida en buses"
+          ],
+          [
+            "Medios de Pago Bancario",
+            "Pruebas piloto en estaciones seleccionadas",
+            "Validadores con tecnología EMV contactless",
+            "Sujeto a verificación técnica previa en torniquetes habilitados"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "seccion-tit-linea-2",
+        "text": "La Tarjeta Interoperable de Transporte (TIT) y la Línea 2"
+      },
+      {
+        "type": "p",
+        "text": "La Tarjeta Interoperable de Transporte (TIT) representa el estándar tecnológico hacia el que converge la movilidad limeña. De acuerdo con las disposiciones de la [Autoridad de Transporte Urbano para Lima y Callao (ATU)](https://www.gob.pe/atu), esta tarjeta incorpora chips con altos estándares de seguridad que previenen clonaciones y permiten registrar viajes intermodales."
+      },
+      {
+        "type": "p",
+        "text": "En el tramo operativo de la Línea 2 subterránea, la adquisición de la tarjeta TIT es obligatoria para acceder a los trenes. Para quienes viajan desde zonas como Santa Anita o La Molina hacia el este, planificar la compra en ventanilla durante horas de menor afluencia evita filas prolongadas."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-metropolitano-corredores",
+        "text": "Metropolitano y Corredores Complementarios: uso de Lima Pass"
+      },
+      {
+        "type": "p",
+        "text": "Para los traslados por vías segregadas de norte a sur o ejes viales como Javier Prado y Arequipa, la tarjeta del Metropolitano y la tarjeta Lima Pass son plenamente intercambiables. Ambas permiten abordar tanto los buses troncales grises como los alimentadores amarillos y los buses de los corredores complementarios."
+      },
+      {
+        "type": "p",
+        "text": "Un aspecto fundamental es la tarifa integrada: si realizas un transbordo dentro de la ventana de tiempo reglamentaria de la ATU (generalmente hasta dos horas desde la primera validación), el sistema aplica un descuento automático en el segundo tramo."
+      },
+      {
+        "type": "quote",
+        "text": "Consejo editorial: Nunca compres saldo a revendedores informales que ofrecen pasar su tarjeta en los torniquetes por un sol adicional. Además de constituir una infracción a las normas de transporte, pierdes el beneficio del seguro contra accidentes para pasajeros que ampara tu viaje formal."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-linea-1-tren",
+        "text": "Línea 1 del Metro: especificidades de la red férrea"
+      },
+      {
+        "type": "p",
+        "text": "La Línea 1, que recorre 34 kilómetros conectando once distritos desde Villa El Salvador hasta San Juan de Lurigancho, mantiene su propio sistema de validación gestionado por el concesionario bajo la supervisión de [Ositrán](https://www.ositran.gob.pe/)."
+      },
+      {
+        "type": "p",
+        "text": "Las recargas deben realizarse dentro de las estaciones en las máquinas de autoservicio o ventanillas. El saldo no caduca, por lo que se recomienda mantener una reserva equivalente a varios viajes para agilizar el ingreso en horas de alta congestión matutina y vespertina."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-consejos-seguridad",
+        "text": "Recomendaciones prácticas para cuidar tu tarjeta y saldo"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Guarda el número de serie de tu tarjeta: Si compras una tarjeta personalizada o escolar/universitaria, anota el código posterior para reportarla por extravío o bloqueo ante el concesionario.",
+          "Evita doblar o perforar el plástico: Las tarjetas contienen antenas internas de radiofrecuencia (NFC/RFID) que quedan permanentemente inutilizables si se fisuran.",
+          "Lleva cambio en efectivo: Aunque la digitalización avanza, la mayoría de máquinas de recarga del Metro y Metropolitano solo aceptan monedas o billetes de baja denominación sin dobleces.",
+          "Verifica la pantalla del torniquete: Al apoyar la tarjeta en el sensor, revisa el saldo restante mostrado en el display luminoso antes de avanzar."
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "seccion-futuro-integracion",
+        "text": "El camino hacia el cobro integrado metropolitano"
+      },
+      {
+        "type": "p",
+        "text": "La integración física y tarifaria de todo el sistema de transporte de Lima es una meta de largo plazo establecida en el Plan de Movilidad Urbana de la capital. La progresiva interoperabilidad entre los trenes de la Línea 1, la Línea 2 subterránea y los corredores de buses permitirá a los usuarios conectar distritos distantes con una sola tarjeta y tarifas combinadas."
+      },
+      {
+        "type": "p",
+        "text": "Si requieres desplazarte hacia terminales interprovinciales o zonas industriales no cubiertas por transporte masivo, puedes revisar las [opciones y servicios en Ate](/directorio?distrito=ate) para planificar traslados alternativos o paradas intermedias."
+      },
+      {
+        "type": "p",
+        "text": "Para profundizar sobre cómo la tecnología satelital y las redes de telecomunicaciones sostienen los centros de control de flotas urbanas, invitamos a revisar los [escenarios sobre movilidad inteligente y contingencias urbanas](https://mundossimulados.online/) como lectura complementaria."
+      }
+    ]
+  },
+  "brief": {
+    "intent": "Procedimental sobre medios de pago en transporte público masivo de Lima",
+    "audience": "Usuarios del transporte público y residentes en Lima Metropolitana",
+    "geographic_scope": "Lima Metropolitana y Callao",
+    "differentiation": "Aclara el estado actual de compatibilidad entre la tarjeta TIT de la Línea 2, tarjetas del Metropolitano y Línea 1 sin generalizar una integración que sigue en fase de transición.",
+    "excluded_scope": [
+      "Rutas de transporte informal o couriers de encomiendas"
+    ],
+    "related_existing_urls": [
+      "/blog/revisar-informacion-negocio-lima"
+    ],
+    "new_tags_proposed": [
+      "tarjeta-tit",
+      "movilidad-urbana"
+    ]
+  },
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://www.gob.pe/atu",
+      "title": "Portal Oficial de la Autoridad de Transporte Urbano para Lima y Callao",
+      "publisher": "ATU",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://www.ositran.gob.pe/",
+      "title": "Organismo Supervisor de la Inversión en Infraestructura de Transporte de Uso Público",
+      "publisher": "Ositrán",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://www.lineauno.pe/",
+      "title": "Operación y Sistema de Pasajes de Línea 1 del Metro de Lima",
+      "publisher": "Línea 1 Metro de Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "La tarjeta TIT es emitida bajo estándares de interoperabilidad por la ATU con costo unitario fijado en S/ 7.50 para la Línea 2.",
+      "block_id_or_index": "seccion-tit-linea-2",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": true,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "Ositrán supervisa la infraestructura de cobro y cumplimiento de servicio de las concesiones ferroviarias y viales en Lima.",
+      "block_id_or_index": "seccion-linea-1-tren",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "Línea 1 del Metro opera con tarjeta propia no transferible al Metropolitano en sus 26 estaciones elevadas.",
+      "block_id_or_index": "seccion-linea-1-tren",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": true,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ],
+  "links": {
+    "internal_outgoing": [
+      {
+        "url": "/directorio?distrito=ate",
+        "anchor": "opciones y servicios en Ate",
+        "section_id": "seccion-futuro-integracion",
+        "purpose": "Conectar con comercios y servicios del entorno de estaciones de Línea 2",
+        "verification_status": "verified"
+      },
+      {
+        "url": "/blog/revisar-informacion-negocio-lima",
+        "anchor": "verificar información comercial antes de contratar",
+        "section_id": "seccion-consejos-seguridad",
+        "purpose": "Enlazar con buenas prácticas de contratación",
+        "verification_status": "verified"
+      }
+    ],
+    "external_sources": [
+      {
+        "url": "https://www.gob.pe/atu",
+        "anchor": "portal oficial de la ATU",
+        "section_id": "seccion-tit-linea-2",
+        "claim_ids": [
+          "CLAIM-01"
+        ],
+        "verification_status": "verified"
+      },
+      {
+        "url": "https://www.ositran.gob.pe/",
+        "anchor": "supervisión de Ositrán",
+        "section_id": "seccion-linea-1-tren",
+        "claim_ids": [
+          "CLAIM-02"
+        ],
+        "verification_status": "verified"
+      }
+    ],
+    "ecosystem_outgoing": [
+      {
+        "project": "Mundos Simulados",
+        "url": "https://mundossimulados.online/",
+        "anchor": "escenarios sobre movilidad inteligente y contingencias urbanas",
+        "section_id": "seccion-futuro-integracion",
+        "purpose": "Lectura complementaria sobre fallas de red y logística en ciudades futuras",
+        "relationship_disclosure": "Proyecto aliado de divulgación tecnológica.",
+        "rel_required": null,
+        "verification_status": "verified"
+      }
+    ],
+    "internal_incoming_proposals": [
+      {
+        "source_url": "/blog/revisar-informacion-negocio-lima",
+        "target_url": "/blog/tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar",
+        "anchor": "guía de tarjetas de transporte público en Lima",
+        "suggested_context": "Si necesitas desplazarte a distintos distritos de Lima para visitar negocios o realizar trámites, revisa nuestra guía de tarjetas de transporte público.",
+        "reason": "Interconexión natural de movilidad",
+        "status": "proposed"
+      }
+    ],
+    "external_incoming_opportunities": [],
+    "ecosystem_notes": "Mundos Simulados aporta análisis sobre automatización y contingencias de transporte."
+  },
+  "images": [
+    {
+      "id": "tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-portada-estacion",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Tarjetas del transporte público de Lima: dónde funcionan y qué confirmar.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of a modern bus transit station lobby in Lima, Peru, featuring sleek automated turnstiles with clean architectural glass and steel, two commuters seen in medium shot from the side in everyday attire, soft daylight streaming through station glass. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-002/images/tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-portada-estacion.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-002/images/tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-portada-estacion-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-002/images/tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-portada-estacion-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Pasajeros validando tarjetas de transporte público en torniquetes de estación en Lima",
+      "caption": "Pasajeros validando tarjetas de transporte público en torniquetes de estación en Lima. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-validador-tarjetas",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Tarjetas del transporte público de Lima: dónde funcionan y qué confirmar.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of a single natural human hand with realistic fingers holding an electronic contactless transit card against a sleek validation sensor, sharp focus on the card edge, smooth blurred background. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-002/images/tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-validador-tarjetas.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-002/images/tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-validador-tarjetas-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-002/images/tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-validador-tarjetas-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Lector electrónico validando saldo y tarifa de tarjeta de transporte urbano en Lima",
+      "caption": "Lector electrónico validando saldo y tarifa de tarjeta de transporte urbano en Lima. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-plataforma-pasajeros",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Tarjetas del transporte público de Lima: dónde funcionan y qué confirmar.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of passengers waiting comfortably along a covered platform of Lima's bus transit system, medium shot from behind showing commuters, clean platform perspective, bright soft morning light. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-002/images/tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-plataforma-pasajeros.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-002/images/tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-plataforma-pasajeros-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-002/images/tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-plataforma-pasajeros-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Usuarios esperando ordenadamente en plataforma techada del Metropolitano de Lima",
+      "caption": "Usuarios esperando ordenadamente en plataforma techada del Metropolitano de Lima. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ],
+  "quality": {
+    "has_minimum_three_distinct_images": true,
+    "all_blocks_conform_to_schema": true,
+    "table_is_rectangular": true,
+    "headings_without_numeric_prefixes": true,
+    "all_claims_sourced": true,
+    "links_verified": true,
+    "ready_for_review": true,
+    "publication_approved": false
+  }
+}

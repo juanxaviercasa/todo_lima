@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-119",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-portada-plaza-independencia-lima",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Lima y la proclamación de la independencia: escenarios y contexto.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of historic Plaza Mayor of Lima dressed with red and white banners celebrating republican history and civic heritage. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-119/images/lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-portada-plaza-independencia-lima.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-119/images/lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-portada-plaza-independencia-lima-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-119/images/lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-portada-plaza-independencia-lima-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Plaza Mayor de Lima con banderas cívicas rememorando los escenarios de la proclamación de la independencia",
+      "caption": "Plaza Mayor de Lima con banderas cívicas rememorando los escenarios de la proclamación de la independencia. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-acta-independencia-documentos",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Lima y la proclamación de la independencia: escenarios y contexto.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of visitor observing original historical documents and proclamation broadsheets in a museum archive gallery. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-119/images/lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-acta-independencia-documentos.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-119/images/lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-acta-independencia-documentos-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-119/images/lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-acta-independencia-documentos-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Facsímil del Acta de la Independencia del Perú y documentos fundacionales de la república",
+      "caption": "Facsímil del Acta de la Independencia del Perú y documentos fundacionales de la república. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-visita-guiada-palacio-municipal",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Lima y la proclamación de la independencia: escenarios y contexto.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of citizens and visitors participating in a commemorative historical walking tour in front of the Government Palace. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-119/images/lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-visita-guiada-palacio-municipal.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-119/images/lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-visita-guiada-palacio-municipal-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-119/images/lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-visita-guiada-palacio-municipal-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Visita histórica guiada frente a la fachada del Palacio Municipal de Lima",
+      "caption": "Visita histórica guiada frente a la fachada del Palacio Municipal de Lima. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

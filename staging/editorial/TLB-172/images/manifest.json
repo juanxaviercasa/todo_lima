@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-172",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "como-contratar-impresion-de-materiales-medidas-pruebas-y-entrega-portada-estudio-impresion-grafica",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Cómo contratar impresión de materiales: medidas, pruebas y entrega.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of professional graphic design and print studio in Lima with color sample swatches and precision printing machinery. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-172/images/como-contratar-impresion-de-materiales-medidas-pruebas-y-entrega-portada-estudio-impresion-grafica.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-172/images/como-contratar-impresion-de-materiales-medidas-pruebas-y-entrega-portada-estudio-impresion-grafica-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-172/images/como-contratar-impresion-de-materiales-medidas-pruebas-y-entrega-portada-estudio-impresion-grafica-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Estudio de diseño e impresión gráfica en Lima con muestrarios de color y equipos de impresión de precisión",
+      "caption": "Estudio de diseño e impresión gráfica en Lima con muestrarios de color y equipos de impresión de precisión. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "como-contratar-impresion-de-materiales-medidas-pruebas-y-entrega-pruebas-color-calidad-papel",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Cómo contratar impresión de materiales: medidas, pruebas y entrega.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of technician examining sharp color proofs and print alignment under calibrated studio daylight lamps. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-172/images/como-contratar-impresion-de-materiales-medidas-pruebas-y-entrega-pruebas-color-calidad-papel.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-172/images/como-contratar-impresion-de-materiales-medidas-pruebas-y-entrega-pruebas-color-calidad-papel-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-172/images/como-contratar-impresion-de-materiales-medidas-pruebas-y-entrega-pruebas-color-calidad-papel-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Diseñador gráfico revisando pruebas de color y calidad de papel bajo iluminación calibrada",
+      "caption": "Diseñador gráfico revisando pruebas de color y calidad de papel bajo iluminación calibrada. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "como-contratar-impresion-de-materiales-medidas-pruebas-y-entrega-coordinacion-entregables-fotografo",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Cómo contratar impresión de materiales: medidas, pruebas y entrega.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of client reviewing proof sheets and deliverables checklist with a professional photographer in a modern office. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-172/images/como-contratar-impresion-de-materiales-medidas-pruebas-y-entrega-coordinacion-entregables-fotografo.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-172/images/como-contratar-impresion-de-materiales-medidas-pruebas-y-entrega-coordinacion-entregables-fotografo-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-172/images/como-contratar-impresion-de-materiales-medidas-pruebas-y-entrega-coordinacion-entregables-fotografo-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Cliente acordando catálogo de entregables y formatos con fotógrafo profesional en Lima",
+      "caption": "Cliente acordando catálogo de entregables y formatos con fotógrafo profesional en Lima. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

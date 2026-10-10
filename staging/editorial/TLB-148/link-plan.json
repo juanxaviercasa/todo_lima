@@ -1,0 +1,63 @@
+{
+  "article_id": "TLB-148",
+  "internal_outgoing": [
+    {
+      "url": "/blog/revisar-informacion-negocio-lima",
+      "anchor": "cómo revisar la información de un negocio en Lima",
+      "section_id": "seccion-criterios-clave",
+      "purpose": "Conectar con el checklist preventivo transversal",
+      "verification_status": "verified"
+    },
+    {
+      "url": "/directorio?distrito=miraflores",
+      "anchor": "servicios verificables en Miraflores",
+      "section_id": "seccion-cierre-practico",
+      "purpose": "Facilitar opciones locales de referencia",
+      "verification_status": "verified"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://www.gob.pe/indecopi",
+      "anchor": "portal institucional de Indecopi",
+      "section_id": "seccion-criterios-clave",
+      "claim_ids": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "url": "https://www.gob.pe/indecopi",
+      "anchor": "normativa de protección al consumidor de Indecopi",
+      "section_id": "seccion-documentacion-acuerdos",
+      "claim_ids": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "ecosystem_outgoing": [
+    {
+      "project": "Nube para Pymes",
+      "url": "https://nubeparapymes.online/generador-cotizaciones.html",
+      "anchor": "herramientas para ordenar presupuestos y cotizaciones",
+      "section_id": "seccion-pasos-coordinacion",
+      "purpose": "Utilidad complementaria para desglosar servicios",
+      "relationship_disclosure": "Proyecto aliado para pymes.",
+      "rel_required": null,
+      "verification_status": "verified"
+    }
+  ],
+  "internal_incoming_proposals": [
+    {
+      "source_url": "/blog/revisar-informacion-negocio-lima",
+      "target_url": "/blog/como-reservar-una-cita-de-barberia-y-explicar-el-servicio-que-necesitas",
+      "anchor": "cómo reservar una cita de barbería y explicar el servicio que necesitas",
+      "suggested_context": "Para profundizar en este ámbito, consulta nuestra guía sobre cómo reservar una cita de barbería y explicar el servicio que necesitas.",
+      "reason": "Enlace contextual cruzado",
+      "status": "proposed"
+    }
+  ],
+  "external_incoming_opportunities": [],
+  "ecosystem_notes": "Incluye herramienta de Nube para Pymes cuando aplica orden presupuestal."
+}

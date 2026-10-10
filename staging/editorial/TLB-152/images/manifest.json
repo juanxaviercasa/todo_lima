@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-152",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "arte-urbano-en-lima-como-observarlo-sin-confundir-autorias-portada-mural-arte-urbano",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Arte urbano en Lima: cómo observarlo sin confundir autorías.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of colorful, vibrant large-scale urban street mural depicting Peruvian cultural motifs on a public wall in Barranco. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-152/images/arte-urbano-en-lima-como-observarlo-sin-confundir-autorias-portada-mural-arte-urbano.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-152/images/arte-urbano-en-lima-como-observarlo-sin-confundir-autorias-portada-mural-arte-urbano-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-152/images/arte-urbano-en-lima-como-observarlo-sin-confundir-autorias-portada-mural-arte-urbano-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Mural artístico contemporáneo de gran formato en muro urbano de Barranco con motivos peruanos",
+      "caption": "Mural artístico contemporáneo de gran formato en muro urbano de Barranco con motivos peruanos. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "arte-urbano-en-lima-como-observarlo-sin-confundir-autorias-muralista-pintura-calle",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Arte urbano en Lima: cómo observarlo sin confundir autorías.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of mural artist with paintbrushes and spray cans adding intricate cultural details to an outdoor wall painting. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-152/images/arte-urbano-en-lima-como-observarlo-sin-confundir-autorias-muralista-pintura-calle.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-152/images/arte-urbano-en-lima-como-observarlo-sin-confundir-autorias-muralista-pintura-calle-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-152/images/arte-urbano-en-lima-como-observarlo-sin-confundir-autorias-muralista-pintura-calle-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Muralista retocando con pincel detalles de pintura mural al aire libre en calle de Lima",
+      "caption": "Muralista retocando con pincel detalles de pintura mural al aire libre en calle de Lima. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "arte-urbano-en-lima-como-observarlo-sin-confundir-autorias-pasaje-peatonal-murales",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Arte urbano en Lima: cómo observarlo sin confundir autorías.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of visitors walking along a sunlit pedestrian alley admiring contemporary street art and taking respectful photos. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-152/images/arte-urbano-en-lima-como-observarlo-sin-confundir-autorias-pasaje-peatonal-murales.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-152/images/arte-urbano-en-lima-como-observarlo-sin-confundir-autorias-pasaje-peatonal-murales-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-152/images/arte-urbano-en-lima-como-observarlo-sin-confundir-autorias-pasaje-peatonal-murales-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Jóvenes contemplando intervenciones de arte urbano en pasaje peatonal recuperado en Lima",
+      "caption": "Jóvenes contemplando intervenciones de arte urbano en pasaje peatonal recuperado en Lima. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

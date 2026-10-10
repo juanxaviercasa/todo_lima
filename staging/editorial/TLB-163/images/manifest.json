@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-163",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "circuito-magico-del-agua-que-comprobar-antes-de-organizar-una-salida-portada-circuito-magico-agua",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Circuito Mágico del Agua: qué comprobar antes de organizar una salida.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of spectacular illuminated water fountains dancing with vibrant colorful lights in Parque de la Reserva in Lima. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-163/images/circuito-magico-del-agua-que-comprobar-antes-de-organizar-una-salida-portada-circuito-magico-agua.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-163/images/circuito-magico-del-agua-que-comprobar-antes-de-organizar-una-salida-portada-circuito-magico-agua-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-163/images/circuito-magico-del-agua-que-comprobar-antes-de-organizar-una-salida-portada-circuito-magico-agua-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Fuentes de agua iluminadas con luces de colores sincronizadas en el Parque de la Reserva de Lima",
+      "caption": "Fuentes de agua iluminadas con luces de colores sincronizadas en el Parque de la Reserva de Lima. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "circuito-magico-del-agua-que-comprobar-antes-de-organizar-una-salida-tunel-arcos-agua-luces",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Circuito Mágico del Agua: qué comprobar antes de organizar una salida.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of visitors walking through an illuminated walk-through tunnel of water fountain arches glowing with blue and green light. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-163/images/circuito-magico-del-agua-que-comprobar-antes-de-organizar-una-salida-tunel-arcos-agua-luces.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-163/images/circuito-magico-del-agua-que-comprobar-antes-de-organizar-una-salida-tunel-arcos-agua-luces-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-163/images/circuito-magico-del-agua-que-comprobar-antes-de-organizar-una-salida-tunel-arcos-agua-luces-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Visitantes cruzando túnel de agua con arcos luminosos de tonos verdes y azules en Lima",
+      "caption": "Visitantes cruzando túnel de agua con arcos luminosos de tonos verdes y azules en Lima. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "circuito-magico-del-agua-que-comprobar-antes-de-organizar-una-salida-familias-espectaculo-fuentes",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Circuito Mágico del Agua: qué comprobar antes de organizar una salida.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of families gathered around a grand fountain plaza admiring water geysers choreographed to music. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-163/images/circuito-magico-del-agua-que-comprobar-antes-de-organizar-una-salida-familias-espectaculo-fuentes.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-163/images/circuito-magico-del-agua-que-comprobar-antes-de-organizar-una-salida-familias-espectaculo-fuentes-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-163/images/circuito-magico-del-agua-que-comprobar-antes-de-organizar-una-salida-familias-espectaculo-fuentes-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Familias reunidas alrededor de pileta ornamental observando espectáculo de chorros de agua",
+      "caption": "Familias reunidas alrededor de pileta ornamental observando espectáculo de chorros de agua. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-154",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "talleres-de-danza-en-lima-niveles-y-condiciones-antes-de-inscribirse-portada-marinera-limena-pareja",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Talleres de danza en Lima: niveles y condiciones antes de inscribirse.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of performers in colorful traditional Peruvian costumes practicing the elegant marinera limeña dance with white handkerchiefs. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-154/images/talleres-de-danza-en-lima-niveles-y-condiciones-antes-de-inscribirse-portada-marinera-limena-pareja.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-154/images/talleres-de-danza-en-lima-niveles-y-condiciones-antes-de-inscribirse-portada-marinera-limena-pareja-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-154/images/talleres-de-danza-en-lima-niveles-y-condiciones-antes-de-inscribirse-portada-marinera-limena-pareja-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Pareja bailando marinera limeña con vestimenta tradicional y pañuelos blancos en festival cultural",
+      "caption": "Pareja bailando marinera limeña con vestimenta tradicional y pañuelos blancos en festival cultural. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "talleres-de-danza-en-lima-niveles-y-condiciones-antes-de-inscribirse-clase-danza-postura-ensayo",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Talleres de danza en Lima: niveles y condiciones antes de inscribirse.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of dance instructor guiding students through traditional footwork and graceful posture in a wooden-floored studio. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-154/images/talleres-de-danza-en-lima-niveles-y-condiciones-antes-de-inscribirse-clase-danza-postura-ensayo.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-154/images/talleres-de-danza-en-lima-niveles-y-condiciones-antes-de-inscribirse-clase-danza-postura-ensayo-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-154/images/talleres-de-danza-en-lima-niveles-y-condiciones-antes-de-inscribirse-clase-danza-postura-ensayo-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Profesor de danza marcando pasos y postura a estudiantes en salón de ensayos en Lima",
+      "caption": "Profesor de danza marcando pasos y postura a estudiantes en salón de ensayos en Lima. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "talleres-de-danza-en-lima-niveles-y-condiciones-antes-de-inscribirse-presentacion-danzas-anfiteatro",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Talleres de danza en Lima: niveles y condiciones antes de inscribirse.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of outdoor cultural festival performance with enthusiastic spectators clapping along to the rhythm. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-154/images/talleres-de-danza-en-lima-niveles-y-condiciones-antes-de-inscribirse-presentacion-danzas-anfiteatro.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-154/images/talleres-de-danza-en-lima-niveles-y-condiciones-antes-de-inscribirse-presentacion-danzas-anfiteatro-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-154/images/talleres-de-danza-en-lima-niveles-y-condiciones-antes-de-inscribirse-presentacion-danzas-anfiteatro-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Presentación folclórica de danzas peruanas en anfiteatro al aire libre con público entusiasta",
+      "caption": "Presentación folclórica de danzas peruanas en anfiteatro al aire libre con público entusiasta. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "article_id": "TLB-001",
+  "checked_at": "2026-10-10",
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://museos.cultura.pe/",
+      "title": "Portal Oficial de Museos del Ministerio de Cultura del Perú",
+      "publisher": "Ministerio de Cultura del Perú",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01",
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://www.museolarco.org/",
+      "title": "Museo Larco - Colección de Arte Precolombino",
+      "publisher": "Museo Larco",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://mnaahp.cultura.pe/",
+      "title": "Museo Nacional de Arqueología, Antropología e Historia del Perú (MNAAHP)",
+      "publisher": "Ministerio de Cultura del Perú",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-04"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-04",
+      "url": "https://mali.pe/",
+      "title": "Museo de Arte de Lima - MALI",
+      "publisher": "Asociación Museo de Arte de Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-05"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-05",
+      "url": "https://www.bcrp.gob.pe/museocentral",
+      "title": "MUCEN - Museo Central del Banco Central de Reserva del Perú",
+      "publisher": "Banco Central de Reserva del Perú",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-06"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-06",
+      "url": "https://www.museopedrodeosma.org/",
+      "title": "Museo Pedro de Osma - Arte Virreinal en Barranco",
+      "publisher": "Fundación Pedro y Angélica de Osma Gildemeister",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-07"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "La Ley N.º 30599 establece el acceso gratuito para peruanos y residentes a los museos y sitios arqueológicos administrados por el Estado el primer domingo de cada mes mediante el programa Museos Abiertos.",
+      "block_id_or_index": "seccion-logistica-tarifas",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "El Ministerio de Cultura centraliza la información oficial de sedes, exposiciones temporales y convocatorias a través del portal museos.cultura.pe.",
+      "block_id_or_index": "seccion-logistica-tarifas",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "El Museo Larco, situado en Pueblo Libre, alberga una colección precolombina de aproximadamente 45.000 piezas clasificadas, incluyendo su depósito de libre acceso y su galería de arte erótico.",
+      "block_id_or_index": "seccion-arqueologia-prehispanica",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": true,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-04",
+      "statement": "El MNAAHP es el museo más antiguo del Perú, fundado en 1822 y ubicado frente a la Plaza Bolívar en Pueblo Libre.",
+      "block_id_or_index": "seccion-arqueologia-prehispanica",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-05",
+      "statement": "El MALI se ubica en el histórico Palacio de la Exposición (Parque de la Exposición) y custodia más de 3.000 años de arte peruano, desde horizontes precolombinos hasta expresiones modernas.",
+      "block_id_or_index": "seccion-arte-y-curaduria",
+      "source_ids": [
+        "SRC-04"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-06",
+      "statement": "El Museo Central (MUCEN) del BCRP ofrece ingreso libre en el Centro de Lima (esquina de jirones Ucayali y Lampa) y cuenta con salas de arte prehispánico, pintura republicana y numismática.",
+      "block_id_or_index": "seccion-museos-gratuitos-centro",
+      "source_ids": [
+        "SRC-05"
+      ],
+      "volatile": true,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-07",
+      "statement": "El Museo Pedro de Osma en Barranco opera en una casona histórica de estilo art nouveau con una colección destacada de pintura y platería virreinal.",
+      "block_id_or_index": "seccion-arte-y-curaduria",
+      "source_ids": [
+        "SRC-06"
+      ],
+      "volatile": true,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ]
+}

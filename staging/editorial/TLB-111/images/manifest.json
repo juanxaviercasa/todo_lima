@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-111",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "el-terremoto-de-1746-y-la-reconstruccion-de-lima-portada-reconstruccion-lima-1746",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre El terremoto de 1746 y la reconstrucción de Lima.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of historical reenactment scene of Lima's 18th-century reconstruction showing traditional quincha and timber buildings. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-111/images/el-terremoto-de-1746-y-la-reconstruccion-de-lima-portada-reconstruccion-lima-1746.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-111/images/el-terremoto-de-1746-y-la-reconstruccion-de-lima-portada-reconstruccion-lima-1746-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-111/images/el-terremoto-de-1746-y-la-reconstruccion-de-lima-portada-reconstruccion-lima-1746-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Reconstrucción histórica de Lima en el siglo XVIII con arquitectura sismorresistente de quincha",
+      "caption": "Reconstrucción histórica de Lima en el siglo XVIII con arquitectura sismorresistente de quincha. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "el-terremoto-de-1746-y-la-reconstruccion-de-lima-estructura-quincha-sismos",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre El terremoto de 1746 y la reconstrucción de Lima.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of architect inspecting traditional earthquake-resilient cane, mud, and timber (quincha) construction framing. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-111/images/el-terremoto-de-1746-y-la-reconstruccion-de-lima-estructura-quincha-sismos.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-111/images/el-terremoto-de-1746-y-la-reconstruccion-de-lima-estructura-quincha-sismos-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-111/images/el-terremoto-de-1746-y-la-reconstruccion-de-lima-estructura-quincha-sismos-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Detalle de entramado constructivo tradicional de caña y barro resistente a sismos en Lima",
+      "caption": "Detalle de entramado constructivo tradicional de caña y barro resistente a sismos en Lima. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "el-terremoto-de-1746-y-la-reconstruccion-de-lima-planos-archivo-historico",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para El terremoto de 1746 y la reconstrucción de Lima.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of urban planners in an exhibition room studying historical documentation of Lima's architectural evolution. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-111/images/el-terremoto-de-1746-y-la-reconstruccion-de-lima-planos-archivo-historico.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-111/images/el-terremoto-de-1746-y-la-reconstruccion-de-lima-planos-archivo-historico-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-111/images/el-terremoto-de-1746-y-la-reconstruccion-de-lima-planos-archivo-historico-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Planos y expedientes de reconstrucción urbana colonial exhibidos en archivo histórico",
+      "caption": "Planos y expedientes de reconstrucción urbana colonial exhibidos en archivo histórico. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

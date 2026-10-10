@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-124",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "peluqueria-para-mascotas-que-informacion-compartir-antes-de-reservar-portada-clinica-veterinaria-lima",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Peluquería para mascotas: qué información compartir antes de reservar.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of bright, welcoming veterinary clinic and pet care center in Lima with friendly staff and clean consultation areas. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-124/images/peluqueria-para-mascotas-que-informacion-compartir-antes-de-reservar-portada-clinica-veterinaria-lima.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-124/images/peluqueria-para-mascotas-que-informacion-compartir-antes-de-reservar-portada-clinica-veterinaria-lima-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-124/images/peluqueria-para-mascotas-que-informacion-compartir-antes-de-reservar-portada-clinica-veterinaria-lima-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Clínica veterinaria luminosa en Lima con personal calificado y salas de espera acondicionadas para mascotas",
+      "caption": "Clínica veterinaria luminosa en Lima con personal calificado y salas de espera acondicionadas para mascotas. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "peluqueria-para-mascotas-que-informacion-compartir-antes-de-reservar-examen-veterinario-perro",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Peluquería para mascotas: qué información compartir antes de reservar.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of veterinarian gently examining a calm healthy dog on a stainless steel examination table with owner present. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-124/images/peluqueria-para-mascotas-que-informacion-compartir-antes-de-reservar-examen-veterinario-perro.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-124/images/peluqueria-para-mascotas-que-informacion-compartir-antes-de-reservar-examen-veterinario-perro-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-124/images/peluqueria-para-mascotas-que-informacion-compartir-antes-de-reservar-examen-veterinario-perro-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Médica veterinaria examinando con cuidado a perro de compañía en consultorio limpio en Lima",
+      "caption": "Médica veterinaria examinando con cuidado a perro de compañía en consultorio limpio en Lima. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "peluqueria-para-mascotas-que-informacion-compartir-antes-de-reservar-libreta-vacunas-recepcion",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Peluquería para mascotas: qué información compartir antes de reservar.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of owner receiving a clear vaccination record booklet and emergency contact sheet from the clinic receptionist. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-124/images/peluqueria-para-mascotas-que-informacion-compartir-antes-de-reservar-libreta-vacunas-recepcion.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-124/images/peluqueria-para-mascotas-que-informacion-compartir-antes-de-reservar-libreta-vacunas-recepcion-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-124/images/peluqueria-para-mascotas-que-informacion-compartir-antes-de-reservar-libreta-vacunas-recepcion-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Dueño recibiendo libreta de vacunas y recomendaciones de salud de su mascota en recepción",
+      "caption": "Dueño recibiendo libreta de vacunas y recomendaciones de salud de su mascota en recepción. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

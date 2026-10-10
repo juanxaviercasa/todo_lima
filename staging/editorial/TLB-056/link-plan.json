@@ -1,0 +1,63 @@
+{
+  "article_id": "TLB-056",
+  "internal_outgoing": [
+    {
+      "url": "/blog/que-visitar-centro-historico-lima",
+      "anchor": "Centro Histórico y sus barrios tradicionales",
+      "section_id": "seccion-espacios-difusion",
+      "purpose": "Conectar las expresiones con los barrios fundacionales de la música y la tradición",
+      "verification_status": "verified"
+    },
+    {
+      "url": "/directorio?distrito=barranco",
+      "anchor": "centros culturales y librerías en Barranco",
+      "section_id": "seccion-cierre-cultural",
+      "purpose": "Facilitar referencias culturales en el distrito bohemio",
+      "verification_status": "verified"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://cultura.pe/",
+      "anchor": "portal institucional de Dirección de Patrimonio Inmaterial del Ministerio de Cultura",
+      "section_id": "seccion-significado-cultural",
+      "claim_ids": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "url": "https://cultura.pe/",
+      "anchor": "declaratorias de patrimonio del Ministerio de Cultura",
+      "section_id": "seccion-comunidades-portadoras",
+      "claim_ids": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "ecosystem_outgoing": [
+    {
+      "project": "Mundos Simulados",
+      "url": "https://mundossimulados.online/",
+      "anchor": "análisis sobre transmisión cultural, memoria colectiva y lenguajes del futuro",
+      "section_id": "seccion-salvaguarda-futuro",
+      "purpose": "Lectura complementaria sobre permanencia de tradiciones y mutaciones culturales",
+      "relationship_disclosure": "Proyecto aliado de divulgación tecnológica.",
+      "rel_required": null,
+      "verification_status": "verified"
+    }
+  ],
+  "internal_incoming_proposals": [
+    {
+      "source_url": "/blog/que-visitar-centro-historico-lima",
+      "target_url": "/blog/el-cajon-peruano-historia-y-presencia-en-la-vida-cultural-limena",
+      "anchor": "el cajón peruano: historia y presencia en la vida cultural limeña",
+      "suggested_context": "Para conocer las tradiciones vivas de nuestra ciudad, revisa nuestra entrega sobre el cajón peruano: historia y presencia en la vida cultural limeña.",
+      "reason": "Conexión cultural directa",
+      "status": "proposed"
+    }
+  ],
+  "external_incoming_opportunities": [],
+  "ecosystem_notes": "Incluye enlace reflexivo a Mundos Simulados sobre memoria cultural y transmisión intergeneracional."
+}

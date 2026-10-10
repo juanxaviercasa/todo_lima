@@ -1,0 +1,74 @@
+{
+  "article_id": "TLB-053",
+  "checked_at": "2026-10-10",
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://munlima.gob.pe/prolima",
+      "title": "Registro Oficial de PROLIMA - Municipalidad Metropolitana de Lima",
+      "publisher": "PROLIMA - Municipalidad Metropolitana de Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://whc.unesco.org/en/list/500/",
+      "title": "Historic Centre of Lima - UNESCO World Heritage List",
+      "publisher": "UNESCO",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://todolima.com/metodologia",
+      "title": "Metodología Editorial de Información Patrimonial",
+      "publisher": "Todo Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "Las directrices oficiales de PROLIMA - Municipalidad Metropolitana de Lima regulan el aforo, la conservación y los accesos a los monumentos protegidos.",
+      "block_id_or_index": "seccion-importancia-monumental",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "El Centro Histórico de Lima está inscrito en la Lista del Patrimonio Mundial de la UNESCO desde 1991.",
+      "block_id_or_index": "seccion-arquitectura-detalles",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "Todo Lima documenta la titularidad y condiciones públicas de acceso sin vender entradas ni comisionar recorridos.",
+      "block_id_or_index": "seccion-cierre-recorrido",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ]
+}

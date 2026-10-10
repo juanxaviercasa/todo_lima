@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-112",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "las-penas-criollas-que-son-y-como-preparar-una-primera-visita-portada-pena-criolla-barranco",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Las peñas criollas: qué son y cómo preparar una primera visita.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of vibrant cultural peña venue in Barranco with warm lighting, acoustic guitars, and traditional Peruvian cajón players. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-112/images/las-penas-criollas-que-son-y-como-preparar-una-primera-visita-portada-pena-criolla-barranco.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-112/images/las-penas-criollas-que-son-y-como-preparar-una-primera-visita-portada-pena-criolla-barranco-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-112/images/las-penas-criollas-que-son-y-como-preparar-una-primera-visita-portada-pena-criolla-barranco-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Escenario de peña criolla en Barranco con guitarras de madera, cajones peruanos e iluminación cálida",
+      "caption": "Escenario de peña criolla en Barranco con guitarras de madera, cajones peruanos e iluminación cálida. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "las-penas-criollas-que-son-y-como-preparar-una-primera-visita-cajon-peruano-percusionista",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Las peñas criollas: qué son y cómo preparar una primera visita.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of close-up of skilled hands playing rhythmic polyrhythmic beats on an authentic wooden Peruvian cajón. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-112/images/las-penas-criollas-que-son-y-como-preparar-una-primera-visita-cajon-peruano-percusionista.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-112/images/las-penas-criollas-que-son-y-como-preparar-una-primera-visita-cajon-peruano-percusionista-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-112/images/las-penas-criollas-que-son-y-como-preparar-una-primera-visita-cajon-peruano-percusionista-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Percusionista ejecutando ritmos tradicionales sobre cajón peruano de madera en concierto íntimo",
+      "caption": "Percusionista ejecutando ritmos tradicionales sobre cajón peruano de madera en concierto íntimo. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "las-penas-criollas-que-son-y-como-preparar-una-primera-visita-publico-musica-criolla-salon",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Las peñas criollas: qué son y cómo preparar una primera visita.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of audience enjoying live traditional Afro-Peruvian and Criollo music in a friendly cultural salon. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-112/images/las-penas-criollas-que-son-y-como-preparar-una-primera-visita-publico-musica-criolla-salon.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-112/images/las-penas-criollas-que-son-y-como-preparar-una-primera-visita-publico-musica-criolla-salon-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-112/images/las-penas-criollas-que-son-y-como-preparar-una-primera-visita-publico-musica-criolla-salon-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Asistentes disfrutando de música criolla y marinera en salón cultural tradicional de Lima",
+      "caption": "Asistentes disfrutando de música criolla y marinera en salón cultural tradicional de Lima. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

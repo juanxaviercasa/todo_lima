@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "template": true,
+  "article_id": "REEMPLAZAR-TLB-001",
+  "stage": "borrador",
+  "content": {
+    "slug": "REEMPLAZAR-slug",
+    "title": "REEMPLAZAR-titulo",
+    "category": "lugares-y-patrimonio",
+    "tags": [],
+    "description": "REEMPLAZAR-resumen",
+    "published": null,
+    "modified": null,
+    "cover": "REEMPLAZAR-slug-portada",
+    "internal": [
+      "REEMPLAZAR-slug-interna-01",
+      "REEMPLAZAR-slug-interna-02"
+    ],
+    "recommended": false,
+    "minutes": null,
+    "blocks": [
+      {
+        "type": "p",
+        "text": "REEMPLAZAR-respuesta inicial con fuentes verificadas"
+      },
+      {
+        "type": "h2",
+        "id": "REEMPLAZAR-h2-id",
+        "text": "REEMPLAZAR-subtitulo sin prefijo numérico"
+      },
+      {
+        "type": "p",
+        "text": "REEMPLAZAR-contenido documentado"
+      }
+    ]
+  },
+  "brief": {
+    "intent": "REEMPLAZAR",
+    "audience": "REEMPLAZAR",
+    "geographic_scope": "REEMPLAZAR",
+    "differentiation": "REEMPLAZAR",
+    "excluded_scope": [],
+    "related_existing_urls": [],
+    "new_tags_proposed": []
+  },
+  "sources": [],
+  "claim_evidence": [],
+  "links": {
+    "internal_outgoing": [],
+    "external_sources": [],
+    "ecosystem_outgoing": [],
+    "internal_incoming_proposals": [],
+    "external_incoming_opportunities": []
+  },
+  "images": [
+    {
+      "id": "REEMPLAZAR-slug-portada",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "REEMPLAZAR: objetivo diferente por imagen",
+      "asset_type": "ilustracion_ia",
+      "prompt": "REEMPLAZAR: uso, escena, sujeto, acción, composición, iluminación, estilo y restricciones; 16:9 exacto",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas reales inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": null,
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": null,
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": null,
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "REEMPLAZAR: descripción fiel sin keywords forzadas",
+      "caption": "REEMPLAZAR: identificar interpretación IA si corresponde",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": null,
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "REEMPLAZAR-slug-interna-01",
+      "role": "interna-01",
+      "section_id": "REEMPLAZAR-h2-id",
+      "visual_goal": "REEMPLAZAR: objetivo diferente por imagen",
+      "asset_type": "ilustracion_ia",
+      "prompt": "REEMPLAZAR: uso, escena, sujeto, acción, composición, iluminación, estilo y restricciones; 16:9 exacto",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas reales inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": null,
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": null,
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": null,
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "REEMPLAZAR: descripción fiel sin keywords forzadas",
+      "caption": "REEMPLAZAR: identificar interpretación IA si corresponde",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": null,
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "REEMPLAZAR-slug-interna-02",
+      "role": "interna-02",
+      "section_id": "REEMPLAZAR-h2-id",
+      "visual_goal": "REEMPLAZAR: objetivo diferente por imagen",
+      "asset_type": "ilustracion_ia",
+      "prompt": "REEMPLAZAR: uso, escena, sujeto, acción, composición, iluminación, estilo y restricciones; 16:9 exacto",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas reales inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": null,
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": null,
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": null,
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "REEMPLAZAR: descripción fiel sin keywords forzadas",
+      "caption": "REEMPLAZAR: identificar interpretación IA si corresponde",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": null,
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ],
+  "placement": {
+    "cover": "REEMPLAZAR-slug-portada",
+    "internal": [
+      {
+        "image_id": "REEMPLAZAR-slug-interna-01",
+        "before_section_id": "REEMPLAZAR-h2-id"
+      },
+      {
+        "image_id": "REEMPLAZAR-slug-interna-02",
+        "before_section_id": "REEMPLAZAR-h2-id"
+      }
+    ],
+    "requires_renderer_adaptation": null,
+    "renderer_notes": "Actualmente internas antes del tercer y sexto H2; más imágenes o ubicaciones distintas requieren adaptación aprobada."
+  },
+  "ecosystem": {
+    "nube_para_pymes": {
+      "base_url": "https://nubeparapymes.online/",
+      "inventory_source": "app/herramientas/page.js",
+      "live_verified": false
+    },
+    "mundos_simulados": {
+      "base_url": "https://mundossimulados.online/",
+      "inventory_source": "docs/ECOSISTEMA_EDITORIAL_VERIFICACION.json",
+      "live_verified": false,
+      "status": "dominio_confirmado_verificacion_publica_pendiente"
+    }
+  },
+  "production": {
+    "researched_at": null,
+    "word_count": null,
+    "reading_minutes_method": "Declarar velocidad usada y cálculo, no precisión ficticia",
+    "text_provider": null,
+    "image_provider": null,
+    "cost_budget_authorized": null,
+    "cost_actual": null,
+    "cost_currency": null
+  },
+  "quality": {
+    "checks_performed": [],
+    "human_review_pending": true,
+    "blockers": [
+      "Plantilla sin completar",
+      "Fuentes y enlaces sin verificar",
+      "Imágenes todavía no generadas"
+    ],
+    "ready_for_review": false,
+    "publication_approved": false,
+    "publication_date": null
+  }
+}
+

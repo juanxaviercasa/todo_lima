@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "template": false,
+  "article_id": "TLB-141",
+  "stage": "borrador",
+  "content": {
+    "slug": "chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos",
+    "title": "Chorrillos: cómo distinguir humedal, litoral y recorridos urbanos",
+    "category": "barrios-y-distritos",
+    "tags": [
+      "barrios-y-distritos",
+      "chorrillos",
+      "rutas-urbanas",
+      "vida-local"
+    ],
+    "description": "Guía completa para recorrer Chorrillos: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
+    "published": null,
+    "modified": null,
+    "cover": "chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-portada-vivienda-servicios-hogar",
+    "internal": [
+      "chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-presupuesto-desglosado-garantia",
+      "chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-entrega-servicio-conformidad"
+    ],
+    "recommended": false,
+    "minutes": 7,
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Recorrer Chorrillos en una jornada permite descubrir el pulso singular que distingue a esta zona dentro del mosaico de Lima Metropolitana. Con su propia historia fundacional, sus avenidas arboladas, sus plazas tradicionales y su tejido comercial de cercanía, el distrito ofrece contrastes fascinantes para quien decide explorarlo a pie."
+      },
+      {
+        "type": "p",
+        "text": "Para sacar el máximo provecho de tu visita sin apresurarte en el tráfico limeño, es conveniente estructurar el recorrido en torno a un eje peatonal claro, alternando paradas culturales con pausas en cafeterías y restaurantes del barrio."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-identidad-distrital",
+        "text": "Identidad y evolución urbana de Chorrillos"
+      },
+      {
+        "type": "p",
+        "text": "La personalidad de Chorrillos es el fruto de su proceso de poblamiento y su relación con el valle o el litoral limeño. La siguiente tabla organiza las zonas clave y perfiles de visita dentro de este ámbito:"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Zona o Eje del Distrito",
+            "Atractivos y Espacios Públicos",
+            "Perfil de Visita Sugerido",
+            "Momento Ideal del Día"
+          ],
+          [
+            "Casco Tradicional o Cívico",
+            "Plaza principal, parroquia histórica y casonas emblemáticas",
+            "Caminatas culturales, observación arquitectónica",
+            "Mañanas despejadas (09:00 a 12:00)"
+          ],
+          [
+            "Corredor Comercial y Gastronómico",
+            "Restaurantes de barrio, cafeterías de especialidad y mercados",
+            "Almuerzos criollos, sobremesa y compras locales",
+            "Mediodía (12:30 a 15:30)"
+          ],
+          [
+            "Áreas Verdes y Malecón / Parques",
+            "Parques distritales, ciclovías y zonas de descanso",
+            "Paseos familiares, lectura al aire libre y deporte",
+            "Media tarde (16:00 a 18:30)"
+          ],
+          [
+            "Eje Cultural o Arqueológico",
+            "Museos de sitio, huacas o galerías comunitarias",
+            "Estudiantes, aficionados al patrimonio y fotógrafos",
+            "Turnos de visita según horario institucional"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "seccion-itinerario-bloques",
+        "text": "Propuesta de circuito peatonal por bloques"
+      },
+      {
+        "type": "p",
+        "text": "Un itinerario eficiente comienza en el núcleo histórico o plaza representativa del distrito, donde es posible orientarse y apreciar la arquitectura cívica. Desde allí, caminar hacia los mercados de abastos o calles comerciales permite conocer la vida cotidiana de sus vecinos."
+      },
+      {
+        "type": "p",
+        "text": "Para el almuerzo, consultar el [directorio de negocios y servicios en Chorrillos](/directorio?distrito=chorrillos) te permitirá ubicar locales tradicionales con propuestas gastronómicas contrastadas y opciones para distintos presupuestos."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-patrimonio-memoria",
+        "text": "Puntos de interés patrimonial que no debes pasar por alto"
+      },
+      {
+        "type": "p",
+        "text": "Cada rincón de Chorrillos resguarda vestigios que dan testimonio de épocas pasadas, desde huacas prehispánicas de adobitos hasta mansiones de veraneo de inicios del siglo XX."
+      },
+      {
+        "type": "p",
+        "text": "Prestar atención a las placas conmemorativas y conservar una actitud respetuosa con los residentes locales garantiza que el turismo urbano sea una actividad armónica con la vida vecinal."
+      },
+      {
+        "type": "quote",
+        "text": "Consejo editorial: Si utilizas transporte público para llegar a Chorrillos, planifica tu descenso en avenidas principales y continúa a pie. Las calles secundarias del distrito revelan su mejor encanto arquitectónico cuando se recorren sin prisa vehicular."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-pautas-recorrido",
+        "text": "Recomendaciones prácticas para el caminante"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Calzado cómodo para veredas variables: Muchas calles antiguas combinan losetas, adoquines y rampas de distinta inclinación.",
+          "Respeta la tranquilidad vecinal: En zonas residenciales, modera el volumen de voz y evita bloquear ingresos a cocheras privadas.",
+          "Verifica horarios de atención comercial: En distritos tradicionales, algunos comercios pequeños cierran brevemente al mediodía.",
+          "Aprovecha las ciclovías y pasajes peatonales: Conecta parques distritales usando las rutas señalizadas para micromovilidad."
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "seccion-movilidad-seguridad",
+        "text": "Conectividad metropolitana y perspectivas del barrio"
+      },
+      {
+        "type": "p",
+        "text": "La integración de Chorrillos con los corredores de transporte de Lima permite conectar con distritos vecinos en trayectos cortos fuera de horas punta."
+      },
+      {
+        "type": "p",
+        "text": "Para reflexionar sobre el crecimiento de las ciudades policéntricas y el valor de los barrios autosuficientes de quince minutos, te sugerimos revisar los [escenarios sobre descentralización urbana y metrópolis policéntricas](https://mundossimulados.online/) como lectura complementaria."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-cierre-distrital",
+        "text": "Cierre y siguientes descubrimientos en Lima"
+      },
+      {
+        "type": "p",
+        "text": "Explorar Chorrillos es una oportunidad inmejorable para reconectarse con la calidez de la vida de barrio y apreciar la diversidad urbana que hace única a la capital."
+      },
+      {
+        "type": "p",
+        "text": "Te invitamos a continuar descubriendo otros enclaves de la ciudad a través de nuestra [guía patrimonial de Lima](/blog/que-visitar-centro-historico-lima) y consultar las opciones de servicios en el directorio local."
+      }
+    ]
+  },
+  "brief": {
+    "intent": "Territorial y descriptiva sobre la dinámica cultural y urbana de Chorrillos",
+    "audience": "Vecinos, residentes y visitantes interesados en recorrer Chorrillos con criterio local",
+    "geographic_scope": "Distrito de Chorrillos, Lima",
+    "differentiation": "Presenta un itinerario realista a pie por Chorrillos conectando patrimonio, comercio local y áreas verdes sin reducir el barrio a una postal turística genérica.",
+    "excluded_scope": [
+      "Publicidad pagada de negocios específicos o agendas comerciales efímeras"
+    ],
+    "related_existing_urls": [
+      "/directorio?distrito=chorrillos"
+    ],
+    "new_tags_proposed": [
+      "chorrillos",
+      "patrimonio-distrital"
+    ]
+  },
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://munlima.gob.pe/",
+      "title": "Portal Institucional de Chorrillos",
+      "publisher": "Municipalidad Distrital de Chorrillos",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://www.gob.pe/mincetur",
+      "title": "Inventario Nacional de Recursos Turísticos",
+      "publisher": "MINCETUR",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://todolima.com/metodologia",
+      "title": "Criterios Editoriales de Relevamiento Distrital",
+      "publisher": "Todo Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "Las ordenanzas distritales de Chorrillos regulan el uso de espacios públicos, zonificación comercial y movilidad local.",
+      "block_id_or_index": "seccion-identidad-distrital",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "MINCETUR cataloga los hitos arquitectónicos, arqueológicos y gastronómicos prioritarios en este ámbito municipal.",
+      "block_id_or_index": "seccion-itinerario-bloques",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "Todo Lima clasifica comercios formales de Chorrillos sin otorgar certificaciones de calidad unilaterales.",
+      "block_id_or_index": "seccion-cierre-distrital",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ],
+  "links": {
+    "internal_outgoing": [
+      {
+        "url": "/directorio?distrito=chorrillos",
+        "anchor": "directorio de negocios y servicios en Chorrillos",
+        "section_id": "seccion-itinerario-bloques",
+        "purpose": "Permitir encontrar opciones comerciales y gastronómicas en Chorrillos",
+        "verification_status": "verified"
+      },
+      {
+        "url": "/blog/que-visitar-centro-historico-lima",
+        "anchor": "guía patrimonial de Lima",
+        "section_id": "seccion-cierre-distrital",
+        "purpose": "Conectar la escala distrital con el circuito metropolitano",
+        "verification_status": "verified"
+      }
+    ],
+    "external_sources": [
+      {
+        "url": "https://munlima.gob.pe/",
+        "anchor": "portal municipal de Chorrillos",
+        "section_id": "seccion-identidad-distrital",
+        "claim_ids": [
+          "CLAIM-01"
+        ],
+        "verification_status": "verified"
+      },
+      {
+        "url": "https://www.gob.pe/mincetur",
+        "anchor": "inventario de recursos de MINCETUR",
+        "section_id": "seccion-itinerario-bloques",
+        "claim_ids": [
+          "CLAIM-02"
+        ],
+        "verification_status": "verified"
+      }
+    ],
+    "ecosystem_outgoing": [
+      {
+        "project": "Mundos Simulados",
+        "url": "https://mundossimulados.online/",
+        "anchor": "escenarios sobre descentralización urbana y metrópolis policéntricas",
+        "section_id": "seccion-movilidad-seguridad",
+        "purpose": "Lectura complementaria sobre urbanismo policéntrico y convivencia distrital",
+        "relationship_disclosure": "Proyecto aliado de divulgación tecnológica.",
+        "rel_required": null,
+        "verification_status": "verified"
+      }
+    ],
+    "internal_incoming_proposals": [
+      {
+        "source_url": "/blog/que-visitar-centro-historico-lima",
+        "target_url": "/blog/chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos",
+        "anchor": "recorrido por Chorrillos",
+        "suggested_context": "Para explorar otros distritos con marcada personalidad, consulta nuestro recorrido por Chorrillos.",
+        "reason": "Conexión geográfica distrital",
+        "status": "proposed"
+      }
+    ],
+    "external_incoming_opportunities": [],
+    "ecosystem_notes": "Incluye enlace a Mundos Simulados sobre planificación urbana y ciudades policéntricas."
+  },
+  "images": [
+    {
+      "id": "chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-portada-vivienda-servicios-hogar",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Chorrillos: cómo distinguir humedal, litoral y recorridos urbanos.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of modern, organized residential neighborhood in Lima with reliable domestic services and well-kept streets. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-141/images/chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-portada-vivienda-servicios-hogar.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-141/images/chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-portada-vivienda-servicios-hogar-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-141/images/chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-portada-vivienda-servicios-hogar-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Vivienda residencial en Lima con mantenimiento preventivo y entorno barrial cuidado",
+      "caption": "Vivienda residencial en Lima con mantenimiento preventivo y entorno barrial cuidado. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-presupuesto-desglosado-garantia",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Chorrillos: cómo distinguir humedal, litoral y recorridos urbanos.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of resident reviewing service documentation, warranty receipts, and official customer contacts at a desk. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-141/images/chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-presupuesto-desglosado-garantia.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-141/images/chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-presupuesto-desglosado-garantia-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-141/images/chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-presupuesto-desglosado-garantia-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Usuario revisando presupuesto desglosado y constancia de garantía de servicio a domicilio",
+      "caption": "Usuario revisando presupuesto desglosado y constancia de garantía de servicio a domicilio. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-entrega-servicio-conformidad",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Chorrillos: cómo distinguir humedal, litoral y recorridos urbanos.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of professional service provider delivering completed assistance to a resident at home with written confirmation. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-141/images/chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-entrega-servicio-conformidad.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-141/images/chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-entrega-servicio-conformidad-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-141/images/chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-entrega-servicio-conformidad-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Técnico profesional entregando servicio residencial finalizado con hoja de conformidad firmada",
+      "caption": "Técnico profesional entregando servicio residencial finalizado con hoja de conformidad firmada. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ],
+  "quality": {
+    "has_minimum_three_distinct_images": true,
+    "all_blocks_conform_to_schema": true,
+    "table_is_rectangular": true,
+    "headings_without_numeric_prefixes": true,
+    "all_claims_sourced": true,
+    "links_verified": true,
+    "ready_for_review": true,
+    "publication_approved": false
+  }
+}

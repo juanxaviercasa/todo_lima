@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "template": false,
+  "article_id": "TLB-003",
+  "stage": "borrador",
+  "content": {
+    "slug": "gastronomia-limena-platos-e-influencias-para-entender-su-diversidad",
+    "title": "Gastronomía limeña: platos e influencias para entender su diversidad",
+    "category": "gastronomia-limena",
+    "tags": [
+      "gastronomia-limena",
+      "cocina-criolla",
+      "patrimonio-culinario",
+      "historia-de-lima"
+    ],
+    "description": "Recorrido por la cocina limeña: raíces andinas, herencia española, influencias africana, china e italiana, y platos representativos de la capital.",
+    "published": null,
+    "modified": null,
+    "cover": "gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-portada-restaurante-limeno",
+    "internal": [
+      "gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-emplatado-gastronomico",
+      "gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-comensales-carta-restaurante"
+    ],
+    "recommended": false,
+    "minutes": 7,
+    "blocks": [
+      {
+        "type": "p",
+        "text": "La gastronomía limeña no es un recetario estático, sino una crónica viva del encuentro de culturas en la costa central del Perú. Su personalidad única es el resultado de siglos de intercambio entre las técnicas agrícolas de las sociedades prehispánicas, los ingredientes traídos durante el virreinato, el ingenio de la población afroperuana y las sucesivas oleadas migratorias chinas, italianas y japonesas."
+      },
+      {
+        "type": "p",
+        "text": "Comprender la mesa de la capital exige mirar más allá del auge de la alta cocina: los mercados de barrio, las cebicherías populares de los distritos costeros y las antiguas tabernas del centro histórico conservan la esencia cotidiana de este patrimonio alimentario."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-raices-culinarias",
+        "text": "Las corrientes históricas que modelaron la mesa limeña"
+      },
+      {
+        "type": "p",
+        "text": "Cada momento histórico incorporó insumos y métodos de cocción que hoy consideramos inseparables de la identidad urbana. La siguiente tabla resume las principales influencias constitutivas de la cocina en Lima:"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Corriente Cultural",
+            "Aportes e Insumos Fundamentales",
+            "Platos o Expresiones Emblemáticas",
+            "Espacios Históricos en Lima"
+          ],
+          [
+            "Prehispánica y Costera",
+            "Ajíes nativos (limo, amarillo), maíz, camote, pescados de la corriente de Humboldt",
+            "Ceviche tradicional, carapulcra ancestral, chicha de jora",
+            "Valles de Lurín, Rímac y caletas pesqueras de Chorrillos y Ancón"
+          ],
+          [
+            "Virreinal e Hispana",
+            "Cebolla, limón, ajo, carnes de res y cerdo, trigo, azúcar y técnicas de convento",
+            "Causa limeña, estofados criollos, suspiro a la limeña, alfajores",
+            "Monasterios y casonas señoriales del damero de Pizarro"
+          ],
+          [
+            "Afroperuana",
+            "Uso de menudencias y vísceras, maceración en ají panca y vinagre, dulcería popular",
+            "Anticuchos, rachi, pancita, picarones, turrón de Doña Pepa",
+            "Barrios de Malambo en el Rímac y callejones de Barrios Altos"
+          ],
+          [
+            "Cantonesa (China)",
+            "Técnica del salteado al wok, kion, sillao, cebollita china, arroz blanco al vapor",
+            "Arroz chaufa, lomo saltado, tallarín saltado, sopa wantán",
+            "Calle Capón y Barrios Altos a partir de 1849"
+          ],
+          [
+            "Nikkei (Japonesa)",
+            "Cortes precisos de pescado crudo, caldos dashi, técnicas de empanizado ligero",
+            "Tiraditos modernos, cortes de sashimi acevichado, salsas tártaras nikkei",
+            "Barrios de Jesús María, Lince y San Borja"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "seccion-platos-emblematicos",
+        "text": "Platos emblemáticos y su protagonismo cotidiano"
+      },
+      {
+        "type": "p",
+        "text": "El ceviche es el estandarte del litoral limeño. Preparado al instante con pescado blanco del día, jugo de limón recién exprimido, ají limo picado finamente, sal y cebolla morada crujiente, encarna la inmediatez del mar peruano. De acuerdo con [PROMPERÚ](https://www.peru.travel/es/gastronomia), el ceviche trasciende el menú diario y constituye un símbolo de identidad colectiva nacional."
+      },
+      {
+        "type": "p",
+        "text": "Por su parte, el lomo saltado representa la síntesis perfecta del mestizaje criollo-cantonés: tiras de lomo de res salteadas a fuego vivo en wok con cebolla, tomate, ají amarillo y sillao, servidas con papas fritas autóctonas y arroz blanco."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-sazon-tecnicas",
+        "text": "El aderezo criollo: el alma de la cocción tradicional"
+      },
+      {
+        "type": "p",
+        "text": "Si existe un hilo conductor en los guisos limeños —desde el ají de gallina hasta el seco de res— es el aderezo base. Este sofrito lento, elaborado con cebolla roja picada en brunoise fino, ajo molido y pasta de ají amarillo o panca dorados con paciencia, otorga profundidad y aroma inconfundible a cada preparación."
+      },
+      {
+        "type": "p",
+        "text": "El punto exacto del aderezo no se mide con cronómetro sino por el brillo del aceite que se separa suavemente de la pasta de ají, liberando los aceites esenciales sin quemar los ingredientes."
+      },
+      {
+        "type": "quote",
+        "text": "Consejo editorial: Si buscas una experiencia auténtica de gastronomía criolla en Lima, el mejor horario para el ceviche es el almuerzo entre las 12:00 y las 15:00 horas, cuando el pescado llega más fresco de los terminales de Chorrillos y Callao."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-barrios-gastronomicos",
+        "text": "Geografía del sabor: dónde encontrar cada especialidad"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Centro Histórico y Rímac: Ideal para tabernas tradicionales de butifarras con jamón del país, sancochado dominical y anticuchos al caer la tarde.",
+          "Surquillo y Magdalena: Distritos reconocidos por sus mercados de abastos con barras ceviqueras de alta frescura a precios accesibles.",
+          "Miraflores y San Isidro: Epicentro de la gastronomía contemporánea de autor, cafés de especialidad y propuestas nikkei de vanguardia.",
+          "Calle Capón y Barrios Altos: La cuna del chifa limeño, con dim sum tradicional matutino y salteados cantoneses auténticos."
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "seccion-dulceria-convento",
+        "text": "La repostería tradicional y los dulces de convento"
+      },
+      {
+        "type": "p",
+        "text": "La herencia conventual del virreinato legó a Lima una rica tradición repostera. La abundancia de azúcar y leche condensada dio origen al suspiro a la limeña, mientras que el maíz morado andino derivó en la mazamorra morada, combinada habitualmente con arroz con leche en el clásico 'combinado'."
+      },
+      {
+        "type": "p",
+        "text": "En las plazas y alamedas, los picarones —aros fritos de masa de zapallo macre y camote bañados en miel de chancaca aromatizada con hojas de higo— continúan siendo el cierre obligado de una jornada nocturna limeña."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-degustacion-consejos",
+        "text": "Pautas para disfrutar de la gastronomía limeña sin prisa"
+      },
+      {
+        "type": "p",
+        "text": "Explorar la cocina de Lima requiere adaptar el apetito a las porciones generosas características de las mesas locales. Es aconsejable compartir platos centrales y consultar por el nivel de picante si no estás acostumbrado a variedades como el rocoto o el ají limo."
+      },
+      {
+        "type": "p",
+        "text": "Puedes combinar tu experiencia culinaria recorriendo el [Centro Histórico de Lima](/blog/que-visitar-centro-historico-lima) o visitando los [restaurantes y cafeterías en Miraflores](/directorio?distrito=miraflores) para contrastar las distintas facetas culinarias que conviven en la capital."
+      }
+    ]
+  },
+  "brief": {
+    "intent": "Cultural e informativa sobre la formación y diversidad de la gastronomía de Lima",
+    "audience": "Aficionados a la gastronomía, turistas culturales y residentes de Lima",
+    "geographic_scope": "Lima Metropolitana",
+    "differentiation": "Analiza el mestizaje culinario de Lima a través de oleadas migratorias históricas sin reducirlo a un ranking comercial de restaurantes.",
+    "excluded_scope": [
+      "Recetas de cocina industrial o publicidad de franquicias"
+    ],
+    "related_existing_urls": [
+      "/blog/que-visitar-centro-historico-lima"
+    ],
+    "new_tags_proposed": [
+      "cocina-criolla",
+      "mestizaje-culinario"
+    ]
+  },
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://www.peru.travel/es/gastronomia",
+      "title": "Portal Oficial de Gastronomía Peruana de PROMPERÚ",
+      "publisher": "PROMPERÚ",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://cultura.pe/",
+      "title": "Registro Nacional del Patrimonio Cultural Inmaterial",
+      "publisher": "Ministerio de Cultura del Perú",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://cenfotur.edu.pe/",
+      "title": "Estudios sobre Cocina Peruana Tradicional",
+      "publisher": "CENFOTUR",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "PROMPERÚ documenta la cocina limeña como un crisol de tradiciones andinas, hispanas, africanas, cantonesas, japonesas e italianas.",
+      "block_id_or_index": "seccion-raices-culinarias",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "El Ministerio de Cultura declaró la preparación y el consumo del ceviche peruano como Patrimonio Cultural de la Nación.",
+      "block_id_or_index": "seccion-platos-emblematicos",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "CENFOTUR sistematiza las técnicas tradicionales de sazón criolla basadas en el sofrito de ajíes, ajo y cebolla.",
+      "block_id_or_index": "seccion-sazon-tecnicas",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ],
+  "links": {
+    "internal_outgoing": [
+      {
+        "url": "/blog/que-visitar-centro-historico-lima",
+        "anchor": "ruta por el Centro Histórico de Lima",
+        "section_id": "seccion-barrios-gastronomicos",
+        "purpose": "Conectar con las tabernas y casonas históricas del Cercado",
+        "verification_status": "verified"
+      },
+      {
+        "url": "/directorio?distrito=miraflores",
+        "anchor": "restaurantes y cafeterías en Miraflores",
+        "section_id": "seccion-degustacion-consejos",
+        "purpose": "Orientar sobre opciones gastronómicas en distritos turísticos",
+        "verification_status": "verified"
+      }
+    ],
+    "external_sources": [
+      {
+        "url": "https://www.peru.travel/es/gastronomia",
+        "anchor": "guía gastronómica de PROMPERÚ",
+        "section_id": "seccion-raices-culinarias",
+        "claim_ids": [
+          "CLAIM-01"
+        ],
+        "verification_status": "verified"
+      },
+      {
+        "url": "https://cultura.pe/",
+        "anchor": "declaratoria del Ministerio de Cultura",
+        "section_id": "seccion-platos-emblematicos",
+        "claim_ids": [
+          "CLAIM-02"
+        ],
+        "verification_status": "verified"
+      }
+    ],
+    "ecosystem_outgoing": [],
+    "internal_incoming_proposals": [
+      {
+        "source_url": "/blog/que-visitar-centro-historico-lima",
+        "target_url": "/blog/gastronomia-limena-platos-e-influencias-para-entender-su-diversidad",
+        "anchor": "diversidad culinaria de Lima",
+        "suggested_context": "Para conocer la historia de los sabores de la ciudad, te invitamos a leer nuestro ensayo sobre la diversidad culinaria de Lima.",
+        "reason": "Enlace temático complementario",
+        "status": "proposed"
+      }
+    ],
+    "external_incoming_opportunities": [],
+    "ecosystem_notes": "Sin enlaces forzados al ecosistema para preservar el rigor puramente cultural."
+  },
+  "images": [
+    {
+      "id": "gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-portada-restaurante-limeno",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Gastronomía limeña: platos e influencias para entender su diversidad.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of bustling traditional restaurant in Lima showcasing authentic Peruvian culinary dishes and warm hospitality. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-003/images/gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-portada-restaurante-limeno.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-003/images/gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-portada-restaurante-limeno-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-003/images/gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-portada-restaurante-limeno-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Comedor de restaurante emblemático en Lima con arquitectura clásica y servicio gastronómico esmerado",
+      "caption": "Comedor de restaurante emblemático en Lima con arquitectura clásica y servicio gastronómico esmerado. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-emplatado-gastronomico",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Gastronomía limeña: platos e influencias para entender su diversidad.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of chef finishing a culinary plate presentation with vibrant fresh herbs and Peruvian chili sauces. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-003/images/gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-emplatado-gastronomico.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-003/images/gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-emplatado-gastronomico-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-003/images/gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-emplatado-gastronomico-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Chef emplatando especialidad de cocina peruana con hierbas frescas y guarniciones tradicionales",
+      "caption": "Chef emplatando especialidad de cocina peruana con hierbas frescas y guarniciones tradicionales. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-comensales-carta-restaurante",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Gastronomía limeña: platos e influencias para entender su diversidad.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of guests reviewing a restaurant menu and consulting the server in a warm dining ambiance. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-003/images/gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-comensales-carta-restaurante.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-003/images/gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-comensales-carta-restaurante-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-003/images/gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-comensales-carta-restaurante-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Clientes revisando la carta gastronómica y conversando en salón acogedor en Lima",
+      "caption": "Clientes revisando la carta gastronómica y conversando en salón acogedor en Lima. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ],
+  "quality": {
+    "has_minimum_three_distinct_images": true,
+    "all_blocks_conform_to_schema": true,
+    "table_is_rectangular": true,
+    "headings_without_numeric_prefixes": true,
+    "all_claims_sourced": true,
+    "links_verified": true,
+    "ready_for_review": true,
+    "publication_approved": false
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-178",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "como-construir-un-calendario-familiar-de-actividades-sin-saturar-el-fin-de-semana-portada-parque-infantil-familiar",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Cómo construir un calendario familiar de actividades sin saturar el fin de semana.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of cheerful, secure family park in Lima with modern playground equipment, grassy lawns, and shaded walking paths. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-178/images/como-construir-un-calendario-familiar-de-actividades-sin-saturar-el-fin-de-semana-portada-parque-infantil-familiar.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-178/images/como-construir-un-calendario-familiar-de-actividades-sin-saturar-el-fin-de-semana-portada-parque-infantil-familiar-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-178/images/como-construir-un-calendario-familiar-de-actividades-sin-saturar-el-fin-de-semana-portada-parque-infantil-familiar-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Parque infantil seguro en Lima con juegos modernos, zonas de césped y senderos para coches de bebé",
+      "caption": "Parque infantil seguro en Lima con juegos modernos, zonas de césped y senderos para coches de bebé. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "como-construir-un-calendario-familiar-de-actividades-sin-saturar-el-fin-de-semana-padres-coche-bebe-sendero",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Cómo construir un calendario familiar de actividades sin saturar el fin de semana.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of parents with a baby stroller resting near a flower garden with clean accessible public amenities. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-178/images/como-construir-un-calendario-familiar-de-actividades-sin-saturar-el-fin-de-semana-padres-coche-bebe-sendero.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-178/images/como-construir-un-calendario-familiar-de-actividades-sin-saturar-el-fin-de-semana-padres-coche-bebe-sendero-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-178/images/como-construir-un-calendario-familiar-de-actividades-sin-saturar-el-fin-de-semana-padres-coche-bebe-sendero-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Padres paseando con coche de bebé por camino plano y sombreado de parque residencial en Lima",
+      "caption": "Padres paseando con coche de bebé por camino plano y sombreado de parque residencial en Lima. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "como-construir-un-calendario-familiar-de-actividades-sin-saturar-el-fin-de-semana-ninos-juegos-areas-verdes",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Cómo construir un calendario familiar de actividades sin saturar el fin de semana.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of happy parents and young children engaged in an interactive educational activity in a green space. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-178/images/como-construir-un-calendario-familiar-de-actividades-sin-saturar-el-fin-de-semana-ninos-juegos-areas-verdes.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-178/images/como-construir-un-calendario-familiar-de-actividades-sin-saturar-el-fin-de-semana-ninos-juegos-areas-verdes-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-178/images/como-construir-un-calendario-familiar-de-actividades-sin-saturar-el-fin-de-semana-ninos-juegos-areas-verdes-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Niños participando en dinámicas de juego libre y recreación en áreas verdes de la ciudad",
+      "caption": "Niños participando en dinámicas de juego libre y recreación en áreas verdes de la ciudad. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

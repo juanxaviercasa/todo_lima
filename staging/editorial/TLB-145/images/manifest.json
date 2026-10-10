@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-145",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking-portada-pasteleria-limena",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Cómo organizar una ruta de postres sin convertirla en un ranking.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of charming traditional Limeño pastry shop with glass showcases displaying classic Peruvian desserts and cakes. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-145/images/como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking-portada-pasteleria-limena.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-145/images/como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking-portada-pasteleria-limena-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-145/images/como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking-portada-pasteleria-limena-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Pastelería tradicional limeña con vitrinas exhibiendo suspiro a la limeña y postres de convento",
+      "caption": "Pastelería tradicional limeña con vitrinas exhibiendo suspiro a la limeña y postres de convento. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking-suspiro-limena-merengue",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Cómo organizar una ruta de postres sin convertirla en un ranking.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of pastry chef garnishing delicate glasses of Suspiro a la Limeña with cinnamon and port wine meringue. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-145/images/como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking-suspiro-limena-merengue.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-145/images/como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking-suspiro-limena-merengue-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-145/images/como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking-suspiro-limena-merengue-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Pastelera decorando copas de suspiro a la limeña con merengue al oporto y canela en polvo",
+      "caption": "Pastelera decorando copas de suspiro a la limeña con merengue al oporto y canela en polvo. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking-mesa-postres-tradicionales",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Cómo organizar una ruta de postres sin convertirla en un ranking.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of afternoon tea table in a Lima courtyard with friends sampling traditional desserts and herbal teas. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-145/images/como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking-mesa-postres-tradicionales.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-145/images/como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking-mesa-postres-tradicionales-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-145/images/como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking-mesa-postres-tradicionales-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Mesa de té en patio limeño compartiendo porciones de tortas artesanales y postres clásicos",
+      "caption": "Mesa de té en patio limeño compartiendo porciones de tortas artesanales y postres clásicos. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

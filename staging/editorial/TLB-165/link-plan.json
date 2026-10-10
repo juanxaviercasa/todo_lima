@@ -1,0 +1,63 @@
+{
+  "article_id": "TLB-165",
+  "internal_outgoing": [
+    {
+      "url": "/directorio?distrito=san-borja",
+      "anchor": "directorio de negocios y servicios en San Borja",
+      "section_id": "seccion-itinerario-bloques",
+      "purpose": "Permitir encontrar opciones comerciales y gastronómicas en San Borja",
+      "verification_status": "verified"
+    },
+    {
+      "url": "/blog/que-visitar-centro-historico-lima",
+      "anchor": "guía patrimonial de Lima",
+      "section_id": "seccion-cierre-distrital",
+      "purpose": "Conectar la escala distrital con el circuito metropolitano",
+      "verification_status": "verified"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://munlima.gob.pe/",
+      "anchor": "portal municipal de San Borja",
+      "section_id": "seccion-identidad-distrital",
+      "claim_ids": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "url": "https://www.gob.pe/mincetur",
+      "anchor": "inventario de recursos de MINCETUR",
+      "section_id": "seccion-itinerario-bloques",
+      "claim_ids": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "ecosystem_outgoing": [
+    {
+      "project": "Mundos Simulados",
+      "url": "https://mundossimulados.online/",
+      "anchor": "escenarios sobre descentralización urbana y metrópolis policéntricas",
+      "section_id": "seccion-movilidad-seguridad",
+      "purpose": "Lectura complementaria sobre urbanismo policéntrico y convivencia distrital",
+      "relationship_disclosure": "Proyecto aliado de divulgación tecnológica.",
+      "rel_required": null,
+      "verification_status": "verified"
+    }
+  ],
+  "internal_incoming_proposals": [
+    {
+      "source_url": "/blog/que-visitar-centro-historico-lima",
+      "target_url": "/blog/san-borja-como-preparar-un-recorrido-entre-espacios-culturales",
+      "anchor": "recorrido por San Borja",
+      "suggested_context": "Para explorar otros distritos con marcada personalidad, consulta nuestro recorrido por San Borja.",
+      "reason": "Conexión geográfica distrital",
+      "status": "proposed"
+    }
+  ],
+  "external_incoming_opportunities": [],
+  "ecosystem_notes": "Incluye enlace a Mundos Simulados sobre planificación urbana y ciudades policéntricas."
+}

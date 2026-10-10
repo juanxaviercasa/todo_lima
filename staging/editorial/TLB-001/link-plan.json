@@ -1,0 +1,114 @@
+{
+  "article_id": "TLB-001",
+  "internal_outgoing": [
+    {
+      "url": "/blog/que-visitar-centro-historico-lima",
+      "anchor": "ruta a pie por el Centro Histórico de Lima",
+      "section_id": "seccion-museos-gratuitos-centro",
+      "purpose": "Conectar con el recorrido patrimonial del Cercado para quienes visitan el MUCEN o la zona monumental.",
+      "verification_status": "verified"
+    },
+    {
+      "url": "/directorio?distrito=pueblo-libre",
+      "anchor": "comercios y opciones en Pueblo Libre",
+      "section_id": "seccion-arqueologia-prehispanica",
+      "purpose": "Facilitar alternativas de almuerzo y cafeterías tradicionales alrededor de Plaza Bolívar tras salir del museo.",
+      "verification_status": "verified"
+    },
+    {
+      "url": "/directorio?distrito=barranco",
+      "anchor": "directorio de locales en Barranco",
+      "section_id": "seccion-arte-y-curaduria",
+      "purpose": "Permitir armar un plan combinado de visita cultural y paseo gastronómico en el distrito.",
+      "verification_status": "verified"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://museos.cultura.pe/",
+      "anchor": "Sistema Digital de Museos del Ministerio de Cultura",
+      "section_id": "seccion-logistica-tarifas",
+      "claim_ids": [
+        "CLAIM-01",
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "url": "https://www.museolarco.org/",
+      "anchor": "portal oficial del Museo Larco",
+      "section_id": "seccion-arqueologia-prehispanica",
+      "claim_ids": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "url": "https://mnaahp.cultura.pe/",
+      "anchor": "Museo Nacional de Arqueología, Antropología e Historia",
+      "section_id": "seccion-arqueologia-prehispanica",
+      "claim_ids": [
+        "CLAIM-04"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "url": "https://mali.pe/",
+      "anchor": "Museo de Arte de Lima (MALI)",
+      "section_id": "seccion-arte-y-curaduria",
+      "claim_ids": [
+        "CLAIM-05"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "url": "https://www.bcrp.gob.pe/museocentral",
+      "anchor": "Museo Central (MUCEN) del BCRP",
+      "section_id": "seccion-museos-gratuitos-centro",
+      "claim_ids": [
+        "CLAIM-06"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "url": "https://www.museopedrodeosma.org/",
+      "anchor": "Museo Pedro de Osma",
+      "section_id": "seccion-arte-y-curaduria",
+      "claim_ids": [
+        "CLAIM-07"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "ecosystem_outgoing": [
+    {
+      "project": "Mundos Simulados",
+      "url": "https://mundossimulados.online/",
+      "anchor": "ensayos sobre ciudades futuras y simulación tecnológica",
+      "section_id": "seccion-organizacion-visita",
+      "purpose": "Lectura complementaria y reflexiva sobre digitalización de patrimonio, preservación de memoria histórica y escenarios urbanos futuros.",
+      "relationship_disclosure": "Proyecto aliado de divulgación y escenarios especulativos.",
+      "rel_required": null,
+      "verification_status": "verified"
+    }
+  ],
+  "internal_incoming_proposals": [
+    {
+      "source_url": "/blog/que-visitar-centro-historico-lima",
+      "target_url": "/blog/museos-de-lima-como-elegir-una-visita-segun-tus-intereses",
+      "anchor": "guía para elegir museos en Lima según tus intereses",
+      "suggested_context": "Para quienes deseen explorar más allá de las iglesias y plazas céntricas hacia grandes colecciones de arqueología o arte virreinal, consulta nuestra [guía para elegir museos en Lima según tus intereses](/blog/museos-de-lima-como-elegir-una-visita-segun-tus-intereses).",
+      "reason": "Enriquecer la ruta a pie del Centro con la guía especializada de museos metropolitanos.",
+      "status": "proposed"
+    }
+  ],
+  "external_incoming_opportunities": [
+    {
+      "source_url": null,
+      "target_url": "https://todolima.com/blog/museos-de-lima-como-elegir-una-visita-segun-tus-intereses",
+      "reason": "Oportunidad de ser referenciado en blogs de viajes responsables, portales de agenda cultural limeña o foros comunitarios de residentes.",
+      "status": "opportunity_not_implemented"
+    }
+  ],
+  "ecosystem_notes": "Nube para Pymes no se incluye en este artículo porque sus herramientas operativas (cotizaciones, flujo de caja, IGV) no tienen afinidad temática natural con una guía de curaduría cultural de museos. Se cumple la regla de no forzar enlaces innecesarios."
+}

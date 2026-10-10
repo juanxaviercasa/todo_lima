@@ -1,0 +1,63 @@
+{
+  "article_id": "TLB-086",
+  "internal_outgoing": [
+    {
+      "url": "/blog/revisar-informacion-negocio-lima",
+      "anchor": "cómo revisar la información de un negocio en Lima",
+      "section_id": "seccion-pasos-implementacion",
+      "purpose": "Recomendar la perspectiva del consumidor para optimizar la ficha",
+      "verification_status": "verified"
+    },
+    {
+      "url": "/para-negocios",
+      "anchor": "información para negocios en Todo Lima",
+      "section_id": "seccion-cierre-negocios",
+      "purpose": "Facilitar el registro y actualización de datos comerciales",
+      "verification_status": "verified"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://www.gob.pe/indecopi",
+      "anchor": "portal institucional de Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI)",
+      "section_id": "seccion-marco-normativo",
+      "claim_ids": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "url": "https://www.gob.pe/indecopi",
+      "anchor": "normativa de protección al consumidor de Indecopi",
+      "section_id": "seccion-pasos-implementacion",
+      "claim_ids": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "ecosystem_outgoing": [
+    {
+      "project": "Nube para Pymes",
+      "url": "https://nubeparapymes.online/crm-pymes.html",
+      "anchor": "herramientas de gestión y seguimiento de clientes para pymes",
+      "section_id": "seccion-herramientas-gestion",
+      "purpose": "Utilidad práctica aliada para organizar consultas de clientes",
+      "relationship_disclosure": "Proyecto aliado para pymes.",
+      "rel_required": null,
+      "verification_status": "verified"
+    }
+  ],
+  "internal_incoming_proposals": [
+    {
+      "source_url": "/blog/revisar-informacion-negocio-lima",
+      "target_url": "/blog/como-comunicar-la-ubicacion-del-local-y-la-cobertura-a-domicilio",
+      "anchor": "cómo comunicar la ubicación del local y la cobertura a domicilio",
+      "suggested_context": "Para titulares de negocios que deseen mejorar sus prácticas comerciales, recomendamos leer nuestra guía sobre cómo comunicar la ubicación del local y la cobertura a domicilio.",
+      "reason": "Interconexión editorial entre usuario y negocio",
+      "status": "proposed"
+    }
+  ],
+  "external_incoming_opportunities": [],
+  "ecosystem_notes": "Incluye enlace legítimo a Nube para Pymes por alta pertinencia para la gestión de pymes."
+}

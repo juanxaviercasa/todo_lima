@@ -1,0 +1,74 @@
+{
+  "article_id": "TLB-002",
+  "checked_at": "2026-10-10",
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://www.gob.pe/atu",
+      "title": "Portal Oficial de la Autoridad de Transporte Urbano para Lima y Callao",
+      "publisher": "ATU",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://www.ositran.gob.pe/",
+      "title": "Organismo Supervisor de la Inversión en Infraestructura de Transporte de Uso Público",
+      "publisher": "Ositrán",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://www.lineauno.pe/",
+      "title": "Operación y Sistema de Pasajes de Línea 1 del Metro de Lima",
+      "publisher": "Línea 1 Metro de Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "La tarjeta TIT es emitida bajo estándares de interoperabilidad por la ATU con costo unitario fijado en S/ 7.50 para la Línea 2.",
+      "block_id_or_index": "seccion-tit-linea-2",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": true,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "Ositrán supervisa la infraestructura de cobro y cumplimiento de servicio de las concesiones ferroviarias y viales en Lima.",
+      "block_id_or_index": "seccion-linea-1-tren",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "Línea 1 del Metro opera con tarjeta propia no transferible al Metropolitano en sus 26 estaciones elevadas.",
+      "block_id_or_index": "seccion-linea-1-tren",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": true,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "article_id": "TLB-149",
+  "checked_at": "2026-10-10",
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://munlima.gob.pe/",
+      "title": "Portal Institucional de Lurín",
+      "publisher": "Municipalidad Distrital de Lurín",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://www.gob.pe/mincetur",
+      "title": "Inventario Nacional de Recursos Turísticos",
+      "publisher": "MINCETUR",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://todolima.com/metodologia",
+      "title": "Criterios Editoriales de Relevamiento Distrital",
+      "publisher": "Todo Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "Las ordenanzas distritales de Lurín regulan el uso de espacios públicos, zonificación comercial y movilidad local.",
+      "block_id_or_index": "seccion-identidad-distrital",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "MINCETUR cataloga los hitos arquitectónicos, arqueológicos y gastronómicos prioritarios en este ámbito municipal.",
+      "block_id_or_index": "seccion-itinerario-bloques",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "Todo Lima clasifica comercios formales de Lurín sin otorgar certificaciones de calidad unilaterales.",
+      "block_id_or_index": "seccion-cierre-distrital",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ]
+}

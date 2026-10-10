@@ -1,0 +1,74 @@
+{
+  "article_id": "TLB-065",
+  "checked_at": "2026-10-10",
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://www.peru.travel/es/gastronomia",
+      "title": "Guía de Tradiciones Culinarias del Perú",
+      "publisher": "PROMPERÚ",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://cenfotur.edu.pe/",
+      "title": "Patrimonio Culinario Regional y Técnicas Tradicionales",
+      "publisher": "CENFOTUR",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://todolima.com/metodologia",
+      "title": "Metodología Editorial de Contenidos Gastronómicos",
+      "publisher": "Todo Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "Las publicaciones oficiales de PROMPERÚ destacan la cocina de Lima como reflejo de biodiversidad marina y mestizaje cultural.",
+      "block_id_or_index": "seccion-historia-origen",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "CENFOTUR documenta los estándares de servicio e inocuidad alimentaria en establecimientos de hospitalidad en Lima.",
+      "block_id_or_index": "seccion-preparacion-calidad",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "Todo Lima no cobra por menciones gastronómicas ni publica reseñas basadas en patrocinios no declarados.",
+      "block_id_or_index": "seccion-cierre-gastronomico",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ]
+}

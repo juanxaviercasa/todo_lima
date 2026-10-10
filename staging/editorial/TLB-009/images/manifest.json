@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-009",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "chifa-en-lima-historia-de-una-tradicion-peruano-china-portada-salon-chifa",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Chifa en Lima: historia de una tradición peruano-china.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of traditional Peruvian-Chinese chifa restaurant dining room in Lima with red lanterns, warm woodwork, and sharing tables. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-009/images/chifa-en-lima-historia-de-una-tradicion-peruano-china-portada-salon-chifa.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-009/images/chifa-en-lima-historia-de-una-tradicion-peruano-china-portada-salon-chifa-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-009/images/chifa-en-lima-historia-de-una-tradicion-peruano-china-portada-salon-chifa-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Comedor tradicional de restaurante chifa en Lima con lámparas rojas y mesas familiares de compartir",
+      "caption": "Comedor tradicional de restaurante chifa en Lima con lámparas rojas y mesas familiares de compartir. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "chifa-en-lima-historia-de-una-tradicion-peruano-china-cocina-wok-chaufa",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Chifa en Lima: historia de una tradición peruano-china.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of chef stir-frying chaufa rice with high flames in an authentic wok kitchen station. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-009/images/chifa-en-lima-historia-de-una-tradicion-peruano-china-cocina-wok-chaufa.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-009/images/chifa-en-lima-historia-de-una-tradicion-peruano-china-cocina-wok-chaufa-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-009/images/chifa-en-lima-historia-de-una-tradicion-peruano-china-cocina-wok-chaufa-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Cocinero preparando arroz chaufa al wok a fuego vivo en cocina de chifa en Lima",
+      "caption": "Cocinero preparando arroz chaufa al wok a fuego vivo en cocina de chifa en Lima. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "chifa-en-lima-historia-de-una-tradicion-peruano-china-banquete-familiar-chifa",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Chifa en Lima: historia de una tradición peruano-china.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of multi-generational family dining together sharing traditional dim sum and wok dishes in Calle Capón Chinatown. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-009/images/chifa-en-lima-historia-de-una-tradicion-peruano-china-banquete-familiar-chifa.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-009/images/chifa-en-lima-historia-de-una-tradicion-peruano-china-banquete-familiar-chifa-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-009/images/chifa-en-lima-historia-de-una-tradicion-peruano-china-banquete-familiar-chifa-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Familia compartiendo platos tradicionales de cocina chifa en salón de Calle Capón en Lima",
+      "caption": "Familia compartiendo platos tradicionales de cocina chifa en salón de Calle Capón en Lima. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

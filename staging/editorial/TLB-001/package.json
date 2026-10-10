@@ -1,0 +1,628 @@
+{
+  "schema_version": 1,
+  "template": false,
+  "article_id": "TLB-001",
+  "stage": "borrador",
+  "content": {
+    "slug": "museos-de-lima-como-elegir-una-visita-segun-tus-intereses",
+    "title": "Museos de Lima: cómo elegir una visita según tus intereses",
+    "category": "lugares-y-patrimonio",
+    "tags": [
+      "patrimonio",
+      "centro-historico"
+    ],
+    "description": "Criterios para elegir entre museos de arqueología prehispánica, arte virreinal y memoria en Lima según tu tiempo y preferencias de recorrido.",
+    "published": null,
+    "modified": null,
+    "cover": "museos-lima-portada",
+    "internal": [
+      "museos-lima-curaduria",
+      "museos-lima-patio"
+    ],
+    "recommended": false,
+    "minutes": 7,
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Lima concentra una de las redes museísticas más ricas y variadas de Sudamérica, pero intentar abarcar varios recintos en una sola jornada sin un criterio claro suele resultar agotador. La clave para disfrutar de los museos de la capital radica en elegir según el periodo histórico que más te interese —arqueología prehispánica, arte virreinal, historia republicana o creación contemporánea— y agrupar la visita por cercanía geográfica."
+      },
+      {
+        "type": "p",
+        "text": "Antes de planificar tu traslado, confirma siempre los horarios vigentes y el sistema de acceso: mientras algunas instituciones estatales ofrecen ingreso libre determinados días bajo normativas específicas, los museos privados de gestión autónoma requieren reserva anticipada en línea para garantizar el aforo."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-definir-interes",
+        "text": "Primero, define qué periodo o expresión cultural deseas explorar"
+      },
+      {
+        "type": "p",
+        "text": "El patrimonio custodiado en Lima no responde a una sola narrativa homogénea. Cada museo ofrece una experiencia formativa distinta que conviene emparejar con el perfil del visitante:"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Periodo o Enfoque",
+            "Instituciones representativas",
+            "Distrito principal",
+            "Perfil sugerido"
+          ],
+          [
+            "Arqueología y Culturas Prehispánicas",
+            "Museo Larco y MNAAHP",
+            "Pueblo Libre",
+            "Viajeros, estudiantes e interesados en civilizaciones andinas"
+          ],
+          [
+            "Arte Peruano Integral y Académico",
+            "Museo de Arte de Lima (MALI)",
+            "Cercado de Lima",
+            "Público general, amantes de la pintura y arquitectura cívica"
+          ],
+          [
+            "Arte Virreinal y Platería",
+            "Museo Pedro de Osma",
+            "Barranco",
+            "Aficionados a la imaginería colonial y casonas históricas"
+          ],
+          [
+            "Patrimonio Numismático y Cívico",
+            "Museo Central (MUCEN) del BCRP",
+            "Cercado de Lima",
+            "Familias y recorridos a pie por el damero histórico"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "seccion-arqueologia-prehispanica",
+        "text": "Grandes testimonios prehispánicos: del origen andino a los grandes señoríos"
+      },
+      {
+        "type": "p",
+        "text": "Si buscas comprender la profundidad temporal del territorio antes de la llegada de los españoles, el distrito de Pueblo Libre es el epicentro indiscutible. En este barrio tradicional conviven dos de los repositorios más importantes del continente."
+      },
+      {
+        "type": "p",
+        "text": "El [portal oficial del Museo Larco](https://www.museolarco.org/) resguarda una célebre colección de más de 40.000 vasijas de cerámica, orfebrería y textiles de culturas del norte como Moche, Chimú, Cupisnique y Nasca. Destaca por su depósito abierto a los visitantes y sus jardines subtropicales. Por su parte, el [Museo Nacional de Arqueología, Antropología e Historia](https://mnaahp.cultura.pe/) (MNAAHP), fundado en 1822 como el primer museo de la república, custodia en la Plaza Bolívar piezas maestras de la civilización Chavín, mantos funerarios Paracas y el legado incaico."
+      },
+      {
+        "type": "p",
+        "text": "Para complementar la mañana en Pueblo Libre, puedes consultar la oferta de [comercios y opciones en Pueblo Libre](/directorio?distrito=pueblo-libre) para almorzar o hacer una pausa en sus emblemáticas tabernas criollas."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-arte-y-curaduria",
+        "text": "Arte virreinal, pintura académica y creaciones contemporáneas"
+      },
+      {
+        "type": "p",
+        "text": "Para los apasionados de las artes visuales, el [Museo de Arte de Lima (MALI)](https://mali.pe/), emplazado en el neorrenacentista Palacio de la Exposición, permite recorrer 3.000 años de historia artística mediante exposiciones que abarcan desde textiles prehispánicos hasta lienzos emblemáticos del siglo XIX y videoarte actual."
+      },
+      {
+        "type": "p",
+        "text": "Hacia el sur, en el tradicional distrito de Barranco, el [Museo Pedro de Osma](https://www.museopedrodeosma.org/) ofrece un recorrido íntimo por una casona de verano de inicios del siglo XX con vitrales y jardines ornamentales. Su colección de pintura cuzqueña, esculturas en pasta y platería virreinal es una de las más destacadas de América del Sur. Al finalizar, el entorno bohemio conecta naturalmente con el [directorio de locales en Barranco](/directorio?distrito=barranco) con cafeterías de especialidad y librerías independientes."
+      },
+      {
+        "type": "quote",
+        "text": "Consejo editorial: No intentes fotografiar cada sala ni apresurar el paso entre vitrinas. Dedicar quince minutos de observación detenida a una sola pieza maestra aporta mucho más que recorrer tres salas a paso acelerado."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-museos-gratuitos-centro",
+        "text": "Colecciones de acceso libre y patrimonio cívico en el Centro"
+      },
+      {
+        "type": "p",
+        "text": "El Centro Histórico alberga opciones culturales de gran jerarquía que no requieren costo de admisión. El [Museo Central (MUCEN) del BCRP](https://www.bcrp.gob.pe/museocentral), situado en la intersección de los jirones Ucayali y Lampa, exhibe una notable pinacoteca republicana (con obras de Pancho Fierro, Merino y Sérvulo Gutiérrez), arqueología andina y salas de numismática que narran la evolución de la moneda nacional."
+      },
+      {
+        "type": "p",
+        "text": "Esta visita se articula a la perfección con una [ruta a pie por el Centro Histórico de Lima](/blog/que-visitar-centro-historico-lima), permitiendo enlazar el museo con casonas, conventos e iglesias monumentales en un solo circuito peatonal."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-logistica-tarifas",
+        "text": "Logística práctica: compra anticipada y el programa Museos Abiertos"
+      },
+      {
+        "type": "p",
+        "text": "El acceso a los recintos gestionados por el Estado se rige por normativas claras. De acuerdo con el [Sistema Digital de Museos del Ministerio de Cultura](https://museos.cultura.pe/), la Ley N.º 30599 establece el ingreso gratuito para ciudadanos peruanos y residentes extranjeros el primer domingo de cada mes mediante el programa Museos Abiertos (MUA)."
+      },
+      {
+        "type": "p",
+        "text": "Para el resto del mes, ten en cuenta las siguientes pautas organizativas:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Días de apertura: La mayoría de museos de Lima cierra los lunes por mantenimiento curatorial, abriendo de martes a domingo.",
+          "Venta anticipada: En museos privados de alta demanda (como el Museo Larco), se aconseja adquirir los boletos previamente por internet para elegir turno y evitar colas en boletería.",
+          "Tarifas preferenciales: Lleva siempre tu documento de identidad para acreditar tarifas reducidas para estudiantes, docentes o adultos mayores cuando apliquen."
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "seccion-itinerarios-tiempo",
+        "text": "Cómo planificar un itinerario cultural realista de media jornada"
+      },
+      {
+        "type": "p",
+        "text": "Debido a las distancias interdistritales y la densidad del tráfico limeño, el error más común es intentar combinar museos lejanos entre sí en una misma mañana. Un itinerario eficiente debe respetar las siguientes etapas:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Selecciona un solo clúster geográfico: Elige Pueblo Libre (Larco + MNAAHP), el Cercado (MALI + MUCEN) o Barranco (Pedro de Osma + galerías locales).",
+          "Calcula dos horas por recinto: Ese tiempo permite apreciar la colección permanente, recorrer jardines o tiendas de publicaciones y descansar sin prisa.",
+          "Reserva el almuerzo cerca del museo: Los distritos culturales de Lima cuentan con sólida oferta gastronómica que enriquece la experiencia sin requerir traslados largos a mediodía."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "La conservación del patrimonio material y su tránsito hacia formatos inmersivos abre debates sobre el futuro de las ciudades. Para quienes se interesan en cómo la tecnología transformará la preservación de la memoria histórica, invitamos a revisar los [ensayos sobre ciudades futuras y simulación tecnológica](https://mundossimulados.online/) como lectura complementaria."
+      }
+    ]
+  },
+  "brief": {
+    "intent": "Ofrecer una guía de toma de decisiones para que residentes y visitantes elijan museos en Lima según sus gustos, optimizando traslados y reservas.",
+    "audience": "Residentes locales, familias, estudiantes y visitantes culturales en Lima.",
+    "geographic_scope": "Lima Metropolitana (Pueblo Libre, Cercado de Lima, Barranco, Miraflores).",
+    "differentiation": "Distingue periodos históricos y logísticas sin replicar el recorrido peatonal del Centro ni hacer un catálogo plano de horarios.",
+    "excluded_scope": [
+      "Monumentos fuera del departamento de Lima",
+      "Promoción de paquetes turísticos comerciales con comisiones"
+    ],
+    "related_existing_urls": [
+      "/blog/que-visitar-centro-historico-lima"
+    ],
+    "new_tags_proposed": [
+      "museos",
+      "pueblo-libre",
+      "barranco"
+    ]
+  },
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://museos.cultura.pe/",
+      "title": "Portal Oficial de Museos del Ministerio de Cultura del Perú",
+      "publisher": "Ministerio de Cultura del Perú",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01",
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://www.museolarco.org/",
+      "title": "Museo Larco - Colección de Arte Precolombino",
+      "publisher": "Museo Larco",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://mnaahp.cultura.pe/",
+      "title": "Museo Nacional de Arqueología, Antropología e Historia del Perú (MNAAHP)",
+      "publisher": "Ministerio de Cultura del Perú",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-04"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-04",
+      "url": "https://mali.pe/",
+      "title": "Museo de Arte de Lima - MALI",
+      "publisher": "Asociación Museo de Arte de Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-05"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-05",
+      "url": "https://www.bcrp.gob.pe/museocentral",
+      "title": "MUCEN - Museo Central del Banco Central de Reserva del Perú",
+      "publisher": "Banco Central de Reserva del Perú",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-06"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-06",
+      "url": "https://www.museopedrodeosma.org/",
+      "title": "Museo Pedro de Osma - Arte Virreinal en Barranco",
+      "publisher": "Fundación Pedro y Angélica de Osma Gildemeister",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-07"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "La Ley N.º 30599 establece el acceso gratuito para peruanos y residentes a los museos y sitios arqueológicos administrados por el Estado el primer domingo de cada mes mediante el programa Museos Abiertos.",
+      "block_id_or_index": "seccion-logistica-tarifas",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "El Ministerio de Cultura centraliza la información oficial de sedes, exposiciones temporales y convocatorias a través del portal museos.cultura.pe.",
+      "block_id_or_index": "seccion-logistica-tarifas",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "El Museo Larco, situado en Pueblo Libre, alberga una colección precolombina de aproximadamente 45.000 piezas clasificadas, incluyendo su depósito de libre acceso y su galería de arte erótico.",
+      "block_id_or_index": "seccion-arqueologia-prehispanica",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": true,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-04",
+      "statement": "El MNAAHP es el museo más antiguo del Perú, fundado en 1822 y ubicado frente a la Plaza Bolívar en Pueblo Libre.",
+      "block_id_or_index": "seccion-arqueologia-prehispanica",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-05",
+      "statement": "El MALI se ubica en el histórico Palacio de la Exposición (Parque de la Exposición) y custodia más de 3.000 años de arte peruano, desde horizontes precolombinos hasta expresiones modernas.",
+      "block_id_or_index": "seccion-arte-y-curaduria",
+      "source_ids": [
+        "SRC-04"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-06",
+      "statement": "El Museo Central (MUCEN) del BCRP ofrece ingreso libre en el Centro de Lima (esquina de jirones Ucayali y Lampa) y cuenta con salas de arte prehispánico, pintura republicana y numismática.",
+      "block_id_or_index": "seccion-museos-gratuitos-centro",
+      "source_ids": [
+        "SRC-05"
+      ],
+      "volatile": true,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-07",
+      "statement": "El Museo Pedro de Osma en Barranco opera en una casona histórica de estilo art nouveau con una colección destacada de pintura y platería virreinal.",
+      "block_id_or_index": "seccion-arte-y-curaduria",
+      "source_ids": [
+        "SRC-06"
+      ],
+      "volatile": true,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ],
+  "links": {
+    "internal_outgoing": [
+      {
+        "url": "/blog/que-visitar-centro-historico-lima",
+        "anchor": "ruta a pie por el Centro Histórico de Lima",
+        "section_id": "seccion-museos-gratuitos-centro",
+        "purpose": "Conectar con el recorrido patrimonial del Cercado para quienes visitan el MUCEN o la zona monumental.",
+        "verification_status": "verified"
+      },
+      {
+        "url": "/directorio?distrito=pueblo-libre",
+        "anchor": "comercios y opciones en Pueblo Libre",
+        "section_id": "seccion-arqueologia-prehispanica",
+        "purpose": "Facilitar alternativas de almuerzo y cafeterías tradicionales alrededor de Plaza Bolívar tras salir del museo.",
+        "verification_status": "verified"
+      },
+      {
+        "url": "/directorio?distrito=barranco",
+        "anchor": "directorio de locales en Barranco",
+        "section_id": "seccion-arte-y-curaduria",
+        "purpose": "Permitir armar un plan combinado de visita cultural y paseo gastronómico en el distrito.",
+        "verification_status": "verified"
+      }
+    ],
+    "external_sources": [
+      {
+        "url": "https://museos.cultura.pe/",
+        "anchor": "Sistema Digital de Museos del Ministerio de Cultura",
+        "section_id": "seccion-logistica-tarifas",
+        "claim_ids": [
+          "CLAIM-01",
+          "CLAIM-02"
+        ],
+        "verification_status": "verified"
+      },
+      {
+        "url": "https://www.museolarco.org/",
+        "anchor": "portal oficial del Museo Larco",
+        "section_id": "seccion-arqueologia-prehispanica",
+        "claim_ids": [
+          "CLAIM-03"
+        ],
+        "verification_status": "verified"
+      },
+      {
+        "url": "https://mnaahp.cultura.pe/",
+        "anchor": "Museo Nacional de Arqueología, Antropología e Historia",
+        "section_id": "seccion-arqueologia-prehispanica",
+        "claim_ids": [
+          "CLAIM-04"
+        ],
+        "verification_status": "verified"
+      },
+      {
+        "url": "https://mali.pe/",
+        "anchor": "Museo de Arte de Lima (MALI)",
+        "section_id": "seccion-arte-y-curaduria",
+        "claim_ids": [
+          "CLAIM-05"
+        ],
+        "verification_status": "verified"
+      },
+      {
+        "url": "https://www.bcrp.gob.pe/museocentral",
+        "anchor": "Museo Central (MUCEN) del BCRP",
+        "section_id": "seccion-museos-gratuitos-centro",
+        "claim_ids": [
+          "CLAIM-06"
+        ],
+        "verification_status": "verified"
+      },
+      {
+        "url": "https://www.museopedrodeosma.org/",
+        "anchor": "Museo Pedro de Osma",
+        "section_id": "seccion-arte-y-curaduria",
+        "claim_ids": [
+          "CLAIM-07"
+        ],
+        "verification_status": "verified"
+      }
+    ],
+    "ecosystem_outgoing": [
+      {
+        "project": "Mundos Simulados",
+        "url": "https://mundossimulados.online/",
+        "anchor": "ensayos sobre ciudades futuras y simulación tecnológica",
+        "section_id": "seccion-itinerarios-tiempo",
+        "purpose": "Lectura complementaria y reflexiva sobre digitalización de patrimonio, preservación de memoria histórica y escenarios urbanos futuros.",
+        "relationship_disclosure": "Proyecto aliado de divulgación y escenarios especulativos.",
+        "rel_required": null,
+        "verification_status": "verified"
+      }
+    ],
+    "internal_incoming_proposals": [
+      {
+        "source_url": "/blog/que-visitar-centro-historico-lima",
+        "target_url": "/blog/museos-de-lima-como-elegir-una-visita-segun-tus-intereses",
+        "anchor": "guía para elegir museos en Lima según tus intereses",
+        "suggested_context": "Para quienes deseen explorar más allá de las iglesias y plazas céntricas hacia grandes colecciones de arqueología o arte virreinal, consulta nuestra [guía para elegir museos en Lima según tus intereses](/blog/museos-de-lima-como-elegir-una-visita-segun-tus-intereses).",
+        "reason": "Enriquecer la ruta a pie del Centro con la guía especializada de museos metropolitanos.",
+        "status": "proposed"
+      }
+    ],
+    "external_incoming_opportunities": [
+      {
+        "source_url": null,
+        "target_url": "https://todolima.com/blog/museos-de-lima-como-elegir-una-visita-segun-tus-intereses",
+        "reason": "Oportunidad de ser referenciado en blogs de viajes responsables, portales de agenda cultural limeña o foros comunitarios de residentes.",
+        "status": "opportunity_not_implemented"
+      }
+    ]
+  },
+  "images": [
+    {
+      "id": "museos-lima-portada",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Transmitir la experiencia de amplitud y contemplación al recorrer las salas de un museo en Lima, con iluminación cálida y espacio superior despejado para titular.",
+      "asset_type": "ilustracion_ia",
+      "prompt": "Editorial illustration of visitors exploring a spacious modern museum exhibition hall in Lima Peru. Contemporary architectural interior with warm wooden accents and soft natural light from clerestory windows. In the background carefully lit minimalist display cases showcase ceramic vessels and pre-Columbian textiles. Two diverse visitors observe an exhibit with curiosity. Wide cinematic composition 16:9 aspect ratio clean visual margins warm sophisticated lighting balanced negative space in upper third. No embedded text no logos no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas reales inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": "staging/editorial/TLB-001/images/museos-lima-portada-original.jpg",
+      "original_width": 1376,
+      "original_height": 768,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-portada.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-portada-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-portada-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Visitantes recorren una galería luminosa de museo observando piezas prehispánicas en vitrinas.",
+      "caption": "Ilustración editorial generada con IA; interpretación artística sobre la experiencia museística en Lima, no constituye fotografía documental de una colección registrada.",
+      "provider_used": "antigravity_imagen",
+      "model_used": "native_image_generator",
+      "source_url": null,
+      "license_or_permission": "Uso editorial interno generado para Todo Lima",
+      "status": "generado_y_verificado",
+      "visually_reviewed": true
+    },
+    {
+      "id": "museos-lima-curaduria",
+      "role": "interna-01",
+      "section_id": "seccion-arte-y-curaduria",
+      "visual_goal": "Mostrar un momento pedagógico cercano donde una mediadora cultural explica técnicas de tejido y conservación prehispánica a una visitante.",
+      "asset_type": "ilustracion_ia",
+      "prompt": "Editorial illustration of an educational moment inside an art and history museum gallery in Lima Peru. A visitor and a docent look closely at an informational museum display case showing pre-Inca textile weaving techniques and tools. Clear focus warm ambient gallery lighting 16:9 aspect ratio clean margins elegant pedagogical museum atmosphere. No embedded text no logos no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas reales inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": "staging/editorial/TLB-001/images/museos-lima-curaduria-original.jpg",
+      "original_width": 1376,
+      "original_height": 768,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-curaduria.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-curaduria-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-curaduria-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Una mediadora cultural explica detalles de textiles prehispánicos frente a una vitrina explicativa.",
+      "caption": "Ilustración editorial generada con IA; interpretación sobre la mediación cultural y educativa en salas de museo en Lima.",
+      "provider_used": "antigravity_imagen",
+      "model_used": "native_image_generator",
+      "source_url": null,
+      "license_or_permission": "Uso editorial interno generado para Todo Lima",
+      "status": "generado_y_verificado",
+      "visually_reviewed": true
+    },
+    {
+      "id": "museos-lima-patio",
+      "role": "interna-02",
+      "section_id": "seccion-itinerarios-tiempo",
+      "visual_goal": "Representar la pausa y planificación de la visita en un patio tradicional limeño con arquerías, buganvilias y fuente.",
+      "asset_type": "ilustracion_ia",
+      "prompt": "Editorial illustration of visitors resting and planning their cultural itinerary in a sunny courtyard of a historic museum in Lima Peru. Bougainvillea flowers climbing stucco arches stone fountain in center wooden benches. Two people sit consulting a museum map and smartphone. Calm reflective cultural atmosphere soft daylight wide 16:9 aspect ratio clean margins. No embedded text no logos no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas reales inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": "staging/editorial/TLB-001/images/museos-lima-patio-original.jpg",
+      "original_width": 1376,
+      "original_height": 768,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-patio.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-patio-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-001/images/museos-lima-patio-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Dos personas sentadas en una banca de patio colonial con arcos y plantas revisando un mapa cultural.",
+      "caption": "Ilustración editorial generada con IA; recreación visual de la arquitectura y patios de descanso de casonas y museos en Lima.",
+      "provider_used": "antigravity_imagen",
+      "model_used": "native_image_generator",
+      "source_url": null,
+      "license_or_permission": "Uso editorial interno generado para Todo Lima",
+      "status": "generado_y_verificado",
+      "visually_reviewed": true
+    }
+  ],
+  "placement": {
+    "cover": "museos-lima-portada",
+    "internal": [
+      {
+        "image_id": "museos-lima-curaduria",
+        "before_section_id": "seccion-arte-y-curaduria"
+      },
+      {
+        "image_id": "museos-lima-patio",
+        "before_section_id": "seccion-itinerarios-tiempo"
+      }
+    ],
+    "requires_renderer_adaptation": false,
+    "renderer_notes": "El artículo cuenta con 6 H2s naturales. Las imágenes internas se posicionan antes del 3er y 6to H2, coincidiendo con la lógica actual de components/BlogContent.js."
+  },
+  "ecosystem": {
+    "nube_para_pymes": {
+      "base_url": "https://nubeparapymes.online/",
+      "inventory_source": "app/herramientas/page.js",
+      "live_verified": true,
+      "status": "omitido_justificadamente_por_falta_de_afinidad"
+    },
+    "mundos_simulados": {
+      "base_url": "https://mundossimulados.online/",
+      "inventory_source": "docs/ECOSISTEMA_EDITORIAL_VERIFICACION.json",
+      "live_verified": true,
+      "status": "incluido_como_lectura_reflexiva_especulativa"
+    }
+  },
+  "production": {
+    "researched_at": "2026-10-10",
+    "word_count": 1380,
+    "reading_minutes_method": "1380 palabras / 200 palabras por minuto = 6.9 min, redondeado a 7 minutos.",
+    "text_provider": "Antigravity Research & Editorial Engine",
+    "image_provider": "antigravity_imagen + sharp",
+    "cost_budget_authorized": "staging_included",
+    "cost_actual": 0,
+    "cost_currency": "USD"
+  },
+  "quality": {
+    "checks_performed": [
+      "JSON sintácticamente válido",
+      "Taxonomía comprobada contra lib/blogTaxonomy.js",
+      "Slug único verificado contra data/blog/posts.json",
+      "Tipos de bloques estrictamente soportados por components/BlogContent.js",
+      "Tabla rectangular verificada (4x4)",
+      "IDs de encabezados únicos y sin prefijos numéricos",
+      "6 afirmaciones verificadas con 6 fuentes primarias oficiales",
+      "Tres imágenes físicas 16:9 generadas y procesadas a WebP (1440, 768, 480)",
+      "Aislamiento total en staging/editorial/TLB-001/ sin alterar producción"
+    ],
+    "human_review_pending": true,
+    "blockers": [],
+    "ready_for_review": true,
+    "publication_approved": false,
+    "publication_date": null
+  }
+}

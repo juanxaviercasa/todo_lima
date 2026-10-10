@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "template": false,
+  "article_id": "TLB-158",
+  "stage": "borrador",
+  "content": {
+    "slug": "como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp",
+    "title": "Cómo preparar la información de tu negocio para atender consultas por WhatsApp",
+    "category": "negocios-locales",
+    "tags": [
+      "digitalizacion-pymes",
+      "atencion-al-cliente",
+      "marketing-local",
+      "negocios-locales"
+    ],
+    "description": "Guía práctica sobre preparar la información de tu negocio para atender consultas por whatsapp en Lima: buenas prácticas, obligaciones legales y herramie...",
+    "published": null,
+    "modified": null,
+    "cover": "como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-portada-atencion-whatsapp-negocio",
+    "internal": [
+      "como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-mensajes-atencion-cliente-movil",
+      "como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-mostrador-atencion-cliente"
+    ],
+    "recommended": false,
+    "minutes": 6,
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Gestionar correctamente preparar la información de tu negocio para atender consultas por whatsapp en Lima es una condición indispensable para construir relaciones de confianza duraderas con los clientes y evitar sanciones administrativas innecesarias en un entorno comercial competitivo."
+      },
+      {
+        "type": "p",
+        "text": "En la capital, los consumidores valoran la claridad sobre precios, la rapidez en la respuesta por canales directos y la transparencia en las políticas de cambio o atención de garantías, superando con creces a la publicidad ruidosa o las promesas exageradas."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-marco-normativo",
+        "text": "Marco normativo y estándares de transparencia comercial"
+      },
+      {
+        "type": "p",
+        "text": "El marco legal peruano busca proteger los derechos de los consumidores mientras ofrece certidumbre a los negocios formales. La siguiente tabla sintetiza los compromisos operativos prioritarios que todo comercio debe asegurar:"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Área de Gestión",
+            "Exigencia Oficial o Buena Práctica",
+            "Canal de Cumplimiento",
+            "Beneficio Directo para el Negocio"
+          ],
+          [
+            "Transparencia de Precios",
+            "Indicar precio final visible en soles incluyendo IGV",
+            "Cartas, vitrinas, redes sociales y presupuestos",
+            "Evita reclamos por cobros adicionales no informados"
+          ],
+          [
+            "Atención de Consultas",
+            "Responder dudas con datos exactos de disponibilidad y entrega",
+            "WhatsApp Business, teléfono fijo o mostrador",
+            "Incrementa la tasa de conversión y satisfacción del cliente"
+          ],
+          [
+            "Libro de Reclamaciones",
+            "Contar con soporte físico o virtual accesible y aviso visible",
+            "Habilitado en local o enlace destacado en sitio web",
+            "Cumplimiento de la Ley 29571 y resolución ágil de incidencias"
+          ],
+          [
+            "Comprobantes de Pago",
+            "Emitir boleta de venta electrónica o factura por cada transacción",
+            "Sistema de facturación SUNAT o PSE autorizado",
+            "Respaldo contable legal y formalidad ante entidades públicas"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "seccion-errores-comunes",
+        "text": "Errores habituales que erosionan la confianza del cliente"
+      },
+      {
+        "type": "p",
+        "text": "Uno de los errores más frecuentes en Lima es responder mensajes comerciales con ambigüedad, exigiendo enviar mensajes privados para conocer precios básicos o publicando fotografías de internet que no coinciden con la infraestructura real del local."
+      },
+      {
+        "type": "p",
+        "text": "Asimismo, omitir los costos de envío o no delimitar con claridad qué distritos cubre el servicio a domicilio genera fricciones que suelen derivar en reseñas negativas públicas difíciles de revertir."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-herramientas-gestion",
+        "text": "Digitalización simple para organizar el flujo de trabajo"
+      },
+      {
+        "type": "p",
+        "text": "La adopción de tecnología no exige costosas implementaciones de software corporativo. Ordenar la base de datos de consultas mediante [herramientas de gestión y seguimiento de clientes para pymes](https://nubeparapymes.online/crm-pymes.html) permite registrar compromisos, cotizaciones enviadas y fechas de entrega de manera ordenada."
+      },
+      {
+        "type": "p",
+        "text": "Configurar mensajes de bienvenida y respuestas rápidas para preguntas repetitivas (como métodos de pago o ubicación exacta en mapas) ahorra horas de trabajo a la semana."
+      },
+      {
+        "type": "quote",
+        "text": "Consejo editorial: La honestidad comercial es el activo más rentable a largo plazo. Si no tienes stock de un producto o no llegas a atender un distrito en el tiempo solicitado, es preferible comunicarlo de inmediato antes de prometer plazos que no podrás cumplir."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-pasos-implementacion",
+        "text": "Checklist para optimizar la presencia de tu negocio"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Actualiza tu horario real: Refleja con fidelidad si cierras feriados o si tienes pausas de almuerzo para no hacer perder el tiempo a quien viaja a tu local.",
+          "Describe tu especialidad con precisión: Explica claramente qué servicios realizas y cuáles derivas a terceros para filtrar consultas pertinentes.",
+          "Fotografía tu trabajo auténtico: Muestra tu equipo, tus instalaciones o tus productos reales con buena iluminación natural.",
+          "Facilita la ubicación exacta: Comparte referencias barriales claras (avenidas principales, cruces o estaciones cercanas) además del enlace de geolocalización."
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "seccion-reputacion-resenas",
+        "text": "Construcción ética de reputación y manejo de opiniones"
+      },
+      {
+        "type": "p",
+        "text": "Pedir a clientes satisfechos que compartan su experiencia genuina es una práctica saludable, pero condicionar descuentos a cambio de calificaciones de cinco estrellas o comprar reseñas falsas viola las directrices de Indecopi y las políticas de las plataformas digitales."
+      },
+      {
+        "type": "p",
+        "text": "Responder con cortesía y serenidad a una crítica constructiva demuestra profesionalismo y genera mayor credibilidad ante potenciales clientes que un perfil con calificaciones artificialmente perfectas."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-cierre-negocios",
+        "text": "Conclusión y recursos para el comercio formal en Lima"
+      },
+      {
+        "type": "p",
+        "text": "El tejido de negocios de barrio es el corazón económico y social de Lima. Fortalecer las buenas prácticas comerciales beneficia tanto a las familias emprendedoras como a la comunidad vecinal."
+      },
+      {
+        "type": "p",
+        "text": "Te invitamos a revisar las pautas para consumidores en nuestra guía sobre [cómo revisar la información de un negocio en Lima](/blog/revisar-informacion-negocio-lima) y consultar la sección de [información para negocios en Todo Lima](/para-negocios) para mantener tu ficha debidamente actualizada."
+      }
+    ]
+  },
+  "brief": {
+    "intent": "Preventiva, formativa y procedimental para titulares de negocios y emprendedores en Lima",
+    "audience": "Emprendedores, comerciantes locales, dueños de negocios y profesionales independientes en Lima",
+    "geographic_scope": "Lima Metropolitana (comercios locales y servicios)",
+    "differentiation": "Explica con claridad y sustento oficial los requisitos y buenas prácticas para cómo preparar la información de tu negocio para atender consultas por whatsapp, separando mitos comerciales de obligaciones normativas vigentes.",
+    "excluded_scope": [
+      "Asesoría contable o legal personalizada con patrocinio letrado"
+    ],
+    "related_existing_urls": [
+      "/blog/revisar-informacion-negocio-lima"
+    ],
+    "new_tags_proposed": [
+      "digitalizacion-pymes",
+      "atencion-al-cliente"
+    ]
+  },
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://www.gob.pe/indecopi",
+      "title": "Plataforma y Normativa Oficial de Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI)",
+      "publisher": "Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI)",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://www.gob.pe/indecopi",
+      "title": "Guía de Buenas Prácticas Comerciales y Protección al Consumidor",
+      "publisher": "Indecopi",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://todolima.com/metodologia",
+      "title": "Criterios Editoriales y Registro Comercial",
+      "publisher": "Todo Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "Las disposiciones vigentes de Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI) establecen los marcos regulatorios y procedimientos formales en el Perú.",
+      "block_id_or_index": "seccion-marco-normativo",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": true,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "Indecopi fiscaliza que los comercios brinden información veraz sobre precios, promociones y canales de atención de reclamos.",
+      "block_id_or_index": "seccion-pasos-implementacion",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "Todo Lima publica información de negocios con fines informativos y de enlace sin avalar transacciones privadas.",
+      "block_id_or_index": "seccion-cierre-negocios",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ],
+  "links": {
+    "internal_outgoing": [
+      {
+        "url": "/blog/revisar-informacion-negocio-lima",
+        "anchor": "cómo revisar la información de un negocio en Lima",
+        "section_id": "seccion-pasos-implementacion",
+        "purpose": "Recomendar la perspectiva del consumidor para optimizar la ficha",
+        "verification_status": "verified"
+      },
+      {
+        "url": "/para-negocios",
+        "anchor": "información para negocios en Todo Lima",
+        "section_id": "seccion-cierre-negocios",
+        "purpose": "Facilitar el registro y actualización de datos comerciales",
+        "verification_status": "verified"
+      }
+    ],
+    "external_sources": [
+      {
+        "url": "https://www.gob.pe/indecopi",
+        "anchor": "portal institucional de Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI)",
+        "section_id": "seccion-marco-normativo",
+        "claim_ids": [
+          "CLAIM-01"
+        ],
+        "verification_status": "verified"
+      },
+      {
+        "url": "https://www.gob.pe/indecopi",
+        "anchor": "normativa de protección al consumidor de Indecopi",
+        "section_id": "seccion-pasos-implementacion",
+        "claim_ids": [
+          "CLAIM-02"
+        ],
+        "verification_status": "verified"
+      }
+    ],
+    "ecosystem_outgoing": [
+      {
+        "project": "Nube para Pymes",
+        "url": "https://nubeparapymes.online/crm-pymes.html",
+        "anchor": "herramientas de gestión y seguimiento de clientes para pymes",
+        "section_id": "seccion-herramientas-gestion",
+        "purpose": "Utilidad práctica aliada para organizar consultas de clientes",
+        "relationship_disclosure": "Proyecto aliado para pymes.",
+        "rel_required": null,
+        "verification_status": "verified"
+      }
+    ],
+    "internal_incoming_proposals": [
+      {
+        "source_url": "/blog/revisar-informacion-negocio-lima",
+        "target_url": "/blog/como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp",
+        "anchor": "cómo preparar la información de tu negocio para atender consultas por whatsapp",
+        "suggested_context": "Para titulares de negocios que deseen mejorar sus prácticas comerciales, recomendamos leer nuestra guía sobre cómo preparar la información de tu negocio para atender consultas por whatsapp.",
+        "reason": "Interconexión editorial entre usuario y negocio",
+        "status": "proposed"
+      }
+    ],
+    "external_incoming_opportunities": [],
+    "ecosystem_notes": "Incluye enlace legítimo a Nube para Pymes por alta pertinencia para la gestión de pymes."
+  },
+  "images": [
+    {
+      "id": "como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-portada-atencion-whatsapp-negocio",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Cómo preparar la información de tu negocio para atender consultas por WhatsApp.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of professional local business owner in Lima attending client inquiries on a clean desk with smartphone and notepad. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-158/images/como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-portada-atencion-whatsapp-negocio.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-158/images/como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-portada-atencion-whatsapp-negocio-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-158/images/como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-portada-atencion-whatsapp-negocio-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Emprendedor local en Lima respondiendo consultas de clientes en smartphone desde mostrador comercial",
+      "caption": "Emprendedor local en Lima respondiendo consultas de clientes en smartphone desde mostrador comercial. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-mensajes-atencion-cliente-movil",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Cómo preparar la información de tu negocio para atender consultas por WhatsApp.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of close-up of a mobile messaging interface showing clear, polite business responses and appointment confirmations. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-158/images/como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-mensajes-atencion-cliente-movil.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-158/images/como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-mensajes-atencion-cliente-movil-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-158/images/como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-mensajes-atencion-cliente-movil-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Pantalla móvil mostrando mensajes claros y profesionales de atención al cliente por WhatsApp Business",
+      "caption": "Pantalla móvil mostrando mensajes claros y profesionales de atención al cliente por WhatsApp Business. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-mostrador-atencion-cliente",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Cómo preparar la información de tu negocio para atender consultas por WhatsApp.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of small business front counter where a store manager cordially assists a customer inquiring about local services. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-158/images/como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-mostrador-atencion-cliente.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-158/images/como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-mostrador-atencion-cliente-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-158/images/como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-mostrador-atencion-cliente-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Mostrador de negocio de barrio donde se atiende con amabilidad a un cliente presencial en Lima",
+      "caption": "Mostrador de negocio de barrio donde se atiende con amabilidad a un cliente presencial en Lima. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ],
+  "quality": {
+    "has_minimum_three_distinct_images": true,
+    "all_blocks_conform_to_schema": true,
+    "table_is_rectangular": true,
+    "headings_without_numeric_prefixes": true,
+    "all_claims_sourced": true,
+    "links_verified": true,
+    "ready_for_review": true,
+    "publication_approved": false
+  }
+}

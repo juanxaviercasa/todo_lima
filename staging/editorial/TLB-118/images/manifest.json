@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-118",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-portada-libro-reclamaciones-mostrador",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Libro de Reclamaciones: fuentes oficiales y obligaciones que debe revisar un negocio.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of orderly customer service counter in a Lima business with an official physical and digital Libro de Reclamaciones. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-118/images/libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-portada-libro-reclamaciones-mostrador.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-118/images/libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-portada-libro-reclamaciones-mostrador-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-118/images/libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-portada-libro-reclamaciones-mostrador-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Mostrador de atención en negocio limeño con Libro de Reclamaciones oficial físico y código QR visible",
+      "caption": "Mostrador de atención en negocio limeño con Libro de Reclamaciones oficial físico y código QR visible. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-revision-garantias-comprobante",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Libro de Reclamaciones: fuentes oficiales y obligaciones que debe revisar un negocio.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of client and business representative reviewing service conditions and formal inquiry paperwork transparently. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-118/images/libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-revision-garantias-comprobante.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-118/images/libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-revision-garantias-comprobante-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-118/images/libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-revision-garantias-comprobante-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Cliente y encargado de tienda revisando términos de garantía y comprobante de servicio con transparencia",
+      "caption": "Cliente y encargado de tienda revisando términos de garantía y comprobante de servicio con transparencia. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-atencion-consumidor-oficina",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Libro de Reclamaciones: fuentes oficiales y obligaciones que debe revisar un negocio.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of professional customer care desk in Lima ensuring clear communication and official regulatory compliance. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-118/images/libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-atencion-consumidor-oficina.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-118/images/libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-atencion-consumidor-oficina-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-118/images/libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-atencion-consumidor-oficina-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Oficina de atención al consumidor orientando formalmente sobre derechos y deberes comerciales en Lima",
+      "caption": "Oficina de atención al consumidor orientando formalmente sobre derechos y deberes comerciales en Lima. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

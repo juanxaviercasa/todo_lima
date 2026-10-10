@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-155",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "cementerio-presbitero-maestro-patrimonio-y-condiciones-de-los-recorridos-portada-presbitero-maestro",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Cementerio Presbítero Maestro: patrimonio y condiciones de los recorridos.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of historic neoclassical mausoleums and marble statues among tall cypress trees in Presbítero Maestro cemetery in Lima. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-155/images/cementerio-presbitero-maestro-patrimonio-y-condiciones-de-los-recorridos-portada-presbitero-maestro.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-155/images/cementerio-presbitero-maestro-patrimonio-y-condiciones-de-los-recorridos-portada-presbitero-maestro-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-155/images/cementerio-presbitero-maestro-patrimonio-y-condiciones-de-los-recorridos-portada-presbitero-maestro-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Mausoleos neoclásicos y esculturas de mármol entre cipreses en el Cementerio Presbítero Maestro de Lima",
+      "caption": "Mausoleos neoclásicos y esculturas de mármol entre cipreses en el Cementerio Presbítero Maestro de Lima. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "cementerio-presbitero-maestro-patrimonio-y-condiciones-de-los-recorridos-escultura-marmol-mausoleo",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Cementerio Presbítero Maestro: patrimonio y condiciones de los recorridos.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of restoration specialist examining an ornate sculpted marble monument with delicate historic motifs. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-155/images/cementerio-presbitero-maestro-patrimonio-y-condiciones-de-los-recorridos-escultura-marmol-mausoleo.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-155/images/cementerio-presbitero-maestro-patrimonio-y-condiciones-de-los-recorridos-escultura-marmol-mausoleo-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-155/images/cementerio-presbitero-maestro-patrimonio-y-condiciones-de-los-recorridos-escultura-marmol-mausoleo-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Conservador de patrimonio inspeccionando escultura funeraria de mármol con detalles históricos",
+      "caption": "Conservador de patrimonio inspeccionando escultura funeraria de mármol con detalles históricos. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "cementerio-presbitero-maestro-patrimonio-y-condiciones-de-los-recorridos-recorrido-cultural-guiado",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Cementerio Presbítero Maestro: patrimonio y condiciones de los recorridos.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of cultural heritage walking tour group observing historical memorials along a quiet cobblestone avenue. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-155/images/cementerio-presbitero-maestro-patrimonio-y-condiciones-de-los-recorridos-recorrido-cultural-guiado.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-155/images/cementerio-presbitero-maestro-patrimonio-y-condiciones-de-los-recorridos-recorrido-cultural-guiado-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-155/images/cementerio-presbitero-maestro-patrimonio-y-condiciones-de-los-recorridos-recorrido-cultural-guiado-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Recorrido cultural diurno guiado por las avenidas monumentales del camposanto histórico",
+      "caption": "Recorrido cultural diurno guiado por las avenidas monumentales del camposanto histórico. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

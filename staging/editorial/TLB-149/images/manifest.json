@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-149",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica-portada-feria-cultural-plaza",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Lurín y Pachacamac: cómo delimitar una visita cultural y gastronómica.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of celebratory cultural gathering in Lima featuring traditional arts, music, and community festival atmosphere. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-149/images/lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica-portada-feria-cultural-plaza.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-149/images/lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica-portada-feria-cultural-plaza-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-149/images/lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica-portada-feria-cultural-plaza-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Feria cultural tradicional en plaza limeña con carpas de arte, música en vivo y talleres comunitarios",
+      "caption": "Feria cultural tradicional en plaza limeña con carpas de arte, música en vivo y talleres comunitarios. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica-instrumentos-artesanias-muestra",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Lurín y Pachacamac: cómo delimitar una visita cultural y gastronómica.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of close-up of cultural instruments, artisan tools, and artistic materials in a Lima workshop. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-149/images/lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica-instrumentos-artesanias-muestra.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-149/images/lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica-instrumentos-artesanias-muestra-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-149/images/lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica-instrumentos-artesanias-muestra-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Detalle de instrumentos musicales tradicionales y artesanías expuestas en feria cultural",
+      "caption": "Detalle de instrumentos musicales tradicionales y artesanías expuestas en feria cultural. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica-familias-actividad-cultural",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Lurín y Pachacamac: cómo delimitar una visita cultural y gastronómica.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of residents and visitors enjoying a weekend community cultural fair in a sunlit public plaza. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-149/images/lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica-familias-actividad-cultural.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-149/images/lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica-familias-actividad-cultural-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-149/images/lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica-familias-actividad-cultural-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Familias participando en actividades culturales al aire libre en parque de Lima",
+      "caption": "Familias participando en actividades culturales al aire libre en parque de Lima. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

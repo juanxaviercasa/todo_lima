@@ -1,0 +1,91 @@
+{
+  "checked_at": "2026-10-10",
+  "scope": "Lectura local autorizada; no modificación ni comprobación funcional pública completa",
+  "projects": [
+    {
+      "name": "Nube para Pymes",
+      "domain": "https://nubeparapymes.online",
+      "local_root": "C:/Users/cabel/Music/nube_para_pymes",
+      "role": "Herramientas y contenidos de gestión/digitalización para pymes",
+      "candidate_pages": [
+        {
+          "url": "https://nubeparapymes.online/generador-cotizaciones.html",
+          "local_file": "generador-cotizaciones.html",
+          "local_presence_confirmed": true,
+          "public_content_verified": false
+        },
+        {
+          "url": "https://nubeparapymes.online/creador-facturas-proforma.html",
+          "local_file": "creador-facturas-proforma.html",
+          "local_presence_confirmed": true,
+          "public_content_verified": false
+        },
+        {
+          "url": "https://nubeparapymes.online/flujo-caja-pymes.html",
+          "local_file": "flujo-caja-pymes.html",
+          "local_presence_confirmed": true,
+          "public_content_verified": false
+        },
+        {
+          "url": "https://nubeparapymes.online/crm-pymes.html",
+          "local_file": "crm-pymes.html",
+          "local_presence_confirmed": true,
+          "public_content_verified": false
+        },
+        {
+          "url": "https://nubeparapymes.online/conversor-optimizador-imagenes.html",
+          "local_file": "conversor-optimizador-imagenes.html",
+          "local_presence_confirmed": true,
+          "public_content_verified": false
+        },
+        {
+          "url": "https://nubeparapymes.online/generador-codigos-qr.html",
+          "local_file": "generador-codigos-qr.html",
+          "local_presence_confirmed": true,
+          "public_content_verified": false
+        }
+      ],
+      "conditions": [
+        "Validar destino y funcionamiento",
+        "No convertir descripciones locales en garantías de validez legal o precisión",
+        "Enlaces contextuales, no obligatorios"
+      ]
+    },
+    {
+      "name": "Mundos Simulados",
+      "domain": "https://mundossimulados.online",
+      "local_root": "C:/Users/cabel/Music/mundos_simulados",
+      "role": "Escenarios hipotéticos de ciencia, tecnología, economía y sociedad",
+      "candidate_pages": [
+        {
+          "candidate_url": "https://mundossimulados.online/gps-caido-caos-logistico/",
+          "local_file": "gps-caido-caos-logistico/index.html",
+          "local_presence_confirmed": true,
+          "public_content_verified": false
+        },
+        {
+          "candidate_url": "https://mundossimulados.online/apagon-global-internet-7-dias/",
+          "local_file": "apagon-global-internet-7-dias/index.html",
+          "local_presence_confirmed": true,
+          "public_content_verified": false
+        },
+        {
+          "candidate_url": "https://mundossimulados.online/ciudades-inteligentes-control/",
+          "local_file": "ciudades-inteligentes-control/index.html",
+          "local_presence_confirmed": true,
+          "public_content_verified": false
+        }
+      ],
+      "local_bridge_script": "inyectar_puentes_todolima.py",
+      "script_executed": false,
+      "conditions": [
+        "No usar hipótesis como hechos o fuente primaria",
+        "No forzar enlaces en historia, gastronomía o turismo",
+        "llms.txt usa dominio de desarrollo; comprobar canonical/destino final público",
+        "No heredar garantías de certificación, verificación ni horario del inyector"
+      ]
+    }
+  ],
+  "external_incoming_status": "Solo propuestas; no crear backlinks ni modificar otros proyectos",
+  "publication_approved": false
+}

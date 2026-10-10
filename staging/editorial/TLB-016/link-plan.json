@@ -1,0 +1,63 @@
+{
+  "article_id": "TLB-016",
+  "internal_outgoing": [
+    {
+      "url": "/blog/que-visitar-centro-historico-lima",
+      "anchor": "guía para visitar el Centro Histórico de Lima",
+      "section_id": "seccion-importancia-monumental",
+      "purpose": "Conectar con el recorrido general de plazas y casonas",
+      "verification_status": "verified"
+    },
+    {
+      "url": "/directorio?distrito=cercado-de-lima",
+      "anchor": "servicios y comercios en Cercado de Lima",
+      "section_id": "seccion-cierre-recorrido",
+      "purpose": "Facilitar referencias comerciales cercanas al monumento",
+      "verification_status": "verified"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://cultura.pe/",
+      "anchor": "portal oficial de Dirección de Sitios Arqueológicos del Ministerio de Cultura",
+      "section_id": "seccion-importancia-monumental",
+      "claim_ids": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/500/",
+      "anchor": "ficha oficial de la UNESCO",
+      "section_id": "seccion-arquitectura-detalles",
+      "claim_ids": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "ecosystem_outgoing": [
+    {
+      "project": "Mundos Simulados",
+      "url": "https://mundossimulados.online/",
+      "anchor": "reflexiones sobre ciudades futuras y digitalización de memoria urbana",
+      "section_id": "seccion-futuro-conservacion",
+      "purpose": "Lectura complementaria sobre preservación digital y escenarios futuros",
+      "relationship_disclosure": "Proyecto aliado de divulgación tecnológica.",
+      "rel_required": null,
+      "verification_status": "verified"
+    }
+  ],
+  "internal_incoming_proposals": [
+    {
+      "source_url": "/blog/que-visitar-centro-historico-lima",
+      "target_url": "/blog/huaca-pucllana-historia-y-preparacion-de-un-recorrido",
+      "anchor": "huaca pucllana: historia y preparación de un recorrido",
+      "suggested_context": "Si deseas profundizar en este monumento en particular, consulta nuestra reseña sobre huaca pucllana: historia y preparación de un recorrido.",
+      "reason": "Enlace interno complementario",
+      "status": "proposed"
+    }
+  ],
+  "external_incoming_opportunities": [],
+  "ecosystem_notes": "Incluye enlace a Mundos Simulados sobre preservación tecnológica y patrimonio futuro."
+}

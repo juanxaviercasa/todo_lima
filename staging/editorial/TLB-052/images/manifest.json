@@ -1,0 +1,130 @@
+{
+  "article_id": "TLB-052",
+  "total_images": 3,
+  "aspect_ratio": "16:9",
+  "manifest": [
+    {
+      "id": "como-organizar-un-paseo-con-adultos-mayores-sin-asumir-accesibilidad-portada-parque-accesible-paseo",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Cómo organizar un paseo con adultos mayores sin asumir accesibilidad.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of accessible, level paved garden promenade in a Lima park with shaded benches and easy wheelchair access ramps. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-052/images/como-organizar-un-paseo-con-adultos-mayores-sin-asumir-accesibilidad-portada-parque-accesible-paseo.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-052/images/como-organizar-un-paseo-con-adultos-mayores-sin-asumir-accesibilidad-portada-parque-accesible-paseo-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-052/images/como-organizar-un-paseo-con-adultos-mayores-sin-asumir-accesibilidad-portada-parque-accesible-paseo-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Paseo accesible en parque de Lima con rampas niveladas, senderos lisos y bancas bajo pérgolas",
+      "caption": "Paseo accesible en parque de Lima con rampas niveladas, senderos lisos y bancas bajo pérgolas. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "como-organizar-un-paseo-con-adultos-mayores-sin-asumir-accesibilidad-rampas-accesibilidad-familia",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Cómo organizar un paseo con adultos mayores sin asumir accesibilidad.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of family helping senior grandparents comfortably navigate a gentle park walkway with clear signage. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-052/images/como-organizar-un-paseo-con-adultos-mayores-sin-asumir-accesibilidad-rampas-accesibilidad-familia.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-052/images/como-organizar-un-paseo-con-adultos-mayores-sin-asumir-accesibilidad-rampas-accesibilidad-familia-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-052/images/como-organizar-un-paseo-con-adultos-mayores-sin-asumir-accesibilidad-rampas-accesibilidad-familia-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Familia acompañando a abuela en parque plano con señalización podotáctil y barandas en Lima",
+      "caption": "Familia acompañando a abuela en parque plano con señalización podotáctil y barandas en Lima. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "como-organizar-un-paseo-con-adultos-mayores-sin-asumir-accesibilidad-adultos-mayores-bancas-jardin",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Cómo organizar un paseo con adultos mayores sin asumir accesibilidad.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of multigenerational family resting together in comfortable shaded chairs enjoying fresh outdoor air. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-052/images/como-organizar-un-paseo-con-adultos-mayores-sin-asumir-accesibilidad-adultos-mayores-bancas-jardin.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-052/images/como-organizar-un-paseo-con-adultos-mayores-sin-asumir-accesibilidad-adultos-mayores-bancas-jardin-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-052/images/como-organizar-un-paseo-con-adultos-mayores-sin-asumir-accesibilidad-adultos-mayores-bancas-jardin-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Adultos mayores conversando plácidamente en bancas cómodas de jardín botánico municipal",
+      "caption": "Adultos mayores conversando plácidamente en bancas cómodas de jardín botánico municipal. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ]
+}

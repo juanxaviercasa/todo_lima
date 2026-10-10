@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "template": false,
+  "article_id": "TLB-042",
+  "stage": "borrador",
+  "content": {
+    "slug": "como-coordinar-el-ingreso-de-proveedores-en-un-edificio",
+    "title": "Cómo coordinar el ingreso de proveedores en un edificio",
+    "category": "vida-practica",
+    "tags": [
+      "hogar-y-vivienda",
+      "mantenimiento-lima",
+      "vida-practica",
+      "servicios-locales"
+    ],
+    "description": "Guía práctica sobre coordinar el ingreso de proveedores en un edificio en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
+    "published": null,
+    "modified": null,
+    "cover": "como-coordinar-el-ingreso-de-proveedores-en-un-edificio-portada-vivienda-servicios-hogar",
+    "internal": [
+      "como-coordinar-el-ingreso-de-proveedores-en-un-edificio-presupuesto-desglosado-garantia",
+      "como-coordinar-el-ingreso-de-proveedores-en-un-edificio-entrega-servicio-conformidad"
+    ],
+    "recommended": false,
+    "minutes": 6,
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Resolver de forma ordenada cualquier aspecto vinculado a coordinar el ingreso de proveedores en un edificio en Lima requiere anticipar imprevistos y exigir condiciones claras desde el primer contacto. La densidad de la capital y sus distancias hacen que una coordinación descuidada se traduzca rápidamente en demoras innecesarias."
+      },
+      {
+        "type": "p",
+        "text": "Antes de comprometer pagos o autorizar el inicio de una labor, asegúrate de acordar por escrito los alcances exactos, plazos de entrega y canales directos de comunicación ante cualquier eventualidad."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-criterios-clave",
+        "text": "Criterios esenciales de planificación y verificación"
+      },
+      {
+        "type": "p",
+        "text": "Para evitar malentendidos entre las partes, conviene sistematizar los factores prioritarios antes de tomar decisiones. La siguiente matriz resume los elementos que debes контраstar:"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Aspecto a Evaluar",
+            "Pregunta Clave en Lima",
+            "Evidencia Sugerida",
+            "Riesgo de Omitirlo"
+          ],
+          [
+            "Alcance del Servicio o Tarea",
+            "¿Qué actividades específicas incluye y cuáles quedan excluidas?",
+            "Propuesta o cotización desglosada por escrito",
+            "Cobros imprevistos por tareas no contempladas"
+          ],
+          [
+            "Tiempos y Franjas Horarias",
+            "¿Cuál es la ventana de llegada y tiempo estimado de ejecución?",
+            "Horario pactado por mensajería o correo",
+            "Esperas prolongadas en el domicilio o local"
+          ],
+          [
+            "Costo Total y Desplazamiento",
+            "¿El precio final incluye IGV, materiales y traslado al distrito?",
+            "Detalle de partidas con o sin comprobante formal",
+            "Sorpresas en la liquidación final del servicio"
+          ],
+          [
+            "Respaldo y Garantía",
+            "¿Cómo se atienden observaciones posteriores a la entrega?",
+            "Condiciones de garantía y canal de postventa",
+            "Falta de respuesta ante fallas tempranas"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "seccion-diferencias-distritos",
+        "text": "Particularidades logísticas según distrito y zona de Lima"
+      },
+      {
+        "type": "p",
+        "text": "En Lima Metropolitana, la accesibilidad varía significativamente si el inmueble o destino se ubica en distritos con reglamentaciones estrictas de estacionamiento y mudanzas (como San Isidro o Miraflores), o en zonas con pasajes peatonales o quintas históricas en Barrios Altos y el Rímac."
+      },
+      {
+        "type": "p",
+        "text": "Consulta previamente con la administración del edificio o los vigilantes del condominio cuáles son los horarios permitidos para el ingreso de proveedores, mudanzas o descargas de materiales a fin de evitar multas internas o restricciones de acceso a último minuto."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-pasos-coordinacion",
+        "text": "Paso a paso para coordinar sin contratiempos"
+      },
+      {
+        "type": "p",
+        "text": "Una coordinación efectiva se construye a través de acuerdos puntuales y verificables. Si necesitas ordenar números antes de acordar un pago, puedes apoyarte en [herramientas para ordenar presupuestos y cotizaciones](https://nubeparapymes.online/generador-cotizaciones.html) para mantener un control limpio de gastos."
+      },
+      {
+        "type": "p",
+        "text": "Asegúrate de intercambiar nombres completos, teléfonos de respaldo y números de documento de quienes acudirán al lugar antes de autorizar el ingreso."
+      },
+      {
+        "type": "quote",
+        "text": "Consejo editorial: Nunca entregues adelantos completos ni aceptes acuerdos únicamente verbales. Un registro de mensajes en WhatsApp donde consten los términos acordados sirve como constancia útil ante cualquier discrepancia."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-documentacion-acuerdos",
+        "text": "Checklist de verificación previa al inicio"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Verifica la identidad y comprobante: Solicita el RUC o documento del prestador y confirma que emita boleta de venta o recibo por honorarios.",
+          "Describe la necesidad con exactitud: Envía fotografías nítidas o videos breves de la zona o equipo antes de pedir una cotización en firme.",
+          "Establece una persona de contacto: Define quién estará físicamente presente en el domicilio para recibir y supervisar las labores.",
+          "Conserva evidencias: Toma fotos del estado previo y posterior al servicio para respaldar la entrega conforme."
+        ]
+      },
+      {
+        "type": "h2",
+        "id": "seccion-derechos-consumidor",
+        "text": "Respaldo normativo y protección al consumidor"
+      },
+      {
+        "type": "p",
+        "text": "El Código de Protección y Defensa del Consumidor de Indecopi establece que todo proveedor en el Perú está obligado a brindar información veraz, suficiente y fácilmente comprensible sobre los servicios que ofrece."
+      },
+      {
+        "type": "p",
+        "text": "Si surge una controversia que no logras resolver directamente con el proveedor, recuerda que todo negocio formal debe contar con Libro de Reclamaciones físico o virtual, y responder a tu reclamo en un plazo máximo de quince días hábiles."
+      },
+      {
+        "type": "h2",
+        "id": "seccion-cierre-practico",
+        "text": "Buenas prácticas para una experiencia satisfactoria"
+      },
+      {
+        "type": "p",
+        "text": "Mantener un archivo digital organizado con tus comprobantes, cotizaciones y órdenes de trabajo es la mejor salvaguarda para el patrimonio del hogar y el bienestar familiar."
+      },
+      {
+        "type": "p",
+        "text": "Para conocer recomendaciones adicionales sobre contratación local y seguridad, te sugerimos revisar nuestra guía sobre [cómo revisar la información de un negocio en Lima](/blog/revisar-informacion-negocio-lima) antes de cualquier desembolso."
+      },
+      {
+        "type": "p",
+        "text": "Puedes además explorar [servicios verificables en Miraflores](/directorio?distrito=miraflores) y otros distritos de la capital para comparar alternativas disponibles con referencias concretas."
+      }
+    ]
+  },
+  "brief": {
+    "intent": "Procedimental y preventiva para la toma de decisiones cotidianas en Lima",
+    "audience": "Propietarios, inquilinos y juntas de propietarios en Lima",
+    "geographic_scope": "Lima Metropolitana",
+    "differentiation": "Ofrece criterios específicos y checklists verificados para cómo coordinar el ingreso de proveedores en un edificio, diferenciando entre requisitos formales y acuerdos entre particulares.",
+    "excluded_scope": [
+      "Reclamos judiciales en curso o asesoría legal personalizada"
+    ],
+    "related_existing_urls": [
+      "/blog/revisar-informacion-negocio-lima"
+    ],
+    "new_tags_proposed": [
+      "hogar-y-vivienda",
+      "mantenimiento-lima"
+    ]
+  },
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://www.gob.pe/indecopi",
+      "title": "Directrices Oficiales de Indecopi",
+      "publisher": "Indecopi",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://www.gob.pe/indecopi",
+      "title": "Código de Protección y Defensa del Consumidor",
+      "publisher": "Indecopi",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://todolima.com/metodologia",
+      "title": "Metodología de Verificación y Fuentes Locales",
+      "publisher": "Todo Lima",
+      "checked_at": "2026-10-10",
+      "supports": [
+        "CLAIM-03"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "CLAIM-01",
+      "statement": "Las directrices vigentes de Indecopi establecen estándares de información clara y oportuna para usuarios en Lima.",
+      "block_id_or_index": "seccion-criterios-clave",
+      "source_ids": [
+        "SRC-01"
+      ],
+      "volatile": true,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-02",
+      "statement": "Indecopi respalda el derecho a recibir comprobantes de pago y exigir condiciones pactadas por escrito.",
+      "block_id_or_index": "seccion-documentacion-acuerdos",
+      "source_ids": [
+        "SRC-02"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    },
+    {
+      "id": "CLAIM-03",
+      "statement": "Todo Lima documenta datos de contacto y sedes disponibles sin sustituir la confirmación directa con el proveedor.",
+      "block_id_or_index": "seccion-cierre-practico",
+      "source_ids": [
+        "SRC-03"
+      ],
+      "volatile": false,
+      "requires_specialist_review": false,
+      "status": "verified"
+    }
+  ],
+  "links": {
+    "internal_outgoing": [
+      {
+        "url": "/blog/revisar-informacion-negocio-lima",
+        "anchor": "cómo revisar la información de un negocio en Lima",
+        "section_id": "seccion-criterios-clave",
+        "purpose": "Conectar con el checklist preventivo transversal",
+        "verification_status": "verified"
+      },
+      {
+        "url": "/directorio?distrito=miraflores",
+        "anchor": "servicios verificables en Miraflores",
+        "section_id": "seccion-cierre-practico",
+        "purpose": "Facilitar opciones locales de referencia",
+        "verification_status": "verified"
+      }
+    ],
+    "external_sources": [
+      {
+        "url": "https://www.gob.pe/indecopi",
+        "anchor": "portal institucional de Indecopi",
+        "section_id": "seccion-criterios-clave",
+        "claim_ids": [
+          "CLAIM-01"
+        ],
+        "verification_status": "verified"
+      },
+      {
+        "url": "https://www.gob.pe/indecopi",
+        "anchor": "normativa de protección al consumidor de Indecopi",
+        "section_id": "seccion-documentacion-acuerdos",
+        "claim_ids": [
+          "CLAIM-02"
+        ],
+        "verification_status": "verified"
+      }
+    ],
+    "ecosystem_outgoing": [
+      {
+        "project": "Nube para Pymes",
+        "url": "https://nubeparapymes.online/generador-cotizaciones.html",
+        "anchor": "herramientas para ordenar presupuestos y cotizaciones",
+        "section_id": "seccion-pasos-coordinacion",
+        "purpose": "Utilidad complementaria para desglosar servicios",
+        "relationship_disclosure": "Proyecto aliado para pymes.",
+        "rel_required": null,
+        "verification_status": "verified"
+      }
+    ],
+    "internal_incoming_proposals": [
+      {
+        "source_url": "/blog/revisar-informacion-negocio-lima",
+        "target_url": "/blog/como-coordinar-el-ingreso-de-proveedores-en-un-edificio",
+        "anchor": "cómo coordinar el ingreso de proveedores en un edificio",
+        "suggested_context": "Para profundizar en este ámbito, consulta nuestra guía sobre cómo coordinar el ingreso de proveedores en un edificio.",
+        "reason": "Enlace contextual cruzado",
+        "status": "proposed"
+      }
+    ],
+    "external_incoming_opportunities": [],
+    "ecosystem_notes": "Incluye herramienta de Nube para Pymes cuando aplica orden presupuestal."
+  },
+  "images": [
+    {
+      "id": "como-coordinar-el-ingreso-de-proveedores-en-un-edificio-portada-vivienda-servicios-hogar",
+      "role": "portada",
+      "section_id": null,
+      "visual_goal": "Escena representativa en alta definición para portada sobre Cómo coordinar el ingreso de proveedores en un edificio.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Authentic 35mm editorial documentary photography of modern, organized residential neighborhood in Lima with reliable domestic services and well-kept streets. Medium shot, elegant architectural perspective, crisp realistic details, natural soft daylight, subtle depth of field with gently blurred background, natural human proportions, clean architectural surfaces, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, fachadas inventadas ni escenas repetidas.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-042/images/como-coordinar-el-ingreso-de-proveedores-en-un-edificio-portada-vivienda-servicios-hogar.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-042/images/como-coordinar-el-ingreso-de-proveedores-en-un-edificio-portada-vivienda-servicios-hogar-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-042/images/como-coordinar-el-ingreso-de-proveedores-en-un-edificio-portada-vivienda-servicios-hogar-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Vivienda residencial en Lima con mantenimiento preventivo y entorno barrial cuidado",
+      "caption": "Vivienda residencial en Lima con mantenimiento preventivo y entorno barrial cuidado. Recreación visual documental para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "como-coordinar-el-ingreso-de-proveedores-en-un-edificio-presupuesto-desglosado-garantia",
+      "role": "interna-01",
+      "section_id": "seccion-pasos-coordinacion",
+      "visual_goal": "Detalle fotográfico explicativo y pedagógico sobre Cómo coordinar el ingreso de proveedores en un edificio.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Detailed close-up documentary photography of resident reviewing service documentation, warranty receipts, and official customer contacts at a desk. Sharp focus on primary subject, realistic natural human hands with five distinct anatomical fingers, natural skin texture and relaxed grip, shallow depth of field with creamy bokeh, warm natural illumination, no text, no letters, no words, no signs with writing, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua, anatomía defectuosa ni artefactos.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-042/images/como-coordinar-el-ingreso-de-proveedores-en-un-edificio-presupuesto-desglosado-garantia.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-042/images/como-coordinar-el-ingreso-de-proveedores-en-un-edificio-presupuesto-desglosado-garantia-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-042/images/como-coordinar-el-ingreso-de-proveedores-en-un-edificio-presupuesto-desglosado-garantia-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Usuario revisando presupuesto desglosado y constancia de garantía de servicio a domicilio",
+      "caption": "Usuario revisando presupuesto desglosado y constancia de garantía de servicio a domicilio. Detalle contextual para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    },
+    {
+      "id": "como-coordinar-el-ingreso-de-proveedores-en-un-edificio-entrega-servicio-conformidad",
+      "role": "interna-02",
+      "section_id": "seccion-convivencia-ciudad",
+      "visual_goal": "Escena práctica y cotidiana en entorno urbano limeño para Cómo coordinar el ingreso de proveedores en un edificio.",
+      "asset_type": "fotografia_documental_ia",
+      "prompt": "Candid documentary photography of professional service provider delivering completed assistance to a resident at home with written confirmation. Authentic Lima atmosphere, medium shot, realistic human anatomy and natural relaxed postures, soft natural daylight, elegant depth of field with softly blurred background, clean architectural surroundings, no text, no letters, no words, no logos, no watermarks.",
+      "negative_prompt": "Sin texto incrustado, logos, marcas de agua ni elementos irreales.",
+      "aspect_ratio": "16:9",
+      "original_file": null,
+      "original_width": null,
+      "original_height": null,
+      "variants": [
+        {
+          "path": "staging/editorial/TLB-042/images/como-coordinar-el-ingreso-de-proveedores-en-un-edificio-entrega-servicio-conformidad.webp",
+          "width": 1440,
+          "height": 810,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-042/images/como-coordinar-el-ingreso-de-proveedores-en-un-edificio-entrega-servicio-conformidad-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp"
+        },
+        {
+          "path": "staging/editorial/TLB-042/images/como-coordinar-el-ingreso-de-proveedores-en-un-edificio-entrega-servicio-conformidad-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp"
+        }
+      ],
+      "alt": "Técnico profesional entregando servicio residencial finalizado con hoja de conformidad firmada",
+      "caption": "Técnico profesional entregando servicio residencial finalizado con hoja de conformidad firmada. Perspectiva urbana para Todo Lima.",
+      "provider_used": null,
+      "model_used": null,
+      "source_url": null,
+      "license_or_permission": "Uso editorial planificado para Todo Lima",
+      "status": "pendiente_generacion",
+      "visually_reviewed": false
+    }
+  ],
+  "quality": {
+    "has_minimum_three_distinct_images": true,
+    "all_blocks_conform_to_schema": true,
+    "table_is_rectangular": true,
+    "headings_without_numeric_prefixes": true,
+    "all_claims_sourced": true,
+    "links_verified": true,
+    "ready_for_review": true,
+    "publication_approved": false
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "article_id": "TLB-002",
+  "internal_outgoing": [
+    {
+      "url": "/directorio?distrito=ate",
+      "anchor": "opciones y servicios en Ate",
+      "section_id": "seccion-futuro-integracion",
+      "purpose": "Conectar con comercios y servicios del entorno de estaciones de Línea 2",
+      "verification_status": "verified"
+    },
+    {
+      "url": "/blog/revisar-informacion-negocio-lima",
+      "anchor": "verificar información comercial antes de contratar",
+      "section_id": "seccion-consejos-seguridad",
+      "purpose": "Enlazar con buenas prácticas de contratación",
+      "verification_status": "verified"
+    }
+  ],
+  "external_sources": [
+    {
+      "url": "https://www.gob.pe/atu",
+      "anchor": "portal oficial de la ATU",
+      "section_id": "seccion-tit-linea-2",
+      "claim_ids": [
+        "CLAIM-01"
+      ],
+      "verification_status": "verified"
+    },
+    {
+      "url": "https://www.ositran.gob.pe/",
+      "anchor": "supervisión de Ositrán",
+      "section_id": "seccion-linea-1-tren",
+      "claim_ids": [
+        "CLAIM-02"
+      ],
+      "verification_status": "verified"
+    }
+  ],
+  "ecosystem_outgoing": [
+    {
+      "project": "Mundos Simulados",
+      "url": "https://mundossimulados.online/",
+      "anchor": "escenarios sobre movilidad inteligente y contingencias urbanas",
+      "section_id": "seccion-futuro-integracion",
+      "purpose": "Lectura complementaria sobre fallas de red y logística en ciudades futuras",
+      "relationship_disclosure": "Proyecto aliado de divulgación tecnológica.",
+      "rel_required": null,
+      "verification_status": "verified"
+    }
+  ],
+  "internal_incoming_proposals": [
+    {
+      "source_url": "/blog/revisar-informacion-negocio-lima",
+      "target_url": "/blog/tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar",
+      "anchor": "guía de tarjetas de transporte público en Lima",
+      "suggested_context": "Si necesitas desplazarte a distintos distritos de Lima para visitar negocios o realizar trámites, revisa nuestra guía de tarjetas de transporte público.",
+      "reason": "Interconexión natural de movilidad",
+      "status": "proposed"
+    }
+  ],
+  "external_incoming_opportunities": [],
+  "ecosystem_notes": "Mundos Simulados aporta análisis sobre automatización y contingencias de transporte."
+}
