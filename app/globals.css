@@ -130,3 +130,14 @@ html.dark ::-webkit-scrollbar-thumb:hover {
 /* Compact indicator; scrolling remains native to the panel. */
 .filter-scroll-area { scrollbar-width: none; }
 .filter-scroll-area::-webkit-scrollbar { display: none; }
+.home-hero { min-height: calc(100svh - 77px); display: grid; align-items: center; }
+.editorial-hero-media { position: relative; aspect-ratio: 19 / 9; width: 100%; background: #020617; }
+.editorial-hero-media .category-hero-shade { display: none; }
+.editorial-hero-copy { padding: 2rem 1.25rem 2.5rem; }
+.blog-article-cover { aspect-ratio: 19 / 9; object-fit: contain; background: #e2e8f0; }
+@media (min-width: 1024px) {
+  .editorial-hero { display: grid; align-items: center; }
+  .editorial-hero-media, .editorial-hero-copy { grid-area: 1 / 1; }
+  .editorial-hero-copy { width: 100%; padding: 3rem 1.25rem; }
+  .editorial-hero-media .category-hero-shade { display: block; }
+}

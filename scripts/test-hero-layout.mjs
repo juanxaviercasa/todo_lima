@@ -1,0 +1,26 @@
+import assert from 'node:assert/strict';
+import {chromium} from 'playwright';
+const origin=process.env.BLOG_TEST_ORIGIN||'http://localhost:3006';
+const browser=await chromium.launch();
+try {
+  for (const width of [320,390,768,1024,1440]) {
+    const page=await browser.newPage({viewport:{width,height:900}});
+    for (const path of ['/','/gasfiteros','/car-wash','/guias','/metodologia','/para-negocios','/blog','/blog/que-visitar-centro-historico-lima','/blog/revisar-informacion-negocio-lima']) {
+      const response=await page.goto(origin+path);assert.equal(response.status(),200,path);
+      assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),path+' overflow '+width);
+      const media=page.locator('.editorial-hero-media');
+      if(await media.count()) {
+        const box=await media.boundingBox();assert(Math.abs(box.width/box.height-19/9)<.02,path+' ratio');
+        const img=media.locator('img');await img.evaluate(i=>i.decode());
+        assert.equal(await img.evaluate(i=>getComputedStyle(i).objectFit),'contain');
+      }
+      const cover=page.locator('.blog-article-cover');
+      if(await cover.count()) {const c=await cover.boundingBox(),h=await page.locator('h1').boundingBox();assert(c.y+c.height<=h.y,path+' cover before title');assert(Math.abs(c.width/c.height-19/9)<.02);}
+      if(path==='/') {const hero=await page.locator('.home-hero').boundingBox();assert(hero.y+hero.height>=899,'Home viewport fill');}
+      if(width===390&&path.endsWith('centro-historico-lima'))await page.screenshot({path:process.env.TEMP+'/todo-lima-article-layout.png',fullPage:false});
+      if(width===1440&&path==='/guias')await page.screenshot({path:process.env.TEMP+'/todo-lima-guides-layout.png',fullPage:false});
+    }
+    await page.close();
+  }
+  console.log('Hero layout verified: 9 routes × 5 viewport widths.');
+} finally {await browser.close();}
