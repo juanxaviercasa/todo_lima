@@ -88,7 +88,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
       <button type="button" aria-expanded={filtersOpen} aria-controls="directory-filter-panel" onClick={() => setFiltersOpen(!filtersOpen)} className="lg:hidden mb-4 flex w-full items-center justify-between rounded-2xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 px-4 py-3 font-semibold"><span className="flex items-center gap-2"><SlidersHorizontal className="h-4 w-4" />{filtersOpen ? 'Ocultar filtros' : 'Mostrar filtros'}{selectedDistrict !== 'all' && ' · 1 activo'}</span><ChevronDown className={`h-4 w-4 transition-transform ${filtersOpen ? 'rotate-180' : ''}`} /></button>
       <div className="grid grid-cols-1 lg:grid-cols-[17rem_minmax(0,1fr)] gap-6 items-start">
       {/* Controles de búsqueda y filtros */}
-      <aside id="directory-filter-panel" aria-label="Filtros del directorio" className={`${filtersOpen ? 'block' : 'hidden'} lg:block lg:sticky lg:top-24 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-5 shadow-xs`}>
+      <aside id="directory-filter-panel" aria-label="Filtros del directorio" tabIndex={0} className={`${filtersOpen ? 'block' : 'hidden'} lg:block lg:sticky lg:top-24 lg:max-h-[calc(100dvh-7rem)] lg:overflow-y-auto lg:overscroll-y-contain bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-5 shadow-xs`}>
         <div className="flex flex-col items-stretch gap-4">
           {/* Título de la sección */}
           <div>
