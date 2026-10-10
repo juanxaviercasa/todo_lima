@@ -8,3 +8,4 @@ Disallow: /sign-up
 Disallow: /api/
 
 Sitemap: https://todolima.com/sitemap.xml
+Sitemap: https://todolima.com/image-sitemap.xml

@@ -1,9 +1,17 @@
 import Link from 'next/link';
 import EditorialShell from '../../components/EditorialShell.js';
+import EditorialImage from '../../components/EditorialImage.js';
+import { EDITORIAL_IMAGES } from '../../lib/editorialImages.js';
 import { pageMetadata } from '../../lib/seo.js';
-export const metadata = pageMetadata('Metodología y fuentes del directorio | Todo Lima', 'Cómo presentamos negocios, datos públicos y valoraciones, y qué significa aparecer en Todo Lima.', '/metodologia');
+export const metadata = pageMetadata('Metodología y fuentes del directorio | Todo Lima', 'Cómo presentamos negocios, datos públicos y valoraciones, y qué significa aparecer en Todo Lima.', '/metodologia', EDITORIAL_IMAGES['como-funciona-lima']);
 export default function Methodology() {
-  return <EditorialShell title="Información clara. Decisiones tuyas." intro="Conoce el alcance de los datos del directorio y el proceso para corregir una ficha.">
+  return <EditorialShell image={EDITORIAL_IMAGES['como-funciona-lima']} title="Información clara. Decisiones tuyas." intro="Conoce el alcance de los datos del directorio y el proceso para corregir una ficha.">
+    <section><h2 className="text-3xl font-bold mb-6">Encuentra tu próxima opción en tres pasos</h2><div className="grid md:grid-cols-3 gap-6">{[
+      ['explorar-servicios', '1. Explora por servicio y distrito', 'Busca la categoría que necesitas y filtra las opciones por ubicación.', '/#directorios', 'Explorar categorías'],
+      ['comparar-opciones', '2. Compara con información', 'Revisa la dirección, los contactos y las fuentes. Nuestras guías te ayudan a preparar preguntas.', '/guias', 'Leer las guías'],
+      ['contactar-proveedor', '3. Consulta directamente', 'Contacta al negocio para confirmar disponibilidad, cobertura y condiciones antes de contratar.', '/correcciones', 'Reportar un dato incorrecto']
+    ].map(([id, title, text, href, label]) => <div key={id} className="editorial-card min-w-0"><EditorialImage id={id} sizes="(min-width: 768px) 400px, 100vw" /><h3 className="text-xl font-bold mt-5 mb-3">{title}</h3><p>{text}</p><Link href={href} className="inline-block mt-4 text-sky-600 underline">{label} →</Link></div>)}</div></section>
+    <EditorialImage id="datos-fuentes" className="max-w-3xl mx-auto" caption="La información de origen es un punto de partida: confirma los detalles actuales con cada negocio. Ilustración editorial generada con IA." />
     <section><h2 className="text-2xl font-bold mb-4">De dónde vienen las fichas</h2><p>El directorio utiliza información recogida de fichas públicas de Google Maps. Cuando está disponible, mostramos el enlace de origen, nombre, dirección, teléfono, sitio web y valoración. La fecha de recogida indica cuándo se obtuvo el conjunto de datos, no cuándo se confirmó cada servicio con el titular.</p></section>
     <section><h2 className="text-2xl font-bold mb-4">Qué significa estar listado</h2><p>La inclusión no certifica identidad, habilitación profesional, seguridad, calidad ni disponibilidad. Los datos pueden cambiar. Confirma directamente la dirección, el horario, el presupuesto y las credenciales relevantes antes de contratar. No atribuimos una verificación individual por el hecho de aparecer en una fuente pública.</p></section>
     <section><h2 className="text-2xl font-bold mb-4">Orden y valoraciones</h2><p>El orden inicial conserva el orden de los registros recogidos; no es un premio ni una clasificación independiente de calidad. Puedes ordenar por valoración, cantidad de reseñas o nombre. Las valoraciones mostradas proceden de Google Maps y no son reseñas propias de Todo Lima. Consulta la fuente para revisar su estado actual.</p></section>

@@ -1,0 +1,196 @@
+{
+  "direction": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. ",
+  "assets": [
+    {
+      "id": "guia-gasfiteros",
+      "scene": "Un gasfitero peruano uniformado explica a una propietaria un presupuesto en una cocina limeña luminosa; herramientas ordenadas, ambos conversan antes de comenzar.",
+      "alt": "Gasfitero y propietaria revisan el alcance de una reparación de cocina.",
+      "section": "guide-cover",
+      "category": "gasfiteros",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Un gasfitero peruano uniformado explica a una propietaria un presupuesto en una cocina limeña luminosa; herramientas ordenadas, ambos conversan antes de comenzar."
+    },
+    {
+      "id": "detalle-gasfiteros",
+      "scene": "Composición cenital de presupuesto sin letras legibles, grifería de repuesto, llave ajustable y teléfono sobre mesa clara; comparación de materiales y trabajo.",
+      "alt": "Herramientas y materiales organizados para comparar un presupuesto de gasfitería.",
+      "section": "guide-detail",
+      "category": "gasfiteros",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Composición cenital de presupuesto sin letras legibles, grifería de repuesto, llave ajustable y teléfono sobre mesa clara; comparación de materiales y trabajo."
+    },
+    {
+      "id": "guia-cerrajeros",
+      "scene": "Cerrajera peruana identificada con credencial sin datos legibles conversa con propietario frente a puerta cerrada de departamento, herramientas guardadas; consulta responsable antes de intervenir.",
+      "alt": "Cerrajera y propietario coordinan el servicio en la entrada de un departamento.",
+      "section": "guide-cover",
+      "category": "cerrajeros",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Cerrajera peruana identificada con credencial sin datos legibles conversa con propietario frente a puerta cerrada de departamento, herramientas guardadas; consulta responsable antes de intervenir."
+    },
+    {
+      "id": "detalle-cerrajeros",
+      "scene": "Sobre mesa de madera: cerradura nueva de demostración, comprobante sin texto legible y herramientas guardadas; ninguna llave con dientes visibles, ningún detalle de acceso sensible.",
+      "alt": "Cerradura de demostración y comprobante para revisar las condiciones del servicio.",
+      "section": "guide-detail",
+      "category": "cerrajeros",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Sobre mesa de madera: cerradura nueva de demostración, comprobante sin texto legible y herramientas guardadas; ninguna llave con dientes visibles, ningún detalle de acceso sensible."
+    },
+    {
+      "id": "guia-mudanzas",
+      "scene": "Familia peruana coordina con dos trabajadores una mudanza junto a cajas y carrito de carga en edificio residencial de Lima; pasillo ancho, posturas naturales, nadie carga demasiado peso.",
+      "alt": "Familia y trabajadores organizan cajas para una mudanza entre distritos.",
+      "section": "guide-cover",
+      "category": "mudanzas",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Familia peruana coordina con dos trabajadores una mudanza junto a cajas y carrito de carga en edificio residencial de Lima; pasillo ancho, posturas naturales, nadie carga demasiado peso."
+    },
+    {
+      "id": "detalle-mudanzas",
+      "scene": "Inventario visual de cajas bien cerradas con etiquetas de colores sin letras, manta protectora, cinta y pequeño mueble embalado junto a entrada de departamento.",
+      "alt": "Cajas y muebles protegidos antes de coordinar el traslado.",
+      "section": "guide-detail",
+      "category": "mudanzas",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Inventario visual de cajas bien cerradas con etiquetas de colores sin letras, manta protectora, cinta y pequeño mueble embalado junto a entrada de departamento."
+    },
+    {
+      "id": "guia-reparacion-lavadoras",
+      "scene": "Técnica peruana y cliente observan lavadora cerrada y desconectada en lavandería limpia de departamento de Lima, consultan tablet sin texto legible; sin paneles abiertos ni reparaciones activas.",
+      "alt": "Técnica y cliente revisan información de una lavadora antes de la evaluación.",
+      "section": "guide-cover",
+      "category": "reparacion-lavadoras",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Técnica peruana y cliente observan lavadora cerrada y desconectada en lavandería limpia de departamento de Lima, consultan tablet sin texto legible; sin paneles abiertos ni reparaciones activas."
+    },
+    {
+      "id": "detalle-reparacion-lavadoras",
+      "scene": "Detalle de lavadora cerrada con manual genérico sin texto legible, teléfono y libreta sobre encimera; nada eléctrico expuesto, enfoque en preparar información de equipo.",
+      "alt": "Lavadora, documentación y libreta para preparar la consulta técnica.",
+      "section": "guide-detail",
+      "category": "reparacion-lavadoras",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Detalle de lavadora cerrada con manual genérico sin texto legible, teléfono y libreta sobre encimera; nada eléctrico expuesto, enfoque en preparar información de equipo."
+    },
+    {
+      "id": "guia-reparacion-refrigeradoras",
+      "scene": "Técnico peruano conversa con una pareja sobre evaluación de refrigeradora cerrada en cocina limeña moderna, libreta con formas de presupuesto sin palabras, escena de consulta.",
+      "alt": "Técnico y clientes conversan sobre la evaluación de una refrigeradora.",
+      "section": "guide-cover",
+      "category": "reparacion-refrigeradoras",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Técnico peruano conversa con una pareja sobre evaluación de refrigeradora cerrada en cocina limeña moderna, libreta con formas de presupuesto sin palabras, escena de consulta."
+    },
+    {
+      "id": "detalle-reparacion-refrigeradoras",
+      "scene": "Detalle editorial de carpeta de presupuesto genérico sin texto legible, calculadora y refrigeradora cerrada al fondo, sin piezas abiertas ni marcas.",
+      "alt": "Carpeta y calculadora para revisar partidas de una cotización.",
+      "section": "guide-detail",
+      "category": "reparacion-refrigeradoras",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Detalle editorial de carpeta de presupuesto genérico sin texto legible, calculadora y refrigeradora cerrada al fondo, sin piezas abiertas ni marcas."
+    },
+    {
+      "id": "guia-reparacion-laptops",
+      "scene": "Clienta peruana entrega una laptop cerrada a una técnica en taller limpio en Lima, revisan exterior y accesorios; no contraseñas ni pantallas con datos privados.",
+      "alt": "Clienta y técnica revisan una laptop y sus accesorios al recibirla.",
+      "section": "guide-cover",
+      "category": "reparacion-laptops",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Clienta peruana entrega una laptop cerrada a una técnica en taller limpio en Lima, revisan exterior y accesorios; no contraseñas ni pantallas con datos privados."
+    },
+    {
+      "id": "detalle-reparacion-laptops",
+      "scene": "Laptop cerrada, cargador y formulario de recepción sin letras sobre mostrador claro; teléfono toma foto del estado del equipo, ninguna información personal visible.",
+      "alt": "Laptop, cargador y registro de recepción para documentar la entrega.",
+      "section": "guide-detail",
+      "category": "reparacion-laptops",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Laptop cerrada, cargador y formulario de recepción sin letras sobre mostrador claro; teléfono toma foto del estado del equipo, ninguna información personal visible."
+    },
+    {
+      "id": "guia-camaras-de-seguridad",
+      "scene": "Dueña peruana de tienda y instaladora conversan sobre cámaras de seguridad genéricas sin marca sobre mesa, tienda limeña luminosa; planificación, no imágenes de vigilancia ni direcciones visibles.",
+      "alt": "Dueña de tienda e instaladora comparan el alcance de una propuesta de cámaras.",
+      "section": "guide-cover",
+      "category": "camaras-de-seguridad",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Dueña peruana de tienda y instaladora conversan sobre cámaras de seguridad genéricas sin marca sobre mesa, tienda limeña luminosa; planificación, no imágenes de vigilancia ni direcciones visibles."
+    },
+    {
+      "id": "detalle-camaras-de-seguridad",
+      "scene": "Composición limpia de cámara genérica de demostración, cable ordenado, tablet con formas abstractas de propuesta y carpeta; sin planos de rutas ni detalles de sistemas activos.",
+      "alt": "Equipos de demostración y documentación para comparar una instalación.",
+      "section": "guide-detail",
+      "category": "camaras-de-seguridad",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Composición limpia de cámara genérica de demostración, cable ordenado, tablet con formas abstractas de propuesta y carpeta; sin planos de rutas ni detalles de sistemas activos."
+    },
+    {
+      "id": "guia-veterinarias",
+      "scene": "Veterinaria peruana conversa tranquilamente con dueña y perro mestizo relajado en consultorio luminoso en Lima, historial en carpeta sin texto; consulta sin procedimientos ni medicamentos.",
+      "alt": "Veterinaria y dueña conversan junto a un perro tranquilo.",
+      "section": "guide-cover",
+      "category": "veterinarias",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Veterinaria peruana conversa tranquilamente con dueña y perro mestizo relajado en consultorio luminoso en Lima, historial en carpeta sin texto; consulta sin procedimientos ni medicamentos."
+    },
+    {
+      "id": "detalle-veterinarias",
+      "scene": "Transportadora abierta, correa, plato de agua y carpeta de historial sin texto legible junto a perro tranquilo; preparación para visita veterinaria, sin medicamentos.",
+      "alt": "Transportadora y documentación preparadas para una consulta veterinaria.",
+      "section": "guide-detail",
+      "category": "veterinarias",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Transportadora abierta, correa, plato de agua y carpeta de historial sin texto legible junto a perro tranquilo; preparación para visita veterinaria, sin medicamentos."
+    },
+    {
+      "id": "guias-lima",
+      "scene": "Pareja peruana compara propuestas de servicios en mesa luminosa con laptop, libreta y ventana a edificios residenciales de Lima; personas hacia el lado derecho y espacio tranquilo al lado izquierdo.",
+      "alt": "Personas revisan opciones y preguntas para contratar servicios en Lima.",
+      "section": "hero-guides",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Pareja peruana compara propuestas de servicios en mesa luminosa con laptop, libreta y ventana a edificios residenciales de Lima; personas hacia el lado derecho y espacio tranquilo al lado izquierdo."
+    },
+    {
+      "id": "como-funciona-lima",
+      "scene": "Una peruana explora servicios locales con teléfono en balcón urbano limeño luminoso, ciudad costera difusa al fondo; sujeto a derecha y espacio a izquierda.",
+      "alt": "Persona consulta servicios locales desde un balcón de Lima.",
+      "section": "hero-methodology",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Una peruana explora servicios locales con teléfono en balcón urbano limeño luminoso, ciudad costera difusa al fondo; sujeto a derecha y espacio a izquierda."
+    },
+    {
+      "id": "para-negocios-lima",
+      "scene": "Dos pequeños empresarios peruanos en tienda de barrio contemporánea de Lima conversan con tablet, estantes ordenados y luz de ventana; sujetos a derecha y espacio izquierda.",
+      "alt": "Titulares de un negocio local revisan su información digital.",
+      "section": "hero-business",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Dos pequeños empresarios peruanos en tienda de barrio contemporánea de Lima conversan con tablet, estantes ordenados y luz de ventana; sujetos a derecha y espacio izquierda."
+    },
+    {
+      "id": "explorar-servicios",
+      "scene": "Cliente peruana explora categorías y ubicaciones en laptop con interfaz abstracta sin palabras en cafetería limeña luminosa.",
+      "alt": "Cliente explora opciones de servicios y ubicaciones.",
+      "section": "method-step",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Cliente peruana explora categorías y ubicaciones en laptop con interfaz abstracta sin palabras en cafetería limeña luminosa."
+    },
+    {
+      "id": "comparar-opciones",
+      "scene": "Dos peruanos comparan carpetas y teléfonos sobre mesa de casa, conversación tranquila, documentos sin textos visibles.",
+      "alt": "Personas comparan información antes de elegir un proveedor.",
+      "section": "method-step",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Dos peruanos comparan carpetas y teléfonos sobre mesa de casa, conversación tranquila, documentos sin textos visibles."
+    },
+    {
+      "id": "contactar-proveedor",
+      "scene": "Propietaria peruana habla por teléfono en casa junto a libreta y ventana de Lima, actitud tranquila de coordinación.",
+      "alt": "Clienta consulta condiciones directamente por teléfono.",
+      "section": "method-step",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Propietaria peruana habla por teléfono en casa junto a libreta y ventana de Lima, actitud tranquila de coordinación."
+    },
+    {
+      "id": "datos-fuentes",
+      "scene": "Editora peruana revisa dirección y canales de contacto en laptop con interfaz abstracta de mapas sin texto, libreta, entorno editorial luminoso.",
+      "alt": "Revisión editorial de ubicaciones y canales de contacto.",
+      "section": "method-editorial",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Editora peruana revisa dirección y canales de contacto en laptop con interfaz abstracta de mapas sin texto, libreta, entorno editorial luminoso."
+    },
+    {
+      "id": "negocio-ficha",
+      "scene": "Dueña peruana de cafetería fotografía con smartphone su mostrador ordenado para presentar su negocio, luz natural.",
+      "alt": "Titular prepara información visual de su cafetería.",
+      "section": "business-step",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Dueña peruana de cafetería fotografía con smartphone su mostrador ordenado para presentar su negocio, luz natural."
+    },
+    {
+      "id": "negocio-digital",
+      "scene": "Barbero peruano y consultora revisan página de servicios abstracta sin texto en tablet en barbería luminosa de Lima.",
+      "alt": "Titular y consultora revisan la presentación digital de un negocio.",
+      "section": "business-editorial",
+      "prompt": "Use case: photorealistic-natural. Asset type: imagen editorial original para Todo Lima, directorio local de Lima, Perú. Fotografía profesional natural, horizontal 3:2, sujetos centrados con margen para recorte 16:9. Personas peruanas diversas con rasgos naturales, proporciones y manos realistas. Luz suave de día, cálidos neutrales, azul cielo y detalles azul marino, texturas auténticas y ambiente limeño contemporáneo cuidado. Sin texto, letras legibles, logotipos, marcas de agua, sellos de certificación ni apariencia de publicidad artificial. Una sola escena, no collage. Ilustración editorial, no foto atribuida a un negocio real. Barbero peruano y consultora revisan página de servicios abstracta sin texto en tablet en barbería luminosa de Lima."
+    }
+  ]
+}
