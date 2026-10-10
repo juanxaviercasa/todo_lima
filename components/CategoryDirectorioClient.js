@@ -123,10 +123,10 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
         </div>
 
         {/* Barra de Filtro de Distritos y Ordenamiento */}
-        <div className="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800/80 flex flex-col gap-3">
-          <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
+        <div className="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800/80 space-y-3">
+          <div className="min-w-0">
             {/* Píldoras de Distritos Frecuentes */}
-            <div className="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-1 scrollbar-none">
+            <div data-testid="district-chips" className="flex min-w-0 w-full items-center gap-2 overflow-x-auto overscroll-x-contain pb-2 scrollbar-none" aria-label="Distritos frecuentes">
               <button
                 onClick={() => setSelectedDistrict('all')}
                 className={`px-3 py-1.5 rounded-xl text-xs font-bold shrink-0 transition-colors ${
@@ -156,16 +156,17 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
                 </button>
               ))}
             </div>
+          </div>
 
-            {/* Selectores desplegables: Distrito Completo y Ordenamiento */}
-            <div className="flex flex-wrap items-center gap-2 min-w-0">
+          {/* Selectores desplegables: Distrito Completo y Ordenamiento */}
+          <div data-testid="directory-selectors" className="grid min-w-0 w-full grid-cols-1 gap-2 sm:grid-cols-2 xl:ml-auto xl:max-w-2xl">
               {/* Dropdown de todos los distritos agrupados por zonas */}
-              <div className="relative">
+              <div className="relative min-w-0">
                 <select
                   aria-label="Filtrar por distrito"
                   value={selectedDistrict}
                   onChange={(e) => setSelectedDistrict(e.target.value)}
-                  className="bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/80 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700/80 text-slate-800 dark:text-slate-100 text-xs font-bold py-1.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
+                  className="block w-full min-w-0 truncate bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/80 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700/80 text-slate-800 dark:text-slate-100 text-xs font-bold py-2.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
                 >
                   <option value="all">📍 Ver todos los distritos ({businesses.length})</option>
                   {Object.values(LIMA_ZONES).map(zone => {
@@ -192,12 +193,12 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
               </div>
 
               {/* Selector de ordenamiento */}
-              <div className="relative">
+              <div className="relative min-w-0">
                 <select
                   aria-label="Ordenar negocios"
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
-                  className="bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/80 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700/80 text-slate-800 dark:text-slate-100 text-xs font-bold py-1.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
+                  className="block w-full min-w-0 truncate bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/80 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700/80 text-slate-800 dark:text-slate-100 text-xs font-bold py-2.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
                 >
                   <option value="ranking" className="dark:bg-slate-900">Orden del directorio</option>
                   <option value="rating" className="dark:bg-slate-900">Mayor Calificación (⭐)</option>
@@ -206,7 +207,6 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
                 </select>
                 <SlidersHorizontal className="w-3.5 h-3.5 text-slate-400 absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />
               </div>
-            </div>
           </div>
         </div>
       </div>
@@ -241,7 +241,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
       )}
 
       {/* Contador y Limpieza de Búsqueda */}
-      <div className="flex items-center justify-between mb-6 px-1">
+      <div className="flex flex-col items-start justify-between gap-2 mb-6 px-1 sm:flex-row sm:items-center">
         <span className="text-xs font-bold text-slate-500 dark:text-slate-400">
           Mostrando <span className="text-slate-900 dark:text-slate-100 font-extrabold">{filteredBusinesses.length}</span> de {businesses.length} especialistas
           {selectedDistrict !== 'all' && ` en ${selectedDistrict}`}

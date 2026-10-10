@@ -71,6 +71,20 @@ try {
   assert(await page.getByRole('heading', { name: 'Decide con más información' }).isVisible());
   await page.goto(`${origin}/gasfiteros`, { waitUntil: 'networkidle' });
   await page.screenshot({ path: '.next/visual-category-header-mobile.png' });
+  for (const width of [320, 375, 390, 768, 820, 1024, 1280, 1440]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto(`${origin}/gasfiteros`, { waitUntil: 'domcontentloaded' });
+    assert(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), `Horizontal overflow at ${width}px`);
+    const selectors = await page.getByTestId('directory-selectors').boundingBox();
+    const chips = await page.getByTestId('district-chips').boundingBox();
+    assert(selectors && chips, `Directory controls visible at ${width}px`);
+    assert(selectors.y >= chips.y + chips.height - 1, `Directory controls overlap at ${width}px`);
+    for (const select of await page.getByTestId('directory-selectors').locator('select').all()) {
+      const box = await select.boundingBox();
+      assert(box && box.x >= 0 && box.x + box.width <= width + 1, `Select outside viewport at ${width}px`);
+    }
+  }
+  await page.setViewportSize({ width: 390, height: 844 });
   await page.getByLabel('Buscar negocios por nombre, distrito o dirección').fill('zzzz-nonexistent');
   assert.equal(await page.locator('article').count(), 0);
   await page.getByRole('button', { name: 'Restablecer todos los filtros' }).click();
