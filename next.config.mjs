@@ -19,6 +19,10 @@ const nextConfig = {
   async headers() {
     return [
       {
+        source: '/:section(admin|sign-in|sign-up|demo)/:path*',
+        headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }],
+      },
+      {
         source: '/(.*)',
         headers: [
           { key: 'X-Frame-Options', value: 'DENY' },

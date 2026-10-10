@@ -26,6 +26,7 @@ export default function CookieBanner() {
   const handleAcceptAll = () => {
     try {
       localStorage.setItem('tl_cookie_consent', 'accepted');
+      window.dispatchEvent(new Event('tl:consent'));
     } catch (e) {}
     setIsVisible(false);
   };
@@ -33,6 +34,7 @@ export default function CookieBanner() {
   const handleAcceptEssential = () => {
     try {
       localStorage.setItem('tl_cookie_consent', 'essential');
+      window.dispatchEvent(new Event('tl:consent'));
     } catch (e) {}
     setIsVisible(false);
   };

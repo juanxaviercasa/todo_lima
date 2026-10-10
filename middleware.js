@@ -1,55 +1,23 @@
 import { NextResponse } from 'next/server';
-
-/**
- * Middleware de enrutamiento y multi-inquilino de Todo Lima:
- * Redirección y reescritura para subdominios comodín (*.todolima.com)
- */
+import { CATEGORIES } from './scraper/config/categories.js';
 export default function middleware(req) {
-  const url = req.nextUrl;
-  const hostname = req.headers.get('host') || '';
-
-  // Excluir archivos estáticos internos de Next.js y APIs
-  if (
-    url.pathname.startsWith('/_next') ||
-    url.pathname.startsWith('/api') ||
-    url.pathname.includes('.')
-  ) {
-    return NextResponse.next();
+  const url = req.nextUrl.clone();
+  const host = (req.headers.get('host') || '').replace(/:\d+$/, '').toLowerCase();
+  const category = CATEGORIES.find(c => host === `${c.slug}.todolima.com`);
+  if (host === 'www.todolima.com' || category) {
+    url.protocol = 'https:'; url.hostname = 'todolima.com'; url.port = '';
+    if (category && url.pathname === '/') url.pathname = `/${category.slug}`;
+    return NextResponse.redirect(url, 308);
   }
-
-  // Detección y enrutamiento de subdominios
-  let currentHost = hostname.replace(/:[0-9]+$/, ''); // remover puerto local si existe
-  const rootDomains = ['todolima.com', 'www.todolima.com', 'localhost', '127.0.0.1'];
-  
-  let subdomain = null;
-  if (!rootDomains.includes(currentHost)) {
-    if (currentHost.endsWith('.todolima.com')) {
-      subdomain = currentHost.replace('.todolima.com', '');
-    } else if (currentHost.endsWith('.localhost')) {
-      subdomain = currentHost.replace('.localhost', '');
-    }
+  const legacy = url.pathname.match(/^\/directorio\/([^/]+)\/?$/);
+  if (legacy && CATEGORIES.some(c => c.slug === legacy[1])) {
+    url.pathname = `/${legacy[1]}`;
+    return NextResponse.redirect(url, 308);
   }
-
-  // Si se detecta subdominio válido (y no es ruta de admin ni login)
-  if (
-    subdomain && 
-    subdomain !== 'www' && 
-    !url.pathname.startsWith('/admin') && 
-    !url.pathname.startsWith('/sign-in') &&
-    !url.pathname.startsWith('/sign-up')
-  ) {
-    const rewritePath = `/${subdomain}${url.pathname === '/' ? '' : url.pathname}`;
-    return NextResponse.rewrite(new URL(rewritePath, req.url));
-  }
-
-  return NextResponse.next();
+  const response = NextResponse.next();
+  if (/^\/(admin|sign-in|sign-up|demo)(\/|$)/.test(url.pathname)) response.headers.set('X-Robots-Tag', 'noindex, nofollow');
+  // Filters remain usable, but are not independent landing pages.
+  if (url.searchParams.has('distrito') || url.searchParams.has('q')) response.headers.set('X-Robots-Tag', 'noindex, follow');
+  return response;
 }
-
-export const config = {
-  matcher: [
-    // Excluir archivos estáticos internos y recursos multimedia
-    '/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',
-    // Rutas de API
-    '/(api|trpc)(.*)',
-  ],
-};
+export const config = { matcher: ['/((?!_next|api|images|.*\\.[^/]+$).*)'] };

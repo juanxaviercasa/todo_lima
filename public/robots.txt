@@ -1,36 +1,10 @@
-# Robots.txt for Todo Lima (https://todolima.com)
-# Configurado para SEO y GEO (Generative Engine Optimization & Answer Engine Optimization)
-
+# Public content is available to search and retrieval crawlers.
+# Authentication, not this file, protects private information.
 User-agent: *
 Allow: /
-Allow: /llms.txt
 Disallow: /admin
 Disallow: /sign-in
 Disallow: /sign-up
 Disallow: /api/
-
-# AI Search & Retrieval Bots (Permitidos para citación en ChatGPT, Perplexity, Claude y Google AI)
-User-agent: GPTBot
-Allow: /
-Disallow: /admin
-Disallow: /sign-in
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Applebot-Extended
-Allow: /
 
 Sitemap: https://todolima.com/sitemap.xml

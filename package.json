@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "verify:seo": "node scripts/verify-seo.mjs",
+    "test:seo": "node scripts/smoke-seo.mjs",
     "start": "next start",
     "scrape": "node scraper/scrape-category.js",
     "runner": "node scraper/runner.js",

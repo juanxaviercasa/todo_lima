@@ -84,7 +84,7 @@ export const CATEGORIES = [
   {
     slug: 'cerrajeros',
     query: 'cerrajeros 24 horas en Lima',
-    title: 'Cerrajeros a Domicilio y Emergencias 24 Horas en Lima',
+    title: 'Cerrajeros y Servicios de Cerrajería en Lima',
     niche: 'hogar',
     heroHook: '¿Te quedaste fuera de casa o tu auto? Cerrajeros de confianza listos para ayudarte en tiempo récord las 24 horas.'
   },
@@ -98,7 +98,7 @@ export const CATEGORIES = [
   {
     slug: 'electricistas',
     query: 'electricistas a domicilio en Lima',
-    title: 'Electricistas Certificados y Emergencias en Lima',
+    title: 'Electricistas e Instalaciones Eléctricas en Lima',
     niche: 'hogar',
     heroHook: 'Soluciona cortocircuitos e instalaciones eléctricas con técnicos matriculados y seguros en Lima.'
   },
@@ -214,7 +214,7 @@ export const CATEGORIES = [
   {
     slug: 'auxilio-mecanico',
     query: 'auxilio mecanico y gruas en Lima',
-    title: 'Grúas y Auxilio Mecánico 24 Horas en Lima',
+    title: 'Grúas y Auxilio Mecánico en Lima',
     niche: 'automotriz',
     heroHook: '¿Te quedaste botado en la pista? Servicio de remolque con grúa y auxilio mecánico rápido en Lima.'
   },

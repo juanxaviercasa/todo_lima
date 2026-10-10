@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useMemo, useEffect } from 'react';
-import { useSearchParams } from 'next/navigation';
 import BusinessCard from './BusinessCard.js';
 import { 
   Search, 
@@ -19,19 +18,17 @@ import {
 import { extractDistrict, LIMA_ZONES, getDistrictZone } from '../lib/districts.js';
 
 export default function CategoryDirectorioClient({ businesses = [], categoryTitle = '' }) {
-  const searchParams = useSearchParams();
-  const urlDistrict = searchParams ? searchParams.get('distrito') : null;
-
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedDistrict, setSelectedDistrict] = useState(urlDistrict || 'all');
+  const [selectedDistrict, setSelectedDistrict] = useState('all');
   const [sortBy, setSortBy] = useState('ranking'); // 'ranking', 'rating', 'reviews', 'name'
 
   // Si cambia el parámetro de URL, actualizar el filtro
   useEffect(() => {
-    if (urlDistrict) {
-      setSelectedDistrict(urlDistrict);
-    }
-  }, [urlDistrict]);
+    const sync = () => setSelectedDistrict(new URLSearchParams(window.location.search).get('distrito') || 'all');
+    sync();
+    window.addEventListener('popstate', sync);
+    return () => window.removeEventListener('popstate', sync);
+  }, []);
 
   // Mapa de conteo por distrito en esta categoría
   const districtMap = useMemo(() => {
@@ -94,18 +91,19 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
             <div className="flex items-center gap-2">
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_8px_rgba(16,185,129,0.6)]" />
               <h2 className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white tracking-tight">
-                Ranking de Fichas Verificadas
+                Opciones para comparar
               </h2>
             </div>
             <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-300 mt-1">
-              Negocios seleccionados por reputación y opiniones reales en Google Maps Lima.
+              Información recogida de fuentes públicas. Confirma condiciones directamente con cada negocio.
             </p>
           </div>
 
           {/* Buscador de negocios en tiempo real */}
-          <div className="relative min-w-[280px] sm:min-w-[340px]">
+          <div className="relative w-full min-w-0 lg:max-w-sm">
             <Search className="w-4 h-4 text-sky-600 dark:text-sky-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" />
             <input
+              aria-label="Buscar negocios por nombre, distrito o dirección"
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -160,10 +158,11 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
             </div>
 
             {/* Selectores desplegables: Distrito Completo y Ordenamiento */}
-            <div className="flex items-center gap-2 shrink-0">
+            <div className="flex flex-wrap items-center gap-2 min-w-0">
               {/* Dropdown de todos los distritos agrupados por zonas */}
               <div className="relative">
                 <select
+                  aria-label="Filtrar por distrito"
                   value={selectedDistrict}
                   onChange={(e) => setSelectedDistrict(e.target.value)}
                   className="bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/80 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700/80 text-slate-800 dark:text-slate-100 text-xs font-bold py-1.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
@@ -195,11 +194,12 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
               {/* Selector de ordenamiento */}
               <div className="relative">
                 <select
+                  aria-label="Ordenar negocios"
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
                   className="bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/80 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700/80 text-slate-800 dark:text-slate-100 text-xs font-bold py-1.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
                 >
-                  <option value="ranking" className="dark:bg-slate-900">Ranking Todo Lima</option>
+                  <option value="ranking" className="dark:bg-slate-900">Orden del directorio</option>
                   <option value="rating" className="dark:bg-slate-900">Mayor Calificación (⭐)</option>
                   <option value="reviews" className="dark:bg-slate-900">Más Reseñas</option>
                   <option value="name" className="dark:bg-slate-900">Alfabético (A-Z)</option>
@@ -226,7 +226,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
                 </span>
               </div>
               <div className="text-[11px] text-slate-500 dark:text-slate-300 mt-0.5">
-                Zona: <strong>{activeZone}</strong> • Calificaciones comprobadas en Google Maps y WhatsApp directo.
+                Zona: <strong>{activeZone}</strong> • Consulta la fuente y los canales disponibles.
               </div>
             </div>
           </div>
@@ -262,7 +262,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {filteredBusinesses.map((business, index) => (
             <BusinessCard
-              key={business.id || index}
+              key={business.entityId || business.url || business.id || index}
               business={business}
               rank={index + 1}
               onSelectDistrict={(dist) => setSelectedDistrict(dist)}
@@ -279,7 +279,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
           </h3>
           <p className="mt-2 text-xs sm:text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
             {selectedDistrict !== 'all'
-              ? `No tenemos fichas registradas para ${categoryTitle} exactamente en ${selectedDistrict}, pero contamos con ${businesses.length} especialistas con servicio en distritos cercanos de Lima.`
+              ? `No hay fichas para ${categoryTitle} con dirección identificada en ${selectedDistrict}. Puedes ampliar la búsqueda y confirmar la cobertura con cada proveedor.`
               : `No encontramos resultados para tu búsqueda "${searchQuery}". Prueba con otro término o limpia los filtros.`}
           </p>
           <div className="mt-5 flex items-center justify-center gap-3">

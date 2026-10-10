@@ -1,11 +1,12 @@
 import ClerkProviderWrapper from '../components/ClerkProviderWrapper.js';
-import TodoLimaAssistant from '../components/TodoLimaAssistant.js';
+import SiteEnhancements from '../components/SiteEnhancements.js';
 import CookieBanner from '../components/CookieBanner.js';
 import './globals.css';
 
 export const metadata = {
-  title: 'Todo Lima | Directorio Oficial de Negocios y Especialistas en Lima',
-  description: 'Red masiva e independiente de directorios locales con los profesionales, técnicos y negocios mejor calificados en Lima Metropolitana.',
+  metadataBase: new URL('https://todolima.com'),
+  title: 'Todo Lima | Directorio de negocios y servicios en Lima',
+  description: 'Explora negocios, compara ubicaciones y consulta directamente a proveedores de servicios en Lima.',
   keywords: 'directorio lima, doctores lima, dentistas lima, gasfiteros lima, abogados lima, servicios tecnicos lima, negocios lima peru',
   authors: [{ name: 'Todo Lima Network' }],
 };
@@ -28,7 +29,7 @@ const globalSchema = {
       'name': 'Todo Lima',
       'url': 'https://todolima.com',
       'logo': 'https://todolima.com/images/logo.jpg',
-      'description': 'Plataforma líder y red independiente de directorios locales, tecnología y auditoría digital para negocios en Lima Metropolitana.',
+      'description': 'Directorio independiente y guías para elegir negocios y servicios en Lima.',
       'address': {
         '@type': 'PostalAddress',
         'addressLocality': 'Lima',
@@ -42,11 +43,6 @@ const globalSchema = {
       'url': 'https://todolima.com',
       'name': 'Todo Lima',
       'publisher': { '@id': 'https://todolima.com/#organization' },
-      'potentialAction': {
-        '@type': 'SearchAction',
-        'target': 'https://todolima.com/?q={search_term_string}',
-        'query-input': 'required name=search_term_string'
-      }
     }
   ]
 };
@@ -56,7 +52,7 @@ export default function RootLayout({ children }) {
 
   return (
     <ClerkProviderWrapper publishableKey={publishableKey}>
-      <html lang="es" className="scroll-smooth">
+      <html lang="es-PE" className="scroll-smooth" suppressHydrationWarning>
         <head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -86,8 +82,9 @@ export default function RootLayout({ children }) {
           />
         </head>
         <body className="min-h-screen flex flex-col antialiased bg-slate-50 text-slate-900 selection:bg-sky-500/20 selection:text-sky-900">
+          <a href="#contenido" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:bg-white focus:p-4 focus:text-slate-900">Saltar al contenido</a>
           {children}
-          <TodoLimaAssistant />
+          <SiteEnhancements />
           <CookieBanner />
         </body>
       </html>

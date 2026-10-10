@@ -70,13 +70,13 @@ export default function Footer() {
                   Todo<span className="text-sky-500">Lima</span>
                 </span>
                 <span className="text-[10px] uppercase tracking-wider font-bold text-slate-500">
-                  Directorio Oficial
+                  Guía local independiente
                 </span>
               </div>
             </Link>
 
             <p className="mt-4 text-xs sm:text-sm text-slate-400 leading-relaxed max-w-sm">
-              La mayor red de directorios locales hiperespecializados para Lima, Perú. Conectamos directamente a familias y empresas con los especialistas y negocios mejor valorados de la ciudad.
+              Explora negocios y servicios de Lima, compara información disponible y consulta directamente con cada proveedor.
             </p>
 
             <div className="mt-6 flex flex-col gap-2.5">
@@ -178,6 +178,12 @@ export default function Footer() {
 
         {/* Barra de cumplimiento normativo y legal 360° */}
         <div className="mt-12 pt-8 border-t border-slate-800/80">
+          <nav aria-label="Guías y transparencia" className="flex flex-wrap justify-center gap-5 mb-8 text-slate-200">
+            <Link href="/guias">Guías para elegir</Link>
+            <Link href="/metodologia">Metodología y fuentes</Link>
+            <Link href="/correcciones">Corregir una ficha</Link>
+            <Link href="/para-negocios">Para negocios</Link>
+          </nav>
           <div className="flex flex-col gap-6">
             <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2.5 text-xs text-slate-400">
               <span className="text-[11px] font-bold uppercase tracking-wider text-slate-300">Marco Legal:</span>

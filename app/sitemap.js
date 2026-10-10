@@ -1,97 +1,16 @@
-import fs from 'fs';
-import path from 'path';
-
+import { getDirectory, getLocalPages, getProfiles } from '../lib/directory.js';
+import { GUIDES } from '../lib/guides.js';
+import { SITE_URL, EDITORIAL_DATE } from '../lib/seo.js';
 export default function sitemap() {
-  const baseUrl = 'https://todolima.com';
-
-  const staticRoutes = [
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: 'daily',
-      priority: 1.0,
-    },
-    {
-      url: `${baseUrl}/privacidad`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/terminos`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/cookies`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/aviso-legal`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/derechos-arco`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/politica-anti-spam`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/descargo-de-responsabilidad`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/reembolsos-y-garantias`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/baja`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/libro-de-reclamaciones`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.4,
-    },
+  const route = (pathname, modified = EDITORIAL_DATE) => ({ url: `${SITE_URL}${pathname}`, lastModified: modified });
+  const pages = ['', '/guias', '/metodologia', '/correcciones', '/para-negocios', '/privacidad', '/terminos', '/cookies', '/aviso-legal', '/derechos-arco', '/politica-anti-spam', '/descargo-de-responsabilidad', '/reembolsos-y-garantias', '/baja', '/libro-de-reclamaciones'];
+  // Legal pages have no invented update date. Editorial dates are maintained
+  // explicitly when the corresponding content changes.
+  return [
+    ...pages.map(p => p === '' || ['/guias', '/metodologia', '/correcciones', '/para-negocios'].includes(p) ? route(p) : { url: `${SITE_URL}${p}` }),
+    ...getDirectory().map(c => route(`/${c.meta.slug}`, new Date(Math.max(Date.parse(c.updatedAt) || 0, Date.parse(c.contentModified))).toISOString())),
+    ...getLocalPages().map(p => route(`/${p.category}/${p.slug}`)),
+    ...getProfiles().map(p => route(`/negocios/${p.slug}`)),
+    ...GUIDES.map(g => route(`/guias/${g.slug}`)),
   ];
-
-  const dataDir = path.join(process.cwd(), 'data');
-  let categoryRoutes = [];
-
-  try {
-    const files = fs.readdirSync(dataDir);
-    categoryRoutes = files
-      .filter((file) => file.endsWith('.json'))
-      .map((file) => {
-        const categoria = file.replace('.json', '');
-        return {
-          url: `${baseUrl}/${categoria}`,
-          lastModified: new Date(),
-          changeFrequency: 'daily',
-          priority: 0.8,
-        };
-      });
-  } catch (error) {
-    console.error('Error generando el sitemap:', error);
-  }
-
-  return [...staticRoutes, ...categoryRoutes];
 }
