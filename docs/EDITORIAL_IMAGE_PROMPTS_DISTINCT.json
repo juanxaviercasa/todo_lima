@@ -1,0 +1,12 @@
+[
+  {
+    "id": "negocio-revision-solicitud",
+    "alt": "Editores revisan la documentación de una solicitud de ficha de negocio.",
+    "prompt": "Use case: photorealistic-natural. Asset type: website section illustration for Todo Lima, 'Revisamos la solicitud'. A Peruvian male editorial coordinator with glasses and a mature female colleague in a modest contemporary Lima office compare a submitted business information folder with a laptop listing and contact documentation. Side view medium-wide 16:9 composition, documentary photography, realistic skin and hands, warm natural window light, navy and soft sky blue accents, pale wood, uncluttered desk. Focus on reviewing a request, not granting certification. No skyline balcony, no lone woman at laptop, no barbershop. No readable text, logos, watermarks, invented verification badges or personal data. Distinct people and environment, tasteful natural professional scene."
+  },
+  {
+    "id": "negocio-completar-datos",
+    "alt": "Titular de una florería prepara horarios, servicios y contactos para completar su ficha.",
+    "prompt": "Use case: photorealistic-natural. Asset type: website card illustration for Todo Lima, 'Completa los datos'. A Peruvian woman who owns a small flower shop sits at its worktable with a laptop, a paper weekly calendar, business contact notebook and flower arrangement; she carefully checks the details to complete her business listing. Medium-wide 16:9 editorial photograph, a real contemporary Lima neighborhood florist interior, gentle daylight, natural skin texture and fabric, understated sky blue clothing and warm wood. Hands naturally using laptop and notebook. Focus on organizing opening hours, services and contact information; laptop screen contains abstract form blocks without readable text. No consultant, no barbershop, no coastal balcony, no certification badges, logos, watermark, legible text or real personal data."
+  }
+]

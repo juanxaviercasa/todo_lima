@@ -5,7 +5,7 @@ import { chromium } from 'playwright';
 import { GUIDES } from '../lib/guides.js';
 import { EDITORIAL_IMAGES } from '../lib/editorialImages.js';
 const origin = process.env.SEO_TEST_ORIGIN || 'http://localhost:3000';
-assert.equal(Object.keys(EDITORIAL_IMAGES).length, 25);
+assert.equal(Object.keys(EDITORIAL_IMAGES).length, 27);
 for (const [id, asset] of Object.entries(EDITORIAL_IMAGES)) {
   assert(asset.alt.length > 20, id);
   for (const width of [1440, 768, 480]) {
@@ -36,12 +36,13 @@ try {
       assert(!state.overflow, 'Horizontal overflow: ' + path + ' at ' + width);
       assert(state.images.length >= 3, path);
       assert(state.images.every(i => i.width > 0 && i.alt), 'Broken or unlabeled image: ' + path);
+      assert.equal(new Set(state.images.map(i => i.src)).size, state.images.length, 'Repeated illustration within page: ' + path);
       assert(state.og.includes('/images/editorial/'), 'Share image: ' + path);
       state.images.forEach(i => seen.add(i.src));
       if (width === 1440 && ['/guias', '/para-negocios'].includes(path)) await page.screenshot({ path: 'C:/Users/cabel/AppData/Local/Temp/todolima-' + path.slice(1) + '.png', fullPage: true });
     }
     await page.close();
   }
-  assert.equal(seen.size, 25, 'All illustrations must be used');
-  console.log('Passed: 75 WebP assets, all 25 scenes used, 11 pages at 3 widths, loaded images, alt text, share previews and no horizontal overflow.');
+  assert.equal(seen.size, 27, 'All illustrations must be used');
+  console.log('Passed: 81 WebP assets, all 27 scenes used, no repeated illustration within a page, 11 pages at 3 widths, loaded images, alt text, share previews and no horizontal overflow.');
 } finally { await browser.close(); }
