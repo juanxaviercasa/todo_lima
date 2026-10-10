@@ -18,6 +18,7 @@ const nextConfig = {
   },
   async headers() {
     return [
+      { source: '/indexnow-key.txt', headers: [{ key: 'X-Robots-Tag', value: 'noindex' }] },
       {
         source: '/:section(admin|sign-in|sign-up|demo)/:path*',
         headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }],

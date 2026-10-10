@@ -8,6 +8,8 @@
 
 /demo/*
   X-Robots-Tag: noindex, nofollow
+/indexnow-key.txt
+  X-Robots-Tag: noindex
 /admin
   X-Robots-Tag: noindex, nofollow
 /admin/*

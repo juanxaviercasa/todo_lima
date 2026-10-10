@@ -17,7 +17,7 @@ Registrar/verificar la propiedad de dominio en Search Console y Bing Webmaster T
 
 ## IndexNow
 
-La utilidad `node scripts/notify-indexnow.mjs /ruta-cambiada` exige `INDEXNOW_KEY` y un archivo público `/CLAVE.txt` cuyo contenido coincida. No se activa sin una clave verificada. Enviar solo altas, modificaciones o bajas reales después de que el despliegue sea accesible. Un 200/202 es recepción, no garantía de indexación. Google no es un motor participante de este flujo.
+La utilidad `node scripts/notify-indexnow.mjs /ruta-cambiada` usa el identificador de verificación publicado en `/indexnow-key.txt`. Es una prueba pública de control del host, no una contraseña de una cuenta. La utilidad comprueba el archivo público antes de notificar. `--all` envía el inventario editorial completo para el lanzamiento inicial; después, enviar solo altas, modificaciones o bajas reales cuando el despliegue sea accesible. Un 200/202 es recepción, no garantía de indexación. Google no es un motor participante de este flujo.
 
 ## Mantenimiento
 
