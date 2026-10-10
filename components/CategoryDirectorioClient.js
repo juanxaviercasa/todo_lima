@@ -21,6 +21,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedDistrict, setSelectedDistrict] = useState('all');
   const [sortBy, setSortBy] = useState('ranking'); // 'ranking', 'rating', 'reviews', 'name'
+  const [filtersOpen, setFiltersOpen] = useState(false);
 
   // Si cambia el parámetro de URL, actualizar el filtro
   useEffect(() => {
@@ -82,20 +83,21 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
   const activeZone = selectedDistrict !== 'all' ? getDistrictZone(selectedDistrict) : null;
 
   return (
-    <section id="directorio" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+    <section id="directorio" className="scroll-mt-24 py-6">
+      <div className="mb-6"><h2 className="text-2xl sm:text-3xl font-black">Opciones para comparar</h2><p className="text-sm text-slate-500 dark:text-slate-300 mt-2">Compara ubicación y contacto. Confirma las condiciones directamente con cada negocio.</p></div>
+      <button type="button" aria-expanded={filtersOpen} aria-controls="directory-filter-panel" onClick={() => setFiltersOpen(!filtersOpen)} className="lg:hidden mb-4 flex w-full items-center justify-between rounded-2xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 px-4 py-3 font-semibold"><span className="flex items-center gap-2"><SlidersHorizontal className="h-4 w-4" />{filtersOpen ? 'Ocultar filtros' : 'Mostrar filtros'}{selectedDistrict !== 'all' && ' · 1 activo'}</span><ChevronDown className={`h-4 w-4 transition-transform ${filtersOpen ? 'rotate-180' : ''}`} /></button>
+      <div className="grid grid-cols-1 lg:grid-cols-[17rem_minmax(0,1fr)] gap-6 items-start">
       {/* Controles de búsqueda y filtros */}
-      <div className="bg-white dark:bg-slate-900 dark:bg-gradient-to-b dark:from-slate-900 dark:to-slate-900/85 rounded-3xl border border-slate-200/90 dark:border-slate-800/90 p-5 sm:p-7 shadow-xs dark:shadow-[0_15px_35px_rgba(0,0,0,0.5)] mb-8 transition-all backdrop-blur-md">
-        <div className="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4">
+      <aside id="directory-filter-panel" aria-label="Filtros del directorio" className={`${filtersOpen ? 'block' : 'hidden'} lg:block lg:sticky lg:top-24 bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-5 shadow-xs`}>
+        <div className="flex flex-col items-stretch gap-4">
           {/* Título de la sección */}
           <div>
             <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_8px_rgba(16,185,129,0.6)]" />
-              <h2 className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white tracking-tight">
-                Opciones para comparar
-              </h2>
+              <SlidersHorizontal className="w-4 h-4 text-sky-600 shrink-0" />
+              <h3 className="text-lg font-bold text-slate-900 dark:text-white">Filtra tu búsqueda</h3>
             </div>
             <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-300 mt-1">
-              Información recogida de fuentes públicas. Confirma condiciones directamente con cada negocio.
+              Encuentra opciones en tu distrito.
             </p>
           </div>
 
@@ -126,7 +128,8 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
         <div className="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800/80 space-y-3">
           <div className="min-w-0">
             {/* Píldoras de Distritos Frecuentes */}
-            <div data-testid="district-chips" className="flex min-w-0 w-full flex-wrap items-center gap-2" aria-label="Distritos frecuentes">
+            <p className="text-xs font-semibold text-slate-500 mb-3">DISTRITOS CON MÁS OPCIONES</p>
+            <div data-testid="district-chips" className="flex min-w-0 w-full flex-col items-stretch gap-1" aria-label="Distritos frecuentes">
               <button
                 onClick={() => setSelectedDistrict('all')}
                 className={`max-w-full min-h-10 px-3 py-2 rounded-xl text-xs font-bold whitespace-normal text-left transition-colors ${
@@ -149,7 +152,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
                   }`}
                 >
                   <MapPin className={`w-3 h-3 shrink-0 ${selectedDistrict.toLowerCase() === dist.toLowerCase() ? 'text-white' : 'text-rose-500 dark:text-rose-400'}`} />
-                  <span className="min-w-0 break-words">{dist}</span>
+                  <span className="min-w-0 flex-1 break-words">{dist}</span>
                   <span className={`shrink-0 text-[10px] ${selectedDistrict.toLowerCase() === dist.toLowerCase() ? 'text-sky-100' : 'text-slate-400 dark:text-slate-400'}`}>
                     ({count})
                   </span>
@@ -159,16 +162,18 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
           </div>
 
           {/* Selectores desplegables: Distrito Completo y Ordenamiento */}
-          <div data-testid="directory-selectors" className="grid min-w-0 w-full grid-cols-1 gap-2 sm:grid-cols-2 xl:ml-auto xl:max-w-2xl">
+          <div data-testid="directory-selectors" className="grid min-w-0 w-full grid-cols-1 gap-4">
               {/* Dropdown de todos los distritos agrupados por zonas */}
               <div className="relative min-w-0">
+                <label htmlFor="directory-district" className="block text-xs font-semibold mb-2">Todos los distritos</label>
                 <select
+                  id="directory-district"
                   aria-label="Filtrar por distrito"
                   value={selectedDistrict}
                   onChange={(e) => setSelectedDistrict(e.target.value)}
                   className="block w-full min-w-0 truncate bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200/80 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700/80 text-slate-800 dark:text-slate-100 text-xs font-bold py-2.5 pl-3 pr-8 rounded-xl focus:outline-none focus:ring-1 focus:ring-sky-500 cursor-pointer transition-colors appearance-none"
                 >
-                  <option value="all">📍 Ver todos los distritos ({businesses.length})</option>
+                  <option value="all">Toda Lima ({businesses.length})</option>
                   {Object.values(LIMA_ZONES).map(zone => {
                     const zoneDistricts = zone.districts
                       .map(d => ({ name: d, count: districtMap[d] || 0 }))
@@ -189,12 +194,14 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
                     );
                   })}
                 </select>
-                <ChevronDown className="w-3.5 h-3.5 text-slate-400 absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />
+                <ChevronDown className="w-3.5 h-3.5 text-slate-400 absolute right-2.5 bottom-3 pointer-events-none" />
               </div>
 
               {/* Selector de ordenamiento */}
               <div className="relative min-w-0">
+                <label htmlFor="directory-sort" className="block text-xs font-semibold mb-2">Ordenar resultados</label>
                 <select
+                  id="directory-sort"
                   aria-label="Ordenar negocios"
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
@@ -205,11 +212,13 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
                   <option value="reviews" className="dark:bg-slate-900">Más Reseñas</option>
                   <option value="name" className="dark:bg-slate-900">Alfabético (A-Z)</option>
                 </select>
-                <SlidersHorizontal className="w-3.5 h-3.5 text-slate-400 absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />
+                <SlidersHorizontal className="w-3.5 h-3.5 text-slate-400 absolute right-2.5 bottom-3 pointer-events-none" />
               </div>
           </div>
         </div>
-      </div>
+      </aside>
+
+      <div data-testid="directory-results" className="min-w-0">
 
       {/* Banner de Distrito Activo */}
       {selectedDistrict !== 'all' && (
@@ -219,7 +228,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
               <MapPin className="w-5 h-5" />
             </div>
             <div>
-              <div className="text-xs sm:text-sm font-black text-slate-900 dark:text-white flex items-center gap-2">
+              <div className="text-xs sm:text-sm font-black text-slate-900 dark:text-white flex flex-wrap items-center gap-2">
                 <span>Especialistas en {selectedDistrict}</span>
                 <span className="text-[11px] font-bold bg-sky-100 dark:bg-sky-900/80 text-sky-800 dark:text-sky-200 px-2 py-0.5 rounded-full border border-sky-200 dark:border-sky-700">
                   {filteredBusinesses.length} {filteredBusinesses.length === 1 ? 'negocio' : 'negocios'}
@@ -292,6 +301,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
           </div>
         </div>
       )}
+      </div></div>
     </section>
   );
 }

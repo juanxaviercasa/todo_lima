@@ -2,6 +2,9 @@
 
 @custom-variant dark (.dark &, &.dark);
 
+.category-hero-shade { background: linear-gradient(90deg, rgba(2,6,23,.93) 0%, rgba(2,6,23,.8) 40%, rgba(2,6,23,.35) 65%, rgba(2,6,23,.1) 100%); }
+@media (max-width: 1023px) { .category-hero-shade { background: linear-gradient(90deg, rgba(2,6,23,.85), rgba(2,6,23,.55)); } }
+
 .editorial-card { display: block; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 1.5rem; background: #fff; }
 .editorial-chip { display: inline-flex; align-items: center; padding: .75rem 1rem; border: 1px solid #cbd5e1; border-radius: .85rem; background: #fff; color: #0369a1; font-weight: 600; }
 html.dark .editorial-card, html.dark .editorial-chip { background: #0f172a; border-color: #334155; }

@@ -75,10 +75,14 @@ try {
     await page.setViewportSize({ width, height: 900 });
     for (const category of getDirectory()) {
     await page.goto(`${origin}/${category.meta.slug}`, { waitUntil: 'domcontentloaded' });
+    if (width < 1024) await page.getByRole('button', { name: /Mostrar filtros/ }).click();
     assert(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), `Horizontal overflow: ${category.meta.slug} at ${width}px`);
     const selectors = await page.getByTestId('directory-selectors').boundingBox();
     const chips = await page.getByTestId('district-chips').boundingBox();
     assert(selectors && chips, `Directory controls visible at ${width}px`);
+    const panel = await page.locator('#directory-filter-panel').boundingBox();
+    const results = await page.getByTestId('directory-results').boundingBox();
+    assert(width < 1024 ? results.y >= panel.y + panel.height - 1 : results.x >= panel.x + panel.width - 1, `Filter panel overlaps results: ${category.meta.slug} at ${width}px`);
     assert(selectors.y >= chips.y + chips.height - 1, `Directory controls overlap at ${width}px`);
     assert(await page.getByTestId('district-chips').evaluate(el => el.scrollWidth <= el.clientWidth + 1), `District chips clipped: ${category.meta.slug} at ${width}px`);
     for (const button of await page.getByTestId('district-chips').locator('button').all()) {
@@ -93,6 +97,13 @@ try {
   }
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto(`${origin}/gasfiteros`, { waitUntil: 'networkidle' });
+  await page.getByRole('button', { name: /Mostrar filtros/ }).click();
+  await page.getByLabel('Filtrar por distrito').selectOption('Los Olivos');
+  assert((await page.locator('article').count()) > 0 && (await page.locator('article').count()) < 81);
+  await page.getByRole('button', { name: /Ocultar filtros/ }).click();
+  assert(!(await page.locator('#directory-filter-panel').isVisible()));
+  await page.getByRole('button', { name: /Mostrar filtros/ }).click();
+  await page.getByLabel('Filtrar por distrito').selectOption('all');
   await page.getByLabel('Buscar negocios por nombre, distrito o dirección').fill('zzzz-nonexistent');
   assert.equal(await page.locator('article').count(), 0);
   await page.getByRole('button', { name: 'Restablecer todos los filtros' }).click();
