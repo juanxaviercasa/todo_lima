@@ -3,7 +3,7 @@ import Navbar from './Navbar.js';
 import Footer from './Footer.js';
 
 export default function EditorialShell({ title, intro, children, trail = [], action, image }) {
-  return <><Navbar /><main id="contenido" className="flex-grow">
+  return <><Navbar /><main id="contenido" className="min-w-0 [overflow-wrap:anywhere] flex-grow">
     <header className="relative overflow-hidden bg-slate-950 text-white px-5 py-14 sm:py-20">
       {image && <><img src={image} alt="" width="1600" height="900" fetchPriority="high" className="absolute inset-0 w-full h-full object-cover opacity-40" /><div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-950/30" /></>}
       <div className="relative max-w-5xl mx-auto">

@@ -6,7 +6,7 @@ import { extractDistrict } from '../lib/districts.js';
 export default function BusinessCard({ business, onSelectDistrict }) {
   const phone = businessPhone(business.phone);
   const district = business.district || extractDistrict(business.address);
-  return <article className="editorial-card flex flex-col justify-between hover:border-sky-400 transition-colors">
+  return <article className="editorial-card min-w-0 [overflow-wrap:anywhere] flex flex-col justify-between hover:border-sky-400 transition-colors">
     <div><p className="text-xs font-semibold text-sky-600 dark:text-sky-300 mb-3">Información de fuente pública</p><h3 className="text-xl font-bold">{business.profileSlug ? <Link href={`/negocios/${business.profileSlug}`}>{business.name}</Link> : business.name}</h3>
       {business.category && <p className="text-sm text-slate-500 mt-2">{business.category}</p>}
       <p className="flex gap-2 mt-4 text-sm"><MapPin className="w-4 h-4 shrink-0 mt-1" /><span>{business.address || 'Dirección no disponible'}</span></p>

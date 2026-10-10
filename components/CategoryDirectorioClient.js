@@ -126,10 +126,10 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
         <div className="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800/80 space-y-3">
           <div className="min-w-0">
             {/* Píldoras de Distritos Frecuentes */}
-            <div data-testid="district-chips" className="flex min-w-0 w-full items-center gap-2 overflow-x-auto overscroll-x-contain pb-2 scrollbar-none" aria-label="Distritos frecuentes">
+            <div data-testid="district-chips" className="flex min-w-0 w-full flex-wrap items-center gap-2" aria-label="Distritos frecuentes">
               <button
                 onClick={() => setSelectedDistrict('all')}
-                className={`px-3 py-1.5 rounded-xl text-xs font-bold shrink-0 transition-colors ${
+                className={`max-w-full min-h-10 px-3 py-2 rounded-xl text-xs font-bold whitespace-normal text-left transition-colors ${
                   selectedDistrict === 'all'
                     ? 'bg-sky-600 dark:bg-gradient-to-r dark:from-sky-500 dark:to-blue-600 text-white shadow-xs dark:shadow-[0_0_15px_rgba(14,165,233,0.35)]'
                     : 'bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200 dark:hover:bg-slate-700 dark:border dark:border-slate-700/60 text-slate-700 dark:text-slate-200'
@@ -142,15 +142,15 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
                 <button
                   key={dist}
                   onClick={() => setSelectedDistrict(dist)}
-                  className={`px-3 py-1.5 rounded-xl text-xs font-bold shrink-0 transition-colors flex items-center gap-1.5 ${
+                  className={`max-w-full min-h-10 px-3 py-2 rounded-xl text-xs font-bold whitespace-normal text-left transition-colors flex items-center gap-1.5 ${
                     selectedDistrict.toLowerCase() === dist.toLowerCase()
                       ? 'bg-sky-600 dark:bg-gradient-to-r dark:from-sky-500 dark:to-blue-600 text-white shadow-xs dark:shadow-[0_0_15px_rgba(14,165,233,0.35)]'
                       : 'bg-slate-100 dark:bg-slate-800/90 hover:bg-slate-200 dark:hover:bg-slate-700 dark:border dark:border-slate-700/60 text-slate-700 dark:text-slate-200'
                   }`}
                 >
-                  <MapPin className={`w-3 h-3 ${selectedDistrict.toLowerCase() === dist.toLowerCase() ? 'text-white' : 'text-rose-500 dark:text-rose-400'}`} />
-                  <span>{dist}</span>
-                  <span className={`text-[10px] ${selectedDistrict.toLowerCase() === dist.toLowerCase() ? 'text-sky-100' : 'text-slate-400 dark:text-slate-400'}`}>
+                  <MapPin className={`w-3 h-3 shrink-0 ${selectedDistrict.toLowerCase() === dist.toLowerCase() ? 'text-white' : 'text-rose-500 dark:text-rose-400'}`} />
+                  <span className="min-w-0 break-words">{dist}</span>
+                  <span className={`shrink-0 text-[10px] ${selectedDistrict.toLowerCase() === dist.toLowerCase() ? 'text-sky-100' : 'text-slate-400 dark:text-slate-400'}`}>
                     ({count})
                   </span>
                 </button>
