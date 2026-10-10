@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import ThemeToggle from './ThemeToggle.js';
-const links = [['Categorías', '/#directorios'], ['Guías', '/guias'], ['Blog', '/blog'], ['Cómo funciona', '/metodologia'], ['Para negocios', '/para-negocios']];
+const links = [['Categorías', '/#directorios'], ['Herramientas', '/herramientas'], ['Guías', '/guias'], ['Blog', '/blog'], ['Para negocios', '/para-negocios']];
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   useEffect(() => {
