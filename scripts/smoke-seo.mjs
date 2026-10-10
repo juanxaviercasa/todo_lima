@@ -58,10 +58,12 @@ try {
   await page.getByLabel('Buscar categoría', { exact: true }).fill('gasfiteros');
   assert.equal(await page.locator('#directorios h3').count(), 1);
   await page.setViewportSize({ width: 390, height: 844 });
+  await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto(origin, { waitUntil: 'networkidle' });
   await page.locator('#directorios a').first().scrollIntoViewIfNeeded();
   assert(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), 'Home mobile overflow');
   await page.waitForFunction(() => [...document.querySelectorAll('#directorios img')].slice(0, 2).every(img => img.complete && img.naturalWidth > 0));
+  await page.locator('#directorios img').first().evaluate(async img => { await img.decode(); await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))); });
   await page.screenshot({ path: '.next/visual-home-mobile.png' });
   await page.getByRole('button', { name: 'Abrir menú' }).click();
   await page.locator('#mobile-menu').getByRole('link', { name: 'Guías', exact: true }).click();
