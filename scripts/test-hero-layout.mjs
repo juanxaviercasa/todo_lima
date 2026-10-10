@@ -14,8 +14,8 @@ try {
         const img=media.locator('img');await img.evaluate(i=>i.decode());
         assert.equal(await img.evaluate(i=>getComputedStyle(i).objectFit),'contain');
       }
-      const cover=page.locator('.blog-article-cover');
-      if(await cover.count()) {const c=await cover.boundingBox(),h=await page.locator('h1').boundingBox();assert(c.y+c.height<=h.y,path+' cover before title');assert(Math.abs(c.width/c.height-19/9)<.02);}
+      const cover=page.locator('.article-title-hero');
+      if(await cover.count()) {const c=await cover.boundingBox(),h=await page.locator('h1').boundingBox();assert(h.y>=c.y&&h.y+h.height<=c.y+c.height,path+' title inside hero');assert(h.y+h.height<600,path+' title visible without scroll');}
       if(path==='/') {const hero=await page.locator('.home-hero').boundingBox();assert(hero.y+hero.height>=899,'Home viewport fill');}
       if(width===390&&path.endsWith('centro-historico-lima'))await page.screenshot({path:process.env.TEMP+'/todo-lima-article-layout.png',fullPage:false});
       if(width===1440&&path==='/guias')await page.screenshot({path:process.env.TEMP+'/todo-lima-guides-layout.png',fullPage:false});

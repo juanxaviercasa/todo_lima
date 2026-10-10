@@ -2,7 +2,6 @@ import Link from 'next/link';
 import {notFound} from 'next/navigation';
 import Navbar from '../../../components/Navbar.js';
 import Footer from '../../../components/Footer.js';
-import BlogImage from '../../../components/BlogImage.js';
 import BlogContent from '../../../components/BlogContent.js';
 import BlogSidebar from '../../../components/BlogSidebar.js';
 import BusinessCard from '../../../components/BusinessCard.js';
@@ -18,9 +17,27 @@ export default function BlogArticle({params}){
   const p=BLOG_POSTS.find(p=>p.slug===params.slug);if(!p)notFound();
   const examples=p.category==='vida-practica'?['gasfiteros','cerrajeros'].map(category=>getProfiles().find(x=>x.category===category)).filter(Boolean):[];
   const sources=[...new Map(p.blocks.flatMap(b=>[b.text||'',...(b.items||[])]).flatMap(t=>[...t.matchAll(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g)]).filter(m=>!m[2].startsWith(SITE_URL)).map(m=>[m[2],m[1]])).entries()];
-  return <><Navbar/><main id="contenido" className="max-w-7xl mx-auto px-5 py-10 min-w-0 [overflow-wrap:anywhere]"><nav aria-label="Ruta de navegación" className="text-sm text-slate-500 mb-7"><Link href="/">Inicio</Link> / <Link href="/blog">Blog</Link> / <Link href={'/blog/categoria/'+p.category}>{categoryName(p.category)}</Link></nav>
+  return <><Navbar/><main id="contenido" className="max-w-7xl mx-auto px-5 py-5 sm:py-6 min-w-0 [overflow-wrap:anywhere]">
+    <div className="grid lg:grid-cols-[minmax(0,1fr)_17rem] gap-8"><article className="min-w-0">
+      <header className="article-opening">
+        <div className="article-title-hero">
+          <img {...BLOG_IMAGES[p.cover]} sizes="(min-width: 1024px) 850px, 100vw" width="1440" height="810" fetchPriority="high" loading="eager" className="article-title-image" />
+          <div className="article-title-shade" aria-hidden="true" />
+          <div className="article-title-copy">
+            <Link href={'/blog/categoria/'+p.category} className="text-sm font-semibold text-sky-200">{categoryName(p.category)}</Link>
+            <h1 className="mt-3 font-black">{p.title}</h1>
+          </div>
+        </div>
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 mt-4 text-xs text-slate-500">
+          <Link href="/blog" className="underline">← Volver al blog</Link>
+          <span>Por <Link href="/metodologia" className="underline">Equipo editorial de Todo Lima</Link></span>
+          <time dateTime={p.published}>{formatBlogDate(p.published)}</time><span>{p.minutes} min de lectura</span>
+        </div>
+        <p className="text-base sm:text-lg text-slate-500 leading-relaxed mt-4">{p.description}</p>
+        <details className="text-xs text-slate-500 mt-3"><summary className="cursor-pointer">Sobre la imagen de portada</summary><p className="mt-2">{BLOG_IMAGES[p.cover].alt} Ilustración editorial generada con IA; no es una fotografía documental ni de un negocio listado.</p></details>
+      </header>
+      <nav aria-label="Contenido del artículo" className="editorial-card my-6"><h2 className="text-xl font-bold mb-4">En este artículo</h2><ol className="grid sm:grid-cols-2 gap-x-6 gap-y-3 text-sm">{p.blocks.filter(b=>b.type==='h2').map((b,i)=><li key={b.id}><a href={'#'+b.id} className="text-sky-700 dark:text-sky-300 underline">{i+1}. {b.text}</a></li>)}</ol></nav><BlogContent post={p}/>
 
-    <div className="grid lg:grid-cols-[minmax(0,1fr)_17rem] gap-10"><article className="min-w-0"><BlogImage id={p.cover} priority cover/>    <header className="max-w-4xl mt-7 mb-8"><p className="text-sm font-semibold text-sky-600 mb-4">{categoryName(p.category)}</p><h1 className="text-3xl sm:text-5xl font-black leading-tight">{p.title}</h1><p className="text-lg text-slate-500 leading-relaxed mt-5">{p.description}</p><p className="text-sm text-slate-500 mt-5">Por <Link href="/metodologia" className="underline">Equipo editorial de Todo Lima</Link> · <time dateTime={p.published}>{formatBlogDate(p.published)}</time> · {p.minutes} min de lectura</p></header><nav aria-label="Contenido del artículo" className="editorial-card my-8"><h2 className="text-xl font-bold mb-4">En este artículo</h2><ol className="grid sm:grid-cols-2 gap-x-6 gap-y-3 text-sm">{p.blocks.filter(b=>b.type==='h2').map((b,i)=><li key={b.id}><a href={'#'+b.id} className="text-sky-700 dark:text-sky-300 underline">{i+1}. {b.text}</a></li>)}</ol></nav><BlogContent post={p}/>
     <section id="fuentes" className="editorial-card mt-10"><h2 className="text-xl font-bold mb-4">Fuentes y referencias</h2><ul className="list-disc pl-5 space-y-3 text-sm">{sources.map(([url,label])=><li key={url}><a href={url} className="text-sky-700 dark:text-sky-300 underline">{label}</a></li>)}</ul><p className="text-xs text-slate-500 mt-5">Consulta editorial: 10 de octubre de 2026. Los enlaces respaldan el contexto; no confirman horarios, precios ni disponibilidad actuales. <Link href="/correcciones" className="underline">Proponer una corrección</Link>.</p></section>
     <div className="flex flex-wrap gap-2 mt-8" aria-label="Etiquetas del artículo">{p.tags.map(t=><Link key={t} className="editorial-chip text-sm" href={'/blog/etiqueta/'+t}>{BLOG_TAGS.find(x=>x.slug===t)?.name}</Link>)}</div>
     {examples.length>0&&<section className="mt-10"><h2 className="text-2xl font-bold mb-3">Pon el checklist en práctica</h2><p className="text-sm text-slate-500 mb-5">Ejemplos de fichas de servicios del directorio, no recomendaciones de calidad ni un ranking. Revisa su fuente y confirma las condiciones directamente.</p><div className="grid sm:grid-cols-2 gap-5">{examples.map(x=><BusinessCard key={x.slug} business={{...x,category:x.categoryTitle,profileSlug:x.slug}}/>)}</div><Link className="editorial-chip mt-5" href="/#directorios">Explorar todas las categorías →</Link></section>}

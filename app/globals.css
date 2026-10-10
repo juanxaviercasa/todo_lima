@@ -135,6 +135,11 @@ html.dark ::-webkit-scrollbar-thumb:hover {
 .editorial-hero-media .category-hero-shade { display: none; }
 .editorial-hero-copy { padding: 2rem 1.25rem 2.5rem; }
 .blog-article-cover { aspect-ratio: 19 / 9; object-fit: contain; background: #e2e8f0; }
+.article-title-hero { position: relative; display: grid; align-items: end; min-height: clamp(280px, 30vw, 390px); overflow: hidden; border-radius: 1.25rem; background: #020617; color: white; }
+.article-title-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
+.article-title-shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(2,6,23,.08) 0%, rgba(2,6,23,.55) 38%, rgba(2,6,23,.94) 100%); }
+.article-title-copy { position: relative; padding: clamp(1.25rem, 3vw, 2.5rem); }
+.article-title-copy h1 { font-size: clamp(1.65rem, 3.1vw, 2.8rem); line-height: 1.14; overflow-wrap: normal; }
 @media (min-width: 1024px) {
   .editorial-hero { display: grid; align-items: center; }
   .editorial-hero-media, .editorial-hero-copy { grid-area: 1 / 1; }

@@ -11,7 +11,7 @@ Create an original premium editorial illustration for TodoLima.com's blog header
 - Cabeceras compartidas: marco 19:9 con object-fit: contain; las imágenes originales 16:9 no se recortan ni estiran.
 - Móvil y tablet: texto separado de la imagen, evitando superposición sobre rostros y escenas.
 - Home: altura mínima del primer viewport descontando la navegación, con crecimiento natural si el contenido requiere más espacio.
-- Artículos: portada antes del título y altura proporcional contenida en móvil.
+- Artículos: título integrado sobre una portada compacta con degradado localizado; altura mínima flexible, sin altura máxima ni truncamiento de texto. Enlace de regreso y metadatos debajo, sin ruta de navegación superior.
 - Barra lateral: últimas entradas sin repetirlas en otro bloque, herramientas locales y transparencia editorial.
 
 Referencias consultadas: https://www.smashingmagazine.com/2022/07/article-section-elements-accessibility/ y https://www.smashingmagazine.com/style-guide/. Los ajustes visuales son decisiones propias adaptadas a Todo Lima, no una reproducción de esas publicaciones.
