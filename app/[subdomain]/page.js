@@ -24,7 +24,7 @@ export default function CategoryPage({ params }) {
   const locals = getLocalPages().filter(p => p.category === meta.slug);
   const guides = GUIDES.filter(g => g.category === meta.slug);
   const related = getDirectory().filter(c => c.meta.niche === meta.niche && c.meta.slug !== meta.slug).slice(0, 6);
-  return <EditorialShell title={meta.title} intro={editorial.description} action={{ href: '#directorio', label: `Ver ${businesses.length} opciones` }}>
+  return <EditorialShell title={meta.title} intro={editorial.description} image={`/images/categories/${meta.slug.replace(/-/g, '_')}.webp`} action={{ href: '#directorio', label: `Ver ${businesses.length} opciones` }}>
     <div className="flex flex-wrap gap-4 text-sm text-slate-600 dark:text-slate-300"><span>{businesses.length} opciones en el directorio</span>{updatedAt && <span>Datos recogidos: {new Date(updatedAt).toLocaleDateString('es-PE', { timeZone: 'America/Lima' })}</span>}<Link href="/metodologia" className="text-sky-600 underline">Cómo usamos las fuentes</Link></div>
     <p className="leading-relaxed">{editorial.introduction}</p>
     {locals.length > 0 && <section><h2 className="text-2xl font-bold mb-4">Explora por distrito</h2><div className="flex flex-wrap gap-3">{locals.map(p => <Link className="editorial-chip" key={p.slug} href={`/${meta.slug}/${p.slug}`}>{p.district} · {p.businesses.length}</Link>)}</div></section>}
