@@ -127,13 +127,6 @@ html.dark ::-webkit-scrollbar-thumb:hover {
   background: #475569;
 }
 
-/* Keep the filter panel's scroll affordance quiet and local. */
-#directory-filter-panel { scrollbar-width: thin; scrollbar-color: #cbd5e1 transparent; }
-#directory-filter-panel::-webkit-scrollbar { width: 4px; height: 4px; }
-#directory-filter-panel::-webkit-scrollbar-track { background: transparent; margin-block: 16px; }
-#directory-filter-panel::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 999px; }
-#directory-filter-panel::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
-html.dark #directory-filter-panel { scrollbar-color: #475569 transparent; }
-html.dark #directory-filter-panel::-webkit-scrollbar-track { background: transparent; }
-html.dark #directory-filter-panel::-webkit-scrollbar-thumb { background: #475569; }
-html.dark #directory-filter-panel::-webkit-scrollbar-thumb:hover { background: #64748b; }
+/* Compact indicator; scrolling remains native to the panel. */
+.filter-scroll-area { scrollbar-width: none; }
+.filter-scroll-area::-webkit-scrollbar { display: none; }
