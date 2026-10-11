@@ -86,12 +86,13 @@ for b_idx in range(1, 24):
         target_seo_name = block_mapeo[p_idx]["seo_filename"]
         out_webp_path = os.path.join(IMG_DIR, target_seo_name)
         
-        # Abrir y convertir a WebP
-        with Image.open(src_path) as img:
-            # Asegurar modo RGB para WebP
-            if img.mode != "RGB":
-                img = img.convert("RGB")
-            img.save(out_webp_path, format="WEBP", quality=85, method=6)
+        # Convertir a WebP si no existe
+        if not os.path.exists(out_webp_path) or os.path.getsize(out_webp_path) == 0:
+            with Image.open(src_path) as img:
+                if img.mode != "RGB":
+                    img = img.convert("RGB")
+                img.save(out_webp_path, format="WEBP", quality=85, method=6)
+            total_converted_session += 1
             
         src_size = os.path.getsize(src_path)
         out_size = os.path.getsize(out_webp_path)
@@ -105,7 +106,6 @@ for b_idx in range(1, 24):
             "original_kb": round(src_size / 1024, 1),
             "webp_kb": round(out_size / 1024, 1)
         }
-        total_converted_session += 1
 
 # Guardar auditoria JSON consolidada ordenada por bloque
 all_records = sorted(record_dict.values(), key=lambda r: (r.get("bloque", 0), r.get("article_id", "")))
