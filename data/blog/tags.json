@@ -1,0 +1,454 @@
+[
+  {
+    "slug": "accesibilidad-lima",
+    "name": "Accesibilidad Lima"
+  },
+  {
+    "slug": "actividades-lima",
+    "name": "Actividades Lima"
+  },
+  {
+    "slug": "arqueologia-lima",
+    "name": "Arqueologia Lima"
+  },
+  {
+    "slug": "arqueologia-peruana",
+    "name": "Arqueologia Peruana"
+  },
+  {
+    "slug": "arquitectura-colonial",
+    "name": "Arquitectura Colonial"
+  },
+  {
+    "slug": "arquitectura-virreinal",
+    "name": "Arquitectura Virreinal"
+  },
+  {
+    "slug": "arte-y-cultura",
+    "name": "Arte y Cultura"
+  },
+  {
+    "slug": "ate",
+    "name": "Ate"
+  },
+  {
+    "slug": "atencion-al-cliente",
+    "name": "Atencion al Cliente"
+  },
+  {
+    "slug": "atu",
+    "name": "ATU"
+  },
+  {
+    "slug": "barranco",
+    "name": "Barranco"
+  },
+  {
+    "slug": "barrios-altos",
+    "name": "Barrios Altos"
+  },
+  {
+    "slug": "barrios-y-distritos",
+    "name": "Barrios y Distritos"
+  },
+  {
+    "slug": "bienestar-animal",
+    "name": "Bienestar Animal"
+  },
+  {
+    "slug": "bienestar-familiar",
+    "name": "Bienestar Familiar"
+  },
+  {
+    "slug": "buenas-practicas",
+    "name": "Buenas Practicas"
+  },
+  {
+    "slug": "cafe-de-especialidad",
+    "name": "Cafe de Especialidad"
+  },
+  {
+    "slug": "canchas-lima",
+    "name": "Canchas Lima"
+  },
+  {
+    "slug": "centro-historico",
+    "name": "Centro Historico"
+  },
+  {
+    "slug": "chorrillos",
+    "name": "Chorrillos"
+  },
+  {
+    "slug": "cocina-chifa-nikkei",
+    "name": "Cocina Chifa Nikkei"
+  },
+  {
+    "slug": "cocina-criolla",
+    "name": "Cocina Criolla"
+  },
+  {
+    "slug": "cocina-peruana",
+    "name": "Cocina Peruana"
+  },
+  {
+    "slug": "cocteleria-limena",
+    "name": "Cocteleria Limena"
+  },
+  {
+    "slug": "consumidor-responsable",
+    "name": "Consumidor Responsable"
+  },
+  {
+    "slug": "contratacion-servicios",
+    "name": "Contratacion Servicios"
+  },
+  {
+    "slug": "costumbres-populares",
+    "name": "Costumbres Populares"
+  },
+  {
+    "slug": "cronica-urbana",
+    "name": "Cronica Urbana"
+  },
+  {
+    "slug": "cuidado-de-mascotas",
+    "name": "Cuidado de Mascotas"
+  },
+  {
+    "slug": "cultura-afroperuana",
+    "name": "Cultura Afroperuana"
+  },
+  {
+    "slug": "cultura-culinaria",
+    "name": "Cultura Culinaria"
+  },
+  {
+    "slug": "cultura-prehispanica",
+    "name": "Cultura Prehispanica"
+  },
+  {
+    "slug": "cultura-viva",
+    "name": "Cultura Viva"
+  },
+  {
+    "slug": "cultura-y-tradiciones",
+    "name": "Cultura y Tradiciones"
+  },
+  {
+    "slug": "culturas-prehispanicas",
+    "name": "Culturas Prehispanicas"
+  },
+  {
+    "slug": "damero-de-pizarro",
+    "name": "Damero de Pizarro"
+  },
+  {
+    "slug": "deporte-y-salud",
+    "name": "Deporte y Salud"
+  },
+  {
+    "slug": "desarrollo-personal",
+    "name": "Desarrollo Personal"
+  },
+  {
+    "slug": "digitalizacion-pymes",
+    "name": "Digitalizacion Pymes"
+  },
+  {
+    "slug": "dulceria-tradicional",
+    "name": "Dulceria Tradicional"
+  },
+  {
+    "slug": "emprendimiento-lima",
+    "name": "Emprendimiento Lima"
+  },
+  {
+    "slug": "espacios-publicos",
+    "name": "Espacios Publicos"
+  },
+  {
+    "slug": "folclore-peruano",
+    "name": "Folclore Peruano"
+  },
+  {
+    "slug": "formalizacion-empresarial",
+    "name": "Formalizacion Empresarial"
+  },
+  {
+    "slug": "fusion-culinaria",
+    "name": "Fusion Culinaria"
+  },
+  {
+    "slug": "gastronomia-limena",
+    "name": "Gastronomia Limena"
+  },
+  {
+    "slug": "gestion-comercial",
+    "name": "Gestion Comercial"
+  },
+  {
+    "slug": "historia-de-lima",
+    "name": "Historia de Lima"
+  },
+  {
+    "slug": "hogar-y-vivienda",
+    "name": "Hogar y Vivienda"
+  },
+  {
+    "slug": "huacas-de-lima",
+    "name": "Huacas de Lima"
+  },
+  {
+    "slug": "identidad-limena",
+    "name": "Identidad Limena"
+  },
+  {
+    "slug": "indecopi",
+    "name": "Indecopi"
+  },
+  {
+    "slug": "inmigracion-lima",
+    "name": "Inmigracion Lima"
+  },
+  {
+    "slug": "jesús-maría",
+    "name": "Jesús María"
+  },
+  {
+    "slug": "letras-y-artes",
+    "name": "Letras y Artes"
+  },
+  {
+    "slug": "librerias-lima",
+    "name": "Librerias Lima"
+  },
+  {
+    "slug": "lima-cultural",
+    "name": "Lima Cultural"
+  },
+  {
+    "slug": "lima-metropolitana",
+    "name": "Lima Metropolitana"
+  },
+  {
+    "slug": "lima-republicana",
+    "name": "Lima Republicana"
+  },
+  {
+    "slug": "lima-virreinal",
+    "name": "Lima Virreinal"
+  },
+  {
+    "slug": "los-olivos",
+    "name": "Los Olivos"
+  },
+  {
+    "slug": "lugares-y-patrimonio",
+    "name": "Lugares y Patrimonio"
+  },
+  {
+    "slug": "lurín",
+    "name": "Lurín"
+  },
+  {
+    "slug": "magdalena-del-mar",
+    "name": "Magdalena Del Mar"
+  },
+  {
+    "slug": "mantenimiento-lima",
+    "name": "Mantenimiento Lima"
+  },
+  {
+    "slug": "marketing-local",
+    "name": "Marketing Local"
+  },
+  {
+    "slug": "memoria-historica",
+    "name": "Memoria Historica"
+  },
+  {
+    "slug": "metro-de-lima",
+    "name": "Metro de Lima"
+  },
+  {
+    "slug": "metropolitano",
+    "name": "Metropolitano"
+  },
+  {
+    "slug": "miraflores",
+    "name": "Miraflores"
+  },
+  {
+    "slug": "movilidad-lima",
+    "name": "Movilidad Lima"
+  },
+  {
+    "slug": "museos-de-lima",
+    "name": "Museos de Lima"
+  },
+  {
+    "slug": "musica-criolla",
+    "name": "Musica Criolla"
+  },
+  {
+    "slug": "naturaleza-costera",
+    "name": "Naturaleza Costera"
+  },
+  {
+    "slug": "negocios-locales",
+    "name": "Negocios Locales"
+  },
+  {
+    "slug": "normativa-comercial",
+    "name": "Normativa Comercial"
+  },
+  {
+    "slug": "ocio-saludable",
+    "name": "Ocio Saludable"
+  },
+  {
+    "slug": "ocio-urbano",
+    "name": "Ocio Urbano"
+  },
+  {
+    "slug": "parques-de-lima",
+    "name": "Parques de Lima"
+  },
+  {
+    "slug": "patrimonio",
+    "name": "Patrimonio"
+  },
+  {
+    "slug": "patrimonio-culinario",
+    "name": "Patrimonio Culinario"
+  },
+  {
+    "slug": "patrimonio-historico",
+    "name": "Patrimonio Historico"
+  },
+  {
+    "slug": "patrimonio-inmaterial",
+    "name": "Patrimonio Inmaterial"
+  },
+  {
+    "slug": "planes-familiares",
+    "name": "Planes Familiares"
+  },
+  {
+    "slug": "planes-y-bienestar",
+    "name": "Planes y Bienestar"
+  },
+  {
+    "slug": "planificacion-gastronomica",
+    "name": "Planificacion Gastronomica"
+  },
+  {
+    "slug": "postres-limenos",
+    "name": "Postres Limenos"
+  },
+  {
+    "slug": "prolima",
+    "name": "Prolima"
+  },
+  {
+    "slug": "pueblo-libre",
+    "name": "Pueblo Libre"
+  },
+  {
+    "slug": "recorridos-culturales",
+    "name": "Recorridos Culturales"
+  },
+  {
+    "slug": "recreacion-activa",
+    "name": "Recreacion Activa"
+  },
+  {
+    "slug": "restaurantes-lima",
+    "name": "Restaurantes Lima"
+  },
+  {
+    "slug": "rutas-urbanas",
+    "name": "Rutas Urbanas"
+  },
+  {
+    "slug": "rímac",
+    "name": "Rímac"
+  },
+  {
+    "slug": "san-borja",
+    "name": "San Borja"
+  },
+  {
+    "slug": "san-isidro",
+    "name": "San Isidro"
+  },
+  {
+    "slug": "san-miguel",
+    "name": "San Miguel"
+  },
+  {
+    "slug": "santiago-de-surco",
+    "name": "Santiago de Surco"
+  },
+  {
+    "slug": "senor-de-los-milagros",
+    "name": "Senor de Los Milagros"
+  },
+  {
+    "slug": "servicios-locales",
+    "name": "Servicios Locales"
+  },
+  {
+    "slug": "talleres-creativos",
+    "name": "Talleres Creativos"
+  },
+  {
+    "slug": "teatro-limeno",
+    "name": "Teatro Limeno"
+  },
+  {
+    "slug": "tradiciones-limenas",
+    "name": "Tradiciones Limenas"
+  },
+  {
+    "slug": "tramites-lima",
+    "name": "Tramites Lima"
+  },
+  {
+    "slug": "transformacion-urbana",
+    "name": "Transformacion Urbana"
+  },
+  {
+    "slug": "transporte-publico",
+    "name": "Transporte Publico"
+  },
+  {
+    "slug": "turismo-responsable",
+    "name": "Turismo Responsable"
+  },
+  {
+    "slug": "valles-de-lima",
+    "name": "Valles de Lima"
+  },
+  {
+    "slug": "veterinarias-lima",
+    "name": "Veterinarias Lima"
+  },
+  {
+    "slug": "vida-cultural",
+    "name": "Vida Cultural"
+  },
+  {
+    "slug": "vida-local",
+    "name": "Vida Local"
+  },
+  {
+    "slug": "vida-practica",
+    "name": "Vida Practica"
+  },
+  {
+    "slug": "vida-urbana",
+    "name": "Vida Urbana"
+  }
+]

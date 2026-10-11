@@ -8,8 +8,8 @@
       "centro-historico"
     ],
     "description": "Criterios para elegir entre museos de arqueología prehispánica, arte virreinal y memoria en Lima según tu tiempo y preferencias de recorrido.",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-14",
+    "modified": "2026-10-10",
     "cover": "museos-lima-portada",
     "internal": [
       "museos-lima-curaduria",
@@ -172,8 +172,8 @@
       "metropolitano"
     ],
     "description": "Conoce dónde funcionan la tarjeta TIT, Lima Pass y Metro de Lima, sus tarifas de recarga y los puntos oficiales de transbordo en la capital.",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-15",
+    "modified": "2026-10-10",
     "cover": "tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-portada-estacion",
     "internal": [
       "tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-validador-tarjetas",
@@ -321,8 +321,8 @@
       "historia-de-lima"
     ],
     "description": "Recorrido por la cocina limeña: raíces andinas, herencia española, influencias africana, china e italiana, y platos representativos de la capital.",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-16",
+    "modified": "2026-10-10",
     "cover": "gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-portada-restaurante-limeno",
     "internal": [
       "gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-emplatado-gastronomico",
@@ -472,8 +472,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre huacas de lima: cómo reconocer su diversidad histórica: historia, arquitectura, horarios de visita y recomendaciones oficiales en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-17",
+    "modified": "2026-10-10",
     "cover": "huacas-de-lima-como-reconocer-su-diversidad-historica-portada-huaca-prehispanica",
     "internal": [
       "huacas-de-lima-como-reconocer-su-diversidad-historica-detalle-adobitos-muro",
@@ -617,8 +617,8 @@
       "atu"
     ],
     "description": "Guía práctica sobre consultar rutas y alertas oficiales antes de viajar por lima en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-18",
+    "modified": "2026-10-10",
     "cover": "como-consultar-rutas-y-alertas-oficiales-antes-de-viajar-por-lima-portada-transporte",
     "internal": [
       "como-consultar-rutas-y-alertas-oficiales-antes-de-viajar-por-lima-consulta-rutas-movil",
@@ -766,8 +766,8 @@
       "vida-urbana"
     ],
     "description": "Guía sobre qué hacer en lima: planes según interés, tiempo y ubicación en Lima: planificación, requisitos oficiales, accesibilidad y consejos para disfr...",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-19",
+    "modified": "2026-10-10",
     "cover": "que-hacer-en-lima-planes-segun-interes-tiempo-y-ubicacion-portada-fin-semana-parque",
     "internal": [
       "que-hacer-en-lima-planes-segun-interes-tiempo-y-ubicacion-agenda-cultural-parque",
@@ -911,8 +911,8 @@
       "recorridos-culturales"
     ],
     "description": "Guía completa sobre mucen en lima: colecciones y preparación de la visita: historia, arquitectura, horarios de visita y recomendaciones oficiales en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-20",
+    "modified": "2026-10-10",
     "cover": "mucen-en-lima-colecciones-y-preparacion-de-la-visita-portada-vivienda-servicios-hogar",
     "internal": [
       "mucen-en-lima-colecciones-y-preparacion-de-la-visita-presupuesto-desglosado-garantia",
@@ -1056,8 +1056,8 @@
       "atu"
     ],
     "description": "Guía práctica sobre integración tarifaria en lima: cómo verificar transbordos y condiciones vigentes en Lima: recomendaciones, pasos preventivos y fuent...",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-21",
+    "modified": "2026-10-10",
     "cover": "integracion-tarifaria-en-lima-como-verificar-transbordos-y-condiciones-vigentes-portada-estacion",
     "internal": [
       "integracion-tarifaria-en-lima-como-verificar-transbordos-y-condiciones-vigentes-validador-tarjetas",
@@ -1205,8 +1205,8 @@
       "inmigracion-lima"
     ],
     "description": "Guía sobre chifa en lima: historia de una tradición peruano-china en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el comensal.",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-22",
+    "modified": "2026-10-10",
     "cover": "chifa-en-lima-historia-de-una-tradicion-peruano-china-portada-salon-chifa",
     "internal": [
       "chifa-en-lima-historia-de-una-tradicion-peruano-china-cocina-wok-chaufa",
@@ -1350,8 +1350,8 @@
       "recorridos-culturales"
     ],
     "description": "Guía completa sobre museo nacional de arqueología, antropología e historia: qué consultar antes de ir: historia, arquitectura, horarios de visita y reco...",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-23",
+    "modified": "2026-10-10",
     "cover": "museo-nacional-de-arqueologia-antropologia-e-historia-que-consultar-antes-de-ir-portada-galeria-museo",
     "internal": [
       "museo-nacional-de-arqueologia-antropologia-e-historia-que-consultar-antes-de-ir-vitrina-orfebreria-arte",
@@ -1495,8 +1495,8 @@
       "atu"
     ],
     "description": "Guía práctica sobre comprobar información de terminales y empresas de buses interprovinciales en Lima: recomendaciones, pasos preventivos y fuentes ofic...",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-24",
+    "modified": "2026-10-10",
     "cover": "como-comprobar-informacion-de-terminales-y-empresas-de-buses-interprovinciales-portada-terminal",
     "internal": [
       "como-comprobar-informacion-de-terminales-y-empresas-de-buses-interprovinciales-boleteria-pasajes",
@@ -1644,8 +1644,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre clubes metropolitanos de serpar: cómo comparar espacios y requisitos en Lima: planificación, requisitos oficiales, accesibilidad y consejos p...",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-25",
+    "modified": "2026-10-10",
     "cover": "clubes-metropolitanos-de-serpar-como-comparar-espacios-y-requisitos-portada-transporte",
     "internal": [
       "clubes-metropolitanos-de-serpar-como-comparar-espacios-y-requisitos-consulta-rutas-movil",
@@ -1789,8 +1789,8 @@
       "recorridos-culturales"
     ],
     "description": "Guía completa sobre museo de sitio pachacamac: cómo combinar museo y santuario: historia, arquitectura, horarios de visita y recomendaciones oficiales e...",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-26",
+    "modified": "2026-10-10",
     "cover": "museo-de-sitio-pachacamac-como-combinar-museo-y-santuario-portada-santuario-pachacamac",
     "internal": [
       "museo-de-sitio-pachacamac-como-combinar-museo-y-santuario-museo-sitio-idolo-textiles",
@@ -1932,8 +1932,8 @@
       "lima-metropolitana"
     ],
     "description": "Guía práctica sobre consultar el directorio oficial de prestadores turísticos antes de reservar en Lima: recomendaciones, pasos preventivos y fuentes of...",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-27",
+    "modified": "2026-10-10",
     "cover": "como-consultar-el-directorio-oficial-de-prestadores-turisticos-antes-de-reservar-portada-vivienda-servicios-hogar",
     "internal": [
       "como-consultar-el-directorio-oficial-de-prestadores-turisticos-antes-de-reservar-presupuesto-desglosado-garantia",
@@ -2081,8 +2081,8 @@
       "inmigracion-lima"
     ],
     "description": "Guía sobre cocina nikkei en lima: origen y diferencias con otras propuestas en Lima: historia, ingredientes, recomendaciones y consejos prácticos para e...",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-28",
+    "modified": "2026-10-10",
     "cover": "cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas-portada-restaurante-nikkei",
     "internal": [
       "cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas-tiradito-nikkei-preparacion",
@@ -2226,8 +2226,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre huaca pucllana: historia y preparación de un recorrido: historia, arquitectura, horarios de visita y recomendaciones oficiales en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-29",
+    "modified": "2026-10-10",
     "cover": "huaca-pucllana-historia-y-preparacion-de-un-recorrido-portada-huaca-prehispanica",
     "internal": [
       "huaca-pucllana-historia-y-preparacion-de-un-recorrido-detalle-adobitos-muro",
@@ -2371,8 +2371,8 @@
       "atu"
     ],
     "description": "Guía práctica sobre organizar un traslado al aeropuerto y confirmar el punto de encuentro en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-04-30",
+    "modified": "2026-10-10",
     "cover": "como-organizar-un-traslado-al-aeropuerto-y-confirmar-el-punto-de-encuentro-portada-aeropuerto",
     "internal": [
       "como-organizar-un-traslado-al-aeropuerto-y-confirmar-el-punto-de-encuentro-itinerario-traslado",
@@ -2520,8 +2520,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre pantanos de villa: naturaleza y preparación de una visita responsable en Lima: planificación, requisitos oficiales, accesibilidad y consejos ...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-01",
+    "modified": "2026-10-10",
     "cover": "pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable-portada-pantanos-de-villa",
     "internal": [
       "pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable-observacion-aves-binoculares",
@@ -2665,8 +2665,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre puruchuco en ate: arquitectura y contexto del museo de sitio: historia, arquitectura, horarios de visita y recomendaciones oficiales...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-02",
+    "modified": "2026-10-10",
     "cover": "puruchuco-en-ate-arquitectura-y-contexto-del-museo-de-sitio-portada-galeria-museo",
     "internal": [
       "puruchuco-en-ate-arquitectura-y-contexto-del-museo-de-sitio-vitrina-orfebreria-arte",
@@ -2810,8 +2810,8 @@
       "indecopi"
     ],
     "description": "Guía práctica sobre confirmar la cobertura de un servicio a domicilio en tu distrito en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-03",
+    "modified": "2026-10-10",
     "cover": "como-confirmar-la-cobertura-de-un-servicio-a-domicilio-en-tu-distrito-portada-distrito-limeno",
     "internal": [
       "como-confirmar-la-cobertura-de-un-servicio-a-domicilio-en-tu-distrito-arquitectura-barrio-casonas",
@@ -2959,8 +2959,8 @@
       "lima-metropolitana"
     ],
     "description": "Guía sobre ceviche y su lugar en la cultura gastronómica de lima en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el comensal.",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-04",
+    "modified": "2026-10-10",
     "cover": "el-ceviche-y-su-lugar-en-la-cultura-gastronomica-de-lima-portada-cevicheria-terraza",
     "internal": [
       "el-ceviche-y-su-lugar-en-la-cultura-gastronomica-de-lima-ceviche-clasico-preparacion",
@@ -3104,8 +3104,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre mateo salado: historia y patrimonio dentro de la ciudad: historia, arquitectura, horarios de visita y recomendaciones oficiales en L...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-05",
+    "modified": "2026-10-10",
     "cover": "mateo-salado-historia-y-patrimonio-dentro-de-la-ciudad-portada-patrimonio-arquitectura",
     "internal": [
       "mateo-salado-historia-y-patrimonio-dentro-de-la-ciudad-detalle-casona-historica",
@@ -3249,8 +3249,8 @@
       "indecopi"
     ],
     "description": "Guía práctica sobre comparar cotizaciones sin perder condiciones importantes en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-06",
+    "modified": "2026-10-10",
     "cover": "como-comparar-cotizaciones-sin-perder-condiciones-importantes-portada-vivienda-servicios-hogar",
     "internal": [
       "como-comparar-cotizaciones-sin-perder-condiciones-importantes-presupuesto-desglosado-garantia",
@@ -3398,8 +3398,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre lomas de lachay: excursión fuera de lima metropolitana y datos a confirmar en Lima: planificación, requisitos oficiales, accesibilidad y cons...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-07",
+    "modified": "2026-10-10",
     "cover": "lomas-de-lachay-excursion-fuera-de-lima-metropolitana-y-datos-a-confirmar-portada-fin-semana-parque",
     "internal": [
       "lomas-de-lachay-excursion-fuera-de-lima-metropolitana-y-datos-a-confirmar-agenda-cultural-parque",
@@ -3543,8 +3543,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre huaca huantille: memoria y recuperación en magdalena del mar: historia, arquitectura, horarios de visita y recomendaciones oficiales...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-08",
+    "modified": "2026-10-10",
     "cover": "huaca-huantille-memoria-y-recuperacion-en-magdalena-del-mar-portada-huaca-prehispanica",
     "internal": [
       "huaca-huantille-memoria-y-recuperacion-en-magdalena-del-mar-detalle-adobitos-muro",
@@ -3688,8 +3688,8 @@
       "indecopi"
     ],
     "description": "Guía práctica sobre documentar un trabajo contratado y registrar acuerdos en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-09",
+    "modified": "2026-10-10",
     "cover": "como-documentar-un-trabajo-contratado-y-registrar-acuerdos-portada-vivienda-servicios-hogar",
     "internal": [
       "como-documentar-un-trabajo-contratado-y-registrar-acuerdos-presupuesto-desglosado-garantia",
@@ -3837,8 +3837,8 @@
       "lima-metropolitana"
     ],
     "description": "Guía sobre anticuchos en lima: historia y tradición de un plato popular en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el co...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-10",
+    "modified": "2026-10-10",
     "cover": "anticuchos-en-lima-historia-y-tradicion-de-un-plato-popular-portada-anticucheria-brasas",
     "internal": [
       "anticuchos-en-lima-historia-y-tradicion-de-un-plato-popular-anticuchos-parrilla-aderezo",
@@ -3982,8 +3982,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre malecón de miraflores: cómo organizar una caminata en Lima: planificación, requisitos oficiales, accesibilidad y consejos para disfrutar sin ...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-11",
+    "modified": "2026-10-10",
     "cover": "malecon-de-miraflores-como-organizar-una-caminata-portada-malecon-miraflores",
     "internal": [
       "malecon-de-miraflores-como-organizar-una-caminata-parque-del-amor-senderos",
@@ -4127,8 +4127,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre garagay: patrimonio arqueológico y condiciones de acceso a verificar: historia, arquitectura, horarios de visita y recomendaciones o...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-12",
+    "modified": "2026-10-10",
     "cover": "garagay-patrimonio-arqueologico-y-condiciones-de-acceso-a-verificar-portada-patrimonio-arquitectura",
     "internal": [
       "garagay-patrimonio-arqueologico-y-condiciones-de-acceso-a-verificar-detalle-casona-historica",
@@ -4272,8 +4272,8 @@
       "servicios-locales"
     ],
     "description": "Guía práctica sobre organizar una mudanza con mascotas sin duplicar el checklist del traslado en Lima: recomendaciones, pasos preventivos y fuentes ofic...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-13",
+    "modified": "2026-10-10",
     "cover": "como-organizar-una-mudanza-con-mascotas-sin-duplicar-el-checklist-del-traslado-portada-marinera-limena-pareja",
     "internal": [
       "como-organizar-una-mudanza-con-mascotas-sin-duplicar-el-checklist-del-traslado-clase-danza-postura-ensayo",
@@ -4421,8 +4421,8 @@
       "identidad-limena"
     ],
     "description": "Estudio histórico sobre historia de lima: las etapas que explican la ciudad actual: contexto documental, hitos cronológicos y fuentes archivísticas en L...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-14",
+    "modified": "2026-10-10",
     "cover": "historia-de-lima-las-etapas-que-explican-la-ciudad-actual-portada-panoramica-historica-lima",
     "internal": [
       "historia-de-lima-las-etapas-que-explican-la-ciudad-actual-legajos-cartografia-antigua",
@@ -4566,8 +4566,8 @@
       "vida-cultural"
     ],
     "description": "Estudio cultural sobre cultura limeña: tradiciones e influencias que conviven en la capital en Lima: historia, expresiones vivas, espacios de difusión y...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-15",
+    "modified": "2026-10-10",
     "cover": "cultura-limena-tradiciones-e-influencias-que-conviven-en-la-capital-portada-feria-cultural-plaza",
     "internal": [
       "cultura-limena-tradiciones-e-influencias-que-conviven-en-la-capital-instrumentos-artesanias-muestra",
@@ -4711,8 +4711,8 @@
       "patrimonio-culinario"
     ],
     "description": "Guía sobre picarones: ingredientes e historia de un postre limeño en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el comensal.",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-16",
+    "modified": "2026-10-10",
     "cover": "picarones-ingredientes-e-historia-de-un-postre-limeno-portada-panoramica-historica-lima",
     "internal": [
       "picarones-ingredientes-e-historia-de-un-postre-limeno-legajos-cartografia-antigua",
@@ -4856,8 +4856,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre costa verde: diferencias entre paseo por el malecón y visita a la playa en Lima: planificación, requisitos oficiales, accesibilidad y consejo...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-17",
+    "modified": "2026-10-10",
     "cover": "costa-verde-diferencias-entre-paseo-por-el-malecon-y-visita-a-la-playa-portada-fin-semana-parque",
     "internal": [
       "costa-verde-diferencias-entre-paseo-por-el-malecon-y-visita-a-la-playa-agenda-cultural-parque",
@@ -5001,8 +5001,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre maranga y la huaca san marcos: historia y límites de acceso: historia, arquitectura, horarios de visita y recomendaciones oficiales ...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-18",
+    "modified": "2026-10-10",
     "cover": "maranga-y-la-huaca-san-marcos-historia-y-limites-de-acceso-portada-huaca-prehispanica",
     "internal": [
       "maranga-y-la-huaca-san-marcos-historia-y-limites-de-acceso-detalle-adobitos-muro",
@@ -5146,8 +5146,8 @@
       "servicios-locales"
     ],
     "description": "Guía práctica sobre preparar una caja de esenciales para el primer día en una nueva vivienda en Lima: recomendaciones, pasos preventivos y fuentes ofici...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-19",
+    "modified": "2026-10-10",
     "cover": "como-preparar-una-caja-de-esenciales-para-el-primer-dia-en-una-nueva-vivienda-portada-vivienda-servicios-hogar",
     "internal": [
       "como-preparar-una-caja-de-esenciales-para-el-primer-dia-en-una-nueva-vivienda-presupuesto-desglosado-garantia",
@@ -5295,8 +5295,8 @@
       "valles-de-lima"
     ],
     "description": "Estudio histórico sobre lima antes de 1535: valles, huacas y sociedades prehispánicas: contexto documental, hitos cronológicos y fuentes archivísticas e...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-20",
+    "modified": "2026-10-10",
     "cover": "lima-antes-de-1535-valles-huacas-y-sociedades-prehispanicas-portada-huaca-prehispanica",
     "internal": [
       "lima-antes-de-1535-valles-huacas-y-sociedades-prehispanicas-detalle-adobitos-muro",
@@ -5440,8 +5440,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre música criolla en lima: historia y espacios para conocerla en Lima: historia, expresiones vivas, espacios de difusión y fuentes o...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-21",
+    "modified": "2026-10-10",
     "cover": "musica-criolla-en-lima-historia-y-espacios-para-conocerla-portada-panoramica-historica-lima",
     "internal": [
       "musica-criolla-en-lima-historia-y-espacios-para-conocerla-legajos-cartografia-antigua",
@@ -5585,8 +5585,8 @@
       "patrimonio-culinario"
     ],
     "description": "Guía sobre turrón de doña pepa: historia y relación con el mes morado en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el come...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-22",
+    "modified": "2026-10-10",
     "cover": "turron-de-dona-pepa-historia-y-relacion-con-el-mes-morado-portada-panoramica-historica-lima",
     "internal": [
       "turron-de-dona-pepa-historia-y-relacion-con-el-mes-morado-legajos-cartografia-antigua",
@@ -5730,8 +5730,8 @@
       "vida-urbana"
     ],
     "description": "Guía sobre planes en lima cuando hay garúa: alternativas bajo techo en Lima: planificación, requisitos oficiales, accesibilidad y consejos para disfruta...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-23",
+    "modified": "2026-10-10",
     "cover": "planes-en-lima-cuando-hay-garua-alternativas-bajo-techo-portada-fin-semana-parque",
     "internal": [
       "planes-en-lima-cuando-hay-garua-alternativas-bajo-techo-agenda-cultural-parque",
@@ -5875,8 +5875,8 @@
       "turismo-responsable"
     ],
     "description": "Guía completa sobre convento de san francisco y catacumbas: historia y visita respetuosa: historia, arquitectura, horarios de visita y recomendaciones o...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-24",
+    "modified": "2026-10-10",
     "cover": "convento-de-san-francisco-y-catacumbas-historia-y-visita-respetuosa-portada-patrimonio-arquitectura",
     "internal": [
       "convento-de-san-francisco-y-catacumbas-historia-y-visita-respetuosa-detalle-casona-historica",
@@ -6020,8 +6020,8 @@
       "servicios-locales"
     ],
     "description": "Guía práctica sobre coordinar el ingreso de proveedores en un edificio en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-25",
+    "modified": "2026-10-10",
     "cover": "como-coordinar-el-ingreso-de-proveedores-en-un-edificio-portada-vivienda-servicios-hogar",
     "internal": [
       "como-coordinar-el-ingreso-de-proveedores-en-un-edificio-presupuesto-desglosado-garantia",
@@ -6169,8 +6169,8 @@
       "damero-de-pizarro"
     ],
     "description": "Estudio histórico sobre fundación española de lima: contexto y elección del lugar: contexto documental, hitos cronológicos y fuentes archivísticas en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-26",
+    "modified": "2026-10-10",
     "cover": "fundacion-espanola-de-lima-contexto-y-eleccion-del-lugar-portada-vivienda-servicios-hogar",
     "internal": [
       "fundacion-espanola-de-lima-contexto-y-eleccion-del-lugar-presupuesto-desglosado-garantia",
@@ -6314,8 +6314,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre vals criollo y marinera limeña: diferencias y contexto en Lima: historia, expresiones vivas, espacios de difusión y fuentes ofici...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-27",
+    "modified": "2026-10-10",
     "cover": "vals-criollo-y-marinera-limena-diferencias-y-contexto-portada-vivienda-servicios-hogar",
     "internal": [
       "vals-criollo-y-marinera-limena-diferencias-y-contexto-presupuesto-desglosado-garantia",
@@ -6459,8 +6459,8 @@
       "patrimonio-culinario"
     ],
     "description": "Guía sobre mazamorra morada y arroz con leche: la tradición del combinado en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el ...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-28",
+    "modified": "2026-10-10",
     "cover": "mazamorra-morada-y-arroz-con-leche-la-tradicion-del-combinado-portada-vivienda-servicios-hogar",
     "internal": [
       "mazamorra-morada-y-arroz-con-leche-la-tradicion-del-combinado-presupuesto-desglosado-garantia",
@@ -6604,8 +6604,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre preparar un picnic en lima y confirmar las reglas del lugar en Lima: planificación, requisitos oficiales, accesibilidad y consejos para disfr...",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-29",
+    "modified": "2026-10-10",
     "cover": "como-preparar-un-picnic-en-lima-y-confirmar-las-reglas-del-lugar-portada-vivienda-servicios-hogar",
     "internal": [
       "como-preparar-un-picnic-en-lima-y-confirmar-las-reglas-del-lugar-presupuesto-desglosado-garantia",
@@ -6749,8 +6749,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre plaza mayor de lima: edificios y memoria de su entorno: historia, arquitectura, horarios de visita y recomendaciones oficiales en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-30",
+    "modified": "2026-10-10",
     "cover": "plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno-portada-plaza-san-martin",
     "internal": [
       "plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno-portales-arquitectura-plaza",
@@ -6894,8 +6894,8 @@
       "servicios-locales"
     ],
     "description": "Guía práctica sobre registrar pendientes de mantenimiento del departamento en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-05-31",
+    "modified": "2026-10-10",
     "cover": "como-registrar-pendientes-de-mantenimiento-del-departamento-portada-administracion-edificio",
     "internal": [
       "como-registrar-pendientes-de-mantenimiento-del-departamento-checklist-mantenimiento-tecnico",
@@ -7043,8 +7043,8 @@
       "damero-de-pizarro"
     ],
     "description": "Estudio histórico sobre lima recibió el nombre de ciudad de los reyes: contexto documental, hitos cronológicos y fuentes archivísticas en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-01",
+    "modified": "2026-10-10",
     "cover": "por-que-lima-recibio-el-nombre-de-ciudad-de-los-reyes-portada-vivienda-servicios-hogar",
     "internal": [
       "por-que-lima-recibio-el-nombre-de-ciudad-de-los-reyes-presupuesto-desglosado-garantia",
@@ -7188,8 +7188,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre expresiones afroperuanas en lima: música, memoria y comunidad en Lima: historia, expresiones vivas, espacios de difusión y fuente...",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-02",
+    "modified": "2026-10-10",
     "cover": "expresiones-afroperuanas-en-lima-musica-memoria-y-comunidad-portada-vivienda-servicios-hogar",
     "internal": [
       "expresiones-afroperuanas-en-lima-musica-memoria-y-comunidad-presupuesto-desglosado-garantia",
@@ -7333,8 +7333,8 @@
       "patrimonio-culinario"
     ],
     "description": "Guía sobre suspiro a la limeña: historia y características del postre en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el come...",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-03",
+    "modified": "2026-10-10",
     "cover": "suspiro-a-la-limena-historia-y-caracteristicas-del-postre-portada-pasteleria-limena",
     "internal": [
       "suspiro-a-la-limena-historia-y-caracteristicas-del-postre-suspiro-limena-merengue",
@@ -7478,8 +7478,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre organizar un paseo con adultos mayores sin asumir accesibilidad en Lima: planificación, requisitos oficiales, accesibilidad y consejos para d...",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-04",
+    "modified": "2026-10-10",
     "cover": "como-organizar-un-paseo-con-adultos-mayores-sin-asumir-accesibilidad-portada-parque-accesible-paseo",
     "internal": [
       "como-organizar-un-paseo-con-adultos-mayores-sin-asumir-accesibilidad-rampas-accesibilidad-familia",
@@ -7623,8 +7623,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre plaza san martín: historia y lectura del espacio urbano: historia, arquitectura, horarios de visita y recomendaciones oficiales en L...",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-05",
+    "modified": "2026-10-10",
     "cover": "plaza-san-martin-historia-y-lectura-del-espacio-urbano-portada-plaza-san-martin",
     "internal": [
       "plaza-san-martin-historia-y-lectura-del-espacio-urbano-portales-arquitectura-plaza",
@@ -7768,8 +7768,8 @@
       "servicios-locales"
     ],
     "description": "Guía práctica sobre organizar el mantenimiento de áreas comunes con la administración en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-06",
+    "modified": "2026-10-10",
     "cover": "como-organizar-el-mantenimiento-de-areas-comunes-con-la-administracion-portada-administracion-edificio",
     "internal": [
       "como-organizar-el-mantenimiento-de-areas-comunes-con-la-administracion-checklist-mantenimiento-tecnico",
@@ -7917,8 +7917,8 @@
       "damero-de-pizarro"
     ],
     "description": "Estudio histórico sobre río rímac y la formación de la ciudad de lima: contexto documental, hitos cronológicos y fuentes archivísticas en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-07",
+    "modified": "2026-10-10",
     "cover": "el-rio-rimac-y-la-formacion-de-la-ciudad-de-lima-portada-puente-rio-rimac",
     "internal": [
       "el-rio-rimac-y-la-formacion-de-la-ciudad-de-lima-canales-acequias-historicas",
@@ -8062,8 +8062,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre cajón peruano: historia y presencia en la vida cultural limeña en Lima: historia, expresiones vivas, espacios de difusión y fuent...",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-08",
+    "modified": "2026-10-10",
     "cover": "el-cajon-peruano-historia-y-presencia-en-la-vida-cultural-limena-portada-panoramica-historica-lima",
     "internal": [
       "el-cajon-peruano-historia-y-presencia-en-la-vida-cultural-limena-legajos-cartografia-antigua",
@@ -8207,8 +8207,8 @@
       "lima-metropolitana"
     ],
     "description": "Guía sobre sánguche limeño: panes, rellenos y costumbres en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el comensal.",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-09",
+    "modified": "2026-10-10",
     "cover": "el-sanguche-limeno-panes-rellenos-y-costumbres-portada-sanguicheria-lima",
     "internal": [
       "el-sanguche-limeno-panes-rellenos-y-costumbres-pan-con-chicharron-detalle",
@@ -8352,8 +8352,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre planes con bebés en lima: servicios y condiciones que conviene revisar en Lima: planificación, requisitos oficiales, accesibilidad y consejos...",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-10",
+    "modified": "2026-10-10",
     "cover": "planes-con-bebes-en-lima-servicios-y-condiciones-que-conviene-revisar-portada-parque-infantil-familiar",
     "internal": [
       "planes-con-bebes-en-lima-servicios-y-condiciones-que-conviene-revisar-padres-coche-bebe-sendero",
@@ -8497,8 +8497,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre jirón de la unión: edificios y transformaciones de una calle emblemática: historia, arquitectura, horarios de visita y recomendacion...",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-11",
+    "modified": "2026-10-10",
     "cover": "jiron-de-la-union-edificios-y-transformaciones-de-una-calle-emblematica-portada-patrimonio-arquitectura",
     "internal": [
       "jiron-de-la-union-edificios-y-transformaciones-de-una-calle-emblematica-detalle-casona-historica",
@@ -8642,8 +8642,8 @@
       "servicios-locales"
     ],
     "description": "Guía práctica sobre describir una incidencia del hogar sin intentar diagnosticarla en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-12",
+    "modified": "2026-10-10",
     "cover": "como-describir-una-incidencia-del-hogar-sin-intentar-diagnosticarla-portada-administracion-edificio",
     "internal": [
       "como-describir-una-incidencia-del-hogar-sin-intentar-diagnosticarla-checklist-mantenimiento-tecnico",
@@ -8791,8 +8791,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer Miraflores: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-13",
+    "modified": "2026-10-10",
     "cover": "miraflores-en-un-dia-como-conectar-malecon-parques-y-vida-de-barrio-portada-patrimonio-arquitectura",
     "internal": [
       "miraflores-en-un-dia-como-conectar-malecon-parques-y-vida-de-barrio-detalle-casona-historica",
@@ -8936,8 +8936,8 @@
       "buenas-practicas"
     ],
     "description": "Guía práctica sobre negocios de barrio en lima: oficios y servicios en la vida cotidiana en Lima: buenas prácticas, obligaciones legales y herramientas ...",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-14",
+    "modified": "2026-10-10",
     "cover": "negocios-de-barrio-en-lima-oficios-y-servicios-en-la-vida-cotidiana-portada-distrito-limeno",
     "internal": [
       "negocios-de-barrio-en-lima-oficios-y-servicios-en-la-vida-cotidiana-arquitectura-barrio-casonas",
@@ -9081,8 +9081,8 @@
       "valles-de-lima"
     ],
     "description": "Estudio histórico sobre los ichma: territorio y legado en los valles de lima: contexto documental, hitos cronológicos y fuentes archivísticas en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-15",
+    "modified": "2026-10-10",
     "cover": "los-ichma-territorio-y-legado-en-los-valles-de-lima-portada-vivienda-servicios-hogar",
     "internal": [
       "los-ichma-territorio-y-legado-en-los-valles-de-lima-presupuesto-desglosado-garantia",
@@ -9226,8 +9226,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre señor de los milagros: historia y significado de la tradición en Lima: historia, expresiones vivas, espacios de difusión y fuente...",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-16",
+    "modified": "2026-10-10",
     "cover": "el-senor-de-los-milagros-historia-y-significado-de-la-tradicion-portada-panoramica-historica-lima",
     "internal": [
       "el-senor-de-los-milagros-historia-y-significado-de-la-tradicion-legajos-cartografia-antigua",
@@ -9371,8 +9371,8 @@
       "lima-metropolitana"
     ],
     "description": "Guía sobre pan con chicharrón: tradición del desayuno y decisiones para una salida en Lima: historia, ingredientes, recomendaciones y consejos prácticos...",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-17",
+    "modified": "2026-10-10",
     "cover": "pan-con-chicharron-tradicion-del-desayuno-y-decisiones-para-una-salida-portada-sanguicheria-lima",
     "internal": [
       "pan-con-chicharron-tradicion-del-desayuno-y-decisiones-para-una-salida-pan-con-chicharron-detalle",
@@ -9516,8 +9516,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre encontrar actividades familiares sin confundir promociones y acceso libre en Lima: planificación, requisitos oficiales, accesibilidad y conse...",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-18",
+    "modified": "2026-10-10",
     "cover": "como-encontrar-actividades-familiares-sin-confundir-promociones-y-acceso-libre-portada-parque-infantil-familiar",
     "internal": [
       "como-encontrar-actividades-familiares-sin-confundir-promociones-y-acceso-libre-padres-coche-bebe-sendero",
@@ -9661,8 +9661,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre balcones limeños: arquitectura y formas de observarlos: historia, arquitectura, horarios de visita y recomendaciones oficiales en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-19",
+    "modified": "2026-10-10",
     "cover": "balcones-limenos-arquitectura-y-formas-de-observarlos-portada-balcones-centro",
     "internal": [
       "balcones-limenos-arquitectura-y-formas-de-observarlos-detalle-celosias-madera",
@@ -9806,8 +9806,8 @@
       "servicios-locales"
     ],
     "description": "Guía práctica sobre coordinar trabajos de pintura y proteger muebles y espacios en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-20",
+    "modified": "2026-10-10",
     "cover": "como-coordinar-trabajos-de-pintura-y-proteger-muebles-y-espacios-portada-administracion-edificio",
     "internal": [
       "como-coordinar-trabajos-de-pintura-y-proteger-muebles-y-espacios-checklist-mantenimiento-tecnico",
@@ -9955,8 +9955,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer Barranco: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-21",
+    "modified": "2026-10-10",
     "cover": "barranco-a-pie-patrimonio-arte-y-pausas-para-comer-portada-patrimonio-arquitectura",
     "internal": [
       "barranco-a-pie-patrimonio-arte-y-pausas-para-comer-detalle-casona-historica",
@@ -10100,8 +10100,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre qué información debe tener una ficha de negocio para ayudar al cliente en Lima: buenas prácticas, obligaciones legales y herramienta...",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-22",
+    "modified": "2026-10-10",
     "cover": "que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente-portada-taller-negocio-barrio",
     "internal": [
       "que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente-herramientas-cotizaciones-taller",
@@ -10245,8 +10245,8 @@
       "valles-de-lima"
     ],
     "description": "Estudio histórico sobre cultura lima y su arquitectura de adobitos: contexto documental, hitos cronológicos y fuentes archivísticas en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-23",
+    "modified": "2026-10-10",
     "cover": "la-cultura-lima-y-su-arquitectura-de-adobitos-portada-huaca-prehispanica",
     "internal": [
       "la-cultura-lima-y-su-arquitectura-de-adobitos-detalle-adobitos-muro",
@@ -10390,8 +10390,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre mes morado en lima: cómo consultar recorridos y actividades oficiales en Lima: historia, expresiones vivas, espacios de difusión ...",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-24",
+    "modified": "2026-10-10",
     "cover": "mes-morado-en-lima-como-consultar-recorridos-y-actividades-oficiales-portada-vivienda-servicios-hogar",
     "internal": [
       "mes-morado-en-lima-como-consultar-recorridos-y-actividades-oficiales-presupuesto-desglosado-garantia",
@@ -10535,8 +10535,8 @@
       "lima-metropolitana"
     ],
     "description": "Guía sobre causa limeña: historia, ingredientes y versiones en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el comensal.",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-25",
+    "modified": "2026-10-10",
     "cover": "causa-limena-historia-ingredientes-y-versiones-portada-panoramica-historica-lima",
     "internal": [
       "causa-limena-historia-ingredientes-y-versiones-legajos-cartografia-antigua",
@@ -10680,8 +10680,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre reservar una cancha en lima para jugar con amigos en Lima: planificación, requisitos oficiales, accesibilidad y consejos para disfrutar sin i...",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-26",
+    "modified": "2026-10-10",
     "cover": "como-reservar-una-cancha-en-lima-para-jugar-con-amigos-portada-vivienda-servicios-hogar",
     "internal": [
       "como-reservar-una-cancha-en-lima-para-jugar-con-amigos-presupuesto-desglosado-garantia",
@@ -10825,8 +10825,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre quinta heeren: historia y situación actual que debe comprobarse: historia, arquitectura, horarios de visita y recomendaciones oficia...",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-27",
+    "modified": "2026-10-10",
     "cover": "quinta-heeren-historia-y-situacion-actual-que-debe-comprobarse-portada-panoramica-historica-lima",
     "internal": [
       "quinta-heeren-historia-y-situacion-actual-que-debe-comprobarse-legajos-cartografia-antigua",
@@ -10970,8 +10970,8 @@
       "servicios-locales"
     ],
     "description": "Guía práctica sobre preparar una consulta para fabricar muebles a medida en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-28",
+    "modified": "2026-10-10",
     "cover": "como-preparar-una-consulta-para-fabricar-muebles-a-medida-portada-vivienda-servicios-hogar",
     "internal": [
       "como-preparar-una-consulta-para-fabricar-muebles-a-medida-presupuesto-desglosado-garantia",
@@ -11119,8 +11119,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer Pueblo Libre: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-29",
+    "modified": "2026-10-10",
     "cover": "pueblo-libre-como-conectar-museos-historia-y-espacios-del-barrio-portada-galeria-museo",
     "internal": [
       "pueblo-libre-como-conectar-museos-historia-y-espacios-del-barrio-vitrina-orfebreria-arte",
@@ -11264,8 +11264,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre fotografiar tu local sin confundir al visitante en Lima: buenas prácticas, obligaciones legales y herramientas para una atención tra...",
-    "published": null,
-    "modified": null,
+    "published": "2026-06-30",
+    "modified": "2026-10-10",
     "cover": "como-fotografiar-tu-local-sin-confundir-al-visitante-portada-vivienda-servicios-hogar",
     "internal": [
       "como-fotografiar-tu-local-sin-confundir-al-visitante-presupuesto-desglosado-garantia",
@@ -11409,8 +11409,8 @@
       "valles-de-lima"
     ],
     "description": "Estudio histórico sobre los colli y la historia prehispánica de lima norte: contexto documental, hitos cronológicos y fuentes archivísticas en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-01",
+    "modified": "2026-10-10",
     "cover": "los-colli-y-la-historia-prehispanica-de-lima-norte-portada-panoramica-historica-lima",
     "internal": [
       "los-colli-y-la-historia-prehispanica-de-lima-norte-legajos-cartografia-antigua",
@@ -11554,8 +11554,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre día de la canción criolla: origen y formas de celebrarlo en Lima: historia, expresiones vivas, espacios de difusión y fuentes ofi...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-02",
+    "modified": "2026-10-10",
     "cover": "dia-de-la-cancion-criolla-origen-y-formas-de-celebrarlo-portada-vivienda-servicios-hogar",
     "internal": [
       "dia-de-la-cancion-criolla-origen-y-formas-de-celebrarlo-presupuesto-desglosado-garantia",
@@ -11699,8 +11699,8 @@
       "lima-metropolitana"
     ],
     "description": "Guía sobre ají de gallina: contexto e identidad en la mesa limeña en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el comensal.",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-03",
+    "modified": "2026-10-10",
     "cover": "aji-de-gallina-contexto-e-identidad-en-la-mesa-limena-portada-vivienda-servicios-hogar",
     "internal": [
       "aji-de-gallina-contexto-e-identidad-en-la-mesa-limena-presupuesto-desglosado-garantia",
@@ -11844,8 +11844,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre organizar un torneo deportivo entre amigos en Lima: planificación, requisitos oficiales, accesibilidad y consejos para disfrutar sin imprevis...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-04",
+    "modified": "2026-10-10",
     "cover": "como-organizar-un-torneo-deportivo-entre-amigos-portada-vivienda-servicios-hogar",
     "internal": [
       "como-organizar-un-torneo-deportivo-entre-amigos-presupuesto-desglosado-garantia",
@@ -11989,8 +11989,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre iglesias de barrios altos: patrimonio y estado de conservación: historia, arquitectura, horarios de visita y recomendaciones oficial...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-05",
+    "modified": "2026-10-10",
     "cover": "iglesias-de-barrios-altos-patrimonio-y-estado-de-conservacion-portada-patrimonio-arquitectura",
     "internal": [
       "iglesias-de-barrios-altos-patrimonio-y-estado-de-conservacion-detalle-casona-historica",
@@ -12134,8 +12134,8 @@
       "servicios-locales"
     ],
     "description": "Guía práctica sobre comparar propuestas de cortinas y estores en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-06",
+    "modified": "2026-10-10",
     "cover": "como-comparar-propuestas-de-cortinas-y-estores-portada-vivienda-servicios-hogar",
     "internal": [
       "como-comparar-propuestas-de-cortinas-y-estores-presupuesto-desglosado-garantia",
@@ -12283,8 +12283,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer Rímac: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-07",
+    "modified": "2026-10-10",
     "cover": "rimac-historico-como-organizar-un-recorrido-con-contexto-portada-vivienda-servicios-hogar",
     "internal": [
       "rimac-historico-como-organizar-un-recorrido-con-contexto-presupuesto-desglosado-garantia",
@@ -12428,8 +12428,8 @@
       "buenas-practicas"
     ],
     "description": "Guía práctica sobre comunicar la ubicación del local y la cobertura a domicilio en Lima: buenas prácticas, obligaciones legales y herramientas para una ...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-08",
+    "modified": "2026-10-10",
     "cover": "como-comunicar-la-ubicacion-del-local-y-la-cobertura-a-domicilio-portada-vivienda-servicios-hogar",
     "internal": [
       "como-comunicar-la-ubicacion-del-local-y-la-cobertura-a-domicilio-presupuesto-desglosado-garantia",
@@ -12573,8 +12573,8 @@
       "valles-de-lima"
     ],
     "description": "Estudio histórico sobre los caminos prehispánicos de lima y su relación con el qhapaq ñan: contexto documental, hitos cronológicos y fuentes archivístic...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-09",
+    "modified": "2026-10-10",
     "cover": "los-caminos-prehispanicos-de-lima-y-su-relacion-con-el-qhapaq-nan-portada-vivienda-servicios-hogar",
     "internal": [
       "los-caminos-prehispanicos-de-lima-y-su-relacion-con-el-qhapaq-nan-presupuesto-desglosado-garantia",
@@ -12718,8 +12718,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre aniversario de lima: historia de la fecha y consulta de la agenda oficial en Lima: historia, expresiones vivas, espacios de difus...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-10",
+    "modified": "2026-10-10",
     "cover": "aniversario-de-lima-historia-de-la-fecha-y-consulta-de-la-agenda-oficial-portada-panoramica-historica-lima",
     "internal": [
       "aniversario-de-lima-historia-de-la-fecha-y-consulta-de-la-agenda-oficial-legajos-cartografia-antigua",
@@ -12863,8 +12863,8 @@
       "lima-metropolitana"
     ],
     "description": "Guía sobre comida de mercado en lima: cómo preparar una visita gastronómica en Lima: historia, ingredientes, recomendaciones y consejos prácticos para e...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-11",
+    "modified": "2026-10-10",
     "cover": "comida-de-mercado-en-lima-como-preparar-una-visita-gastronomica-portada-restaurante-limeno",
     "internal": [
       "comida-de-mercado-en-lima-como-preparar-una-visita-gastronomica-emplatado-gastronomico",
@@ -13008,8 +13008,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre piscinas recreativas en lima: qué verificar antes de reservar en Lima: planificación, requisitos oficiales, accesibilidad y consejos para dis...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-12",
+    "modified": "2026-10-10",
     "cover": "piscinas-recreativas-en-lima-que-verificar-antes-de-reservar-portada-vivienda-servicios-hogar",
     "internal": [
       "piscinas-recreativas-en-lima-que-verificar-antes-de-reservar-presupuesto-desglosado-garantia",
@@ -13153,8 +13153,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre parque de la muralla: cómo relacionar el paseo con la historia: historia, arquitectura, horarios de visita y recomendaciones oficial...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-13",
+    "modified": "2026-10-10",
     "cover": "parque-de-la-muralla-como-relacionar-el-paseo-con-la-historia-portada-patrimonio-arquitectura",
     "internal": [
       "parque-de-la-muralla-como-relacionar-el-paseo-con-la-historia-detalle-casona-historica",
@@ -13298,8 +13298,8 @@
       "servicios-locales"
     ],
     "description": "Guía práctica sobre organizar una limpieza después de una obra en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-14",
+    "modified": "2026-10-10",
     "cover": "como-organizar-una-limpieza-despues-de-una-obra-portada-vivienda-servicios-hogar",
     "internal": [
       "como-organizar-una-limpieza-despues-de-una-obra-presupuesto-desglosado-garantia",
@@ -13447,8 +13447,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer San Isidro: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-15",
+    "modified": "2026-10-10",
     "cover": "san-isidro-parques-patrimonio-y-vida-cotidiana-portada-patrimonio-arquitectura",
     "internal": [
       "san-isidro-parques-patrimonio-y-vida-cotidiana-detalle-casona-historica",
@@ -13592,8 +13592,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre mantener horarios y contactos del negocio actualizados en Lima: buenas prácticas, obligaciones legales y herramientas para una atenc...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-16",
+    "modified": "2026-10-10",
     "cover": "como-mantener-horarios-y-contactos-del-negocio-actualizados-portada-vivienda-servicios-hogar",
     "internal": [
       "como-mantener-horarios-y-contactos-del-negocio-actualizados-presupuesto-desglosado-garantia",
@@ -13737,8 +13737,8 @@
       "identidad-limena"
     ],
     "description": "Estudio histórico sobre las acequias que transformaron los valles de lima: contexto documental, hitos cronológicos y fuentes archivísticas en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-17",
+    "modified": "2026-10-10",
     "cover": "las-acequias-que-transformaron-los-valles-de-lima-portada-vivienda-servicios-hogar",
     "internal": [
       "las-acequias-que-transformaron-los-valles-de-lima-presupuesto-desglosado-garantia",
@@ -13882,8 +13882,8 @@
       "vida-cultural"
     ],
     "description": "Estudio cultural sobre santa rosa de lima: memoria, lugares y tradiciones en Lima: historia, expresiones vivas, espacios de difusión y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-18",
+    "modified": "2026-10-10",
     "cover": "santa-rosa-de-lima-memoria-lugares-y-tradiciones-portada-vivienda-servicios-hogar",
     "internal": [
       "santa-rosa-de-lima-memoria-lugares-y-tradiciones-presupuesto-desglosado-garantia",
@@ -14027,8 +14027,8 @@
       "lima-metropolitana"
     ],
     "description": "Guía sobre qué es un huarique y qué información revisar antes de visitarlo en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-19",
+    "modified": "2026-10-10",
     "cover": "que-es-un-huarique-y-que-informacion-revisar-antes-de-visitarlo-portada-vivienda-servicios-hogar",
     "internal": [
       "que-es-un-huarique-y-que-informacion-revisar-antes-de-visitarlo-presupuesto-desglosado-garantia",
@@ -14172,8 +14172,8 @@
       "vida-urbana"
     ],
     "description": "Guía sobre spa en lima: cómo comparar instalaciones y condiciones sin promesas médicas en Lima: planificación, requisitos oficiales, accesibilidad y con...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-20",
+    "modified": "2026-10-10",
     "cover": "spa-en-lima-como-comparar-instalaciones-y-condiciones-sin-promesas-medicas-portada-vivienda-servicios-hogar",
     "internal": [
       "spa-en-lima-como-comparar-instalaciones-y-condiciones-sin-promesas-medicas-presupuesto-desglosado-garantia",
@@ -14317,8 +14317,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre alameda de los descalzos: historia y patrimonio del rímac: historia, arquitectura, horarios de visita y recomendaciones oficiales en...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-21",
+    "modified": "2026-10-10",
     "cover": "alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-portada-patrimonio-arquitectura",
     "internal": [
       "alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-detalle-casona-historica",
@@ -14462,8 +14462,8 @@
       "servicios-locales"
     ],
     "description": "Guía práctica sobre coordinar fumigación: preguntas sobre ocupación y medidas del proveedor en Lima: recomendaciones, pasos preventivos y fuentes oficia...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-22",
+    "modified": "2026-10-10",
     "cover": "como-coordinar-fumigacion-preguntas-sobre-ocupacion-y-medidas-del-proveedor-portada-vivienda-servicios-hogar",
     "internal": [
       "como-coordinar-fumigacion-preguntas-sobre-ocupacion-y-medidas-del-proveedor-presupuesto-desglosado-garantia",
@@ -14611,8 +14611,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer San Miguel: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-23",
+    "modified": "2026-10-10",
     "cover": "san-miguel-arqueologia-urbana-y-alternativas-para-un-dia-de-paseo-portada-distrito-limeno",
     "internal": [
       "san-miguel-arqueologia-urbana-y-alternativas-para-un-dia-de-paseo-arquitectura-barrio-casonas",
@@ -14756,8 +14756,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre responder preguntas frecuentes antes de recibir una consulta en Lima: buenas prácticas, obligaciones legales y herramientas para una...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-24",
+    "modified": "2026-10-10",
     "cover": "como-responder-preguntas-frecuentes-antes-de-recibir-una-consulta-portada-vivienda-servicios-hogar",
     "internal": [
       "como-responder-preguntas-frecuentes-antes-de-recibir-una-consulta-presupuesto-desglosado-garantia",
@@ -14901,8 +14901,8 @@
       "damero-de-pizarro"
     ],
     "description": "Estudio histórico sobre muralla de lima: por qué se construyó y qué queda de ella: contexto documental, hitos cronológicos y fuentes archivísticas en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-25",
+    "modified": "2026-10-10",
     "cover": "la-muralla-de-lima-por-que-se-construyo-y-que-queda-de-ella-portada-parque-de-la-muralla",
     "internal": [
       "la-muralla-de-lima-por-que-se-construyo-y-que-queda-de-ella-mapa-historico-lima-amurallada",
@@ -15046,8 +15046,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre flor de amancaes y su presencia en la identidad limeña en Lima: historia, expresiones vivas, espacios de difusión y fuentes ofici...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-26",
+    "modified": "2026-10-10",
     "cover": "la-flor-de-amancaes-y-su-presencia-en-la-identidad-limena-portada-feria-cultural-plaza",
     "internal": [
       "la-flor-de-amancaes-y-su-presencia-en-la-identidad-limena-instrumentos-artesanias-muestra",
@@ -15191,8 +15191,8 @@
       "vida-practica"
     ],
     "description": "Guía sobre reservar un restaurante en lima para un grupo en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el comensal.",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-27",
+    "modified": "2026-10-10",
     "cover": "como-reservar-un-restaurante-en-lima-para-un-grupo-portada-restaurante-limeno",
     "internal": [
       "como-reservar-un-restaurante-en-lima-para-un-grupo-emplatado-gastronomico",
@@ -15336,8 +15336,8 @@
       "cultura-viva"
     ],
     "description": "Guía sobre elegir un taller creativo para una actividad de fin de semana en Lima: planificación, requisitos oficiales, accesibilidad y consejos para dis...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-28",
+    "modified": "2026-10-10",
     "cover": "como-elegir-un-taller-creativo-para-una-actividad-de-fin-de-semana-portada-fin-semana-parque",
     "internal": [
       "como-elegir-un-taller-creativo-para-una-actividad-de-fin-de-semana-agenda-cultural-parque",
@@ -15481,8 +15481,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre paseo de aguas: memoria urbana y preparación de la visita: historia, arquitectura, horarios de visita y recomendaciones oficiales en...",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-29",
+    "modified": "2026-10-10",
     "cover": "paseo-de-aguas-memoria-urbana-y-preparacion-de-la-visita-portada-fin-semana-parque",
     "internal": [
       "paseo-de-aguas-memoria-urbana-y-preparacion-de-la-visita-agenda-cultural-parque",
@@ -15626,8 +15626,8 @@
       "bienestar-animal"
     ],
     "description": "Guía práctica sobre preparar contactos y documentos para la atención de tu mascota en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-30",
+    "modified": "2026-10-10",
     "cover": "como-preparar-contactos-y-documentos-para-la-atencion-de-tu-mascota-portada-clinica-veterinaria-lima",
     "internal": [
       "como-preparar-contactos-y-documentos-para-la-atencion-de-tu-mascota-examen-veterinario-perro",
@@ -15775,8 +15775,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer Magdalena del Mar: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": null,
-    "modified": null,
+    "published": "2026-07-31",
+    "modified": "2026-10-10",
     "cover": "magdalena-del-mar-patrimonio-y-espacios-de-encuentro-del-distrito-portada-patrimonio-arquitectura",
     "internal": [
       "magdalena-del-mar-patrimonio-y-espacios-de-encuentro-del-distrito-detalle-casona-historica",
@@ -15920,8 +15920,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre presentar condiciones de una promoción de forma clara en Lima: buenas prácticas, obligaciones legales y herramientas para una atenci...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-01",
+    "modified": "2026-10-10",
     "cover": "como-presentar-condiciones-de-una-promocion-de-forma-clara-portada-vivienda-servicios-hogar",
     "internal": [
       "como-presentar-condiciones-de-una-promocion-de-forma-clara-presupuesto-desglosado-garantia",
@@ -16065,8 +16065,8 @@
       "damero-de-pizarro"
     ],
     "description": "Estudio histórico sobre terremoto de 1746 y la reconstrucción de lima: contexto documental, hitos cronológicos y fuentes archivísticas en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-02",
+    "modified": "2026-10-10",
     "cover": "el-terremoto-de-1746-y-la-reconstruccion-de-lima-portada-reconstruccion-lima-1746",
     "internal": [
       "el-terremoto-de-1746-y-la-reconstruccion-de-lima-estructura-quincha-sismos",
@@ -16210,8 +16210,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre las peñas criollas: qué son y cómo preparar una primera visita en Lima: historia, expresiones vivas, espacios de difusión y fuent...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-03",
+    "modified": "2026-10-10",
     "cover": "las-penas-criollas-que-son-y-como-preparar-una-primera-visita-portada-pena-criolla-barranco",
     "internal": [
       "las-penas-criollas-que-son-y-como-preparar-una-primera-visita-cajon-peruano-percusionista",
@@ -16355,8 +16355,8 @@
       "ocio-urbano"
     ],
     "description": "Guía sobre cafeterías para trabajar en lima: conectividad, consumo y condiciones en Lima: historia, ingredientes, recomendaciones y consejos prácticos p...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-04",
+    "modified": "2026-10-10",
     "cover": "cafeterias-para-trabajar-en-lima-conectividad-consumo-y-condiciones-portada-vivienda-servicios-hogar",
     "internal": [
       "cafeterias-para-trabajar-en-lima-conectividad-consumo-y-condiciones-presupuesto-desglosado-garantia",
@@ -16500,8 +16500,8 @@
       "vida-urbana"
     ],
     "description": "Guía sobre consultar actividades culturales para un domingo en Lima: planificación, requisitos oficiales, accesibilidad y consejos para disfrutar sin im...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-05",
+    "modified": "2026-10-10",
     "cover": "como-consultar-actividades-culturales-para-un-domingo-portada-feria-cultural-plaza",
     "internal": [
       "como-consultar-actividades-culturales-para-un-domingo-instrumentos-artesanias-muestra",
@@ -16645,8 +16645,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre puente de los suspiros: historia y entorno de barranco: historia, arquitectura, horarios de visita y recomendaciones oficiales en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-06",
+    "modified": "2026-10-10",
     "cover": "puente-de-los-suspiros-historia-y-entorno-de-barranco-portada-pasteleria-limena",
     "internal": [
       "puente-de-los-suspiros-historia-y-entorno-de-barranco-suspiro-limena-merengue",
@@ -16790,8 +16790,8 @@
       "bienestar-animal"
     ],
     "description": "Guía práctica sobre guardería de mascotas: qué preguntar sobre alojamiento y comunicación en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-07",
+    "modified": "2026-10-10",
     "cover": "guarderia-de-mascotas-que-preguntar-sobre-alojamiento-y-comunicacion-portada-clinica-veterinaria-lima",
     "internal": [
       "guarderia-de-mascotas-que-preguntar-sobre-alojamiento-y-comunicacion-examen-veterinario-perro",
@@ -16939,8 +16939,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer Santiago de Surco: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-08",
+    "modified": "2026-10-10",
     "cover": "santiago-de-surco-como-combinar-historia-local-y-actividades-portada-panoramica-historica-lima",
     "internal": [
       "santiago-de-surco-como-combinar-historia-local-y-actividades-legajos-cartografia-antigua",
@@ -17084,8 +17084,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre libro de reclamaciones: fuentes oficiales y obligaciones que debe revisar un negocio en Lima: buenas prácticas, obligaciones legales...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-09",
+    "modified": "2026-10-10",
     "cover": "libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-portada-libro-reclamaciones-mostrador",
     "internal": [
       "libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-revision-garantias-comprobante",
@@ -17229,8 +17229,8 @@
       "memoria-historica"
     ],
     "description": "Estudio histórico sobre lima y la proclamación de la independencia: escenarios y contexto: contexto documental, hitos cronológicos y fuentes archivístic...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-10",
+    "modified": "2026-10-10",
     "cover": "lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-portada-plaza-independencia-lima",
     "internal": [
       "lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-acta-independencia-documentos",
@@ -17374,8 +17374,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre las jaranas limeñas: música y sociabilidad a través del tiempo en Lima: historia, expresiones vivas, espacios de difusión y fuent...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-11",
+    "modified": "2026-10-10",
     "cover": "las-jaranas-limenas-musica-y-sociabilidad-a-traves-del-tiempo-portada-pena-criolla-barranco",
     "internal": [
       "las-jaranas-limenas-musica-y-sociabilidad-a-traves-del-tiempo-cajon-peruano-percusionista",
@@ -17519,8 +17519,8 @@
       "vida-practica"
     ],
     "description": "Guía sobre comunicar restricciones alimentarias al reservar un restaurante en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-12",
+    "modified": "2026-10-10",
     "cover": "como-comunicar-restricciones-alimentarias-al-reservar-un-restaurante-portada-restaurante-limeno",
     "internal": [
       "como-comunicar-restricciones-alimentarias-al-reservar-un-restaurante-emplatado-gastronomico",
@@ -17664,8 +17664,8 @@
       "vida-urbana"
     ],
     "description": "Guía sobre planificar una salida nocturna y coordinar el regreso en Lima: planificación, requisitos oficiales, accesibilidad y consejos para disfrutar s...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-13",
+    "modified": "2026-10-10",
     "cover": "como-planificar-una-salida-nocturna-y-coordinar-el-regreso-portada-vivienda-servicios-hogar",
     "internal": [
       "como-planificar-una-salida-nocturna-y-coordinar-el-regreso-presupuesto-desglosado-garantia",
@@ -17809,8 +17809,8 @@
       "recorridos-culturales"
     ],
     "description": "Guía completa sobre museo de arte de lima: cómo elegir exposiciones y preparar una visita: historia, arquitectura, horarios de visita y recomendaciones ...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-14",
+    "modified": "2026-10-10",
     "cover": "museo-de-arte-de-lima-como-elegir-exposiciones-y-preparar-una-visita-portada-galeria-museo",
     "internal": [
       "museo-de-arte-de-lima-como-elegir-exposiciones-y-preparar-una-visita-vitrina-orfebreria-arte",
@@ -17954,8 +17954,8 @@
       "bienestar-animal"
     ],
     "description": "Guía práctica sobre peluquería para mascotas: qué información compartir antes de reservar en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-15",
+    "modified": "2026-10-10",
     "cover": "peluqueria-para-mascotas-que-informacion-compartir-antes-de-reservar-portada-clinica-veterinaria-lima",
     "internal": [
       "peluqueria-para-mascotas-que-informacion-compartir-antes-de-reservar-examen-veterinario-perro",
@@ -18103,8 +18103,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer Los Olivos: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-16",
+    "modified": "2026-10-10",
     "cover": "los-olivos-como-consultar-espacios-y-actividades-del-distrito-portada-distrito-limeno",
     "internal": [
       "los-olivos-como-consultar-espacios-y-actividades-del-distrito-arquitectura-barrio-casonas",
@@ -18248,8 +18248,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre ruc de persona natural y persona jurídica: diferencias que deben revisarse con asesoría en Lima: buenas prácticas, obligaciones lega...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-17",
+    "modified": "2026-10-10",
     "cover": "ruc-de-persona-natural-y-persona-juridica-diferencias-que-deben-revisarse-con-asesoria-portada-vivienda-servicios-hogar",
     "internal": [
       "ruc-de-persona-natural-y-persona-juridica-diferencias-que-deben-revisarse-con-asesoria-presupuesto-desglosado-garantia",
@@ -18393,8 +18393,8 @@
       "memoria-historica"
     ],
     "description": "Estudio histórico sobre quinta de los libertadores y su lugar en la historia del perú: contexto documental, hitos cronológicos y fuentes archivísticas e...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-18",
+    "modified": "2026-10-10",
     "cover": "la-quinta-de-los-libertadores-y-su-lugar-en-la-historia-del-peru-portada-panoramica-historica-lima",
     "internal": [
       "la-quinta-de-los-libertadores-y-su-lugar-en-la-historia-del-peru-legajos-cartografia-antigua",
@@ -18538,8 +18538,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre teatro en lima: cómo elegir una obra y consultar la cartelera en Lima: historia, expresiones vivas, espacios de difusión y fuente...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-19",
+    "modified": "2026-10-10",
     "cover": "el-teatro-en-lima-como-elegir-una-obra-y-consultar-la-cartelera-portada-vivienda-servicios-hogar",
     "internal": [
       "el-teatro-en-lima-como-elegir-una-obra-y-consultar-la-cartelera-presupuesto-desglosado-garantia",
@@ -18683,8 +18683,8 @@
       "vida-practica"
     ],
     "description": "Guía sobre comer con niños en lima: qué preguntar antes de elegir un local en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-20",
+    "modified": "2026-10-10",
     "cover": "comer-con-ninos-en-lima-que-preguntar-antes-de-elegir-un-local-portada-parque-infantil-familiar",
     "internal": [
       "comer-con-ninos-en-lima-que-preguntar-antes-de-elegir-un-local-padres-coche-bebe-sendero",
@@ -18828,8 +18828,8 @@
       "vida-urbana"
     ],
     "description": "Guía sobre paseos con mascotas: cómo confirmar permisos y condiciones del espacio en Lima: planificación, requisitos oficiales, accesibilidad y consejos...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-21",
+    "modified": "2026-10-10",
     "cover": "paseos-con-mascotas-como-confirmar-permisos-y-condiciones-del-espacio-portada-fin-semana-parque",
     "internal": [
       "paseos-con-mascotas-como-confirmar-permisos-y-condiciones-del-espacio-agenda-cultural-parque",
@@ -18973,8 +18973,8 @@
       "recorridos-culturales"
     ],
     "description": "Guía completa sobre museo larco: colecciones y preguntas para organizar el recorrido: historia, arquitectura, horarios de visita y recomendaciones ofici...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-22",
+    "modified": "2026-10-10",
     "cover": "museo-larco-colecciones-y-preguntas-para-organizar-el-recorrido-portada-galeria-museo",
     "internal": [
       "museo-larco-colecciones-y-preguntas-para-organizar-el-recorrido-vitrina-orfebreria-arte",
@@ -19116,8 +19116,8 @@
       "lima-metropolitana"
     ],
     "description": "Guía práctica sobre lavandería por encargo: inventario de prendas y condiciones de recepción en Lima: recomendaciones, pasos preventivos y fuentes ofici...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-23",
+    "modified": "2026-10-10",
     "cover": "lavanderia-por-encargo-inventario-de-prendas-y-condiciones-de-recepcion-portada-vivienda-servicios-hogar",
     "internal": [
       "lavanderia-por-encargo-inventario-de-prendas-y-condiciones-de-recepcion-presupuesto-desglosado-garantia",
@@ -19265,8 +19265,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer Ate: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-24",
+    "modified": "2026-10-10",
     "cover": "ate-y-puruchuco-como-conectar-patrimonio-y-vida-local-portada-patrimonio-arquitectura",
     "internal": [
       "ate-y-puruchuco-como-conectar-patrimonio-y-vida-local-detalle-casona-historica",
@@ -19410,8 +19410,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre licencia de funcionamiento e itse: cómo ubicar requisitos oficiales de tu municipio en Lima: buenas prácticas, obligaciones legales ...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-25",
+    "modified": "2026-10-10",
     "cover": "licencia-de-funcionamiento-e-itse-como-ubicar-requisitos-oficiales-de-tu-municipio-portada-vivienda-servicios-hogar",
     "internal": [
       "licencia-de-funcionamiento-e-itse-como-ubicar-requisitos-oficiales-de-tu-municipio-presupuesto-desglosado-garantia",
@@ -19555,8 +19555,8 @@
       "memoria-historica"
     ],
     "description": "Estudio histórico sobre ferrocarriles y tranvías: cómo cambiaron la movilidad de lima: contexto documental, hitos cronológicos y fuentes archivísticas e...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-26",
+    "modified": "2026-10-10",
     "cover": "ferrocarriles-y-tranvias-como-cambiaron-la-movilidad-de-lima-portada-vivienda-servicios-hogar",
     "internal": [
       "ferrocarriles-y-tranvias-como-cambiaron-la-movilidad-de-lima-presupuesto-desglosado-garantia",
@@ -19700,8 +19700,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre bibliotecas públicas de lima: cómo encontrar una y consultar sus servicios en Lima: historia, expresiones vivas, espacios de difu...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-27",
+    "modified": "2026-10-10",
     "cover": "bibliotecas-publicas-de-lima-como-encontrar-una-y-consultar-sus-servicios-portada-vivienda-servicios-hogar",
     "internal": [
       "bibliotecas-publicas-de-lima-como-encontrar-una-y-consultar-sus-servicios-presupuesto-desglosado-garantia",
@@ -19845,8 +19845,8 @@
       "ocio-urbano"
     ],
     "description": "Guía sobre terrazas gastronómicas del centro de lima: cómo comprobar locales y condiciones en Lima: historia, ingredientes, recomendaciones y consejos p...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-28",
+    "modified": "2026-10-10",
     "cover": "terrazas-gastronomicas-del-centro-de-lima-como-comprobar-locales-y-condiciones-portada-vivienda-servicios-hogar",
     "internal": [
       "terrazas-gastronomicas-del-centro-de-lima-como-comprobar-locales-y-condiciones-presupuesto-desglosado-garantia",
@@ -19990,8 +19990,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre preparar una primera salida de observación de aves en lima en Lima: planificación, requisitos oficiales, accesibilidad y consejos para disfru...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-29",
+    "modified": "2026-10-10",
     "cover": "como-preparar-una-primera-salida-de-observacion-de-aves-en-lima-portada-vivienda-servicios-hogar",
     "internal": [
       "como-preparar-una-primera-salida-de-observacion-de-aves-en-lima-presupuesto-desglosado-garantia",
@@ -20135,8 +20135,8 @@
       "recorridos-culturales"
     ],
     "description": "Guía completa sobre museo de arte contemporáneo de lima: cómo consultar exposiciones: historia, arquitectura, horarios de visita y recomendaciones ofici...",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-30",
+    "modified": "2026-10-10",
     "cover": "museo-de-arte-contemporaneo-de-lima-como-consultar-exposiciones-portada-galeria-museo",
     "internal": [
       "museo-de-arte-contemporaneo-de-lima-como-consultar-exposiciones-vitrina-orfebreria-arte",
@@ -20280,8 +20280,8 @@
       "indecopi"
     ],
     "description": "Guía práctica sobre entregar un vehículo a un car wash y registrar servicios adicionales en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-08-31",
+    "modified": "2026-10-10",
     "cover": "como-entregar-un-vehiculo-a-un-car-wash-y-registrar-servicios-adicionales-portada-vivienda-servicios-hogar",
     "internal": [
       "como-entregar-un-vehiculo-a-un-car-wash-y-registrar-servicios-adicionales-presupuesto-desglosado-garantia",
@@ -20429,8 +20429,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer Chorrillos: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-01",
+    "modified": "2026-10-10",
     "cover": "chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-portada-vivienda-servicios-hogar",
     "internal": [
       "chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-presupuesto-desglosado-garantia",
@@ -20574,8 +20574,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre registro nacional del artesano: dónde consultar requisitos y alcance en Lima: buenas prácticas, obligaciones legales y herramientas ...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-02",
+    "modified": "2026-10-10",
     "cover": "registro-nacional-del-artesano-donde-consultar-requisitos-y-alcance-portada-vivienda-servicios-hogar",
     "internal": [
       "registro-nacional-del-artesano-donde-consultar-requisitos-y-alcance-presupuesto-desglosado-garantia",
@@ -20719,8 +20719,8 @@
       "memoria-historica"
     ],
     "description": "Estudio histórico sobre las migraciones y la transformación de los barrios limeños: contexto documental, hitos cronológicos y fuentes archivísticas en L...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-03",
+    "modified": "2026-10-10",
     "cover": "las-migraciones-y-la-transformacion-de-los-barrios-limenos-portada-distrito-limeno",
     "internal": [
       "las-migraciones-y-la-transformacion-de-los-barrios-limenos-arquitectura-barrio-casonas",
@@ -20864,8 +20864,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre librerías independientes en lima: cómo organizar una ruta de lectura en Lima: historia, expresiones vivas, espacios de difusión y...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-04",
+    "modified": "2026-10-10",
     "cover": "librerias-independientes-en-lima-como-organizar-una-ruta-de-lectura-portada-vivienda-servicios-hogar",
     "internal": [
       "librerias-independientes-en-lima-como-organizar-una-ruta-de-lectura-presupuesto-desglosado-garantia",
@@ -21009,8 +21009,8 @@
       "patrimonio-culinario"
     ],
     "description": "Guía sobre organizar una ruta de postres sin convertirla en un ranking en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el com...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-05",
+    "modified": "2026-10-10",
     "cover": "como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking-portada-pasteleria-limena",
     "internal": [
       "como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking-suspiro-limena-merengue",
@@ -21154,8 +21154,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre organizar un paseo en bicicleta y revisar la ruta previamente en Lima: planificación, requisitos oficiales, accesibilidad y consejos para dis...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-06",
+    "modified": "2026-10-10",
     "cover": "como-organizar-un-paseo-en-bicicleta-y-revisar-la-ruta-previamente-portada-fin-semana-parque",
     "internal": [
       "como-organizar-un-paseo-en-bicicleta-y-revisar-la-ruta-previamente-agenda-cultural-parque",
@@ -21299,8 +21299,8 @@
       "recorridos-culturales"
     ],
     "description": "Guía completa sobre casa de la literatura peruana: espacios y programación para visitantes: historia, arquitectura, horarios de visita y recomendaciones...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-07",
+    "modified": "2026-10-10",
     "cover": "casa-de-la-literatura-peruana-espacios-y-programacion-para-visitantes-portada-vivienda-servicios-hogar",
     "internal": [
       "casa-de-la-literatura-peruana-espacios-y-programacion-para-visitantes-presupuesto-desglosado-garantia",
@@ -21444,8 +21444,8 @@
       "indecopi"
     ],
     "description": "Guía práctica sobre reservar una cita de barbería y explicar el servicio que necesitas en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-08",
+    "modified": "2026-10-10",
     "cover": "como-reservar-una-cita-de-barberia-y-explicar-el-servicio-que-necesitas-portada-vivienda-servicios-hogar",
     "internal": [
       "como-reservar-una-cita-de-barberia-y-explicar-el-servicio-que-necesitas-presupuesto-desglosado-garantia",
@@ -21593,8 +21593,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer Lurín: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-09",
+    "modified": "2026-10-10",
     "cover": "lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica-portada-feria-cultural-plaza",
     "internal": [
       "lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica-instrumentos-artesanias-muestra",
@@ -21738,8 +21738,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre guías oficiales de turismo: cómo consultar registros y acreditaciones en Lima: buenas prácticas, obligaciones legales y herramientas...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-10",
+    "modified": "2026-10-10",
     "cover": "guias-oficiales-de-turismo-como-consultar-registros-y-acreditaciones-portada-vivienda-servicios-hogar",
     "internal": [
       "guias-oficiales-de-turismo-como-consultar-registros-y-acreditaciones-presupuesto-desglosado-garantia",
@@ -21883,8 +21883,8 @@
       "memoria-historica"
     ],
     "description": "Estudio histórico sobre expansión de lima hacia sus antiguos balnearios: contexto documental, hitos cronológicos y fuentes archivísticas en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-11",
+    "modified": "2026-10-10",
     "cover": "la-expansion-de-lima-hacia-sus-antiguos-balnearios-portada-panoramica-historica-lima",
     "internal": [
       "la-expansion-de-lima-hacia-sus-antiguos-balnearios-legajos-cartografia-antigua",
@@ -22028,8 +22028,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre arte urbano en lima: cómo observarlo sin confundir autorías en Lima: historia, expresiones vivas, espacios de difusión y fuentes ...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-12",
+    "modified": "2026-10-10",
     "cover": "arte-urbano-en-lima-como-observarlo-sin-confundir-autorias-portada-mural-arte-urbano",
     "internal": [
       "arte-urbano-en-lima-como-observarlo-sin-confundir-autorias-muralista-pintura-calle",
@@ -22173,8 +22173,8 @@
       "vida-practica"
     ],
     "description": "Guía sobre catering para reuniones en lima: cómo definir el servicio que necesitas en Lima: historia, ingredientes, recomendaciones y consejos prácticos...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-13",
+    "modified": "2026-10-10",
     "cover": "catering-para-reuniones-en-lima-como-definir-el-servicio-que-necesitas-portada-restaurante-limeno",
     "internal": [
       "catering-para-reuniones-en-lima-como-definir-el-servicio-que-necesitas-emplatado-gastronomico",
@@ -22318,8 +22318,8 @@
       "cultura-viva"
     ],
     "description": "Guía sobre talleres de danza en lima: niveles y condiciones antes de inscribirse en Lima: planificación, requisitos oficiales, accesibilidad y consejos ...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-14",
+    "modified": "2026-10-10",
     "cover": "talleres-de-danza-en-lima-niveles-y-condiciones-antes-de-inscribirse-portada-marinera-limena-pareja",
     "internal": [
       "talleres-de-danza-en-lima-niveles-y-condiciones-antes-de-inscribirse-clase-danza-postura-ensayo",
@@ -22463,8 +22463,8 @@
       "turismo-responsable"
     ],
     "description": "Guía completa sobre cementerio presbítero maestro: patrimonio y condiciones de los recorridos: historia, arquitectura, horarios de visita y recomendacio...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-15",
+    "modified": "2026-10-10",
     "cover": "cementerio-presbitero-maestro-patrimonio-y-condiciones-de-los-recorridos-portada-presbitero-maestro",
     "internal": [
       "cementerio-presbitero-maestro-patrimonio-y-condiciones-de-los-recorridos-escultura-marmol-mausoleo",
@@ -22608,8 +22608,8 @@
       "indecopi"
     ],
     "description": "Guía práctica sobre organizar una reunión en casa y coordinar varios proveedores en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-16",
+    "modified": "2026-10-10",
     "cover": "como-organizar-una-reunion-en-casa-y-coordinar-varios-proveedores-portada-administracion-edificio",
     "internal": [
       "como-organizar-una-reunion-en-casa-y-coordinar-varios-proveedores-checklist-mantenimiento-tecnico",
@@ -22757,8 +22757,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer Jesús María: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-17",
+    "modified": "2026-10-10",
     "cover": "jesus-maria-espacios-publicos-y-recursos-culturales-para-vecinos-portada-feria-cultural-plaza",
     "internal": [
       "jesus-maria-espacios-publicos-y-recursos-culturales-para-vecinos-instrumentos-artesanias-muestra",
@@ -22902,8 +22902,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre preparar la información de tu negocio para atender consultas por whatsapp en Lima: buenas prácticas, obligaciones legales y herramie...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-18",
+    "modified": "2026-10-10",
     "cover": "como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-portada-atencion-whatsapp-negocio",
     "internal": [
       "como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp-mensajes-atencion-cliente-movil",
@@ -23047,8 +23047,8 @@
       "memoria-historica"
     ],
     "description": "Estudio histórico sobre historia del abastecimiento de agua en lima: contexto documental, hitos cronológicos y fuentes archivísticas en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-19",
+    "modified": "2026-10-10",
     "cover": "historia-del-abastecimiento-de-agua-en-lima-portada-pila-bronce-agua-lima",
     "internal": [
       "historia-del-abastecimiento-de-agua-en-lima-acueductos-arcilla-sistema",
@@ -23192,8 +23192,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre artesanía en lima: materiales, oficios y lugares de encuentro en Lima: historia, expresiones vivas, espacios de difusión y fuente...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-20",
+    "modified": "2026-10-10",
     "cover": "artesania-en-lima-materiales-oficios-y-lugares-de-encuentro-portada-mercado-artesanal-lima",
     "internal": [
       "artesania-en-lima-materiales-oficios-y-lugares-de-encuentro-artesano-retablo-taller",
@@ -23337,8 +23337,8 @@
       "patrimonio-culinario"
     ],
     "description": "Guía sobre tortas por encargo: tamaños, diseño y condiciones de entrega en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el co...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-21",
+    "modified": "2026-10-10",
     "cover": "tortas-por-encargo-tamanos-diseno-y-condiciones-de-entrega-portada-pasteleria-limena",
     "internal": [
       "tortas-por-encargo-tamanos-diseno-y-condiciones-de-entrega-suspiro-limena-merengue",
@@ -23482,8 +23482,8 @@
       "cultura-viva"
     ],
     "description": "Guía sobre clases de música en lima: cómo comparar formatos y objetivos en Lima: planificación, requisitos oficiales, accesibilidad y consejos para disf...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-22",
+    "modified": "2026-10-10",
     "cover": "clases-de-musica-en-lima-como-comparar-formatos-y-objetivos-portada-vivienda-servicios-hogar",
     "internal": [
       "clases-de-musica-en-lima-como-comparar-formatos-y-objetivos-presupuesto-desglosado-garantia",
@@ -23627,8 +23627,8 @@
       "turismo-responsable"
     ],
     "description": "Guía completa sobre circuito mágico del agua: qué comprobar antes de organizar una salida: historia, arquitectura, horarios de visita y recomendaciones ...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-23",
+    "modified": "2026-10-10",
     "cover": "circuito-magico-del-agua-que-comprobar-antes-de-organizar-una-salida-portada-circuito-magico-agua",
     "internal": [
       "circuito-magico-del-agua-que-comprobar-antes-de-organizar-una-salida-tunel-arcos-agua-luces",
@@ -23772,8 +23772,8 @@
       "indecopi"
     ],
     "description": "Guía práctica sobre solicitar fotografía para un evento: entregables y autorizaciones en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-24",
+    "modified": "2026-10-10",
     "cover": "como-solicitar-fotografia-para-un-evento-entregables-y-autorizaciones-portada-estudio-impresion-grafica",
     "internal": [
       "como-solicitar-fotografia-para-un-evento-entregables-y-autorizaciones-pruebas-color-calidad-papel",
@@ -23921,8 +23921,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer San Borja: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-25",
+    "modified": "2026-10-10",
     "cover": "san-borja-como-preparar-un-recorrido-entre-espacios-culturales-portada-feria-cultural-plaza",
     "internal": [
       "san-borja-como-preparar-un-recorrido-entre-espacios-culturales-instrumentos-artesanias-muestra",
@@ -24066,8 +24066,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre solicitar una reseña sin comprar opiniones ni condicionar incentivos en Lima: buenas prácticas, obligaciones legales y herramientas ...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-26",
+    "modified": "2026-10-10",
     "cover": "como-solicitar-una-resena-sin-comprar-opiniones-ni-condicionar-incentivos-portada-vivienda-servicios-hogar",
     "internal": [
       "como-solicitar-una-resena-sin-comprar-opiniones-ni-condicionar-incentivos-presupuesto-desglosado-garantia",
@@ -24211,8 +24211,8 @@
       "memoria-historica"
     ],
     "description": "Estudio histórico sobre plan maestro del centro histórico: objetivos y avances que debemos comprobar: contexto documental, hitos cronológicos y fuentes ...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-27",
+    "modified": "2026-10-10",
     "cover": "el-plan-maestro-del-centro-historico-objetivos-y-avances-que-debemos-comprobar-portada-panoramica-historica-lima",
     "internal": [
       "el-plan-maestro-del-centro-historico-objetivos-y-avances-que-debemos-comprobar-legajos-cartografia-antigua",
@@ -24356,8 +24356,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre fotografía urbana en lima: permisos, respeto y documentación en Lima: historia, expresiones vivas, espacios de difusión y fuentes...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-28",
+    "modified": "2026-10-10",
     "cover": "fotografia-urbana-en-lima-permisos-respeto-y-documentacion-portada-estudio-impresion-grafica",
     "internal": [
       "fotografia-urbana-en-lima-permisos-respeto-y-documentacion-pruebas-color-calidad-papel",
@@ -24501,8 +24501,8 @@
       "ocio-urbano"
     ],
     "description": "Guía sobre café de especialidad en lima: conceptos para entender una carta en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-29",
+    "modified": "2026-10-10",
     "cover": "cafe-de-especialidad-en-lima-conceptos-para-entender-una-carta-portada-cafeteria-especialidad",
     "internal": [
       "cafe-de-especialidad-en-lima-conceptos-para-entender-una-carta-extraccion-cafe-filtrado",
@@ -24646,8 +24646,8 @@
       "vida-urbana"
     ],
     "description": "Guía sobre preparar una excursión corta fuera de lima sin confundir distancias en Lima: planificación, requisitos oficiales, accesibilidad y consejos pa...",
-    "published": null,
-    "modified": null,
+    "published": "2026-09-30",
+    "modified": "2026-10-10",
     "cover": "como-preparar-una-excursion-corta-fuera-de-lima-sin-confundir-distancias-portada-fin-semana-parque",
     "internal": [
       "como-preparar-una-excursion-corta-fuera-de-lima-sin-confundir-distancias-agenda-cultural-parque",
@@ -24791,8 +24791,8 @@
       "recorridos-culturales"
     ],
     "description": "Guía completa sobre preparar una visita a un museo con niños: historia, arquitectura, horarios de visita y recomendaciones oficiales en Lima.",
-    "published": null,
-    "modified": null,
+    "published": "2026-10-01",
+    "modified": "2026-10-10",
     "cover": "como-preparar-una-visita-a-un-museo-con-ninos-portada-galeria-museo",
     "internal": [
       "como-preparar-una-visita-a-un-museo-con-ninos-vitrina-orfebreria-arte",
@@ -24936,8 +24936,8 @@
       "indecopi"
     ],
     "description": "Guía práctica sobre contratar impresión de materiales: medidas, pruebas y entrega en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-10-02",
+    "modified": "2026-10-10",
     "cover": "como-contratar-impresion-de-materiales-medidas-pruebas-y-entrega-portada-estudio-impresion-grafica",
     "internal": [
       "como-contratar-impresion-de-materiales-medidas-pruebas-y-entrega-pruebas-color-calidad-papel",
@@ -25085,8 +25085,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer Barrios Altos: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": null,
-    "modified": null,
+    "published": "2026-10-03",
+    "modified": "2026-10-10",
     "cover": "barrios-altos-memoria-vecinal-y-planificacion-de-una-visita-respetuosa-portada-calle-barrios-altos",
     "internal": [
       "barrios-altos-memoria-vecinal-y-planificacion-de-una-visita-respetuosa-zaguan-quinta-historica",
@@ -25230,8 +25230,8 @@
       "buenas-practicas"
     ],
     "description": "Guía práctica sobre preparar una entrevista documentada sobre la historia de un negocio local en Lima: buenas prácticas, obligaciones legales y herramie...",
-    "published": null,
-    "modified": null,
+    "published": "2026-10-04",
+    "modified": "2026-10-10",
     "cover": "como-preparar-una-entrevista-documentada-sobre-la-historia-de-un-negocio-local-portada-panoramica-historica-lima",
     "internal": [
       "como-preparar-una-entrevista-documentada-sobre-la-historia-de-un-negocio-local-legajos-cartografia-antigua",
@@ -25375,8 +25375,8 @@
       "memoria-historica"
     ],
     "description": "Estudio histórico sobre leer fotografías antiguas de lima sin confundir fechas y lugares: contexto documental, hitos cronológicos y fuentes archivística...",
-    "published": null,
-    "modified": null,
+    "published": "2026-10-05",
+    "modified": "2026-10-10",
     "cover": "como-leer-fotografias-antiguas-de-lima-sin-confundir-fechas-y-lugares-portada-panoramica-historica-lima",
     "internal": [
       "como-leer-fotografias-antiguas-de-lima-sin-confundir-fechas-y-lugares-legajos-cartografia-antigua",
@@ -25520,8 +25520,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre ferias culturales en lima: cómo encontrar programación vigente en Lima: historia, expresiones vivas, espacios de difusión y fuent...",
-    "published": null,
-    "modified": null,
+    "published": "2026-10-06",
+    "modified": "2026-10-10",
     "cover": "ferias-culturales-en-lima-como-encontrar-programacion-vigente-portada-feria-cultural-plaza",
     "internal": [
       "ferias-culturales-en-lima-como-encontrar-programacion-vigente-instrumentos-artesanias-muestra",
@@ -25665,8 +25665,8 @@
       "vida-practica"
     ],
     "description": "Guía sobre organizar una salida gastronómica con un presupuesto definido en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el c...",
-    "published": null,
-    "modified": null,
+    "published": "2026-10-07",
+    "modified": "2026-10-10",
     "cover": "como-organizar-una-salida-gastronomica-con-un-presupuesto-definido-portada-vivienda-servicios-hogar",
     "internal": [
       "como-organizar-una-salida-gastronomica-con-un-presupuesto-definido-presupuesto-desglosado-garantia",
@@ -25810,8 +25810,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre construir un calendario familiar de actividades sin saturar el fin de semana en Lima: planificación, requisitos oficiales, accesibilidad y co...",
-    "published": null,
-    "modified": null,
+    "published": "2026-10-08",
+    "modified": "2026-10-10",
     "cover": "como-construir-un-calendario-familiar-de-actividades-sin-saturar-el-fin-de-semana-portada-parque-infantil-familiar",
     "internal": [
       "como-construir-un-calendario-familiar-de-actividades-sin-saturar-el-fin-de-semana-padres-coche-bebe-sendero",
@@ -25955,8 +25955,8 @@
       "turismo-responsable"
     ],
     "description": "Guía completa sobre usar catálogos y visitas virtuales para conocer el patrimonio limeño: historia, arquitectura, horarios de visita y recomendaciones o...",
-    "published": null,
-    "modified": null,
+    "published": "2026-10-09",
+    "modified": "2026-10-10",
     "cover": "como-usar-catalogos-y-visitas-virtuales-para-conocer-el-patrimonio-limeno-portada-patrimonio-arquitectura",
     "internal": [
       "como-usar-catalogos-y-visitas-virtuales-para-conocer-el-patrimonio-limeno-detalle-casona-historica",
@@ -26100,8 +26100,8 @@
       "servicios-locales"
     ],
     "description": "Guía práctica sobre guardar constancias y presentar una incidencia después de un servicio en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": null,
-    "modified": null,
+    "published": "2026-10-10",
+    "modified": "2026-10-10",
     "cover": "como-guardar-constancias-y-presentar-una-incidencia-despues-de-un-servicio-portada-administracion-edificio",
     "internal": [
       "como-guardar-constancias-y-presentar-una-incidencia-despues-de-un-servicio-checklist-mantenimiento-tecnico",

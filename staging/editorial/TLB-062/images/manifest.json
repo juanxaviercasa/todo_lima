@@ -35,13 +35,13 @@
           "format": "webp"
         }
       ],
-      "alt": "Avenida residencial y comercial representativa de distrito limeño con árboles y fachadas cuidadas",
-      "caption": "Avenida residencial y comercial representativa de distrito limeño con árboles y fachadas cuidadas. Recreación visual documental para Todo Lima.",
+      "alt": "Avenida residencial y comercial representativa de distrito limeño con árboles y fachadas cuidadas en Lima, Perú",
+      "caption": "Avenida residencial y comercial representativa de distrito limeño con árboles y fachadas cuidadas en Lima, Perú. Perspectiva editorial contextual para Todo Lima.",
       "provider_used": null,
       "model_used": null,
       "source_url": null,
       "license_or_permission": "Uso editorial planificado para Todo Lima",
-      "status": "pendiente_generacion",
+      "status": "publicado_r2",
       "visually_reviewed": false
     },
     {
@@ -77,12 +77,12 @@
         }
       ],
       "alt": "Arquitectura de casonas y plazas de barrio emblemáticas en distrito tradicional de Lima",
-      "caption": "Arquitectura de casonas y plazas de barrio emblemáticas en distrito tradicional de Lima. Detalle contextual para Todo Lima.",
+      "caption": "Arquitectura de casonas y plazas de barrio emblemáticas en distrito tradicional de Lima. Perspectiva editorial contextual para Todo Lima.",
       "provider_used": null,
       "model_used": null,
       "source_url": null,
       "license_or_permission": "Uso editorial planificado para Todo Lima",
-      "status": "pendiente_generacion",
+      "status": "publicado_r2",
       "visually_reviewed": false
     },
     {
@@ -117,13 +117,13 @@
           "format": "webp"
         }
       ],
-      "alt": "Vida cotidiana de barrio con vecinos disfrutando de cafeterías locales y parques cuidados",
-      "caption": "Vida cotidiana de barrio con vecinos disfrutando de cafeterías locales y parques cuidados. Perspectiva urbana para Todo Lima.",
+      "alt": "Vida cotidiana de barrio con vecinos disfrutando de cafeterías locales y parques cuidados en Lima, Perú",
+      "caption": "Vida cotidiana de barrio con vecinos disfrutando de cafeterías locales y parques cuidados en Lima, Perú. Perspectiva editorial contextual para Todo Lima.",
       "provider_used": null,
       "model_used": null,
       "source_url": null,
       "license_or_permission": "Uso editorial planificado para Todo Lima",
-      "status": "pendiente_generacion",
+      "status": "publicado_r2",
       "visually_reviewed": false
     }
   ]

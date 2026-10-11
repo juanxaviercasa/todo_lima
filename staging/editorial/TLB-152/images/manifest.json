@@ -35,13 +35,13 @@
           "format": "webp"
         }
       ],
-      "alt": "Mural artístico contemporáneo de gran formato en muro urbano de Barranco con motivos peruanos",
-      "caption": "Mural artístico contemporáneo de gran formato en muro urbano de Barranco con motivos peruanos. Recreación visual documental para Todo Lima.",
+      "alt": "Mural artístico contemporáneo de gran formato en muro urbano de Barranco con motivos peruanos en Lima, Perú",
+      "caption": "Mural artístico contemporáneo de gran formato en muro urbano de Barranco con motivos peruanos en Lima, Perú. Perspectiva editorial contextual para Todo Lima.",
       "provider_used": null,
       "model_used": null,
       "source_url": null,
       "license_or_permission": "Uso editorial planificado para Todo Lima",
-      "status": "pendiente_generacion",
+      "status": "publicado_r2",
       "visually_reviewed": false
     },
     {
@@ -77,12 +77,12 @@
         }
       ],
       "alt": "Muralista retocando con pincel detalles de pintura mural al aire libre en calle de Lima",
-      "caption": "Muralista retocando con pincel detalles de pintura mural al aire libre en calle de Lima. Detalle contextual para Todo Lima.",
+      "caption": "Muralista retocando con pincel detalles de pintura mural al aire libre en calle de Lima. Perspectiva editorial contextual para Todo Lima.",
       "provider_used": null,
       "model_used": null,
       "source_url": null,
       "license_or_permission": "Uso editorial planificado para Todo Lima",
-      "status": "pendiente_generacion",
+      "status": "publicado_r2",
       "visually_reviewed": false
     },
     {
@@ -118,12 +118,12 @@
         }
       ],
       "alt": "Jóvenes contemplando intervenciones de arte urbano en pasaje peatonal recuperado en Lima",
-      "caption": "Jóvenes contemplando intervenciones de arte urbano en pasaje peatonal recuperado en Lima. Perspectiva urbana para Todo Lima.",
+      "caption": "Jóvenes contemplando intervenciones de arte urbano en pasaje peatonal recuperado en Lima. Perspectiva editorial contextual para Todo Lima.",
       "provider_used": null,
       "model_used": null,
       "source_url": null,
       "license_or_permission": "Uso editorial planificado para Todo Lima",
-      "status": "pendiente_generacion",
+      "status": "publicado_r2",
       "visually_reviewed": false
     }
   ]
