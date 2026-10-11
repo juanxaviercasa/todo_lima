@@ -25,6 +25,15 @@ try {
       assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`${slug} overflow ${width}`);
       const box=await page.locator('.editorial-hero-media img').boundingBox();
       assert.ok(Math.abs(box.width/box.height-16/9)<.01);
+      if(slug==='contacto'){
+        assert.match(await page.locator('#mapa-lima iframe').getAttribute('src'),/www\.google\.com\/maps/);
+        assert.equal(await page.locator('textarea[name="message"]').getAttribute('rows'),'4');
+        assert.ok((await page.locator('#formulario-contacto').boundingBox()).width<=(width>=1024?700:width));
+        await page.locator('#mapa-lima').scrollIntoViewIfNeeded();
+        await page.waitForTimeout(2500);
+        await page.screenshot({path:`${process.env.TEMP}/todo-lima-contact-${width}.png`,fullPage:true});
+      }
+      if(slug==='mapa-del-sitio')assert.equal(await page.locator('#mapa-lima iframe').count(),1);
     }
     if(width<1280){await page.getByRole('button',{name:'Abrir menú'}).click();assert.ok(await page.locator('#mobile-menu a[href="/contacto"]').isVisible());await page.keyboard.press('Escape');}
   }
