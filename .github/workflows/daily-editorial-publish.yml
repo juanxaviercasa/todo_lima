@@ -1,4 +1,4 @@
-name: Publicacion Editorial Diaria (3 slots: Manana, Tarde, Noche)
+name: 'Publicacion Editorial Diaria (3 slots: Manana, Tarde, Noche)'
 
 on:
   schedule:
