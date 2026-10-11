@@ -179,6 +179,8 @@ export default function Footer() {
         {/* Barra de cumplimiento normativo y legal 360° */}
         <div className="mt-12 pt-8 border-t border-slate-800/80">
           <nav aria-label="Guías y transparencia" className="flex flex-wrap justify-center gap-5 mb-8 text-slate-200">
+            <Link href="/sobre-nosotros">Sobre nosotros</Link>
+            <Link href="/contacto">Contacto</Link>
             <Link href="/guias">Guías para elegir</Link>
             <Link href="/blog">Blog de Lima</Link>
             <Link href="/herramientas">Herramientas Pymes</Link>
@@ -234,12 +236,12 @@ export default function Footer() {
               <div>
                 © {new Date().getFullYear()} Todo Lima Network (todolima.com). Todos los derechos reservados. • Desarrollado por{' '}
                 <a 
-                  href="https://xavier.cabellosalirosas.com" 
+                  href="https://xavier.cabellosalirrosas.com"
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-sky-400 hover:text-sky-300 font-bold underline transition-colors"
                 >
-                  Xavier Cabello
+                  Xavier Cabello Salirrosas
                 </a>
               </div>
 

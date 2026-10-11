@@ -71,7 +71,7 @@ export default function AvisoLegalPage() {
                 <div>
                   <span className="text-slate-500 dark:text-slate-400 block text-xs">Arquitectura y Desarrollo Tecnológico:</span>
                   <a href={LEGAL_DEV_URL} target="_blank" rel="noopener noreferrer" className="text-sky-600 dark:text-sky-400 underline font-medium">
-                    Xavier Cabello
+                    Xavier Cabello Salirrosas
                   </a>
                 </div>
               </div>

@@ -8,6 +8,7 @@ export default function sitemap() {
   // Legal pages have no invented update date. Editorial dates are maintained
   // explicitly when the corresponding content changes.
   return [
+    ...['/sobre-nosotros', '/contacto', '/herramientas'].map(p => ({url: `${SITE_URL}${p}`})),
     route('/blog', '2026-10-10'),
     ...BLOG_POSTS.map(p => route('/blog/'+p.slug,p.modified)),
     ...pages.map(p => p === '' || ['/guias', '/metodologia', '/correcciones', '/para-negocios'].includes(p) ? route(p) : { url: `${SITE_URL}${p}` }),
