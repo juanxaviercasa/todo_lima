@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Navbar from '../../components/Navbar.js';
 import Footer from '../../components/Footer.js';
 import JsonLd from '../../components/JsonLd.js';
+import AtlasHero from '../../components/AtlasHero.js';
 import AtlasIcon from '../../components/AtlasIcon.js';
 import { getPillars } from '../../lib/atlas.js';
 import { ATLAS_IMAGES } from '../../lib/atlasImages.js';
@@ -19,7 +20,7 @@ import {
 
 export const metadata = pageMetadata(
   'Conoce Lima: Atlas Territorial, Histórico y Cultural | Todo Lima',
-  'Enciclopedia de referencia sobre Lima Metropolitana. 7 pilares esenciales sobre historia prehispánica y virreinal, gastronomía criolla, tradiciones vivas, geografía, transporte, las 5 Limas y clústeres comerciales.',
+  'Enciclopedia de referencia sobre Lima Metropolitana. siete temas sobre historia prehispánica y virreinal, gastronomía criolla, tradiciones vivas, geografía, transporte, las 5 Limas y clústeres comerciales.',
   '/conoce-lima',
   ATLAS_IMAGES['atlas-hub-hero']
 );
@@ -52,94 +53,24 @@ export default function ConoceLimaHubPage() {
   return (
     <>
       <Navbar />
-      <main id="contenido" className="min-w-0 [overflow-wrap:anywhere] flex-grow">
+      <main id="contenido" className="atlas-page min-w-0 flex-grow">
         {/* Hero Section con Fotografía Panorámica */}
-        <header className="relative overflow-hidden bg-slate-950 text-white py-14 sm:py-20 border-b border-slate-800">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-sky-900/30 via-slate-950/80 to-slate-950 pointer-events-none" />
-          
-          <div className="relative max-w-7xl mx-auto px-5">
-            <nav aria-label="Ruta de navegación" className="flex flex-wrap gap-2 text-xs sm:text-sm text-slate-400 mb-6">
-              <Link href="/" className="hover:text-white transition-colors">Inicio</Link>
-              <span>/</span>
-              <span className="text-sky-400 font-semibold">Conoce Lima (Atlas)</span>
-            </nav>
-
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-              <div className="lg:col-span-7">
-                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-bold tracking-wide uppercase mb-6">
-                  <Sparkles className="w-3.5 h-3.5" />
-                  <span>Atlas Conoce Lima · Enciclopedia Territorial y Cultural</span>
-                </div>
-
-                <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">
-                  La identidad, historia y geografía de <span className="text-sky-400">Lima Metropolitana</span>
-                </h1>
-
-                <p className="mt-5 text-base sm:text-lg text-slate-300 max-w-2xl leading-relaxed">
-                  Un compendio referencial permanente diseñado para ciudadanos, visitantes e investigadores. 
-                  Siete pilares de conocimiento estructurado que desglosan la evolución milenaria, el mestizaje culinario, 
-                  la división territorial y los motores económicos de la capital del Perú.
-                </p>
-
-                {/* Quick Metrics Bar */}
-                <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4 border-t border-slate-800/80 pt-6">
-                  <div>
-                    <p className="text-2xl sm:text-3xl font-black text-sky-400">7</p>
-                    <p className="text-xs text-slate-400 font-medium">Pilares Canónicos</p>
-                  </div>
-                  <div>
-                    <p className="text-2xl sm:text-3xl font-black text-emerald-400">43 + Callao</p>
-                    <p className="text-xs text-slate-400 font-medium">Distritos Documentados</p>
-                  </div>
-                  <div>
-                    <p className="text-2xl sm:text-3xl font-black text-amber-400">5</p>
-                    <p className="text-xs text-slate-400 font-medium">Macrozonas Metropolitanas</p>
-                  </div>
-                  <div>
-                    <p className="text-2xl sm:text-3xl font-black text-purple-400">100%</p>
-                    <p className="text-xs text-slate-400 font-medium">Fuentes Institucionales</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Showcase Panorámico de Fotografía Documental */}
-              <div className="lg:col-span-5">
-                <figure className="relative rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl group">
-                  <img
-                    src={hubHero.src}
-                    srcSet={hubHero.srcSet}
-                    sizes="(min-width: 1024px) 500px, 100vw"
-                    alt={hubHero.alt}
-                    width="1440"
-                    height="810"
-                    fetchPriority="high"
-                    className="w-full h-auto aspect-[16/9] object-cover group-hover:scale-105 transition-transform duration-700"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none" />
-                  <figcaption className="absolute bottom-3 left-3 right-3 text-[11px] text-slate-300 bg-slate-950/80 backdrop-blur-sm p-2 rounded-lg border border-slate-800/80">
-                    <span className="font-semibold text-white">Costa Verde y horizonte Pacífico:</span> Panorámica documental de la capital peruana.
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
-          </div>
-        </header>
+        <AtlasHero image={hubHero} title="Lima, una ciudad por descubrir" intro="Explora su historia, gastronomía, tradiciones y barrios. Siete recorridos temáticos para entender la ciudad y conectar con su vida local."/>
 
         {/* Contenedor Principal de Pilares */}
-        <div className="max-w-7xl mx-auto px-5 py-12 sm:py-16 space-y-12">
+        <div id="temas-lima" className="max-w-7xl mx-auto px-5 py-10 sm:py-14 space-y-10 scroll-mt-24">
           <div>
             <div className="flex items-center gap-3 mb-3">
               <Compass className="w-5 h-5 text-sky-600 dark:text-sky-400" />
               <span className="text-xs font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400">
-                Estructura de Referencia Permanente
+                Elige por dónde empezar
               </span>
             </div>
             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">
-              Los 7 Pilares del Conocimiento Limeño
+              Siete formas de conocer Lima
             </h2>
             <p className="mt-2 text-sm sm:text-base text-slate-600 dark:text-slate-400 max-w-2xl">
-              Cada módulo integra fotografía hiperrealista, una matriz estructural comparativa, narrativa de profundidad contextual, 
-              entidades enlazadas de Wikidata y conexiones directas con los distritos y comercios de la ciudad.
+              Historia, sabores, cultura, paisajes, transporte, barrios y comercio: encuentra el tema que te interesa y sigue explorando.
             </p>
           </div>
 
@@ -163,9 +94,9 @@ export default function ConoceLimaHubPage() {
                         loading="lazy"
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       />
-                      <div className="absolute top-3 left-3 flex items-center gap-2">
+                      <div className="absolute top-3 left-3 right-3 flex items-start gap-2">
                         <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-slate-950/80 backdrop-blur-sm text-white border border-white/20">
-                          Pilar 0{pillar.order}
+                          {pillar.shortTitle}
                         </span>
                       </div>
                       <div className="absolute bottom-3 right-3 w-9 h-9 rounded-xl bg-slate-950/80 backdrop-blur-sm border border-white/20 flex items-center justify-center text-sky-400">
@@ -182,7 +113,7 @@ export default function ConoceLimaHubPage() {
                         </Link>
                       </h3>
 
-                      <p className="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed line-clamp-3">
+                      <p className="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
                         {pillar.metaDescription}
                       </p>
 
@@ -193,9 +124,9 @@ export default function ConoceLimaHubPage() {
                         </p>
                         <ul className="space-y-1 text-xs text-slate-600 dark:text-slate-300">
                           {pillar.sections.slice(0, 3).map((sec) => (
-                            <li key={sec.id} className="flex items-center gap-1.5 truncate">
-                              <span className="w-1.5 h-1.5 rounded-full bg-sky-500 shrink-0" />
-                              <span className="truncate">{sec.title}</span>
+                            <li key={sec.id} className="flex items-start gap-2 min-w-0">
+                              <span className="w-1.5 h-1.5 mt-1.5 rounded-full bg-sky-500 shrink-0" />
+                              <span className="min-w-0 leading-relaxed">{sec.title}</span>
                             </li>
                           ))}
                         </ul>
@@ -208,7 +139,7 @@ export default function ConoceLimaHubPage() {
                         href={`/conoce-lima/${pillar.slug}`}
                         className="inline-flex items-center justify-between w-full font-bold text-xs sm:text-sm text-sky-600 dark:text-sky-400 group-hover:text-sky-700 dark:group-hover:text-sky-300"
                       >
-                        <span>Explorar contenido completo</span>
+                        <span>Explorar este tema</span>
                         <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
                       </Link>
                     </div>
@@ -223,17 +154,13 @@ export default function ConoceLimaHubPage() {
             <div className="relative z-10 max-w-3xl">
               <div className="flex items-center gap-2 text-sky-400 text-xs font-bold uppercase tracking-widest mb-3">
                 <ShieldCheck className="w-4 h-4" />
-                <span>Rigor y Verificación Documental</span>
+                <span>Fuentes y contexto</span>
               </div>
               <h3 className="text-2xl sm:text-3xl font-extrabold mb-4">
                 Construido sobre datos públicos y fuentes primarias
               </h3>
               <p className="text-slate-300 text-sm sm:text-base leading-relaxed mb-6">
-                El Atlas Conoce Lima no utiliza contenido genérico ni redactado al azar. Todas las matrices, 
-                marcos legales y cronologías han sido consolidadas y verificadas consultando repositorios oficiales 
-                de la Municipalidad Metropolitana de Lima (MML/PROLIMA), el Ministerio de Cultura (MINCUL), 
-                el Instituto Nacional de Estadística e Informática (INEI), la Autoridad de Transporte Urbano (ATU), 
-                el Archivo General de la Nación (AGN) y el diario oficial El Peruano.
+                Cada tema reúne contexto, datos y referencias para seguir investigando. Puedes consultar la metodología editorial y proponer una corrección si encuentras información desactualizada. Las imágenes son ilustraciones generadas con IA, no fotografías documentales.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Link
