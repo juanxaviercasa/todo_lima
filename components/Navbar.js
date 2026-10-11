@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import ThemeToggle from './ThemeToggle.js';
-const links = [['Categorías', '/#directorios'], ['Herramientas', '/herramientas'], ['Guías', '/guias'], ['Blog', '/blog'], ['Para negocios', '/para-negocios']];
+const links = [['Categorías', '/#directorios'], ['Conoce Lima', '/conoce-lima'], ['Herramientas', '/herramientas'], ['Guías', '/guias'], ['Blog', '/blog'], ['Para negocios', '/para-negocios']];
 const institutional = [['Sobre nosotros','/sobre-nosotros'],['Contacto','/contacto'],['Preguntas frecuentes','/preguntas-frecuentes'],['Equipo editorial','/equipo-editorial'],['Cómo funciona','/metodologia'],['Mapa del sitio','/mapa-del-sitio']];
 export default function Navbar() {
   const [open, setOpen] = useState(false);
