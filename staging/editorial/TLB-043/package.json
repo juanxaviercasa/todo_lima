@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-043",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "fundacion-espanola-de-lima-contexto-y-eleccion-del-lugar",
     "title": "Fundación española de Lima: contexto y elección del lugar",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

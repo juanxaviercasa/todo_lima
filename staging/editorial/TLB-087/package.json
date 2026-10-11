@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-087",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "los-caminos-prehispanicos-de-lima-y-su-relacion-con-el-qhapaq-nan",
     "title": "Los caminos prehispánicos de Lima y su relación con el Qhapaq Ñan",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

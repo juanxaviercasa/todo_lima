@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-021",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "el-ceviche-y-su-lugar-en-la-cultura-gastronomica-de-lima",
     "title": "El ceviche y su lugar en la cultura gastronómica de Lima",
@@ -418,6 +418,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

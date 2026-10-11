@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-061",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "miraflores-en-un-dia-como-conectar-malecon-parques-y-vida-de-barrio",
     "title": "Miraflores en un día: cómo conectar malecón, parques y vida de barrio",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

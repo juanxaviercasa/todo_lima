@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-055",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "el-rio-rimac-y-la-formacion-de-la-ciudad-de-lima",
     "title": "El río Rímac y la formación de la ciudad de Lima",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

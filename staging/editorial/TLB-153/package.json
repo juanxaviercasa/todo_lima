@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-153",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "catering-para-reuniones-en-lima-como-definir-el-servicio-que-necesitas",
     "title": "Catering para reuniones en Lima: cómo definir el servicio que necesitas",
@@ -418,6 +418,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-096",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "santa-rosa-de-lima-memoria-lugares-y-tradiciones",
     "title": "Santa Rosa de Lima: memoria, lugares y tradiciones",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

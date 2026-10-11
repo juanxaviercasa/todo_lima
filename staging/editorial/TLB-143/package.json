@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-143",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "las-migraciones-y-la-transformacion-de-los-barrios-limenos",
     "title": "Las migraciones y la transformación de los barrios limeños",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

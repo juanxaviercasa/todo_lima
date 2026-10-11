@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-046",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "como-preparar-un-picnic-en-lima-y-confirmar-las-reglas-del-lugar",
     "title": "Cómo preparar un picnic en Lima y confirmar las reglas del lugar",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

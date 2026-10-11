@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-152",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "arte-urbano-en-lima-como-observarlo-sin-confundir-autorias",
     "title": "Arte urbano en Lima: cómo observarlo sin confundir autorías",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

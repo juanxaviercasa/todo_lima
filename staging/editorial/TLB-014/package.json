@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-014",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "como-consultar-el-directorio-oficial-de-prestadores-turisticos-antes-de-reservar",
     "title": "Cómo consultar el directorio oficial de prestadores turísticos antes de reservar",
@@ -431,6 +431,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

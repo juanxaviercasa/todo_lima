@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-020",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "como-confirmar-la-cobertura-de-un-servicio-a-domicilio-en-tu-distrito",
     "title": "Cómo confirmar la cobertura de un servicio a domicilio en tu distrito",
@@ -433,6 +433,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

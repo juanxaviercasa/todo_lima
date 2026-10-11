@@ -1,0 +1,60 @@
+name: Publicacion Editorial Diaria (3 articulos/dia)
+
+on:
+  schedule:
+    # Ejecucion programada diaria a las 14:00 UTC (09:00 AM hora de Lima UTC-5)
+    - cron: '0 14 * * *'
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'Cantidad de articulos a publicar (por defecto 3)'
+        required: false
+        default: '3'
+
+permissions:
+  contents: write
+
+jobs:
+  publish-batch:
+    runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_CDN_URL: 'https://cdn.todolima.com'
+      NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: 'pk_test_ZW1pbmVudC1tb25rZXktNDI3MS5jbGVyay5hY2NvdW50cy5kZXYk'
+      NEXT_PUBLIC_SUPABASE_URL: 'https://uhpekavdwcezyzzgsdnn.supabase.co'
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: 'sb_publishable_t_lABd7P00vlDhGw7QwReA_439h1BCC'
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Instalar dependencias
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Publicar lote editorial del dia
+        id: publish
+        run: |
+          COUNT="${{ github.event.inputs.count || '3' }}"
+          node scripts/publish-daily-batch.mjs --count "$COUNT"
+
+      - name: Validar compilacion estatica de produccion
+        run: npm run build
+
+      - name: Confirmar y sincronizar cambios en Git
+        run: |
+          git config user.name "Todo Lima Editorial Bot"
+          git config user.email "bot@todolima.com"
+          git add data/blog/posts.json staging/editorial/
+          if git diff --staged --quiet; then
+            echo "No se encontraron cambios pendientes para confirmar."
+          else
+            BATCH_DATE=$(node -e "console.log(new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Lima' }).format(new Date()))")
+            git commit -m "feat(editorial): publicacion automatizada de 3 articulos ($BATCH_DATE)"
+            git push origin main
+          fi

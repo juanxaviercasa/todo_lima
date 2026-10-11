@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-002",
-  "stage": "borrador",
+  "stage": "publicado",
   "content": {
     "slug": "tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar",
     "title": "Tarjetas del transporte público de Lima: dónde funcionan y qué confirmar",
@@ -14,8 +14,8 @@
       "metropolitano"
     ],
     "description": "Conoce dónde funcionan la tarjeta TIT, Lima Pass y Metro de Lima, sus tarifas de recarga y los puntos oficiales de transbordo en la capital.",
-    "published": "2026-04-15",
-    "modified": "2026-10-10",
+    "published": "2026-10-11",
+    "modified": "2026-10-11",
     "cover": "tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-portada-estacion",
     "internal": [
       "tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar-validador-tarjetas",
@@ -433,6 +433,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": true,
+    "publication_date": "2026-10-11"
   }
 }

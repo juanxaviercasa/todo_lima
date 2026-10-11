@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-039",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "turron-de-dona-pepa-historia-y-relacion-con-el-mes-morado",
     "title": "Turrón de Doña Pepa: historia y relación con el mes morado",
@@ -418,6 +418,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

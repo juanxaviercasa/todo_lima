@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-081",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "aji-de-gallina-contexto-e-identidad-en-la-mesa-limena",
     "title": "Ají de gallina: contexto e identidad en la mesa limeña",
@@ -418,6 +418,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

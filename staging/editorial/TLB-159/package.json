@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-159",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "historia-del-abastecimiento-de-agua-en-lima",
     "title": "Historia del abastecimiento de agua en Lima",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

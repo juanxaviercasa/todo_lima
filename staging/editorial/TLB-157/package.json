@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-157",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "jesus-maria-espacios-publicos-y-recursos-culturales-para-vecinos",
     "title": "Jesús María: espacios públicos y recursos culturales para vecinos",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

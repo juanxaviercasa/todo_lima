@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-026",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "como-documentar-un-trabajo-contratado-y-registrar-acuerdos",
     "title": "Cómo documentar un trabajo contratado y registrar acuerdos",
@@ -433,6 +433,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

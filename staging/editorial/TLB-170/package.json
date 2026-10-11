@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-170",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "como-preparar-una-excursion-corta-fuera-de-lima-sin-confundir-distancias",
     "title": "Cómo preparar una excursión corta fuera de Lima sin confundir distancias",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

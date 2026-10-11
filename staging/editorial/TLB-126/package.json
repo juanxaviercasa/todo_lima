@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-126",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "ruc-de-persona-natural-y-persona-juridica-diferencias-que-deben-revisarse-con-asesoria",
     "title": "RUC de persona natural y persona jurídica: diferencias que deben revisarse con asesoría",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

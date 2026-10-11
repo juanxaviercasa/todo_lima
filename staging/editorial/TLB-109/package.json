@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-109",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "magdalena-del-mar-patrimonio-y-espacios-de-encuentro-del-distrito",
     "title": "Magdalena del Mar: patrimonio y espacios de encuentro del distrito",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

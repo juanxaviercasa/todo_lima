@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-139",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "museo-de-arte-contemporaneo-de-lima-como-consultar-exposiciones",
     "title": "Museo de Arte Contemporáneo de Lima: cómo consultar exposiciones",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

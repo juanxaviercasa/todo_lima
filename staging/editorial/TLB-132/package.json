@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-132",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "lavanderia-por-encargo-inventario-de-prendas-y-condiciones-de-recepcion",
     "title": "Lavandería por encargo: inventario de prendas y condiciones de recepción",
@@ -431,6 +431,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

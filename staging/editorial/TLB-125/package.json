@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-125",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "los-olivos-como-consultar-espacios-y-actividades-del-distrito",
     "title": "Los Olivos: cómo consultar espacios y actividades del distrito",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

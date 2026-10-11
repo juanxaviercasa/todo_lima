@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-110",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "como-presentar-condiciones-de-una-promocion-de-forma-clara",
     "title": "Cómo presentar condiciones de una promoción de forma clara",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

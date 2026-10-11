@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-147",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "casa-de-la-literatura-peruana-espacios-y-programacion-para-visitantes",
     "title": "Casa de la Literatura Peruana: espacios y programación para visitantes",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

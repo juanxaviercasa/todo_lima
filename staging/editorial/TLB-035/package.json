@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-035",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "maranga-y-la-huaca-san-marcos-historia-y-limites-de-acceso",
     "title": "Maranga y la Huaca San Marcos: historia y límites de acceso",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

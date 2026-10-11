@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-003",
-  "stage": "borrador",
+  "stage": "publicado",
   "content": {
     "slug": "gastronomia-limena-platos-e-influencias-para-entender-su-diversidad",
     "title": "Gastronomía limeña: platos e influencias para entender su diversidad",
@@ -14,8 +14,8 @@
       "historia-de-lima"
     ],
     "description": "Recorrido por la cocina limeña: raíces andinas, herencia española, influencias africana, china e italiana, y platos representativos de la capital.",
-    "published": "2026-04-16",
-    "modified": "2026-10-10",
+    "published": "2026-10-11",
+    "modified": "2026-10-11",
     "cover": "gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-portada-restaurante-limeno",
     "internal": [
       "gastronomia-limena-platos-e-influencias-para-entender-su-diversidad-emplatado-gastronomico",
@@ -424,6 +424,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": true,
+    "publication_date": "2026-10-11"
   }
 }

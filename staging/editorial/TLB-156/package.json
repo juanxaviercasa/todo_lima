@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-156",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "como-organizar-una-reunion-en-casa-y-coordinar-varios-proveedores",
     "title": "Cómo organizar una reunión en casa y coordinar varios proveedores",
@@ -433,6 +433,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

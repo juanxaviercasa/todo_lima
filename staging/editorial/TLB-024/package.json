@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-024",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "lomas-de-lachay-excursion-fuera-de-lima-metropolitana-y-datos-a-confirmar",
     "title": "Lomas de Lachay: excursión fuera de Lima Metropolitana y datos a confirmar",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

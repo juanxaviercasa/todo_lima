@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-158",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "como-preparar-la-informacion-de-tu-negocio-para-atender-consultas-por-whatsapp",
     "title": "Cómo preparar la información de tu negocio para atender consultas por WhatsApp",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

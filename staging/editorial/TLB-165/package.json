@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-165",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "san-borja-como-preparar-un-recorrido-entre-espacios-culturales",
     "title": "San Borja: cómo preparar un recorrido entre espacios culturales",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

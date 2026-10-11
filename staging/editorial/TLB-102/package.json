@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-102",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "como-responder-preguntas-frecuentes-antes-de-recibir-una-consulta",
     "title": "Cómo responder preguntas frecuentes antes de recibir una consulta",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-001",
-  "stage": "borrador",
+  "stage": "publicado",
   "content": {
     "slug": "museos-de-lima-como-elegir-una-visita-segun-tus-intereses",
     "title": "Museos de Lima: cómo elegir una visita según tus intereses",
@@ -12,8 +12,8 @@
       "centro-historico"
     ],
     "description": "Criterios para elegir entre museos de arqueología prehispánica, arte virreinal y memoria en Lima según tu tiempo y preferencias de recorrido.",
-    "published": "2026-04-14",
-    "modified": "2026-10-10",
+    "published": "2026-10-11",
+    "modified": "2026-10-11",
     "cover": "museos-lima-portada",
     "internal": [
       "museos-lima-curaduria",
@@ -622,7 +622,7 @@
     "human_review_pending": true,
     "blockers": [],
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null
+    "publication_approved": true,
+    "publication_date": "2026-10-11"
   }
 }

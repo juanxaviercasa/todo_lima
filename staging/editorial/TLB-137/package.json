@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-137",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "terrazas-gastronomicas-del-centro-de-lima-como-comprobar-locales-y-condiciones",
     "title": "Terrazas gastronómicas del Centro de Lima: cómo comprobar locales y condiciones",
@@ -418,6 +418,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

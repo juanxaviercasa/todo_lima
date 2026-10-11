@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-058",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "planes-con-bebes-en-lima-servicios-y-condiciones-que-conviene-revisar",
     "title": "Planes con bebés en Lima: servicios y condiciones que conviene revisar",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

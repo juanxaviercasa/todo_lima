@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-075",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "quinta-heeren-historia-y-situacion-actual-que-debe-comprobarse",
     "title": "Quinta Heeren: historia y situación actual que debe comprobarse",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

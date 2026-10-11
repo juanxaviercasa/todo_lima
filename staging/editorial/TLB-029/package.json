@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-029",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "garagay-patrimonio-arqueologico-y-condiciones-de-acceso-a-verificar",
     "title": "Garagay: patrimonio arqueológico y condiciones de acceso a verificar",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

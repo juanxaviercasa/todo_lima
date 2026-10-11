@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-069",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "barranco-a-pie-patrimonio-arte-y-pausas-para-comer",
     "title": "Barranco a pie: patrimonio, arte y pausas para comer",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

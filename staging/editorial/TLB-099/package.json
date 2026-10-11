@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-099",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "alameda-de-los-descalzos-historia-y-patrimonio-del-rimac",
     "title": "Alameda de los Descalzos: historia y patrimonio del Rímac",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }

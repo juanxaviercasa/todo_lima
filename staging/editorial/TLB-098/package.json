@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-098",
-  "stage": "borrador",
+  "stage": "en_cola",
   "content": {
     "slug": "spa-en-lima-como-comparar-instalaciones-y-condiciones-sin-promesas-medicas",
     "title": "Spa en Lima: cómo comparar instalaciones y condiciones sin promesas médicas",
@@ -429,6 +429,7 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false
+    "publication_approved": false,
+    "publication_date": null
   }
 }
