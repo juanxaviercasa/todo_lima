@@ -26,7 +26,8 @@ jobs:
   publish-slot:
     runs-on: ubuntu-latest
     env:
-      NEXT_PUBLIC_CDN_URL: 'https://cdn.todolima.com'
+      NEXT_PUBLIC_CDN_URL: 'https://media.todolima.com'
+      NEXT_PUBLIC_MEDIA_URL: 'https://media.todolima.com'
       NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: 'pk_test_ZW1pbmVudC1tb25rZXktNDI3MS5jbGVyay5hY2NvdW50cy5kZXYk'
       NEXT_PUBLIC_SUPABASE_URL: 'https://uhpekavdwcezyzzgsdnn.supabase.co'
       NEXT_PUBLIC_SUPABASE_ANON_KEY: 'sb_publishable_t_lABd7P00vlDhGw7QwReA_439h1BCC'
