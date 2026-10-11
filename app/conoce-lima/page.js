@@ -4,6 +4,7 @@ import Footer from '../../components/Footer.js';
 import JsonLd from '../../components/JsonLd.js';
 import AtlasIcon from '../../components/AtlasIcon.js';
 import { getPillars } from '../../lib/atlas.js';
+import { ATLAS_IMAGES } from '../../lib/atlasImages.js';
 import { pageMetadata, breadcrumbs, SITE_URL } from '../../lib/seo.js';
 import { 
   Building2, 
@@ -19,11 +20,13 @@ import {
 export const metadata = pageMetadata(
   'Conoce Lima: Atlas Territorial, Histórico y Cultural | Todo Lima',
   'Enciclopedia de referencia sobre Lima Metropolitana. 7 pilares esenciales sobre historia prehispánica y virreinal, gastronomía criolla, tradiciones vivas, geografía, transporte, las 5 Limas y clústeres comerciales.',
-  '/conoce-lima'
+  '/conoce-lima',
+  ATLAS_IMAGES['atlas-hub-hero']
 );
 
 export default function ConoceLimaHubPage() {
   const pillars = getPillars();
+  const hubHero = ATLAS_IMAGES['atlas-hub-hero'];
 
   const jsonLdData = {
     '@context': 'https://schema.org',
@@ -42,6 +45,7 @@ export default function ConoceLimaHubPage() {
       name: p.title,
       description: p.metaDescription,
       url: `${SITE_URL}/conoce-lima/${p.slug}`,
+      image: ATLAS_IMAGES[p.images?.hero]?.src ? `${SITE_URL}${ATLAS_IMAGES[p.images.hero].src}` : undefined,
     })),
   };
 
@@ -49,8 +53,8 @@ export default function ConoceLimaHubPage() {
     <>
       <Navbar />
       <main id="contenido" className="min-w-0 [overflow-wrap:anywhere] flex-grow">
-        {/* Hero Section con Mesh Gradient */}
-        <header className="relative overflow-hidden bg-slate-950 text-white py-16 sm:py-24 border-b border-slate-800">
+        {/* Hero Section con Fotografía Panorámica */}
+        <header className="relative overflow-hidden bg-slate-950 text-white py-14 sm:py-20 border-b border-slate-800">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-sky-900/30 via-slate-950/80 to-slate-950 pointer-events-none" />
           
           <div className="relative max-w-7xl mx-auto px-5">
@@ -60,38 +64,62 @@ export default function ConoceLimaHubPage() {
               <span className="text-sky-400 font-semibold">Conoce Lima (Atlas)</span>
             </nav>
 
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-bold tracking-wide uppercase mb-6">
-              <Sparkles className="w-3.5 h-3.5" />
-              <span>Atlas Conoce Lima · Enciclopedia Territorial y Cultural</span>
-            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div className="lg:col-span-7">
+                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-bold tracking-wide uppercase mb-6">
+                  <Sparkles className="w-3.5 h-3.5" />
+                  <span>Atlas Conoce Lima · Enciclopedia Territorial y Cultural</span>
+                </div>
 
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight max-w-4xl leading-tight">
-              La identidad, historia y geografía de <span className="text-sky-400">Lima Metropolitana</span>
-            </h1>
+                <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">
+                  La identidad, historia y geografía de <span className="text-sky-400">Lima Metropolitana</span>
+                </h1>
 
-            <p className="mt-6 text-base sm:text-xl text-slate-300 max-w-3xl leading-relaxed">
-              Un compendio referencial permanente diseñado para ciudadanos, visitantes e investigadores. 
-              Siete pilares de conocimiento estructurado que desglosan la evolución milenaria, el mestizaje culinario, 
-              la división territorial y los motores económicos de la capital del Perú.
-            </p>
+                <p className="mt-5 text-base sm:text-lg text-slate-300 max-w-2xl leading-relaxed">
+                  Un compendio referencial permanente diseñado para ciudadanos, visitantes e investigadores. 
+                  Siete pilares de conocimiento estructurado que desglosan la evolución milenaria, el mestizaje culinario, 
+                  la división territorial y los motores económicos de la capital del Perú.
+                </p>
 
-            {/* Quick Metrics Bar */}
-            <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl border-t border-slate-800/80 pt-8">
-              <div>
-                <p className="text-2xl sm:text-3xl font-black text-sky-400">7</p>
-                <p className="text-xs sm:text-sm text-slate-400 font-medium">Pilares Canónicos</p>
+                {/* Quick Metrics Bar */}
+                <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4 border-t border-slate-800/80 pt-6">
+                  <div>
+                    <p className="text-2xl sm:text-3xl font-black text-sky-400">7</p>
+                    <p className="text-xs text-slate-400 font-medium">Pilares Canónicos</p>
+                  </div>
+                  <div>
+                    <p className="text-2xl sm:text-3xl font-black text-emerald-400">43 + Callao</p>
+                    <p className="text-xs text-slate-400 font-medium">Distritos Documentados</p>
+                  </div>
+                  <div>
+                    <p className="text-2xl sm:text-3xl font-black text-amber-400">5</p>
+                    <p className="text-xs text-slate-400 font-medium">Macrozonas Metropolitanas</p>
+                  </div>
+                  <div>
+                    <p className="text-2xl sm:text-3xl font-black text-purple-400">100%</p>
+                    <p className="text-xs text-slate-400 font-medium">Fuentes Institucionales</p>
+                  </div>
+                </div>
               </div>
-              <div>
-                <p className="text-2xl sm:text-3xl font-black text-emerald-400">43 + Callao</p>
-                <p className="text-xs sm:text-sm text-slate-400 font-medium">Distritos Documentados</p>
-              </div>
-              <div>
-                <p className="text-2xl sm:text-3xl font-black text-amber-400">5</p>
-                <p className="text-xs sm:text-sm text-slate-400 font-medium">Macrozonas Metropolitanas</p>
-              </div>
-              <div>
-                <p className="text-2xl sm:text-3xl font-black text-purple-400">100%</p>
-                <p className="text-xs sm:text-sm text-slate-400 font-medium">Fuentes Institucionales</p>
+
+              {/* Showcase Panorámico de Fotografía Documental */}
+              <div className="lg:col-span-5">
+                <figure className="relative rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl group">
+                  <img
+                    src={hubHero.src}
+                    srcSet={hubHero.srcSet}
+                    sizes="(min-width: 1024px) 500px, 100vw"
+                    alt={hubHero.alt}
+                    width="1440"
+                    height="810"
+                    fetchPriority="high"
+                    className="w-full h-auto aspect-[16/9] object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none" />
+                  <figcaption className="absolute bottom-3 left-3 right-3 text-[11px] text-slate-300 bg-slate-950/80 backdrop-blur-sm p-2 rounded-lg border border-slate-800/80">
+                    <span className="font-semibold text-white">Costa Verde y horizonte Pacífico:</span> Panorámica documental de la capital peruana.
+                  </figcaption>
+                </figure>
               </div>
             </div>
           </div>
@@ -110,67 +138,84 @@ export default function ConoceLimaHubPage() {
               Los 7 Pilares del Conocimiento Limeño
             </h2>
             <p className="mt-2 text-sm sm:text-base text-slate-600 dark:text-slate-400 max-w-2xl">
-              Cada módulo integra una matriz estructural comparativa, narrativa de profundidad contextual, 
+              Cada módulo integra fotografía hiperrealista, una matriz estructural comparativa, narrativa de profundidad contextual, 
               entidades enlazadas de Wikidata y conexiones directas con los distritos y comercios de la ciudad.
             </p>
           </div>
 
-          {/* Grid de Tarjetas de Pilares */}
+          {/* Grid de Tarjetas de Pilares Enriquecidas con Imágenes */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            {pillars.map((pillar) => (
-              <article 
-                key={pillar.slug}
-                className="group relative flex flex-col justify-between rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 sm:p-7 shadow-sm hover:shadow-xl hover:border-sky-500/50 transition-all duration-300 open-card"
-              >
-                <div>
-                  {/* Top card header */}
-                  <div className="flex items-center justify-between gap-4 mb-5">
-                    <div className="w-12 h-12 rounded-xl bg-sky-50 dark:bg-sky-950/60 border border-sky-200/60 dark:border-sky-800/60 flex items-center justify-center text-sky-600 dark:text-sky-400 group-hover:scale-110 group-hover:bg-sky-600 group-hover:text-white transition-all duration-300">
-                      <AtlasIcon name={pillar.icon} className="w-6 h-6" />
+            {pillars.map((pillar) => {
+              const pImg = ATLAS_IMAGES[pillar.images?.hero] || ATLAS_IMAGES[`${pillar.slug}-hero`];
+              return (
+                <article 
+                  key={pillar.slug}
+                  className="group relative flex flex-col justify-between rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 overflow-hidden shadow-sm hover:shadow-xl hover:border-sky-500/50 transition-all duration-300 open-card"
+                >
+                  {/* Imagen de Cabecera de la Tarjeta */}
+                  {pImg && (
+                    <div className="relative aspect-[16/9] w-full overflow-hidden bg-slate-100 dark:bg-slate-800 border-b border-slate-200 dark:border-slate-800">
+                      <img
+                        src={pImg.src}
+                        srcSet={pImg.srcSet}
+                        sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw"
+                        alt={pImg.alt}
+                        loading="lazy"
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                      <div className="absolute top-3 left-3 flex items-center gap-2">
+                        <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-slate-950/80 backdrop-blur-sm text-white border border-white/20">
+                          Pilar 0{pillar.order}
+                        </span>
+                      </div>
+                      <div className="absolute bottom-3 right-3 w-9 h-9 rounded-xl bg-slate-950/80 backdrop-blur-sm border border-white/20 flex items-center justify-center text-sky-400">
+                        <AtlasIcon name={pillar.icon} className="w-5 h-5" />
+                      </div>
                     </div>
-                    <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">
-                      Pilar 0{pillar.order}
-                    </span>
+                  )}
+
+                  <div className="p-6 sm:p-7 flex-grow flex flex-col justify-between">
+                    <div>
+                      <h3 className="text-xl font-bold text-slate-900 dark:text-white group-hover:text-sky-600 dark:group-hover:text-sky-400 transition-colors">
+                        <Link href={`/conoce-lima/${pillar.slug}`}>
+                          {pillar.title}
+                        </Link>
+                      </h3>
+
+                      <p className="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed line-clamp-3">
+                        {pillar.metaDescription}
+                      </p>
+
+                      {/* Highlights de secciones */}
+                      <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800/80">
+                        <p className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2">
+                          Temas destacados:
+                        </p>
+                        <ul className="space-y-1 text-xs text-slate-600 dark:text-slate-300">
+                          {pillar.sections.slice(0, 3).map((sec) => (
+                            <li key={sec.id} className="flex items-center gap-1.5 truncate">
+                              <span className="w-1.5 h-1.5 rounded-full bg-sky-500 shrink-0" />
+                              <span className="truncate">{sec.title}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+
+                    {/* Bottom link button */}
+                    <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800">
+                      <Link
+                        href={`/conoce-lima/${pillar.slug}`}
+                        className="inline-flex items-center justify-between w-full font-bold text-xs sm:text-sm text-sky-600 dark:text-sky-400 group-hover:text-sky-700 dark:group-hover:text-sky-300"
+                      >
+                        <span>Explorar contenido completo</span>
+                        <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
+                      </Link>
+                    </div>
                   </div>
-
-                  <h3 className="text-xl font-bold text-slate-900 dark:text-white group-hover:text-sky-600 dark:group-hover:text-sky-400 transition-colors">
-                    <Link href={`/conoce-lima/${pillar.slug}`}>
-                      {pillar.title}
-                    </Link>
-                  </h3>
-
-                  <p className="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed line-clamp-3">
-                    {pillar.metaDescription}
-                  </p>
-
-                  {/* Highlights de secciones */}
-                  <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800/80">
-                    <p className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2">
-                      Temas destacados:
-                    </p>
-                    <ul className="space-y-1 text-xs text-slate-600 dark:text-slate-300">
-                      {pillar.sections.slice(0, 3).map((sec) => (
-                        <li key={sec.id} className="flex items-center gap-1.5 truncate">
-                          <span className="w-1.5 h-1.5 rounded-full bg-sky-500 shrink-0" />
-                          <span className="truncate">{sec.title}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-
-                {/* Bottom link button */}
-                <div className="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800">
-                  <Link
-                    href={`/conoce-lima/${pillar.slug}`}
-                    className="inline-flex items-center justify-between w-full font-bold text-xs sm:text-sm text-sky-600 dark:text-sky-400 group-hover:text-sky-700 dark:group-hover:text-sky-300"
-                  >
-                    <span>Explorar contenido completo</span>
-                    <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
-                  </Link>
-                </div>
-              </article>
-            ))}
+                </article>
+              );
+            })}
           </div>
 
           {/* Sección de Metodología y Fuentes Institucionales */}

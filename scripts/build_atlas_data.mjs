@@ -21,43 +21,64 @@ const pillarDefs = [
     slug: 'historia-de-lima',
     shortTitle: 'Historia y Territorio',
     icon: 'Landmark',
-    headerMatch: 'Historia y Evolución Territorial de Lima'
+    headerMatch: 'Historia y Evolución Territorial de Lima',
+    heroImage: 'historia-hero',
+    interiorA: 'historia-interiorA',
+    interiorB: 'historia-interiorB'
   },
   {
     slug: 'gastronomia-limena',
     shortTitle: 'Gastronomía y Mestizaje',
     icon: 'UtensilsCrossed',
-    headerMatch: 'Gastronomía Limeña y Mestizaje Culinario'
+    headerMatch: 'Gastronomía Limeña y Mestizaje Culinario',
+    heroImage: 'gastronomia-hero',
+    interiorA: 'gastronomia-interiorA',
+    interiorB: 'gastronomia-interiorB'
   },
   {
     slug: 'cultura-y-tradiciones',
     shortTitle: 'Cultura y Tradiciones',
     icon: 'Sparkles',
-    headerMatch: 'Cultura Viva, Expresiones Populares y Tradiciones'
+    headerMatch: 'Cultura Viva, Expresiones Populares y Tradiciones',
+    heroImage: 'cultura-hero',
+    interiorA: 'cultura-interiorA',
+    interiorB: 'cultura-interiorB'
   },
   {
     slug: 'geografia-y-clima',
     shortTitle: 'Geografía y Clima',
     icon: 'Compass',
-    headerMatch: 'Geografía, Clima y Ecosistemas Costeros'
+    headerMatch: 'Geografía, Clima y Ecosistemas Costeros',
+    heroImage: 'geografia-hero',
+    interiorA: 'geografia-interiorA',
+    interiorB: 'geografia-interiorB'
   },
   {
     slug: 'movilidad-y-transporte',
     shortTitle: 'Movilidad y Transporte',
     icon: 'Bus',
-    headerMatch: 'Movilidad Metropolitana y Transporte Urbano'
+    headerMatch: 'Movilidad Metropolitana y Transporte Urbano',
+    heroImage: 'movilidad-hero',
+    interiorA: 'movilidad-interiorA',
+    interiorB: 'movilidad-interiorB'
   },
   {
     slug: 'las-5-limas-y-callao',
     shortTitle: 'Las 5 Limas y el Callao',
     icon: 'MapPin',
-    headerMatch: 'Antropología Territorial'
+    headerMatch: 'Antropología Territorial',
+    heroImage: 'antropologia-hero',
+    interiorA: 'antropologia-interiorA',
+    interiorB: 'antropologia-interiorB'
   },
   {
     slug: 'emporios-comerciales',
     shortTitle: 'Emporios Comerciales',
     icon: 'ShoppingBag',
-    headerMatch: 'Economía Local, Clústeres y Emporios Comerciales'
+    headerMatch: 'Economía Local, Clústeres y Emporios Comerciales',
+    heroImage: 'emporios-hero',
+    interiorA: 'emporios-interiorA',
+    interiorB: 'emporios-interiorB'
   }
 ];
 
@@ -240,6 +261,11 @@ for (let i = 0; i < h1Indices.length; i++) {
     metaDescription: metaDesc,
     canonicalDefinition: canonDef,
     wikidataEntities: entities,
+    images: {
+      hero: pDef.heroImage,
+      interiorA: pDef.interiorA,
+      interiorB: pDef.interiorB
+    },
     table,
     sections,
     crossLinks,

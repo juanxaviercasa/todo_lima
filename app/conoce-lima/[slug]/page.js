@@ -6,6 +6,7 @@ import JsonLd from '../../../components/JsonLd.js';
 import AtlasIcon from '../../../components/AtlasIcon.js';
 import AtlasFormattedText from '../../../components/AtlasFormattedText.js';
 import { getPillars, getPillarBySlug, getAllPillarSlugs } from '../../../lib/atlas.js';
+import { ATLAS_IMAGES } from '../../../lib/atlasImages.js';
 import { pageMetadata, breadcrumbs, SITE_URL } from '../../../lib/seo.js';
 import { 
   BookOpen, 
@@ -31,10 +32,13 @@ export function generateMetadata({ params }) {
   const pillar = getPillarBySlug(params.slug);
   if (!pillar) return {};
 
+  const heroImg = ATLAS_IMAGES[pillar.images?.hero] || ATLAS_IMAGES[`${pillar.slug}-hero`];
+
   const meta = pageMetadata(
     `${pillar.title} | Conoce Lima | Todo Lima`,
     pillar.metaDescription,
-    `/conoce-lima/${pillar.slug}`
+    `/conoce-lima/${pillar.slug}`,
+    heroImg
   );
 
   return {
@@ -55,6 +59,10 @@ export default function PillarPage({ params }) {
   const allPillars = getPillars();
   const otherPillars = allPillars.filter((p) => p.slug !== pillar.slug);
 
+  const heroImg = ATLAS_IMAGES[pillar.images?.hero] || ATLAS_IMAGES[`${pillar.slug}-hero`];
+  const imgA = ATLAS_IMAGES[pillar.images?.interiorA];
+  const imgB = ATLAS_IMAGES[pillar.images?.interiorB];
+
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -62,6 +70,7 @@ export default function PillarPage({ params }) {
     description: pillar.metaDescription,
     mainEntityOfPage: `${SITE_URL}/conoce-lima/${pillar.slug}`,
     url: `${SITE_URL}/conoce-lima/${pillar.slug}`,
+    image: heroImg ? `${SITE_URL}${heroImg.src}` : undefined,
     datePublished: '2026-10-10',
     dateModified: '2026-10-10',
     author: {
@@ -83,7 +92,7 @@ export default function PillarPage({ params }) {
     <>
       <Navbar />
       <main id="contenido" className="min-w-0 [overflow-wrap:anywhere] flex-grow">
-        {/* Hero Section */}
+        {/* Hero Section con Fotografía Documental */}
         <header className="relative bg-slate-950 text-white py-14 sm:py-20 border-b border-slate-800">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-sky-900/25 via-slate-950/80 to-slate-950 pointer-events-none" />
 
@@ -97,41 +106,67 @@ export default function PillarPage({ params }) {
               <span className="text-sky-400 font-semibold">{pillar.shortTitle}</span>
             </nav>
 
-            <div className="flex items-center gap-3 mb-4">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-bold uppercase tracking-wider">
-                <AtlasIcon name={pillar.icon} className="w-3.5 h-3.5" />
-                <span>Pilar 0{pillar.order} · Atlas Conoce Lima</span>
-              </span>
-              <span className="text-xs text-slate-400 font-medium">Revisión Institucional 2026</span>
-            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div className="lg:col-span-7">
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-bold uppercase tracking-wider">
+                    <AtlasIcon name={pillar.icon} className="w-3.5 h-3.5" />
+                    <span>Pilar 0{pillar.order} · Atlas Conoce Lima</span>
+                  </span>
+                  <span className="text-xs text-slate-400 font-medium">Revisión Institucional 2026</span>
+                </div>
 
-            <h1 className="text-3xl sm:text-5xl font-black tracking-tight max-w-4xl leading-tight">
-              {pillar.title}
-            </h1>
+                <h1 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
+                  {pillar.title}
+                </h1>
 
-            <p className="mt-5 text-base sm:text-lg text-slate-300 max-w-3xl leading-relaxed">
-              {pillar.metaDescription}
-            </p>
+                <p className="mt-5 text-base sm:text-lg text-slate-300 leading-relaxed">
+                  {pillar.metaDescription}
+                </p>
 
-            {/* Entity badges preview */}
-            {pillar.wikidataEntities && pillar.wikidataEntities.length > 0 && (
-              <div className="mt-6 pt-6 border-t border-slate-800/80 flex flex-wrap items-center gap-2">
-                <span className="text-xs font-bold text-slate-400">Entidades canónicas:</span>
-                {pillar.wikidataEntities.map((ent) => (
-                  <a
-                    key={ent.id || ent.name}
-                    href={ent.url || `https://www.wikidata.org/wiki/${ent.id}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-900 border border-slate-800 hover:border-sky-500 text-[11px] font-semibold text-slate-300 hover:text-sky-300 transition-colors"
-                  >
-                    <span>{ent.name}</span>
-                    {ent.id && <span className="text-slate-500">({ent.id})</span>}
-                    <ExternalLink className="w-3 h-3 text-slate-500" />
-                  </a>
-                ))}
+                {/* Entity badges preview */}
+                {pillar.wikidataEntities && pillar.wikidataEntities.length > 0 && (
+                  <div className="mt-6 pt-6 border-t border-slate-800/80 flex flex-wrap items-center gap-2">
+                    <span className="text-xs font-bold text-slate-400">Entidades canónicas:</span>
+                    {pillar.wikidataEntities.map((ent) => (
+                      <a
+                        key={ent.id || ent.name}
+                        href={ent.url || `https://www.wikidata.org/wiki/${ent.id}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-900 border border-slate-800 hover:border-sky-500 text-[11px] font-semibold text-slate-300 hover:text-sky-300 transition-colors"
+                      >
+                        <span>{ent.name}</span>
+                        {ent.id && <span className="text-slate-500">({ent.id})</span>}
+                        <ExternalLink className="w-3 h-3 text-slate-500" />
+                      </a>
+                    ))}
+                  </div>
+                )}
               </div>
-            )}
+
+              {/* Showcase Fotográfico de Cabecera */}
+              {heroImg && (
+                <div className="lg:col-span-5">
+                  <figure className="relative rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl group">
+                    <img
+                      src={heroImg.src}
+                      srcSet={heroImg.srcSet}
+                      sizes="(min-width: 1024px) 500px, 100vw"
+                      alt={heroImg.alt}
+                      width="1440"
+                      height="810"
+                      fetchPriority="high"
+                      className="w-full h-auto aspect-[16/9] object-cover group-hover:scale-105 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none" />
+                    <figcaption className="absolute bottom-3 left-3 right-3 text-[11px] text-slate-300 bg-slate-950/80 backdrop-blur-sm p-2 rounded-lg border border-slate-800/80">
+                      <span className="font-semibold text-white">{pillar.shortTitle}:</span> {heroImg.alt}
+                    </figcaption>
+                  </figure>
+                </div>
+              )}
+            </div>
           </div>
         </header>
 
@@ -258,31 +293,76 @@ export default function PillarPage({ params }) {
                 </section>
               )}
 
-              {/* Las 6 Secciones Narrativas en Profundidad */}
+              {/* Las 6 Secciones Narrativas con Fotografías Documentales Intercaladas */}
               <div className="space-y-12">
                 {pillar.sections.map((section, sIdx) => (
-                  <section 
-                    key={section.id} 
-                    id={section.id} 
-                    className="scroll-mt-24 space-y-4 pt-2 border-t border-slate-100 dark:border-slate-800/60 first:border-none first:pt-0"
-                  >
-                    <div className="flex items-center gap-3">
-                      <span className="w-8 h-8 rounded-xl bg-sky-100 dark:bg-sky-950 text-sky-700 dark:text-sky-300 flex items-center justify-center font-bold text-xs shrink-0">
-                        {String(sIdx + 1).padStart(2, '0')}
-                      </span>
-                      <h2 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white tracking-tight">
-                        {section.title}
-                      </h2>
-                    </div>
+                  <div key={section.id}>
+                    <section 
+                      id={section.id} 
+                      className="scroll-mt-24 space-y-4 pt-2 border-t border-slate-100 dark:border-slate-800/60 first:border-none first:pt-0"
+                    >
+                      <div className="flex items-center gap-3">
+                        <span className="w-8 h-8 rounded-xl bg-sky-100 dark:bg-sky-950 text-sky-700 dark:text-sky-300 flex items-center justify-center font-bold text-xs shrink-0">
+                          {String(sIdx + 1).padStart(2, '0')}
+                        </span>
+                        <h2 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white tracking-tight">
+                          {section.title}
+                        </h2>
+                      </div>
 
-                    <div className="space-y-4 text-sm sm:text-base text-slate-700 dark:text-slate-300 leading-relaxed">
-                      {section.paragraphs.map((p, pIdx) => (
-                        <p key={pIdx}>
-                          <AtlasFormattedText text={p} />
-                        </p>
-                      ))}
-                    </div>
-                  </section>
+                      <div className="space-y-4 text-sm sm:text-base text-slate-700 dark:text-slate-300 leading-relaxed">
+                        {section.paragraphs.map((p, pIdx) => (
+                          <p key={pIdx}>
+                            <AtlasFormattedText text={p} />
+                          </p>
+                        ))}
+                      </div>
+                    </section>
+
+                    {/* Inserción Fotográfica A: Entre Sección 2 y Sección 3 */}
+                    {sIdx === 1 && imgA && (
+                      <figure className="my-10 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm group">
+                        <div className="overflow-hidden">
+                          <img
+                            src={imgA.src}
+                            srcSet={imgA.srcSet}
+                            sizes="(min-width: 1024px) 780px, 100vw"
+                            alt={imgA.alt}
+                            width="1440"
+                            height="960"
+                            loading="lazy"
+                            className="w-full h-auto aspect-[3/2] sm:aspect-[16/9] object-cover group-hover:scale-105 transition-transform duration-500"
+                          />
+                        </div>
+                        <figcaption className="p-4 text-xs text-slate-600 dark:text-slate-400 border-t border-slate-100 dark:border-slate-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+                          <span className="font-medium">{imgA.caption || imgA.alt}</span>
+                          <span className="text-[11px] font-bold text-sky-600 dark:text-sky-400 shrink-0">Atlas Conoce Lima</span>
+                        </figcaption>
+                      </figure>
+                    )}
+
+                    {/* Inserción Fotográfica B: Entre Sección 4 y Sección 5 */}
+                    {sIdx === 3 && imgB && (
+                      <figure className="my-10 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm group">
+                        <div className="overflow-hidden">
+                          <img
+                            src={imgB.src}
+                            srcSet={imgB.srcSet}
+                            sizes="(min-width: 1024px) 780px, 100vw"
+                            alt={imgB.alt}
+                            width="1440"
+                            height="960"
+                            loading="lazy"
+                            className="w-full h-auto aspect-[3/2] sm:aspect-[16/9] object-cover group-hover:scale-105 transition-transform duration-500"
+                          />
+                        </div>
+                        <figcaption className="p-4 text-xs text-slate-600 dark:text-slate-400 border-t border-slate-100 dark:border-slate-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+                          <span className="font-medium">{imgB.caption || imgB.alt}</span>
+                          <span className="text-[11px] font-bold text-sky-600 dark:text-sky-400 shrink-0">Atlas Conoce Lima</span>
+                        </figcaption>
+                      </figure>
+                    )}
+                  </div>
                 ))}
               </div>
 
@@ -431,25 +511,38 @@ export default function PillarPage({ params }) {
                   </Link>
                 </div>
                 <div className="space-y-2.5">
-                  {otherPillars.map((other) => (
-                    <Link
-                      key={other.slug}
-                      href={`/conoce-lima/${other.slug}`}
-                      className="flex items-center gap-3 p-2.5 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors group border border-transparent hover:border-slate-200 dark:hover:border-slate-700"
-                    >
-                      <div className="w-8 h-8 rounded-lg bg-sky-50 dark:bg-sky-950/80 border border-sky-100 dark:border-sky-900 flex items-center justify-center text-sky-600 dark:text-sky-400 group-hover:bg-sky-600 group-hover:text-white transition-colors shrink-0">
-                        <AtlasIcon name={other.icon} className="w-4 h-4" />
-                      </div>
-                      <div className="min-w-0">
-                        <p className="text-xs font-bold text-slate-800 dark:text-slate-200 group-hover:text-sky-600 dark:group-hover:text-sky-400 truncate">
-                          {other.shortTitle}
-                        </p>
-                        <p className="text-[10px] text-slate-400">
-                          Pilar 0{other.order}
-                        </p>
-                      </div>
-                    </Link>
-                  ))}
+                  {otherPillars.map((other) => {
+                    const otherThumb = ATLAS_IMAGES[other.images?.hero] || ATLAS_IMAGES[`${other.slug}-hero`];
+                    return (
+                      <Link
+                        key={other.slug}
+                        href={`/conoce-lima/${other.slug}`}
+                        className="flex items-center gap-3 p-2.5 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors group border border-transparent hover:border-slate-200 dark:hover:border-slate-700"
+                      >
+                        {otherThumb ? (
+                          <img
+                            src={otherThumb.src}
+                            alt=""
+                            width="40"
+                            height="40"
+                            className="w-10 h-10 rounded-lg object-cover shrink-0 border border-slate-200 dark:border-slate-700"
+                          />
+                        ) : (
+                          <div className="w-10 h-10 rounded-lg bg-sky-50 dark:bg-sky-950/80 border border-sky-100 dark:border-sky-900 flex items-center justify-center text-sky-600 dark:text-sky-400 group-hover:bg-sky-600 group-hover:text-white transition-colors shrink-0">
+                            <AtlasIcon name={other.icon} className="w-4 h-4" />
+                          </div>
+                        )}
+                        <div className="min-w-0">
+                          <p className="text-xs font-bold text-slate-800 dark:text-slate-200 group-hover:text-sky-600 dark:group-hover:text-sky-400 truncate">
+                            {other.shortTitle}
+                          </p>
+                          <p className="text-[10px] text-slate-400">
+                            Pilar 0{other.order}
+                          </p>
+                        </div>
+                      </Link>
+                    );
+                  })}
                 </div>
               </div>
 

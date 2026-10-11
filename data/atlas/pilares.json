@@ -29,6 +29,11 @@
         "url": "https://www.wikidata.org/wiki/Q6101140"
       }
     ],
+    "images": {
+      "hero": "historia-hero",
+      "interiorA": "historia-interiorA",
+      "interiorB": "historia-interiorB"
+    },
     "table": {
       "headers": [
         "Periodo / Zona",
@@ -195,6 +200,11 @@
         "url": "https://www.wikidata.org/wiki/Q3504870"
       }
     ],
+    "images": {
+      "hero": "gastronomia-hero",
+      "interiorA": "gastronomia-interiorA",
+      "interiorB": "gastronomia-interiorB"
+    },
     "table": {
       "headers": [
         "Periodo / Influencia",
@@ -360,6 +370,11 @@
         "url": "https://www.wikidata.org/wiki/Q9082496"
       }
     ],
+    "images": {
+      "hero": "cultura-hero",
+      "interiorA": "cultura-interiorA",
+      "interiorB": "cultura-interiorB"
+    },
     "table": {
       "headers": [
         "Expresión / Entidad",
@@ -517,6 +532,11 @@
         "url": "https://www.wikidata.org/wiki/Q5174872"
       }
     ],
+    "images": {
+      "hero": "geografia-hero",
+      "interiorA": "geografia-interiorA",
+      "interiorB": "geografia-interiorB"
+    },
     "table": {
       "headers": [
         "Elemento / Ecosistema",
@@ -685,6 +705,11 @@
         "url": "https://www.wikidata.org/wiki/Q64149200"
       }
     ],
+    "images": {
+      "hero": "movilidad-hero",
+      "interiorA": "movilidad-interiorA",
+      "interiorB": "movilidad-interiorB"
+    },
     "table": {
       "headers": [
         "Sistema de Movilidad",
@@ -843,6 +868,11 @@
         "url": "https://www.wikidata.org/wiki/Q244829"
       }
     ],
+    "images": {
+      "hero": "antropologia-hero",
+      "interiorA": "antropologia-interiorA",
+      "interiorB": "antropologia-interiorB"
+    },
     "table": {
       "headers": [
         "Macrozona Geográfica",
@@ -1002,6 +1032,11 @@
         "url": "https://www.wikidata.org/wiki/Q5519557"
       }
     ],
+    "images": {
+      "hero": "emporios-hero",
+      "interiorA": "emporios-interiorA",
+      "interiorB": "emporios-interiorB"
+    },
     "table": {
       "headers": [
         "Emporio / Clúster",
