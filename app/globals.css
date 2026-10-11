@@ -10,15 +10,16 @@
 .atlas-hero-media img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; }
 .atlas-hero-shade { display: none; }
 .atlas-hero-copy { width: 100%; max-width: 80rem; margin-inline: auto; padding: 2rem 1.25rem; min-width: 0; position: relative; }
-.atlas-hero h1 { font-size: clamp(1.875rem, 3.8vw, 3.5rem); line-height: 1.12; font-weight: 900; letter-spacing: -.025em; text-wrap: balance; }
-.atlas-hero-intro { margin-top: 1.25rem; color: #e2e8f0; font-size: 1rem; line-height: 1.7; }
+.atlas-hero h1 { font-size: clamp(2rem, 4.2vw, 4rem); line-height: 1.12; font-weight: 900; letter-spacing: -.025em; text-wrap: balance; }
+.atlas-hero-intro { margin-top: 1.25rem; color: #f1f5f9; font-size: 1.125rem; line-height: 1.65; }
 .atlas-page .atlas-table { overflow-wrap: anywhere; }
 @media (min-width: 1024px) {
   .atlas-hero-media, .atlas-hero-copy { grid-area: 1 / 1; }
   .atlas-hero-copy { align-self: center; padding-block: 2.5rem; }
   .atlas-hero-copy > :is(h1,p) { max-width: 65%; }
-  .atlas-hero-shade { display: block; position: absolute; inset: 0; background: linear-gradient(90deg,rgba(2,6,23,.88),rgba(2,6,23,.7) 45%,rgba(2,6,23,.16) 85%); }
-  .atlas-hero-intro { font-size: 1.125rem; }
+  .atlas-hero-copy h1 { text-shadow: 0 2px 14px rgba(0,0,0,.35); }
+  .atlas-hero-shade { display: block; position: absolute; inset: 0; background: linear-gradient(90deg,rgba(2,6,23,.94) 0%,rgba(2,6,23,.88) 40%,rgba(2,6,23,.78) 65%,rgba(2,6,23,.12) 90%); }
+  .atlas-hero-intro { font-size: 1.25rem; max-width: min(65%,42rem) !important; }
 }
 
 .category-hero-shade { background: linear-gradient(90deg, rgba(2,6,23,.93) 0%, rgba(2,6,23,.8) 40%, rgba(2,6,23,.35) 65%, rgba(2,6,23,.1) 100%); }

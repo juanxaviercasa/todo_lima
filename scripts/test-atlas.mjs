@@ -29,6 +29,8 @@ try {
       assert.ok(image.width>=width-1,'Hero image must cover full viewport width');
       const title=await page.locator('h1').boundingBox(),hero=await page.locator('.atlas-hero').boundingBox();
       assert.ok(title.y>=hero.y && title.y+title.height<=hero.y+hero.height,'Hero title contained');
+      assert.ok(await page.locator('.atlas-hero nav').evaluate(el=>parseFloat(getComputedStyle(el).fontSize)>=16),'Breadcrumbs must remain readable');
+      assert.ok(await page.locator('.atlas-hero-intro').evaluate(el=>parseFloat(getComputedStyle(el).fontSize)>=18),'Intro must remain readable');
       const toc=page.locator('.atlas-contents');
       if(await toc.count()){
         await toc.locator('summary').click();
@@ -39,6 +41,7 @@ try {
       const clipped=await page.locator('main :is(h1,h2,h3,li)').evaluateAll(elements=>elements.filter(el=>getComputedStyle(el).overflow==='hidden' && el.scrollHeight>el.clientHeight+1).map(el=>el.textContent));
       assert.deepEqual(clipped,[],`Clipped headings at ${width}`);
       if([390,1440].includes(width) && [routes[0],routes[1]].includes(route))await page.screenshot({path:`${process.env.TEMP}/atlas-${route===routes[0]?'hub':'article'}-${width}.png`,fullPage:true});
+      if(width===1440 && route.endsWith('/gastronomia-limena'))await page.screenshot({path:`${process.env.TEMP}/atlas-gastronomia-hero.png`});
     }
   }
   console.log('Atlas: eight routes at six viewport widths; full-frame heroes, no page overflow, valid sequential TOC links.');
