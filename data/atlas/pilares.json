@@ -118,6 +118,20 @@
         ]
       }
     ],
+    "faq": [
+      {
+        "q": "¿Cuándo se fundó la ciudad de Lima y cuál fue su nombre original?",
+        "a": "Lima fue fundada el 18 de enero de 1535 por Francisco Pizarro con el nombre oficial de \"Ciudad de los Reyes\", sobre el valle del río Rímac gobernado ancestralmente por el curaca Taulichusco del señorío Ichma."
+      },
+      {
+        "q": "¿Qué canales prehispánicos abastecieron de agua a Lima durante siglos?",
+        "a": "Los canales milenarios Huatica, Surco y Maranga, diseñados por las culturas Lima e Ichma, domesticaron el desierto costero y continuaron regando haciendas, huertas y la trama urbana de la capital hasta bien entrado el siglo XX."
+      },
+      {
+        "q": "¿Qué establece la Ley 31980 respecto al Centro Histórico de Lima?",
+        "a": "Crea un régimen legal y tributario especial para el Centro Histórico de Lima que otorga beneficios fiscales por inversión privada y mecenazgo cultural, alineado con el Plan Maestro 2019-2035 de PROLIMA para la recuperación del Patrimonio de la Humanidad."
+      }
+    ],
     "crossLinks": {
       "districts": [
         {
@@ -154,19 +168,23 @@
     "sources": [
       {
         "publisher": "Congreso de la República",
-        "detail": "Ley 31980, Ley de creación de un régimen especial para el Centro Histórico de Lima. (Publicada en El Peruano)."
+        "detail": "Ley 31980, Ley de creación de un régimen especial para el Centro Histórico de Lima. (Publicada en El Peruano).",
+        "url": "https://busquedas.elperuano.pe/dispositivo/NL/2253462-1"
       },
       {
         "publisher": "Ministerio de Economía y Finanzas / El Peruano",
-        "detail": "Decreto Supremo que aprueba el Reglamento de la Ley N° 31980 sobre crédito tributario por inversión y mecenazgo."
+        "detail": "Decreto Supremo que aprueba el Reglamento de la Ley N° 31980 sobre crédito tributario por inversión y mecenazgo.",
+        "url": "https://busquedas.elperuano.pe/dispositivo/NL/2463050-7"
       },
       {
         "publisher": "Municipalidad Metropolitana de Lima (MML)",
-        "detail": "Ordenanza 2194 que aprueba el Plan Maestro del Centro Histórico de Lima 2019-2035."
+        "detail": "Ordenanza 2194 que aprueba el Plan Maestro del Centro Histórico de Lima 2019-2035.",
+        "url": "https://portal.imp.gob.pe/planificacion/centro-historico/"
       },
       {
         "publisher": "Ministerio de Cultura (MINCUL)",
-        "detail": "Ley 28296, Ley General del Patrimonio Cultural de la Nación."
+        "detail": "Ley 28296, Ley General del Patrimonio Cultural de la Nación.",
+        "url": "https://www.gob.pe/cultura"
       }
     ]
   },
@@ -289,6 +307,20 @@
         ]
       }
     ],
+    "faq": [
+      {
+        "q": "¿Qué raíces culturales dieron forma a la gastronomía criolla limeña?",
+        "a": "La cocina limeña es resultado del mestizaje entre ingredientes prehispánicos (ajíes, maíz, papas, pescados), la tradición hispano-morisca, el aporte afroperuano (anticuchos, cau cau), la migración china cantonesa (chifa) y la influencia japonesa (nikkei)."
+      },
+      {
+        "q": "¿Cómo evolucionó la técnica del cebiche tradicional en Lima?",
+        "a": "Antiguamente el pescado se maceraba durante horas en jugo de naranja agria. Con la influencia de los cocineros nikkei a mediados del siglo XX, se consolidó la técnica contemporánea de marinado instantáneo en segundos con limón sutil fresco y ají limo."
+      },
+      {
+        "q": "¿Cuáles son los postres tradicionales más representativos de Lima?",
+        "a": "Destacan el suspiro a la limeña, los picarones con miel de chancaca e higo, la mazamorra morada combinada con arroz con leche (\"el clásico\"), y el tradicional turrón de Doña Pepa consumido especialmente durante el mes morado."
+      }
+    ],
     "crossLinks": {
       "districts": [
         {
@@ -328,15 +360,18 @@
     "sources": [
       {
         "publisher": "Ministerio de Cultura / PromPerú",
-        "detail": "Investigaciones documentales oficiales sobre el origen prehispánico, preparación y vigencia cultural de la Chicha de Jora."
+        "detail": "Investigaciones documentales oficiales sobre el origen prehispánico, preparación y vigencia cultural de la Chicha de Jora.",
+        "url": "https://peru.info/es-pe/gastronomia"
       },
       {
         "publisher": "Archivo General de la Nación (AGN)",
-        "detail": "Registros históricos, resoluciones de expropiación (1849) y actas de reconstrucción edilicia del Mercado Central (1964)."
+        "detail": "Registros históricos, resoluciones de expropiación (1849) y actas de reconstrucción edilicia del Mercado Central (1964).",
+        "url": "https://www.gob.pe/agn"
       },
       {
         "publisher": "Colegio de Arquitectos del Perú",
-        "detail": "Documentación técnica, planimetría y registros sobre la obra moderna de Alfredo Dammert en la concepción del Mercado N° 1 de Surquillo."
+        "detail": "Documentación técnica, planimetría y registros sobre la obra moderna de Alfredo Dammert en la concepción del Mercado N° 1 de Surquillo.",
+        "url": "https://cap.org.pe/"
       }
     ]
   },
@@ -459,6 +494,20 @@
         ]
       }
     ],
+    "faq": [
+      {
+        "q": "¿Por qué octubre se conoce como el \"Mes Morado\" en Lima?",
+        "a": "Porque se realiza la festividad del Señor de los Milagros (Cristo Moreno o de Pachacamilla), congregando multitudinarias procesiones donde los fieles visten túnicas moradas nazarenas, acompañadas de sahumadoras y cantos tradicionales."
+      },
+      {
+        "q": "¿Qué instrumentos musicales definen la música criolla limeña?",
+        "a": "La instrumentación esencial combina la guitarra acústica española con el cajón peruano de madera, la quijada de burro y las castañuelas o palmas, estructurando géneros emblemáticos como el vals criollo, la marinera limeña y el festejo."
+      },
+      {
+        "q": "¿Qué importancia histórica tienen las catacumbas de San Francisco en Lima?",
+        "a": "Ubicadas bajo la Basílica y Convento de San Francisco, funcionaron como el principal cementerio de la ciudad durante el virreinato, albergando los restos de más de 25,000 personas hasta la creación del Cementerio Presbítero Maestro en 1808."
+      }
+    ],
     "crossLinks": {
       "districts": [
         {
@@ -495,15 +544,18 @@
     "sources": [
       {
         "publisher": "Ministerio de Educación (MINEDU)",
-        "detail": "Registros oficiales y convenios de administración de la Casa de la Literatura Peruana en la Estación de Desamparados."
+        "detail": "Registros oficiales y convenios de administración de la Casa de la Literatura Peruana en la Estación de Desamparados.",
+        "url": "https://www.casadelaliteratura.gob.pe/"
       },
       {
         "publisher": "Congreso de la República / El Peruano",
-        "detail": "Ley 30599, Ley que dispone el acceso gratuito a museos el primer domingo de cada mes (Programa Museos Abiertos)."
+        "detail": "Ley 30599, Ley que dispone el acceso gratuito a museos el primer domingo de cada mes (Programa Museos Abiertos).",
+        "url": "https://busquedas.elperuano.pe/dispositivo/NL/1517457-1"
       },
       {
         "publisher": "Ministerio de Cultura (MINCUL)",
-        "detail": "Resoluciones Directorales de declaratoria de Patrimonio Cultural de la Nación correspondientes al Teatro Segura y al Cajón Peruano."
+        "detail": "Resoluciones Directorales de declaratoria de Patrimonio Cultural de la Nación correspondientes al Teatro Segura y al Cajón Peruano.",
+        "url": "https://www.gob.pe/cultura"
       }
     ]
   },
@@ -621,6 +673,20 @@
         ]
       }
     ],
+    "faq": [
+      {
+        "q": "¿Por qué el cielo de Lima es gris la mayor parte del año (\"panza de burro\")?",
+        "a": "Se debe a la corriente fría de Humboldt en el Océano Pacífico, que produce una inversión térmica que condensa una capa permanente de estratocúmulos bajos y neblina (\"garúa\"), impidiendo la lluvia intensa y moderando las temperaturas."
+      },
+      {
+        "q": "¿Qué son las lomas costeras de Lima y en qué época del año reverdecen?",
+        "a": "Son ecosistemas estacionales únicos del desierto que captan la humedad de las nieblas marinas entre junio y octubre, reverdeciendo colinas áridas con flores como el Amancay en Lúcumo (Pachacámac), Lachay, Mangomarca y Villa María del Triunfo."
+      },
+      {
+        "q": "¿Cuáles son las tres cuencas hidrográficas que sustentan a Lima Metropolitana?",
+        "a": "Las cuencas de los ríos Rímac (el principal proveedor de agua potable a través de la planta de La Atarjea), Chillón al norte y Lurín al sur, las cuales forman los valles agrícolas y urbanos sobre los que se expandió la ciudad."
+      }
+    ],
     "crossLinks": {
       "districts": [
         {
@@ -663,15 +729,18 @@
     "sources": [
       {
         "publisher": "Ministerio del Ambiente (MINAM) / SERNANP",
-        "detail": "Informes técnicos, planes maestros de zonificación y categorización internacional del Refugio de Vida Silvestre Los Pantanos de Villa (Sitio Ramsar)."
+        "detail": "Informes técnicos, planes maestros de zonificación y categorización internacional del Refugio de Vida Silvestre Los Pantanos de Villa (Sitio Ramsar).",
+        "url": "https://www.gob.pe/sernanp"
       },
       {
         "publisher": "Servicio Nacional de Meteorología e Hidrología del Perú (SENAMHI)",
-        "detail": "Data estadística histórica sobre la medición de la inversión térmica, humedad relativa y pluviometría limeña."
+        "detail": "Data estadística histórica sobre la medición de la inversión térmica, humedad relativa y pluviometría limeña.",
+        "url": "https://www.senamhi.gob.pe/"
       },
       {
         "publisher": "Instituto Nacional de Estadística e Informática (INEI)",
-        "detail": "Bases de datos sobre la disponibilidad de recursos hídricos en la estratégica Cuenca del río Rímac."
+        "detail": "Bases de datos sobre la disponibilidad de recursos hídricos en la estratégica Cuenca del río Rímac.",
+        "url": "https://www.inei.gob.pe/"
       }
     ]
   },
@@ -794,6 +863,20 @@
         ]
       }
     ],
+    "faq": [
+      {
+        "q": "¿Qué sistemas de transporte masivo operan formalmente en Lima Metropolitana?",
+        "a": "El sistema articulado por la ATU comprende la Línea 1 del Metro de Lima (tren eléctrico elevado de Villa El Salvador a San Juan de Lurigancho), el Metropolitano (buses articulados en vía segregada de norte a sur) y los Corredores Complementarios (Rojo, Azul, Morado)."
+      },
+      {
+        "q": "¿Cómo se paga el transporte público en el Metro y en el Metropolitano?",
+        "a": "Se emplean tarjetas electrónicas sin contacto recargables en estaciones y puntos autorizados: la Tarjeta Lima Pass / Metropolitano para buses y la Tarjeta Línea 1 para el tren eléctrico, con avance hacia un sistema de recaudo unificado."
+      },
+      {
+        "q": "¿Qué es la Vía Expresa Paseo de la República y por qué es emblemática?",
+        "a": "Conocida popularmente como \"El Zanjón\", es una autopista urbana en trinchera inaugurada a finales de la década de 1960 que conecta el Centro de Lima con el sur (Lince, San Isidro, Miraflores, Barranco), integrando carriles vehiculares y la troncal del Metropolitano."
+      }
+    ],
     "crossLinks": {
       "districts": [
         {
@@ -836,15 +919,18 @@
     "sources": [
       {
         "publisher": "Autoridad de Transporte Urbano (ATU) / MTC",
-        "detail": "Comunicados oficiales en la Plataforma Digital Única del Estado (Gob.pe), resoluciones de implementación de la TIT y reglamentos del sistema integrado tarifario Lima Pass para corredores."
+        "detail": "Comunicados oficiales en la Plataforma Digital Única del Estado (Gob.pe), resoluciones de implementación de la TIT y reglamentos del sistema integrado tarifario Lima Pass para corredores.",
+        "url": "https://www.gob.pe/atu"
       },
       {
         "publisher": "Organismo Supervisor de la Inversión en Infraestructura de Transporte de Uso Público (OSITRAN)",
-        "detail": "Informes técnicos de supervisión gubernamental sobre el avance físico de obras, especificaciones técnicas y capacidades operativas finales de las fases de ampliación 1B del Aeropuerto Internacional Jorge Chávez administrado por LAP."
+        "detail": "Informes técnicos de supervisión gubernamental sobre el avance físico de obras, especificaciones técnicas y capacidades operativas finales de las fases de ampliación 1B del Aeropuerto Internacional Jorge Chávez administrado por LAP.",
+        "url": "https://www.gob.pe/ositran"
       },
       {
         "publisher": "Superintendencia de Transporte Terrestre (SUTRAN)",
-        "detail": "Reglamentos técnicos vigentes de supervisión inopinada y fiscalización sancionadora de terminales terrestres para flotas interprovinciales."
+        "detail": "Reglamentos técnicos vigentes de supervisión inopinada y fiscalización sancionadora de terminales terrestres para flotas interprovinciales.",
+        "url": "https://www.gob.pe/sutran"
       }
     ]
   },
@@ -963,6 +1049,20 @@
         ]
       }
     ],
+    "faq": [
+      {
+        "q": "¿Cómo se divide territorial y demográficamente \"Las 5 Limas\"?",
+        "a": "Se agrupan en Lima Centro (eje administrativo e histórico), Lima Norte (polo comercial y demográfico dinámico), Lima Sur (productiva y litoral de balnearios), Lima Este (industrial y residencial extensa) y Lima Moderna / Top (centros corporativos y financieros)."
+      },
+      {
+        "q": "¿Cuál es el distrito más poblado de Lima y de todo el Perú?",
+        "a": "San Juan de Lurigancho, ubicado en Lima Este, con más de 1.2 millones de habitantes, concentrando una vasta actividad comercial, cultural y comunitaria mayor que la de varias regiones enteras del país."
+      },
+      {
+        "q": "¿Por qué el Callao tiene un estatus administrativo diferente al de Lima?",
+        "a": "El Callao fue declarado Provincia Constitucional en 1857 y cuenta con su propio Gobierno Regional y Municipalidad Provincial independiente, aunque forma con Lima un continuo urbano y metropolitano indivisible de más de 10 millones de personas."
+      }
+    ],
     "crossLinks": {
       "districts": [
         {
@@ -1005,15 +1105,18 @@
     "sources": [
       {
         "publisher": "Instituto Nacional de Estadística e Informática (INEI)",
-        "detail": "Mapas geoespaciales de estratificación socioeconómica metropolitana y detallados censos nacionales de población."
+        "detail": "Mapas geoespaciales de estratificación socioeconómica metropolitana y detallados censos nacionales de población.",
+        "url": "https://www.inei.gob.pe/"
       },
       {
         "publisher": "Ministerio de Cultura (MINCUL)",
-        "detail": "Fichas técnicas rigurosas del Sistema de Inventario de Recursos Arqueológicos correspondientes a las milenarias Huaca Pucllana y Huallamarca."
+        "detail": "Fichas técnicas rigurosas del Sistema de Inventario de Recursos Arqueológicos correspondientes a las milenarias Huaca Pucllana y Huallamarca.",
+        "url": "https://www.gob.pe/cultura"
       },
       {
         "publisher": "Gobierno Regional del Callao",
-        "detail": "Documentación histórica y reglamentaciones oficiales sobre la autonomía y delimitación territorial constitutiva del puerto."
+        "detail": "Documentación histórica y reglamentaciones oficiales sobre la autonomía y delimitación territorial constitutiva del puerto.",
+        "url": "https://www.regioncallao.gob.pe/"
       }
     ]
   },
@@ -1121,6 +1224,20 @@
         ]
       }
     ],
+    "faq": [
+      {
+        "q": "¿Qué es el emporio comercial de Gamarra y cuál es su impacto económico?",
+        "a": "Ubicado en el distrito de La Victoria, Gamarra es el conglomerado textil y de confecciones más grande de Sudamérica, agrupando a más de 30,000 unidades productivas y comerciales que generan miles de empleos directos y abastecen a todo el mercado nacional y regional."
+      },
+      {
+        "q": "¿Dónde se encuentra Mesa Redonda y qué tipo de comercio concentra?",
+        "a": "Situado en el Cercado de Lima entre los jirones Cusco, Andahuaylas y Puno, es el principal centro mayorista y minorista de importaciones, artículos escolares, juguetes, decoración y menaje para hogares y comerciantes de todo el país."
+      },
+      {
+        "q": "¿Qué otros clústeres comerciales especializados destacan en Lima?",
+        "a": "Destacan el Centro Comercial Polvos Azules (calzado, indumentaria deportiva y electrónica), el conglomerado de Las Malvinas (ferretería, repuestos y tecnología) y el Parque Industrial de Villa El Salvador (muebles de madera, metalmecánica y calzado)."
+      }
+    ],
     "crossLinks": {
       "districts": [
         {
@@ -1163,15 +1280,18 @@
     "sources": [
       {
         "publisher": "Ministerio de la Producción (PRODUCE)",
-        "detail": "Informes ejecutivos sectoriales detallados y comunicados de prensa sobre el directo impacto financiero en las MYPEs participantes en las grandes ferias \"Perú Produce\" organizadas tanto en el emporio de Gamarra como en el Parque Industrial de VES."
+        "detail": "Informes ejecutivos sectoriales detallados y comunicados de prensa sobre el directo impacto financiero en las MYPEs participantes en las grandes ferias \"Perú Produce\" organizadas tanto en el emporio de Gamarra como en el Parque Industrial de VES.",
+        "url": "https://www.gob.pe/produce"
       },
       {
         "publisher": "Cámara de Comercio de Lima (CCL)",
-        "detail": "Rigurosos estudios macroeconómicos y sectoriales sobre el masivo volumen de negocio anual movilizado en campañas importadoras de mercadería asiática provenientes del populoso hub de Mesa Redonda."
+        "detail": "Rigurosos estudios macroeconómicos y sectoriales sobre el masivo volumen de negocio anual movilizado en campañas importadoras de mercadería asiática provenientes del populoso hub de Mesa Redonda.",
+        "url": "https://www.camaralima.org.pe/"
       },
       {
         "publisher": "Municipalidad Metropolitana de Lima (MML) / Gerencia de Desarrollo Económico",
-        "detail": "Estadísticas oficiales vigentes sobre patentes comerciales, licencias de funcionamiento masivas y políticas públicas de dinamización, ordenamiento y formalización de los históricos conglomerados comerciales del cercado."
+        "detail": "Estadísticas oficiales vigentes sobre patentes comerciales, licencias de funcionamiento masivas y políticas públicas de dinamización, ordenamiento y formalización de los históricos conglomerados comerciales del cercado.",
+        "url": "https://www.munlima.gob.pe/"
       }
     ]
   }

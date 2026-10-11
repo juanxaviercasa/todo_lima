@@ -12,6 +12,37 @@ export default function HomePage() {
   return <><Navbar /><main id="contenido" className="flex-grow"><section className="home-hero relative bg-slate-950 text-white overflow-hidden"><img src="/images/lima-hero.jpg" alt="" fetchPriority="high" width="1920" height="1080" className="absolute inset-0 w-full h-full object-cover" /><div className="category-hero-shade absolute inset-0" /><div className="relative w-full max-w-7xl mx-auto px-5 py-12 sm:py-20"><p className="text-sky-300 text-sm font-semibold mb-5">LIMA, A TU ALCANCE</p><h1 className="text-4xl sm:text-6xl font-black leading-tight max-w-3xl">Encuentra lo que necesitas.<br /><span className="text-sky-300">Elige con información.</span></h1><p className="mt-6 text-lg text-slate-300 max-w-2xl leading-relaxed">Negocios, especialistas y servicios de Lima en un solo lugar. Explora opciones, compara ubicaciones y consulta directamente con cada proveedor.</p><div className="flex flex-wrap gap-4 mt-8"><a className="rounded-xl bg-sky-500 px-6 py-3.5 font-bold text-white" href="#directorios">Explorar {categories.length} categorías →</a><Link className="rounded-xl border border-slate-500 px-6 py-3.5 font-semibold" href="/guias">Guías para elegir</Link></div><div className="flex flex-wrap gap-5 mt-10 text-sm text-slate-300"><span>Sin registro para consultar</span><span>Fuentes visibles</span><span>Contacto sin intermediación</span></div></div></section>
     <HomeExplorer categories={categories} />
     <section className="max-w-7xl mx-auto px-5 py-12"><div className="flex flex-wrap justify-between items-center gap-4 mb-6"><div><p className="text-sm font-semibold text-sky-600 mb-2">DESCUBRE LA CIUDAD</p><h2 className="text-3xl font-black">Lima, más allá de una búsqueda</h2></div><Link href="/blog" className="text-sky-600 font-semibold">Explorar el blog →</Link></div><div className="grid md:grid-cols-2 gap-6">{BLOG_POSTS.slice(0,2).map(post=><BlogCard key={post.slug} post={post}/>)}</div></section>
+    <section className="max-w-7xl mx-auto px-5 py-6">
+      <div className="rounded-3xl bg-slate-900 text-white p-8 sm:p-12 border border-slate-800 relative overflow-hidden">
+        <div className="flex flex-col md:flex-row gap-8 items-start md:items-center justify-between">
+          <div className="max-w-2xl">
+            <span className="text-sky-400 font-bold text-xs uppercase tracking-wider">Atlas Conoce Lima · Enciclopedia Territorial</span>
+            <h2 className="text-2xl sm:text-4xl font-black mt-2">La historia, gastronomía y geografía de la capital</h2>
+            <p className="text-slate-300 mt-4 leading-relaxed text-sm sm:text-base">
+              Consulta los 7 pilares canónicos de Lima: desde los canales prehispánicos y el mestizaje culinario hasta la movilidad urbana y los emporios comerciales metropolitanos.
+            </p>
+            <div className="flex flex-wrap gap-2 mt-6">
+              {[
+                ['Historia', '/conoce-lima/historia-de-lima'],
+                ['Gastronomía', '/conoce-lima/gastronomia-limena'],
+                ['Cultura', '/conoce-lima/cultura-y-tradiciones'],
+                ['Geografía', '/conoce-lima/geografia-y-clima'],
+                ['Movilidad', '/conoce-lima/movilidad-y-transporte'],
+                ['Las 5 Limas', '/conoce-lima/las-5-limas-y-callao'],
+                ['Emporios', '/conoce-lima/emporios-comerciales']
+              ].map(([label, href]) => (
+                <Link key={href} href={href} className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-sky-600 text-xs font-semibold text-slate-200 transition-colors">
+                  {label} →
+                </Link>
+              ))}
+            </div>
+          </div>
+          <Link href="/conoce-lima" className="rounded-xl px-6 py-3.5 bg-sky-500 hover:bg-sky-400 text-white font-bold shrink-0 transition-colors">
+            Explorar el Atlas →
+          </Link>
+        </div>
+      </div>
+    </section>
     <section aria-label="Servicios destacados por rubro" className="max-w-7xl mx-auto px-5 py-8"><div className="grid md:grid-cols-2 gap-6">{[['Salud y bienestar', 'Encuentra atención para ti y tu familia. Compara especialidades, ubicación y canales de contacto.', 'salud', '/images/salud-feature.jpg'], ['Tu hogar, en buenas manos', 'Explora servicios de reparación y mantenimiento. Consulta condiciones y disponibilidad directamente.', 'hogar', '/images/hogar-feature.jpg']].map(([title, description, niche, image]) => <div key={niche} className="rounded-3xl overflow-hidden bg-slate-950 text-white"><img src={image} alt="" width="800" height="450" loading="lazy" className="w-full aspect-video object-cover" /><div className="p-7"><h2 className="text-2xl font-bold">{title}</h2><p className="text-slate-300 mt-3 leading-relaxed">{description}</p><div className="flex flex-wrap gap-3 mt-5">{categories.filter(c => c.niche === niche).slice(0, 4).map(c => <Link className="rounded-full border border-slate-600 px-3 py-2 text-sm hover:border-sky-400" key={c.slug} href={`/${c.slug}`}>{c.title.replace(' en Lima', '')} →</Link>)}</div></div></div>)}</div></section>
     <section className="max-w-7xl mx-auto px-5 py-12"><div className="flex flex-wrap items-center justify-between gap-4 mb-7"><div><p className="text-sky-600 font-semibold text-sm mb-2">ANTES DE CONTRATAR</p><h2 className="text-3xl font-black">Haz mejores preguntas</h2></div><Link href="/guias" className="text-sky-600 font-bold">Todas las guías →</Link></div><div className="grid md:grid-cols-3 gap-5">{GUIDES.slice(0, 3).map(g => <Link className="editorial-card" key={g.slug} href={`/guias/${g.slug}`}><h3 className="text-xl font-bold">{g.title}</h3><p className="text-slate-500 mt-4">{g.description}</p><span className="text-sky-600 font-semibold block mt-5">Leer checklist →</span></Link>)}</div></section>
     <section className="max-w-7xl mx-auto px-5 py-12"><div className="grid md:grid-cols-3 gap-5">{[['Explora por rubro', 'Encuentra opciones para tu servicio y consulta su ubicación.'], ['Compara con contexto', 'Revisa fuentes y guías; confirma precios y condiciones directamente.'], ['Contacta al proveedor', 'Utiliza el teléfono, mapa o web disponible en cada ficha.']].map(([title, text]) => <div className="editorial-card" key={title}><h2 className="text-xl font-bold mb-3">{title}</h2><p>{text}</p></div>)}</div><p className="mt-6 text-sm text-slate-500">La inclusión no certifica al proveedor ni garantiza disponibilidad. <Link className="underline" href="/metodologia">Conoce nuestra metodología</Link>.</p></section>

@@ -3,8 +3,6 @@ import Link from 'next/link';
 import Navbar from '../../../components/Navbar.js';
 import Footer from '../../../components/Footer.js';
 import JsonLd from '../../../components/JsonLd.js';
-import AtlasHero from '../../../components/AtlasHero.js';
-import AtlasContents from '../../../components/AtlasContents.js';
 import AtlasIcon from '../../../components/AtlasIcon.js';
 import AtlasFormattedText from '../../../components/AtlasFormattedText.js';
 import { getPillars, getPillarBySlug, getAllPillarSlugs } from '../../../lib/atlas.js';
@@ -21,7 +19,8 @@ import {
   Table as TableIcon,
   FileText,
   Compass,
-  ChevronRight
+  ChevronRight,
+  HelpCircle
 } from 'lucide-react';
 
 export const dynamicParams = false;
@@ -65,6 +64,7 @@ export default function PillarPage({ params }) {
   const imgA = ATLAS_IMAGES[pillar.images?.interiorA];
   const imgB = ATLAS_IMAGES[pillar.images?.interiorB];
 
+  // Schema.org enriquecido para SEO GEO y AEO
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -75,10 +75,24 @@ export default function PillarPage({ params }) {
     image: heroImg ? `${SITE_URL}${heroImg.src}` : undefined,
     datePublished: '2026-10-10',
     dateModified: '2026-10-10',
+    spatialCoverage: {
+      '@type': 'Place',
+      name: 'Lima Metropolitana, Perú',
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: -12.046374,
+        longitude: -77.042793,
+      },
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Lima',
+        addressCountry: 'PE',
+      },
+    },
     author: {
       '@type': 'Organization',
-      name: 'Todo Lima',
-      url: `${SITE_URL}/equipo-editorial`,
+      name: 'Equipo Editorial e Histórico de Todo Lima',
+      url: `${SITE_URL}/metodologia`,
     },
     publisher: {
       '@id': `${SITE_URL}/#organization`,
@@ -90,57 +104,210 @@ export default function PillarPage({ params }) {
     })),
   };
 
+  // Schema.org FAQPage para AEO (Answer Engine Optimization)
+  const faqSchema = pillar.faq && pillar.faq.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: pillar.faq.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a,
+      },
+    })),
+  } : null;
+
   return (
     <>
       <Navbar />
-      <main id="contenido" className="atlas-page min-w-0 flex-grow">
+      <main id="contenido" className="min-w-0 [overflow-wrap:anywhere] flex-grow">
         {/* Hero Section con Fotografía Documental */}
-        <AtlasHero image={heroImg} title={pillar.title} intro={pillar.metaDescription} topic={pillar.shortTitle}/>
+        <header className="relative bg-slate-950 text-white py-14 sm:py-20 border-b border-slate-800">
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-sky-900/25 via-slate-950/80 to-slate-950 pointer-events-none" />
+
+          <div className="relative max-w-7xl mx-auto px-5">
+            {/* Breadcrumbs */}
+            <nav aria-label="Ruta de navegación" className="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-slate-400 mb-6">
+              <Link href="/" className="hover:text-white transition-colors">Inicio</Link>
+              <ChevronRight className="w-3.5 h-3.5 text-slate-600" />
+              <Link href="/conoce-lima" className="hover:text-white transition-colors">Conoce Lima</Link>
+              <ChevronRight className="w-3.5 h-3.5 text-slate-600" />
+              <span className="text-sky-400 font-semibold">{pillar.shortTitle}</span>
+            </nav>
+
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div className="lg:col-span-7">
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-bold uppercase tracking-wider">
+                    <AtlasIcon name={pillar.icon} className="w-3.5 h-3.5" />
+                    <span>Pilar 0{pillar.order} · Atlas Conoce Lima</span>
+                  </span>
+                  <span className="text-xs text-slate-400 font-medium">Revisión Institucional 2026</span>
+                </div>
+
+                <h1 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
+                  {pillar.title}
+                </h1>
+
+                <p className="mt-5 text-base sm:text-lg text-slate-300 leading-relaxed">
+                  {pillar.metaDescription}
+                </p>
+
+                {/* Entity badges preview (Enlaces Salientes hacia Wikidata) */}
+                {pillar.wikidataEntities && pillar.wikidataEntities.length > 0 && (
+                  <div className="mt-6 pt-6 border-t border-slate-800/80 flex flex-wrap items-center gap-2">
+                    <span className="text-xs font-bold text-slate-400">Entidades canónicas (Wikidata):</span>
+                    {pillar.wikidataEntities.map((ent) => (
+                      <a
+                        key={ent.id || ent.name}
+                        href={ent.url || `https://www.wikidata.org/wiki/${ent.id}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-900 border border-slate-800 hover:border-sky-500 text-[11px] font-semibold text-slate-300 hover:text-sky-300 transition-colors"
+                      >
+                        <span>{ent.name}</span>
+                        {ent.id && <span className="text-slate-500">({ent.id})</span>}
+                        <ExternalLink className="w-3 h-3 text-slate-500" />
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Showcase Fotográfico de Cabecera */}
+              {heroImg && (
+                <div className="lg:col-span-5">
+                  <figure className="relative rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl group">
+                    <img
+                      src={heroImg.src}
+                      srcSet={heroImg.srcSet}
+                      sizes="(min-width: 1024px) 500px, 100vw"
+                      alt={heroImg.alt}
+                      width="1440"
+                      height="810"
+                      fetchPriority="high"
+                      className="w-full h-auto aspect-[16/9] object-cover group-hover:scale-105 transition-transform duration-700"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none" />
+                    <figcaption className="absolute bottom-3 left-3 right-3 text-[11px] text-slate-300 bg-slate-950/80 backdrop-blur-sm p-2 rounded-lg border border-slate-800/80">
+                      <span className="font-semibold text-white">{pillar.shortTitle}:</span> {heroImg.alt}
+                    </figcaption>
+                  </figure>
+                </div>
+              )}
+            </div>
+          </div>
+        </header>
 
         {/* Contenido principal en 2 columnas */}
-        <div id="contenido-atlas" className="max-w-7xl mx-auto px-5 py-10 scroll-mt-24">
-          <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_19rem] gap-6 xl:gap-8">
+        <div className="max-w-7xl mx-auto px-5 py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_20rem] gap-10">
             {/* Columna Izquierda: Contenido del Pilar */}
             <article className="min-w-0 space-y-12">
-              {/* Featured Snippet Definition Box */}
+              {/* Featured Snippet Definition Box (Optimizado para AEO) */}
               {pillar.canonicalDefinition && (
                 <section className="relative rounded-2xl bg-gradient-to-br from-sky-50 to-indigo-50/50 dark:from-slate-900 dark:to-slate-900/60 border-2 border-sky-200 dark:border-sky-900/50 p-6 sm:p-8 shadow-sm">
                   <div className="flex items-center gap-2.5 text-sky-700 dark:text-sky-400 text-xs font-extrabold uppercase tracking-wider mb-3">
                     <Sparkles className="w-4 h-4" />
-                    <span>Lo esencial</span>
+                    <span>Definición Canónica y Resumen de Referencia (AEO)</span>
                   </div>
                   <blockquote className="text-base sm:text-lg text-slate-800 dark:text-slate-200 leading-relaxed font-medium">
                     "{pillar.canonicalDefinition}"
                   </blockquote>
                   <p className="mt-4 text-[11px] text-slate-500 dark:text-slate-400">
-                    Resumen editorial de Todo Lima.
+                    Definición estructurada para respuesta directa y consulta enciclopédica · Todo Lima (2026).
                   </p>
                 </section>
               )}
 
               {/* Tabla de Contenidos Interactiva (TOC) */}
-              <AtlasContents pillar={pillar}/>
+              <nav aria-label="Tabla de contenidos del artículo" className="rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6">
+                <div className="flex items-center gap-2 mb-4 text-slate-900 dark:text-white font-extrabold text-base">
+                  <FileText className="w-4 h-4 text-sky-600 dark:text-sky-400" />
+                  <span>Índice del Contenido</span>
+                </div>
+                <ol className="grid sm:grid-cols-2 gap-2.5 text-xs sm:text-sm">
+                  {pillar.table && pillar.table.rows && pillar.table.rows.length > 0 && (
+                    <li>
+                      <a 
+                        href="#matriz-estructural" 
+                        className="flex items-center gap-2 text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 font-semibold p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+                      >
+                        <span className="w-5 h-5 rounded-md bg-sky-100 dark:bg-sky-950 text-sky-700 dark:text-sky-400 flex items-center justify-center text-[10px] font-bold">01</span>
+                        <span>Matriz Estructural Comparativa</span>
+                      </a>
+                    </li>
+                  )}
+                  {pillar.sections.map((sec, idx) => (
+                    <li key={sec.id}>
+                      <a 
+                        href={`#${sec.id}`}
+                        className="flex items-center gap-2 text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 font-medium p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors truncate"
+                      >
+                        <span className="w-5 h-5 rounded-md bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center text-[10px] font-bold shrink-0">
+                          {String(idx + 2).padStart(2, '0')}
+                        </span>
+                        <span className="truncate">{sec.title}</span>
+                      </a>
+                    </li>
+                  ))}
+                  {pillar.crossLinks && (pillar.crossLinks.districts?.length > 0 || pillar.crossLinks.categories?.length > 0) && (
+                    <li>
+                      <a 
+                        href="#distritos-relacionados" 
+                        className="flex items-center gap-2 text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 font-medium p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+                      >
+                        <span className="w-5 h-5 rounded-md bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center text-[10px] font-bold shrink-0">08</span>
+                        <span>Conexión Territorial & Directorio</span>
+                      </a>
+                    </li>
+                  )}
+                  {pillar.faq && pillar.faq.length > 0 && (
+                    <li>
+                      <a 
+                        href="#preguntas-frecuentes" 
+                        className="flex items-center gap-2 text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 font-medium p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+                      >
+                        <span className="w-5 h-5 rounded-md bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center text-[10px] font-bold shrink-0">09</span>
+                        <span>Preguntas Frecuentes (AEO)</span>
+                      </a>
+                    </li>
+                  )}
+                  {pillar.sources && pillar.sources.length > 0 && (
+                    <li>
+                      <a 
+                        href="#fuentes-verificadas" 
+                        className="flex items-center gap-2 text-slate-700 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400 font-medium p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+                      >
+                        <span className="w-5 h-5 rounded-md bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 flex items-center justify-center text-[10px] font-bold shrink-0">10</span>
+                        <span>Fuentes Institucionales (.gob.pe)</span>
+                      </a>
+                    </li>
+                  )}
+                </ol>
+              </nav>
 
-              {/* Datos de un vistazo */}
+              {/* Matriz Estructural Comparativa */}
               {pillar.table && pillar.table.rows && pillar.table.rows.length > 0 && (
                 <section id="matriz-estructural" className="scroll-mt-24 space-y-4">
                   <div className="flex items-center gap-2">
                     <TableIcon className="w-5 h-5 text-sky-600 dark:text-sky-400" />
                     <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white">
-                      Datos de un vistazo
+                      Matriz Estructural Comparativa
                     </h2>
                   </div>
                   <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
-                    Compara los datos principales. En pantallas pequeñas, desliza la tabla horizontalmente.
+                    Datos estructurados del pilar para comparativa rápida, análisis cronológico y referencia ciudadana.
                   </p>
 
-                  <div role="region" aria-label="Tabla comparativa; desplazamiento horizontal" tabIndex={0} className="atlas-table max-w-full overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm">
-                    <table className="w-full min-w-[640px] text-left border-collapse text-sm">
+                  <div className="overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm">
+                    <table className="w-full text-left border-collapse text-xs sm:text-sm">
                       <thead>
                         <tr className="bg-slate-50 dark:bg-slate-800/80 border-b border-slate-200 dark:border-slate-800">
                           {pillar.table.headers.map((h, hIdx) => (
                             <th 
-                              key={hIdx} scope="col"
+                              key={hIdx} 
                               className="py-3 px-4 font-bold text-slate-900 dark:text-slate-100 uppercase tracking-wider text-[11px]"
                             >
                               {h}
@@ -154,7 +321,7 @@ export default function PillarPage({ params }) {
                             {row.map((cell, cIdx) => (
                               <td 
                                 key={cIdx} 
-                                className={`py-3.5 px-4 text-slate-700 dark:text-slate-300 align-top ${cIdx === 0 ? 'font-bold text-slate-900 dark:text-white whitespace-normal' : ''}`}
+                                className={`py-3.5 px-4 text-slate-700 dark:text-slate-300 align-top ${cIdx === 0 ? 'font-bold text-slate-900 dark:text-white whitespace-nowrap sm:whitespace-normal' : ''}`}
                               >
                                 <AtlasFormattedText text={cell} />
                               </td>
@@ -193,19 +360,19 @@ export default function PillarPage({ params }) {
                       </div>
                     </section>
 
-                    {/* Inserción Fotográfica A: Entre Sección 2 y Sección 3 */}
+                    {/* Inserción Fotográfica A */}
                     {sIdx === 1 && imgA && (
                       <figure className="my-10 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm group">
-                        <div className="aspect-[16/9] overflow-hidden bg-slate-100 dark:bg-slate-800">
+                        <div className="overflow-hidden">
                           <img
                             src={imgA.src}
                             srcSet={imgA.srcSet}
                             sizes="(min-width: 1024px) 780px, 100vw"
                             alt={imgA.alt}
                             width="1440"
-                            height="810"
+                            height="960"
                             loading="lazy"
-                            className="block w-full h-full object-contain"
+                            className="w-full h-auto aspect-[3/2] sm:aspect-[16/9] object-cover group-hover:scale-105 transition-transform duration-500"
                           />
                         </div>
                         <figcaption className="p-4 text-xs text-slate-600 dark:text-slate-400 border-t border-slate-100 dark:border-slate-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
@@ -215,19 +382,19 @@ export default function PillarPage({ params }) {
                       </figure>
                     )}
 
-                    {/* Inserción Fotográfica B: Entre Sección 4 y Sección 5 */}
+                    {/* Inserción Fotográfica B */}
                     {sIdx === 3 && imgB && (
                       <figure className="my-10 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm group">
-                        <div className="aspect-[16/9] overflow-hidden bg-slate-100 dark:bg-slate-800">
+                        <div className="overflow-hidden">
                           <img
                             src={imgB.src}
                             srcSet={imgB.srcSet}
                             sizes="(min-width: 1024px) 780px, 100vw"
                             alt={imgB.alt}
                             width="1440"
-                            height="810"
+                            height="960"
                             loading="lazy"
-                            className="block w-full h-full object-contain"
+                            className="w-full h-auto aspect-[3/2] sm:aspect-[16/9] object-cover group-hover:scale-105 transition-transform duration-500"
                           />
                         </div>
                         <figcaption className="p-4 text-xs text-slate-600 dark:text-slate-400 border-t border-slate-100 dark:border-slate-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
@@ -240,19 +407,19 @@ export default function PillarPage({ params }) {
                 ))}
               </div>
 
-              {/* Módulo de Distritos y Directorio Comercial Vinculado */}
+              {/* Módulo de Distritos y Directorio Comercial Vinculado (SEO GEO) */}
               {pillar.crossLinks && (
                 <section id="distritos-relacionados" className="scroll-mt-24 space-y-6 pt-8 border-t border-slate-200 dark:border-slate-800">
                   <div>
                     <div className="flex items-center gap-2 text-sky-600 dark:text-sky-400 text-xs font-bold uppercase tracking-wider mb-2">
                       <Compass className="w-4 h-4" />
-                      <span>Conexión Territorial & Directorio Local</span>
+                      <span>Conexión Territorial & Directorio Local (SEO GEO)</span>
                     </div>
                     <h2 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">
-                      Distritos y negocios relacionados
+                      Distritos y Comercios Vinculados a este Pilar
                     </h2>
                     <p className="mt-1 text-xs sm:text-sm text-slate-600 dark:text-slate-400">
-                      Explora los negocios y servicios de las zonas mencionadas; confirma sus condiciones directamente con cada proveedor.
+                      Explora la oferta comercial, servicios profesionales y fichas de negocios verificadas en las zonas clave mencionadas.
                     </p>
                   </div>
 
@@ -262,7 +429,7 @@ export default function PillarPage({ params }) {
                       <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500">
                         Distritos protagonistas:
                       </h3>
-                      <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 gap-3">
+                      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
                         {pillar.crossLinks.districts.map((dist) => (
                           <Link
                             key={dist.slug}
@@ -276,7 +443,7 @@ export default function PillarPage({ params }) {
                               <MapPin className="w-3.5 h-3.5 text-slate-400 group-hover:text-sky-500" />
                             </div>
                             {dist.desc && (
-                              <p className="mt-1.5 text-[11px] text-slate-500 leading-relaxed">
+                              <p className="mt-1.5 text-[11px] text-slate-500 line-clamp-2">
                                 {dist.desc}
                               </p>
                             )}
@@ -312,23 +479,67 @@ export default function PillarPage({ params }) {
                 </section>
               )}
 
-              {/* Expediente de Fuentes Verificadas */}
+              {/* Preguntas Frecuentes Canónicas (AEO - Answer Engine Optimization) */}
+              {pillar.faq && pillar.faq.length > 0 && (
+                <section id="preguntas-frecuentes" className="scroll-mt-24 space-y-4 pt-8 border-t border-slate-200 dark:border-slate-800">
+                  <div className="flex items-center gap-2">
+                    <HelpCircle className="w-5 h-5 text-sky-600 dark:text-sky-400" />
+                    <h2 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">
+                      Preguntas Frecuentes sobre {pillar.shortTitle} (AEO)
+                    </h2>
+                  </div>
+                  <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+                    Respuestas sintéticas a las dudas más consultadas por la ciudadanía y procesadas por motores de respuesta e inteligencia artificial.
+                  </p>
+                  <div className="space-y-3 pt-2">
+                    {pillar.faq.map((item, fIdx) => (
+                      <details
+                        key={fIdx}
+                        className="group rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-5 transition-colors open:border-sky-500/50"
+                        open={fIdx === 0}
+                      >
+                        <summary className="cursor-pointer font-bold text-sm sm:text-base text-slate-900 dark:text-white list-none flex items-center justify-between gap-4">
+                          <span>{item.q}</span>
+                          <span className="text-sky-600 dark:text-sky-400 font-extrabold text-lg group-open:rotate-45 transition-transform shrink-0">+</span>
+                        </summary>
+                        <p className="mt-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed border-t border-slate-100 dark:border-slate-800 pt-3">
+                          {item.a}
+                        </p>
+                      </details>
+                    ))}
+                  </div>
+                </section>
+              )}
+
+              {/* Expediente de Fuentes Verificadas (Enlaces Salientes Oficiales .gob.pe) */}
               {pillar.sources && pillar.sources.length > 0 && (
                 <section id="fuentes-verificadas" className="scroll-mt-24 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 sm:p-8 space-y-4">
                   <div className="flex items-center gap-2 text-slate-900 dark:text-white font-extrabold text-base">
                     <ShieldCheck className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
-                    <span>Fuentes y referencias</span>
+                    <span>Expediente de Fuentes Institucionales Verificadas</span>
                   </div>
                   <p className="text-xs text-slate-600 dark:text-slate-400">
-                    Referencias y entidades citadas para ampliar la información de esta guía:
+                    Este documento se basa estrictamente en normativa legal, repositorios ministeriales y archivos históricos oficiales:
                   </p>
-                  <ul className="space-y-3 text-xs sm:text-sm text-slate-700 dark:text-slate-300">
+                  <ul className="space-y-3.5 text-xs sm:text-sm text-slate-700 dark:text-slate-300">
                     {pillar.sources.map((src, sIdx) => (
                       <li key={sIdx} className="flex items-start gap-2.5">
                         <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0 mt-2" />
                         <div>
-                          <strong className="text-slate-900 dark:text-white font-bold">{src.publisher}:</strong>{' '}
-                          <span>{src.detail}</span>
+                          {src.url ? (
+                            <a
+                              href={src.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-slate-900 dark:text-white font-bold hover:text-sky-600 dark:hover:text-sky-400 inline-flex items-center gap-1 group transition-colors"
+                            >
+                              <span>{src.publisher}</span>
+                              <ExternalLink className="w-3 h-3 text-slate-400 group-hover:text-sky-500" />
+                            </a>
+                          ) : (
+                            <strong className="text-slate-900 dark:text-white font-bold">{src.publisher}:</strong>
+                          )}
+                          <span className="block text-slate-600 dark:text-slate-400 mt-0.5">{src.detail}</span>
                         </div>
                       </li>
                     ))}
@@ -345,12 +556,12 @@ export default function PillarPage({ params }) {
 
             {/* Columna Derecha: Sticky Sidebar */}
             <aside className="space-y-6">
-              {/* Entidades de Conocimiento Wikidata */}
+              {/* Entidades de Conocimiento Wikidata (Enlaces Salientes) */}
               {pillar.wikidataEntities && pillar.wikidataEntities.length > 0 && (
                 <div className="rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 shadow-sm">
                   <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3 flex items-center gap-1.5">
                     <BookOpen className="w-3.5 h-3.5 text-sky-500" />
-                    <span>Referencias en Wikidata</span>
+                    <span>Knowledge Graph / Wikidata</span>
                   </h3>
                   <div className="space-y-2">
                     {pillar.wikidataEntities.map((ent) => (
@@ -359,12 +570,12 @@ export default function PillarPage({ params }) {
                         href={ent.url || `https://www.wikidata.org/wiki/${ent.id}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-start justify-between gap-3 p-2 rounded-lg bg-slate-50 dark:bg-slate-800/60 hover:bg-sky-50 dark:hover:bg-slate-800 text-xs transition-colors group"
+                        className="flex items-center justify-between p-2 rounded-lg bg-slate-50 dark:bg-slate-800/60 hover:bg-sky-50 dark:hover:bg-slate-800 text-xs transition-colors group"
                       >
                         <span className="font-semibold text-slate-700 dark:text-slate-300 group-hover:text-sky-600 dark:group-hover:text-sky-400">
                           {ent.name}
                         </span>
-                        <div className="flex shrink-0 items-center gap-1 text-[10px] text-slate-400">
+                        <div className="flex items-center gap-1 text-[10px] text-slate-400">
                           {ent.id && <span>{ent.id}</span>}
                           <ExternalLink className="w-3 h-3 text-slate-400 group-hover:text-sky-500" />
                         </div>
@@ -374,11 +585,11 @@ export default function PillarPage({ params }) {
                 </div>
               )}
 
-              {/* Sigue conociendo Lima */}
+              {/* Otros Pilares del Atlas (Interlinking Interno) */}
               <div className="rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400">
-                    Sigue conociendo Lima
+                    Otros Pilares del Atlas
                   </h3>
                   <Link href="/conoce-lima" className="text-[11px] font-bold text-sky-600 dark:text-sky-400 hover:underline">
                     Ver todos
@@ -407,11 +618,11 @@ export default function PillarPage({ params }) {
                           </div>
                         )}
                         <div className="min-w-0">
-                          <p className="text-xs font-bold text-slate-800 dark:text-slate-200 group-hover:text-sky-600 dark:group-hover:text-sky-400 leading-relaxed">
+                          <p className="text-xs font-bold text-slate-800 dark:text-slate-200 group-hover:text-sky-600 dark:group-hover:text-sky-400 truncate">
                             {other.shortTitle}
                           </p>
                           <p className="text-[10px] text-slate-400">
-                            Explorar tema
+                            Pilar 0{other.order}
                           </p>
                         </div>
                       </Link>
@@ -424,10 +635,10 @@ export default function PillarPage({ params }) {
               <div className="rounded-2xl bg-gradient-to-br from-sky-600 to-indigo-700 text-white p-6 shadow-md">
                 <Building2 className="w-8 h-8 text-sky-200 mb-3" />
                 <h3 className="text-base font-bold leading-tight mb-2">
-                  ¿Buscas un negocio en Lima?
+                  ¿Buscas servicios verificados en Lima?
                 </h3>
                 <p className="text-xs text-sky-100 leading-relaxed mb-4">
-                  Encuentra negocios y servicios por categoría y distrito. Consulta su información y contacta directamente con cada proveedor.
+                  Accede a más de 1,700 fichas de negocios locales segmentados por especialidad y distrito.
                 </p>
                 <Link
                   href="/#directorios"
@@ -444,6 +655,7 @@ export default function PillarPage({ params }) {
       <Footer />
       <JsonLd data={breadcrumbs([['Inicio', '/'], ['Conoce Lima', '/conoce-lima'], [pillar.shortTitle, `/conoce-lima/${pillar.slug}`]])} />
       <JsonLd data={articleSchema} />
+      {faqSchema && <JsonLd data={faqSchema} />}
     </>
   );
 }
