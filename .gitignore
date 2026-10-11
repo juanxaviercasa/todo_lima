@@ -42,4 +42,7 @@ audits/categories/
 # Raw image downloads from Google Flow
 imagenes_generadas/*_TL/
 
+# Blog assets copied from tracked originals before development/build
+/public/editorial/
+
 .env*

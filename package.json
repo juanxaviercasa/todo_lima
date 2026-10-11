@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
+    "predev": "node scripts/prepare-blog-images.mjs",
+    "prebuild": "node scripts/prepare-blog-images.mjs",
     "build": "next build",
     "verify:seo": "node scripts/verify-seo.mjs",
     "test:seo": "node scripts/smoke-seo.mjs",
