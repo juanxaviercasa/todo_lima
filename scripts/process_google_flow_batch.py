@@ -6,7 +6,7 @@ from PIL import Image
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MAPEO_PATH = os.path.join(ROOT, "docs", "MAPEO_IMAGENES_SEO_537.json")
 IMG_DIR = os.path.join(ROOT, "imagenes_generadas")
-AUDIT_PATH = os.path.join(ROOT, "docs", "bloques_google_flow", "PROCESAMIENTO_BLOQUES_1_10.json")
+AUDIT_PATH = os.path.join(ROOT, "docs", "bloques_google_flow", "PROCESAMIENTO_BLOQUES_CONSOLIDADOS.json")
 
 with open(MAPEO_PATH, "r", encoding="utf-8") as f:
     mapeo = json.load(f)
@@ -19,11 +19,10 @@ def clean_words(text):
 processed_records = []
 total_converted = 0
 
-for b_idx in range(1, 11):
+for b_idx in range(1, 24):
     folder = f"bloque_{b_idx}_TL"
     folder_path = os.path.join(IMG_DIR, folder)
     if not os.path.exists(folder_path):
-        print(f"Saltando: {folder} (no existe)")
         continue
         
     files = sorted(os.listdir(folder_path))
@@ -104,6 +103,6 @@ with open(AUDIT_PATH, "w", encoding="utf-8") as f:
     json.dump(processed_records, f, indent=2, ensure_ascii=False)
 
 print(f"\n=======================================================")
-print(f"[OK] Total de imagenes convertidas a WebP: {total_converted} de 240")
+print(f"[OK] Total de imagenes convertidas a WebP: {total_converted} (acumulado)")
 print(f"[OK] Archivo de auditoria guardado en: {AUDIT_PATH}")
 print(f"=======================================================")
