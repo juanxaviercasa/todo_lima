@@ -430,6 +430,7 @@
     "links_verified": true,
     "ready_for_review": true,
     "publication_approved": false,
-    "publication_date": null
+    "publication_date": null,
+    "publication_slot": null
   }
 }

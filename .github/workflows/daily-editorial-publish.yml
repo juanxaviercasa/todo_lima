@@ -1,21 +1,29 @@
-name: Publicacion Editorial Diaria (3 articulos/dia)
+name: Publicacion Editorial Diaria (3 slots: Manana, Tarde, Noche)
 
 on:
   schedule:
-    # Ejecucion programada diaria a las 14:00 UTC (09:00 AM hora de Lima UTC-5)
-    - cron: '0 14 * * *'
+    # 1. Turno Manana: 08:00 AM hora de Lima (13:00 UTC) -> 1 articulo matutino
+    - cron: '0 13 * * *'
+    # 2. Turno Tarde: 02:00 PM (14:00) hora de Lima (19:00 UTC) -> 1 articulo vespertino
+    - cron: '0 19 * * *'
+    # 3. Turno Noche: 08:00 PM (20:00) hora de Lima (01:00 UTC) -> 1 articulo nocturno
+    - cron: '0 1 * * *'
   workflow_dispatch:
     inputs:
       count:
-        description: 'Cantidad de articulos a publicar (por defecto 3)'
+        description: 'Cantidad de articulos a publicar (por defecto 1)'
         required: false
-        default: '3'
+        default: '1'
+      slot:
+        description: 'Franja horaria forzada (manana, tarde, noche)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
 
 jobs:
-  publish-batch:
+  publish-slot:
     runs-on: ubuntu-latest
     env:
       NEXT_PUBLIC_CDN_URL: 'https://cdn.todolima.com'
@@ -27,6 +35,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
 
       - name: Configurar Node.js
         uses: actions/setup-node@v4
@@ -37,16 +46,23 @@ jobs:
       - name: Instalar dependencias
         run: npm ci --prefer-offline --no-audit
 
-      - name: Publicar lote editorial del dia
+      - name: Publicar 1 articulo del turno actual
         id: publish
         run: |
-          COUNT="${{ github.event.inputs.count || '3' }}"
-          node scripts/publish-daily-batch.mjs --count "$COUNT"
+          COUNT="${{ github.event.inputs.count || '1' }}"
+          SLOT="${{ github.event.inputs.slot || '' }}"
+          if [ -n "$SLOT" ]; then
+            node scripts/publish-daily-batch.mjs --count "$COUNT" --slot "$SLOT"
+          else
+            node scripts/publish-daily-batch.mjs --count "$COUNT"
+          fi
 
       - name: Validar compilacion estatica de produccion
         run: npm run build
 
       - name: Confirmar y sincronizar cambios en Git
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "Todo Lima Editorial Bot"
           git config user.email "bot@todolima.com"
@@ -54,7 +70,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No se encontraron cambios pendientes para confirmar."
           else
-            BATCH_DATE=$(node -e "console.log(new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Lima' }).format(new Date()))")
-            git commit -m "feat(editorial): publicacion automatizada de 3 articulos ($BATCH_DATE)"
+            INFO=$(node -e "const h = new Intl.DateTimeFormat('en-GB', { timeZone: 'America/Lima', hour: '2-digit', hour12: false }).format(new Date()); const s = h < 12 ? 'manana' : (h < 18 ? 'tarde' : 'noche'); const d = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Lima' }).format(new Date()); console.log(d + ' | ' + s);")
+            git commit -m "feat(editorial): publicar 1 articulo en blog ($INFO) [skip ci]"
             git push origin main
           fi

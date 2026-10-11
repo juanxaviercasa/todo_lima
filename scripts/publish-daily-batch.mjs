@@ -20,24 +20,54 @@ function getArg(name, defaultValue) {
   if (idx !== -1 && idx + 1 < args.length) return args[idx + 1];
   return defaultValue;
 }
-const countArg = parseInt(getArg('--count', '3'), 10);
+
+// Por defecto 1 artículo por ejecución (se dispara 3 veces al día: mañana, tarde, noche)
+const countArg = parseInt(getArg('--count', '1'), 10);
 const forceDate = getArg('--force-date', null);
+const forceSlot = getArg('--slot', null);
 const isDryRun = args.includes('--dry-run');
 
-// 2. Determinar fecha en zona horaria America/Lima (UTC-5)
-function getLimaDate() {
-  if (forceDate) return forceDate;
+// 2. Determinar fecha y franja horaria en zona horaria America/Lima (UTC-5)
+function getLimaTimeInfo() {
   const now = new Date();
-  const formatter = new Intl.DateTimeFormat('en-CA', {
+  const dateStr = forceDate || new Intl.DateTimeFormat('en-CA', {
     timeZone: 'America/Lima',
     year: 'numeric',
     month: '2-digit',
     day: '2-digit'
-  });
-  return formatter.format(now);
+  }).format(now);
+
+  const hourStr = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'America/Lima',
+    hour: '2-digit',
+    hour12: false
+  }).format(now);
+  const hour = parseInt(hourStr, 10);
+
+  let slot = forceSlot;
+  if (!slot) {
+    if (hour < 12) {
+      slot = 'mañana';
+    } else if (hour >= 12 && hour < 18) {
+      slot = 'tarde';
+    } else {
+      slot = 'noche';
+    }
+  }
+
+  const timeStr = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'America/Lima',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
+  }).format(now);
+
+  return { date: dateStr, time: timeStr, hour, slot };
 }
 
-const publishDate = getLimaDate();
+const timeInfo = getLimaTimeInfo();
+const publishDate = timeInfo.date;
+const publishSlot = timeInfo.slot;
 
 // 3. Cargar cola y publicaciones
 if (!fs.existsSync(QUEUE_PATH)) {
@@ -63,24 +93,25 @@ if (pendingInQueue.length === 0) {
 
 // Determinar el número de día de lote actual
 const maxBatchDay = queue.reduce((max, item) => Math.max(max, item.batch_day || 0), 0);
-const currentBatchDay = maxBatchDay + 1;
+// Si ya hay artículos publicados hoy, mantenemos el batch_day; si es una fecha nueva, incrementamos
+const todayItems = queue.filter(item => item.published_at === publishDate);
+const currentBatchDay = todayItems.length > 0 ? maxBatchDay : (maxBatchDay + 1);
 
-// Seleccionar la tanda de artículos a publicar
+// Seleccionar la tanda de artículos a publicar (por defecto 1)
 const batchToPublish = pendingInQueue.slice(0, countArg);
 
 console.log(`\n======================================================`);
-console.log(`[DRIP-FEED EDITORIAL] Tanda de publicación diaria`);
-console.log(`- Fecha asignada: ${publishDate} (Zona Horaria Lima / America/Lima)`);
-console.log(`- Lote de publicación: Día #${currentBatchDay}`);
-console.log(`- Cantidad solicitada: ${countArg} artículos`);
-console.log(`- Artículos a publicar en esta tanda: ${batchToPublish.length}`);
+console.log(`[DRIP-FEED EDITORIAL] Publicación por Franja Horaria`);
+console.log(`- Fecha: ${publishDate} ${timeInfo.time} (Hora Lima - America/Lima)`);
+console.log(`- Franja / Slot del día: [${publishSlot.toUpperCase()}]`);
+console.log(`- Día editorial acumulado: Día #${currentBatchDay}`);
+console.log(`- Artículos a publicar en esta franja: ${batchToPublish.length}`);
 if (isDryRun) console.log(`- MODO: [DRY-RUN / SIMULACIÓN] No se escribirán cambios en disco`);
 console.log(`======================================================\n`);
 
 const newlyPublishedPosts = [];
 
 for (const item of batchToPublish) {
-  // Buscar contenido maestro
   const masterPost = allPosts.find(p => p.slug === item.slug);
   if (!masterPost) {
     console.error(`[ERROR] No se encontró el post para slug: ${item.slug}`);
@@ -98,14 +129,16 @@ for (const item of batchToPublish) {
   console.log(`  -> [${item.article_id}] ${postForProd.title}`);
   console.log(`     Slug: /blog/${postForProd.slug}`);
   console.log(`     Categoría: ${postForProd.category} | Portada: ${postForProd.cover}`);
+  console.log(`     Slot asignado: ${publishSlot}`);
 
   if (!isDryRun) {
     // 1. Actualizar estado en la cola
     item.status = 'publicado';
     item.published_at = publishDate;
+    item.published_slot = publishSlot;
     item.batch_day = currentBatchDay;
 
-    // 2. Actualizar el paquete individual en staging
+    // 2. Actualizar paquete en staging
     const pkgDir = path.join(STAGING_DIR, item.article_id);
     const pkgFile = path.join(pkgDir, 'package.json');
     if (fs.existsSync(pkgFile)) {
@@ -115,6 +148,7 @@ for (const item of batchToPublish) {
         if (!pkgData.quality) pkgData.quality = {};
         pkgData.quality.publication_approved = true;
         pkgData.quality.publication_date = publishDate;
+        pkgData.quality.publication_slot = publishSlot;
         if (pkgData.content) {
           pkgData.content.published = publishDate;
           pkgData.content.modified = publishDate;
@@ -152,6 +186,7 @@ if (!isDryRun) {
     try {
       const manifest = JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf8'));
       manifest.last_published_date = publishDate;
+      manifest.last_published_slot = publishSlot;
       manifest.last_batch_day = currentBatchDay;
       manifest.published_count = queue.filter(x => x.status === 'publicado').length;
       manifest.queued_count = queue.filter(x => x.status === 'en_cola').length;
@@ -168,9 +203,9 @@ const daysLeft = Math.ceil(remainingCount / 3);
 
 console.log(`\n======================================================`);
 console.log(`[RESUMEN FINAL]`);
-console.log(`- Artículos publicados hoy: ${newlyPublishedPosts.length}`);
+console.log(`- Artículos publicados en este turno: ${newlyPublishedPosts.length} (Franja: ${publishSlot})`);
 console.log(`- Total artículos activos en blog: ${isDryRun ? currentProdPosts.length : (currentProdPosts.length + newlyPublishedPosts.length)}`);
 console.log(`- Total TLB publicados acumulados: ${totalPublished} / 180`);
 console.log(`- Artículos pendientes en cola: ${remainingCount}`);
-console.log(`- Días restantes de goteo (a 3 por día): ~${daysLeft} días`);
+console.log(`- Días restantes a 3 por día (1 mañana, 1 tarde, 1 noche): ~${daysLeft} días`);
 console.log(`======================================================\n`);

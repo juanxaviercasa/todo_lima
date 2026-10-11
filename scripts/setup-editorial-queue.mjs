@@ -23,9 +23,12 @@ if (fs.existsSync(PILOT_POSTS_PATH)) {
   console.warn('[ADVERTENCIA] pilot-posts.json no encontrado en staging.');
 }
 
-// Configuración de publicación inicial: Día 1 (3 primeros artículos)
-const INITIAL_PUBLISHED_COUNT = 3;
+// Configuración de publicación inicial:
+// Día 1 (Hoy 11 de Octubre de 2026): Iniciamos con 1 artículo oficial matutino (TLB-001)
+// Los siguientes artículos (TLB-002 para la tarde y TLB-003 para la noche) quedan en cola.
+const INITIAL_PUBLISHED_COUNT = 1;
 const TODAY = '2026-10-11';
+const INITIAL_SLOT = 'mañana';
 
 // Construir la cola maestra de los 180 artículos
 const queue = [];
@@ -42,6 +45,7 @@ for (let i = 0; i < allPosts.length; i++) {
     category: post.category,
     status: isInitial ? 'publicado' : 'en_cola',
     published_at: isInitial ? TODAY : null,
+    published_slot: isInitial ? INITIAL_SLOT : null,
     batch_day: isInitial ? 1 : null
   });
 
@@ -55,6 +59,7 @@ for (let i = 0; i < allPosts.length; i++) {
       if (!pkgData.quality) pkgData.quality = {};
       pkgData.quality.publication_approved = isInitial;
       pkgData.quality.publication_date = isInitial ? TODAY : null;
+      pkgData.quality.publication_slot = isInitial ? INITIAL_SLOT : null;
       if (isInitial && pkgData.content) {
         pkgData.content.published = TODAY;
         pkgData.content.modified = TODAY;
@@ -68,7 +73,7 @@ for (let i = 0; i < allPosts.length; i++) {
 
 fs.writeFileSync(QUEUE_PATH, JSON.stringify(queue, null, 2) + '\n', 'utf8');
 
-// Configurar posts.json de producción
+// Configurar posts.json de producción con los 2 pilotos + el primer post matutino
 const initialPosts = [...pilotPosts];
 
 for (let i = 0; i < INITIAL_PUBLISHED_COUNT; i++) {
@@ -86,13 +91,15 @@ initialPosts.sort((a, b) => (b.published || '').localeCompare(a.published || '')
 fs.writeFileSync(POSTS_PROD_PATH, JSON.stringify(initialPosts, null, 2) + '\n', 'utf8');
 
 console.log(`\n======================================================`);
-console.log(`[OK] Cola de publicación editorial inicializada:`);
+console.log(`[OK] Cola de publicación editorial (1 por slot) inicializada:`);
 console.log(`- Total artículos en catálogo: ${queue.length}`);
-console.log(`- Artículos publicados hoy (Día 1): ${INITIAL_PUBLISHED_COUNT}`);
+console.log(`- Artículos publicados hoy en slot matutino: ${INITIAL_PUBLISHED_COUNT} (${queue[0].article_id} - ${queue[0].title})`);
 console.log(`- Pilotos históricos activos: ${pilotPosts.length}`);
-console.log(`- Total posts en producción hoy: ${initialPosts.length}`);
-console.log(`- Artículos en cola para goteo diario: ${queue.filter(q => q.status === 'en_cola').length}`);
-console.log(`- Días restantes a 3 por día: ${Math.ceil(queue.filter(q => q.status === 'en_cola').length / 3)} días (~59 días)`);
+console.log(`- Total posts en producción ahora mismo: ${initialPosts.length}`);
+console.log(`- Artículos en cola para goteo (1 por turno): ${queue.filter(q => q.status === 'en_cola').length}`);
+console.log(`- Próximos turnos de hoy:`);
+console.log(`    * Tarde (14:00 Lima): ${queue[1].article_id} (${queue[1].title})`);
+console.log(`    * Noche (20:00 Lima): ${queue[2].article_id} (${queue[2].title})`);
 console.log(`- Archivo de cola: ${QUEUE_PATH}`);
 console.log(`- Archivo activo de producción: ${POSTS_PROD_PATH}`);
 console.log(`======================================================\n`);
