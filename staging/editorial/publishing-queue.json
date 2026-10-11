@@ -24,10 +24,10 @@
     "slug": "gastronomia-limena-platos-e-influencias-para-entender-su-diversidad",
     "title": "Gastronomía limeña: platos e influencias para entender su diversidad",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-11",
+    "published_slot": "tarde",
+    "batch_day": 1
   },
   {
     "article_id": "TLB-004",
