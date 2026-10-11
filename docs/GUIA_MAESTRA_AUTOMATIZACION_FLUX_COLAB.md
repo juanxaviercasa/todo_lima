@@ -104,16 +104,16 @@ print("✓ Entorno configurado correctamente.")
 
 ---
 
-## 4. Celda 2: Generación Masiva Continua (2 Archivos, WebP Nativo y Anti-OOM)
+## 4. Celda 2: Generación Masiva Ultrarrápida (GPU A100 en Colab Pro)
 
-Esta celda contiene todas las protecciones técnicas:
-* **Anti-OOM (GPU 15GB T4):** Usa `enable_sequential_cpu_offload()` para que el modelo de 24 GB corra en solo 4–6 GB de VRAM.
-* **Anti-Desconexión (Resume):** Si Colab se corta, al darle play continúa exactamente desde donde se quedó.
-* **WebP Directo Calidad 85:** Ahorra 90% de almacenamiento y queda listo para SEO web.
+Esta celda está optimizada para la **GPU NVIDIA A100 (40GB / 80GB)** disponible en Colab Pro.  
+* **Velocidad Extrema:** Genera cada imagen en **2 a 3 segundos** (el lote entero de 537 imágenes toma ~25-30 minutos).
+* **Calidad Anatómica (Guidance 0.0):** En FLUX-schnell, `guidance_scale=0.0` evita la saturación artificial de contrastes y previene dedos o rostros deformados.
+* **Sistema Anti-Interrupción (Resume & Selective Regeneration):** Si borras de Drive alguna imagen que no te gustó, al volver a correr el código **solo regenerará las que falten**.
 
 ```python
 # ========================================================
-# CELDA 2: GENERADOR MASIVO AUTOMATIZADO
+# CELDA 2: GENERADOR MASIVO EN GPU A100 (~2.5s POR FOTO)
 # ========================================================
 import os
 import torch
@@ -126,10 +126,7 @@ os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 # ==========================================
 # RUTAS DE ENTRADA Y SALIDA
 # ==========================================
-# Ajusta esta ruta a tu carpeta (ej. /content/drive/MyDrive/Todo_Lima_Flux o tu acceso directo)
 CARPETA_PROYECTO = "/content/drive/MyDrive/Todo_Lima_Flux"
-
-# Ruta del modelo (cambiar si usas el acceso directo de otra cuenta)
 MODELO_LOCAL = os.path.join(CARPETA_PROYECTO, "FLUX.1-schnell")
 
 OUTPUT_DIR = os.path.join(CARPETA_PROYECTO, "imagenes_generadas")
@@ -141,9 +138,9 @@ NAMES_FILE = os.path.join(CARPETA_PROYECTO, "nombres.txt")
 # ==========================================
 # VALIDACIÓN DE LOS 2 ARCHIVOS
 # ==========================================
-for ruta, desc in [(PROMPTS_FILE, "prompts"), (NAMES_FILE, "nombres")]:
+for ruta, desc in [(PROMPTS_FILE, "prompts.txt"), (NAMES_FILE, "nombres.txt")]:
     if not os.path.exists(ruta):
-        raise FileNotFoundError(f"No se encontró el archivo de {desc} en: {ruta}")
+        raise FileNotFoundError(f"No se encontró el archivo {desc} en: {ruta}")
 
 with open(PROMPTS_FILE, "r", encoding="utf-8") as f:
     prompts = [line.strip() for line in f if line.strip()]
@@ -156,25 +153,25 @@ assert len(prompts) == len(nombres), f"Desalineación: Hay {len(prompts)} prompt
 print(f"✓ Verificado: {total} imágenes listas para procesar.")
 
 # ==========================================
-# CARGA DEL MODELO (OPTIMIZADA PARA GPU T4)
+# CARGA DEL MODELO (MÁXIMA VELOCIDAD EN A100)
 # ==========================================
-print("Cargando FLUX.1-schnell con Sequential Offload...")
+print("Cargando FLUX.1-schnell en GPU A100...")
 pipe = FluxPipeline.from_pretrained(
     MODELO_LOCAL,
-    dtype=torch.bfloat16
+    torch_dtype=torch.bfloat16
 )
 
-# SECRETO TÉCNICO ANTI-CRASH: Permite correr un modelo de 24GB en GPUs de 15GB
-pipe.enable_sequential_cpu_offload()
+# En la A100 con 40GB/80GB VRAM, model_cpu_offload vuela a máxima velocidad
+pipe.enable_model_cpu_offload()
 pipe.vae.enable_slicing()
 pipe.vae.enable_tiling()
+print("✓ Pipeline listo y acelerado al 100%.")
 
 # ==========================================
-# BUCLE DE GENERACIÓN MASIVA
+# BUCLE DE GENERACIÓN MASIVA CONTINUA
 # ==========================================
 for i, (prompt, nombre_raw) in enumerate(zip(prompts, nombres)):
-    # Sanitizar nombre de archivo
-    nombre_limpio = nombre_raw.replace(".webp", "").replace(".png", "")
+    nombre_limpio = nombre_raw.replace(".webp", "").replace(".png", "").replace(".jpg", "")
     nombre_seguro = "".join(c for c in nombre_limpio if c.isalnum() or c in (' ', '_', '-')).strip()
     
     archivo_final = f"{nombre_seguro}.webp"
@@ -185,18 +182,18 @@ for i, (prompt, nombre_raw) in enumerate(zip(prompts, nombres)):
         print(f"[{i+1}/{total}] Ya existe, saltando: {archivo_final}")
         continue
 
-    print(f"[{i+1}/{total}] Generando: {archivo_final}")
+    print(f"[{i+1}/{total}] Generando (A100 ~2.5s): {archivo_final}...")
     
-    # Inferencia en formato 16:9 optimizado (1024x576)
+    # Inferencia en formato 16:9 optimizado (1024x576) en 4 pasos con guidance 0.0 nativo
     image = pipe(
         prompt=prompt,
         num_inference_steps=4,
-        guidance_scale=3.5,
+        guidance_scale=0.0,
         width=1024,
         height=576
     ).images[0]
     
-    # Guardado nativo en WebP con compresión de alta calidad
+    # Guardado nativo en WebP calidad 85 directo para SEO web
     image.save(ruta_guardado, format="WEBP", quality=85)
 
 print("\n🎉 ¡Generación completada exitosamente! Todas las imágenes están en formato .webp en tu Drive.")
@@ -204,12 +201,13 @@ print("\n🎉 ¡Generación completada exitosamente! Todas las imágenes están 
 
 ---
 
-## 5. Prevención de Errores Comunes (Checklist de Enseñanza)
+## 5. Prevención de Errores Comunes y Lecciones Técnicas
 
-| Error Típico | Causa Raíz | Solución Preventiva |
+| Problema / Síntoma | Causa Técnica | Solución Preventiva |
 | :--- | :--- | :--- |
-| **`CUDA Out of Memory` (OOM)** | El Transformer de Flux (24 GB) supera los 15 GB de la GPU T4 de Colab. | **Usar `pipe.enable_sequential_cpu_offload()`** y `width=1024, height=576`. Nunca usar `model_cpu_offload()` en GPUs T4. |
+| **Lentitud extrema (80s por foto en T4)** | La GPU T4 (15 GB) no soporta el modelo de 24 GB y traslada pesos por el bus PCIe. | **Cambiar el entorno a GPU A100** en Colab Pro (*Entorno de ejecución ➔ Cambiar tipo ➔ A100*). La velocidad pasa de 80s a **2.5 segundos por foto**. |
+| **Piel plástica y dedos en garra** | Usar `guidance_scale=3.5` en un modelo destilado (*schnell*). | **Configurar `guidance_scale=0.0`** (nativo de schnell) y usar planos fotográficos sin poses forzadas de manos. |
 | **`Error no file named diffusion_pytorch_model.safetensors`** | Se ignoraron los archivos `.safetensors.index.json` al descargar. | El Transformer está dividido en partes (*shards*). El archivo `.index.json` es obligatorio para que Diffusers sepa cómo unirlas. |
 | **Conflicto de versiones pip (`huggingface-hub`)** | Colab actualiza librerías que entran en conflicto con `diffusers`. | Fijar la instalación con `!pip install "huggingface-hub<2.0,>=0.25.0" "diffusers>=0.30.0"`. |
-| **Imágenes duplicadas tras desconexión** | Colab se reinicia y el bucle empieza desde la imagen 1. | **Comprobar existencia antes de generar:** `if os.path.exists(ruta): continue`. |
-| **Archivos pesados saturando Drive** | Guardar en `.png` genera archivos de 2 MB cada uno (~1.5 GB en total). | Guardar directamente como `format="WEBP", quality=85`. Pesa solo ~100 KB por imagen y es nativo para SEO web. |
+| **Regenerar solo imágenes puntuales** | Quieres cambiar solo 5 imágenes sin rehacer las 500 restantes. | **Borra únicamente esas 5 en tu Drive** y vuelve a dar Play. El script salta las existentes y solo regenera las que faltan. |
+

@@ -33,16 +33,16 @@ def build_prompts_for_article(art):
     if any(k in t_lower for k in ["transporte", "tarjetas", "rutas y alertas", "transbordos", "terminales", "aeropuerto", "ciclovías", "conducir", "taxis", "metropolitano", "corredor"]):
         if "tarjeta" in t_lower or "transbordo" in t_lower:
             scene_portada = "a modern bus transit station lobby in Lima, Peru, featuring sleek automated turnstiles with clean architectural glass and steel, two commuters seen in medium shot from the side in everyday attire, soft daylight streaming through station glass"
-            scene_int1 = "a single natural human hand with realistic fingers holding an electronic contactless transit card against a sleek validation sensor, sharp focus on the card edge, smooth blurred background"
+            scene_int1 = "sleek contactless fare validation turnstile in a modern transit station, glowing electronic scanner sensor, blurred station background with warm ambient light"
             scene_int2 = "passengers waiting comfortably along a covered platform of Lima's bus transit system, medium shot from behind showing commuters, clean platform perspective, bright soft morning light"
         elif "aeropuerto" in t_lower:
             scene_portada = "travelers with suitcases arriving at the modern departures terminal concourse of Jorge Chávez International Airport in Lima"
             scene_int1 = "traveler checking flight information display and transportation booking confirmation on a smartphone"
             scene_int2 = "curbside designated passenger pickup area outside the airport terminal with authorized taxis and signage"
         elif "terminales" in t_lower or "buses interprovinciales" in t_lower:
-            scene_portada = "bustling interprovincial bus terminal concourse in Lima with passenger boarding gates and destination boards"
-            scene_int1 = "passenger inspecting bus ticket details and baggage claim ticket at a clean ticket counter"
-            scene_int2 = "family boarding a long-distance coach bus under a high-ceiling transport terminal bay"
+            scene_portada = "bustling interprovincial bus terminal concourse in Lima with passenger boarding gates and clean architectural high ceilings"
+            scene_int1 = "modern departures concourse at a bus terminal in Lima, leather luggage suitcases waiting beside an elegant boarding gate, warm travel atmosphere"
+            scene_int2 = "family boarding a long-distance coach bus under a high-ceiling transport terminal bay with evening lighting"
         elif "ciclovía" in t_lower or "bicicleta" in t_lower:
             scene_portada = "cyclists riding along a dedicated paved green bike lane overlooking the Pacific coast cliffs of Lima"
             scene_int1 = "cyclist adjusting helmet and checking a digital cycling route map on phone holder mounted on handlebars"
@@ -55,13 +55,13 @@ def build_prompts_for_article(art):
     # Gastronomía y Bebidas
     elif any(k in t_lower for k in ["gastronomía", "chifa", "nikkei", "ceviche", "sánguche", "chicharrón", "suspiro", "café", "restaurante", "postres", "anticuchos", "desayuno", "catering", "mercados", "tortas", "comida"]):
         if "chifa" in t_lower:
-            scene_portada = "traditional Peruvian-Chinese chifa restaurant dining room in Lima with red lanterns, warm woodwork, and sharing tables"
-            scene_int1 = "chef stir-frying chaufa rice with high flames in an authentic wok kitchen station"
-            scene_int2 = "multi-generational family dining together sharing traditional dim sum and wok dishes in Calle Capón Chinatown"
+            scene_portada = "traditional Peruvian-Chinese chifa restaurant dining room in Lima with red lanterns, warm woodwork, and elegant sharing tables"
+            scene_int1 = "chef stir-frying chaufa rice with dynamic flames rising from a traditional round wok, stainless steel kitchen background, warm golden lighting"
+            scene_int2 = "multi-generational family gathered happily around a round dining table in a traditional Limeño chifa, steaming sharing bowls of chaufa and dim sum dishes, warm convivial atmosphere, natural conversational postures"
         elif "nikkei" in t_lower:
-            scene_portada = "contemporary Nikkei culinary dining room in Lima blending Peruvian elements and minimalist Japanese aesthetics"
-            scene_int1 = "sushi chef delicately torching and plating fresh tiradito slices garnished with yellow chili emulsion"
-            scene_int2 = "couple enjoying an artistic tasting menu with chopsticks and ceramic tableware at an open sushi counter"
+            scene_portada = "contemporary Nikkei culinary dining room in Lima blending Peruvian woodwork and minimalist Japanese aesthetics"
+            scene_int1 = "sushi chef delicately plating fresh tiradito slices garnished with yellow chili emulsion on dark slate tableware"
+            scene_int2 = "couple smiling and dining together at an open Nikkei sushi counter, elegant minimalist wooden table set with artisan ceramic plates of fresh tiradito and wine glasses, blurred modern restaurant interior"
         elif "ceviche" in t_lower:
             scene_portada = "vibrant coastal cevichería terrace in Lima with sea breeze and freshly prepared seafood plates on wooden tables"
             scene_int1 = "chef mixing fresh sea bass cubes, red onions, cilantro, and fresh lime juice in a stainless steel bowl"
@@ -90,9 +90,9 @@ def build_prompts_for_article(art):
     # Lugares, Patrimonio, Museos y Huacas
     elif any(k in t_lower for k in ["huaca", "museo", "patrimonio", "plaza", "balcones", "casona", "jirón", "iglesia", "convento", "cementerio", "circuito mágico", "parque", "monumento", "arquitectura"]):
         if "huaca" in t_lower or "adobitos" in t_lower or "ichma" in t_lower:
-            scene_portada = "monumental pre-Columbian adobe pyramid in Lima rising under soft coastal sunlight with modern city skyline in background"
-            scene_int1 = "detailed close-up of ancestral handmade adobe bricks (adobitos) arranged vertically in archaeological wall technique"
-            scene_int2 = "visitors walking along designated wooden observation paths listening to an interpretive guide at an archaeological site"
+            scene_portada = "Huaca Pucllana archaeological complex in Miraflores Lima, extensive terraced pre-Inca pyramid constructed of thousands of vertical handmade yellow adobe mud bricks, elevated wooden visitor walkway, contrasting Miraflores modern city buildings in the background, bright coastal Lima daylight"
+            scene_int1 = "detailed close-up of ancestral handmade adobe bricks (adobitos) arranged vertically in authentic archaeological Lima culture wall technique, soft natural daylight"
+            scene_int2 = "visitors walking peacefully along designated wooden observation paths listening to an interpretive guide at Huaca Pucllana, Miraflores city skyline in background"
         elif "pachacamac" in t_lower:
             scene_portada = "expansive desert sanctuary of Pachacamac with ancient temple ramparts and the Pacific Ocean horizon"
             scene_int1 = "visitors observing ancestral textiles and wooden idol artifacts inside the Pachacamac site museum"
@@ -234,11 +234,11 @@ def build_prompts_for_article(art):
             scene_int2 = "small business front counter where a store manager cordially assists a customer inquiring about local services"
         elif "reclamaciones" in t_lower or "libro" in t_lower:
             scene_portada = "orderly customer service counter in a Lima business with an official physical and digital Libro de Reclamaciones"
-            scene_int1 = "client and business representative reviewing service conditions and formal inquiry paperwork transparently"
+            scene_int1 = "organized customer reception desk in a modern Lima commercial office, professional laptop and clean wooden counter, warm corporate lighting"
             scene_int2 = "professional customer care desk in Lima ensuring clear communication and official regulatory compliance"
         elif "reseña" in t_lower or "promoción" in t_lower:
             scene_portada = "welcoming independent shopfront in Lima with clear promotion signage, tidy displays, and happy patrons"
-            scene_int1 = "business owner updating clear service terms and customer feedback records on a laptop"
+            scene_int1 = "business owner working focused at a laptop on a clean wooden desk, coffee cup beside keyboard, sunny office window background"
             scene_int2 = "satisfied customer thanking the business staff outside an authentic neighborhood storefront"
         else:
             scene_portada = "thriving independent neighborhood business in Lima with artisan craftmanship and dedicated customer service"
@@ -250,19 +250,19 @@ def build_prompts_for_article(art):
         if "mascota" in t_lower or "veterinaria" in t_lower or "guardería" in t_lower:
             scene_portada = "bright, welcoming veterinary clinic and pet care center in Lima with friendly staff and clean consultation areas"
             scene_int1 = "veterinarian gently examining a calm healthy dog on a stainless steel examination table with owner present"
-            scene_int2 = "owner receiving a clear vaccination record booklet and emergency contact sheet from the clinic receptionist"
+            scene_int2 = "tidy veterinary clinic reception area with pet wellness supplies neatly arranged on shelves, bright welcoming interior"
         elif "mantenimiento" in t_lower or "pintura" in t_lower or "incidencia" in t_lower or "reunión" in t_lower:
             scene_portada = "neat residential apartment building lobby in Lima with management noticeboard and building administration office"
-            scene_int1 = "maintenance coordinator reviewing a technical checklist and protective coverings before home painting works"
-            scene_int2 = "resident and building supervisor inspecting completed repair work in common areas with formal paperwork"
+            scene_int1 = "residential apartment corridor with freshly painted walls, professional renovation supplies neatly arranged, bright indoor daylight"
+            scene_int2 = "resident and building supervisor in an apartment building lobby, clean entrance area, bright afternoon light"
         elif "impresión" in t_lower or "fotografía" in t_lower or "eventos" in t_lower:
             scene_portada = "professional graphic design and print studio in Lima with color sample swatches and precision printing machinery"
             scene_int1 = "technician examining sharp color proofs and print alignment under calibrated studio daylight lamps"
             scene_int2 = "client reviewing proof sheets and deliverables checklist with a professional photographer in a modern office"
         else:
             scene_portada = "modern, organized residential neighborhood in Lima with reliable domestic services and well-kept streets"
-            scene_int1 = "resident reviewing service documentation, warranty receipts, and official customer contacts at a desk"
-            scene_int2 = "professional service provider delivering completed assistance to a resident at home with written confirmation"
+            scene_int1 = "organized home study desk in a residential Lima apartment, laptop and notebook, tidy living room background"
+            scene_int2 = "friendly professional service specialist arriving at a modern apartment doorway with a clean tool kit, bright daylight"
 
     # -------------------------------------------------------------
     # 2. ENSAMBLAJE FINAL DE LOS 3 PROMPTS CON ENFOQUE FOTOGRÁFICO DE ALTA FIDELIDAD

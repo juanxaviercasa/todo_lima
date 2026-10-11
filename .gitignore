@@ -39,4 +39,7 @@ next-env.d.ts
 audits/index.html
 audits/categories/
 
+# Raw image downloads from Google Flow
+imagenes_generadas/*_TL/
+
 .env*
