@@ -14,10 +14,10 @@
     "slug": "tarjetas-del-transporte-publico-de-lima-donde-funcionan-y-que-confirmar",
     "title": "Tarjetas del transporte público de Lima: dónde funcionan y qué confirmar",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-11",
+    "published_slot": "tarde",
+    "batch_day": 1
   },
   {
     "article_id": "TLB-003",
