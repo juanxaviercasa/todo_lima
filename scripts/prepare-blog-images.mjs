@@ -38,6 +38,6 @@ for (const [id, image] of Object.entries(catalog)) {
     }
   } else if (!fs.existsSync(target)) errors.push(`${id}: missing public asset`);
 }
-if (!fs.existsSync(path.join(root, 'public/images/editorial/blog-lima-portada.webp'))) errors.push('Missing blog hero');
+if (!fs.existsSync(path.join(root, 'public/images/editorial/blog-lima-portada-v2.webp'))) errors.push('Missing blog hero');
 if (errors.length) throw new Error([...new Set(errors)].join('\n'));
 console.log(`Blog images verified: ${Object.keys(catalog).length} entries; ${copied} originals prepared for local hosting.`);

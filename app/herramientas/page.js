@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Navbar from '../../components/Navbar.js';
 import Footer from '../../components/Footer.js';
+import {TOOL_IMAGES, TOOLS_HERO} from '../../lib/toolImages.js';
 import { 
   Calculator, 
   QrCode, 
@@ -24,6 +25,7 @@ import { TODOLIMA_WHATSAPP_DISPLAY, TODOLIMA_EMAIL } from '../../lib/contact.js'
 export const metadata = {
   title: 'Herramientas y Calculadoras para Negocios en Lima | Todo Lima',
   description: 'Centro de utilidades gratuitas para comercios y pymes en Lima Metropolitana: calculadora de IGV 18%, generador de QR Yape/Plin, flete local, cotizaciones y contratos.',
+  openGraph: {images: [{url: 'https://todolima.com/images/herramientas/herramientas-portada.webp', width: 1440, height: 810, alt: TOOLS_HERO.alt}]},
 };
 
 const TOOLS_DATA = [
@@ -164,24 +166,25 @@ export default function HerramientasHubPage() {
 
       <main className="flex-1">
         {/* Cabecera Principal */}
-        <section className="relative overflow-hidden bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white py-16 px-4 sm:px-6 lg:px-8 border-b border-slate-800">
+        <section className="tools-hero editorial-hero relative overflow-hidden bg-slate-950 text-white">
+          <div className="editorial-hero-media"><img {...TOOLS_HERO} sizes="100vw" width="1440" height="810" fetchPriority="high" loading="eager" className="block w-full h-auto"/><div className="category-hero-shade absolute inset-0"/></div>
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-sky-900/30 via-transparent to-transparent opacity-60"></div>
           
-          <div className="max-w-5xl mx-auto relative z-10 text-center">
+          <div className="editorial-hero-copy max-w-7xl mx-auto relative z-10">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-500/10 border border-sky-400/30 text-sky-300 text-xs font-bold mb-4">
               <Sparkles className="w-3.5 h-3.5 text-sky-400" />
               <span>Red Aliada • Herramientas Gratuitas para Negocios del Perú</span>
             </div>
 
-            <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-white mb-4">
+            <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-white mb-4 max-w-3xl lg:max-w-[60%]">
               Centro de Herramientas y Calculadoras Comerciales
             </h1>
 
-            <p className="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed mb-6">
+            <p className="text-base sm:text-lg text-slate-100 max-w-2xl lg:max-w-[55%] leading-relaxed mb-6">
               Calculadoras tributarias, cotizadores, generadores de QR y recursos operativos diseñados para optimizar la gestión de comercios y pymes en Lima Metropolitana.
             </p>
 
-            <div className="flex flex-wrap items-center justify-center gap-4 text-xs font-semibold text-slate-300">
+            <div className="flex flex-wrap items-center gap-3 text-xs font-semibold text-slate-300 max-w-2xl">
               <span className="flex items-center gap-1.5 bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" /> 100% Gratuitas
               </span>
@@ -222,9 +225,11 @@ export default function HerramientasHubPage() {
                       href={tool.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="group relative bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-sky-500/50 dark:hover:border-sky-500/50 transition-all flex flex-col justify-between"
+                      className="group relative overflow-hidden bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-2xl shadow-sm hover:shadow-md hover:border-sky-500/50 dark:hover:border-sky-500/50 transition-all flex flex-col"
                     >
-                      <div>
+                      <img {...TOOL_IMAGES[new URL(tool.url).pathname]} sizes="(min-width: 768px) 550px, 100vw" width="960" height="540" loading="lazy" decoding="async" className="block w-full h-auto aspect-video object-contain"/>
+                      <div className="p-5 flex flex-col flex-1">
+                      <div className="flex-1">
                         <div className="flex items-center justify-between gap-2 mb-2.5">
                           <span className="text-[11px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200/80 dark:border-slate-700">
                             {tool.badge}
@@ -250,6 +255,7 @@ export default function HerramientasHubPage() {
                         <span>Abrir herramienta interactiva</span>
                         <ArrowRight className="w-3.5 h-3.5" />
                       </div>
+                      </div>
                     </a>
                   ))}
                 </div>
@@ -257,6 +263,7 @@ export default function HerramientasHubPage() {
             );
           })}
         </section>
+        <p className="max-w-6xl mx-auto px-6 pb-8 text-xs text-slate-500">Imágenes ilustrativas generadas con IA; no representan negocios ni usuarios reales de las herramientas.</p>
 
         {/* Sección de Conversión B2B Todo Lima */}
         <section className="bg-gradient-to-br from-slate-900 to-slate-950 text-white py-16 px-4 sm:px-6 lg:px-8 border-t border-slate-800 relative overflow-hidden">
