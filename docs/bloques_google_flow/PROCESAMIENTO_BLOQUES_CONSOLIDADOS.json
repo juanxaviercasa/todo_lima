@@ -2158,5 +2158,1085 @@
     "target_webp": "aji-de-gallina-contexto-e-identidad-en-la-mesa-limena-entrega-servicio-conformidad.webp",
     "original_kb": 708.7,
     "webp_kb": 110.3
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-082",
+    "image_role": "portada",
+    "source_file": "Modern_residential_neighborhood_…_20261011004427.jpg",
+    "target_webp": "como-organizar-un-torneo-deportivo-entre-amigos-portada-vivienda-servicios-hogar.webp",
+    "original_kb": 908.2,
+    "webp_kb": 195.8
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-082",
+    "image_role": "interna-01",
+    "source_file": "Hands_at_home_study_desk_20261011004427.jpg",
+    "target_webp": "como-organizar-un-torneo-deportivo-entre-amigos-presupuesto-desglosado-garantia.webp",
+    "original_kb": 633.2,
+    "webp_kb": 63.7
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-082",
+    "image_role": "interna-02",
+    "source_file": "Service_specialist_arriving_at_d…_20261011004427.jpg",
+    "target_webp": "como-organizar-un-torneo-deportivo-entre-amigos-entrega-servicio-conformidad.webp",
+    "original_kb": 634.0,
+    "webp_kb": 72.3
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-083",
+    "image_role": "portada",
+    "source_file": "Historic_architecture_in_Lima_20261011004427.jpg",
+    "target_webp": "iglesias-de-barrios-altos-patrimonio-y-estado-de-conservacion-portada-patrimonio-arquitectura.webp",
+    "original_kb": 976.5,
+    "webp_kb": 244.9
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-083",
+    "image_role": "interna-01",
+    "source_file": "Hands_touching_historic_stone_or…_20261011004427.jpg",
+    "target_webp": "iglesias-de-barrios-altos-patrimonio-y-estado-de-conservacion-detalle-casona-historica.webp",
+    "original_kb": 744.2,
+    "webp_kb": 115.8
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-083",
+    "image_role": "interna-02",
+    "source_file": "Visitors_touring_cultural_herita…_20261011004427.jpg",
+    "target_webp": "iglesias-de-barrios-altos-patrimonio-y-estado-de-conservacion-patio-interior-cultural.webp",
+    "original_kb": 825.1,
+    "webp_kb": 154.5
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-084",
+    "image_role": "portada",
+    "source_file": "Modern_residential_neighborhood_…_20261011004427_2.jpg",
+    "target_webp": "como-comparar-propuestas-de-cortinas-y-estores-portada-vivienda-servicios-hogar.webp",
+    "original_kb": 795.0,
+    "webp_kb": 154.3
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-084",
+    "image_role": "interna-01",
+    "source_file": "Organized_home_study_desk_20261011004427.jpg",
+    "target_webp": "como-comparar-propuestas-de-cortinas-y-estores-presupuesto-desglosado-garantia.webp",
+    "original_kb": 628.7,
+    "webp_kb": 58.9
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-084",
+    "image_role": "interna-02",
+    "source_file": "Service_specialist_arriving_at_d…_20261011004427_2.jpg",
+    "target_webp": "como-comparar-propuestas-de-cortinas-y-estores-entrega-servicio-conformidad.webp",
+    "original_kb": 703.6,
+    "webp_kb": 100.5
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-085",
+    "image_role": "portada",
+    "source_file": "Residential_neighborhood_in_Lima_20261011004427.jpg",
+    "target_webp": "rimac-historico-como-organizar-un-recorrido-con-contexto-portada-vivienda-servicios-hogar.webp",
+    "original_kb": 920.4,
+    "webp_kb": 199.1
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-085",
+    "image_role": "interna-01",
+    "source_file": "Organized_home_study_desk_20261011004427_2.jpg",
+    "target_webp": "rimac-historico-como-organizar-un-recorrido-con-contexto-presupuesto-desglosado-garantia.webp",
+    "original_kb": 655.8,
+    "webp_kb": 78.5
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-085",
+    "image_role": "interna-02",
+    "source_file": "Service_specialist_arriving_at_d…_20261011004427_3.jpg",
+    "target_webp": "rimac-historico-como-organizar-un-recorrido-con-contexto-entrega-servicio-conformidad.webp",
+    "original_kb": 670.1,
+    "webp_kb": 80.3
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-086",
+    "image_role": "portada",
+    "source_file": "Residential_neighborhood_in_Lima_20261011004427_2.jpg",
+    "target_webp": "como-comunicar-la-ubicacion-del-local-y-la-cobertura-a-domicilio-portada-vivienda-servicios-hogar.webp",
+    "original_kb": 919.6,
+    "webp_kb": 200.9
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-086",
+    "image_role": "interna-01",
+    "source_file": "Organized_home_study_desk_20261011004427_3.jpg",
+    "target_webp": "como-comunicar-la-ubicacion-del-local-y-la-cobertura-a-domicilio-presupuesto-desglosado-garantia.webp",
+    "original_kb": 634.6,
+    "webp_kb": 62.8
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-086",
+    "image_role": "interna-02",
+    "source_file": "Service_specialist_arriving_at_d…_20261011004427_4.jpg",
+    "target_webp": "como-comunicar-la-ubicacion-del-local-y-la-cobertura-a-domicilio-entrega-servicio-conformidad.webp",
+    "original_kb": 632.6,
+    "webp_kb": 74.4
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-087",
+    "image_role": "portada",
+    "source_file": "Residential_neighborhood_in_Lima_20261011004427_3.jpg",
+    "target_webp": "los-caminos-prehispanicos-de-lima-y-su-relacion-con-el-qhapaq-nan-portada-vivienda-servicios-hogar.webp",
+    "original_kb": 887.9,
+    "webp_kb": 182.3
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-087",
+    "image_role": "interna-01",
+    "source_file": "Hands_on_study_desk_20261011004427.jpg",
+    "target_webp": "los-caminos-prehispanicos-de-lima-y-su-relacion-con-el-qhapaq-nan-presupuesto-desglosado-garantia.webp",
+    "original_kb": 630.6,
+    "webp_kb": 63.5
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-087",
+    "image_role": "interna-02",
+    "source_file": "Service_specialist_arriving_at_d…_20261011004427_5.jpg",
+    "target_webp": "los-caminos-prehispanicos-de-lima-y-su-relacion-con-el-qhapaq-nan-entrega-servicio-conformidad.webp",
+    "original_kb": 650.3,
+    "webp_kb": 76.1
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-088",
+    "image_role": "portada",
+    "source_file": "Historical_view_of_central_Lima_20261011004427.jpg",
+    "target_webp": "aniversario-de-lima-historia-de-la-fecha-y-consulta-de-la-agenda-oficial-portada-panoramica-historica-lima.webp",
+    "original_kb": 820.0,
+    "webp_kb": 163.3
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-088",
+    "image_role": "interna-01",
+    "source_file": "Historian_examining_historical_maps_20261011004427.jpg",
+    "target_webp": "aniversario-de-lima-historia-de-la-fecha-y-consulta-de-la-agenda-oficial-legajos-cartografia-antigua.webp",
+    "original_kb": 630.9,
+    "webp_kb": 64.8
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-088",
+    "image_role": "interna-02",
+    "source_file": "Cultural_group_on_historical_walk_20261011004427.jpg",
+    "target_webp": "aniversario-de-lima-historia-de-la-fecha-y-consulta-de-la-agenda-oficial-recorrido-memoria-vecinal.webp",
+    "original_kb": 878.9,
+    "webp_kb": 186.3
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-089",
+    "image_role": "portada",
+    "source_file": "Traditional_restaurant_serving_P…_20261011004427.jpg",
+    "target_webp": "comida-de-mercado-en-lima-como-preparar-una-visita-gastronomica-portada-restaurante-limeno.webp",
+    "original_kb": 833.4,
+    "webp_kb": 141.8
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-089",
+    "image_role": "interna-01",
+    "source_file": "Chef_plating_food_with_herbs_20261011004427.jpg",
+    "target_webp": "comida-de-mercado-en-lima-como-preparar-una-visita-gastronomica-emplatado-gastronomico.webp",
+    "original_kb": 746.8,
+    "webp_kb": 102.6
+  },
+  {
+    "bloque": 11,
+    "article_id": "TLB-089",
+    "image_role": "interna-02",
+    "source_file": "Guests_reviewing_restaurant_menu_20261011004427.jpg",
+    "target_webp": "comida-de-mercado-en-lima-como-preparar-una-visita-gastronomica-comensales-carta-restaurante.webp",
+    "original_kb": 821.8,
+    "webp_kb": 150.4
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-090",
+    "image_role": "portada",
+    "source_file": "Modern_residential_neighborhood_…_20261011004520.jpg",
+    "target_webp": "piscinas-recreativas-en-lima-que-verificar-antes-de-reservar-portada-vivienda-servicios-hogar.webp",
+    "original_kb": 912.6,
+    "webp_kb": 208.2
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-090",
+    "image_role": "interna-01",
+    "source_file": "Hands_on_home_study_desk_20261011004520.jpg",
+    "target_webp": "piscinas-recreativas-en-lima-que-verificar-antes-de-reservar-presupuesto-desglosado-garantia.webp",
+    "original_kb": 645.5,
+    "webp_kb": 68.8
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-090",
+    "image_role": "interna-02",
+    "source_file": "Service_specialist_arriving_at_d…_20261011004520.jpg",
+    "target_webp": "piscinas-recreativas-en-lima-que-verificar-antes-de-reservar-entrega-servicio-conformidad.webp",
+    "original_kb": 646.3,
+    "webp_kb": 83.9
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-091",
+    "image_role": "portada",
+    "source_file": "Historic_architectural_landmark_…_20261011004520.jpg",
+    "target_webp": "parque-de-la-muralla-como-relacionar-el-paseo-con-la-historia-portada-patrimonio-arquitectura.webp",
+    "original_kb": 937.1,
+    "webp_kb": 208.0
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-091",
+    "image_role": "interna-01",
+    "source_file": "Carved_stone_and_wooden_doorway_20261011004520.jpg",
+    "target_webp": "parque-de-la-muralla-como-relacionar-el-paseo-con-la-historia-detalle-casona-historica.webp",
+    "original_kb": 696.2,
+    "webp_kb": 100.4
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-091",
+    "image_role": "interna-02",
+    "source_file": "Visitors_touring_cultural_herita…_20261011004520.jpg",
+    "target_webp": "parque-de-la-muralla-como-relacionar-el-paseo-con-la-historia-patio-interior-cultural.webp",
+    "original_kb": 738.5,
+    "webp_kb": 113.8
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-092",
+    "image_role": "portada",
+    "source_file": "Residential_neighborhood_in_Lima_20261011004520.jpg",
+    "target_webp": "como-organizar-una-limpieza-despues-de-una-obra-portada-vivienda-servicios-hogar.webp",
+    "original_kb": 950.4,
+    "webp_kb": 214.6
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-092",
+    "image_role": "interna-01",
+    "source_file": "Hands_organizing_home_study_desk_20261011004520.jpg",
+    "target_webp": "como-organizar-una-limpieza-despues-de-una-obra-presupuesto-desglosado-garantia.webp",
+    "original_kb": 629.0,
+    "webp_kb": 65.7
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-092",
+    "image_role": "interna-02",
+    "source_file": "Service_specialist_arriving_at_d…_20261011004520_2.jpg",
+    "target_webp": "como-organizar-una-limpieza-despues-de-una-obra-entrega-servicio-conformidad.webp",
+    "original_kb": 608.1,
+    "webp_kb": 53.7
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-093",
+    "image_role": "portada",
+    "source_file": "Historic_architecture_in_Lima_20261011004520.jpg",
+    "target_webp": "san-isidro-parques-patrimonio-y-vida-cotidiana-portada-patrimonio-arquitectura.webp",
+    "original_kb": 1026.5,
+    "webp_kb": 267.2
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-093",
+    "image_role": "interna-01",
+    "source_file": "Hands_touching_carved_stone_orna…_20261011004520.jpg",
+    "target_webp": "san-isidro-parques-patrimonio-y-vida-cotidiana-detalle-casona-historica.webp",
+    "original_kb": 683.8,
+    "webp_kb": 91.5
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-093",
+    "image_role": "interna-02",
+    "source_file": "Visitors_touring_cultural_herita…_20261011004520_2.jpg",
+    "target_webp": "san-isidro-parques-patrimonio-y-vida-cotidiana-patio-interior-cultural.webp",
+    "original_kb": 721.0,
+    "webp_kb": 108.9
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-094",
+    "image_role": "portada",
+    "source_file": "Residential_neighborhood_in_Lima_20261011004520_2.jpg",
+    "target_webp": "como-mantener-horarios-y-contactos-del-negocio-actualizados-portada-vivienda-servicios-hogar.webp",
+    "original_kb": 818.9,
+    "webp_kb": 151.5
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-094",
+    "image_role": "interna-01",
+    "source_file": "Organized_home_study_desk_20261011004520.jpg",
+    "target_webp": "como-mantener-horarios-y-contactos-del-negocio-actualizados-presupuesto-desglosado-garantia.webp",
+    "original_kb": 653.6,
+    "webp_kb": 72.8
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-094",
+    "image_role": "interna-02",
+    "source_file": "Service_specialist_arriving_at_d…_20261011004520_3.jpg",
+    "target_webp": "como-mantener-horarios-y-contactos-del-negocio-actualizados-entrega-servicio-conformidad.webp",
+    "original_kb": 619.4,
+    "webp_kb": 74.2
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-095",
+    "image_role": "portada",
+    "source_file": "Residential_neighborhood_in_Lima_20261011004520_3.jpg",
+    "target_webp": "las-acequias-que-transformaron-los-valles-de-lima-portada-vivienda-servicios-hogar.webp",
+    "original_kb": 1037.2,
+    "webp_kb": 267.7
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-095",
+    "image_role": "interna-01",
+    "source_file": "Organized_home_study_desk_20261011004520_2.jpg",
+    "target_webp": "las-acequias-que-transformaron-los-valles-de-lima-presupuesto-desglosado-garantia.webp",
+    "original_kb": 627.6,
+    "webp_kb": 62.6
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-095",
+    "image_role": "interna-02",
+    "source_file": "Service_specialist_arriving_at_d…_20261011004520_4.jpg",
+    "target_webp": "las-acequias-que-transformaron-los-valles-de-lima-entrega-servicio-conformidad.webp",
+    "original_kb": 683.1,
+    "webp_kb": 95.5
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-096",
+    "image_role": "portada",
+    "source_file": "Residential_neighborhood_in_Lima_20261011004520_4.jpg",
+    "target_webp": "santa-rosa-de-lima-memoria-lugares-y-tradiciones-portada-vivienda-servicios-hogar.webp",
+    "original_kb": 835.3,
+    "webp_kb": 156.6
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-096",
+    "image_role": "interna-01",
+    "source_file": "Organized_home_study_desk_20261011004520_3.jpg",
+    "target_webp": "santa-rosa-de-lima-memoria-lugares-y-tradiciones-presupuesto-desglosado-garantia.webp",
+    "original_kb": 682.0,
+    "webp_kb": 83.6
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-096",
+    "image_role": "interna-02",
+    "source_file": "Service_specialist_arriving_at_d…_20261011004520_5.jpg",
+    "target_webp": "santa-rosa-de-lima-memoria-lugares-y-tradiciones-entrega-servicio-conformidad.webp",
+    "original_kb": 620.6,
+    "webp_kb": 62.8
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-097",
+    "image_role": "portada",
+    "source_file": "Residential_neighborhood_in_Lima_20261011004520_5.jpg",
+    "target_webp": "que-es-un-huarique-y-que-informacion-revisar-antes-de-visitarlo-portada-vivienda-servicios-hogar.webp",
+    "original_kb": 901.0,
+    "webp_kb": 193.9
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-097",
+    "image_role": "interna-01",
+    "source_file": "Hands_gripping_notebook_at_desk_20261011004520.jpg",
+    "target_webp": "que-es-un-huarique-y-que-informacion-revisar-antes-de-visitarlo-presupuesto-desglosado-garantia.webp",
+    "original_kb": 608.7,
+    "webp_kb": 54.6
+  },
+  {
+    "bloque": 12,
+    "article_id": "TLB-097",
+    "image_role": "interna-02",
+    "source_file": "Service_specialist_arriving_at_d…_20261011004520_6.jpg",
+    "target_webp": "que-es-un-huarique-y-que-informacion-revisar-antes-de-visitarlo-entrega-servicio-conformidad.webp",
+    "original_kb": 650.1,
+    "webp_kb": 82.0
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-098",
+    "image_role": "portada",
+    "source_file": "Modern_residential_neighborhood_…_20261011004547.jpg",
+    "target_webp": "spa-en-lima-como-comparar-instalaciones-y-condiciones-sin-promesas-medicas-portada-vivienda-servicios-hogar.webp",
+    "original_kb": 924.8,
+    "webp_kb": 198.4
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-098",
+    "image_role": "interna-01",
+    "source_file": "Hands_organizing_home_study_desk_20261011004547.jpg",
+    "target_webp": "spa-en-lima-como-comparar-instalaciones-y-condiciones-sin-promesas-medicas-presupuesto-desglosado-garantia.webp",
+    "original_kb": 642.4,
+    "webp_kb": 67.6
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-098",
+    "image_role": "interna-02",
+    "source_file": "Service_specialist_arriving_at_d…_20261011004547.jpg",
+    "target_webp": "spa-en-lima-como-comparar-instalaciones-y-condiciones-sin-promesas-medicas-entrega-servicio-conformidad.webp",
+    "original_kb": 705.3,
+    "webp_kb": 89.9
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-099",
+    "image_role": "portada",
+    "source_file": "Architectural_details_of_histori…_20261011004547.jpg",
+    "target_webp": "alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-portada-patrimonio-arquitectura.webp",
+    "original_kb": 824.1,
+    "webp_kb": 148.0
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-099",
+    "image_role": "interna-01",
+    "source_file": "Hands_touching_carved_stone_orna…_20261011004547.jpg",
+    "target_webp": "alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-detalle-casona-historica.webp",
+    "original_kb": 913.5,
+    "webp_kb": 203.5
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-099",
+    "image_role": "interna-02",
+    "source_file": "Visitors_touring_cultural_herita…_20261011004547.jpg",
+    "target_webp": "alameda-de-los-descalzos-historia-y-patrimonio-del-rimac-patio-interior-cultural.webp",
+    "original_kb": 906.3,
+    "webp_kb": 195.3
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-100",
+    "image_role": "portada",
+    "source_file": "Modern_residential_neighborhood_…_20261011004547_2.jpg",
+    "target_webp": "como-coordinar-fumigacion-preguntas-sobre-ocupacion-y-medidas-del-proveedor-portada-vivienda-servicios-hogar.webp",
+    "original_kb": 1054.2,
+    "webp_kb": 271.3
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-100",
+    "image_role": "interna-01",
+    "source_file": "Organized_home_study_desk_20261011004547.jpg",
+    "target_webp": "como-coordinar-fumigacion-preguntas-sobre-ocupacion-y-medidas-del-proveedor-presupuesto-desglosado-garantia.webp",
+    "original_kb": 663.4,
+    "webp_kb": 65.9
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-100",
+    "image_role": "interna-02",
+    "source_file": "Service_specialist_arriving_at_d…_20261011004547_2.jpg",
+    "target_webp": "como-coordinar-fumigacion-preguntas-sobre-ocupacion-y-medidas-del-proveedor-entrega-servicio-conformidad.webp",
+    "original_kb": 710.0,
+    "webp_kb": 92.8
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-101",
+    "image_role": "portada",
+    "source_file": "Streetscape_in_Lima_district_arc…_20261011004547.jpg",
+    "target_webp": "san-miguel-arqueologia-urbana-y-alternativas-para-un-dia-de-paseo-portada-distrito-limeno.webp",
+    "original_kb": 1068.5,
+    "webp_kb": 282.1
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-101",
+    "image_role": "interna-01",
+    "source_file": "Historic_architecture_in_Lima_20261011004547.jpg",
+    "target_webp": "san-miguel-arqueologia-urbana-y-alternativas-para-un-dia-de-paseo-arquitectura-barrio-casonas.webp",
+    "original_kb": 931.8,
+    "webp_kb": 209.2
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-101",
+    "image_role": "interna-02",
+    "source_file": "Residents_enjoying_community_life_20261011004547.jpg",
+    "target_webp": "san-miguel-arqueologia-urbana-y-alternativas-para-un-dia-de-paseo-vecinos-parque-cafeteria.webp",
+    "original_kb": 1050.3,
+    "webp_kb": 257.4
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-102",
+    "image_role": "portada",
+    "source_file": "Residential_neighborhood_in_Lima_20261011004547.jpg",
+    "target_webp": "como-responder-preguntas-frecuentes-antes-de-recibir-una-consulta-portada-vivienda-servicios-hogar.webp",
+    "original_kb": 988.0,
+    "webp_kb": 233.0
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-102",
+    "image_role": "interna-01",
+    "source_file": "Hands_on_study_desk_20261011004547.jpg",
+    "target_webp": "como-responder-preguntas-frecuentes-antes-de-recibir-una-consulta-presupuesto-desglosado-garantia.webp",
+    "original_kb": 671.1,
+    "webp_kb": 59.9
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-102",
+    "image_role": "interna-02",
+    "source_file": "Service_specialist_arriving_at_d…_20261011004547_3.jpg",
+    "target_webp": "como-responder-preguntas-frecuentes-antes-de-recibir-una-consulta-entrega-servicio-conformidad.webp",
+    "original_kb": 728.5,
+    "webp_kb": 92.7
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-103",
+    "image_role": "portada",
+    "source_file": "Historic_stone_wall_of_Lima_20261011004547.jpg",
+    "target_webp": "la-muralla-de-lima-por-que-se-construyo-y-que-queda-de-ella-portada-parque-de-la-muralla.webp",
+    "original_kb": 1071.8,
+    "webp_kb": 288.9
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-103",
+    "image_role": "interna-01",
+    "source_file": "Visitor_examining_antique_map_20261011004547.jpg",
+    "target_webp": "la-muralla-de-lima-por-que-se-construyo-y-que-queda-de-ella-mapa-historico-lima-amurallada.webp",
+    "original_kb": 737.3,
+    "webp_kb": 113.6
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-103",
+    "image_role": "interna-02",
+    "source_file": "Visitors_observing_park_stone_fo…_20261011004547.jpg",
+    "target_webp": "la-muralla-de-lima-por-que-se-construyo-y-que-queda-de-ella-mirador-vestigios-muralla.webp",
+    "original_kb": 928.6,
+    "webp_kb": 192.8
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-104",
+    "image_role": "portada",
+    "source_file": "Cultural_gathering_in_Lima_20261011004547.jpg",
+    "target_webp": "la-flor-de-amancaes-y-su-presencia-en-la-identidad-limena-portada-feria-cultural-plaza.webp",
+    "original_kb": 1011.8,
+    "webp_kb": 235.8
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-104",
+    "image_role": "interna-01",
+    "source_file": "Artisan_holding_cultural_instrument_20261011004547.jpg",
+    "target_webp": "la-flor-de-amancaes-y-su-presencia-en-la-identidad-limena-instrumentos-artesanias-muestra.webp",
+    "original_kb": 827.5,
+    "webp_kb": 145.6
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-104",
+    "image_role": "interna-02",
+    "source_file": "Residents_enjoying_community_cul…_20261011004547.jpg",
+    "target_webp": "la-flor-de-amancaes-y-su-presencia-en-la-identidad-limena-familias-actividad-cultural.webp",
+    "original_kb": 931.2,
+    "webp_kb": 193.2
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-105",
+    "image_role": "portada",
+    "source_file": "Traditional_restaurant_in_Lima_s…_20261011004547.jpg",
+    "target_webp": "como-reservar-un-restaurante-en-lima-para-un-grupo-portada-restaurante-limeno.webp",
+    "original_kb": 879.8,
+    "webp_kb": 163.2
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-105",
+    "image_role": "interna-01",
+    "source_file": "Chef_plating_dish_with_herbs_20261011004547.jpg",
+    "target_webp": "como-reservar-un-restaurante-en-lima-para-un-grupo-emplatado-gastronomico.webp",
+    "original_kb": 764.4,
+    "webp_kb": 106.3
+  },
+  {
+    "bloque": 13,
+    "article_id": "TLB-105",
+    "image_role": "interna-02",
+    "source_file": "Guests_reviewing_restaurant_menu_20261011004547.jpg",
+    "target_webp": "como-reservar-un-restaurante-en-lima-para-un-grupo-comensales-carta-restaurante.webp",
+    "original_kb": 835.8,
+    "webp_kb": 148.1
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-106",
+    "image_role": "portada",
+    "source_file": "Weekend_leisure_setting_in_Lima_20261011005806.jpg",
+    "target_webp": "como-elegir-un-taller-creativo-para-una-actividad-de-fin-de-semana-portada-fin-semana-parque.webp",
+    "original_kb": 1155.8,
+    "webp_kb": 328.5
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-106",
+    "image_role": "interna-01",
+    "source_file": "Person_reviewing_cultural_event_…_20261011005806.jpg",
+    "target_webp": "como-elegir-un-taller-creativo-para-una-actividad-de-fin-de-semana-agenda-cultural-parque.webp",
+    "original_kb": 803.1,
+    "webp_kb": 122.6
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-106",
+    "image_role": "interna-02",
+    "source_file": "Friends_meeting_in_urban_park_20261011005806.jpg",
+    "target_webp": "como-elegir-un-taller-creativo-para-una-actividad-de-fin-de-semana-amigos-reunion-areas-verdes.webp",
+    "original_kb": 933.1,
+    "webp_kb": 202.1
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-107",
+    "image_role": "portada",
+    "source_file": "Weekend_leisure_setting_in_Lima_20261011005806_2.jpg",
+    "target_webp": "paseo-de-aguas-memoria-urbana-y-preparacion-de-la-visita-portada-fin-semana-parque.webp",
+    "original_kb": 1114.5,
+    "webp_kb": 298.2
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-107",
+    "image_role": "interna-01",
+    "source_file": "Person_reviewing_cultural_weeken…_20261011005806.jpg",
+    "target_webp": "paseo-de-aguas-memoria-urbana-y-preparacion-de-la-visita-agenda-cultural-parque.webp",
+    "original_kb": 803.4,
+    "webp_kb": 120.4
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-107",
+    "image_role": "interna-02",
+    "source_file": "Friends_meeting_in_urban_park_20261011005806_2.jpg",
+    "target_webp": "paseo-de-aguas-memoria-urbana-y-preparacion-de-la-visita-amigos-reunion-areas-verdes.webp",
+    "original_kb": 983.9,
+    "webp_kb": 233.6
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-108",
+    "image_role": "portada",
+    "source_file": "Veterinary_clinic_reception_area…_20261011005806.jpg",
+    "target_webp": "como-preparar-contactos-y-documentos-para-la-atencion-de-tu-mascota-portada-clinica-veterinaria-lima.webp",
+    "original_kb": 891.4,
+    "webp_kb": 169.7
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-108",
+    "image_role": "interna-01",
+    "source_file": "Veterinarian_examining_dog_on_table_20261011005806.jpg",
+    "target_webp": "como-preparar-contactos-y-documentos-para-la-atencion-de-tu-mascota-examen-veterinario-perro.webp",
+    "original_kb": 742.9,
+    "webp_kb": 106.7
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-108",
+    "image_role": "interna-02",
+    "source_file": "Veterinary_clinic_interior_with_…_20261011005806.jpg",
+    "target_webp": "como-preparar-contactos-y-documentos-para-la-atencion-de-tu-mascota-libreta-vacunas-recepcion.webp",
+    "original_kb": 861.5,
+    "webp_kb": 157.0
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-109",
+    "image_role": "portada",
+    "source_file": "Historic_architectural_landmark_…_20261011005806.jpg",
+    "target_webp": "magdalena-del-mar-patrimonio-y-espacios-de-encuentro-del-distrito-portada-patrimonio-arquitectura.webp",
+    "original_kb": 1044.1,
+    "webp_kb": 275.5
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-109",
+    "image_role": "interna-01",
+    "source_file": "Hands_touching_historic_carved_s…_20261011005806.jpg",
+    "target_webp": "magdalena-del-mar-patrimonio-y-espacios-de-encuentro-del-distrito-detalle-casona-historica.webp",
+    "original_kb": 825.4,
+    "webp_kb": 139.4
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-109",
+    "image_role": "interna-02",
+    "source_file": "Visitors_touring_heritage_building_20261011005806.jpg",
+    "target_webp": "magdalena-del-mar-patrimonio-y-espacios-de-encuentro-del-distrito-patio-interior-cultural.webp",
+    "original_kb": 847.8,
+    "webp_kb": 152.8
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-110",
+    "image_role": "portada",
+    "source_file": "Modern_residential_neighborhood_…_20261011005806.jpg",
+    "target_webp": "como-presentar-condiciones-de-una-promocion-de-forma-clara-portada-vivienda-servicios-hogar.webp",
+    "original_kb": 966.4,
+    "webp_kb": 226.5
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-110",
+    "image_role": "interna-01",
+    "source_file": "Organized_home_study_desk_20261011005806.jpg",
+    "target_webp": "como-presentar-condiciones-de-una-promocion-de-forma-clara-presupuesto-desglosado-garantia.webp",
+    "original_kb": 676.3,
+    "webp_kb": 73.3
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-110",
+    "image_role": "interna-02",
+    "source_file": "Service_specialist_arriving_at_d…_20261011005806.jpg",
+    "target_webp": "como-presentar-condiciones-de-una-promocion-de-forma-clara-entrega-servicio-conformidad.webp",
+    "original_kb": 755.6,
+    "webp_kb": 104.4
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-111",
+    "image_role": "portada",
+    "source_file": "Historical_reenactment_scene_in_…_20261011005806.jpg",
+    "target_webp": "el-terremoto-de-1746-y-la-reconstruccion-de-lima-portada-reconstruccion-lima-1746.webp",
+    "original_kb": 1089.2,
+    "webp_kb": 288.0
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-111",
+    "image_role": "interna-01",
+    "source_file": "Architect_inspecting_timber_cons…_20261011005806.jpg",
+    "target_webp": "el-terremoto-de-1746-y-la-reconstruccion-de-lima-estructura-quincha-sismos.webp",
+    "original_kb": 858.7,
+    "webp_kb": 162.0
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-111",
+    "image_role": "interna-02",
+    "source_file": "Urban_planners_studying_historic…_20261011005806.jpg",
+    "target_webp": "el-terremoto-de-1746-y-la-reconstruccion-de-lima-planos-archivo-historico.webp",
+    "original_kb": 807.5,
+    "webp_kb": 126.5
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-112",
+    "image_role": "portada",
+    "source_file": "Musicians_playing_at_cultural_venue_20261011005806.jpg",
+    "target_webp": "las-penas-criollas-que-son-y-como-preparar-una-primera-visita-portada-pena-criolla-barranco.webp",
+    "original_kb": 926.8,
+    "webp_kb": 182.9
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-112",
+    "image_role": "interna-01",
+    "source_file": "Hands_playing_Peruvian_cajón_20261011005806.jpg",
+    "target_webp": "las-penas-criollas-que-son-y-como-preparar-una-primera-visita-cajon-peruano-percusionista.webp",
+    "original_kb": 766.5,
+    "webp_kb": 111.7
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-112",
+    "image_role": "interna-02",
+    "source_file": "Audience_enjoying_live_music_20261011005806.jpg",
+    "target_webp": "las-penas-criollas-que-son-y-como-preparar-una-primera-visita-publico-musica-criolla-salon.webp",
+    "original_kb": 879.2,
+    "webp_kb": 164.1
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-113",
+    "image_role": "portada",
+    "source_file": "Residential_neighborhood_in_Lima_20261011005806.jpg",
+    "target_webp": "cafeterias-para-trabajar-en-lima-conectividad-consumo-y-condiciones-portada-vivienda-servicios-hogar.webp",
+    "original_kb": 1047.1,
+    "webp_kb": 258.3
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-113",
+    "image_role": "interna-01",
+    "source_file": "Organized_home_study_desk_20261011005806_2.jpg",
+    "target_webp": "cafeterias-para-trabajar-en-lima-conectividad-consumo-y-condiciones-presupuesto-desglosado-garantia.webp",
+    "original_kb": 644.4,
+    "webp_kb": 62.4
+  },
+  {
+    "bloque": 14,
+    "article_id": "TLB-113",
+    "image_role": "interna-02",
+    "source_file": "Service_specialist_arriving_at_d…_20261011005806_2.jpg",
+    "target_webp": "cafeterias-para-trabajar-en-lima-conectividad-consumo-y-condiciones-entrega-servicio-conformidad.webp",
+    "original_kb": 704.8,
+    "webp_kb": 77.3
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-114",
+    "image_role": "portada",
+    "source_file": "Cultural_gathering_celebration_i…_20261011005903.jpg",
+    "target_webp": "como-consultar-actividades-culturales-para-un-domingo-portada-feria-cultural-plaza.webp",
+    "original_kb": 1031.2,
+    "webp_kb": 245.3
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-114",
+    "image_role": "interna-01",
+    "source_file": "Hands_holding_artisan_tools_20261011005903.jpg",
+    "target_webp": "como-consultar-actividades-culturales-para-un-domingo-instrumentos-artesanias-muestra.webp",
+    "original_kb": 838.3,
+    "webp_kb": 151.7
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-114",
+    "image_role": "interna-02",
+    "source_file": "Residents_enjoying_community_cul…_20261011005903.jpg",
+    "target_webp": "como-consultar-actividades-culturales-para-un-domingo-familias-actividad-cultural.webp",
+    "original_kb": 1033.0,
+    "webp_kb": 248.6
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-115",
+    "image_role": "portada",
+    "source_file": "Traditional_Limeño_pastry_shop_s…_20261011005903.jpg",
+    "target_webp": "puente-de-los-suspiros-historia-y-entorno-de-barranco-portada-pasteleria-limena.webp",
+    "original_kb": 944.8,
+    "webp_kb": 204.6
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-115",
+    "image_role": "interna-01",
+    "source_file": "Chef_garnishing_Suspiro_a_la_20261011005903.jpg",
+    "target_webp": "puente-de-los-suspiros-historia-y-entorno-de-barranco-suspiro-limena-merengue.webp",
+    "original_kb": 737.4,
+    "webp_kb": 92.3
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-115",
+    "image_role": "interna-02",
+    "source_file": "Friends_sampling_desserts_and_tea_20261011005903.jpg",
+    "target_webp": "puente-de-los-suspiros-historia-y-entorno-de-barranco-mesa-postres-tradicionales.webp",
+    "original_kb": 939.0,
+    "webp_kb": 196.6
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-116",
+    "image_role": "portada",
+    "source_file": "Veterinary_clinic_and_staff_20261011005903.jpg",
+    "target_webp": "guarderia-de-mascotas-que-preguntar-sobre-alojamiento-y-comunicacion-portada-clinica-veterinaria-lima.webp",
+    "original_kb": 862.2,
+    "webp_kb": 152.0
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-116",
+    "image_role": "interna-01",
+    "source_file": "Veterinarian_examining_dog_on_table_20261011005903.jpg",
+    "target_webp": "guarderia-de-mascotas-que-preguntar-sobre-alojamiento-y-comunicacion-examen-veterinario-perro.webp",
+    "original_kb": 733.9,
+    "webp_kb": 95.6
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-116",
+    "image_role": "interna-02",
+    "source_file": "Veterinary_clinic_reception_area…_20261011005903.jpg",
+    "target_webp": "guarderia-de-mascotas-que-preguntar-sobre-alojamiento-y-comunicacion-libreta-vacunas-recepcion.webp",
+    "original_kb": 797.2,
+    "webp_kb": 128.3
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-117",
+    "image_role": "portada",
+    "source_file": "Historical_view_of_central_Lima_20261011005903.jpg",
+    "target_webp": "santiago-de-surco-como-combinar-historia-local-y-actividades-portada-panoramica-historica-lima.webp",
+    "original_kb": 1004.7,
+    "webp_kb": 235.2
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-117",
+    "image_role": "interna-01",
+    "source_file": "Historian_examining_archival_pho…_20261011005903.jpg",
+    "target_webp": "santiago-de-surco-como-combinar-historia-local-y-actividades-legajos-cartografia-antigua.webp",
+    "original_kb": 716.4,
+    "webp_kb": 94.4
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-117",
+    "image_role": "interna-02",
+    "source_file": "Group_taking_historical_walking_…_20261011005903.jpg",
+    "target_webp": "santiago-de-surco-como-combinar-historia-local-y-actividades-recorrido-memoria-vecinal.webp",
+    "original_kb": 974.9,
+    "webp_kb": 227.4
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-118",
+    "image_role": "portada",
+    "source_file": "Customer_service_counter_in_busi…_20261011005903.jpg",
+    "target_webp": "libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-portada-libro-reclamaciones-mostrador.webp",
+    "original_kb": 687.8,
+    "webp_kb": 76.1
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-118",
+    "image_role": "interna-01",
+    "source_file": "Customer_reception_desk_in_office_20261011005903.jpg",
+    "target_webp": "libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-revision-garantias-comprobante.webp",
+    "original_kb": 640.2,
+    "webp_kb": 58.2
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-118",
+    "image_role": "interna-02",
+    "source_file": "Customer_care_desk_ensuring_comp…_20261011005903.jpg",
+    "target_webp": "libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-atencion-consumidor-oficina.webp",
+    "original_kb": 706.9,
+    "webp_kb": 83.6
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-119",
+    "image_role": "portada",
+    "source_file": "Historic_Plaza_Mayor_of_Lima_20261011005903.jpg",
+    "target_webp": "lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-portada-plaza-independencia-lima.webp",
+    "original_kb": 962.3,
+    "webp_kb": 203.6
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-119",
+    "image_role": "interna-01",
+    "source_file": "Visitor_observing_historical_doc…_20261011005903.jpg",
+    "target_webp": "lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-acta-independencia-documentos.webp",
+    "original_kb": 690.7,
+    "webp_kb": 71.2
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-119",
+    "image_role": "interna-02",
+    "source_file": "Citizens_taking_historical_walki…_20261011005903.jpg",
+    "target_webp": "lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-visita-guiada-palacio-municipal.webp",
+    "original_kb": 930.6,
+    "webp_kb": 193.9
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-120",
+    "image_role": "portada",
+    "source_file": "Musicians_playing_in_cultural_venue_20261011005903.jpg",
+    "target_webp": "las-jaranas-limenas-musica-y-sociabilidad-a-traves-del-tiempo-portada-pena-criolla-barranco.webp",
+    "original_kb": 934.9,
+    "webp_kb": 187.8
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-120",
+    "image_role": "interna-01",
+    "source_file": "Hands_playing_wooden_Peruvian_cajón_20261011005903.jpg",
+    "target_webp": "las-jaranas-limenas-musica-y-sociabilidad-a-traves-del-tiempo-cajon-peruano-percusionista.webp",
+    "original_kb": 717.5,
+    "webp_kb": 85.2
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-120",
+    "image_role": "interna-02",
+    "source_file": "Audience_enjoying_live_music_per…_20261011005903.jpg",
+    "target_webp": "las-jaranas-limenas-musica-y-sociabilidad-a-traves-del-tiempo-publico-musica-criolla-salon.webp",
+    "original_kb": 802.9,
+    "webp_kb": 129.6
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-121",
+    "image_role": "portada",
+    "source_file": "Traditional_restaurant_in_Lima_s…_20261011005903.jpg",
+    "target_webp": "como-comunicar-restricciones-alimentarias-al-reservar-un-restaurante-portada-restaurante-limeno.webp",
+    "original_kb": 849.3,
+    "webp_kb": 149.8
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-121",
+    "image_role": "interna-01",
+    "source_file": "Chef_plating_food_with_herbs_20261011005903.jpg",
+    "target_webp": "como-comunicar-restricciones-alimentarias-al-reservar-un-restaurante-emplatado-gastronomico.webp",
+    "original_kb": 761.9,
+    "webp_kb": 111.2
+  },
+  {
+    "bloque": 15,
+    "article_id": "TLB-121",
+    "image_role": "interna-02",
+    "source_file": "Guests_reviewing_restaurant_menu_20261011005903.jpg",
+    "target_webp": "como-comunicar-restricciones-alimentarias-al-reservar-un-restaurante-comensales-carta-restaurante.webp",
+    "original_kb": 802.3,
+    "webp_kb": 131.7
   }
 ]

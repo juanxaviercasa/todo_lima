@@ -16,8 +16,17 @@ def clean_words(text):
     text = re.sub(r"[^a-z0-9 ]", "", text)
     return [w for w in text.split() if len(w) > 2]
 
-processed_records = []
-total_converted = 0
+# Cargar registros previos si existen para no sobreescribir bloques anteriores
+record_dict = {}
+if os.path.exists(AUDIT_PATH):
+    try:
+        with open(AUDIT_PATH, "r", encoding="utf-8") as f:
+            for r in json.load(f):
+                record_dict[r["target_webp"]] = r
+    except Exception as e:
+        print(f"Aviso al cargar auditoria previa: {e}")
+
+total_converted_session = 0
 
 for b_idx in range(1, 24):
     folder = f"bloque_{b_idx}_TL"
@@ -87,7 +96,7 @@ for b_idx in range(1, 24):
         src_size = os.path.getsize(src_path)
         out_size = os.path.getsize(out_webp_path)
         
-        processed_records.append({
+        record_dict[target_seo_name] = {
             "bloque": b_idx,
             "article_id": block_mapeo[p_idx]["article_id"],
             "image_role": block_mapeo[p_idx]["image_role"],
@@ -95,14 +104,16 @@ for b_idx in range(1, 24):
             "target_webp": target_seo_name,
             "original_kb": round(src_size / 1024, 1),
             "webp_kb": round(out_size / 1024, 1)
-        })
-        total_converted += 1
+        }
+        total_converted_session += 1
 
-# Guardar auditoria JSON
+# Guardar auditoria JSON consolidada ordenada por bloque
+all_records = sorted(record_dict.values(), key=lambda r: (r.get("bloque", 0), r.get("article_id", "")))
 with open(AUDIT_PATH, "w", encoding="utf-8") as f:
-    json.dump(processed_records, f, indent=2, ensure_ascii=False)
+    json.dump(all_records, f, indent=2, ensure_ascii=False)
 
 print(f"\n=======================================================")
-print(f"[OK] Total de imagenes convertidas a WebP: {total_converted} (acumulado)")
+print(f"[OK] Imagenes convertidas en esta sesion: {total_converted_session}")
+print(f"[OK] Total historico consolidado en auditoria: {len(all_records)} imagenes")
 print(f"[OK] Archivo de auditoria guardado en: {AUDIT_PATH}")
 print(f"=======================================================")
