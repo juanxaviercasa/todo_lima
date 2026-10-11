@@ -37,26 +37,26 @@ const TOOLS_DATA = [
       {
         title: 'Calculadora de Precios con IGV (18% SUNAT)',
         description: 'Calcula al instante el valor de venta, IGV desglosado y precio final al consumidor conforme a la normativa tributaria peruana.',
-        url: 'https://nubeparapymes.online/calculadora-precios-venta-igv.html',
+        url: 'https://nubeparapymes.online/herramientas/finanzas/calculadora-precios-venta-igv/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-calculadora-precios-venta-igv',
         badge: 'SUNAT Perú',
         popular: true
       },
       {
         title: 'Calculadora de Sobrecostos Laborales Perú',
         description: 'Simula el costo real de planilla: régimen mype, gratificaciones, CTS, EsSalud (9%) y vacaciones en el Perú.',
-        url: 'https://nubeparapymes.online/calculadora-sobrecostos-laborales.html',
+        url: 'https://nubeparapymes.online/herramientas/finanzas/calculadora-sobrecostos-laborales/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-calculadora-sobrecostos-laborales',
         badge: 'Laboral Perú'
       },
       {
         title: 'Calculadora de Préstamos y Amortizaciones',
         description: 'Evalúa cronogramas de pago, cuotas fijas, método francés y costo financiero total para financiamiento comercial.',
-        url: 'https://nubeparapymes.online/calculadora-prestamos-amortizaciones.html',
+        url: 'https://nubeparapymes.online/herramientas/finanzas/calculadora-prestamos-amortizaciones/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-calculadora-prestamos-amortizaciones',
         badge: 'Financiero'
       },
       {
         title: 'Flujo de Caja y Cobranzas para Pymes',
         description: 'Plantilla interactiva para proyectar ingresos semanales, egresos fijos y control de cuentas por cobrar en soles.',
-        url: 'https://nubeparapymes.online/flujo-caja-pymes.html',
+        url: 'https://nubeparapymes.online/herramientas/finanzas/flujo-caja-pymes/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-flujo-caja-pymes',
         badge: 'Operativo'
       }
     ]
@@ -69,33 +69,33 @@ const TOOLS_DATA = [
       {
         title: 'Generador de Códigos QR (Yape, Plin y WhatsApp)',
         description: 'Genera códigos QR de alta resolución listos para imprimir en tu mostrador o vitrina para cobrar con billeteras digitales.',
-        url: 'https://nubeparapymes.online/generador-codigos-qr.html',
+        url: 'https://nubeparapymes.online/herramientas/ventas/generador-codigos-qr/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-generador-codigos-qr',
         badge: 'Yape / Plin',
         popular: true
       },
       {
         title: 'Calculadora de Flete y Envíos Locales en Lima',
         description: 'Estima costos y tarifas de despacho por distancia y peso para entregas entre los 43 distritos de Lima Metropolitana.',
-        url: 'https://nubeparapymes.online/calculadora-flete-envio-local.html',
+        url: 'https://nubeparapymes.online/herramientas/operaciones/calculadora-flete-envio-local/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-calculadora-flete-envio-local',
         badge: 'Lima & Callao',
         popular: true
       },
       {
         title: 'Creador de Facturas Proforma y Presupuestos',
         description: 'Genera documentos proforma formales con logo, RUC, detalle de productos y cálculo automático de totales para clientes.',
-        url: 'https://nubeparapymes.online/creador-facturas-proforma.html',
+        url: 'https://nubeparapymes.online/herramientas/ventas/creador-facturas-proforma/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-creador-facturas-proforma',
         badge: 'Comercial'
       },
       {
         title: 'Generador de Cotizaciones Comerciales',
         description: 'Ideal para técnicos, gasfiteros, carpinteros, vidrierías y pintores que necesitan enviar cotizaciones claras por WhatsApp.',
-        url: 'https://nubeparapymes.online/generador-cotizaciones.html',
+        url: 'https://nubeparapymes.online/herramientas/ventas/generador-cotizaciones/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-generador-cotizaciones',
         badge: 'Servicios Técnicos'
       },
       {
         title: 'Micro CRM y Pipeline Comercial',
         description: 'Gestiona prospectos, estados de negociación y tareas de seguimiento de ventas sin pagar suscripciones mensuales.',
-        url: 'https://nubeparapymes.online/crm-pymes.html',
+        url: 'https://nubeparapymes.online/herramientas/ventas/crm-pymes/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-crm-pymes',
         badge: 'Ventas'
       }
     ]
@@ -108,19 +108,19 @@ const TOOLS_DATA = [
       {
         title: 'Generador de Contratos de Prestación de Servicios',
         description: 'Minuta contractual redactada bajo el Código Civil peruano para proteger tus acuerdos comerciales y plazos de entrega.',
-        url: 'https://nubeparapymes.online/generador-contratos-servicios.html',
+        url: 'https://nubeparapymes.online/herramientas/legal/generador-contratos-servicios/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-generador-contratos-servicios',
         badge: 'Legal Perú'
       },
       {
         title: 'Generador de Políticas de Devolución y Garantías',
         description: 'Define condiciones de cambio, reembolso y garantías para tu tienda física o virtual según la Ley de Protección al Consumidor.',
-        url: 'https://nubeparapymes.online/generador-politicas-devolucion.html',
+        url: 'https://nubeparapymes.online/herramientas/legal/generador-politicas-devolucion/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-generador-politicas-devolucion',
         badge: 'Indecopi'
       },
       {
         title: 'Generador de Términos y Condiciones Web',
         description: 'Genera los términos de uso estándar para tu sitio web, catálogo digital o landing page comercial.',
-        url: 'https://nubeparapymes.online/generador-politicas-terminos.html',
+        url: 'https://nubeparapymes.online/herramientas/legal/generador-politicas-terminos/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-generador-politicas-terminos',
         badge: 'Web Legal'
       }
     ]
@@ -133,26 +133,26 @@ const TOOLS_DATA = [
       {
         title: 'Auditor SEO Básico y Estructura Web',
         description: 'Audita títulos, etiquetas meta, jerarquía H1-H3 y legibilidad móvil para mejorar el posicionamiento en Google.',
-        url: 'https://nubeparapymes.online/auditor-seo-basico.html',
+        url: 'https://nubeparapymes.online/herramientas/marketing/auditor-seo-basico/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-auditor-seo-basico',
         badge: 'SEO Técnico'
       },
       {
         title: 'Optimizador y Conversor a Formato WebP',
         description: 'Reduce el peso de las fotos de tus productos y servicios hasta en un 80% sin perder calidad visual.',
-        url: 'https://nubeparapymes.online/conversor-optimizador-imagenes.html',
+        url: 'https://nubeparapymes.online/herramientas/productividad/conversor-optimizador-imagenes/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-conversor-optimizador-imagenes',
         badge: 'Velocidad Web',
         popular: true
       },
       {
         title: 'Analizador de Titulares Persuasivos',
         description: 'Evalúa la fuerza emocional y tasa de clics de los titulares de tus anuncios, publicaciones o promociones.',
-        url: 'https://nubeparapymes.online/analizador-titulares.html',
+        url: 'https://nubeparapymes.online/herramientas/marketing/analizador-titulares/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-analizador-titulares',
         badge: 'Copywriting'
       },
       {
         title: 'Generador de Paletas Corporativas',
         description: 'Crea combinaciones de colores contrastadas y profesionales para la imagen gráfica de tu comercio.',
-        url: 'https://nubeparapymes.online/generador-paletas-corporativas.html',
+        url: 'https://nubeparapymes.online/herramientas/productividad/generador-paletas-corporativas/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-generador-paletas-corporativas',
         badge: 'Branding'
       }
     ]
