@@ -181,6 +181,9 @@ export default function Footer() {
           <nav aria-label="Guías y transparencia" className="flex flex-wrap justify-center gap-5 mb-8 text-slate-200">
             <Link href="/sobre-nosotros">Sobre nosotros</Link>
             <Link href="/contacto">Contacto</Link>
+            <Link href="/preguntas-frecuentes">Preguntas frecuentes</Link>
+            <Link href="/equipo-editorial">Equipo editorial</Link>
+            <Link href="/mapa-del-sitio">Mapa del sitio</Link>
             <Link href="/guias">Guías para elegir</Link>
             <Link href="/blog">Blog de Lima</Link>
             <Link href="/herramientas">Herramientas Pymes</Link>

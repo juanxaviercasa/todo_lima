@@ -6,7 +6,7 @@
 ---
 
 ## 📌 Resumen Ejecutivo
-Red masiva de directorios locales hiperespecializados para Lima, Perú (`todolima.com`), diseñada para operar bajo subdominios comodín (ej. `doctores.todolima.com`, `dentistas.todolima.com`, `cerrajeros.todolima.com`) con una única base de código Next.js alojada en Vercel/Cloudflare, alimentada de forma continua por un robot de scraping en Playwright corriendo 24/7 en máquina local.
+Directorio local para Lima, Perú (`todolima.com`), con frontend Next.js exportado estáticamente en Cloudflare Pages y endpoints en Pages Functions. Las categorías públicas usan rutas del dominio principal.
 
 ---
 
@@ -24,7 +24,7 @@ Red masiva de directorios locales hiperespecializados para Lima, Perú (`todolim
 ### 2. Motor de Automatización & Scraping 24/7 (Playwright)
 - **`scraper/scrape-category.js`:** Extractor robusto de Google Maps en modo *headless*, con evasión de consentimiento de cookies, scroll progresivo del feed, extracción profunda por ficha (nombre, estrellas, reseñas, dirección, teléfono, web y coordenadas) y sanitización de caracteres Unicode.
 - **`scraper/config/categories.js`:** Matriz maestra de categorías categorizadas por nicho (salud, hogar, legal, automotriz, belleza, tecnología, eventos).
-- **`scraper/utils/gitSync.js`:** Módulo de sincronización automática con Git. Al completar cada categoría, realiza `git add`, `git commit` y `git push origin main` para detonar el despliegue automático en Vercel.
+- **`scraper/utils/gitSync.js`:** Módulo de sincronización automática con Git para publicar cambios en la rama principal conectada a Cloudflare Pages.
 - **`scraper/runner.js`:** Orquestador maestro 24/7 con jitter aleatorio (6 a 14s) anti-bloqueo, control de estado persistente (`scraper/state.json`) y tolerancia a fallos.
 
 ---
@@ -49,13 +49,12 @@ Red masiva de directorios locales hiperespecializados para Lima, Perú (`todolim
 
 Al retomar el trabajo, estos son los pasos a seguir:
 
-1. **Despliegue en Vercel:**
-   - Importar `https://github.com/juanxaviercasa/todo_lima.git` en Vercel (Next.js preset).
-   - En **Settings > Domains**, vincular `todolima.com` y el comodín `*.todolima.com`.
-2. **Configuración de DNS Comodín:**
-   - Configurar en el proveedor de dominio:
-     - `A` -> `@` -> `76.76.21.21`
-     - `CNAME` -> `*` -> `cname.vercel-dns.com`
+1. **Despliegue en Cloudflare Pages:**
+   - Repositorio `https://github.com/juanxaviercasa/todo_lima.git`, rama `main`.
+   - Comando `npm run build`, directorio de salida `out`; incluir Pages Functions de `/functions`.
+2. **Dominio y formulario:**
+   - Administrar `todolima.com` desde Cloudflare Pages; no sustituir registros existentes sin verificar su función.
+   - Configurar envío de correo según `docs/contacto-cloudflare.md`.
 3. **Expansión de la Matriz:**
    - Ampliar `scraper/config/categories.js` de las 56 categorías actuales hasta la lista completa de 170+.
 4. **Activación de la Automatización Masiva:**

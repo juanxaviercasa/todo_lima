@@ -105,6 +105,13 @@ export default function PrivacidadPage() {
               </ul>
             </section>
 
+            <section id="consultas-contacto" className="scroll-mt-28 p-4 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700">
+              <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-2">Consultas enviadas desde el formulario de contacto</h2>
+              <p>Puede enviarnos preguntas y solicitudes desde la página de Contacto. Recogemos el nombre, correo electrónico, tipo de consulta, asunto, mensaje y, si lo proporciona, el enlace de una página o ficha. Utilizamos estos datos para clasificar, gestionar y responder su consulta, y para prevenir el abuso del formulario.</p>
+              <p className="mt-3">El envío requiere su autorización específica para esa atención. No implica una suscripción a publicidad ni autoriza comunicaciones comerciales independientes. No solicitamos contraseñas, datos bancarios ni documentos de identidad en este formulario.</p>
+              <p className="mt-3">La consulta se transmite al correo de atención de Todo Lima mediante Cloudflare y el servicio de correo que recibe el buzón. No publicamos su mensaje ni lo añadimos a las fichas automáticamente. Las comunicaciones se conservan mientras sea necesario para gestionar la consulta y cumplir las obligaciones aplicables; puede solicitar información o ejercer sus derechos por los canales indicados en esta política.</p>
+              <p className="mt-3">El mapa interactivo del sitio se carga únicamente cuando lo activa. En ese momento su navegador se conecta con OpenStreetMap, sujeto a las condiciones de ese proveedor.</p>
+            </section>
             {/* 6. Derechos ARCO */}
             <section className="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-700">
               <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-2">6. Ejercicio de Derechos ARCO</h2>
