@@ -1,0 +1,14 @@
+{
+  "name": "Todo Lima",
+  "domain": "todolima.com",
+  "recipient": "guiatodolima@gmail.com",
+  "zone": "078ca5fe25d0a8eedd9db051c3aa2fbb",
+  "categories": {
+    "consulta-general": "Consulta general",
+    "correccion-ficha": "Corregir una ficha",
+    "publicar-negocio": "Publicar o administrar mi negocio",
+    "colaboracion-editorial": "Colaboración editorial",
+    "servicios-digitales": "Servicios digitales",
+    "soporte-web": "Problema técnico"
+  }
+}
