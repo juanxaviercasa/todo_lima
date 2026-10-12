@@ -770,6 +770,146 @@ export const CATEGORIES = [
     title: 'Courier Local y Mensajería Express Corporativa en Lima',
     niche: 'negocios',
     heroHook: 'Envíos motorizados en el mismo día, mensajería de documentos legales, trámites notariales y reparto de paquetería e-commerce en Lima.'
+  },
+  {
+    slug: 'academias-de-idiomas',
+    query: 'institutos y academias de idiomas en Lima',
+    title: 'Institutos y Academias de Idiomas en Lima',
+    niche: 'educacion',
+    heroHook: 'Aprende inglés, portugués, francés, italiano y alemán con profesores nativos, certificación internacional (TOEFL, IELTS) y metodología comunicativa.'
+  },
+  {
+    slug: 'academias-preuniversitarias',
+    query: 'academias preuniversitarias en Lima',
+    title: 'Academias Preuniversitarias en Lima',
+    niche: 'educacion',
+    heroHook: 'Preparación integral para exámenes de admisión de San Marcos, UNI, Católica (PUCP) y Cayetano Heredia con ciclos anuales y semestrales.'
+  },
+  {
+    slug: 'clases-particulares',
+    query: 'clases particulares y reforzamiento escolar en Lima',
+    title: 'Clases Particulares y Reforzamiento Académico en Lima',
+    niche: 'educacion',
+    heroHook: 'Docentes particulares a domicilio y virtual para matemáticas, física, química, comprensión lectora e idiomas para primaria, secundaria y universidad.'
+  },
+  {
+    slug: 'escuelas-de-musica',
+    query: 'escuelas de musica y clases de canto en Lima',
+    title: 'Escuelas de Música y Clases de Canto en Lima',
+    niche: 'educacion',
+    heroHook: 'Aprende guitarra acústica y eléctrica, piano, batería, violín, ukelele y técnica vocal con métodos prácticos y ensambles en vivo en Lima.'
+  },
+  {
+    slug: 'escuelas-de-danza',
+    query: 'academias de danza marinera y baile en Lima',
+    title: 'Academias de Danza, Marinera y Baile en Lima',
+    niche: 'educacion',
+    heroHook: 'Marinera norteña, ballet clásico, danza folclórica, salsa, bachata y danza urbana con profesores galardonados en academias de Lima.'
+  },
+  {
+    slug: 'talleres-de-arte',
+    query: 'talleres de arte dibujo y pintura en Lima',
+    title: 'Talleres de Arte, Dibujo y Pintura en Lima',
+    niche: 'educacion',
+    heroHook: 'Desarrolla tu creatividad con clases de óleo, acuarela, dibujo anatómico, ilustración digital, escultura y grabado con artistas plásticos en Lima.'
+  },
+  {
+    slug: 'hospedajes-para-mascotas',
+    query: 'hospedajes y hoteles para mascotas en Lima',
+    title: 'Hospedajes y Hoteles para Mascotas en Lima',
+    niche: 'mascotas',
+    heroHook: 'Alojamiento seguro y sin jaulas para perros y gatos, con supervisión veterinaria 24 horas, áreas verdes de recreo y reportes diarios por video.'
+  },
+  {
+    slug: 'guarderias-caninas',
+    query: 'guarderias caninas y recreacion de dia en Lima',
+    title: 'Guarderías Caninas y Recreación de Día en Lima',
+    niche: 'mascotas',
+    heroHook: 'Diversión, socialización y juego supervisado para tu perro durante el día, con movilidad puerta a puerta, piscina canina y zonas de descanso.'
+  },
+  {
+    slug: 'adiestramiento-canino',
+    query: 'adiestramiento canino y educacion positiva en Lima',
+    title: 'Adiestramiento Canino y Educación Positiva en Lima',
+    niche: 'mascotas',
+    heroHook: 'Obediencia básica y avanzada, control de ansiedad por separación, paseos sin tirones y modificación de conducta con refuerzo positivo en Lima.'
+  },
+  {
+    slug: 'paseadores-de-perros',
+    query: 'paseadores de perros profesionales en Lima',
+    title: 'Paseadores de Perros Profesionales en Lima',
+    niche: 'mascotas',
+    heroHook: 'Paseos diarios enriquecedores y seguros en parques de tu distrito con paseadores certificados, correas dobles, hidratación y grupos reducidos.'
+  },
+  {
+    slug: 'estudios-de-yoga',
+    query: 'estudios de yoga y meditacion en Lima',
+    title: 'Estudios de Yoga y Meditación en Lima',
+    niche: 'fitness',
+    heroHook: 'Hatha, Vinyasa, Ashtanga, Yin Yoga y meditación guiada en salas armoniosas con instructores certificados para mejorar tu flexibilidad y calma.'
+  },
+  {
+    slug: 'estudios-de-pilates',
+    query: 'estudios de pilates reformer en Lima',
+    title: 'Estudios de Pilates Reformer en Lima',
+    niche: 'fitness',
+    heroHook: 'Fortalecimiento de core, corrección postural y tonificación muscular con máquinas Reformer, Cadillac y suelo bajo supervisión personalizada.'
+  },
+  {
+    slug: 'academias-de-natacion',
+    query: 'academias de natacion y piscinas temperadas en Lima',
+    title: 'Academias de Natación y Clases Acuáticas en Lima',
+    niche: 'fitness',
+    heroHook: 'Clases de natación para bebés (matronatación), niños, adultos y preparación competitiva en piscinas temperadas bajo techo todo el año en Lima.'
+  },
+  {
+    slug: 'academias-de-futbol',
+    query: 'academias formativas de futbol en Lima',
+    title: 'Academias Formativas de Fútbol en Lima',
+    niche: 'fitness',
+    heroHook: 'Desarrollo técnico, táctico y valores deportivos para niños y jóvenes con directores técnicos federados y canchas reglamentarias en Lima.'
+  },
+  {
+    slug: 'academias-de-artes-marciales',
+    query: 'academias de artes marciales boxeo y jiu jitsu en Lima',
+    title: 'Academias de Artes Marciales, Boxeo y Jiu-Jitsu en Lima',
+    niche: 'fitness',
+    heroHook: 'Entrenamiento de Muay Thai, Brazilian Jiu-Jitsu (BJJ), Boxeo profesional, Taekwondo y defensa personal para todas las edades y niveles en Lima.'
+  },
+  {
+    slug: 'manicure-y-pedicure',
+    query: 'salones de manicure pedicure y nail art en Lima',
+    title: 'Salones de Manicure, Pedicure y Nail Art en Lima',
+    niche: 'belleza',
+    heroHook: 'Esmaltado en gel semipermanente, uñas acrílicas, dipping powder, manicura rusa, spa de pies y diseños personalizados de nail art en Lima.'
+  },
+  {
+    slug: 'estudios-de-maquillaje',
+    query: 'estudios de maquillaje profesional y novias en Lima',
+    title: 'Estudios de Maquillaje Profesional y Novias en Lima',
+    niche: 'belleza',
+    heroHook: 'Maquillaje social de larga duración, novias, quinceañeras, sesiones fotográficas y cursos de automaquillaje con artistas reconocidos en Lima.'
+  },
+  {
+    slug: 'centros-de-depilacion',
+    query: 'centros de depilacion laser y cera en Lima',
+    title: 'Centros de Depilación Láser y Cera en Lima',
+    niche: 'belleza',
+    heroHook: 'Depilación láser diodo y soprano definitiva, depilación con cera vegetal tibia y perfilado de cejas con hilo hindú en centros especializados.'
+  },
+  {
+    slug: 'estudios-de-tatuajes',
+    query: 'estudios de tatuajes y tattoo artists en Lima',
+    title: 'Estudios de Tatuajes y Tattoo Artists en Lima',
+    niche: 'belleza',
+    heroHook: 'Tatuajes realistas, blackwork, fineline, tradicional japonés y acuarela con tatuadores premiados y material 100% estéril y descartable en Lima.'
+  },
+  {
+    slug: 'estudios-de-piercing',
+    query: 'estudios de piercing y perforaciones corporales en Lima',
+    title: 'Estudios de Piercing y Perforaciones Corporales en Lima',
+    niche: 'belleza',
+    heroHook: 'Perforaciones en oreja (hélix, tragus, conch), nariz, ombligo y lengua con agujas americanas estériles y joyería de titanio grado implante en Lima.'
   }
 ];
 
