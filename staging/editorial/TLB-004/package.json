@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-004",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "huacas-de-lima-como-reconocer-su-diversidad-historica",
     "title": "Huacas de Lima: cómo reconocer su diversidad histórica",
@@ -14,8 +14,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre huacas de lima: cómo reconocer su diversidad histórica: historia, arquitectura, horarios de visita y recomendaciones oficiales en Lima.",
-    "published": "2026-04-17",
-    "modified": "2026-10-10",
+    "published": "2026-10-12",
+    "modified": "2026-10-12",
     "cover": "huacas-de-lima-como-reconocer-su-diversidad-historica-portada-huaca-prehispanica",
     "internal": [
       "huacas-de-lima-como-reconocer-su-diversidad-historica-detalle-adobitos-muro",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-12",
+    "publication_slot": "mañana"
   }
 }
