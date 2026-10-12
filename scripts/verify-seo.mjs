@@ -50,7 +50,7 @@ for (const c of CATEGORIES) {
   assert(CATEGORY_TO_AREA_SLUG[c.slug], `Category unmapped to macro-area: ${c.slug}`);
 }
 const activeAreas = getMacroAreas({ includeUpcoming: false });
-assert.equal(activeAreas.length, 12, 'Must have 12 active areas with existing data');
+assert.equal(activeAreas.length, 14, 'Must have 14 active areas with existing data');
 assert.equal(activeAreas.reduce((sum, a) => sum + a.categorySlugs.length, 0), CATEGORIES.length, 'Total categories across active areas must equal CATEGORIES.length');
 
 console.log(JSON.stringify({ validJsonFiles: files.length, sourceRecords: total, deduplicatedCategoryRecords: getDirectory().reduce((sum, c) => sum + c.businesses.length, 0), categoryPages: CATEGORIES.length, macroAreas: MACRO_AREAS.length, activeAreas: activeAreas.length, localPages: locals.length, profiles: profiles.length, guides: GUIDES.length }, null, 2));

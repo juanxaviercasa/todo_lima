@@ -630,6 +630,146 @@ export const CATEGORIES = [
     title: 'Sastrerías y Arreglos de Ropa en Lima',
     niche: 'hogar',
     heroHook: 'Confección a medida de ternos, sacos, bastas express, entalles de camisas y vestidos con maestros sastres y modistas en Lima.'
+  },
+  {
+    slug: 'empresas-de-limpieza',
+    query: 'empresas de limpieza y mantenimiento en Lima',
+    title: 'Empresas de Limpieza y Mantenimiento en Lima',
+    niche: 'hogar',
+    heroHook: 'Limpieza integral para casas, departamentos, oficinas y condominios con personal calificado, productos industriales y protocolos de seguridad.'
+  },
+  {
+    slug: 'limpieza-de-muebles',
+    query: 'limpieza y lavado de muebles y colchones en Lima',
+    title: 'Limpieza y Lavado de Muebles y Colchones en Lima',
+    niche: 'hogar',
+    heroHook: 'Eliminación profunda de manchas, ácaros y olores en sofás, sillas, colchones y alfombras con máquinas de inyección y extracción en tu domicilio.'
+  },
+  {
+    slug: 'limpieza-de-cisternas',
+    query: 'limpieza y desinfeccion de cisternas y tanques en Lima',
+    title: 'Limpieza y Desinfección de Cisternas y Tanques en Lima',
+    niche: 'hogar',
+    heroHook: 'Mantenimiento sanitario de reservorios de agua potable para viviendas y edificios, con certificado de salubridad y desinfección según normas de DIGESA.'
+  },
+  {
+    slug: 'desatoros',
+    query: 'servicios de desatoros con maquina electrica en Lima',
+    title: 'Servicios de Desatoros y Máquinas Eléctricas en Lima',
+    niche: 'hogar',
+    heroHook: 'Atención de emergencias en desagües, inodoros, lavaderos y tuberías principales con sondas eléctricas y cámaras de inspección sin romper pisos.'
+  },
+  {
+    slug: 'impermeabilizacion',
+    query: 'impermeabilizacion de techos y terrazas en Lima',
+    title: 'Impermeabilización de Techos y Terrazas en Lima',
+    niche: 'construccion',
+    heroHook: 'Protege tu vivienda de la humedad, garúa limeña y filtraciones con mantos asfálticos, membranas líquidas y poliuretano aplicados por expertos.'
+  },
+  {
+    slug: 'albanileria-y-remodelaciones',
+    query: 'albanileria acabados y remodelaciones en Lima',
+    title: 'Albañilería, Acabados y Remodelaciones en Lima',
+    niche: 'construccion',
+    heroHook: 'Ampliaciones, levantamiento de muros, enlucidos, pisos porcelanatos y remodelaciones de baños y cocinas con maestros de obra de confianza.'
+  },
+  {
+    slug: 'arquitectura',
+    query: 'estudios de arquitectura y diseno en Lima',
+    title: 'Estudios de Arquitectura y Planos en Lima',
+    niche: 'construccion',
+    heroHook: 'Diseño arquitectónico integral, anteproyectos, expedientes para licencia municipal, independizaciones y supervisión técnica de obra en Lima.'
+  },
+  {
+    slug: 'diseno-de-interiores',
+    query: 'diseno de interiores y decoracion en Lima',
+    title: 'Diseño de Interiores y Decoración en Lima',
+    niche: 'construccion',
+    heroHook: 'Optimización de espacios, diseño de mobiliario a medida, iluminación, paletas de color y renderizado 3D para hogares y locales comerciales.'
+  },
+  {
+    slug: 'jardineria',
+    query: 'servicios de jardineria y paisajismo en Lima',
+    title: 'Jardinería, Paisajismo y Áreas Verdes en Lima',
+    niche: 'hogar',
+    heroHook: 'Cuidado y diseño de jardines, corte de césped, poda de árboles, sistemas de riego tecnificado y plantas ornamentales adaptadas al clima de Lima.'
+  },
+  {
+    slug: 'estructuras-metalicas',
+    query: 'estructuras metalicas techos y soldadura en Lima',
+    title: 'Estructuras Metálicas y Soldadura en Lima',
+    niche: 'construccion',
+    heroHook: 'Fabricación e instalación de techos ligeros, tijerales, rejas de seguridad, portones levadizos, escaleras caracol y barandas de acero inoxidable.'
+  },
+  {
+    slug: 'imprentas',
+    query: 'imprentas comerciales y offset en Lima',
+    title: 'Imprentas Comerciales y Gráficas en Lima',
+    niche: 'negocios',
+    heroHook: 'Impresión offset y digital de alta calidad: folletos, catálogos, tarjetas de presentación, facturas, carpetas corporativas y volantes en Lima.'
+  },
+  {
+    slug: 'impresion-gran-formato',
+    query: 'impresion de gran formato y gigantografias en Lima',
+    title: 'Impresión de Gran Formato y Gigantografías en Lima',
+    niche: 'negocios',
+    heroHook: 'Banners en lona vinílica, viniles adhesivos troquelados, paneles publicitarios, displays para ferias y decoración vehicular en Lima.'
+  },
+  {
+    slug: 'letreros-y-senaletica',
+    query: 'fabricacion de letreros publicitarios y senaletica en Lima',
+    title: 'Letreros Publicitarios y Señalética en Lima',
+    niche: 'negocios',
+    heroHook: 'Letras en acrílico 3D con luz LED, cajas de luz, señalética de seguridad INDECI y letreros exteriores duraderos para locales comerciales.'
+  },
+  {
+    slug: 'envases-y-embalajes',
+    query: 'proveedores de envases y cajas de carton en Lima',
+    title: 'Proveedores de Envases, Cajas y Embalajes en Lima',
+    niche: 'negocios',
+    heroHook: 'Cajas de cartón corrugado para envíos y mudanzas, empaques ecológicos para delivery gastronómico, bolsas biodegradables y film stretch.'
+  },
+  {
+    slug: 'uniformes-empresariales',
+    query: 'confeccion de uniformes empresariales e industriales en Lima',
+    title: 'Uniformes Empresariales e Industriales en Lima',
+    niche: 'negocios',
+    heroHook: 'Confección de camisas corporativas, pantalones drill, chalecos de seguridad reflectivos, mandiles y ropa de trabajo para empresas en Lima.'
+  },
+  {
+    slug: 'bordados-y-estampados',
+    query: 'bordados computarizados y estampados textiles en Lima',
+    title: 'Bordados Computarizados y Estampados en Lima',
+    niche: 'negocios',
+    heroHook: 'Matricería y bordado industrial para gorros, polos y camisas; serigrafía de alta densidad, sublimación y DTF textil en talleres de Lima.'
+  },
+  {
+    slug: 'reparacion-de-impresoras',
+    query: 'servicio tecnico de impresoras y fotocopiadoras en Lima',
+    title: 'Servicio Técnico de Impresoras y Fotocopiadoras en Lima',
+    niche: 'tecnologia',
+    heroHook: 'Mantenimiento preventivo y correctivo de impresoras multifuncionales, sistemas continuos, atascos de papel y cabezales de impresión en Lima.'
+  },
+  {
+    slug: 'refrigeracion-comercial',
+    query: 'refrigeracion comercial e industrial en Lima',
+    title: 'Refrigeración Comercial e Industrial en Lima',
+    niche: 'negocios',
+    heroHook: 'Mantenimiento y reparación de cámaras frigoríficas, visicoolers para bodegas, congeladoras y mesas refrigeradas para negocios gastronómicos.'
+  },
+  {
+    slug: 'equipos-gastronomicos',
+    query: 'equipos gastronomicos y cocinas industriales en Lima',
+    title: 'Equipamiento Gastronómico y Cocinas Industriales en Lima',
+    niche: 'negocios',
+    heroHook: 'Venta y mantenimiento de cocinas industriales en acero inoxidable, hornos pizzeros, freidoras automáticas y campanas extractoras en Lima.'
+  },
+  {
+    slug: 'courier-y-mensajeria',
+    query: 'courier local y mensajeria express en Lima',
+    title: 'Courier Local y Mensajería Express Corporativa en Lima',
+    niche: 'negocios',
+    heroHook: 'Envíos motorizados en el mismo día, mensajería de documentos legales, trámites notariales y reparto de paquetería e-commerce en Lima.'
   }
 ];
 
