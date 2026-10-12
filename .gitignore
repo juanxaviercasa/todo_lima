@@ -38,6 +38,7 @@ next-env.d.ts
 # Large Audit Generated HTML
 audits/index.html
 audits/categories/
+test-*.png
 
 # Raw image downloads from Google Flow
 imagenes_generadas/*_TL/
