@@ -25,6 +25,24 @@ for (const c of CATEGORIES) assert(CATEGORY_DETAILS[c.slug]?.length === 2, `Edit
 assert.equal(extractDistrict('Av. Lima 20, San Juan de Lurigancho, Lima'), 'San Juan de Lurigancho');
 assert.equal(extractDistrict('Calle Lima 15, Magdalena del Mar 15086'), 'Magdalena del Mar');
 assert.equal(extractDistrict('Av. Principal, Surco, Lima'), 'Santiago de Surco');
+// Distritos: cobertura completa (43 Lima + 7 Callao) y casos de calles con nombre de distrito
+const { LIMA_ZONES, resolveDistrict } = await import('../lib/districts.js');
+const { districtFromCoords, mapsPlaceCoords } = await import('../lib/districtGeo.js');
+const zoneDistricts = Object.values(LIMA_ZONES).flatMap(z => z.districts);
+assert.equal(zoneDistricts.length, 50, 'LIMA_ZONES debe cubrir 43 distritos de Lima + 7 del Callao');
+assert.equal(new Set(zoneDistricts).size, 50, 'Distritos duplicados en LIMA_ZONES');
+assert.equal(extractDistrict('Av. Canadá 3684, San Luis 15021'), 'San Luis');
+assert.equal(extractDistrict('Av. San Luis 2680, San Borja 15037'), 'San Borja');
+assert.equal(extractDistrict('C. Independencia 596, Miraflores 15074'), 'Miraflores');
+assert.equal(extractDistrict('Av. Próceres de la Independencia 1680, SJL 15401'), 'San Juan de Lurigancho');
+assert.equal(extractDistrict('Jr. Grau 120, La Perla, Callao'), 'La Perla');
+assert.equal(extractDistrict('Av. Sáenz Peña 450, Callao 07001'), 'Callao');
+assert.equal(districtFromCoords(-12.1219, -77.0297), 'Miraflores');
+assert.equal(districtFromCoords(-12.0464, -77.0428), 'Cercado de Lima');
+assert.equal(districtFromCoords(-13.5, -71.97), null);
+assert.deepEqual(mapsPlaceCoords('https://www.google.com/maps/place/X/data=!3d-12.1219!4d-77.0297'), { latitude: -12.1219, longitude: -77.0297 });
+assert.equal(resolveDistrict({ address: 'Av. Caminos del Inca 3439, Cercado de Lima 15039', latitude: -12.1295, longitude: -76.9925 }, districtFromCoords), 'Santiago de Surco');
+assert.equal(resolveDistrict({ address: 'Av. Arenales 2310, Lince 15046', latitude: -12.0464, longitude: -77.0428 }, districtFromCoords), 'Lince');
 assert.equal(businessPhone('(01) 234 5678').telephone, '+5112345678');
 assert.equal(businessPhone('987 654 321').mobile, '51987654321');
 assert.equal(businessPhone('123').telephone, null);

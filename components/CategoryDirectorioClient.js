@@ -36,7 +36,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
   const districtMap = useMemo(() => {
     const map = {};
     businesses.forEach(b => {
-      const dist = extractDistrict(b.address);
+      const dist = b.district || extractDistrict(b.address);
       map[dist] = (map[dist] || 0) + 1;
     });
     return map;
@@ -53,7 +53,7 @@ export default function CategoryDirectorioClient({ businesses = [], categoryTitl
   // Filtrar y ordenar negocios
   const filteredBusinesses = useMemo(() => {
     let result = businesses.filter(b => {
-      const dist = extractDistrict(b.address);
+      const dist = b.district || extractDistrict(b.address);
       const matchesDistrict = selectedDistrict === 'all' || dist.toLowerCase() === selectedDistrict.toLowerCase();
 
       if (!searchQuery.trim()) return matchesDistrict;
