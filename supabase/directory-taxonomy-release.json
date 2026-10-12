@@ -1,0 +1,873 @@
+{
+  "id": "todo-lima-taxonomy-20261012-v1",
+  "content_sha256": "a7ea11e09e409d7408e08709897d5e39aa3c0440a449c3f11cfc275454903d10",
+  "payload": {
+    "version": "todo-lima-taxonomy-20261012-v1",
+    "areas": [
+      {
+        "slug": "comer-y-beber",
+        "title": "Comer y beber"
+      },
+      {
+        "slug": "hogar-y-reparaciones",
+        "title": "Hogar y reparaciones"
+      },
+      {
+        "slug": "construccion-y-remodelacion",
+        "title": "Construcción y remodelación"
+      },
+      {
+        "slug": "salud-y-bienestar",
+        "title": "Salud y bienestar"
+      },
+      {
+        "slug": "belleza-y-cuidado-personal",
+        "title": "Belleza y cuidado personal"
+      },
+      {
+        "slug": "mascotas",
+        "title": "Mascotas"
+      },
+      {
+        "slug": "vehiculos-y-movilidad",
+        "title": "Vehículos y movilidad"
+      },
+      {
+        "slug": "compras-y-comercio-local",
+        "title": "Compras y comercio local"
+      },
+      {
+        "slug": "turismo-y-experiencias",
+        "title": "Turismo y experiencias"
+      },
+      {
+        "slug": "educacion-y-talleres",
+        "title": "Educación y talleres"
+      },
+      {
+        "slug": "deporte-y-actividad-fisica",
+        "title": "Deporte y actividad física"
+      },
+      {
+        "slug": "eventos-y-celebraciones",
+        "title": "Eventos y celebraciones"
+      },
+      {
+        "slug": "servicios-profesionales",
+        "title": "Servicios profesionales"
+      },
+      {
+        "slug": "proveedores-para-negocios",
+        "title": "Proveedores para negocios"
+      }
+    ],
+    "categories": [
+      {
+        "slug": "doctores",
+        "area_slug": "salud-y-bienestar"
+      },
+      {
+        "slug": "dentistas",
+        "area_slug": "salud-y-bienestar"
+      },
+      {
+        "slug": "psicologos",
+        "area_slug": "salud-y-bienestar"
+      },
+      {
+        "slug": "pediatras",
+        "area_slug": "salud-y-bienestar"
+      },
+      {
+        "slug": "dermatologos",
+        "area_slug": "salud-y-bienestar"
+      },
+      {
+        "slug": "veterinarias",
+        "area_slug": "mascotas"
+      },
+      {
+        "slug": "fisioterapia",
+        "area_slug": "salud-y-bienestar"
+      },
+      {
+        "slug": "nutricionistas",
+        "area_slug": "salud-y-bienestar"
+      },
+      {
+        "slug": "oftalmologos",
+        "area_slug": "salud-y-bienestar"
+      },
+      {
+        "slug": "ginecologos",
+        "area_slug": "salud-y-bienestar"
+      },
+      {
+        "slug": "cerrajeros",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "gasfiteros",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "electricistas",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "pintores",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "fumigacion",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "mudanzas",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "aire-acondicionado",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "reparacion-lavadoras",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "reparacion-refrigeradoras",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "vidrierias",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "carpinteros",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "abogados",
+        "area_slug": "servicios-profesionales"
+      },
+      {
+        "slug": "notarias",
+        "area_slug": "servicios-profesionales"
+      },
+      {
+        "slug": "contadores",
+        "area_slug": "servicios-profesionales"
+      },
+      {
+        "slug": "agentes-inmobiliarios",
+        "area_slug": "servicios-profesionales"
+      },
+      {
+        "slug": "talleres-mecanicos",
+        "area_slug": "vehiculos-y-movilidad"
+      },
+      {
+        "slug": "car-wash",
+        "area_slug": "vehiculos-y-movilidad"
+      },
+      {
+        "slug": "llanterias",
+        "area_slug": "vehiculos-y-movilidad"
+      },
+      {
+        "slug": "auxilio-mecanico",
+        "area_slug": "vehiculos-y-movilidad"
+      },
+      {
+        "slug": "catering",
+        "area_slug": "eventos-y-celebraciones"
+      },
+      {
+        "slug": "tortas-personalizadas",
+        "area_slug": "eventos-y-celebraciones"
+      },
+      {
+        "slug": "fotografia-eventos",
+        "area_slug": "eventos-y-celebraciones"
+      },
+      {
+        "slug": "barberias",
+        "area_slug": "belleza-y-cuidado-personal"
+      },
+      {
+        "slug": "salones-de-belleza",
+        "area_slug": "belleza-y-cuidado-personal"
+      },
+      {
+        "slug": "spas",
+        "area_slug": "belleza-y-cuidado-personal"
+      },
+      {
+        "slug": "reparacion-celulares",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "reparacion-laptops",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "camaras-de-seguridad",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "cevicherias",
+        "area_slug": "comer-y-beber"
+      },
+      {
+        "slug": "pollerias",
+        "area_slug": "comer-y-beber"
+      },
+      {
+        "slug": "chifas",
+        "area_slug": "comer-y-beber"
+      },
+      {
+        "slug": "pizzerias",
+        "area_slug": "comer-y-beber"
+      },
+      {
+        "slug": "cafeterias",
+        "area_slug": "comer-y-beber"
+      },
+      {
+        "slug": "florerias",
+        "area_slug": "compras-y-comercio-local"
+      },
+      {
+        "slug": "opticas",
+        "area_slug": "salud-y-bienestar"
+      },
+      {
+        "slug": "lavanderias",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "escuelas-de-manejo",
+        "area_slug": "vehiculos-y-movilidad"
+      },
+      {
+        "slug": "casas-de-cambio",
+        "area_slug": "servicios-profesionales"
+      },
+      {
+        "slug": "podologos",
+        "area_slug": "salud-y-bienestar"
+      },
+      {
+        "slug": "laboratorios-clinicos",
+        "area_slug": "salud-y-bienestar"
+      },
+      {
+        "slug": "traumatologos",
+        "area_slug": "salud-y-bienestar"
+      },
+      {
+        "slug": "grooming-canino",
+        "area_slug": "mascotas"
+      },
+      {
+        "slug": "gimnasios",
+        "area_slug": "deporte-y-actividad-fisica"
+      },
+      {
+        "slug": "locales-de-eventos",
+        "area_slug": "eventos-y-celebraciones"
+      },
+      {
+        "slug": "decoracion-de-eventos",
+        "area_slug": "eventos-y-celebraciones"
+      },
+      {
+        "slug": "alquiler-de-canchas",
+        "area_slug": "deporte-y-actividad-fisica"
+      },
+      {
+        "slug": "restaurantes-criollos",
+        "area_slug": "comer-y-beber"
+      },
+      {
+        "slug": "comida-regional",
+        "area_slug": "comer-y-beber"
+      },
+      {
+        "slug": "anticucherias",
+        "area_slug": "comer-y-beber"
+      },
+      {
+        "slug": "sangucherias",
+        "area_slug": "comer-y-beber"
+      },
+      {
+        "slug": "carnes-y-parrillas",
+        "area_slug": "comer-y-beber"
+      },
+      {
+        "slug": "restaurantes-vegetarianos",
+        "area_slug": "comer-y-beber"
+      },
+      {
+        "slug": "restaurantes-nikkei",
+        "area_slug": "comer-y-beber"
+      },
+      {
+        "slug": "panaderias-artesanales",
+        "area_slug": "comer-y-beber"
+      },
+      {
+        "slug": "heladerias-artesanales",
+        "area_slug": "comer-y-beber"
+      },
+      {
+        "slug": "dulcerias-tradicionales",
+        "area_slug": "comer-y-beber"
+      },
+      {
+        "slug": "productos-naturales",
+        "area_slug": "compras-y-comercio-local"
+      },
+      {
+        "slug": "restaurantes-campestres",
+        "area_slug": "comer-y-beber"
+      },
+      {
+        "slug": "agencias-de-turismo",
+        "area_slug": "turismo-y-experiencias"
+      },
+      {
+        "slug": "tours-y-experiencias",
+        "area_slug": "turismo-y-experiencias"
+      },
+      {
+        "slug": "guias-de-turismo",
+        "area_slug": "turismo-y-experiencias"
+      },
+      {
+        "slug": "hoteles",
+        "area_slug": "turismo-y-experiencias"
+      },
+      {
+        "slug": "hostales-y-alojamientos",
+        "area_slug": "turismo-y-experiencias"
+      },
+      {
+        "slug": "alquiler-de-bicicletas",
+        "area_slug": "turismo-y-experiencias"
+      },
+      {
+        "slug": "escuelas-de-surf",
+        "area_slug": "deporte-y-actividad-fisica"
+      },
+      {
+        "slug": "penas-criollas",
+        "area_slug": "turismo-y-experiencias"
+      },
+      {
+        "slug": "talleres-de-artesania",
+        "area_slug": "educacion-y-talleres"
+      },
+      {
+        "slug": "tiendas-de-artesania",
+        "area_slug": "compras-y-comercio-local"
+      },
+      {
+        "slug": "librerias",
+        "area_slug": "compras-y-comercio-local"
+      },
+      {
+        "slug": "tiendas-de-mascotas",
+        "area_slug": "mascotas"
+      },
+      {
+        "slug": "ferreterias",
+        "area_slug": "compras-y-comercio-local"
+      },
+      {
+        "slug": "tiendas-de-bicicletas",
+        "area_slug": "compras-y-comercio-local"
+      },
+      {
+        "slug": "reparacion-de-bicicletas",
+        "area_slug": "vehiculos-y-movilidad"
+      },
+      {
+        "slug": "zapaterias",
+        "area_slug": "compras-y-comercio-local"
+      },
+      {
+        "slug": "reparacion-de-calzado",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "sastrerias",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "empresas-de-limpieza",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "limpieza-de-muebles",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "limpieza-de-cisternas",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "desatoros",
+        "area_slug": "hogar-y-reparaciones"
+      },
+      {
+        "slug": "impermeabilizacion",
+        "area_slug": "construccion-y-remodelacion"
+      },
+      {
+        "slug": "albanileria-y-remodelaciones",
+        "area_slug": "construccion-y-remodelacion"
+      },
+      {
+        "slug": "arquitectura",
+        "area_slug": "construccion-y-remodelacion"
+      },
+      {
+        "slug": "diseno-de-interiores",
+        "area_slug": "construccion-y-remodelacion"
+      },
+      {
+        "slug": "jardineria",
+        "area_slug": "construccion-y-remodelacion"
+      },
+      {
+        "slug": "estructuras-metalicas",
+        "area_slug": "construccion-y-remodelacion"
+      },
+      {
+        "slug": "imprentas",
+        "area_slug": "proveedores-para-negocios"
+      },
+      {
+        "slug": "impresion-gran-formato",
+        "area_slug": "proveedores-para-negocios"
+      },
+      {
+        "slug": "letreros-y-senaletica",
+        "area_slug": "proveedores-para-negocios"
+      },
+      {
+        "slug": "envases-y-embalajes",
+        "area_slug": "proveedores-para-negocios"
+      },
+      {
+        "slug": "uniformes-empresariales",
+        "area_slug": "proveedores-para-negocios"
+      },
+      {
+        "slug": "bordados-y-estampados",
+        "area_slug": "proveedores-para-negocios"
+      },
+      {
+        "slug": "reparacion-de-impresoras",
+        "area_slug": "proveedores-para-negocios"
+      },
+      {
+        "slug": "refrigeracion-comercial",
+        "area_slug": "proveedores-para-negocios"
+      },
+      {
+        "slug": "equipos-gastronomicos",
+        "area_slug": "proveedores-para-negocios"
+      },
+      {
+        "slug": "courier-y-mensajeria",
+        "area_slug": "proveedores-para-negocios"
+      },
+      {
+        "slug": "academias-de-idiomas",
+        "area_slug": "educacion-y-talleres"
+      },
+      {
+        "slug": "academias-preuniversitarias",
+        "area_slug": "educacion-y-talleres"
+      },
+      {
+        "slug": "clases-particulares",
+        "area_slug": "educacion-y-talleres"
+      },
+      {
+        "slug": "escuelas-de-musica",
+        "area_slug": "educacion-y-talleres"
+      },
+      {
+        "slug": "escuelas-de-danza",
+        "area_slug": "educacion-y-talleres"
+      },
+      {
+        "slug": "talleres-de-arte",
+        "area_slug": "educacion-y-talleres"
+      },
+      {
+        "slug": "hospedajes-para-mascotas",
+        "area_slug": "mascotas"
+      },
+      {
+        "slug": "guarderias-caninas",
+        "area_slug": "mascotas"
+      },
+      {
+        "slug": "adiestramiento-canino",
+        "area_slug": "mascotas"
+      },
+      {
+        "slug": "paseadores-de-perros",
+        "area_slug": "mascotas"
+      },
+      {
+        "slug": "estudios-de-yoga",
+        "area_slug": "deporte-y-actividad-fisica"
+      },
+      {
+        "slug": "estudios-de-pilates",
+        "area_slug": "deporte-y-actividad-fisica"
+      },
+      {
+        "slug": "academias-de-natacion",
+        "area_slug": "deporte-y-actividad-fisica"
+      },
+      {
+        "slug": "academias-de-futbol",
+        "area_slug": "deporte-y-actividad-fisica"
+      },
+      {
+        "slug": "academias-de-artes-marciales",
+        "area_slug": "deporte-y-actividad-fisica"
+      },
+      {
+        "slug": "manicure-y-pedicure",
+        "area_slug": "belleza-y-cuidado-personal"
+      },
+      {
+        "slug": "estudios-de-maquillaje",
+        "area_slug": "belleza-y-cuidado-personal"
+      },
+      {
+        "slug": "centros-de-depilacion",
+        "area_slug": "belleza-y-cuidado-personal"
+      },
+      {
+        "slug": "estudios-de-tatuajes",
+        "area_slug": "belleza-y-cuidado-personal"
+      },
+      {
+        "slug": "estudios-de-piercing",
+        "area_slug": "belleza-y-cuidado-personal"
+      }
+    ],
+    "districts": [
+      {
+        "slug": "miraflores",
+        "name": "Miraflores",
+        "zone_slug": "top",
+        "province": "Lima"
+      },
+      {
+        "slug": "san-isidro",
+        "name": "San Isidro",
+        "zone_slug": "top",
+        "province": "Lima"
+      },
+      {
+        "slug": "santiago-de-surco",
+        "name": "Santiago de Surco",
+        "zone_slug": "top",
+        "province": "Lima"
+      },
+      {
+        "slug": "san-borja",
+        "name": "San Borja",
+        "zone_slug": "top",
+        "province": "Lima"
+      },
+      {
+        "slug": "la-molina",
+        "name": "La Molina",
+        "zone_slug": "top",
+        "province": "Lima"
+      },
+      {
+        "slug": "barranco",
+        "name": "Barranco",
+        "zone_slug": "top",
+        "province": "Lima"
+      },
+      {
+        "slug": "jesus-maria",
+        "name": "Jesús María",
+        "zone_slug": "moderna",
+        "province": "Lima"
+      },
+      {
+        "slug": "magdalena-del-mar",
+        "name": "Magdalena del Mar",
+        "zone_slug": "moderna",
+        "province": "Lima"
+      },
+      {
+        "slug": "lince",
+        "name": "Lince",
+        "zone_slug": "moderna",
+        "province": "Lima"
+      },
+      {
+        "slug": "pueblo-libre",
+        "name": "Pueblo Libre",
+        "zone_slug": "moderna",
+        "province": "Lima"
+      },
+      {
+        "slug": "san-miguel",
+        "name": "San Miguel",
+        "zone_slug": "moderna",
+        "province": "Lima"
+      },
+      {
+        "slug": "surquillo",
+        "name": "Surquillo",
+        "zone_slug": "moderna",
+        "province": "Lima"
+      },
+      {
+        "slug": "cercado-de-lima",
+        "name": "Cercado de Lima",
+        "zone_slug": "centro",
+        "province": "Lima"
+      },
+      {
+        "slug": "brena",
+        "name": "Breña",
+        "zone_slug": "centro",
+        "province": "Lima"
+      },
+      {
+        "slug": "la-victoria",
+        "name": "La Victoria",
+        "zone_slug": "centro",
+        "province": "Lima"
+      },
+      {
+        "slug": "rimac",
+        "name": "Rímac",
+        "zone_slug": "centro",
+        "province": "Lima"
+      },
+      {
+        "slug": "los-olivos",
+        "name": "Los Olivos",
+        "zone_slug": "norte",
+        "province": "Lima"
+      },
+      {
+        "slug": "san-martin-de-porres",
+        "name": "San Martín de Porres",
+        "zone_slug": "norte",
+        "province": "Lima"
+      },
+      {
+        "slug": "comas",
+        "name": "Comas",
+        "zone_slug": "norte",
+        "province": "Lima"
+      },
+      {
+        "slug": "independencia",
+        "name": "Independencia",
+        "zone_slug": "norte",
+        "province": "Lima"
+      },
+      {
+        "slug": "carabayllo",
+        "name": "Carabayllo",
+        "zone_slug": "norte",
+        "province": "Lima"
+      },
+      {
+        "slug": "puente-piedra",
+        "name": "Puente Piedra",
+        "zone_slug": "norte",
+        "province": "Lima"
+      },
+      {
+        "slug": "ancon",
+        "name": "Ancón",
+        "zone_slug": "norte",
+        "province": "Lima"
+      },
+      {
+        "slug": "santa-rosa",
+        "name": "Santa Rosa",
+        "zone_slug": "norte",
+        "province": "Lima"
+      },
+      {
+        "slug": "san-juan-de-lurigancho",
+        "name": "San Juan de Lurigancho",
+        "zone_slug": "este",
+        "province": "Lima"
+      },
+      {
+        "slug": "ate",
+        "name": "Ate",
+        "zone_slug": "este",
+        "province": "Lima"
+      },
+      {
+        "slug": "santa-anita",
+        "name": "Santa Anita",
+        "zone_slug": "este",
+        "province": "Lima"
+      },
+      {
+        "slug": "el-agustino",
+        "name": "El Agustino",
+        "zone_slug": "este",
+        "province": "Lima"
+      },
+      {
+        "slug": "san-luis",
+        "name": "San Luis",
+        "zone_slug": "este",
+        "province": "Lima"
+      },
+      {
+        "slug": "chaclacayo",
+        "name": "Chaclacayo",
+        "zone_slug": "este",
+        "province": "Lima"
+      },
+      {
+        "slug": "lurigancho-chosica",
+        "name": "Lurigancho-Chosica",
+        "zone_slug": "este",
+        "province": "Lima"
+      },
+      {
+        "slug": "cieneguilla",
+        "name": "Cieneguilla",
+        "zone_slug": "este",
+        "province": "Lima"
+      },
+      {
+        "slug": "chorrillos",
+        "name": "Chorrillos",
+        "zone_slug": "sur",
+        "province": "Lima"
+      },
+      {
+        "slug": "san-juan-de-miraflores",
+        "name": "San Juan de Miraflores",
+        "zone_slug": "sur",
+        "province": "Lima"
+      },
+      {
+        "slug": "villa-maria-del-triunfo",
+        "name": "Villa María del Triunfo",
+        "zone_slug": "sur",
+        "province": "Lima"
+      },
+      {
+        "slug": "villa-el-salvador",
+        "name": "Villa El Salvador",
+        "zone_slug": "sur",
+        "province": "Lima"
+      },
+      {
+        "slug": "lurin",
+        "name": "Lurín",
+        "zone_slug": "sur",
+        "province": "Lima"
+      },
+      {
+        "slug": "pachacamac",
+        "name": "Pachacámac",
+        "zone_slug": "sur",
+        "province": "Lima"
+      },
+      {
+        "slug": "san-bartolo",
+        "name": "San Bartolo",
+        "zone_slug": "sur",
+        "province": "Lima"
+      },
+      {
+        "slug": "punta-hermosa",
+        "name": "Punta Hermosa",
+        "zone_slug": "sur",
+        "province": "Lima"
+      },
+      {
+        "slug": "punta-negra",
+        "name": "Punta Negra",
+        "zone_slug": "sur",
+        "province": "Lima"
+      },
+      {
+        "slug": "santa-maria-del-mar",
+        "name": "Santa María del Mar",
+        "zone_slug": "sur",
+        "province": "Lima"
+      },
+      {
+        "slug": "pucusana",
+        "name": "Pucusana",
+        "zone_slug": "sur",
+        "province": "Lima"
+      },
+      {
+        "slug": "callao",
+        "name": "Callao",
+        "zone_slug": "callao",
+        "province": "Callao"
+      },
+      {
+        "slug": "bellavista",
+        "name": "Bellavista",
+        "zone_slug": "callao",
+        "province": "Callao"
+      },
+      {
+        "slug": "la-perla",
+        "name": "La Perla",
+        "zone_slug": "callao",
+        "province": "Callao"
+      },
+      {
+        "slug": "la-punta",
+        "name": "La Punta",
+        "zone_slug": "callao",
+        "province": "Callao"
+      },
+      {
+        "slug": "carmen-de-la-legua",
+        "name": "Carmen de la Legua",
+        "zone_slug": "callao",
+        "province": "Callao"
+      },
+      {
+        "slug": "ventanilla",
+        "name": "Ventanilla",
+        "zone_slug": "callao",
+        "province": "Callao"
+      },
+      {
+        "slug": "mi-peru",
+        "name": "Mi Perú",
+        "zone_slug": "callao",
+        "province": "Callao"
+      }
+    ]
+  }
+}

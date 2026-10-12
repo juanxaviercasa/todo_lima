@@ -9,12 +9,21 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '../');
 
-const connectionString = 'postgresql://postgres.uhpekavdwcezyzzgsdnn:572814scxJ357@aws-0-us-east-1.pooler.supabase.com:6543/postgres';
+// Resolve backend configuration without embedding database credentials.
+const fileEnv = Object.fromEntries((fs.existsSync(path.join(rootDir, '.env.local')) ? fs.readFileSync(path.join(rootDir, '.env.local'), 'utf8') : '').split(/\r?\n/).flatMap(line => {
+  const match=line.match(/^([A-Z_][A-Z_0-9]*)\s*=\s*(.*)$/);
+  return match ? [[match[1], match[2].trim().replace(/^(['"])(.*)\1$/, '$2')]] : [];
+}));
+const connectionString = process.env.DATABASE_URL || fileEnv.DATABASE_URL;
+if (!connectionString) throw new Error('DATABASE_URL required');
+const databaseUrl = new URL(connectionString);
+if (!databaseUrl.hostname.endsWith('.supabase.com') && !databaseUrl.hostname.endsWith('.supabase.co')) throw new Error('Unexpected database host');
+for (const key of ['sslmode','sslcert','sslkey','sslrootcert']) databaseUrl.searchParams.delete(key);
 
 async function bulkMigrate() {
   const client = new Client({
-    connectionString,
-    ssl: { rejectUnauthorized: false }
+    connectionString: databaseUrl.href,
+    ssl: { rejectUnauthorized: true, ca: fs.readFileSync(path.join(rootDir, 'supabase/prod-ca-2021.crt'), 'utf8') }
   });
 
   try {
@@ -65,12 +74,12 @@ async function bulkMigrate() {
 
       for (const b of chunk) {
         const uniqueBizId = `${b.categorySlug}_${b.id}`;
-        bizValues.push(`($${pIdx}, $${pIdx+1}, $${pIdx+2}, $${pIdx+3}, $${pIdx+4}, $${pIdx+5}, $${pIdx+6}, $${pIdx+7}, $${pIdx+8}, $${pIdx+9}, true)`);
+        bizValues.push(`($${pIdx}, $${pIdx+1}, $${pIdx+2}, $${pIdx+3}, $${pIdx+4}, $${pIdx+5}, $${pIdx+6}, $${pIdx+7}, $${pIdx+8}, $${pIdx+9}, false)`);
         bizParams.push(
           uniqueBizId,
           b.categorySlug,
           b.name,
-          b.rating ? parseFloat(b.rating) : 5.0,
+          b.rating ? parseFloat(b.rating) : null,
           b.reviewsCount || 0,
           b.address || '',
           b.district || '',
