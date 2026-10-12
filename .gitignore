@@ -47,3 +47,8 @@ imagenes_generadas/*_TL/
 /public/editorial/
 
 .env*
+
+# Local reconciliation receipts and rollback snapshots
+.directory-reports/
+.directory-backups/
+data/directory.snapshot.json.tmp

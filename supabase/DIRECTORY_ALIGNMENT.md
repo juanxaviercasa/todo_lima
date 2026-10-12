@@ -13,3 +13,5 @@ El frontend estático continúa usando data/*.json. Este cambio no declara sincr
 El importador bulk-migration ahora carga DATABASE_URL del entorno/backend, verifica TLS con CA pública y no marca automáticamente como verificados los registros nuevos. Una credencial incrustada preexistente fue retirada del archivo vigente; su historial requiere rotación administrada sin interrumpir clientes existentes.
 
 Respaldo DB privado: directory_backup_20261012_v1; tablas originales businesses y categories. Restauración ensayada en tablas temporales. Reversión operativa: volver a imagen previa y conservar esquema aditivo; no borrar negocios ni reiniciar importaciones. Evidencia y despliegue en operations/DIRECTORY_ALIGNMENT.md de Sistema_Automatizado.
+
+DIR-02 posterior: el directorio publico ahora se genera desde data/directory.snapshot.json exportado de Supabase. Ver DIRECTORY_RECONCILIATION.md; esta nota sustituye la limitacion anterior de inventario web separado.

@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "predev": "node scripts/prepare-blog-images.mjs",
-    "prebuild": "node scripts/prepare-blog-images.mjs",
+    "predev": "node scripts/reconcile-directory.mjs --check && node scripts/prepare-blog-images.mjs",
+    "prebuild": "node scripts/reconcile-directory.mjs --check && node scripts/prepare-blog-images.mjs",
     "build": "next build",
     "verify:seo": "node scripts/verify-seo.mjs",
     "test:seo": "node scripts/smoke-seo.mjs",
@@ -28,8 +28,13 @@
     "pipeline": "node scripts/pipeline.js",
     "editorial:publish": "node scripts/publish-daily-batch.mjs",
     "editorial:queue": "node scripts/setup-editorial-queue.mjs",
-    "db:sync": "node scripts/bulk-migration.js",
-    "postinstall": "node scripts/patch-next-export.js"
+    "db:sync": "node scripts/reconcile-directory.mjs --apply",
+    "postinstall": "node scripts/patch-next-export.js",
+    "directory:plan": "node scripts/reconcile-directory.mjs --plan",
+    "directory:reconcile": "node scripts/reconcile-directory.mjs",
+    "directory:export": "node scripts/reconcile-directory.mjs --export",
+    "test:directory": "node --test scripts/test-directory-reconciliation.mjs",
+    "db:sync:legacy": "node scripts/bulk-migration.js"
   },
   "dependencies": {
     "@clerk/nextjs": "^5.7.6",

@@ -47,7 +47,7 @@ export default function AdminDashboardPage() {
   let dataCategoriesCount = 0;
   if (fs.existsSync(dataDir)) {
     try {
-      dataCategoriesCount = fs.readdirSync(dataDir).filter(f => f.endsWith('.json')).length;
+      dataCategoriesCount = fs.readdirSync(dataDir).filter(f => CATEGORIES.some(c => f === c.slug + '.json')).length;
     } catch (e) {}
   }
 

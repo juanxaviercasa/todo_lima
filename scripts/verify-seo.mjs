@@ -7,7 +7,7 @@ import { extractDistrict } from '../lib/districts.js';
 import { businessPhone } from '../lib/contact.js';
 import { serializeSchema } from '../lib/seo.js';
 import { GUIDES } from '../lib/guides.js';
-const files = fs.readdirSync('data').filter(f => f.endsWith('.json'));
+const files = CATEGORIES.map(c => c.slug + '.json');
 let total = 0;
 for (const file of files) {
   const data = JSON.parse(fs.readFileSync(`data/${file}`, 'utf8'));

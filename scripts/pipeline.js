@@ -45,7 +45,7 @@ function runStep(command, stepArgs, stepName) {
     console.log(`Comando: node ${command} ${stepArgs.join(' ')}`);
     console.log(`======================================================\n`);
 
-    const child = spawn('node', [command, ...stepArgs], {
+    const child = spawn(process.execPath, [command, ...stepArgs], {
       cwd: rootDir,
       stdio: 'inherit'
     });
@@ -76,10 +76,10 @@ async function main() {
     await runStep('auditor/run-audit.js', auditArgs, '2. Generación de Auditoría y Pitches WhatsApp');
 
     // 3. Sincronización masiva con Supabase
-    await runStep('scripts/bulk-migration.js', [], '3. Sincronización en vivo con Supabase PostgreSQL');
+    await runStep('scripts/reconcile-directory.mjs', ['--apply'], '3. Reconciliación pública y snapshot estático desde Supabase');
 
     console.log(`\n🎉 ¡PIPELINE COMPLETADO CON ÉXITO!`);
-    console.log(`La categoría "${slug}" ya está extraída, auditada y sincronizada en Supabase.`);
+    console.log(`La categoría "${slug}" ya está extraída y auditada; el inventario público está reconciliado en Supabase y el snapshot fue actualizado.`);
     console.log(`Puedes ver los nuevos leads en: http://localhost:3000/admin/prospectos\n`);
 
   } catch (err) {

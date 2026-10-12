@@ -173,7 +173,7 @@ async function main() {
   console.log(`⚡ Sincronizando todos los nuevos registros con Supabase...`);
   console.log(`======================================================\n`);
   try {
-    await runCommand('node', ['scripts/bulk-migration.js'], 'Sincronización Supabase');
+    await runCommand('node', ['scripts/reconcile-directory.mjs', '--apply'], 'Sincronización Supabase');
   } catch (dbErr) {
     console.error('❌ Error sincronizando con Supabase:', dbErr.message);
   }
