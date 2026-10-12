@@ -45,13 +45,13 @@ for (const g of GUIDES) { assert(CATEGORIES.some(c => c.slug === g.category)); a
 // Macro-áreas taxonomy integrity check
 const { MACRO_AREAS, CATEGORY_TO_AREA_SLUG, getMacroAreas } = await import('../lib/areasTaxonomy.js');
 assert.equal(MACRO_AREAS.length, 14, 'Must define 14 macro-areas');
-assert.equal(Object.keys(CATEGORY_TO_AREA_SLUG).length, CATEGORIES.length, 'All 56 categories must be mapped');
+assert.equal(Object.keys(CATEGORY_TO_AREA_SLUG).length, CATEGORIES.length, 'All categories must be mapped');
 for (const c of CATEGORIES) {
   assert(CATEGORY_TO_AREA_SLUG[c.slug], `Category unmapped to macro-area: ${c.slug}`);
 }
 const activeAreas = getMacroAreas({ includeUpcoming: false });
-assert.equal(activeAreas.length, 10, 'Must have 10 active areas with existing data');
-assert.equal(activeAreas.reduce((sum, a) => sum + a.categorySlugs.length, 0), CATEGORIES.length, 'Total categories across active areas must equal 56');
+assert.equal(activeAreas.length, 12, 'Must have 12 active areas with existing data');
+assert.equal(activeAreas.reduce((sum, a) => sum + a.categorySlugs.length, 0), CATEGORIES.length, 'Total categories across active areas must equal CATEGORIES.length');
 
 console.log(JSON.stringify({ validJsonFiles: files.length, sourceRecords: total, deduplicatedCategoryRecords: getDirectory().reduce((sum, c) => sum + c.businesses.length, 0), categoryPages: CATEGORIES.length, macroAreas: MACRO_AREAS.length, activeAreas: activeAreas.length, localPages: locals.length, profiles: profiles.length, guides: GUIDES.length }, null, 2));
 

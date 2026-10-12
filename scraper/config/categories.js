@@ -420,6 +420,216 @@ export const CATEGORIES = [
     title: 'Alquiler de Canchas Sintéticas en Lima',
     niche: 'fitness',
     heroHook: 'Reserva al instante las mejores canchas de grass sintético con iluminación led para tus pichangas en Lima.'
+  },
+  {
+    slug: 'restaurantes-criollos',
+    query: 'restaurantes criollos en Lima',
+    title: 'Restaurantes Criollos y Tradicionales en Lima',
+    niche: 'gastronomia',
+    heroHook: 'Disfruta del auténtico sabor limeño: lomo saltado, ají de gallina y caucau en las tabernas y restaurantes criollos emblemáticos de Lima.'
+  },
+  {
+    slug: 'comida-regional',
+    query: 'restaurantes de comida regional en Lima',
+    title: 'Restaurantes de Comida Regional Peruana en Lima',
+    niche: 'gastronomia',
+    heroHook: 'Sabores del norte, sur y selva sin salir de la capital: cecina con tacacho, rocoto relleno, seco de cabrito y juanes tradicionales en Lima.'
+  },
+  {
+    slug: 'anticucherias',
+    query: 'anticucherias en Lima',
+    title: 'Anticucherías y Brasas Tradicionales en Lima',
+    niche: 'gastronomia',
+    heroHook: 'Los mejores anticuchos de corazón a la parrilla, rachi, pancita y choclo con huancaína en las anticucherías más recomendadas de Lima.'
+  },
+  {
+    slug: 'sangucherias',
+    query: 'sangucherias tradicionales en Lima',
+    title: 'Sangucherías Tradicionales y Chicharronerías en Lima',
+    niche: 'gastronomia',
+    heroHook: 'El clásico desayuno y lonche limeño: sánguches de chicharrón, pavo a la leña, asado y lechón con salsa criolla fresca en Lima.'
+  },
+  {
+    slug: 'carnes-y-parrillas',
+    query: 'restaurantes de carnes y parrillas en Lima',
+    title: 'Restaurantes de Carnes y Parrillas en Lima',
+    niche: 'gastronomia',
+    heroHook: 'Cortes finos angus y wagyu, bife angosto, entraña fina y parrillas al carbón con maestros parrilleros expertos en Lima.'
+  },
+  {
+    slug: 'restaurantes-vegetarianos',
+    query: 'restaurantes vegetarianos y veganos en Lima',
+    title: 'Restaurantes Vegetarianos y Veganos en Lima',
+    niche: 'gastronomia',
+    heroHook: 'Propuestas plant-based, cocina vegetariana creativa, bowls saludables y opciones sin gluten en los mejores restaurantes de Lima.'
+  },
+  {
+    slug: 'restaurantes-nikkei',
+    query: 'restaurantes nikkei en Lima',
+    title: 'Restaurantes Nikkei y Fusión Japonesa en Lima',
+    niche: 'gastronomia',
+    heroHook: 'La cumbre de la fusión culinaria peruano-japonesa: tiraditos, nigiris de autor, makis innovadores y platos calientes nikkei en Lima.'
+  },
+  {
+    slug: 'panaderias-artesanales',
+    query: 'panaderias artesanales de masa madre en Lima',
+    title: 'Panaderías Artesanales y Masa Madre en Lima',
+    niche: 'gastronomia',
+    heroHook: 'Pan de masa madre, hogazas rústicas, croissants hojaldrados y bollería fina horneada a diario con harinas selectas en Lima.'
+  },
+  {
+    slug: 'heladerias-artesanales',
+    query: 'heladerias artesanales en Lima',
+    title: 'Heladerías Artesanales y Gelaterías en Lima',
+    niche: 'gastronomia',
+    heroHook: 'Gelato artesanal italiano, sorbetes de frutas nativas peruanas (lúcuma, maracuyá, aguaymanto) y conos recién horneados en Lima.'
+  },
+  {
+    slug: 'dulcerias-tradicionales',
+    query: 'dulcerias tradicionales y postres limenos',
+    title: 'Dulcerías Tradicionales y Postres Limeños en Lima',
+    niche: 'gastronomia',
+    heroHook: 'El legado dulcero virreinal y republicano: suspiro a la limeña, mazamorra morada, arroz con leche, ranfañote y alfajores de convento.'
+  },
+  {
+    slug: 'productos-naturales',
+    query: 'tiendas de productos naturales y organicos en Lima',
+    title: 'Tiendas de Productos Naturales y Orgánicos en Lima',
+    niche: 'comercio',
+    heroHook: 'Superfoods andinos, frutos secos, harinas integrales, suplementos limpios y productos orgánicos certificados en Lima.'
+  },
+  {
+    slug: 'restaurantes-campestres',
+    query: 'restaurantes campestres en Lima',
+    title: 'Restaurantes Campestres y Recreos Familiares en Lima',
+    niche: 'gastronomia',
+    heroHook: 'Espacios al aire libre, pachamanca, chancho al palo y áreas verdes en los valles de Lurín, Pachacámac, Cieneguilla y Chosica.'
+  },
+  {
+    slug: 'agencias-de-turismo',
+    query: 'agencias de turismo receptivo en Lima',
+    title: 'Agencias de Turismo Receptivo y Viajes en Lima',
+    niche: 'turismo',
+    heroHook: 'Paquetes turísticos, excursiones seguras, traslados y asesoría para explorar la capital y el Perú con agencias autorizadas en Lima.'
+  },
+  {
+    slug: 'tours-y-experiencias',
+    query: 'operadores de tours y experiencias en Lima',
+    title: 'Tours Urbanos y Recorridos Guiados en Lima',
+    niche: 'turismo',
+    heroHook: 'Recorridos históricos por el Centro de Lima, rutas gastronómicas, paseos nocturnos y visitas arqueológicas con operadores locales.'
+  },
+  {
+    slug: 'guias-de-turismo',
+    query: 'guias oficiales de turismo en Lima',
+    title: 'Guías Oficiales de Turismo en Lima',
+    niche: 'turismo',
+    heroHook: 'Conoce la historia, arquitectura y secretos de Lima con guías profesionales bilingües certificados por AGOTUR y Dircetur.'
+  },
+  {
+    slug: 'hoteles',
+    query: 'hoteles en Lima',
+    title: 'Hoteles y Alojamientos Ejecutivos en Lima',
+    niche: 'turismo',
+    heroHook: 'Hoteles 3, 4 y 5 estrellas, hospedajes corporativos y habitaciones de lujo con vista al mar en Miraflores, San Isidro y Barranco.'
+  },
+  {
+    slug: 'hostales-y-alojamientos',
+    query: 'hostales turisticos en Lima',
+    title: 'Hostales Turísticos y Alojamientos en Lima',
+    niche: 'turismo',
+    heroHook: 'Hospedajes económicos, bed & breakfast y hostales para viajeros y mochileros en las zonas más céntricas y seguras de Lima.'
+  },
+  {
+    slug: 'alquiler-de-bicicletas',
+    query: 'alquiler de bicicletas en Lima',
+    title: 'Alquiler de Bicicletas y Movilidad Sostenible en Lima',
+    niche: 'turismo',
+    heroHook: 'Recorre el malecón de la Costa Verde, ciclovías de Miraflores, San Isidro y Barranco con bicicletas urbanas en perfecto estado.'
+  },
+  {
+    slug: 'escuelas-de-surf',
+    query: 'escuelas de surf en la Costa Verde Lima',
+    title: 'Escuelas de Surf y Clases de Tabla en la Costa Verde',
+    niche: 'fitness',
+    heroHook: 'Aprende a correr olas en las playas Makaha, Redondo y Waikiki con instructores certificados, trajes de neopreno y tablas incluidas.'
+  },
+  {
+    slug: 'penas-criollas',
+    query: 'penas criollas en Lima',
+    title: 'Peñas Criollas y Centros Musicales en Lima',
+    niche: 'eventos',
+    heroHook: 'Noches de cajón, guitarra, festejo, marinera y valses criollos en las peñas tradicionales más emblemáticas de Barranco y Lima.'
+  },
+  {
+    slug: 'talleres-de-artesania',
+    query: 'talleres de artesania y ceramica en Lima',
+    title: 'Talleres de Artesanía y Cerámica en Lima',
+    niche: 'educacion',
+    heroHook: 'Aprende cerámica al torno, modelado en barro, retablos ayacuchanos y teñido textil con maestros artesanos tradicionales en Lima.'
+  },
+  {
+    slug: 'tiendas-de-artesania',
+    query: 'tiendas de artesania peruana en Lima',
+    title: 'Tiendas de Artesanía Peruana y Souvenirs en Lima',
+    niche: 'comercio',
+    heroHook: 'Platería fina, retablos, textiles de alpaca, toritos de Pucará y recuerdos peruanos de comercio justo en galerías de Lima.'
+  },
+  {
+    slug: 'librerias',
+    query: 'librerias en Lima',
+    title: 'Librerías y Venta de Libros en Lima',
+    niche: 'comercio',
+    heroHook: 'Literatura peruana e internacional, novedades editoriales, libros de arte, ensayo y narrativa en las librerías independientes de Lima.'
+  },
+  {
+    slug: 'tiendas-de-mascotas',
+    query: 'tiendas de mascotas y pet shops en Lima',
+    title: 'Tiendas de Mascotas y Pet Shops en Lima',
+    niche: 'mascotas',
+    heroHook: 'Alimentos balanceados premium, juguetes interactivos, camas, antipulgas y accesorios para consentir a tus perros y gatos en Lima.'
+  },
+  {
+    slug: 'ferreterias',
+    query: 'ferreterias en Lima',
+    title: 'Ferreterías y Materiales de Mantenimiento en Lima',
+    niche: 'hogar',
+    heroHook: 'Herramientas, tornillería, pinturas, grifería, cables y materiales para reparaciones y remodelaciones del hogar en tu distrito.'
+  },
+  {
+    slug: 'tiendas-de-bicicletas',
+    query: 'tiendas de bicicletas en Lima',
+    title: 'Tiendas de Bicicletas y Accesorios en Lima',
+    niche: 'comercio',
+    heroHook: 'Bicicletas de montaña, ruta, gravel y urbanas, cascos, luces, indumentaria ciclista y repuestos originales de marcas líderes en Lima.'
+  },
+  {
+    slug: 'reparacion-de-bicicletas',
+    query: 'talleres de reparacion de bicicletas en Lima',
+    title: 'Talleres de Reparación y Mecánica de Bicicletas en Lima',
+    niche: 'hogar',
+    heroHook: 'Mantenimiento integral, centrado de ruedas, purgado de frenos hidráulicos y afinamiento general para ciclistas urbanos y deportivos.'
+  },
+  {
+    slug: 'zapaterias',
+    query: 'zapaterias en Lima',
+    title: 'Zapaterías y Venta de Calzado en Lima',
+    niche: 'comercio',
+    heroHook: 'Zapatos de cuero legítimo, calzado formal, zapatillas urbanas y sandalias con confección de calidad en las zapaterías de Lima.'
+  },
+  {
+    slug: 'reparacion-de-calzado',
+    query: 'talleres de reparacion de calzado en Lima',
+    title: 'Talleres de Reparación de Calzado y Renovadoras en Lima',
+    niche: 'hogar',
+    heroHook: 'Cambio de tapas, suelas antideslizantes, teñido de cuero, costuras y renovación artesanal para prolongar la vida de tu calzado.'
+  },
+  {
+    slug: 'sastrerias',
+    query: 'sastrerias y arreglos de ropa en Lima',
+    title: 'Sastrerías y Arreglos de Ropa en Lima',
+    niche: 'hogar',
+    heroHook: 'Confección a medida de ternos, sacos, bastas express, entalles de camisas y vestidos con maestros sastres y modistas en Lima.'
   }
 ];
 
