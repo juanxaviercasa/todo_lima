@@ -19,17 +19,18 @@ export default function BlogToc({ items = [] }) {
           onClick={() => setIsOpen(!isOpen)}
           aria-expanded={isOpen}
           aria-controls="article-toc-list"
-          className="flex items-center gap-2 sm:gap-2.5 text-left group cursor-pointer focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-sky-500 rounded-lg p-0.5 min-w-0"
+          className="flex items-center gap-2 sm:gap-2.5 text-left group cursor-pointer focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-sky-500 rounded-lg p-0.5"
         >
           <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-sky-100 dark:bg-sky-950 flex items-center justify-center text-sky-700 dark:text-sky-300 shrink-0">
             <ListOrdered className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
           </div>
-          <div className="flex items-center gap-1.5 sm:gap-2 min-w-0">
-            <h2 className="text-base sm:text-xl font-bold text-slate-900 dark:text-white group-hover:text-sky-600 dark:group-hover:text-sky-400 transition-colors truncate">
+          <div className="flex items-center gap-2">
+            <h2 className="text-base sm:text-xl font-bold text-slate-900 dark:text-white group-hover:text-sky-600 dark:group-hover:text-sky-400 transition-colors whitespace-nowrap">
               En este artículo
             </h2>
             <span className="text-[11px] sm:text-xs px-2 sm:px-2.5 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 font-medium whitespace-nowrap">
-              {items.length} {items.length === 1 ? 'sección' : 'secciones'}
+              <span className="sm:hidden">{items.length}</span>
+              <span className="hidden sm:inline">{items.length} {items.length === 1 ? 'sección' : 'secciones'}</span>
             </span>
           </div>
         </button>

@@ -38,17 +38,19 @@ export default function BlogTable({ block }) {
           onClick={() => setIsOpen(!isOpen)}
           aria-expanded={isOpen}
           aria-label={isOpen ? 'Plegar tabla de datos' : 'Desplegar tabla de datos'}
-          className="flex items-center gap-2 sm:gap-2.5 text-left group cursor-pointer focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-sky-500 rounded-lg p-0.5 min-w-0"
+          className="flex items-center gap-2 sm:gap-2.5 text-left group cursor-pointer focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-sky-500 rounded-lg p-0.5"
         >
           <div className="w-7 h-7 rounded-lg bg-sky-100 dark:bg-sky-950 flex items-center justify-center text-sky-700 dark:text-sky-300 shrink-0">
             <TableIcon className="w-3.5 h-3.5" />
           </div>
-          <div className="flex items-center gap-1.5 sm:gap-2 min-w-0">
-            <span className="font-bold text-xs sm:text-base text-slate-900 dark:text-white group-hover:text-sky-600 dark:group-hover:text-sky-400 transition-colors truncate">
-              Tabla informativa y comparativa
+          <div className="flex items-center gap-1.5 sm:gap-2">
+            <span className="font-bold text-xs sm:text-base text-slate-900 dark:text-white group-hover:text-sky-600 dark:group-hover:text-sky-400 transition-colors whitespace-nowrap">
+              <span className="sm:hidden">Tabla de datos</span>
+              <span className="hidden sm:inline">Tabla informativa y comparativa</span>
             </span>
             <span className="text-[10px] sm:text-[11px] px-1.5 sm:px-2 py-0.5 rounded-full bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-400 border border-slate-200 dark:border-slate-700 font-medium whitespace-nowrap">
-              {bodyRows.length} {bodyRows.length === 1 ? 'fila' : 'filas'}
+              <span className="sm:hidden">{bodyRows.length} f</span>
+              <span className="hidden sm:inline">{bodyRows.length} {bodyRows.length === 1 ? 'fila' : 'filas'}</span>
             </span>
           </div>
         </button>
