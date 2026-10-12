@@ -1,0 +1,268 @@
+{
+  "slug": "miraflores",
+  "nombre": "Miraflores",
+  "zona": "top",
+  "ubigeo": "150122",
+  "wikidata": "Q1026279",
+  "fecha_creacion": {
+    "valor": "1857-01-02",
+    "ley": "Ley Transitoria de Municipalidades",
+    "fuente": "Archivo Digital de la Legislación del Perú",
+    "verificado_el": "2026-10-12"
+  },
+  "poblacion": {
+    "valor": 112000,
+    "anio": 2024,
+    "fuente": "INEI - Estimaciones y Proyecciones de Población",
+    "confianza": "alta"
+  },
+  "superficie_km2": {
+    "valor": 9.62,
+    "fuente": "INEI - Compendio Estadístico de Lima"
+  },
+  "limites": [
+    "San Isidro",
+    "Surquillo",
+    "Santiago de Surco",
+    "Barranco",
+    "Océano Pacífico"
+  ],
+  "barrios": [
+    "Santa Cruz",
+    "San Antonio",
+    "Rada",
+    "Aurora",
+    "Chama",
+    "Barrio Médico",
+    "Malecón Armendáriz",
+    "Malecón de la Reserva",
+    "La Encalada",
+    "Reducto"
+  ],
+  "definicion": "Miraflores es el principal polo turístico, gastronómico y cultural costero de Lima Metropolitana. Con una estratégica ubicación sobre los acantilados de la Costa Verde, combina una activa vida comercial con extensas áreas verdes y residenciales de alta demanda.",
+  "identidad": "Distrito cosmopolita, caminable y vibrante con vocación internacional. Sus malecones panorámicos, su circuito gastronómico de renombre mundial y su dinamismo hotelero conviven con un arraigado respeto por su legado histórico, reflejado en la milenaria Huaca Pucllana y los reductos de la Guerra del Pacífico.",
+  "historia": [
+    {
+      "hito": "Construcción del centro ceremonial Huaca Pucllana por la cultura Lima",
+      "anio": 500,
+      "fuente": "Ministerio de Cultura - Museo de Sitio Huaca Pucllana"
+    },
+    {
+      "hito": "Creación política formal del distrito de Miraflores bajo el gobierno de Ramón Castilla",
+      "anio": 1857,
+      "fuente": "Ley Transitoria de Municipalidades de 1857"
+    },
+    {
+      "hito": "Batalla de Miraflores durante la Guerra del Pacífico (Reductos defensivos)",
+      "anio": 1881,
+      "fuente": "Comisión Nacional del Centenario de la Guerra del Pacífico"
+    },
+    {
+      "hito": "Apertura de la Vía Expresa de Paseo de la República y modernización del Parque Central",
+      "anio": 1969,
+      "fuente": "Plan Vial Metropolitano de Lima"
+    },
+    {
+      "hito": "Consolidación del Parque del Amor y la franja de malecones de la Costa Verde",
+      "anio": 1993,
+      "fuente": "Municipalidad Distrital de Miraflores"
+    }
+  ],
+  "patrimonio": [
+    {
+      "nombre": "Huaca Pucllana",
+      "tipo": "Sitio arqueológico prehispánico",
+      "direccion": "Calle General Borgoño cuadra 8",
+      "fuente": "Ministerio de Cultura (Declaratoria Patrimonio Cultural)"
+    },
+    {
+      "nombre": "Reducto N.° 2",
+      "tipo": "Monumento histórico nacional y parque temático",
+      "direccion": "Calle Ramón Ribeyro cruce con Av. Benavides",
+      "fuente": "Ministerio de Cultura"
+    },
+    {
+      "nombre": "Casa Museo Ricardo Palma",
+      "tipo": "Museo y centro de estudios de tradiciones peruanas",
+      "direccion": "Calle General Suárez 189",
+      "fuente": "Ministerio de Cultura"
+    },
+    {
+      "nombre": "Iglesia Matriz Virgen Milagrosa",
+      "tipo": "Templo neoclásico",
+      "direccion": "Frente al Parque Central de Miraflores",
+      "fuente": "Arzobispado de Lima"
+    }
+  ],
+  "economia": {
+    "motores": [
+      "Turismo receptivo y hotelería internacional",
+      "Gastronomía de alta gama y cafeterías de especialidad",
+      "Servicios corporativos, consultorías y agencias de viaje",
+      "Comercio minorista y galerías artesanales"
+    ],
+    "ejes_comerciales": [
+      {
+        "nombre": "Avenida Larco",
+        "rubro": "Bancos, librerías, calzado, moda y centros de salud"
+      },
+      {
+        "nombre": "Avenida José Pardo",
+        "rubro": "Clúster financiero, notarías, telecomunicaciones y oficinas corporativas"
+      },
+      {
+        "nombre": "Avenida Mariscal La Mar",
+        "rubro": "Eje gastronómico gourmet, cevicherías de autor y talleres de diseño"
+      },
+      {
+        "nombre": "Avenida Benavides (cuadras 1 a 15)",
+        "rubro": "Cafeterías, academias, salones de belleza y servicios técnicos"
+      },
+      {
+        "nombre": "Avenida Petit Thouars (Mercados Artesanales)",
+        "rubro": "Artesanías peruanas, platería, textiles y souvenirs"
+      }
+    ]
+  },
+  "imperdibles": [
+    {
+      "nombre": "Malecón de la Reserva y Parque del Amor",
+      "por_que": "Vistas panorámicas hacia el Océano Pacífico, ciclovías seguras y parapente costero."
+    },
+    {
+      "nombre": "Parque Central y Parque Kennedy",
+      "por_que": "Corazón social del distrito con anfiteatro al aire libre, feria de pintores y tradicionales postres de carretilla."
+    },
+    {
+      "nombre": "Huaca Pucllana y su Museo de Sitio",
+      "por_que": "Monumento ceremonial en adobe de más de 1500 años con restaurante panorámico nocturno."
+    },
+    {
+      "nombre": "Circuito de Cafeterías de Especialidad en San Antonio y Santa Cruz",
+      "por_que": "Epicentro de tostadores independientes de cafés de origen cusqueño, cajamarquino y de Villa Rica."
+    },
+    {
+      "nombre": "Paseo y Playas de la Costa Verde (Makaha y Waikiki)",
+      "por_que": "Cuna del surf limeño con escuelas certificadas todo el año."
+    }
+  ],
+  "calendario": [
+    {
+      "evento": "Aniversario de creación política de Miraflores",
+      "fecha": "2 de enero",
+      "tipo": "Cívico"
+    },
+    {
+      "evento": "Conmemoración de la Batalla de Miraflores (Reducto N.° 2)",
+      "fecha": "15 de enero",
+      "tipo": "Patriótico"
+    },
+    {
+      "evento": "Festival y Feria del Libro Ricardo Palma (Parque Kennedy)",
+      "fecha": "Noviembre / Diciembre",
+      "tipo": "Cultural"
+    }
+  ],
+  "transporte": {
+    "ejes_viales": [
+      "Vía Expresa de Paseo de la República",
+      "Avenida José Pardo",
+      "Avenida José Larco",
+      "Avenida Alfredo Benavides",
+      "Avenida Angamos Oeste",
+      "Circuito de Playas de la Costa Verde"
+    ],
+    "masivo": [
+      {
+        "sistema": "Metropolitano",
+        "estaciones": [
+          "Estación Benavides",
+          "Estación 28 de Julio",
+          "Estación Ricardo Palma",
+          "Estación Angamos"
+        ]
+      },
+      {
+        "sistema": "Corredor Azul (Arequipa - Tacna - Garcilaso)",
+        "rutas": [
+          "Servicios 301, 303 y 305 con paraderos en Av. Arequipa y Av. Larco"
+        ]
+      }
+    ],
+    "ciclovias": "Red conectada a lo largo de los malecones, Av. Larco y Av. Arequipa con sistema de bicicletas compartidas."
+  },
+  "contactos_utiles": [
+    {
+      "nombre": "Central Municipal y Serenazgo de Miraflores",
+      "telefono": "(01) 313-3773",
+      "fuente": "Portal Institucional Municipalidad de Miraflores",
+      "verificado_el": "2026-10-12"
+    },
+    {
+      "nombre": "Comisaría PNP Miraflores",
+      "telefono": "(01) 445-3649",
+      "fuente": "Directorio Policía Nacional del Perú",
+      "verificado_el": "2026-10-12"
+    },
+    {
+      "nombre": "Compañía de Bomberos Miraflores N.° 28",
+      "telefono": "(01) 445-5555",
+      "fuente": "CGBVP Perú",
+      "verificado_el": "2026-10-12"
+    },
+    {
+      "nombre": "Hospital de Emergencias Casimiro Ulloa",
+      "telefono": "(01) 204-0900",
+      "fuente": "MINSA",
+      "verificado_el": "2026-10-12"
+    }
+  ],
+  "categorias_prioritarias": [
+    "hoteles",
+    "cafeterias",
+    "cevicherias",
+    "veterinarias",
+    "cerrajeros",
+    "gasfiteros",
+    "abogados",
+    "notarias",
+    "escuelas-de-surf",
+    "agencias-de-turismo",
+    "librerias"
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué transporte público conecta Miraflores con el Centro Histórico de Lima?",
+      "respuesta": "El Metropolitano es la vía más rápida: desde las estaciones Ricardo Palma o Benavides toma entre 20 y 25 minutos llegar a las estaciones Colmena o Jirón de la Unión. También opera el Corredor Azul a lo largo de la avenida Arequipa."
+    },
+    {
+      "pregunta": "¿Es seguro pasear de noche por los malecones y parques de Miraflores?",
+      "respuesta": "Sí. Miraflores cuenta con uno de los sistemas de videovigilancia y patrullaje integrado de serenazgo más modernos de la capital, especialmente en el Parque Kennedy, Larcomar y la franja de malecones."
+    },
+    {
+      "pregunta": "¿Cuáles son las principales calles comerciales y de servicios en Miraflores?",
+      "respuesta": "La avenida Larco concentra comercio minorista, bancos y librerías; la avenida Pardo oficinas, notarías y clínicas; y la avenida La Mar es el corredor gastronómico gourmet por excelencia."
+    },
+    {
+      "pregunta": "¿Qué días y horarios atiende la Huaca Pucllana?",
+      "respuesta": "El museo de sitio y los recorridos arqueológicos atienden de miércoles a lunes, tanto en turnos diurnos como en recorridos nocturnos iluminados. Se recomienda reservar entrada con anticipación en la web del Ministerio de Cultura."
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Compendio Estadístico Departamental de Lima - INEI",
+      "url": "https://www.inei.gob.pe",
+      "consultado": "2026-10-12"
+    },
+    {
+      "titulo": "Plan de Desarrollo Urbano Sostenible - Municipalidad de Miraflores",
+      "url": "https://www.miraflores.gob.pe",
+      "consultado": "2026-10-12"
+    },
+    {
+      "titulo": "Sistema de Inventario de Patrimonio Arqueológico - MINCUL",
+      "url": "https://www.gob.pe/cultura",
+      "consultado": "2026-10-12"
+    }
+  ]
+}
