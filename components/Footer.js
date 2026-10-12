@@ -20,10 +20,10 @@ export default function Footer() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const saludCategories = CATEGORIES.filter(c => c.niche === 'salud').slice(0, 6);
-  const hogarCategories = CATEGORIES.filter(c => c.niche === 'hogar').slice(0, 6);
-  const legalAutoCategories = CATEGORIES.filter(c => c.niche === 'legal' || c.niche === 'automotriz').slice(0, 6);
-  const otrosCategories = CATEGORIES.filter(c => c.niche === 'eventos' || c.niche === 'belleza' || c.niche === 'tecnologia').slice(0, 6);
+  const comerCategories = CATEGORIES.filter(c => ['cevicherias', 'pollerias', 'chifas', 'pizzerias', 'cafeterias'].includes(c.slug));
+  const saludCategories = CATEGORIES.filter(c => ['doctores', 'dentistas', 'psicologos', 'pediatras', 'fisioterapia', 'opticas'].includes(c.slug));
+  const hogarCategories = CATEGORIES.filter(c => ['gasfiteros', 'electricistas', 'cerrajeros', 'carpinteros', 'pintores', 'vidrierias'].includes(c.slug));
+  const serviciosCategories = CATEGORIES.filter(c => ['abogados', 'notarias', 'talleres-mecanicos', 'car-wash', 'catering', 'florerias'].includes(c.slug));
 
   return (
     <footer className="bg-slate-950 text-slate-400 text-sm border-t border-slate-800/80 mt-auto">
@@ -36,7 +36,7 @@ export default function Footer() {
               <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
             </span>
             <span className="text-xs font-bold text-slate-300">
-              Red Operativa: {CATEGORIES.length} Directorios Especializados en Lima Metropolitana
+              Red Operativa: {CATEGORIES.length} Categorías en Grandes Áreas de Lima Metropolitana
             </span>
           </div>
 
@@ -99,10 +99,33 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Columna: Salud y Medicina */}
+          {/* Columna: Comer y Beber */}
           <div>
             <h4 className="text-white font-bold text-xs uppercase tracking-wider mb-4">
-              Salud y Medicina
+              <Link href="/categorias/comer-y-beber" className="hover:text-sky-400 transition-colors">
+                Comer y Beber
+              </Link>
+            </h4>
+            <ul className="space-y-2 text-xs">
+              {comerCategories.map((cat) => (
+                <li key={cat.slug}>
+                  <Link
+                    href={`/${cat.slug}`}
+                    className="hover:text-sky-400 transition-colors block py-0.5"
+                  >
+                    {cat.title.split(' en Lima')[0]}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Columna: Salud y Bienestar */}
+          <div>
+            <h4 className="text-white font-bold text-xs uppercase tracking-wider mb-4">
+              <Link href="/categorias/salud-y-bienestar" className="hover:text-sky-400 transition-colors">
+                Salud & Bienestar
+              </Link>
             </h4>
             <ul className="space-y-2 text-xs">
               {saludCategories.map((cat) => (
@@ -121,7 +144,9 @@ export default function Footer() {
           {/* Columna: Hogar y Reparaciones */}
           <div>
             <h4 className="text-white font-bold text-xs uppercase tracking-wider mb-4">
-              Hogar & Técnicos
+              <Link href="/categorias/hogar-y-reparaciones" className="hover:text-sky-400 transition-colors">
+                Hogar & Técnicos
+              </Link>
             </h4>
             <ul className="space-y-2 text-xs">
               {hogarCategories.map((cat) => (
@@ -137,13 +162,15 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Columna: Legal y Automotriz */}
+          {/* Columna: Servicios y Movilidad */}
           <div>
             <h4 className="text-white font-bold text-xs uppercase tracking-wider mb-4">
-              Legal & Autos
+              <Link href="/categorias" className="hover:text-sky-400 transition-colors">
+                Servicios & Autos
+              </Link>
             </h4>
             <ul className="space-y-2 text-xs">
-              {legalAutoCategories.map((cat) => (
+              {serviciosCategories.map((cat) => (
                 <li key={cat.slug}>
                   <Link
                     href={`/${cat.slug}`}
@@ -153,25 +180,14 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
-            </ul>
-          </div>
-
-          {/* Columna: Eventos, Belleza y Tech */}
-          <div>
-            <h4 className="text-white font-bold text-xs uppercase tracking-wider mb-4">
-              Eventos & Estilo
-            </h4>
-            <ul className="space-y-2 text-xs">
-              {otrosCategories.map((cat) => (
-                <li key={cat.slug}>
-                  <Link
-                    href={`/${cat.slug}`}
-                    className="hover:text-sky-400 transition-colors block py-0.5"
-                  >
-                    {cat.title.split(' en Lima')[0]}
-                  </Link>
-                </li>
-              ))}
+              <li className="pt-2">
+                <Link
+                  href="/categorias"
+                  className="text-sky-400 hover:text-sky-300 font-bold block"
+                >
+                  Todas las áreas ({CATEGORIES.length}) →
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

@@ -41,4 +41,17 @@ assert.equal(new Set(profiles.map(b => b.slug)).size, profiles.length);
 for (const b of profiles) assert(b.name && b.address && b.phone);
 assert.equal(new Set(GUIDES.map(g => g.slug)).size, GUIDES.length);
 for (const g of GUIDES) { assert(CATEGORIES.some(c => c.slug === g.category)); assert(g.sections.length >= 3 && g.checklist.length >= 5); }
-console.log(JSON.stringify({ validJsonFiles: files.length, sourceRecords: total, deduplicatedCategoryRecords: getDirectory().reduce((sum, c) => sum + c.businesses.length, 0), categoryPages: CATEGORIES.length, localPages: locals.length, profiles: profiles.length, guides: GUIDES.length }, null, 2));
+
+// Macro-áreas taxonomy integrity check
+const { MACRO_AREAS, CATEGORY_TO_AREA_SLUG, getMacroAreas } = await import('../lib/areasTaxonomy.js');
+assert.equal(MACRO_AREAS.length, 14, 'Must define 14 macro-areas');
+assert.equal(Object.keys(CATEGORY_TO_AREA_SLUG).length, CATEGORIES.length, 'All 56 categories must be mapped');
+for (const c of CATEGORIES) {
+  assert(CATEGORY_TO_AREA_SLUG[c.slug], `Category unmapped to macro-area: ${c.slug}`);
+}
+const activeAreas = getMacroAreas({ includeUpcoming: false });
+assert.equal(activeAreas.length, 10, 'Must have 10 active areas with existing data');
+assert.equal(activeAreas.reduce((sum, a) => sum + a.categorySlugs.length, 0), CATEGORIES.length, 'Total categories across active areas must equal 56');
+
+console.log(JSON.stringify({ validJsonFiles: files.length, sourceRecords: total, deduplicatedCategoryRecords: getDirectory().reduce((sum, c) => sum + c.businesses.length, 0), categoryPages: CATEGORIES.length, macroAreas: MACRO_AREAS.length, activeAreas: activeAreas.length, localPages: locals.length, profiles: profiles.length, guides: GUIDES.length }, null, 2));
+

@@ -3,6 +3,7 @@ import { GUIDES } from '../lib/guides.js';
 import { BLOG_POSTS } from '../lib/blog.js';
 import { getPillars } from '../lib/atlas.js';
 import { SITE_URL, EDITORIAL_DATE } from '../lib/seo.js';
+import { getMacroAreas } from '../lib/areasTaxonomy.js';
 export default function sitemap() {
   const route = (pathname, modified = EDITORIAL_DATE) => ({ url: `${SITE_URL}${pathname}`, lastModified: modified });
   const pages = ['', '/guias', '/metodologia', '/correcciones', '/para-negocios', '/privacidad', '/terminos', '/cookies', '/aviso-legal', '/derechos-arco', '/politica-anti-spam', '/descargo-de-responsabilidad', '/reembolsos-y-garantias', '/baja', '/libro-de-reclamaciones'];
@@ -14,6 +15,8 @@ export default function sitemap() {
     ...BLOG_POSTS.map(p => route('/blog/'+p.slug,p.modified)),
     route('/conoce-lima', '2026-10-10'),
     ...getPillars().map(p => route('/conoce-lima/' + p.slug, '2026-10-10')),
+    route('/categorias', '2026-10-12'),
+    ...getMacroAreas({ includeUpcoming: false }).map(a => route(`/categorias/${a.slug}`, '2026-10-12')),
     ...pages.map(p => p === '' || ['/guias', '/metodologia', '/correcciones', '/para-negocios'].includes(p) ? route(p) : { url: `${SITE_URL}${p}` }),
     ...getDirectory().map(c => route(`/${c.meta.slug}`, new Date(Math.max(Date.parse(c.updatedAt) || 0, Date.parse(c.contentModified))).toISOString())),
     ...getLocalPages().map(p => route(`/${p.category}/${p.slug}`)),
@@ -21,3 +24,4 @@ export default function sitemap() {
     ...GUIDES.map(g => route(`/guias/${g.slug}`)),
   ];
 }
+

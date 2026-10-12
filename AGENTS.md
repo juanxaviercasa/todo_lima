@@ -10,3 +10,14 @@ El propietario del proyecto te ha concedido **autorización total y autónoma** 
 3. **Flujo de Git Continuo:** Tras cada mejora sustancial o scraping exitoso, confirma los cambios con commits semánticos y sincronízalos automáticamente con la rama `main` en GitHub (`origin main`).
 4. **Resguardo de Calidad:** Siempre verifica la integridad de las bases de datos JSON y comprueba que `npm run build` compile limpiamente antes de dar por cerrada una tarea.
 5. **Reportes Ejecutivos:** Al completar una fase o tanda de trabajo, entrega un resumen claro y conciso de lo ejecutado y los siguientes pasos automáticos.
+
+
+<!-- BEGIN ui-ux-pro-max project integration -->
+## Diseño de interfaces
+Para crear, revisar o modificar UI/UX, leer `.agents/skills/ui-ux-pro-max/SKILL.md`,
+su `PROJECT.md` y `design-system/todo-lima/MASTER.md`; aplicar excepciones de pages/.
+Resolver scripts desde esa carpeta local, no desde CLAUDE_PLUGIN_ROOT.
+Preservar identidad y stack existentes. Usar resultados como recomendaciones;
+validar en navegador, teclado, móvil y zoom. No certificar accesibilidad ni mejoras
+comerciales por consultar la skill. No aplicarla a backend o infraestructura.
+<!-- END ui-ux-pro-max project integration -->

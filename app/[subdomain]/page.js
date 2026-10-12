@@ -8,6 +8,7 @@ import { getCategory, getDirectory, getLocalPages, enrichBusinesses } from '../.
 import { categoryEditorial } from '../../lib/categoryEditorial.js';
 import { pageMetadata, breadcrumbs, SITE_URL } from '../../lib/seo.js';
 import { GUIDES } from '../../lib/guides.js';
+import { getAreaForCategory } from '../../lib/areasTaxonomy.js';
 
 export const dynamicParams = false;
 export function generateStaticParams() { return getDirectory().map(c => ({ subdomain: c.meta.slug })); }
@@ -21,11 +22,30 @@ export default function CategoryPage({ params }) {
   if (!category) notFound();
   const { meta, businesses, updatedAt } = category;
   const editorial = categoryEditorial(meta);
+  const area = getAreaForCategory(meta.slug);
   const locals = getLocalPages().filter(p => p.category === meta.slug);
   const guides = GUIDES.filter(g => g.category === meta.slug);
-  const related = getDirectory().filter(c => c.meta.niche === meta.niche && c.meta.slug !== meta.slug).slice(0, 6);
+  const sameAreaSlugs = area ? area.categorySlugs.filter(s => s !== meta.slug) : [];
+  const relatedSlugs = [...new Set([...sameAreaSlugs, ...(area?.recommendedSlugs || [])])];
+  const related = (relatedSlugs.length > 0
+    ? relatedSlugs.map(s => getCategory(s)).filter(Boolean)
+    : getDirectory().filter(c => c.meta.niche === meta.niche && c.meta.slug !== meta.slug)
+  ).slice(0, 6);
+
+  const crumbs = [
+    ['Inicio', '/'],
+    ['Categorías', '/categorias'],
+    ...(area ? [[area.title, `/categorias/${area.slug}`]] : []),
+    [meta.title, `/${meta.slug}`]
+  ];
+
   return <EditorialShell title={meta.title} intro={editorial.description} image={`/images/categories/${meta.slug.replace(/-/g, '_')}.webp`} action={{ href: '#directorio', label: `Ver ${businesses.length} opciones` }}>
-    <div className="flex flex-wrap gap-4 text-sm text-slate-600 dark:text-slate-300"><span>{businesses.length} opciones en el directorio</span>{updatedAt && <span>Datos recogidos: {new Date(updatedAt).toLocaleDateString('es-PE', { timeZone: 'America/Lima' })}</span>}<Link href="/metodologia" className="text-sky-600 underline">Cómo usamos las fuentes</Link></div>
+    <div className="flex flex-wrap gap-4 text-sm text-slate-600 dark:text-slate-300">
+      {area && <Link href={`/categorias/${area.slug}`} className="text-sky-600 dark:text-sky-400 font-semibold underline">Área: {area.title}</Link>}
+      <span>{businesses.length} opciones en el directorio</span>
+      {updatedAt && <span>Datos recogidos: {new Date(updatedAt).toLocaleDateString('es-PE', { timeZone: 'America/Lima' })}</span>}
+      <Link href="/metodologia" className="text-sky-600 underline">Cómo usamos las fuentes</Link>
+    </div>
     <p className="leading-relaxed">{editorial.introduction}</p>
     {locals.length > 0 && <section><h2 className="text-2xl font-bold mb-4">Explora por distrito</h2><div className="flex flex-wrap gap-3">{locals.map(p => <Link className="editorial-chip" key={p.slug} href={`/${meta.slug}/${p.slug}`}>{p.district} · {p.businesses.length}</Link>)}</div></section>}
     <Suspense fallback={<p>Cargando opciones…</p>}><CategoryDirectorioClient businesses={enrichBusinesses(businesses)} categoryTitle={meta.title} /></Suspense>
@@ -34,7 +54,8 @@ export default function CategoryPage({ params }) {
     <section><h2 className="text-2xl font-bold mb-4">Preguntas frecuentes</h2>{editorial.questions.map(q => <details className="editorial-card mb-3" key={q.q}><summary className="cursor-pointer font-bold">{q.q}</summary><p className="mt-3 leading-relaxed">{q.a}</p></details>)}</section>
     <section><h2 className="text-2xl font-bold mb-4">Servicios relacionados</h2><div className="flex flex-wrap gap-3">{related.map(c => <Link className="editorial-chip" key={c.meta.slug} href={`/${c.meta.slug}`}>{c.meta.title.replace(' en Lima', '')}</Link>)}</div></section>
     <p className="text-sm text-slate-500">Información de fuentes públicas. La inclusión no certifica al proveedor. <Link className="underline" href="/correcciones">Reportar un dato</Link> · <Link className="underline" href="/para-negocios">¿Eres el titular de un negocio?</Link></p>
-    <JsonLd data={breadcrumbs([['Inicio', '/'], [meta.title, `/${meta.slug}`]])} />
+    <JsonLd data={breadcrumbs(crumbs)} />
     <JsonLd data={{ '@context': 'https://schema.org', '@type': 'CollectionPage', name: meta.title, url: `${SITE_URL}/${meta.slug}`, description: editorial.description, isPartOf: { '@id': `${SITE_URL}/#website` } }} />
   </EditorialShell>;
 }
+
