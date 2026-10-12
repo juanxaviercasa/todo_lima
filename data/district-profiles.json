@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "reviewedAt": "2026-10-12",
+  "profiles": [
+    {
+      "slug": "surquillo",
+      "name": "Surquillo",
+      "zone": "Lima Moderna",
+      "intro": "Explora comercios y servicios con dirección identificada en Surquillo. Compara opciones por área y confirma la sede antes de acudir.",
+      "context": "Surquillo fue creado el 15 de julio de 1949 mediante el Decreto Ley 11058. Esta guía reúne el inventario disponible en Todo Lima para facilitar búsquedas locales.",
+      "sources": [
+        {
+          "title": "Municipalidad de Surquillo: Reglamento de organización y funciones",
+          "url": "https://www.munisurquillo.gob.pe/transparencia_municipal/rof.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "los-olivos",
+      "name": "Los Olivos",
+      "zone": "Lima Norte",
+      "intro": "Encuentra comercios y servicios con dirección identificada en Los Olivos. Explora las áreas disponibles y compara ubicación y canales de contacto.",
+      "context": "La creación de Los Olivos corresponde a la Ley 25017 de 1989. Esta guía permite explorar la oferta registrada en Todo Lima sin atribuir características económicas a todos sus vecinos.",
+      "sources": [
+        {
+          "title": "Municipalidad de Los Olivos: Memoria anual 2017",
+          "url": "https://munilosolivos.gob.pe/transparencia_mdlo/doc_transparencia/Documentos_Gestion/Memoria_Anual/MEMORIA_2017.pdf"
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import { getDistrictProfiles } from '../lib/districtDirectory.js';
 import { getDirectory, getLocalPages, getProfiles } from '../lib/directory.js';
 import { GUIDES } from '../lib/guides.js';
 import { BLOG_POSTS } from '../lib/blog.js';
@@ -15,6 +16,8 @@ export default function sitemap() {
     ...BLOG_POSTS.map(p => route('/blog/'+p.slug,p.modified)),
     route('/conoce-lima', '2026-10-10'),
     ...getPillars().map(p => route('/conoce-lima/' + p.slug, '2026-10-10')),
+    route('/distritos', '2026-10-12'),
+    ...getDistrictProfiles().map(p => route(`/distritos/${p.slug}`, '2026-10-12')),
     route('/categorias', '2026-10-12'),
     ...getMacroAreas({ includeUpcoming: false }).map(a => route(`/categorias/${a.slug}`, '2026-10-12')),
     ...pages.map(p => p === '' || ['/guias', '/metodologia', '/correcciones', '/para-negocios'].includes(p) ? route(p) : { url: `${SITE_URL}${p}` }),

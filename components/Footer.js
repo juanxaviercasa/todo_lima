@@ -203,6 +203,7 @@ export default function Footer() {
             <Link href="/guias">Guías para elegir</Link>
             <Link href="/blog">Blog de Lima</Link>
             <Link href="/conoce-lima">Conoce Lima (Atlas)</Link>
+            <Link href="/distritos">Explora por distrito</Link>
             <Link href="/herramientas">Herramientas Pymes</Link>
             <Link href="/metodologia">Metodología y fuentes</Link>
             <Link href="/correcciones">Corregir una ficha</Link>
