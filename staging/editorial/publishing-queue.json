@@ -54,10 +54,10 @@
     "slug": "que-hacer-en-lima-planes-segun-interes-tiempo-y-ubicacion",
     "title": "Qué hacer en Lima: planes según interés, tiempo y ubicación",
     "category": "planes-y-bienestar",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-12",
+    "published_slot": "noche",
+    "batch_day": 2
   },
   {
     "article_id": "TLB-007",

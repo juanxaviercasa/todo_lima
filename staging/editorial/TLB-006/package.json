@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-006",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "que-hacer-en-lima-planes-segun-interes-tiempo-y-ubicacion",
     "title": "Qué hacer en Lima: planes según interés, tiempo y ubicación",
@@ -14,8 +14,8 @@
       "vida-urbana"
     ],
     "description": "Guía sobre qué hacer en lima: planes según interés, tiempo y ubicación en Lima: planificación, requisitos oficiales, accesibilidad y consejos para disfr...",
-    "published": "2026-04-19",
-    "modified": "2026-10-10",
+    "published": "2026-10-12",
+    "modified": "2026-10-12",
     "cover": "que-hacer-en-lima-planes-segun-interes-tiempo-y-ubicacion-portada-fin-semana-parque",
     "internal": [
       "que-hacer-en-lima-planes-segun-interes-tiempo-y-ubicacion-agenda-cultural-parque",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-12",
+    "publication_slot": "noche"
   }
 }
