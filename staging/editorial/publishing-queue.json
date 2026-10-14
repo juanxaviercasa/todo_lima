@@ -94,10 +94,10 @@
     "slug": "museo-nacional-de-arqueologia-antropologia-e-historia-que-consultar-antes-de-ir",
     "title": "Museo Nacional de Arqueología, Antropología e Historia: qué consultar antes de ir",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-14",
+    "published_slot": "mañana",
+    "batch_day": 4
   },
   {
     "article_id": "TLB-011",

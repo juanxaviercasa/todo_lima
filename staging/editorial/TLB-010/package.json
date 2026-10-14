@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-010",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "museo-nacional-de-arqueologia-antropologia-e-historia-que-consultar-antes-de-ir",
     "title": "Museo Nacional de Arqueología, Antropología e Historia: qué consultar antes de ir",
@@ -14,8 +14,8 @@
       "recorridos-culturales"
     ],
     "description": "Guía completa sobre museo nacional de arqueología, antropología e historia: qué consultar antes de ir: historia, arquitectura, horarios de visita y reco...",
-    "published": "2026-04-23",
-    "modified": "2026-10-10",
+    "published": "2026-10-14",
+    "modified": "2026-10-14",
     "cover": "museo-nacional-de-arqueologia-antropologia-e-historia-que-consultar-antes-de-ir-portada-galeria-museo",
     "internal": [
       "museo-nacional-de-arqueologia-antropologia-e-historia-que-consultar-antes-de-ir-vitrina-orfebreria-arte",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-14",
+    "publication_slot": "mañana"
   }
 }
