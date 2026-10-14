@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-008",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "integracion-tarifaria-en-lima-como-verificar-transbordos-y-condiciones-vigentes",
     "title": "Integración tarifaria en Lima: cómo verificar transbordos y condiciones vigentes",
@@ -14,8 +14,8 @@
       "atu"
     ],
     "description": "Guía práctica sobre integración tarifaria en lima: cómo verificar transbordos y condiciones vigentes en Lima: recomendaciones, pasos preventivos y fuent...",
-    "published": "2026-04-21",
-    "modified": "2026-10-10",
+    "published": "2026-10-13",
+    "modified": "2026-10-13",
     "cover": "integracion-tarifaria-en-lima-como-verificar-transbordos-y-condiciones-vigentes-portada-estacion",
     "internal": [
       "integracion-tarifaria-en-lima-como-verificar-transbordos-y-condiciones-vigentes-validador-tarjetas",
@@ -433,8 +433,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-13",
+    "publication_slot": "tarde"
   }
 }

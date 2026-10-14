@@ -44,50 +44,50 @@
     "slug": "como-consultar-rutas-y-alertas-oficiales-antes-de-viajar-por-lima",
     "title": "Cómo consultar rutas y alertas oficiales antes de viajar por Lima",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-12",
+    "published_slot": "tarde",
+    "batch_day": 2
   },
   {
     "article_id": "TLB-006",
     "slug": "que-hacer-en-lima-planes-segun-interes-tiempo-y-ubicacion",
     "title": "Qué hacer en Lima: planes según interés, tiempo y ubicación",
     "category": "planes-y-bienestar",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-12",
+    "published_slot": "noche",
+    "batch_day": 2
   },
   {
     "article_id": "TLB-007",
     "slug": "mucen-en-lima-colecciones-y-preparacion-de-la-visita",
     "title": "MUCEN en Lima: colecciones y preparación de la visita",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-13",
+    "published_slot": "mañana",
+    "batch_day": 3
   },
   {
     "article_id": "TLB-008",
     "slug": "integracion-tarifaria-en-lima-como-verificar-transbordos-y-condiciones-vigentes",
     "title": "Integración tarifaria en Lima: cómo verificar transbordos y condiciones vigentes",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-13",
+    "published_slot": "tarde",
+    "batch_day": 3
   },
   {
     "article_id": "TLB-009",
     "slug": "chifa-en-lima-historia-de-una-tradicion-peruano-china",
     "title": "Chifa en Lima: historia de una tradición peruano-china",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-13",
+    "published_slot": "noche",
+    "batch_day": 3
   },
   {
     "article_id": "TLB-010",

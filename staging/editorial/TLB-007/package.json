@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-007",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "mucen-en-lima-colecciones-y-preparacion-de-la-visita",
     "title": "MUCEN en Lima: colecciones y preparación de la visita",
@@ -14,8 +14,8 @@
       "recorridos-culturales"
     ],
     "description": "Guía completa sobre mucen en lima: colecciones y preparación de la visita: historia, arquitectura, horarios de visita y recomendaciones oficiales en Lima.",
-    "published": "2026-04-20",
-    "modified": "2026-10-10",
+    "published": "2026-10-13",
+    "modified": "2026-10-13",
     "cover": "mucen-en-lima-colecciones-y-preparacion-de-la-visita-portada-vivienda-servicios-hogar",
     "internal": [
       "mucen-en-lima-colecciones-y-preparacion-de-la-visita-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-13",
+    "publication_slot": "mañana"
   }
 }
