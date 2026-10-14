@@ -1,9 +1,10 @@
 'use client';
 import Link from 'next/link';
 import { MapPin, Phone, Star, ArrowUpRight } from 'lucide-react';
-import { businessPhone, buildClaimListingLink } from '../lib/contact.js';
+import { businessPhone, buildClaimListingLink, buildGrowthAuditLink } from '../lib/contact.js';
 import { extractDistrict } from '../lib/districts.js';
 export default function BusinessCard({ business, onSelectDistrict }) {
+  const auditLink = buildGrowthAuditLink(business);
   const phone = businessPhone(business.phone);
   const district = business.district || extractDistrict(business.address);
   return <article className="editorial-card min-w-0 [overflow-wrap:anywhere] flex flex-col justify-between hover:border-sky-400 transition-colors">
@@ -17,6 +18,7 @@ export default function BusinessCard({ business, onSelectDistrict }) {
       {phone.mobile && <div><a className="block text-sm font-semibold text-emerald-700 dark:text-emerald-300" data-contact-event="contact_whatsapp" data-entity={business.entityId} href={`https://wa.me/${phone.mobile}?text=${encodeURIComponent(`Hola, encontré ${business.name} en Todo Lima y quisiera consultar sus servicios.`)}`} target="_blank" rel="noopener noreferrer">Abrir WhatsApp →</a><p className="text-xs text-slate-500 mt-1">Confirma si el negocio atiende por este canal.</p></div>}
       <div className="flex flex-wrap gap-3 text-sm font-semibold">{business.url && /^https?:\/\//i.test(business.url) && <a href={business.url} target="_blank" rel="noopener noreferrer" data-contact-event="contact_map" data-entity={business.entityId} className="text-sky-600 inline-flex gap-1 items-center">Ver fuente y reseñas<ArrowUpRight className="w-4 h-4" /></a>}{business.website && /^https?:\/\//i.test(business.website) && <a href={business.website} target="_blank" rel="noopener noreferrer" data-contact-event="contact_website" data-entity={business.entityId} className="text-sky-600">Sitio web</a>}</div>
       {business.profileSlug && <Link className="block text-sm font-semibold underline" href={`/negocios/${business.profileSlug}`}>Ver información de la ficha</Link>}
+      {auditLink && <div className="pt-3 border-t border-slate-200 dark:border-slate-700"><p className="text-sm font-semibold">¿Gestionas este negocio?</p><a className="inline-flex items-center min-h-11 text-sm text-sky-700 dark:text-sky-300 underline font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4" href={auditLink} data-contact-event="growth_audit" data-entity={business.supabase_business_id}>Solicitar auditoría gratuita en Hazlo Crecer →</a></div>}
       <a className="block pt-3 border-t border-slate-200 dark:border-slate-700 text-xs text-slate-500" href={buildClaimListingLink(business.name, business.entityId || business.id)} data-contact-event="claim_listing" data-entity={business.entityId}>Soy el titular: solicitar revisión de mi ficha</a>
     </div>
   </article>;
