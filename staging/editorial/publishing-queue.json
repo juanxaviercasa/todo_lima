@@ -104,10 +104,10 @@
     "slug": "como-comprobar-informacion-de-terminales-y-empresas-de-buses-interprovinciales",
     "title": "Cómo comprobar información de terminales y empresas de buses interprovinciales",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-14",
+    "published_slot": "tarde",
+    "batch_day": 4
   },
   {
     "article_id": "TLB-012",

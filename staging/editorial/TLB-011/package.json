@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-011",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-comprobar-informacion-de-terminales-y-empresas-de-buses-interprovinciales",
     "title": "Cómo comprobar información de terminales y empresas de buses interprovinciales",
@@ -14,8 +14,8 @@
       "atu"
     ],
     "description": "Guía práctica sobre comprobar información de terminales y empresas de buses interprovinciales en Lima: recomendaciones, pasos preventivos y fuentes ofic...",
-    "published": "2026-04-24",
-    "modified": "2026-10-10",
+    "published": "2026-10-14",
+    "modified": "2026-10-14",
     "cover": "como-comprobar-informacion-de-terminales-y-empresas-de-buses-interprovinciales-portada-terminal",
     "internal": [
       "como-comprobar-informacion-de-terminales-y-empresas-de-buses-interprovinciales-boleteria-pasajes",
@@ -433,8 +433,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-14",
+    "publication_slot": "tarde"
   }
 }
