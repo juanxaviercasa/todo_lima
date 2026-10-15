@@ -124,10 +124,10 @@
     "slug": "museo-de-sitio-pachacamac-como-combinar-museo-y-santuario",
     "title": "Museo de Sitio Pachacamac: cómo combinar museo y santuario",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-15",
+    "published_slot": "mañana",
+    "batch_day": 5
   },
   {
     "article_id": "TLB-014",
