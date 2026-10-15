@@ -144,10 +144,10 @@
     "slug": "cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas",
     "title": "Cocina nikkei en Lima: origen y diferencias con otras propuestas",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-15",
+    "published_slot": "tarde",
+    "batch_day": 5
   },
   {
     "article_id": "TLB-016",

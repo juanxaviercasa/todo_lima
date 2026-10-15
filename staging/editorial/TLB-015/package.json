@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-015",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas",
     "title": "Cocina nikkei en Lima: origen y diferencias con otras propuestas",
@@ -14,8 +14,8 @@
       "inmigracion-lima"
     ],
     "description": "Guía sobre cocina nikkei en lima: origen y diferencias con otras propuestas en Lima: historia, ingredientes, recomendaciones y consejos prácticos para e...",
-    "published": "2026-04-28",
-    "modified": "2026-10-10",
+    "published": "2026-10-15",
+    "modified": "2026-10-15",
     "cover": "cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas-portada-restaurante-nikkei",
     "internal": [
       "cocina-nikkei-en-lima-origen-y-diferencias-con-otras-propuestas-tiradito-nikkei-preparacion",
@@ -418,8 +418,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-15",
+    "publication_slot": "tarde"
   }
 }
