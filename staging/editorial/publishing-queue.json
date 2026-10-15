@@ -134,10 +134,10 @@
     "slug": "como-consultar-el-directorio-oficial-de-prestadores-turisticos-antes-de-reservar",
     "title": "Cómo consultar el directorio oficial de prestadores turísticos antes de reservar",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-15",
+    "published_slot": "tarde",
+    "batch_day": 5
   },
   {
     "article_id": "TLB-015",
