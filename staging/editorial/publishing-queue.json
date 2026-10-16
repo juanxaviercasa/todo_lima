@@ -164,10 +164,10 @@
     "slug": "como-organizar-un-traslado-al-aeropuerto-y-confirmar-el-punto-de-encuentro",
     "title": "Cómo organizar un traslado al aeropuerto y confirmar el punto de encuentro",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-16",
+    "published_slot": "tarde",
+    "batch_day": 6
   },
   {
     "article_id": "TLB-018",
