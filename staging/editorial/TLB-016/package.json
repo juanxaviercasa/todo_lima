@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-016",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "huaca-pucllana-historia-y-preparacion-de-un-recorrido",
     "title": "Huaca Pucllana: historia y preparación de un recorrido",
@@ -14,8 +14,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre huaca pucllana: historia y preparación de un recorrido: historia, arquitectura, horarios de visita y recomendaciones oficiales en Lima.",
-    "published": "2026-04-29",
-    "modified": "2026-10-10",
+    "published": "2026-10-16",
+    "modified": "2026-10-16",
     "cover": "huaca-pucllana-historia-y-preparacion-de-un-recorrido-portada-huaca-prehispanica",
     "internal": [
       "huaca-pucllana-historia-y-preparacion-de-un-recorrido-detalle-adobitos-muro",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-16",
+    "publication_slot": "mañana"
   }
 }
