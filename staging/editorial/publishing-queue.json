@@ -174,10 +174,10 @@
     "slug": "pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable",
     "title": "Pantanos de Villa: naturaleza y preparación de una visita responsable",
     "category": "planes-y-bienestar",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-16",
+    "published_slot": "tarde",
+    "batch_day": 6
   },
   {
     "article_id": "TLB-019",

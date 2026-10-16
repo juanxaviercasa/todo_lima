@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-018",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable",
     "title": "Pantanos de Villa: naturaleza y preparación de una visita responsable",
@@ -14,8 +14,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre pantanos de villa: naturaleza y preparación de una visita responsable en Lima: planificación, requisitos oficiales, accesibilidad y consejos ...",
-    "published": "2026-05-01",
-    "modified": "2026-10-10",
+    "published": "2026-10-16",
+    "modified": "2026-10-16",
     "cover": "pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable-portada-pantanos-de-villa",
     "internal": [
       "pantanos-de-villa-naturaleza-y-preparacion-de-una-visita-responsable-observacion-aves-binoculares",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-16",
+    "publication_slot": "tarde"
   }
 }
