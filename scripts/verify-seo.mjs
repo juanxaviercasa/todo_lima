@@ -71,5 +71,20 @@ const activeAreas = getMacroAreas({ includeUpcoming: false });
 assert.equal(activeAreas.length, 14, 'Must have 14 active areas with existing data');
 assert.equal(activeAreas.reduce((sum, a) => sum + a.categorySlugs.length, 0), CATEGORIES.length, 'Total categories across active areas must equal CATEGORIES.length');
 
-console.log(JSON.stringify({ validJsonFiles: files.length, sourceRecords: total, deduplicatedCategoryRecords: getDirectory().reduce((sum, c) => sum + c.businesses.length, 0), categoryPages: CATEGORIES.length, macroAreas: MACRO_AREAS.length, activeAreas: activeAreas.length, localPages: locals.length, profiles: profiles.length, guides: GUIDES.length }, null, 2));
+// Herramientas hub image integrity check
+const { TOOL_IMAGES, TOOLS_HERO, getToolImage } = await import('../lib/toolImages.js');
+assert.equal(Object.keys(TOOL_IMAGES).length, 16, 'Must define 16 canonical tool images');
+assert(fs.existsSync(`public${TOOLS_HERO.src}`), `Missing tools hero image: ${TOOLS_HERO.src}`);
+const herramientasSource = fs.readFileSync('app/herramientas/page.js', 'utf8');
+const toolUrls = [...herramientasSource.matchAll(/url:\s*'([^']+)'/g)].map(m => m[1]);
+assert.equal(toolUrls.length, 16, 'app/herramientas/page.js must list 16 tool URLs');
+for (const url of toolUrls) {
+  const pathname = new URL(url).pathname;
+  const img = TOOL_IMAGES[pathname] || getToolImage(url);
+  assert(img?.src && img?.srcSet && img?.alt, `Missing tool image mapping for ${pathname}`);
+  assert(fs.existsSync(`public${img.src}`), `Missing tool image file: public${img.src}`);
+}
+
+console.log(JSON.stringify({ validJsonFiles: files.length, sourceRecords: total, deduplicatedCategoryRecords: getDirectory().reduce((sum, c) => sum + c.businesses.length, 0), categoryPages: CATEGORIES.length, macroAreas: MACRO_AREAS.length, activeAreas: activeAreas.length, localPages: locals.length, profiles: profiles.length, guides: GUIDES.length, toolsImages: toolUrls.length }, null, 2));
+
 
