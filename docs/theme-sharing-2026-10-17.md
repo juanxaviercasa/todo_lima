@@ -8,3 +8,5 @@
 - Validado: preferencia del dispositivo oscura, persistencia de ambos temas, enlaces, metadatos, portapapeles denegado, Escape/foco, 375/812/1280 px y texto al 200 %. JSON de data: 134 válidos; verify:seo correcto; build: 568 páginas.
 - Avisos del entorno: descarga de Google Fonts no disponible; exportación estática conserva el aviso preexistente de middleware/API. No se verificó el selector nativo de apps ni la caché de previews de redes externas.
 - Referencias: https://nextjs.org/docs/14/app/building-your-application/optimizing/metadata y https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share
+
+Verificación tras integrar publicaciones remotas de main: build correcto, 573 páginas; verify:seo correcto.
