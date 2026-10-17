@@ -88,3 +88,47 @@ Los primeros cinco candidatos tienen fuentes iniciales consultadas; los de prior
 | 10 | `academias-de-idiomas` | 0 | 9 | Miraflores, San Borja, Jesús María, Pueblo Libre, Cercado de Lima, La Molina |
 | 11 | `hospedajes-para-mascotas` | 0 | 10 | Barranco, Santiago de Surco, Lince, Lurigancho-Chosica, Pachacámac, San Juan de Lurigancho, Lurín, Cieneguilla |
 | 12 | `agencias-de-turismo` | 0 | 10 | San Isidro, Miraflores, Jesús María, Los Olivos, Santiago de Surco |
+
+## Resultado Tanda 2: Bloque Gastronómico (17 de octubre de 2026)
+
+- **119 registros verificados e insertados** con identidad Maps fuerte (CID o Place ID verificado), coordenadas reales y distritos validados de Lima Metropolitana.
+- **79 categorías activas con negocios en `data/directory.snapshot.json`** (frente a 67 tras la Tanda 1 y 56 iniciales).
+- **5.301 registros públicos totales** en el directorio (frente a 5.182 de Tanda 1 y 5.068 iniciales).
+- **Respaldo automático en Supabase**: `directory_reconciliation_backup_20261012.businesses_20261017230442901` (5.182 filas previas verificadas).
+- **SHA-256 canónico del snapshot exportado**: `1397dad5ba9439eab11496707013a1a590d08ba49f1d4856ae68fb7cd804b547` (`replay_inserts: 0`, `replay_updates: 0`, `existing_populated_fields_preserved: true`).
+- **Verificación técnica integral**: `npm run test:directory`, `npm run verify:seo` y `npm run build` compilados limpiamente con código 0.
+
+| Orden | Categoría (`slug`) | Antes | Después | Distritos cubiertos |
+|---|---|---:|---:|---|
+| 1 | `restaurantes-criollos` | 0 | 10 | Jesús María, Miraflores, Cercado de Lima, Pueblo Libre, Barranco |
+| 2 | `comida-regional` | 0 | 10 | San Borja, Lince, Los Olivos, Comas, Breña |
+| 3 | `anticucherias` | 0 | 10 | Barranco, Miraflores, Surquillo, Breña, Jesús María, Lince |
+| 4 | `sangucherias` | 0 | 10 | La Molina, Cercado de Lima, Jesús María, Miraflores, Surquillo, San Miguel, Lince |
+| 5 | `carnes-y-parrillas` | 0 | 10 | Barranco, San Isidro, La Molina, Miraflores, San Borja |
+| 6 | `restaurantes-vegetarianos` | 0 | 10 | Miraflores, Lince, Cercado de Lima |
+| 7 | `restaurantes-nikkei` | 0 | 10 | Santiago de Surco, Miraflores, San Isidro, San Luis |
+| 8 | `panaderias-artesanales` | 0 | 10 | Miraflores, Cercado de Lima |
+| 9 | `heladerias-artesanales` | 0 | 10 | San Isidro, Barranco, Miraflores |
+| 10 | `dulcerias-tradicionales` | 0 | 10 | Santiago de Surco, Magdalena del Mar, Breña, San Borja, Pueblo Libre, Miraflores, Cercado de Lima |
+| 11 | `productos-naturales` | 0 | 10 | Santiago de Surco, Lince, San Isidro, San Borja, San Miguel, Miraflores |
+| 12 | `restaurantes-campestres` | 0 | 9 | Pachacámac, Lurigancho-Chosica, Ate, La Molina, El Agustino |
+
+## Siguientes Bloques Pendientes (47 categorías restantes)
+
+1. **Bloque Mantenimiento y Oficios del Hogar (6 categorías):**
+   `reparacion-de-bicicletas`, `reparacion-de-calzado`, `sastrerias`, `limpieza-de-cisternas`, `impermeabilizacion`, `jardineria`.
+2. **Bloque Construcción y Servicios B2B / Gráficos (8 categorías):**
+   `diseno-de-interiores`, `estructuras-metalicas`, `imprentas`, `impresion-gran-formato`, `letreros-y-senaletica`, `envases-y-embalajes`, `uniformes-empresariales`, `bordados-y-estampados`.
+3. **Bloque Turismo y Alojamiento (6 categorías):**
+   `tours-y-experiencias`, `guias-de-turismo`, `hoteles`, `hostales-y-alojamientos`, `alquiler-de-bicicletas`, `escuelas-de-surf`.
+4. **Bloque Educación, Arte y Formación (5 categorías):**
+   `academias-preuniversitarias`, `clases-particulares`, `escuelas-de-musica`, `escuelas-de-danza`, `talleres-de-arte`.
+5. **Bloque Deportes y Fitness (5 categorías):**
+   `estudios-de-yoga`, `estudios-de-pilates`, `academias-de-natacion`, `academias-de-futbol`, `academias-de-artes-marciales`.
+6. **Bloque Belleza y Cuidado Personal (5 categorías):**
+   `manicure-y-pedicure`, `estudios-de-maquillaje`, `centros-de-depilacion`, `estudios-de-tatuajes`, `estudios-de-piercing`.
+7. **Bloque Comercio Especializado y Mascotas (10 categorías):**
+   `penas-criollas`, `talleres-de-artesania`, `tiendas-de-artesania`, `librerias`, `tiendas-de-mascotas`, `tiendas-de-bicicletas`, `zapaterias`, `guarderias-caninas`, `adiestramiento-canino`, `paseadores-de-perros`.
+8. **Bloque Equipamiento Comercial (2 categorías):**
+   `refrigeracion-comercial`, `equipos-gastronomicos`.
+
