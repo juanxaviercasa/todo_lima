@@ -194,10 +194,10 @@
     "slug": "como-confirmar-la-cobertura-de-un-servicio-a-domicilio-en-tu-distrito",
     "title": "Cómo confirmar la cobertura de un servicio a domicilio en tu distrito",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-17",
+    "published_slot": "mañana",
+    "batch_day": 7
   },
   {
     "article_id": "TLB-021",
