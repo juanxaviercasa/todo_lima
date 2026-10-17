@@ -1,9 +1,11 @@
+import { pageMetadata } from '../lib/seo.js';
 import ClerkProviderWrapper from '../components/ClerkProviderWrapper.js';
 import SiteEnhancements from '../components/SiteEnhancements.js';
 import CookieBanner from '../components/CookieBanner.js';
 import './globals.css';
 
 export const metadata = {
+  ...pageMetadata('Todo Lima | Directorio de negocios y servicios en Lima', 'Explora negocios, compara ubicaciones y consulta directamente a proveedores de servicios en Lima.', '/'),
   metadataBase: new URL('https://todolima.com'),
   title: 'Todo Lima | Directorio de negocios y servicios en Lima',
   description: 'Explora negocios, compara ubicaciones y consulta directamente a proveedores de servicios en Lima.',
@@ -15,7 +17,7 @@ export const viewport = {
   width: 'device-width',
   initialScale: 1,
   maximumScale: 5,
-  themeColor: '#0f172a',
+  themeColor: '#f8fafc',
 };
 
 const DEFAULT_CLERK_KEY = 'pk_test_ZW1pbmVudC1tb25rZXktNDI3MS5jbGVyay5hY2NvdW50cy5kZXYk';
@@ -66,7 +68,7 @@ export default function RootLayout({ children }) {
                 (function() {
                   try {
                     var t = localStorage.getItem('todolima_theme');
-                    if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                    if (t === 'dark') {
                       document.documentElement.classList.add('dark');
                     } else {
                       document.documentElement.classList.remove('dark');

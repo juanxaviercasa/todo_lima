@@ -12,6 +12,9 @@ export default function ThemeToggle({ className = '' }) {
     // Leer el estado actual de la clase 'dark' en <html>
     const isDarkMode = document.documentElement.classList.contains('dark');
     setIsDark(isDarkMode);
+    const observer = new MutationObserver(() => setIsDark(document.documentElement.classList.contains('dark')));
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+    return () => observer.disconnect();
   }, []);
 
   const toggleTheme = () => {
@@ -34,7 +37,7 @@ export default function ThemeToggle({ className = '' }) {
   if (!mounted) {
     // Renderizado neutro para evitar saltos de hidratación SSR
     return (
-      <div className={`w-9 h-9 rounded-xl bg-slate-100 border border-slate-200/80 flex items-center justify-center opacity-70 ${className}`} aria-hidden="true">
+      <div className={`w-11 h-11 rounded-xl bg-slate-100 border border-slate-200/80 flex items-center justify-center opacity-70 ${className}`} aria-hidden="true">
         <span className="w-4 h-4" />
       </div>
     );
@@ -45,8 +48,9 @@ export default function ThemeToggle({ className = '' }) {
       type="button"
       onClick={toggleTheme}
       aria-label={isDark ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
+      aria-pressed={isDark}
       title={isDark ? 'Modo Claro' : 'Modo Oscuro'}
-      className={`relative inline-flex items-center justify-center w-9 h-9 rounded-xl transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-sky-500/50 shadow-xs active:scale-95 ${
+      className={`relative inline-flex items-center justify-center w-11 h-11 rounded-xl transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-sky-500/50 shadow-xs active:scale-95 ${
         isDark
           ? 'bg-slate-800/90 text-amber-400 hover:bg-slate-700 border border-amber-400/30 hover:border-amber-400/60 hover:text-amber-300 shadow-[0_0_12px_rgba(251,191,36,0.2)]'
           : 'bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200/90 hover:text-slate-900'
