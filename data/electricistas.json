@@ -1,8 +1,8 @@
 {
   "category": "electricistas",
   "searchQuery": "electricistas a domicilio en Lima",
-  "totalResults": 3,
-  "updatedAt": "2026-09-09T20:45:16.867Z",
+  "totalResults": 10,
+  "updatedAt": "2026-10-17T20:24:24.176Z",
   "topBusinessContext": {
     "id": "biz_2",
     "name": "Yo Te Salvo EIRL - Técnicos Electricistas Profesionales a Domicilio en Lima",
@@ -58,7 +58,8 @@
       "reviewsCount": null,
       "category": "Electricista",
       "address": "Jirón Cutervo 1818 V102 Condominio Lomas de tingmaria Lima, LIMA 01",
-      "url": "https://www.google.com/maps/place/Yo+Te+Salvo+EIRL+-+T%C3%A9cnicos+Electricistas+Profesionales+a+Domicilio+en+Lima/data=!4m7!3m6!1s0x9105c94690abcce7:0x634d15a85d2a1798!8m2!3d-12.053053!4d-77.0577435!16s%2Fg%2F11k1dm_jxh!19sChIJ58yrkEbJBZERmBcqXagVTWM"
+      "url": "https://www.google.com/maps/place/Yo+Te+Salvo+EIRL+-+T%C3%A9cnicos+Electricistas+Profesionales+a+Domicilio+en+Lima/data=!4m7!3m6!1s0x9105c94690abcce7:0x634d15a85d2a1798!8m2!3d-12.053053!4d-77.0577435!16s%2Fg%2F11k1dm_jxh!19sChIJ58yrkEbJBZERmBcqXagVTWM",
+      "website": null
     },
     {
       "id": "biz_2",
@@ -67,7 +68,8 @@
       "reviewsCount": null,
       "category": "Electricista",
       "address": "Av. Húsares de Junín nº 374, Jesús María 15072",
-      "url": "https://www.google.com/maps/place/EVOLUTION+-+T%C3%89CNICO+ELECTRICISTA,+electricista+industrial,+electricista+a+domicilio,+servicio+de+electricista/data=!4m7!3m6!1s0x9105c9828eeba851:0xda52ca7d74f5c3a4!8m2!3d-12.0771041!4d-77.0514438!16s%2Fg%2F11j1fwd4kg!19sChIJUajrjoLJBZERpMP1dH3KUto"
+      "url": "https://www.google.com/maps/place/EVOLUTION+-+T%C3%89CNICO+ELECTRICISTA,+electricista+industrial,+electricista+a+domicilio,+servicio+de+electricista/data=!4m7!3m6!1s0x9105c9828eeba851:0xda52ca7d74f5c3a4!8m2!3d-12.0771041!4d-77.0514438!16s%2Fg%2F11j1fwd4kg!19sChIJUajrjoLJBZERpMP1dH3KUto",
+      "website": null
     },
     {
       "id": "biz_3",
@@ -76,7 +78,99 @@
       "reviewsCount": null,
       "category": "Electricista",
       "address": "Avenida Andrés Avelino Cáceres UVC 07, Ate 15483",
-      "url": "https://www.google.com/maps/place/Electricista+a+Domicilio+en+Lima/data=!4m7!3m6!1s0x9105e90e507f03db:0x3e060b3a698c620a!8m2!3d-12.0166624!4d-76.8179079!16s%2Fg%2F11qscwj54r!19sChIJ2wN_UA7pBZERCmKMaToLBj4"
+      "url": "https://www.google.com/maps/place/Electricista+a+Domicilio+en+Lima/data=!4m7!3m6!1s0x9105e90e507f03db:0x3e060b3a698c620a!8m2!3d-12.0166624!4d-76.8179079!16s%2Fg%2F11qscwj54r!19sChIJ2wN_UA7pBZERCmKMaToLBj4",
+      "website": null
+    },
+    {
+      "name": "ESPECTRAL electricidad",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Electricista",
+      "address": "Mz Flt 4, Ate 15476",
+      "phone": "tel:948708863",
+      "website": "https://radiant-gecko-ccd9ac.netlify.app/",
+      "url": "https://www.google.com/maps/place/ESPECTRAL+electricidad/data=!4m7!3m6!1s0x9105c370024546d7:0x3e4e411eee9eb58b!8m2!3d-12.0065235!4d-76.8446691!16s%2Fg%2F11n3b08w4v!19sChIJ10ZFAnDDBZERi7We7h5BTj4",
+      "latitude": -12.0065235,
+      "longitude": -76.8446691,
+      "id": "biz_4"
+    },
+    {
+      "name": "ENERGÍA SEGURA PERÚ E.I.R.L",
+      "rating": 4.8,
+      "reviewsCount": 4,
+      "category": "Electricista",
+      "address": "MZ H LT 3 PS 1 URB ALAMEDA DE ÑAÑA LURIGANCHO -CHOSICA, Lima",
+      "phone": "tel:915970733",
+      "website": null,
+      "url": "https://www.google.com/maps/place/ENERG%C3%8DA+SEGURA+PER%C3%9A+E.I.R.L/data=!4m7!3m6!1s0x9105c34aa8b91535:0x2eb224e8152b3511!8m2!3d-11.9859004!4d-76.833643!16s%2Fg%2F11np_sjyzq!19sChIJNRW5qErDBZERETUrFegksi4",
+      "latitude": -11.9859004,
+      "longitude": -76.833643,
+      "id": "biz_5"
+    },
+    {
+      "name": "Servicios Eléctricos Electro Volt",
+      "rating": 5,
+      "reviewsCount": 1,
+      "category": "Electricista",
+      "address": "Calle 7 Mz. T Lote 15, 15487",
+      "phone": "tel:962788245",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Servicios+El%C3%A9ctricos+Electro+Volt/data=!4m7!3m6!1s0x9105c301e9a7a089:0x5d925e9ea02b6553!8m2!3d-12.022567!4d-76.8748062!16s%2Fg%2F11h_vchq63!19sChIJiaCn6QHDBZERU2UroJ5ekl0",
+      "latitude": -12.022567,
+      "longitude": -76.8748062,
+      "id": "biz_6"
+    },
+    {
+      "name": "SERVICIOS ELECTRICOS RECIDENCIAL E INDUSTRIAL",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Electricista",
+      "address": "MZ H LT 3 PS 2-3-4 URB ALAMEDA DE ÑAÑA Lurigancho -chosica, Lima 02002",
+      "phone": "tel:915970733",
+      "website": "https://wa.me/51915970733",
+      "url": "https://www.google.com/maps/place/SERVICIOS+ELECTRICOS+RECIDENCIAL+E+INDUSTRIAL/data=!4m7!3m6!1s0x9105c30071a4888f:0xc3611f0bc842cfe0!8m2!3d-11.9859625!4d-76.8337776!16s%2Fg%2F11yfbpxht7!19sChIJj4ikcQDDBZER4M9CyAsfYcM",
+      "latitude": -11.9859625,
+      "longitude": -76.8337776,
+      "id": "biz_7"
+    },
+    {
+      "name": "Electricista en Lima",
+      "rating": 5,
+      "reviewsCount": 13,
+      "category": "Electricista",
+      "address": "Av. Ricardo Rivera Navarrete 2613, Lince 15046",
+      "phone": "tel:912821095",
+      "website": "https://electricista.org.pe/",
+      "url": "https://www.google.com/maps/place/Electricista+en+Lima/data=!4m7!3m6!1s0x9105c863dbeb63ab:0x9b3e0a85e06d38ba!8m2!3d-12.0891278!4d-77.0271692!16s%2Fg%2F11fy4rz77b!19sChIJq2Pr22PIBZERujht4IUKPps",
+      "latitude": -12.0891278,
+      "longitude": -77.0271692,
+      "id": "biz_8"
+    },
+    {
+      "name": "Gueya Servicios - Gasfitería y Electricista",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Electricista",
+      "address": "Av. Ignacio Merino 2291, Lince 15046",
+      "phone": "tel:972285129",
+      "website": "https://sites.google.com/view/oswalgueyaservicios/nosotros?authuser=0",
+      "url": "https://www.google.com/maps/place/Gueya+Servicios+-+Gasfiter%C3%ADa+y+Electricista/data=!4m7!3m6!1s0x9105c90043deb65b:0xaae720efa0d46648!8m2!3d-12.0865574!4d-77.0320648!16s%2Fg%2F11ynvpdl6h!19sChIJW7beQwDJBZERSGbUoO8g56o",
+      "latitude": -12.0865574,
+      "longitude": -77.0320648,
+      "id": "biz_9"
+    },
+    {
+      "name": "INSTALACIONES ELÉCTRICAS CASTILLO - Miraflores",
+      "rating": 4.8,
+      "reviewsCount": 21,
+      "category": "Electricista",
+      "address": "Av. Arequipa 4730, Miraflores 15074",
+      "phone": "tel:994935357",
+      "website": "https://mi-negocio906.webnode.es/contacto/",
+      "url": "https://www.google.com/maps/place/INSTALACIONES+EL%C3%89CTRICAS+CASTILLO+-+Miraflores/data=!4m7!3m6!1s0x9105c935c5574adb:0xccbbd65c79e3cca9!8m2!3d-12.1130404!4d-77.0300595!16s%2Fg%2F11gmjx63bp!19sChIJ20pXxTXJBZERqczjeVzWu8w",
+      "latitude": -12.1130404,
+      "longitude": -77.0300595,
+      "id": "biz_10"
     }
   ]
 }

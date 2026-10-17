@@ -37,10 +37,11 @@ try {
   const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
   const errors = [];
   page.on('pageerror', e => errors.push(e.message));
+  const activeCategoryCount = getDirectory().filter(c => c.businesses.length > 0).length;
   await page.goto(origin, { waitUntil: 'networkidle' });
-  assert.equal(await page.locator('#directorios img').count(), 56, 'Category illustrations restored');
+  assert.equal(await page.locator('#directorios img').count(), activeCategoryCount, 'Category illustrations restored');
   await page.getByRole('button', { name: 'Salud y bienestar', exact: true }).click();
-  assert((await page.locator('#directorios h3').count()) > 0 && (await page.locator('#directorios h3').count()) < 56);
+  assert((await page.locator('#directorios h3').count()) > 0 && (await page.locator('#directorios h3').count()) < activeCategoryCount);
   await page.getByRole('button', { name: 'Limpiar filtros', exact: true }).click();
   await page.getByLabel('Distrito', { exact: true }).selectOption('Miraflores');
   assert((await page.locator('#directorios h3').count()) > 0);
@@ -53,7 +54,7 @@ try {
   const descending = await page.locator('#directorios h3').allTextContents();
   assert.deepEqual(descending, [...descending].sort((a, b) => b.localeCompare(a, 'es')));
   await page.getByRole('button', { name: 'Limpiar filtros', exact: true }).click();
-  assert.equal(await page.locator('#directorios h3').count(), 56);
+  assert.equal(await page.locator('#directorios h3').count(), activeCategoryCount);
   await page.screenshot({ path: '.next/seo-home-desktop.png', fullPage: true });
   await page.getByLabel('Buscar categoría', { exact: true }).fill('gasfiteros');
   assert.equal(await page.locator('#directorios h3').count(), 1);

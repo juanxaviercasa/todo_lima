@@ -212,15 +212,22 @@ export async function scrapeCategory(query = 'doctores en Lima', slug = 'doctore
 
           // Reseñas
           let reviewsCount = null;
-          const reviewsEl = document.querySelector('button[aria-label*="reseñas"], span[aria-label*="reseñas"]');
-          if (reviewsEl) {
-            const match = reviewsEl.getAttribute('aria-label')?.replace(/[^0-9]/g, '');
-            if (match) reviewsCount = parseInt(match, 10);
+          const reviewsEls = [...document.querySelectorAll('button[aria-label*="reseña"], span[aria-label*="reseña"]')];
+          for (const el of reviewsEls) {
+            const label = el.getAttribute('aria-label') || '';
+            const match = label.match(/([\d.,]+)\s*reseña/i);
+            if (match) {
+              const parsed = parseInt(match[1].replace(/[.,]/g, ''), 10);
+              if (Number.isFinite(parsed)) {
+                reviewsCount = parsed;
+                break;
+              }
+            }
           }
           if (!reviewsCount) {
-            const bodyMatches = document.body.innerText.match(/\(([\d\.\,]+)\s*(?:reseñas|reviews)?\)/i);
+            const bodyMatches = document.body.innerText.match(/\(([\d.,]+)\s*(?:reseñas|reviews)?\)/i);
             if (bodyMatches) {
-              reviewsCount = parseInt(bodyMatches[1].replace(/[\.\,]/g, ''), 10);
+              reviewsCount = parseInt(bodyMatches[1].replace(/[.,]/g, ''), 10);
             }
           }
 

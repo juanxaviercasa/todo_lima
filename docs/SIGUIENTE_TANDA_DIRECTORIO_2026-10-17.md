@@ -66,4 +66,25 @@ Los primeros cinco candidatos tienen fuentes iniciales consultadas; los de prior
 4. Ejecutar el plan de reconciliación, resolver revisiones y exportar el snapshot público mediante el flujo existente.
 5. Validar JSON, integridad del snapshot, compilación y presencia de los registros en las rutas correspondientes antes de considerar publicada la tanda.
 
-Esta revisión no incorpora negocios ni modifica la base remota. El siguiente trabajo es verificar y completar la tanda de 12; después se puede ampliar la taxonomía con los nuevos candidatos.
+## Resultado ejecutado (17 de octubre de 2026)
+
+- **117 registros verificados** en las 12 categorías de la tanda inmediata (3 registros previos conservados en `electricistas` + **114 inserciones nuevas** en Supabase con identidad fuerte de Google Maps `cid:` y coordenadas reales `!3d...!4d...`).
+- **67 categorías con negocios públicos** en `data/directory.snapshot.json` (frente a 56 previas) y **5.182 registros públicos** totales (frente a 5.068 previos).
+- Las 11 categorías antes vacías redujeron en 110 los casos `missing_strong_identity` pendientes de revisión (de 700 a 590).
+- **Respaldo automático en Supabase**: `directory_reconciliation_backup_20261012.businesses_20261017203051315` (5.068 filas previas verificadas).
+- **SHA-256 canónico del snapshot exportado**: `6b0543583c6da563e49016758f5f24ee333696eb22a1af708bf652fec37ca822` (`replay_inserts: 0`, `replay_updates: 0`, `existing_populated_fields_preserved: true`).
+
+| Orden | Categoría (`slug`) | Antes | Después | Distritos cubiertos |
+|---|---|---:|---:|---|
+| 1 | `electricistas` | 3 | 10 | Cercado de Lima, Jesús María, Ate, Lurigancho-Chosica, Lince, Miraflores |
+| 2 | `empresas-de-limpieza` | 0 | 10 | Barranco, Santiago de Surco, San Isidro, Jesús María, Surquillo, Miraflores, Pueblo Libre |
+| 3 | `limpieza-de-muebles` | 0 | 10 | Ate, Lince, La Molina, San Borja, San Isidro, Santiago de Surco, Los Olivos, Surquillo |
+| 4 | `desatoros` | 0 | 8 | Bellavista, San Juan de Lurigancho, Surquillo, Independencia, Miraflores, Ate, San Borja, Lince |
+| 5 | `ferreterias` | 0 | 10 | Lurín, Jesús María, San Isidro, Surquillo, Lince |
+| 6 | `albanileria-y-remodelaciones` | 0 | 10 | Ate, Chaclacayo, Surquillo, Breña, San Miguel, Cercado de Lima, Miraflores, Santiago de Surco |
+| 7 | `arquitectura` | 0 | 10 | Santiago de Surco, Lurigancho-Chosica, Miraflores, Barranco |
+| 8 | `reparacion-de-impresoras` | 0 | 10 | Surquillo, Cercado de Lima, San Isidro, Lince, Los Olivos, Chorrillos |
+| 9 | `courier-y-mensajeria` | 0 | 10 | Santiago de Surco, San Isidro, Miraflores, Surquillo |
+| 10 | `academias-de-idiomas` | 0 | 9 | Miraflores, San Borja, Jesús María, Pueblo Libre, Cercado de Lima, La Molina |
+| 11 | `hospedajes-para-mascotas` | 0 | 10 | Barranco, Santiago de Surco, Lince, Lurigancho-Chosica, Pachacámac, San Juan de Lurigancho, Lurín, Cieneguilla |
+| 12 | `agencias-de-turismo` | 0 | 10 | San Isidro, Miraflores, Jesús María, Los Olivos, Santiago de Surco |
