@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-023",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-comparar-cotizaciones-sin-perder-condiciones-importantes",
     "title": "Cómo comparar cotizaciones sin perder condiciones importantes",
@@ -14,8 +14,8 @@
       "indecopi"
     ],
     "description": "Guía práctica sobre comparar cotizaciones sin perder condiciones importantes en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": "2026-05-06",
-    "modified": "2026-10-10",
+    "published": "2026-10-17",
+    "modified": "2026-10-17",
     "cover": "como-comparar-cotizaciones-sin-perder-condiciones-importantes-portada-vivienda-servicios-hogar",
     "internal": [
       "como-comparar-cotizaciones-sin-perder-condiciones-importantes-presupuesto-desglosado-garantia",
@@ -433,8 +433,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-17",
+    "publication_slot": "tarde"
   }
 }

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-022",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "mateo-salado-historia-y-patrimonio-dentro-de-la-ciudad",
     "title": "Mateo Salado: historia y patrimonio dentro de la ciudad",
@@ -14,8 +14,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre mateo salado: historia y patrimonio dentro de la ciudad: historia, arquitectura, horarios de visita y recomendaciones oficiales en L...",
-    "published": "2026-05-05",
-    "modified": "2026-10-10",
+    "published": "2026-10-17",
+    "modified": "2026-10-17",
     "cover": "mateo-salado-historia-y-patrimonio-dentro-de-la-ciudad-portada-patrimonio-arquitectura",
     "internal": [
       "mateo-salado-historia-y-patrimonio-dentro-de-la-ciudad-detalle-casona-historica",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-17",
+    "publication_slot": "tarde"
   }
 }

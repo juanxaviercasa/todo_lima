@@ -8,6 +8,9 @@ import { pageMetadata, breadcrumbs, SITE_URL, EDITORIAL_DATE } from '../../../li
 import { guideImages } from '../../../lib/editorialImages.js';
 import EditorialImage from '../../../components/EditorialImage.js';
 import GuideCard from '../../../components/GuideCard.js';
+import CategoryBuyerCopilot from '../../../components/CategoryBuyerCopilot.js';
+import { CATEGORY_DETAILS } from '../../../lib/categoryEditorial.js';
+import { getBuyerPersona } from '../../../auditor/config/buyerPersonas.js';
 export const dynamicParams = false;
 export function generateStaticParams() { return GUIDES.map(g => ({ slug: g.slug })); }
 export function generateMetadata({ params }) {
@@ -21,6 +24,8 @@ export default function GuidePage({ params }) {
   if (!guide) notFound();
   const category = getCategory(guide.category);
   const others = GUIDES.filter(g => g.slug !== guide.slug).slice(0, 3);
+  const persona = getBuyerPersona(category.meta.slug, category.meta.title, category.meta.niche);
+  const [scope, criteria] = CATEGORY_DETAILS[guide.category] || [];
   return <EditorialShell title={guide.title} image={guideImages(guide.category).cover} intro={guide.description} trail={[["Guías", '/guias']]}>
     <article className="max-w-3xl mx-auto space-y-8">
       <p className="text-sm text-slate-500">Por el equipo editorial de Todo Lima · <time dateTime={EDITORIAL_DATE}>9 de octubre de 2026</time> · Guía editorial de contratación</p>
@@ -29,6 +34,7 @@ export default function GuidePage({ params }) {
       <EditorialImage id={`detalle-${guide.category}`} caption={`${guideImages(guide.category).detail.alt} Ilustración editorial generada con IA.`} />
       {guide.sections.map(([heading, text], index) => <section key={heading} id={`paso-${index + 1}`} className="scroll-mt-24"><h2 className="text-2xl font-bold mb-4">{heading}</h2><p className="leading-relaxed text-slate-600 dark:text-slate-300">{text}</p></section>)}
       <section className="editorial-card"><h2 className="text-xl font-bold mb-4">Tu checklist</h2><ul className="list-disc pl-5 space-y-3">{guide.checklist.map(item => <li key={item}>{item}</li>)}</ul></section>
+      <CategoryBuyerCopilot categorySlug={category.meta.slug} categoryTitle={category.meta.title} persona={persona} scope={scope} criteria={criteria} />
       <section className="bg-slate-950 text-white rounded-3xl p-8"><h2 className="text-2xl font-bold">Encuentra opciones para consultar</h2><p className="text-slate-300 mt-3 mb-5">Compara ubicaciones y consulta al proveedor las condiciones de tu caso.</p><Link className="inline-block rounded-xl bg-sky-500 text-white px-5 py-3 font-semibold" href={`/${guide.category}`}>{category.meta.title} →</Link></section>
       <p className="text-sm text-slate-500">Este checklist es una elaboración editorial, sin estudio de precios ni entrevistas atribuidas. <Link className="underline" href="/metodologia">Consulta nuestra metodología</Link> y <Link className="underline" href="/correcciones">propón una corrección</Link>.</p>
     </article>

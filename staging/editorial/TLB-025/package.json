@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-025",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "huaca-huantille-memoria-y-recuperacion-en-magdalena-del-mar",
     "title": "Huaca Huantille: memoria y recuperación en Magdalena del Mar",
@@ -14,8 +14,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre huaca huantille: memoria y recuperación en magdalena del mar: historia, arquitectura, horarios de visita y recomendaciones oficiales...",
-    "published": "2026-05-08",
-    "modified": "2026-10-10",
+    "published": "2026-10-17",
+    "modified": "2026-10-17",
     "cover": "huaca-huantille-memoria-y-recuperacion-en-magdalena-del-mar-portada-huaca-prehispanica",
     "internal": [
       "huaca-huantille-memoria-y-recuperacion-en-magdalena-del-mar-detalle-adobitos-muro",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-17",
+    "publication_slot": "tarde"
   }
 }

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-021",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "el-ceviche-y-su-lugar-en-la-cultura-gastronomica-de-lima",
     "title": "El ceviche y su lugar en la cultura gastronómica de Lima",
@@ -14,8 +14,8 @@
       "lima-metropolitana"
     ],
     "description": "Guía sobre ceviche y su lugar en la cultura gastronómica de lima en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el comensal.",
-    "published": "2026-05-04",
-    "modified": "2026-10-10",
+    "published": "2026-10-17",
+    "modified": "2026-10-17",
     "cover": "el-ceviche-y-su-lugar-en-la-cultura-gastronomica-de-lima-portada-cevicheria-terraza",
     "internal": [
       "el-ceviche-y-su-lugar-en-la-cultura-gastronomica-de-lima-ceviche-clasico-preparacion",
@@ -418,8 +418,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-17",
+    "publication_slot": "tarde"
   }
 }

@@ -5,9 +5,10 @@ import { BLOG_POSTS } from '../lib/blog.js';
 import { getPillars } from '../lib/atlas.js';
 import { SITE_URL, EDITORIAL_DATE } from '../lib/seo.js';
 import { getMacroAreas } from '../lib/areasTaxonomy.js';
+import { PURCHASING_POWER_RANKING } from '../auditor/config/purchasingPowerRanking.js';
 export default function sitemap() {
   const route = (pathname, modified = EDITORIAL_DATE) => ({ url: `${SITE_URL}${pathname}`, lastModified: modified });
-  const pages = ['', '/guias', '/metodologia', '/correcciones', '/para-negocios', '/privacidad', '/terminos', '/cookies', '/aviso-legal', '/derechos-arco', '/politica-anti-spam', '/descargo-de-responsabilidad', '/reembolsos-y-garantias', '/baja', '/libro-de-reclamaciones'];
+  const pages = ['', '/guias', '/auditoria', '/metodologia', '/correcciones', '/para-negocios', '/privacidad', '/terminos', '/cookies', '/aviso-legal', '/derechos-arco', '/politica-anti-spam', '/descargo-de-responsabilidad', '/reembolsos-y-garantias', '/baja', '/libro-de-reclamaciones'];
   // Legal pages have no invented update date. Editorial dates are maintained
   // explicitly when the corresponding content changes.
   return [
@@ -20,11 +21,12 @@ export default function sitemap() {
     ...getDistrictProfiles().map(p => route(`/distritos/${p.slug}`, '2026-10-12')),
     route('/categorias', '2026-10-12'),
     ...getMacroAreas({ includeUpcoming: false }).map(a => route(`/categorias/${a.slug}`, '2026-10-12')),
-    ...pages.map(p => p === '' || ['/guias', '/metodologia', '/correcciones', '/para-negocios'].includes(p) ? route(p) : { url: `${SITE_URL}${p}` }),
+    ...pages.map(p => p === '' || ['/guias', '/auditoria', '/metodologia', '/correcciones', '/para-negocios'].includes(p) ? route(p) : { url: `${SITE_URL}${p}` }),
     ...getDirectory().map(c => route(`/${c.meta.slug}`, new Date(Math.max(Date.parse(c.updatedAt) || 0, Date.parse(c.contentModified))).toISOString())),
     ...getLocalPages().map(p => route(`/${p.category}/${p.slug}`)),
     ...getProfiles().map(p => route(`/negocios/${p.slug}`)),
     ...GUIDES.map(g => route(`/guias/${g.slug}`)),
+    ...PURCHASING_POWER_RANKING.map(c => route(`/auditoria/${c.slug}`)),
   ];
 }
 

@@ -4,8 +4,10 @@ import { notFound } from 'next/navigation';
 import EditorialShell from '../../components/EditorialShell.js';
 import JsonLd from '../../components/JsonLd.js';
 import CategoryDirectorioClient from '../../components/CategoryDirectorioClient.js';
+import CategoryBuyerCopilot from '../../components/CategoryBuyerCopilot.js';
 import { getCategory, getDirectory, getLocalPages, enrichBusinesses } from '../../lib/directory.js';
-import { categoryEditorial } from '../../lib/categoryEditorial.js';
+import { categoryEditorial, CATEGORY_DETAILS } from '../../lib/categoryEditorial.js';
+import { getBuyerPersona } from '../../auditor/config/buyerPersonas.js';
 import { pageMetadata, breadcrumbs, SITE_URL } from '../../lib/seo.js';
 import { GUIDES } from '../../lib/guides.js';
 import { getAreaForCategory } from '../../lib/areasTaxonomy.js';
@@ -22,6 +24,8 @@ export default function CategoryPage({ params }) {
   if (!category) notFound();
   const { meta, businesses, updatedAt } = category;
   const editorial = categoryEditorial(meta);
+  const persona = getBuyerPersona(meta.slug, meta.title, meta.niche);
+  const [scope, criteria] = CATEGORY_DETAILS[meta.slug] || [];
   const area = getAreaForCategory(meta.slug);
   const locals = getLocalPages().filter(p => p.category === meta.slug);
   const guides = GUIDES.filter(g => g.category === meta.slug);
@@ -49,6 +53,7 @@ export default function CategoryPage({ params }) {
     <p className="leading-relaxed">{editorial.introduction}</p>
     {locals.length > 0 && <section><h2 className="text-2xl font-bold mb-4">Explora por distrito</h2><div className="flex flex-wrap gap-3">{locals.map(p => <Link className="editorial-chip" key={p.slug} href={`/${meta.slug}/${p.slug}`}>{p.district} · {p.businesses.length}</Link>)}</div></section>}
     <Suspense fallback={<p>Cargando opciones…</p>}><CategoryDirectorioClient businesses={enrichBusinesses(businesses)} categoryTitle={meta.title} /></Suspense>
+    <CategoryBuyerCopilot categorySlug={meta.slug} categoryTitle={meta.title} persona={persona} scope={scope} criteria={criteria} />
     {editorial.sections.map(s => <section key={s.title}><h2 className="text-2xl font-bold mb-3">{s.title}</h2><p className="leading-relaxed text-slate-600 dark:text-slate-300">{s.text}</p></section>)}
     {guides.length > 0 && <section><h2 className="text-2xl font-bold mb-4">Guías para decidir</h2><div className="grid sm:grid-cols-2 gap-4">{guides.map(g => <Link className="editorial-card" key={g.slug} href={`/guias/${g.slug}`}><h3 className="font-bold text-lg">{g.title}</h3><p className="text-sm mt-2">{g.description}</p></Link>)}</div></section>}
     <section><h2 className="text-2xl font-bold mb-4">Preguntas frecuentes</h2>{editorial.questions.map(q => <details className="editorial-card mb-3" key={q.q}><summary className="cursor-pointer font-bold">{q.q}</summary><p className="mt-3 leading-relaxed">{q.a}</p></details>)}</section>

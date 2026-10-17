@@ -3,6 +3,7 @@ import EditorialShell from '../../components/EditorialShell.js';
 import { EDITORIAL_IMAGES } from '../../lib/editorialImages.js';
 import { pageMetadata } from '../../lib/seo.js';
 import { buildWhatsAppLink } from '../../lib/contact.js';
+import { PURCHASING_POWER_RANKING } from '../../auditor/config/purchasingPowerRanking.js';
 
 export const metadata = pageMetadata('Revisión digital para negocios en Lima | Todo Lima', 'Consulta sobre presencia web, organización de consultas y automatización. Acordamos alcance y presupuesto según tu negocio.', '/auditoria', EDITORIAL_IMAGES['negocio-revision-solicitud']);
 
@@ -14,6 +15,7 @@ export default function DigitalReview() {
       ['Organización de consultas', 'Identificar dónde se pierden consultas y cómo registrar solicitudes, seguimiento y próximas acciones.'],
       ['Automatización', 'Evaluar tareas repetitivas y definir qué puede automatizarse con revisión humana y qué debe seguir atendiendo una persona.']
     ].map(([title, text]) => <div key={title} className="editorial-card"><h3 className="text-xl font-bold mb-3">{title}</h3><p>{text}</p></div>)}</div></section>
+    <section aria-labelledby="calculadoras-rubro" className="editorial-card"><h2 id="calculadoras-rubro" className="text-2xl font-bold mb-3">Calculadoras de Fuga Comercial MAPA y Guiones por Rubro</h2><p className="text-slate-600 dark:text-slate-300 mb-5">Selecciona el rubro de tu negocio en Lima para acceder gratuitamente a la radiografía de tu cliente ideal, la calculadora interactiva de ingresos por consultas en WhatsApp y los 3 guiones de recepción de tu sector:</p><div className="flex flex-wrap gap-2.5">{PURCHASING_POWER_RANKING.map(item => <Link key={item.slug} href={`/auditoria/${item.slug}`} className="editorial-chip text-xs sm:text-sm">{(item.name || item.slug).replace(' en Lima', '')}</Link>)}</div></section>
     <section aria-labelledby="proceso-revision"><h2 id="proceso-revision" className="text-2xl font-bold mb-5">Cómo pasamos de la consulta a una propuesta</h2><ol className="grid md:grid-cols-3 gap-5 list-none">{[
       ['1. Entendemos el objetivo', 'Comparte tu web o ficha, el servicio que ofreces y la tarea que quieres mejorar. No envíes contraseñas ni datos de tus clientes.'],
       ['2. Delimitamos la revisión', 'Acordamos qué páginas o procesos revisar, qué información hace falta y las condiciones de esa revisión.'],
