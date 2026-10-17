@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-027",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "anticuchos-en-lima-historia-y-tradicion-de-un-plato-popular",
     "title": "Anticuchos en Lima: historia y tradición de un plato popular",
@@ -14,8 +14,8 @@
       "lima-metropolitana"
     ],
     "description": "Guía sobre anticuchos en lima: historia y tradición de un plato popular en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el co...",
-    "published": "2026-05-10",
-    "modified": "2026-10-10",
+    "published": "2026-10-17",
+    "modified": "2026-10-17",
     "cover": "anticuchos-en-lima-historia-y-tradicion-de-un-plato-popular-portada-anticucheria-brasas",
     "internal": [
       "anticuchos-en-lima-historia-y-tradicion-de-un-plato-popular-anticuchos-parrilla-aderezo",
@@ -418,8 +418,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-17",
+    "publication_slot": "tarde"
   }
 }

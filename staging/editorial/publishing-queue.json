@@ -264,10 +264,10 @@
     "slug": "anticuchos-en-lima-historia-y-tradicion-de-un-plato-popular",
     "title": "Anticuchos en Lima: historia y tradición de un plato popular",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-17",
+    "published_slot": "tarde",
+    "batch_day": 7
   },
   {
     "article_id": "TLB-028",
