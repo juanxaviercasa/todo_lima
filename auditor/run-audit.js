@@ -19,7 +19,9 @@ import { auditWebsite, categorizeWebsite } from './engine/webAuditor.js';
 import { generateProposal } from './engine/proposalGenerator.js';
 import { generateHtmlReport } from './reports/htmlReportGenerator.js';
 import { generateMarkdownSummary } from './reports/markdownSummary.js';
+import { PURCHASING_POWER_RANKING } from './config/purchasingPowerRanking.js';
 import { syncWithGit } from '../scraper/utils/gitSync.js';
+
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -101,20 +103,23 @@ async function auditCategory(slug) {
     const catResult = categorizeWebsite(biz.website);
 
     if (skipHttp || catResult.type === 'NO_WEBSITE' || catResult.type === 'INVALID_URL' || catResult.type === 'SOCIAL_ONLY') {
+      const isCustomOrFree = catResult.type === 'CUSTOM_WEBSITE' || catResult.type === 'FREE_PLATFORM';
       webAudit = {
         tested: false,
         url: catResult.cleanUrl,
         type: catResult.type,
         provider: catResult.provider,
-        score: catResult.type === 'SOCIAL_ONLY' ? 25 : 0,
-        accessible: catResult.type === 'SOCIAL_ONLY',
+        score: catResult.type === 'SOCIAL_ONLY' ? 25 : (isCustomOrFree ? 50 : 0),
+        accessible: catResult.type === 'SOCIAL_ONLY' || isCustomOrFree,
         issues: catResult.type === 'NO_WEBSITE' 
           ? ['No cuenta con un sitio web oficial registrado.'] 
           : catResult.type === 'SOCIAL_ONLY'
           ? [`Utiliza solo perfil de ${catResult.provider}. Pierde posicionamiento orgánico en Google.`]
+          : isCustomOrFree
+          ? ['Sitio web registrado pendiente de validación de velocidad móvil y recepción automatizada en WhatsApp.']
           : ['URL inválida o no registrada.'],
         recommendations: [
-          'Crear una landing page móvil de alta velocidad con botón directo a WhatsApp y catálogo.'
+          'Implementar embudo móvil de alta velocidad con recepción y calificación directa en WhatsApp.'
         ]
       };
     } else {
@@ -200,14 +205,17 @@ async function main() {
     fs.mkdirSync(auditsDir, { recursive: true });
   }
 
-  // Identificar qué categorías procesar
+  // Identificar qué categorías procesar (por defecto las 56 categorías públicas verificadas)
   let categoriesToAudit = [];
   if (targetCategory) {
     categoriesToAudit = [targetCategory];
-  } else {
-    const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json'));
+  } else if (hasFlag('--include-candidates')) {
+    const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json') && f !== 'directory.snapshot.json');
     categoriesToAudit = files.map(f => f.replace('.json', ''));
+  } else {
+    categoriesToAudit = PURCHASING_POWER_RANKING.map(c => c.slug);
   }
+
 
   console.log(`📋 Total categorías a procesar: ${categoriesToAudit.length}`);
   console.log(`⚙️ Modo HTTP: ${skipHttp ? 'OFF (Análisis instantáneo sin red)' : 'ON (Sondeo técnico en vivo)'}`);
@@ -221,7 +229,12 @@ async function main() {
     }
   }
 
-  // Agregación acumulativa: consolidar todas las categorías auditadas disponibles
+  // Agregación acumulativa: consolidar las categorías activas verificadas
+  const allowedSlugs = new Set(
+    hasFlag('--include-candidates')
+      ? fs.readdirSync(dataDir).filter(f => f.endsWith('.json') && f !== 'directory.snapshot.json').map(f => f.replace('.json', ''))
+      : PURCHASING_POWER_RANKING.map(c => c.slug)
+  );
   const catAuditsDir = path.join(auditsDir, 'categories');
   const allCatFiles = fs.existsSync(catAuditsDir) ? fs.readdirSync(catAuditsDir).filter(f => f.endsWith('.json')) : [];
   
@@ -229,6 +242,10 @@ async function main() {
   const allBusinessesFlattened = [];
 
   for (const catFile of allCatFiles) {
+    const slugFromFile = catFile.replace('.json', '');
+    if (!allowedSlugs.has(slugFromFile) && slugFromFile !== targetCategory) {
+      continue;
+    }
     try {
       const catData = JSON.parse(fs.readFileSync(path.join(catAuditsDir, catFile), 'utf-8'));
       aggregatedCategories[catData.slug] = catData;
@@ -237,10 +254,18 @@ async function main() {
     }
   }
 
-  for (const catData of Object.values(aggregatedCategories)) {
+  const categorySummariesOnly = {};
+  for (const [catSlug, catData] of Object.entries(aggregatedCategories)) {
     if (Array.isArray(catData.businesses)) {
       allBusinessesFlattened.push(...catData.businesses);
     }
+    const sampleProposal = catData.businesses?.[0]?.proposal;
+    const { businesses, ...catSummary } = catData;
+    categorySummariesOnly[catSlug] = {
+      ...catSummary,
+      buyerPersona: sampleProposal?.buyerPersona || null,
+      brunsonFramework: sampleProposal?.brunsonFramework || null
+    };
   }
 
   // Resumen global acumulado
@@ -254,7 +279,7 @@ async function main() {
   const avgWebScore = testedWebs.length ? Math.round(testedWebs.reduce((a, b) => a + b.webAudit.score, 0) / testedWebs.length) : 0;
 
   const globalSummary = {
-    totalCategories: Object.keys(aggregatedCategories).length,
+    totalCategories: Object.keys(categorySummariesOnly).length,
     totalBusinesses,
     noWebsite,
     noWebsitePct: totalBusinesses ? Math.round((noWebsite / totalBusinesses) * 100) : 0,
@@ -267,11 +292,20 @@ async function main() {
     avgWebScore
   };
 
+  const summaryBusinesses = allBusinessesFlattened.map(b => {
+    if (!b.proposal) return b;
+    const { buyerPersona, brunsonFramework, ...compactProposal } = b.proposal;
+    return {
+      ...b,
+      proposal: compactProposal
+    };
+  });
+
   const finalAuditPayload = {
     updatedAt: new Date().toISOString(),
     summary: globalSummary,
-    categories: aggregatedCategories,
-    businesses: allBusinessesFlattened
+    categories: categorySummariesOnly,
+    businesses: summaryBusinesses
   };
 
   // Guardar archivo global audits/summary.json

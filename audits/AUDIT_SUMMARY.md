@@ -1,6 +1,6 @@
 # REPORTE EJECUTIVO DE AUDITORÍA COMERCIAL — TODO LIMA
-> **Fecha de ejecución:** 8/10/2026, 8:13:01 p. m.  
-> **Total Categorías:** 56 | **Total Negocios Auditados:** 5068
+> **Fecha de ejecución:** 17/10/2026, 2:21:46 p. m.  
+> **Total Categorías:** 56 | **Total Negocios Auditados:** 5077
 
 ---
 
@@ -8,11 +8,11 @@
 
 | Métrica | Cantidad | % del Total | Interpretación Comercial |
 | :--- | :---: | :---: | :--- |
-| **Total Negocios Auditados** | **5068** | 100% | Negocios extraídos de Google Maps en Lima |
-| **Sin Sitio Web (Oportunidad Máxima)** | **3925** | **77%** | **Fuga masiva de clientes. Urgente propuesta web.** |
-| **Solo Red Social (Facebook/IG)** | **285** | **6%** | Dependencia de plataformas ajenas sin SEO local |
-| **Con Sitio Web Propio** | **858** | **17%** | Candidatos a rediseño, optimización y afiliación |
-| **Con WhatsApp Móvil Verificado** | **1492** | **29%** | **Listos para prospección directa con 1 clic** |
+| **Total Negocios Auditados** | **5077** | 100% | Negocios extraídos de Google Maps en Lima |
+| **Sin Sitio Web (Oportunidad Máxima)** | **3930** | **77%** | **Fuga masiva de clientes. Urgente propuesta web.** |
+| **Solo Red Social (Facebook/IG)** | **287** | **6%** | Dependencia de plataformas ajenas sin SEO local |
+| **Con Sitio Web Propio** | **860** | **17%** | Candidatos a rediseño, optimización y afiliación |
+| **Con WhatsApp Móvil Verificado** | **1501** | **30%** | **Listos para prospección directa con 1 clic** |
 | **Puntaje Promedio Web (0-100)** | **0/100** | — | Rendimiento técnico de los sitios existentes |
 
 ---
@@ -41,7 +41,7 @@
 | **dentistas** | 100 | **87** (87%) | 📲 **16** | 8 | 0/100 |
 | **dermatologos** | 100 | **100** (100%) | 📲 **0** | 0 | 0/100 |
 | **doctores** | 100 | **80** (80%) | 📲 **21** | 20 | 0/100 |
-| **electricistas** | 3 | **3** (100%) | 📲 **0** | 0 | 0/100 |
+| **electricistas** | 12 | **8** (67%) | 📲 **9** | 2 | 0/100 |
 | **escuelas-de-manejo** | 100 | **42** (42%) | 📲 **71** | 46 | 0/100 |
 | **fisioterapia** | 76 | **64** (84%) | 📲 **12** | 11 | 0/100 |
 | **florerias** | 100 | **25** (25%) | 📲 **79** | 66 | 0/100 |
@@ -82,7 +82,7 @@
 
 ## 🎯 Plan de Acción de Prospección Comercial
 
-1. **Fase 1: Prospección Inmediata a los 1492 Negocios con WhatsApp Móvil:**
+1. **Fase 1: Prospección Inmediata a los 1501 Negocios con WhatsApp Móvil:**
    - Enviar el mensaje persuasivo preconfigurado con el enlace de su subdominio sugerido en Todo Lima (ej. `negocio.categoria.todolima.com`).
    - Tasa de apertura esperada en WhatsApp: **85% - 95%**.
 2. **Fase 2: Presentación de Maqueta Demo:**

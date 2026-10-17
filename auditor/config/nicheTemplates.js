@@ -90,8 +90,8 @@ export const NICHE_TEMPLATES = {
 
   // TECNOLOGÍA Y SERVICIO TÉCNICO
   tecnologia: {
-    targetAudience: 'usuarios que necesitan reparar celulares, laptops o instalar cámaras de seguridad con repuestos garantizados',
-    painPoint: 'el miedo a que cambien piezas o estafen hace que los clientes busquen desesperadamente talleres con web formal y garantía escrita',
+    targetAudience: 'usuarios y empresas que necesitan reparar celulares, laptops o instalar cámaras de seguridad con repuestos garantizados',
+    painPoint: 'el miedo a que cambien piezas o estafen hace que los clientes busquen talleres con web formal, orden de servicio y garantía escrita',
     valueProposition: 'una landing page tecnológica con consulta de presupuesto express por modelo, mapa de local y política de garantía transparente',
     benefits: [
       'Consulta de presupuesto por modelo y falla en WhatsApp',
@@ -100,11 +100,39 @@ export const NICHE_TEMPLATES = {
       'Insignia de servicio técnico verificado Todo Lima'
     ],
     whatsappHook: 'vimos su gran reputación técnica en {district} con ⭐ {rating} en Google Maps. Sin embargo, no tienen una web donde el cliente pueda consultar el costo de reparación de su equipo antes de visitar la tienda.'
+  },
+
+  // GASTRONOMÍA Y RESTAURANTES
+  gastronomia: {
+    targetAudience: 'familias, grupos de amigos y oficinas que buscan pedir delivery directo sin sobreprecios o reservar mesa rápido',
+    painPoint: 'en hora punta el teléfono colapsa y el cliente termina pidiendo por aplicativos que cobran hasta 30% de comisión o eligiendo otro restaurante que sí muestra su carta digital al instante',
+    valueProposition: 'una Carta Digital Interactiva de carga instantánea con pedido directo a WhatsApp, combos familiares y reserva de mesas sin comisiones',
+    benefits: [
+      'Pedidos de delivery directos a tu WhatsApp con 0% de comisión',
+      'Carta digital móvil con fotos tentadoras y combos familiares',
+      'Reserva rápida de mesas para grupos y cumpleaños',
+      'Reactivación semanal de clientes frecuentes de tu zona'
+    ],
+    whatsappHook: 'vimos sus excelentes reseñas gastronómicas en {district} (⭐ {rating}). Notamos que aún no cuentan con una carta web propia para recibir pedidos directos y reservas por WhatsApp sin pagar comisiones a terceros.'
+  },
+
+  // FITNESS, DEPORTE Y EDUCACIÓN PRÁCTICA
+  fitness: {
+    targetAudience: 'vecinos, deportistas y alumnos que buscan reservar cancha, matricularse en clases o ponerse en forma cerca de su casa u oficina',
+    painPoint: 'quien escribe preguntando horarios o precios se enfría si solo recibe un flyer estático sin un paso inmediato para reservar turno o clase de prueba',
+    valueProposition: 'un sistema web de reservas de horarios, invitación a clase de prueba y recordatorios automáticos de renovación por WhatsApp',
+    benefits: [
+      'Reserva de turnos, canchas o clases de prueba en 30 segundos',
+      'Confirmación con adelanto vía Yape/Plin para eliminar inasistencias',
+      'Recordatorios automáticos de renovación mensual/trimestral',
+      'Visibilidad destacada para vecinos de tu distrito'
+    ],
+    whatsappHook: 'vimos su excelente calificación en {district} (⭐ {rating}). Queríamos mostrarles cómo automatizar sus reservas de horarios y matrículas por WhatsApp para eliminar horas vacías.'
   }
 };
 
 /**
- * Mapeo de cada slug de categoría a su nicho macro
+ * Mapeo completo de cada slug de categoría a su nicho macro
  */
 export const CATEGORY_NICHE_MAP = {
   // Salud
@@ -118,8 +146,12 @@ export const CATEGORY_NICHE_MAP = {
   'nutricionistas': 'salud',
   'oftalmologos': 'salud',
   'ginecologos': 'salud',
+  'laboratorios-clinicos': 'salud',
+  'traumatologos': 'salud',
+  'opticas': 'salud',
+  'podologos': 'salud',
 
-  // Hogar
+  // Hogar y Servicios Técnicos Domiciliarios
   'cerrajeros': 'hogar',
   'gasfiteros': 'hogar',
   'electricistas': 'hogar',
@@ -131,33 +163,51 @@ export const CATEGORY_NICHE_MAP = {
   'aire-acondicionado': 'hogar',
   'reparacion-lavadoras': 'hogar',
   'reparacion-refrigeradoras': 'hogar',
+  'lavanderias': 'hogar',
 
-  // Legal
+  // Legal, Financiero e Inmobiliario
   'abogados': 'legal',
   'notarias': 'legal',
   'contadores': 'legal',
   'agentes-inmobiliarios': 'legal',
+  'casas-de-cambio': 'legal',
 
   // Automotriz
   'talleres-mecanicos': 'automotriz',
   'auxilio-mecanico': 'automotriz',
   'llanterias': 'automotriz',
   'car-wash': 'automotriz',
+  'escuelas-de-manejo': 'automotriz',
 
-  // Belleza
+  // Belleza, Bienestar y Mascotas
   'barberias': 'belleza',
   'salones-de-belleza': 'belleza',
   'spas': 'belleza',
+  'grooming-canino': 'belleza',
 
-  // Eventos
+  // Eventos y Regalos Especiales
   'catering': 'eventos',
   'fotografia-eventos': 'eventos',
   'tortas-personalizadas': 'eventos',
+  'locales-de-eventos': 'eventos',
+  'decoracion-de-eventos': 'eventos',
+  'florerias': 'eventos',
 
   // Tecnología
   'reparacion-celulares': 'tecnologia',
   'reparacion-laptops': 'tecnologia',
-  'camaras-de-seguridad': 'tecnologia'
+  'camaras-de-seguridad': 'tecnologia',
+
+  // Gastronomía
+  'cevicherias': 'gastronomia',
+  'pollerias': 'gastronomia',
+  'chifas': 'gastronomia',
+  'pizzerias': 'gastronomia',
+  'cafeterias': 'gastronomia',
+
+  // Fitness y Deporte
+  'gimnasios': 'fitness',
+  'alquiler-de-canchas': 'fitness'
 };
 
 /**
@@ -171,3 +221,4 @@ export function getNicheTemplate(categorySlug) {
     ...NICHE_TEMPLATES[nicheKey]
   };
 }
+

@@ -1,9 +1,12 @@
 /**
  * Generador Inteligente de Propuestas Comerciales, Embudos de Conversión y RevOps para Todo Lima.
- * Integra metodologías de vanguardia: Sales Funnels, CRO, Speed-to-Lead, Conversational Commerce y GEO.
+ * Integra metodologías de vanguardia: Russell Brunson (Value Ladder, Big Domino, Opportunity Switch),
+ * Jim Edwards (Hook-Story-Offer), Método MAPA (Mapear, Aislar, Poner Precio, Atacar), CRO y Speed-to-Lead.
  */
 
 import { getNicheTemplate } from '../config/nicheTemplates.js';
+import { getBuyerPersona, calculateMapaEconomics } from '../config/buyerPersonas.js';
+import { getCategoryRankInfo } from '../config/purchasingPowerRanking.js';
 
 /**
  * Limpia y genera un slug amigable para subdominio
@@ -19,7 +22,7 @@ function slugify(text) {
 }
 
 /**
- * Genera la propuesta y diagnóstico comercial para un negocio auditado
+ * Genera la propuesta y diagnóstico comercial MAPA para un negocio auditado
  * @param {object} business Objeto del negocio desde el JSON
  * @param {string} categorySlug Slug de la categoría (ej. "dentistas")
  * @param {string} district Distrito de Lima identificado
@@ -28,6 +31,10 @@ function slugify(text) {
  */
 export function generateProposal(business, categorySlug, district, phoneData, webAudit) {
   const niche = getNicheTemplate(categorySlug);
+  const persona = getBuyerPersona(categorySlug);
+  const rankInfo = getCategoryRankInfo(categorySlug);
+  const mapaEconomics = calculateMapaEconomics(categorySlug, business.reviewsCount || 0);
+
   const name = business.name || 'Estimado profesional';
   const rating = business.rating ? Number(business.rating).toFixed(1) : '5.0';
   const reviewsCount = business.reviewsCount || 0;
@@ -43,18 +50,15 @@ export function generateProposal(business, categorySlug, district, phoneData, we
   let salesArguments = [];
   let callScript = '';
 
-  // Estimación de Fuga de Ingresos Mensual en Soles (Revenue Leakage)
-  // Basada en tráfico estimado por volumen de reseñas en Google Maps
-  const baseMonthlyLeads = Math.max(15, Math.min(300, Math.round(reviewsCount * 1.5)));
-  const estimatedTicketSoles = ['dentistas', 'doctores', 'traumatologos', 'abogados', 'arquitectos'].includes(categorySlug) ? 250 : 80;
-  const lostLeadsRate = (webAudit.type === 'NO_WEBSITE' || !webAudit.hasWhatsApp) ? 0.45 : 0.25;
-  const monthlyLostRevenueSoles = Math.round(baseMonthlyLeads * lostLeadsRate * estimatedTicketSoles);
+  // Estimación de Fuga de Ingresos Mensual en Soles (Método MAPA determinista)
+  const monthlyLostRevenueSoles = mapaEconomics.outputs.additionalMonthlyRevenuePEN;
 
   const isHighVolume = reviewsCount >= 40 || (business.rating || 0) >= 4.5;
   const isOperationalNiche = [
     'dentistas', 'doctores', 'veterinarias', 'talleres-mecanicos', 
     'escuelas-de-manejo', 'locales-de-eventos', 'alquiler-de-canchas', 
-    'laboratorios-clinicos', 'traumatologos', 'podologos'
+    'laboratorios-clinicos', 'traumatologos', 'podologos',
+    'oftalmologos', 'dermatologos', 'ginecologos', 'fisioterapia'
   ].includes(categorySlug);
 
   // Clasificación por Oportunidad de Ecosistema & Embudo
@@ -83,33 +87,35 @@ export function generateProposal(business, categorySlug, district, phoneData, we
 
   // 1. CASO A: SIN PÁGINA WEB -> Lanzamiento de Embudo de Ventas & Conversión
   if (status === 'NEEDS_WEBSITE') {
-    proposalTitle = `Ecosistema de Embudo de Ventas & Conversión WhatsApp para ${name}`;
+    proposalTitle = `Diagnóstico MAPA: Embudo de Conversión & Recepción WhatsApp para ${name}`;
 
     salesArguments = [
-      `Fuga de facturación estimada: ~S/ ${monthlyLostRevenueSoles.toLocaleString()} al mes por falta de embudo propio y puntos de contacto friccionados.`,
-      `Tracción local actual: ⭐ ${rating} en Google Maps (${reviews}) en ${district}, con alto interés de compra desperdiciado.`,
-      `Solución de Embudo: Landing page ultrarrápida (< 1s) conectada a subdominio oficial (${suggestedSubdomain}) diseñada para convertir visitas en chats de WhatsApp.`,
-      `Captura instantánea: Botón flotante con pre-calificación para cerrar ventas en segundos.`
+      `Cliente Ideal (${persona.endCustomerAvatar.archetypeName}): ${persona.endCustomerAvatar.mobileBehavior}`,
+      `Cuello de botella aislado: ${persona.icpB2B.primaryBottleneck}`,
+      `Impacto económico estimado (MAPA): ~S/ ${monthlyLostRevenueSoles.toLocaleString()}/mes en oportunidades no capturadas (Ticket medio S/ ${mapaEconomics.inputs.T_avgTicketPEN}).`,
+      `Cambio de Oportunidad: ${persona.icpB2B.opportunitySwitch}`
     ];
 
-    whatsappPitch = `Hola equipo de *${name}* 👋, les saluda el equipo de *Todo Lima* (todolima.com).
+    whatsappPitch = `Hola equipo de *${name}* 👋, les saluda el equipo de *Todo Lima* y *Hazlo Crecer*.
 
-Vimos que tienen una excelente calificación en Google Maps en *${district}* (⭐ *${rating}* con ${reviews}) ¡Felicitaciones! 👏
+Vimos su destacada trayectoria en Google Maps en *${district}* (⭐ *${rating}* con ${reviews}).
 
-Al auditar su presencia digital, identificamos que *no cuentan con un embudo web de ventas propio*. En Lima, hasta el 50% de clientes que buscan en Google abandonan si no encuentran una landing page con catálogo y botón directo para cotizar por WhatsApp (fuga estimada de ~S/ ${monthlyLostRevenueSoles.toLocaleString()}/mes).
+💡 *${persona.hookStoryOffer.hook}*
 
-En *Todo Lima* implementamos **Embudos de Alta Conversión para Negocios Locales**:
-✅ Landing page móvil ultrarrápida (< 1 seg) bajo subdominio verificado: *${suggestedSubdomain}*
-✅ Botón de WhatsApp directo con mensaje preconfigurado para acelerar el cierre
-✅ Ficha oficial destacada en todolima.com
-✅ Posicionamiento en motores de IA (AEO / GEO para ChatGPT y Google AI)
+Al revisar su ficha pública, observamos que *no cuentan con un embudo web propio de recepción y pre-calificación*. ${persona.hookStoryOffer.story}
 
-Preparamos una maqueta interactiva sin costo para *${name}*. ¿Les gustaría ver el enlace de prueba? 🚀`;
+En *Hazlo Crecer* implementamos el sistema para *${persona.categoryName}*:
+✅ Embudo móvil ultrarrápido (< 1 seg): *${suggestedSubdomain}*
+✅ Filtrado y atención inmediata en WhatsApp para *${persona.endCustomerAvatar.archetypeName}*
+✅ Ficha conectada al directorio *todolima.com*
 
-    executiveSummary = `${name} cuenta con sólida confianza en ${district} (⭐ ${rating}), pero pierde aproximadamente S/ ${monthlyLostRevenueSoles.toLocaleString()} mensuales al carecer de un embudo web propietario. Se propone el despliegue de una arquitectura de conversión mobile-first con canalización a WhatsApp.`;
+${persona.hookStoryOffer.offer} ¿Desean revisar el informe preliminar de *${name}*? 🚀`;
 
-    callScript = `Hola, buenos días, ¿me comunico con ${name}? Mi nombre es [Tu Nombre] de Todo Lima. Los contacto porque tienen una de las mejores calificaciones de ${district} en Google Maps, pero notamos que no cuentan con un embudo web para recibir y cotizar pacientes/clientes en WhatsApp. Estimamos que se están fugando varias cotizaciones al mes. Diseñamos un prototipo gratuito de cómo quedaría su embudo de conversión. ¿A qué WhatsApp puedo compartirles el enlace demo?`;
+    executiveSummary = `[Diagnóstico Preliminar MAPA] ${name} cuenta con validación en ${district} (⭐ ${rating}), pero presenta fuga activa en la etapa de Descubrimiento y Atención al carecer de embudo web propio para su cliente ideal (${persona.endCustomerAvatar.archetypeName}). Coste de oportunidad estimado: ~S/ ${monthlyLostRevenueSoles.toLocaleString()}/mes. Se recomienda ${persona.icpB2B.opportunitySwitch}`;
+
+    callScript = `Hola, buenos días, ¿me comunico con el titular o administración de ${name}? Les saludo de Todo Lima y Hazlo Crecer. Vimos que tienen una de las mejores calificaciones de ${district} en ${persona.categoryName}. ${persona.hookStoryOffer.hook} Preparamos un diagnóstico gratuito MAPA sobre cómo capturar esas consultas en WhatsApp. ¿A qué número o correo de gerencia se lo enviamos?`;
   }
+
 
   // 2. CASO B: SOLO RED SOCIAL -> Migración a Ecosistema Web Propio
   else if (status === 'UPGRADE_SOCIAL') {
@@ -138,31 +144,36 @@ Tenemos una demo lista para mostrarles sin compromiso. ¿Les comparto el acceso?
 
   // 3. CASO C: WEB CON FALLAS O LENTA -> Optimización de Embudo & CRO
   else if (status === 'REDESIGN_WEBSITE') {
-    proposalTitle = `Auditoría CRO, Optimización de Embudo y Aceleración Web para ${name}`;
+    proposalTitle = `Auditoría MAPA & Optimización de Conversión (CRO) para ${name}`;
 
     const mainIssuesList = webAudit.issues.slice(0, 3).map(i => `• ${i}`).join('\n');
+    const latencyInfo = webAudit.latencyMs
+      ? `Fuga por latencia: Su web tarda ${(webAudit.latencyMs / 1000).toFixed(1)}s en cargar. En celulares, cada segundo adicional reduce la conversión en 20%.`
+      : `Comportamiento del cliente ideal (${persona.endCustomerAvatar.archetypeName}): ${persona.endCustomerAvatar.mobileBehavior}`;
 
     salesArguments = [
-      `Puntaje de conversión y velocidad: ${webAudit.score}/100.`,
-      `Fuga por latencia: Su web tarda ${(webAudit.latencyMs / 1000).toFixed(1)}s en cargar. En celulares, cada segundo adicional reduce la conversión en 20%.`,
+      `Puntaje de conversión y recepción actual: ${webAudit.score}/100.`,
+      latencyInfo,
       ...webAudit.issues.slice(0, 2),
-      `Optimización CRO: Rediseño del embudo con carga instantánea y botón de WhatsApp optimizado para duplicar contactos calificados.`
+      `Cambio de Oportunidad: ${persona.icpB2B.opportunitySwitch} (~S/ ${monthlyLostRevenueSoles.toLocaleString()}/mes recuperables).`
     ];
 
     whatsappPitch = `Hola equipo de *${name}* 👋, gusto en saludarlos.
 
-Les escribimos desde *Todo Lima*. Al evaluar a los principales referentes de *${district}* (⭐ *${rating}*), realizamos una auditoría técnica y de conversión a su web (*${webAudit.url}*).
+Les escribimos desde *Todo Lima* y *Hazlo Crecer*. Al evaluar a los principales referentes de *${district}* (⭐ *${rating}*), realizamos un diagnóstico preliminar MAPA sobre su presencia web (*${webAudit.url}*).
 
-Detectamos puntos críticos que están frenando sus conversiones de compra:
+💡 *${persona.hookStoryOffer.hook}*
+
+Detectamos puntos en su recorrido comercial que frenan la conversión de *${persona.endCustomerAvatar.archetypeName}*:
 ${mainIssuesList}
 ${webAudit.latencyMs > 2500 ? `👉 *Velocidad:* Tarda ${(webAudit.latencyMs / 1000).toFixed(1)}s en cargar en celulares (el estándar recomendado es < 1.5s).` : ''}
-${!webAudit.hasWhatsApp ? '👉 *Atención inmediata:* Carece de botón de WhatsApp flotante para cerrar cotizaciones en tiempo real.' : ''}
+${!webAudit.hasWhatsApp ? '👉 *Atención inmediata:* Carece de flujo de recepción y calificación en WhatsApp para cerrar en tiempo real.' : ''}
 
-Podemos modernizar su web hacia un **Embudo de Alta Conversión (CRO)** que cargue al instante y multiplique sus contactos. ¿Les gustaría recibir el reporte completo? 📊`;
+${persona.hookStoryOffer.offer} ¿Les gustaría recibir el informe completo? 📊`;
 
-    executiveSummary = `Auditoría técnica y de conversión sobre ${webAudit.url} de ${name}. Puntaje: ${webAudit.score}/100. Se detectaron puntos críticos de fuga de prospectos (${webAudit.issues.join('; ')}). Se propone reconstrucción con arquitectura Next.js de alta velocidad y optimización de embudo de ventas.`;
+    executiveSummary = `[Diagnóstico Preliminar MAPA] Revisión sobre ${webAudit.url} de ${name}. Puntaje: ${webAudit.score}/100. Hallazgos: ${webAudit.issues.join('; ')}. Coste de oportunidad estimado: ~S/ ${monthlyLostRevenueSoles.toLocaleString()}/mes. Se recomienda ${persona.icpB2B.opportunitySwitch}`;
 
-    callScript = `Hola, buenos días, llamo de Todo Lima. Realizamos una auditoría de velocidad y conversión a las webs comerciales de ${district} y analizamos la página de ${name}. Detectamos que su web tiene lentitud de carga y problemas para convertir visitas móviles en WhatsApp. Queríamos hacerles llegar el reporte gratuito y una propuesta de optimización. ¿A qué contacto de gerencia se lo podemos enviar?`;
+    callScript = `Hola, buenos días, llamo de Todo Lima y Hazlo Crecer. Realizamos una auditoría de recorrido comercial en ${district} y analizamos la página de ${name}. ${persona.hookStoryOffer.hook} Queríamos hacerles llegar el reporte gratuito MAPA y plan de acción. ¿A qué contacto de gerencia se lo podemos enviar?`;
   }
 
   // 4. CASO D: AGENTE IA 24/7 & SPEED-TO-LEAD (Alto Flujo Operativo)
@@ -334,6 +345,7 @@ Nos encantaría conversar sobre cómo optimizar la captación y rentabilidad de 
   return {
     status,
     priority,
+    tier: rankInfo?.tier || 'TIER_3_OPERATIONAL',
     suggestedSubdomain,
     proposalTitle,
     salesArguments,
@@ -343,6 +355,31 @@ Nos encantaría conversar sobre cómo optimizar la captación y rentabilidad de 
     callScript,
     monthlyLostRevenueSoles,
     contactPolicy: 'INBOUND_ONLY',
-    deliverables: deliverablesByStatus[status] || deliverablesByStatus.NEEDS_WEBSITE
+    deliverables: deliverablesByStatus[status] || deliverablesByStatus.NEEDS_WEBSITE,
+    buyerPersona: {
+      icpB2B: {
+        decisionMaker: persona.icpB2B.decisionMaker,
+        dailyReality: persona.icpB2B.dailyReality,
+        primaryBottleneck: persona.icpB2B.primaryBottleneck
+      },
+      endCustomerAvatar: persona.endCustomerAvatar
+    },
+    brunsonFramework: {
+      theBigDomino: persona.icpB2B.theBigDomino,
+      opportunitySwitch: persona.icpB2B.opportunitySwitch,
+      hookStoryOffer: persona.hookStoryOffer,
+      falseBeliefs: persona.icpB2B.falseBeliefs
+    },
+    mapaDiagnosis: {
+      methodology: 'MAPA (Mapear, Aislar, Poner Precio, Atacar)',
+      evidenceClassification: {
+        observado: `Ficha pública en ${district} con calificación ⭐ ${rating} (${reviews}), estado web: ${webAudit.type}, canal móvil: ${phoneData.isMobile ? 'Verificado' : 'No confirmado'}.`,
+        reportado: 'Pendiente de declaración del propietario en el formulario de intake (hazlocrecer.com/auditoria).',
+        hipotesisPorValidar: `${persona.icpB2B.primaryBottleneck} Impacto proyectado: +${mapaEconomics.outputs.additionalClientsPerMonth} clientes/mes (~S/ ${monthlyLostRevenueSoles.toLocaleString()}/mes).`,
+        desconocido: 'Tasa real de cierre en recepción interna, tiempo exacto de respuesta nocturna y margen neto operativo.'
+      },
+      economics: mapaEconomics
+    }
   };
 }
+
