@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "predev": "node scripts/reconcile-directory.mjs --check && node scripts/prepare-blog-images.mjs",
-    "prebuild": "node scripts/reconcile-directory.mjs --check && node scripts/prepare-blog-images.mjs",
+    "prebuild": "node scripts/reconcile-directory.mjs --check && node scripts/prepare-blog-images.mjs && node scripts/export-tool-tutorial-index.mjs",
     "build": "next build",
     "verify:seo": "node scripts/verify-seo.mjs",
     "test:seo": "node scripts/smoke-seo.mjs",

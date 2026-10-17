@@ -13,7 +13,7 @@ for (const tool of ALL_TOOLS) {
   const html = fs.readFileSync(filePath, 'utf-8');
 
   // Verify core sections and content
-  assert.ok(html.includes(tool.title), `Missing title for ${tool.slug}`);
+  assert.ok(html.includes(tool.name), `Missing title for ${tool.slug}`);
   assert.ok(html.includes('id="proposito"'), `Missing #proposito for ${tool.slug}`);
   assert.ok(html.includes('id="interfaz"'), `Missing #interfaz for ${tool.slug}`);
   assert.ok(html.includes('id="tutorial"'), `Missing #tutorial for ${tool.slug}`);

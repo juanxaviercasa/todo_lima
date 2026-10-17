@@ -18,3 +18,7 @@
   X-Robots-Tag: noindex, nofollow
 /sign-up/*
   X-Robots-Tag: noindex, nofollow
+
+/tutoriales-herramientas.json
+  Access-Control-Allow-Origin: https://nubeparapymes.online
+  Cache-Control: public, max-age=300

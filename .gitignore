@@ -20,6 +20,8 @@ node_modules/
 Thumbs.db
 
 # Debug logs
+/.next-guides-review/
+/docs/qa/tutoriales/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

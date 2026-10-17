@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import EditorialShell from '../../../components/EditorialShell.js';
 import JsonLd from '../../../components/JsonLd.js';
-import { GUIDES } from '../../../lib/guides.js';
+import { GUIDES, GUIDE_UPDATED_DATE } from '../../../lib/guides.js';
 import { getCategory } from '../../../lib/directory.js';
 import { pageMetadata, breadcrumbs, SITE_URL, EDITORIAL_DATE } from '../../../lib/seo.js';
 import { guideImages } from '../../../lib/editorialImages.js';
@@ -17,19 +17,19 @@ export function generateMetadata({ params }) {
   const guide = GUIDES.find(g => g.slug === params.slug);
   if (!guide) return {};
   const metadata = pageMetadata(`${guide.title} | Todo Lima`, guide.description, `/guias/${guide.slug}`, guideImages(guide.category).cover);
-  return { ...metadata, openGraph: { ...metadata.openGraph, type: 'article', publishedTime: EDITORIAL_DATE, modifiedTime: EDITORIAL_DATE } };
+  return { ...metadata, openGraph: { ...metadata.openGraph, type: 'article', publishedTime: EDITORIAL_DATE, modifiedTime: GUIDE_UPDATED_DATE } };
 }
 export default function GuidePage({ params }) {
   const guide = GUIDES.find(g => g.slug === params.slug);
   if (!guide) notFound();
   const category = getCategory(guide.category);
-  const others = GUIDES.filter(g => g.slug !== guide.slug).slice(0, 3);
+  const others = [...GUIDES.filter(g => g.slug !== guide.slug && g.group === guide.group), ...GUIDES.filter(g => g.group !== guide.group)].slice(0, 3);
   const persona = getBuyerPersona(category.meta.slug, category.meta.title, category.meta.niche);
   const [scope, criteria] = CATEGORY_DETAILS[guide.category] || [];
   return <EditorialShell title={guide.title} image={guideImages(guide.category).cover} intro={guide.description} trail={[["Guías", '/guias']]}>
     <article className="max-w-3xl mx-auto space-y-8">
-      <p className="text-sm text-slate-500">Por el equipo editorial de Todo Lima · <time dateTime={EDITORIAL_DATE}>9 de octubre de 2026</time> · Guía editorial de contratación</p>
-      <section className="editorial-card border-l-4 border-l-sky-500"><h2 className="font-bold text-lg mb-3">Antes de coordinar</h2><p className="leading-relaxed">{guide.answer}</p></section>
+      <p className="text-sm text-slate-500">Por el equipo editorial de Todo Lima · Actualizado el <time dateTime={GUIDE_UPDATED_DATE}>17 de octubre de 2026</time> · {guide.group}</p>
+      <section className="editorial-card border-l-4 border-l-sky-500"><h2 className="font-bold text-lg mb-3">La decisión clave</h2><p className="leading-relaxed">{guide.answer}</p></section>
       <nav aria-label="En esta guía" className="editorial-card"><p className="font-semibold mb-3">En esta guía</p><ol className="list-decimal pl-5 space-y-2">{guide.sections.map(([heading], index) => <li key={heading}><a className="text-sky-600 underline" href={`#paso-${index + 1}`}>{heading}</a></li>)}</ol></nav>
       <EditorialImage id={`detalle-${guide.category}`} caption={`${guideImages(guide.category).detail.alt} Ilustración editorial generada con IA.`} />
       {guide.sections.map(([heading, text], index) => <section key={heading} id={`paso-${index + 1}`} className="scroll-mt-24"><h2 className="text-2xl font-bold mb-4">{heading}</h2><p className="leading-relaxed text-slate-600 dark:text-slate-300">{text}</p></section>)}
@@ -40,6 +40,6 @@ export default function GuidePage({ params }) {
     </article>
     <section><h2 className="text-2xl font-bold mb-4">Continúa explorando</h2><div className="grid sm:grid-cols-3 gap-4">{others.map(g => <GuideCard key={g.slug} guide={g} />)}</div></section>
     <JsonLd data={breadcrumbs([['Inicio', '/'], ['Guías', '/guias'], [guide.title, `/guias/${guide.slug}`]])} />
-    <JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: guide.title, description: guide.description, datePublished: EDITORIAL_DATE, dateModified: EDITORIAL_DATE, mainEntityOfPage: `${SITE_URL}/guias/${guide.slug}`, author: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: 'Todo Lima', url: `${SITE_URL}/metodologia` }, publisher: { '@id': `${SITE_URL}/#organization` }, image: [guideImages(guide.category).cover, guideImages(guide.category).detail].map(image => `${SITE_URL}${image.src}`) }} />
+    <JsonLd data={{ '@context': 'https://schema.org', '@type': 'Article', headline: guide.title, description: guide.description, datePublished: EDITORIAL_DATE, dateModified: GUIDE_UPDATED_DATE, mainEntityOfPage: `${SITE_URL}/guias/${guide.slug}`, author: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: 'Todo Lima', url: `${SITE_URL}/metodologia` }, publisher: { '@id': `${SITE_URL}/#organization` }, image: [guideImages(guide.category).cover, guideImages(guide.category).detail].map(image => `${SITE_URL}${image.src}`) }} />
   </EditorialShell>;
 }

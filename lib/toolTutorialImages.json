@@ -1,0 +1,903 @@
+{
+  "calculadora-precios-venta-igv": [
+    {
+      "src": "/images/tutoriales/calculadora-precios-venta-igv-1.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Precios de Venta con IGV, paso 1: Costo del producto. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Costo del producto», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/calculadora-precios-venta-igv/",
+      "capturedAt": "2026-10-17",
+      "target": "Costo del producto",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/calculadora-precios-venta-igv-2.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Precios de Venta con IGV, paso 2: Margen de ganancia deseado. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Margen de ganancia deseado», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/calculadora-precios-venta-igv/",
+      "capturedAt": "2026-10-17",
+      "target": "Margen de ganancia deseado",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/calculadora-precios-venta-igv-3.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Precios de Venta con IGV, paso 3: Margen Inverso. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Margen Inverso», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/calculadora-precios-venta-igv/",
+      "capturedAt": "2026-10-17",
+      "target": "Margen Inverso",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/calculadora-precios-venta-igv-4.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Precios de Venta con IGV, paso 4: Comparador. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Comparador», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/calculadora-precios-venta-igv/",
+      "capturedAt": "2026-10-17",
+      "target": "Comparador",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/calculadora-precios-venta-igv-5.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Precios de Venta con IGV, paso 5: Kits. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Kits», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/calculadora-precios-venta-igv/",
+      "capturedAt": "2026-10-17",
+      "target": "Kits",
+      "matched": true
+    }
+  ],
+  "calculadora-sobrecostos-laborales": [
+    {
+      "src": "/images/tutoriales/calculadora-sobrecostos-laborales-1.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Sobrecostos Laborales, paso 1: Vista Mensual. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Vista Mensual», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/calculadora-sobrecostos-laborales/",
+      "capturedAt": "2026-10-17",
+      "target": "Vista Mensual",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/calculadora-sobrecostos-laborales-2.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Sobrecostos Laborales, paso 2: Agregar empleado. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Agregar empleado», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/calculadora-sobrecostos-laborales/",
+      "capturedAt": "2026-10-17",
+      "target": "Agregar empleado",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/calculadora-sobrecostos-laborales-3.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Sobrecostos Laborales, paso 3: TIPO DE SEGURO. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «TIPO DE SEGURO», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/calculadora-sobrecostos-laborales/",
+      "capturedAt": "2026-10-17",
+      "target": "TIPO DE SEGURO",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/calculadora-sobrecostos-laborales-4.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Sobrecostos Laborales, paso 4: Agregar. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Agregar», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/calculadora-sobrecostos-laborales/",
+      "capturedAt": "2026-10-17",
+      "target": "Agregar",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/calculadora-sobrecostos-laborales-5.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Sobrecostos Laborales, paso 5: COSTO TOTAL EMPLEADOR. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «COSTO TOTAL EMPLEADOR», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/calculadora-sobrecostos-laborales/",
+      "capturedAt": "2026-10-17",
+      "target": "COSTO TOTAL EMPLEADOR",
+      "matched": true
+    }
+  ],
+  "calculadora-prestamos-amortizaciones": [
+    {
+      "src": "/images/tutoriales/calculadora-prestamos-amortizaciones-1.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Préstamos y Amortizaciones, paso 1: Configura tu crédito. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Configura tu crédito», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/calculadora-prestamos-amortizaciones/",
+      "capturedAt": "2026-10-17",
+      "target": "Configura tu crédito",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/calculadora-prestamos-amortizaciones-2.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Préstamos y Amortizaciones, paso 2: Periodo de gracia. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Periodo de gracia», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/calculadora-prestamos-amortizaciones/",
+      "capturedAt": "2026-10-17",
+      "target": "Periodo de gracia",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/calculadora-prestamos-amortizaciones-3.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Préstamos y Amortizaciones, paso 3: Comparar escenarios. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Comparar escenarios», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/calculadora-prestamos-amortizaciones/",
+      "capturedAt": "2026-10-17",
+      "target": "Comparar escenarios",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/calculadora-prestamos-amortizaciones-4.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Préstamos y Amortizaciones, paso 4: Perfilador de capacidad de pago. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Perfilador de capacidad de pago», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/calculadora-prestamos-amortizaciones/",
+      "capturedAt": "2026-10-17",
+      "target": "Perfilador de capacidad de pago",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/calculadora-prestamos-amortizaciones-5.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Préstamos y Amortizaciones, paso 5: Tabla de amortización. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Tabla de amortización», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/calculadora-prestamos-amortizaciones/",
+      "capturedAt": "2026-10-17",
+      "target": "Tabla de amortización",
+      "matched": true
+    }
+  ],
+  "flujo-caja-pymes": [
+    {
+      "src": "/images/tutoriales/flujo-caja-pymes-1.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Flujo de Caja para Pymes, paso 1: Nuevo movimiento. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Nuevo movimiento», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/flujo-caja-pymes/",
+      "capturedAt": "2026-10-17",
+      "target": "Nuevo movimiento",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/flujo-caja-pymes-2.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Flujo de Caja para Pymes, paso 2: Fecha de vencimiento. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Fecha de vencimiento», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/flujo-caja-pymes/",
+      "capturedAt": "2026-10-17",
+      "target": "Fecha de vencimiento",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/flujo-caja-pymes-3.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Flujo de Caja para Pymes, paso 3: Categoría. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Categoría», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/flujo-caja-pymes/",
+      "capturedAt": "2026-10-17",
+      "target": "Categoría",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/flujo-caja-pymes-4.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Flujo de Caja para Pymes, paso 4: Movimientos y vencimientos. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Movimientos y vencimientos», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/flujo-caja-pymes/",
+      "capturedAt": "2026-10-17",
+      "target": "Movimientos y vencimientos",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/flujo-caja-pymes-5.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Flujo de Caja para Pymes, paso 5: Respaldo JSON. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Respaldo JSON», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/finanzas/flujo-caja-pymes/",
+      "capturedAt": "2026-10-17",
+      "target": "Respaldo JSON",
+      "matched": true
+    }
+  ],
+  "generador-codigos-qr": [
+    {
+      "src": "/images/tutoriales/generador-codigos-qr-1.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Códigos QR para Negocios, paso 1: Número de WhatsApp. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Número de WhatsApp», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/generador-codigos-qr/",
+      "capturedAt": "2026-10-17",
+      "target": "Número de WhatsApp",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-codigos-qr-2.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Códigos QR para Negocios, paso 2: Mensaje predefinido. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Mensaje predefinido», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/generador-codigos-qr/",
+      "capturedAt": "2026-10-17",
+      "target": "Mensaje predefinido",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-codigos-qr-3.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Códigos QR para Negocios, paso 3: Parámetros de rastreo (UTM). Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Parámetros de rastreo (UTM)», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/generador-codigos-qr/",
+      "capturedAt": "2026-10-17",
+      "target": "Parámetros de rastreo (UTM)",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-codigos-qr-4.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Códigos QR para Negocios, paso 4: ESTILO DEL QR. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «ESTILO DEL QR», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/generador-codigos-qr/",
+      "capturedAt": "2026-10-17",
+      "target": "ESTILO DEL QR",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-codigos-qr-5.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Códigos QR para Negocios, paso 5: Tu enlace generado. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Tu enlace generado», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/generador-codigos-qr/",
+      "capturedAt": "2026-10-17",
+      "target": "Tu enlace generado",
+      "matched": true
+    }
+  ],
+  "calculadora-flete-envio-local": [
+    {
+      "src": "/images/tutoriales/calculadora-flete-envio-local-1.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Flete y Envío Local, paso 1: Datos del paquete. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Datos del paquete», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/operaciones/calculadora-flete-envio-local/",
+      "capturedAt": "2026-10-17",
+      "target": "Datos del paquete",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/calculadora-flete-envio-local-2.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Flete y Envío Local, paso 2: Paradas de la ruta. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Paradas de la ruta», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/operaciones/calculadora-flete-envio-local/",
+      "capturedAt": "2026-10-17",
+      "target": "Paradas de la ruta",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/calculadora-flete-envio-local-3.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Flete y Envío Local, paso 3: Cotización de ruta. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Cotización de ruta», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/operaciones/calculadora-flete-envio-local/",
+      "capturedAt": "2026-10-17",
+      "target": "Cotización de ruta",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/calculadora-flete-envio-local-4.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Calculadora de Flete y Envío Local, paso 4: Manifiesto de envío. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Manifiesto de envío», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/operaciones/calculadora-flete-envio-local/",
+      "capturedAt": "2026-10-17",
+      "target": "Manifiesto de envío",
+      "matched": true
+    }
+  ],
+  "creador-facturas-proforma": [
+    {
+      "src": "/images/tutoriales/creador-facturas-proforma-1.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Creador de Facturas Proforma, paso 1: DATOS DEL EMISOR. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «DATOS DEL EMISOR», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/creador-facturas-proforma/",
+      "capturedAt": "2026-10-17",
+      "target": "DATOS DEL EMISOR",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/creador-facturas-proforma-2.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Creador de Facturas Proforma, paso 2: DETALLES DEL DOCUMENTO. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «DETALLES DEL DOCUMENTO», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/creador-facturas-proforma/",
+      "capturedAt": "2026-10-17",
+      "target": "DETALLES DEL DOCUMENTO",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/creador-facturas-proforma-3.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Creador de Facturas Proforma, paso 3: ÍTEMS. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «ÍTEMS», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/creador-facturas-proforma/",
+      "capturedAt": "2026-10-17",
+      "target": "ÍTEMS",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/creador-facturas-proforma-4.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Creador de Facturas Proforma, paso 4: PAGO RÁPIDO (CÓDIGO QR). Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «PAGO RÁPIDO (CÓDIGO QR)», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/creador-facturas-proforma/",
+      "capturedAt": "2026-10-17",
+      "target": "PAGO RÁPIDO (CÓDIGO QR)",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/creador-facturas-proforma-5.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Creador de Facturas Proforma, paso 5: DISEÑO DE PLANTILLA. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «DISEÑO DE PLANTILLA», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/creador-facturas-proforma/",
+      "capturedAt": "2026-10-17",
+      "target": "DISEÑO DE PLANTILLA",
+      "matched": true
+    }
+  ],
+  "generador-cotizaciones": [
+    {
+      "src": "/images/tutoriales/generador-cotizaciones-1.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Cotizaciones Comerciales, paso 1: Datos de la Cotización. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Datos de la Cotización», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/generador-cotizaciones/",
+      "capturedAt": "2026-10-17",
+      "target": "Datos de la Cotización",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-cotizaciones-2.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Cotizaciones Comerciales, paso 2: CONDICIONES DE PAGO. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «CONDICIONES DE PAGO», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/generador-cotizaciones/",
+      "capturedAt": "2026-10-17",
+      "target": "CONDICIONES DE PAGO",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-cotizaciones-3.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Cotizaciones Comerciales, paso 3: Ítems / Servicios. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Ítems / Servicios», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/generador-cotizaciones/",
+      "capturedAt": "2026-10-17",
+      "target": "Ítems / Servicios",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-cotizaciones-4.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Cotizaciones Comerciales, paso 4: Aplicar Detracción. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Aplicar Detracción», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/generador-cotizaciones/",
+      "capturedAt": "2026-10-17",
+      "target": "Aplicar Detracción",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-cotizaciones-5.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Cotizaciones Comerciales, paso 5: PREVISUALIZACIÓN. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «PREVISUALIZACIÓN», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/generador-cotizaciones/",
+      "capturedAt": "2026-10-17",
+      "target": "PREVISUALIZACIÓN",
+      "matched": true
+    }
+  ],
+  "crm-pymes": [
+    {
+      "src": "/images/tutoriales/crm-pymes-1.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "CRM Ligero para Pymes, paso 1: Nuevo contacto. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Nuevo contacto», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/crm-pymes/",
+      "capturedAt": "2026-10-17",
+      "target": "Nuevo contacto",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/crm-pymes-2.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "CRM Ligero para Pymes, paso 2: Nueva oportunidad. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Nueva oportunidad», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/crm-pymes/",
+      "capturedAt": "2026-10-17",
+      "target": "Nueva oportunidad",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/crm-pymes-3.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "CRM Ligero para Pymes, paso 3: Probabilidad (%). Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Probabilidad (%)», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/crm-pymes/",
+      "capturedAt": "2026-10-17",
+      "target": "Probabilidad (%)",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/crm-pymes-4.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "CRM Ligero para Pymes, paso 4: Pipeline comercial. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Pipeline comercial», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/crm-pymes/",
+      "capturedAt": "2026-10-17",
+      "target": "Pipeline comercial",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/crm-pymes-5.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "CRM Ligero para Pymes, paso 5: Respaldo JSON. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Respaldo JSON», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/ventas/crm-pymes/",
+      "capturedAt": "2026-10-17",
+      "target": "Respaldo JSON",
+      "matched": true
+    }
+  ],
+  "generador-contratos-servicios": [
+    {
+      "src": "/images/tutoriales/generador-contratos-servicios-1.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Contratos de Prestación de Servicios, paso 1: Tipo de documento. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Tipo de documento», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/legal/generador-contratos-servicios/",
+      "capturedAt": "2026-10-17",
+      "target": "Tipo de documento",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-contratos-servicios-2.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Contratos de Prestación de Servicios, paso 2: Datos del Contratista. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Datos del Contratista», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/legal/generador-contratos-servicios/",
+      "capturedAt": "2026-10-17",
+      "target": "Datos del Contratista",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-contratos-servicios-3.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Contratos de Prestación de Servicios, paso 3: Detalles del Servicio. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Detalles del Servicio», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/legal/generador-contratos-servicios/",
+      "capturedAt": "2026-10-17",
+      "target": "Detalles del Servicio",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-contratos-servicios-4.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Contratos de Prestación de Servicios, paso 4: Cláusulas personalizadas. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Cláusulas personalizadas», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/legal/generador-contratos-servicios/",
+      "capturedAt": "2026-10-17",
+      "target": "Cláusulas personalizadas",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-contratos-servicios-5.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Contratos de Prestación de Servicios, paso 5: Firma digital. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Firma digital», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/legal/generador-contratos-servicios/",
+      "capturedAt": "2026-10-17",
+      "target": "Firma digital",
+      "matched": true
+    }
+  ],
+  "generador-politicas-devolucion": [
+    {
+      "src": "/images/tutoriales/generador-politicas-devolucion-1.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Políticas de Devolución, paso 1: 01 — ¿QUÉ VENDES?. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «01 — ¿QUÉ VENDES?», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/legal/generador-politicas-devolucion/",
+      "capturedAt": "2026-10-17",
+      "target": "01 — ¿QUÉ VENDES?",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-politicas-devolucion-2.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Políticas de Devolución, paso 2: Nombre de la tienda. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Nombre de la tienda», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/legal/generador-politicas-devolucion/",
+      "capturedAt": "2026-10-17",
+      "target": "Nombre de la tienda",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-politicas-devolucion-3.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Políticas de Devolución, paso 3: Condición del empaque. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Condición del empaque», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/legal/generador-politicas-devolucion/",
+      "capturedAt": "2026-10-17",
+      "target": "Condición del empaque",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-politicas-devolucion-4.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Políticas de Devolución, paso 4: Generar política. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Generar política», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/legal/generador-politicas-devolucion/",
+      "capturedAt": "2026-10-17",
+      "target": "Generar política",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-politicas-devolucion-5.webp",
+      "width": 726,
+      "height": 50,
+      "alt": "Generador de Políticas de Devolución, paso 5: Desbloquear. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Desbloquear», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/legal/generador-politicas-devolucion/",
+      "capturedAt": "2026-10-17",
+      "target": "Desbloquear",
+      "matched": true
+    }
+  ],
+  "generador-politicas-terminos": [
+    {
+      "src": "/images/tutoriales/generador-politicas-terminos-1.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Políticas de Privacidad y Términos, paso 1: Nombre de la empresa. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Nombre de la empresa», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/legal/generador-politicas-terminos/",
+      "capturedAt": "2026-10-17",
+      "target": "Nombre de la empresa",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-politicas-terminos-2.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Políticas de Privacidad y Términos, paso 2: Identificación fiscal. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Identificación fiscal», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/legal/generador-politicas-terminos/",
+      "capturedAt": "2026-10-17",
+      "target": "Identificación fiscal",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-politicas-terminos-3.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Políticas de Privacidad y Términos, paso 3: Cumplimiento legal. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Cumplimiento legal», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/legal/generador-politicas-terminos/",
+      "capturedAt": "2026-10-17",
+      "target": "Cumplimiento legal",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-politicas-terminos-4.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Políticas de Privacidad y Términos, paso 4: Privacidad. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Privacidad», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/legal/generador-politicas-terminos/",
+      "capturedAt": "2026-10-17",
+      "target": "Privacidad",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-politicas-terminos-5.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Políticas de Privacidad y Términos, paso 5: Generar documentos. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Generar documentos», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/legal/generador-politicas-terminos/",
+      "capturedAt": "2026-10-17",
+      "target": "Generar documentos",
+      "matched": true
+    }
+  ],
+  "auditor-seo-basico": [
+    {
+      "src": "/images/tutoriales/auditor-seo-basico-1.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Auditor Básico de SEO On-Page, paso 1: Extracción automática. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Extracción automática», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/marketing/auditor-seo-basico/",
+      "capturedAt": "2026-10-17",
+      "target": "Extracción automática",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/auditor-seo-basico-2.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Auditor Básico de SEO On-Page, paso 2: Meta Title. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Meta Title», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/marketing/auditor-seo-basico/",
+      "capturedAt": "2026-10-17",
+      "target": "Meta Title",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/auditor-seo-basico-3.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Auditor Básico de SEO On-Page, paso 3: Mejorar con IA. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Mejorar con IA», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/marketing/auditor-seo-basico/",
+      "capturedAt": "2026-10-17",
+      "target": "Mejorar con IA",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/auditor-seo-basico-4.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Auditor Básico de SEO On-Page, paso 4: Open Graph. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Open Graph», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/marketing/auditor-seo-basico/",
+      "capturedAt": "2026-10-17",
+      "target": "Open Graph",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/auditor-seo-basico-5.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Auditor Básico de SEO On-Page, paso 5: Comparador SEO. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Comparador SEO», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/marketing/auditor-seo-basico/",
+      "capturedAt": "2026-10-17",
+      "target": "Comparador SEO",
+      "matched": true
+    }
+  ],
+  "conversor-optimizador-imagenes": [
+    {
+      "src": "/images/tutoriales/conversor-optimizador-imagenes-1.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Conversor y Optimizador de Imágenes WebP, paso 1: Arrastra tus imágenes o haz clic. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Arrastra tus imágenes o haz clic», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/productividad/conversor-optimizador-imagenes/",
+      "capturedAt": "2026-10-17",
+      "target": "Arrastra tus imágenes o haz clic",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/conversor-optimizador-imagenes-2.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Conversor y Optimizador de Imágenes WebP, paso 2: Calidad global. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Calidad global», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/productividad/conversor-optimizador-imagenes/",
+      "capturedAt": "2026-10-17",
+      "target": "Calidad global",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/conversor-optimizador-imagenes-3.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Conversor y Optimizador de Imágenes WebP, paso 3: Recortar y redimensionar. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Recortar y redimensionar», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/productividad/conversor-optimizador-imagenes/",
+      "capturedAt": "2026-10-17",
+      "target": "Recortar y redimensionar",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/conversor-optimizador-imagenes-4.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Conversor y Optimizador de Imágenes WebP, paso 4: Marca de agua (opcional). Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Marca de agua (opcional)», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/productividad/conversor-optimizador-imagenes/",
+      "capturedAt": "2026-10-17",
+      "target": "Marca de agua (opcional)",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/conversor-optimizador-imagenes-5.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Conversor y Optimizador de Imágenes WebP, paso 5: Descargar ZIP. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Descargar ZIP», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/productividad/conversor-optimizador-imagenes/",
+      "capturedAt": "2026-10-17",
+      "target": "Descargar ZIP",
+      "matched": true
+    }
+  ],
+  "analizador-titulares": [
+    {
+      "src": "/images/tutoriales/analizador-titulares-1.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Analizador de Titulares Comerciales, paso 1: Escribe tu titular. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Escribe tu titular», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/marketing/analizador-titulares/",
+      "capturedAt": "2026-10-17",
+      "target": "Escribe tu titular",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/analizador-titulares-2.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Analizador de Titulares Comerciales, paso 2: CARACTERES. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «CARACTERES», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/marketing/analizador-titulares/",
+      "capturedAt": "2026-10-17",
+      "target": "CARACTERES",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/analizador-titulares-3.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Analizador de Titulares Comerciales, paso 3: HUELLA EMOCIONAL. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «HUELLA EMOCIONAL», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/marketing/analizador-titulares/",
+      "capturedAt": "2026-10-17",
+      "target": "HUELLA EMOCIONAL",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/analizador-titulares-4.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Analizador de Titulares Comerciales, paso 4: Google. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Google», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/marketing/analizador-titulares/",
+      "capturedAt": "2026-10-17",
+      "target": "Google",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/analizador-titulares-5.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Analizador de Titulares Comerciales, paso 5: Test A/B. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Test A/B», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/marketing/analizador-titulares/",
+      "capturedAt": "2026-10-17",
+      "target": "Test A/B",
+      "matched": true
+    }
+  ],
+  "generador-paletas-corporativas": [
+    {
+      "src": "/images/tutoriales/generador-paletas-corporativas-1.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Paletas Corporativas de Color, paso 1: Tu combinación de colores. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Tu combinación de colores», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/productividad/generador-paletas-corporativas/",
+      "capturedAt": "2026-10-17",
+      "target": "Tu combinación de colores",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-paletas-corporativas-2.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Paletas Corporativas de Color, paso 2: Generar combinación. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Generar combinación», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/productividad/generador-paletas-corporativas/",
+      "capturedAt": "2026-10-17",
+      "target": "Generar combinación",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-paletas-corporativas-3.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Paletas Corporativas de Color, paso 3: Matriz de contraste cruzado. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Matriz de contraste cruzado», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/productividad/generador-paletas-corporativas/",
+      "capturedAt": "2026-10-17",
+      "target": "Matriz de contraste cruzado",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-paletas-corporativas-4.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Paletas Corporativas de Color, paso 4: Deuteranopía. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Deuteranopía», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/productividad/generador-paletas-corporativas/",
+      "capturedAt": "2026-10-17",
+      "target": "Deuteranopía",
+      "matched": true
+    },
+    {
+      "src": "/images/tutoriales/generador-paletas-corporativas-5.webp",
+      "width": 1280,
+      "height": 900,
+      "alt": "Generador de Paletas Corporativas de Color, paso 5: Descargar CSS. Captura de la interfaz de Nube para Pymes.",
+      "caption": "Localiza «Descargar CSS», resaltado en azul, y sigue la indicación de este paso.",
+      "source": "https://nubeparapymes.online/herramientas/productividad/generador-paletas-corporativas/",
+      "capturedAt": "2026-10-17",
+      "target": "Descargar CSS",
+      "matched": true
+    }
+  ]
+}

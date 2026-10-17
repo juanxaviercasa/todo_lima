@@ -18,7 +18,7 @@ import {
 
 const baseMetadata = pageMetadata(
   'Herramientas y Calculadoras para Negocios en Lima | Todo Lima',
-  'Centro de utilidades gratuitas para comercios y pymes en Lima Metropolitana: calculadora de IGV 18%, generador de QR Yape/Plin, flete local, cotizaciones y contratos.',
+  'Centro de utilidades gratuitas para comercios y pymes en Lima Metropolitana: calculadora de IGV 18%, generador de QR para WhatsApp, flete local, cotizaciones y contratos.',
   '/herramientas',
   TOOLS_HERO
 );
@@ -80,16 +80,16 @@ const TOOLS_DATA = [
   {
     id: 'ventas-operaciones',
     category: 'Ventas, Cobros & Envíos Locales',
-    subtitle: 'Cobros digitales con Yape y Plin, estimación de tarifas de reparto en Lima, proformas, cotizaciones y CRM',
+    subtitle: 'Contacto por WhatsApp mediante QR, estimación de tarifas de reparto en Lima, proformas, cotizaciones y CRM',
     categoryIcon: QrCode,
     color: 'sky',
     tools: [
       {
         slug: 'generador-codigos-qr',
-        title: 'Generador de Códigos QR (Yape, Plin y WhatsApp)',
-        description: 'Genera códigos QR de alta resolución listos para imprimir en tu mostrador o vitrina para cobrar con billeteras digitales.',
+        title: 'Generador de enlaces y códigos QR para WhatsApp',
+        description: 'Crea un enlace de WhatsApp con mensaje predefinido y un código QR para facilitar consultas desde tu mostrador, vitrina o redes.',
         url: 'https://nubeparapymes.online/herramientas/ventas/generador-codigos-qr/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-generador-codigos-qr',
-        badge: 'Yape / Plin',
+        badge: 'WhatsApp',
         popular: true
       },
       {
@@ -428,7 +428,7 @@ export default function HerramientasHubPage() {
             '@type': 'CollectionPage',
             name: 'Herramientas y Calculadoras para Negocios en Lima',
             url: `${SITE_URL}/herramientas`,
-            description: 'Centro de utilidades gratuitas para comercios y pymes en Lima Metropolitana: calculadora de IGV 18%, generador de QR Yape/Plin, flete local, cotizaciones y contratos.',
+            description: 'Centro de utilidades gratuitas para comercios y pymes en Lima Metropolitana: calculadora de IGV 18%, generador de QR para WhatsApp, flete local, cotizaciones y contratos.',
             isPartOf: { '@id': `${SITE_URL}/#website` },
             mainEntity: {
               '@type': 'ItemList',

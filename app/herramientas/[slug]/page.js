@@ -1,3 +1,5 @@
+import TutorialScreenshot from '../../../components/TutorialScreenshot.js';
+import tutorialImages from '../../../lib/toolTutorialImages.json';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Navbar from '../../../components/Navbar.js';
@@ -80,6 +82,8 @@ export default function HerramientaDetailPage({ params }) {
         position: index + 1,
         name: step.stepTitle,
         text: `${step.uiTarget}: ${step.instruction} ${step.whatHappens}`,
+        image: tutorialImages[tool.slug]?.[index] ? `${SITE_URL}${tutorialImages[tool.slug][index].src}` : undefined,
+        url: `${SITE_URL}/herramientas/${tool.slug}#tutorial-paso-${index + 1}`,
       })),
     },
     {
@@ -180,7 +184,7 @@ export default function HerramientaDetailPage({ params }) {
                     />
                     <div className="p-3 bg-slate-900/95 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
                       <span className="font-medium truncate max-w-[240px]">{tool.appTitle}</span>
-                      <span className="text-emerald-400 font-bold shrink-0">100% Gratuita</span>
+                      <span className="text-emerald-400 font-bold shrink-0">Nube para Pymes</span>
                     </div>
                   </div>
                 </div>
@@ -241,7 +245,7 @@ export default function HerramientaDetailPage({ params }) {
                 Mapa de Controles, Pestañas y Paneles
               </h2>
               <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
-                Esta es la estructura exacta que encontrarás al abrir la herramienta interactiva:
+                Reconoce las zonas de trabajo de la herramienta. Las capturas del tutorial muestran la interfaz consultada; sus controles pueden cambiar con futuras actualizaciones.
               </p>
             </div>
 
@@ -299,21 +303,24 @@ export default function HerramientaDetailPage({ params }) {
                 Tutorial Paso a Paso: Cómo Usar la Herramienta
               </h2>
               <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
-                Sigue estas instrucciones exactas para operar la interfaz interactiva y obtener resultados precisos:
+                Abre la herramienta en otra pestaña y sigue el recorrido. Amplía las capturas para localizar los controles; los valores son ejemplos ficticios.
               </p>
             </div>
 
-            <div className="space-y-4">
+            <nav aria-label="Pasos del tutorial" className="flex flex-wrap gap-2">{tool.tutorialSteps.map((step, idx) => <a key={step.stepTitle} href={`#tutorial-paso-${idx + 1}`} className="min-h-11 inline-flex items-center px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-700 text-sm text-sky-700 dark:text-sky-300">{idx + 1}. {step.stepTitle}</a>)}</nav>
+            <p className="text-sm text-slate-600 dark:text-slate-300">Practica en <a href={tool.url} target="_blank" rel="noopener noreferrer" className="underline font-semibold">{tool.name} en Nube para Pymes ↗</a>. Mantén esta guía abierta para consultar cada paso.</p>
+            <div className="space-y-6">
               {tool.tutorialSteps.map((step, idx) => (
                 <div
                   key={idx}
-                  className="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col md:flex-row gap-5 items-start"
+                  id={`tutorial-paso-${idx + 1}`}
+                  className="scroll-mt-24 bg-white dark:bg-slate-900 p-4 sm:p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col gap-5 items-start"
                 >
                   <div className="w-10 h-10 rounded-xl bg-sky-500 text-white font-black text-lg flex items-center justify-center shrink-0 shadow-md shadow-sky-500/20">
                     {idx + 1}
                   </div>
 
-                  <div className="flex-1 space-y-2">
+                  <div className="w-full min-w-0 space-y-2">
                     <div className="flex flex-wrap items-center gap-2">
                       <span className="text-xs font-semibold px-2.5 py-0.5 rounded-md bg-sky-50 dark:bg-sky-950/60 text-sky-600 dark:text-sky-400 border border-sky-200 dark:border-sky-800">
                         {step.uiTarget}
@@ -323,6 +330,7 @@ export default function HerramientaDetailPage({ params }) {
                     <h3 className="text-base font-bold text-slate-900 dark:text-white">
                       {step.stepTitle}
                     </h3>
+                    <TutorialScreenshot image={tutorialImages[tool.slug]?.[idx]} number={idx + 1} />
 
                     <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
                       {step.instruction}
@@ -352,7 +360,7 @@ export default function HerramientaDetailPage({ params }) {
                 Fórmulas Matemáticas y Lógica Interna
               </h2>
               <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
-                Estas son las ecuaciones exactas que ejecuta el motor de la aplicación y cómo puedes verificarlas manualmente:
+                Estas fórmulas explican el modelo del ejemplo. Revisa tasas, supuestos y redondeos de tu caso antes de usar los resultados.
               </p>
             </div>
 
@@ -402,7 +410,7 @@ export default function HerramientaDetailPage({ params }) {
                 Caso Práctico Resuelto Paso a Paso
               </h2>
               <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
-                Ejemplo real con los datos exactos que debes digitar en la herramienta y los resultados obtenidos:
+                Ejemplo didáctico con datos ficticios para comprender entradas y resultados:
               </p>
             </div>
 
