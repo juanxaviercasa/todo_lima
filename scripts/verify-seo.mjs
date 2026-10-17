@@ -85,6 +85,13 @@ for (const url of toolUrls) {
   assert(fs.existsSync(`public${img.src}`), `Missing tool image file: public${img.src}`);
 }
 
-console.log(JSON.stringify({ validJsonFiles: files.length, sourceRecords: total, deduplicatedCategoryRecords: getDirectory().reduce((sum, c) => sum + c.businesses.length, 0), categoryPages: CATEGORIES.length, macroAreas: MACRO_AREAS.length, activeAreas: activeAreas.length, localPages: locals.length, profiles: profiles.length, guides: GUIDES.length, toolsImages: toolUrls.length }, null, 2));
+// Tools catalog and tutorial integrity check
+const { ALL_TOOLS } = await import('../lib/toolsCatalog.js');
+assert.equal(ALL_TOOLS.length, 16, 'Must define 16 catalog tools');
+for (const t of ALL_TOOLS) {
+  assert(t.slug && t.name && t.purpose && t.interfaceMap?.length >= 3 && t.tutorialSteps?.length >= 4 && t.formulas?.length >= 2 && t.workedExample, `Incomplete tool tutorial in catalog: ${t.slug}`);
+}
+
+console.log(JSON.stringify({ validJsonFiles: files.length, sourceRecords: total, deduplicatedCategoryRecords: getDirectory().reduce((sum, c) => sum + c.businesses.length, 0), categoryPages: CATEGORIES.length, macroAreas: MACRO_AREAS.length, activeAreas: activeAreas.length, localPages: locals.length, profiles: profiles.length, guides: GUIDES.length, toolsImages: toolUrls.length, toolsCatalog: ALL_TOOLS.length }, null, 2));
 
 

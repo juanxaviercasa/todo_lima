@@ -6,6 +6,7 @@ import { getPillars } from '../lib/atlas.js';
 import { SITE_URL, EDITORIAL_DATE } from '../lib/seo.js';
 import { getMacroAreas } from '../lib/areasTaxonomy.js';
 import { PURCHASING_POWER_RANKING } from '../auditor/config/purchasingPowerRanking.js';
+import { getAllToolSlugs } from '../lib/toolsCatalog.js';
 export default function sitemap() {
   const route = (pathname, modified = EDITORIAL_DATE) => ({ url: `${SITE_URL}${pathname}`, lastModified: modified });
   const pages = ['', '/guias', '/auditoria', '/metodologia', '/correcciones', '/para-negocios', '/privacidad', '/terminos', '/cookies', '/aviso-legal', '/derechos-arco', '/politica-anti-spam', '/descargo-de-responsabilidad', '/reembolsos-y-garantias', '/baja', '/libro-de-reclamaciones'];
@@ -27,6 +28,7 @@ export default function sitemap() {
     ...getProfiles().map(p => route(`/negocios/${p.slug}`)),
     ...GUIDES.map(g => route(`/guias/${g.slug}`)),
     ...PURCHASING_POWER_RANKING.map(c => route(`/auditoria/${c.slug}`)),
+    ...getAllToolSlugs().map(slug => route(`/herramientas/${slug}`, '2026-10-17')),
   ];
 }
 

@@ -2,8 +2,9 @@ import assert from 'node:assert/strict';
 import { chromium } from 'playwright';
 import { getDirectory, getLocalPages, getProfiles } from '../lib/directory.js';
 import { GUIDES } from '../lib/guides.js';
+import { getAllToolSlugs } from '../lib/toolsCatalog.js';
 const origin = process.env.SEO_TEST_ORIGIN || 'http://localhost:3000';
-const paths = ['/', '/herramientas', '/guias', '/metodologia', '/correcciones', '/para-negocios', ...getDirectory().map(c => `/${c.meta.slug}`), ...getLocalPages().map(p => `/${p.category}/${p.slug}`), ...getProfiles().map(p => `/negocios/${p.slug}`), ...GUIDES.map(g => `/guias/${g.slug}`)];
+const paths = ['/', '/herramientas', '/guias', '/metodologia', '/correcciones', '/para-negocios', ...getDirectory().map(c => `/${c.meta.slug}`), ...getLocalPages().map(p => `/${p.category}/${p.slug}`), ...getProfiles().map(p => `/negocios/${p.slug}`), ...GUIDES.map(g => `/guias/${g.slug}`), ...getAllToolSlugs().map(s => `/herramientas/${s}`)];
 for (let i = 0; i < paths.length; i += 4) await Promise.all(paths.slice(i, i + 4).map(async pathname => {
   const response = await fetch(`${origin}${pathname}`);
   assert.equal(response.status, 200, pathname);

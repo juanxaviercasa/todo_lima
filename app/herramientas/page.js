@@ -13,6 +13,7 @@ import {
   TrendingUp,
   ArrowRight,
   CheckCircle2,
+  BookOpen,
 } from 'lucide-react';
 
 const baseMetadata = pageMetadata(
@@ -46,6 +47,7 @@ const TOOLS_DATA = [
     color: 'emerald',
     tools: [
       {
+        slug: 'calculadora-precios-venta-igv',
         title: 'Calculadora de Precios con IGV (18% SUNAT)',
         description: 'Calcula al instante el valor de venta, IGV desglosado y precio final al consumidor conforme a la normativa tributaria peruana.',
         url: 'https://nubeparapymes.online/herramientas/finanzas/calculadora-precios-venta-igv/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-calculadora-precios-venta-igv',
@@ -53,18 +55,21 @@ const TOOLS_DATA = [
         popular: true
       },
       {
+        slug: 'calculadora-sobrecostos-laborales',
         title: 'Calculadora de Sobrecostos Laborales Perú',
         description: 'Simula el costo real de planilla: régimen mype, gratificaciones, CTS, EsSalud (9%) y vacaciones en el Perú.',
         url: 'https://nubeparapymes.online/herramientas/finanzas/calculadora-sobrecostos-laborales/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-calculadora-sobrecostos-laborales',
         badge: 'Laboral Perú'
       },
       {
+        slug: 'calculadora-prestamos-amortizaciones',
         title: 'Calculadora de Préstamos y Amortizaciones',
         description: 'Evalúa cronogramas de pago, cuotas fijas, método francés y costo financiero total para financiamiento comercial.',
         url: 'https://nubeparapymes.online/herramientas/finanzas/calculadora-prestamos-amortizaciones/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-calculadora-prestamos-amortizaciones',
         badge: 'Financiero'
       },
       {
+        slug: 'flujo-caja-pymes',
         title: 'Flujo de Caja y Cobranzas para Pymes',
         description: 'Plantilla interactiva para proyectar ingresos semanales, egresos fijos y control de cuentas por cobrar en soles.',
         url: 'https://nubeparapymes.online/herramientas/finanzas/flujo-caja-pymes/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-flujo-caja-pymes',
@@ -80,6 +85,7 @@ const TOOLS_DATA = [
     color: 'sky',
     tools: [
       {
+        slug: 'generador-codigos-qr',
         title: 'Generador de Códigos QR (Yape, Plin y WhatsApp)',
         description: 'Genera códigos QR de alta resolución listos para imprimir en tu mostrador o vitrina para cobrar con billeteras digitales.',
         url: 'https://nubeparapymes.online/herramientas/ventas/generador-codigos-qr/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-generador-codigos-qr',
@@ -87,6 +93,7 @@ const TOOLS_DATA = [
         popular: true
       },
       {
+        slug: 'calculadora-flete-envio-local',
         title: 'Calculadora de Flete y Envíos Locales en Lima',
         description: 'Estima costos y tarifas de despacho por distancia y peso para entregas entre los 43 distritos de Lima Metropolitana.',
         url: 'https://nubeparapymes.online/herramientas/operaciones/calculadora-flete-envio-local/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-calculadora-flete-envio-local',
@@ -94,18 +101,21 @@ const TOOLS_DATA = [
         popular: true
       },
       {
+        slug: 'creador-facturas-proforma',
         title: 'Creador de Facturas Proforma y Presupuestos',
         description: 'Genera documentos proforma formales con logo, RUC, detalle de productos y cálculo automático de totales para clientes.',
         url: 'https://nubeparapymes.online/herramientas/ventas/creador-facturas-proforma/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-creador-facturas-proforma',
         badge: 'Comercial'
       },
       {
+        slug: 'generador-cotizaciones',
         title: 'Generador de Cotizaciones Comerciales',
         description: 'Ideal para técnicos, gasfiteros, carpinteros, vidrierías y pintores que necesitan enviar cotizaciones claras por WhatsApp.',
         url: 'https://nubeparapymes.online/herramientas/ventas/generador-cotizaciones/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-generador-cotizaciones',
         badge: 'Servicios Técnicos'
       },
       {
+        slug: 'crm-pymes',
         title: 'Micro CRM y Pipeline Comercial',
         description: 'Gestiona prospectos, estados de negociación y tareas de seguimiento de ventas sin pagar suscripciones mensuales.',
         url: 'https://nubeparapymes.online/herramientas/ventas/crm-pymes/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-crm-pymes',
@@ -121,18 +131,21 @@ const TOOLS_DATA = [
     color: 'amber',
     tools: [
       {
+        slug: 'generador-contratos-servicios',
         title: 'Generador de Contratos de Prestación de Servicios',
         description: 'Minuta contractual redactada bajo el Código Civil peruano para proteger tus acuerdos comerciales y plazos de entrega.',
         url: 'https://nubeparapymes.online/herramientas/legal/generador-contratos-servicios/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-generador-contratos-servicios',
         badge: 'Legal Perú'
       },
       {
+        slug: 'generador-politicas-devolucion',
         title: 'Generador de Políticas de Devolución y Garantías',
         description: 'Define condiciones de cambio, reembolso y garantías para tu tienda física o virtual según la Ley de Protección al Consumidor.',
         url: 'https://nubeparapymes.online/herramientas/legal/generador-politicas-devolucion/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-generador-politicas-devolucion',
         badge: 'Indecopi'
       },
       {
+        slug: 'generador-politicas-terminos',
         title: 'Generador de Términos y Condiciones Web',
         description: 'Genera los términos de uso estándar para tu sitio web, catálogo digital o landing page comercial.',
         url: 'https://nubeparapymes.online/herramientas/legal/generador-politicas-terminos/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-generador-politicas-terminos',
@@ -148,12 +161,14 @@ const TOOLS_DATA = [
     color: 'violet',
     tools: [
       {
+        slug: 'auditor-seo-basico',
         title: 'Auditor SEO Básico y Estructura Web',
         description: 'Audita títulos, etiquetas meta, jerarquía H1-H3 y legibilidad móvil para mejorar el posicionamiento en Google.',
         url: 'https://nubeparapymes.online/herramientas/marketing/auditor-seo-basico/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-auditor-seo-basico',
         badge: 'SEO Técnico'
       },
       {
+        slug: 'conversor-optimizador-imagenes',
         title: 'Optimizador y Conversor a Formato WebP',
         description: 'Reduce el peso de las fotos de tus productos y servicios hasta en un 80% sin perder calidad visual.',
         url: 'https://nubeparapymes.online/herramientas/productividad/conversor-optimizador-imagenes/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-conversor-optimizador-imagenes',
@@ -161,12 +176,14 @@ const TOOLS_DATA = [
         popular: true
       },
       {
+        slug: 'analizador-titulares',
         title: 'Analizador de Titulares Persuasivos',
         description: 'Evalúa la fuerza emocional y tasa de clics de los titulares de tus anuncios, publicaciones o promociones.',
         url: 'https://nubeparapymes.online/herramientas/marketing/analizador-titulares/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-analizador-titulares',
         badge: 'Copywriting'
       },
       {
+        slug: 'generador-paletas-corporativas',
         title: 'Generador de Paletas Corporativas',
         description: 'Crea combinaciones de colores contrastadas y profesionales para la imagen gráfica de tu comercio.',
         url: 'https://nubeparapymes.online/herramientas/productividad/generador-paletas-corporativas/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-generador-paletas-corporativas',
@@ -227,7 +244,7 @@ export default function HerramientasHubPage() {
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" aria-hidden="true" /> Adaptadas a Normativa de Perú (SUNAT)
               </span>
               <span className="flex items-center gap-1.5 bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700">
-                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" aria-hidden="true" /> Sin Registro Requerido
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" aria-hidden="true" /> Tutoriales y Fórmulas Detalladas
               </span>
             </div>
 
@@ -274,24 +291,29 @@ export default function HerramientasHubPage() {
                   {cat.tools.map((tool, tIdx) => {
                     const toolImage = getToolImage(tool.url) || TOOL_IMAGES[new URL(tool.url).pathname];
                     return (
-                      <a
+                      <article
                         key={tIdx}
-                        href={tool.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="group relative overflow-hidden bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-2xl shadow-sm hover:shadow-md hover:border-sky-500/50 dark:hover:border-sky-500/50 transition-all flex flex-col"
+                        data-tool-card
+                        className="group relative overflow-hidden bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-2xl shadow-sm hover:shadow-md hover:border-sky-500/50 dark:hover:border-sky-500/50 transition-all flex flex-col justify-between"
                       >
-                        <img
-                          {...toolImage}
-                          sizes="(min-width: 768px) 550px, 100vw"
-                          width="960"
-                          height="540"
-                          loading="lazy"
-                          decoding="async"
-                          className="block w-full h-auto aspect-video object-contain bg-slate-100 dark:bg-slate-950"
-                        />
-                        <div className="p-5 flex flex-col flex-1">
-                          <div className="flex-1">
+                        <div>
+                          <Link
+                            href={`/herramientas/${tool.slug}`}
+                            className="block overflow-hidden bg-slate-100 dark:bg-slate-950 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-500"
+                            aria-label={`Ver tutorial y fórmulas de ${tool.title}`}
+                          >
+                            <img
+                              {...toolImage}
+                              sizes="(min-width: 768px) 550px, 100vw"
+                              width="960"
+                              height="540"
+                              loading="lazy"
+                              decoding="async"
+                              className="block w-full h-auto aspect-video object-contain bg-slate-100 dark:bg-slate-950 group-hover:scale-[1.015] transition-transform duration-300"
+                            />
+                          </Link>
+
+                          <div className="p-5 pb-0">
                             <div className="flex items-center justify-between gap-2 mb-2.5">
                               <span className="text-[11px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200/80 dark:border-slate-700">
                                 {tool.badge}
@@ -303,22 +325,45 @@ export default function HerramientasHubPage() {
                               )}
                             </div>
 
-                            <h3 className="text-base font-bold text-slate-900 dark:text-white group-hover:text-sky-600 dark:group-hover:text-sky-400 transition-colors flex items-center justify-between gap-2 mb-2">
-                              <span>{tool.title}</span>
-                              <ExternalLink className="w-4 h-4 text-slate-400 group-hover:text-sky-500 transition-colors shrink-0" aria-hidden="true" />
+                            <h3 className="text-base font-bold text-slate-900 dark:text-white mb-2">
+                              <Link
+                                href={`/herramientas/${tool.slug}`}
+                                className="hover:text-sky-600 dark:hover:text-sky-400 transition-colors focus:outline-none focus-visible:underline"
+                              >
+                                {tool.title}
+                              </Link>
                             </h3>
 
                             <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
                               {tool.description}
                             </p>
                           </div>
+                        </div>
 
-                          <div className="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800/80 flex items-center justify-between text-xs font-bold text-sky-600 dark:text-sky-400 group-hover:translate-x-0.5 transition-transform">
-                            <span>Abrir herramienta interactiva</span>
-                            <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
+                        {/* Footer con doble acción diferenciada */}
+                        <div className="p-5 pt-4">
+                          <div className="pt-3.5 border-t border-slate-100 dark:border-slate-800/80 flex flex-wrap items-center justify-between gap-2">
+                            <Link
+                              href={`/herramientas/${tool.slug}`}
+                              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-sky-50 dark:hover:bg-sky-950/60 text-slate-700 dark:text-slate-200 hover:text-sky-600 dark:hover:text-sky-400 text-xs font-semibold border border-slate-200/80 dark:border-slate-700 transition-colors"
+                            >
+                              <BookOpen className="w-3.5 h-3.5 text-sky-500" aria-hidden="true" />
+                              <span>Ver tutorial y fórmulas</span>
+                            </Link>
+
+                            <a
+                              href={tool.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-sky-600 hover:bg-sky-500 text-white text-xs font-bold shadow-sm transition-colors"
+                              aria-label={`Abrir herramienta interactiva ${tool.title} en nueva pestaña`}
+                            >
+                              <span>Abrir herramienta</span>
+                              <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
+                            </a>
                           </div>
                         </div>
-                      </a>
+                      </article>
                     );
                   })}
                 </div>

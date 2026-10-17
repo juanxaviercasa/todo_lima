@@ -32,21 +32,33 @@ const browser = await chromium.launch({ headless: true });
 try {
   for (const width of [390, 768, 1440]) {
     const page = await browser.newPage({ viewport: { width, height: 900 } });
-    for (const route of ['/blog', '/herramientas']) {
+    for (const route of ['/blog', '/herramientas', '/herramientas/calculadora-precios-venta-igv']) {
       await page.goto(base + route, { waitUntil: 'networkidle' });
       await page.evaluate(async () => {
         for (const img of document.images) { img.loading = 'eager'; await img.decode(); }
       });
-      const geometry = await page.locator('.editorial-hero-media').evaluate(el => {
-        const frame = el.getBoundingClientRect();
-        const image = el.querySelector('img').getBoundingClientRect();
-        return { top: image.top - frame.top, gap: frame.height - image.height, ratio: image.width / image.height };
-      });
-      assert.ok(Math.abs(geometry.top) < 1 && Math.abs(geometry.gap) < 1, `${route}: letterboxing at ${width}`);
-      assert.ok(Math.abs(geometry.ratio - 16 / 9) < .002, `${route}: not 16:9`);
+      const heroMedia = page.locator('.editorial-hero-media');
+      if (await heroMedia.count() > 0) {
+        const geometry = await heroMedia.evaluate(el => {
+          const frame = el.getBoundingClientRect();
+          const image = el.querySelector('img').getBoundingClientRect();
+          return { top: image.top - frame.top, gap: frame.height - image.height, ratio: image.width / image.height };
+        });
+        assert.ok(Math.abs(geometry.top) < 1 && Math.abs(geometry.gap) < 1, `${route}: letterboxing at ${width}`);
+        assert.ok(Math.abs(geometry.ratio - 16 / 9) < .002, `${route}: not 16:9`);
+      }
       assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${route}: overflow`);
+      if (route.startsWith('/herramientas/')) {
+        assert.equal(await page.locator('main#contenido').count(), 1);
+        assert.ok(await page.locator('#tutorial').count() > 0, `${route}: missing #tutorial section`);
+        assert.ok(await page.locator('#formulas').count() > 0, `${route}: missing #formulas section`);
+        assert.ok(await page.locator('#ejemplo').count() > 0, `${route}: missing #ejemplo section`);
+        if (screenshotDir && width === 1440) {
+          await page.screenshot({ path: path.join(screenshotDir, 'herramientas-tutorial-1440.png'), fullPage: false });
+        }
+      }
       if (route === '/herramientas') {
-        const cards = page.locator('a[target="_blank"] img');
+        const cards = page.locator('[data-tool-card] img');
         assert.equal(await cards.count(), Object.keys(TOOL_IMAGES).length);
         const details = await cards.evaluateAll(images =>
           images.map(img => ({
@@ -60,6 +72,13 @@ try {
         assert.ok(details.every(d => d.currentSrc && d.naturalWidth > 0 && d.naturalHeight > 0 && d.alt.trim().length > 10), 'All 16 tool images must load with naturalWidth > 0 and descriptive alt text');
         assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'), 'https://todolima.com/herramientas');
         assert.equal(await page.locator('main#contenido').count(), 1);
+
+        // Verify dual-purpose actions on each card
+        const internalGuideLinks = page.locator('[data-tool-card] a[href^="/herramientas/"]');
+        assert.ok(await internalGuideLinks.count() >= 16, 'Each card must link to its /herramientas/[slug] tutorial page');
+        const externalAppLinks = page.locator('[data-tool-card] a[target="_blank"]');
+        assert.equal(await externalAppLinks.count(), 16, 'Each card must have an external interactive tool launch button');
+
         const ldJsonScripts = await page.locator('script[type="application/ld+json"]').allTextContents();
         assert.ok(ldJsonScripts.length >= 2, 'Must include BreadcrumbList and CollectionPage JSON-LD');
         for (const raw of ldJsonScripts) JSON.parse(raw);
