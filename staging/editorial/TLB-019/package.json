@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-019",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "puruchuco-en-ate-arquitectura-y-contexto-del-museo-de-sitio",
     "title": "Puruchuco en Ate: arquitectura y contexto del museo de sitio",
@@ -14,8 +14,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre puruchuco en ate: arquitectura y contexto del museo de sitio: historia, arquitectura, horarios de visita y recomendaciones oficiales...",
-    "published": "2026-05-02",
-    "modified": "2026-10-10",
+    "published": "2026-10-17",
+    "modified": "2026-10-17",
     "cover": "puruchuco-en-ate-arquitectura-y-contexto-del-museo-de-sitio-portada-galeria-museo",
     "internal": [
       "puruchuco-en-ate-arquitectura-y-contexto-del-museo-de-sitio-vitrina-orfebreria-arte",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-17",
+    "publication_slot": "mañana"
   }
 }

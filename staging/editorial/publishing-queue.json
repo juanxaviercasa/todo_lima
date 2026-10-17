@@ -184,10 +184,10 @@
     "slug": "puruchuco-en-ate-arquitectura-y-contexto-del-museo-de-sitio",
     "title": "Puruchuco en Ate: arquitectura y contexto del museo de sitio",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-17",
+    "published_slot": "mañana",
+    "batch_day": 7
   },
   {
     "article_id": "TLB-020",
