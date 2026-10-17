@@ -113,22 +113,44 @@ Los primeros cinco candidatos tienen fuentes iniciales consultadas; los de prior
 | 11 | `productos-naturales` | 0 | 10 | Santiago de Surco, Lince, San Isidro, San Borja, San Miguel, Miraflores |
 | 12 | `restaurantes-campestres` | 0 | 9 | Pachacámac, Lurigancho-Chosica, Ate, La Molina, El Agustino |
 
-## Siguientes Bloques Pendientes (47 categorías restantes)
+## Resultado Tanda 3: Mantenimiento del Hogar, Oficios y Servicios Gráficos/B2B (17 de octubre de 2026)
 
-1. **Bloque Mantenimiento y Oficios del Hogar (6 categorías):**
-   `reparacion-de-bicicletas`, `reparacion-de-calzado`, `sastrerias`, `limpieza-de-cisternas`, `impermeabilizacion`, `jardineria`.
-2. **Bloque Construcción y Servicios B2B / Gráficos (8 categorías):**
-   `diseno-de-interiores`, `estructuras-metalicas`, `imprentas`, `impresion-gran-formato`, `letreros-y-senaletica`, `envases-y-embalajes`, `uniformes-empresariales`, `bordados-y-estampados`.
-3. **Bloque Turismo y Alojamiento (6 categorías):**
+- **140 registros verificados e insertados** con identidad Maps fuerte (CID o Place ID verificado), coordenadas reales y distritos validados de Lima Metropolitana.
+- **93 categorías activas con negocios en `data/directory.snapshot.json`** (frente a 79 de Tanda 2 y 56 iniciales).
+- **5.441 registros públicos totales** en el directorio (frente a 5.301 de Tanda 2 y 5.068 iniciales).
+- **Respaldo automático en Supabase**: `directory_reconciliation_backup_20261012.businesses_20261017234532099` (5.301 filas previas verificadas).
+- **SHA-256 canónico del snapshot exportado**: `f5004cc2baca69cffb60d0e191d67266e70a3ec97fc2705ea576854ff5bb2d53` (`replay_inserts: 0`, `replay_updates: 0`, `existing_populated_fields_preserved: true`).
+- **Verificación técnica integral**: `npm run test:directory`, `npm run verify:seo` y `npm run build` compilados limpiamente con código 0.
+
+| Orden | Categoría (`slug`) | Antes | Después | Distritos cubiertos |
+|---|---|---:|---:|---|
+| 1 | `limpieza-de-cisternas` | 0 | 10 | Barranco, Lince, Cercado de Lima, Lurín, San Juan de Lurigancho, San Borja, Jesús María |
+| 2 | `impermeabilizacion` | 0 | 10 | San Isidro, Cercado de Lima, Breña, Santiago de Surco, Jesús María, San Borja, Puente Piedra |
+| 3 | `jardineria` | 0 | 10 | Cercado de Lima, Lince, San Borja, Jesús María, Breña |
+| 4 | `reparacion-de-bicicletas` | 0 | 10 | Breña, Cercado de Lima, La Victoria |
+| 5 | `reparacion-de-calzado` | 0 | 10 | Jesús María, Cercado de Lima, Lince, Breña, Pueblo Libre |
+| 6 | `sastrerias` | 0 | 10 | Cercado de Lima, Jesús María, Breña |
+| 7 | `diseno-de-interiores` | 0 | 10 | Miraflores, San Borja, Cercado de Lima, Jesús María |
+| 8 | `estructuras-metalicas` | 0 | 10 | El Agustino, Cercado de Lima, San Juan de Miraflores, La Victoria, Pueblo Libre, Lince, Breña |
+| 9 | `imprentas` | 0 | 10 | Cercado de Lima, Jesús María |
+| 10 | `impresion-gran-formato` | 0 | 10 | La Victoria, Cercado de Lima, Jesús María |
+| 11 | `letreros-y-senaletica` | 0 | 10 | Cercado de Lima |
+| 12 | `envases-y-embalajes` | 0 | 10 | Cercado de Lima, Breña, San Martín de Porres, Surquillo, La Victoria |
+| 13 | `uniformes-empresariales` | 0 | 10 | Breña, La Victoria, Cercado de Lima |
+| 14 | `bordados-y-estampados` | 0 | 10 | Cercado de Lima, La Victoria |
+
+## Siguientes Bloques Pendientes (33 categorías restantes)
+
+1. **Bloque Turismo y Alojamiento (6 categorías):**
    `tours-y-experiencias`, `guias-de-turismo`, `hoteles`, `hostales-y-alojamientos`, `alquiler-de-bicicletas`, `escuelas-de-surf`.
-4. **Bloque Educación, Arte y Formación (5 categorías):**
+2. **Bloque Educación, Arte y Formación (5 categorías):**
    `academias-preuniversitarias`, `clases-particulares`, `escuelas-de-musica`, `escuelas-de-danza`, `talleres-de-arte`.
-5. **Bloque Deportes y Fitness (5 categorías):**
+3. **Bloque Deportes y Fitness (5 categorías):**
    `estudios-de-yoga`, `estudios-de-pilates`, `academias-de-natacion`, `academias-de-futbol`, `academias-de-artes-marciales`.
-6. **Bloque Belleza y Cuidado Personal (5 categorías):**
+4. **Bloque Belleza y Cuidado Personal (5 categorías):**
    `manicure-y-pedicure`, `estudios-de-maquillaje`, `centros-de-depilacion`, `estudios-de-tatuajes`, `estudios-de-piercing`.
-7. **Bloque Comercio Especializado y Mascotas (10 categorías):**
+5. **Bloque Comercio Especializado y Mascotas (10 categorías):**
    `penas-criollas`, `talleres-de-artesania`, `tiendas-de-artesania`, `librerias`, `tiendas-de-mascotas`, `tiendas-de-bicicletas`, `zapaterias`, `guarderias-caninas`, `adiestramiento-canino`, `paseadores-de-perros`.
-8. **Bloque Equipamiento Comercial (2 categorías):**
+6. **Bloque Equipamiento Comercial (2 categorías):**
    `refrigeracion-comercial`, `equipos-gastronomicos`.
 
