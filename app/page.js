@@ -21,7 +21,7 @@ export default function HomePage() {
             <span className="text-sky-400 font-bold text-xs uppercase tracking-wider">Atlas Conoce Lima · Enciclopedia Territorial</span>
             <h2 className="text-2xl sm:text-4xl font-black mt-2">La historia, gastronomía y geografía de la capital</h2>
             <p className="text-slate-300 mt-4 leading-relaxed text-sm sm:text-base">
-              Consulta los 7 pilares canónicos de Lima: desde los canales prehispánicos y el mestizaje culinario hasta la movilidad urbana y los emporios comerciales metropolitanos.
+              Consulta los 8 pilares canónicos de Lima: desde los canales prehispánicos y el mestizaje culinario hasta la movilidad urbana, los emporios comerciales y el calendario festivo metropolitano.
             </p>
             <div className="flex flex-wrap gap-2 mt-6">
               {[
@@ -31,7 +31,8 @@ export default function HomePage() {
                 ['Geografía', '/conoce-lima/geografia-y-clima'],
                 ['Movilidad', '/conoce-lima/movilidad-y-transporte'],
                 ['Las 5 Limas', '/conoce-lima/las-5-limas-y-callao'],
-                ['Emporios', '/conoce-lima/emporios-comerciales']
+                ['Emporios', '/conoce-lima/emporios-comerciales'],
+                ['Calendario y Feriados', '/conoce-lima/calendario-festivo-y-feriados']
               ].map(([label, href]) => (
                 <Link key={href} href={href} className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-sky-600 text-xs font-semibold text-slate-200 transition-colors">
                   {label} →

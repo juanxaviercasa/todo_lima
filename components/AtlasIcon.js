@@ -7,6 +7,7 @@ import {
   MapPin,
   ShoppingBag,
   BookOpen,
+  Calendar,
 } from 'lucide-react';
 
 const ICON_MAP = {
@@ -18,6 +19,7 @@ const ICON_MAP = {
   MapPin,
   ShoppingBag,
   BookOpen,
+  Calendar,
 };
 
 export default function AtlasIcon({ name, className = 'w-6 h-6' }) {

@@ -2,6 +2,7 @@ import { pageMetadata } from '../lib/seo.js';
 import ClerkProviderWrapper from '../components/ClerkProviderWrapper.js';
 import SiteEnhancements from '../components/SiteEnhancements.js';
 import CookieBanner from '../components/CookieBanner.js';
+import InteractionAnalytics from '../components/InteractionAnalytics.js';
 import './globals.css';
 
 export const metadata = {
@@ -87,6 +88,7 @@ export default function RootLayout({ children }) {
           <a href="#contenido" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:bg-white focus:p-4 focus:text-slate-900">Saltar al contenido</a>
           {children}
           <SiteEnhancements />
+          <InteractionAnalytics />
           <CookieBanner />
         </body>
       </html>

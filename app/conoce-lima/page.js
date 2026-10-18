@@ -20,7 +20,7 @@ import {
 
 export const metadata = pageMetadata(
   'Conoce Lima: Atlas Territorial, Histórico y Cultural | Todo Lima',
-  'Enciclopedia de referencia sobre Lima Metropolitana. siete temas sobre historia prehispánica y virreinal, gastronomía criolla, tradiciones vivas, geografía, transporte, las 5 Limas y clústeres comerciales.',
+  'Enciclopedia de referencia sobre Lima Metropolitana. Ocho temas sobre historia prehispánica y virreinal, gastronomía criolla, tradiciones vivas, geografía, transporte, las 5 Limas, clústeres comerciales y calendario festivo oficial.',
   '/conoce-lima',
   ATLAS_IMAGES['atlas-hub-hero']
 );
@@ -55,7 +55,7 @@ export default function ConoceLimaHubPage() {
       <Navbar />
       <main id="contenido" className="atlas-page min-w-0 flex-grow">
         {/* Hero Section con Fotografía Panorámica */}
-        <AtlasHero image={hubHero} title="Lima, una ciudad por descubrir" intro="Explora su historia, gastronomía, tradiciones y barrios. Siete recorridos temáticos para entender la ciudad y conectar con su vida local."/>
+        <AtlasHero image={hubHero} title="Lima, una ciudad por descubrir" intro="Explora su historia, gastronomía, tradiciones, barrios y calendario festivo. Ocho recorridos temáticos para entender la ciudad y conectar con su vida local."/>
 
         {/* Contenedor Principal de Pilares */}
         <div id="temas-lima" className="max-w-7xl mx-auto px-5 py-10 sm:py-14 space-y-10 scroll-mt-24">
@@ -67,10 +67,10 @@ export default function ConoceLimaHubPage() {
               </span>
             </div>
             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">
-              Siete formas de conocer Lima
+              Ocho formas de conocer Lima
             </h2>
             <p className="mt-2 text-sm sm:text-base text-slate-600 dark:text-slate-400 max-w-2xl">
-              Historia, sabores, cultura, paisajes, transporte, barrios y comercio: encuentra el tema que te interesa y sigue explorando.
+              Historia, sabores, tradiciones, paisajes, transporte, barrios, comercio y calendario festivo: encuentra el tema que te interesa y sigue explorando.
             </p>
           </div>
 

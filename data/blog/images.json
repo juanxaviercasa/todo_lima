@@ -4348,5 +4348,53 @@
     "src": "/images/editorial/blog-negocio-condiciones.webp",
     "alt": "Documentación y notas de condiciones de garantía de servicios en Lima",
     "caption": "Revisión de garantías y condiciones en Lima."
+  },
+  "halloween-cancion-criolla-portada": {
+    "src": "/editorial/halloween-cancion-criolla-portada.webp",
+    "alt": "Familias disfrazadas y transeúntes celebrando la noche del 31 de octubre frente a peñas tradicionales en Lima.",
+    "caption": "La convivencia urbana del 31 de octubre: música criolla, disfraces y fiesta barrial en Lima.",
+    "role": "portada",
+    "article_id": "TLB-OCT-01",
+    "article_slug": "halloween-y-dia-de-la-cancion-criolla-en-lima-como-conviven-ambas-celebraciones"
+  },
+  "halloween-cancion-criolla-pena": {
+    "src": "/editorial/halloween-cancion-criolla-pena.webp",
+    "alt": "Músicos criollos tocando cajón y guitarra acústica en una tradicional peña de Barranco.",
+    "caption": "El fervor de la jarana criolla: compás de cajón y guitarra en las peñas limeñas.",
+    "role": "interna-01",
+    "article_id": "TLB-OCT-01",
+    "article_slug": "halloween-y-dia-de-la-cancion-criolla-en-lima-como-conviven-ambas-celebraciones"
+  },
+  "halloween-cancion-criolla-disfraces": {
+    "src": "/editorial/halloween-cancion-criolla-disfraces.webp",
+    "alt": "Tienda de disfraces y artículos festivos para Halloween concurrida por familias en Lima.",
+    "caption": "Comercio estacional: artículos festivos y disfraces para la celebración de Halloween en Lima.",
+    "role": "interna-02",
+    "article_id": "TLB-OCT-01",
+    "article_slug": "halloween-y-dia-de-la-cancion-criolla-en-lima-como-conviven-ambas-celebraciones"
+  },
+  "combate-angamos-feriado-portada": {
+    "src": "/editorial/combate-angamos-feriado-portada.webp",
+    "alt": "Visitantes apreciando maquetas y reliquias navales en la sala histórica del Museo Naval del Callao.",
+    "caption": "Museo Naval del Callao: salas de historia marítima y homenaje a los héroes de Angamos.",
+    "role": "portada",
+    "article_id": "TLB-OCT-02",
+    "article_slug": "combate-de-angamos-feriado-8-octubre-visitas-historicas-lima-callao"
+  },
+  "combate-angamos-cripta-heroes": {
+    "src": "/editorial/combate-angamos-cripta-heroes.webp",
+    "alt": "Interior monumental en mármol de la Cripta de los Héroes en el Cementerio Presbítero Maestro de Lima.",
+    "caption": "Cripta de los Héroes: reposo del Almirante Miguel Grau y memoria cívica en Lima.",
+    "role": "interna-01",
+    "article_id": "TLB-OCT-02",
+    "article_slug": "combate-de-angamos-feriado-8-octubre-visitas-historicas-lima-callao"
+  },
+  "combate-angamos-puerto-callao": {
+    "src": "/editorial/combate-angamos-puerto-callao.webp",
+    "alt": "Vista soleada del puerto histórico del Callao y la península de La Punta durante el feriado cívico.",
+    "caption": "La bahía del Callao y La Punta: circuitos patrimoniales durante el feriado del 8 de octubre.",
+    "role": "interna-02",
+    "article_id": "TLB-OCT-02",
+    "article_slug": "combate-de-angamos-feriado-8-octubre-visitas-historicas-lima-callao"
   }
 }

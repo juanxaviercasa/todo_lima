@@ -8,6 +8,8 @@ export default function CookieBanner() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    const open = () => setIsVisible(true);
+    window.addEventListener('tl:cookie-settings', open);
     // Verificar si el usuario ya registró su preferencia
     try {
       const consent = localStorage.getItem('tl_cookie_consent');
@@ -16,11 +18,12 @@ export default function CookieBanner() {
         const timer = setTimeout(() => {
           setIsVisible(true);
         }, 1200);
-        return () => clearTimeout(timer);
+        return () => { clearTimeout(timer); window.removeEventListener('tl:cookie-settings', open); };
       }
     } catch (e) {
       // Ignorar excepciones en entornos sin acceso a localStorage
     }
+    return () => window.removeEventListener('tl:cookie-settings', open);
   }, []);
 
   const handleAcceptAll = () => {
@@ -55,7 +58,7 @@ export default function CookieBanner() {
               <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
             </h4>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Utilizamos cookies esenciales y analíticas anónimas para garantizar la seguridad del sitio y optimizar la navegación de acuerdo con nuestra{' '}
+              Puedes aceptar la analítica opcional para ayudarnos a mejorar: medimos visitas, tiempo activo, lectura y acciones sin guardar tus búsquedas ni datos de contacto. Consulta nuestra{' '}
               <Link href="/cookies" className="text-sky-400 hover:text-sky-300 underline font-medium">
                 Política de Cookies
               </Link>{' '}
@@ -87,7 +90,8 @@ export default function CookieBanner() {
           <button
             onClick={handleAcceptEssential}
             className="text-slate-500 hover:text-slate-300 transition-colors p-1 -mr-2 -mt-2"
-            title="Cerrar"
+            title="Cerrar y usar solo las necesarias"
+            aria-label="Cerrar y usar solo las necesarias"
           >
             <X className="w-4 h-4" />
           </button>

@@ -70,6 +70,7 @@ export default function AdminDashboardPage() {
         </div>
       </div>
 
+      <section className="rounded-3xl border border-sky-700 bg-slate-900 p-6 sm:p-8"><h2 className="text-2xl font-bold text-white">Qué aporta valor a tus visitantes</h2><p className="text-slate-300 mt-3 mb-5 max-w-3xl">Consulta las páginas con más tiempo activo, profundidad de lectura y clics de contacto para orientar las mejoras y el contenido de Todo Lima.</p><Link href="/admin/analitica" className="inline-flex rounded-xl bg-sky-700 hover:bg-sky-800 text-white px-5 py-3 font-semibold">Ver uso e interacciones →</Link></section>
       {/* Grid de KPIs Operativos */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="bg-slate-900/80 border border-slate-800 p-5 rounded-2xl">

@@ -72,7 +72,8 @@ export default function AdminLayout({ children }) {
             </div>
           </div>
 
-          <nav className="flex items-center gap-1 sm:gap-2 text-xs font-semibold">
+          <nav className="flex flex-wrap items-center gap-1 sm:gap-2 text-xs font-semibold">
+            <Link href="/admin/analitica" className="px-3 py-3 rounded-lg hover:bg-slate-800 text-sky-300">Uso de la web</Link>
             <Link
               href="/admin"
               className="px-3 py-1.5 rounded-lg hover:bg-slate-800 text-slate-300 hover:text-white transition-colors flex items-center gap-1.5"

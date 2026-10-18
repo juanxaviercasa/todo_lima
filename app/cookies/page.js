@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import CookieSettingsButton from '../../components/CookieSettingsButton.js';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import { Cookie, ShieldCheck, Settings, CheckCircle2, Info } from 'lucide-react';
@@ -79,7 +80,7 @@ export default function CookiesPage() {
                     c) Cookies Analíticas y de Rendimiento (Estadísticas Anónimas)
                   </h3>
                   <p className="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
-                    Recopilan datos cuantitativos y agregados sobre cómo los visitantes interactúan con el directorio (categorías más visitadas, tiempos de respuesta, errores de página). Estos datos se anonimizan sin asociar identificadores personales directos.
+                    Con tu aceptación medimos páginas vistas, segundos de actividad con la pestaña visible y enfocada, profundidad de desplazamiento y acciones como búsquedas, filtros, calculadoras y clics de contacto. No guardamos el texto buscado, los valores introducidos, la dirección IP ni los teléfonos o correos de destino en nuestra base de analítica. Un identificador aleatorio por página se mantiene solo en memoria; no enlaza personas entre páginas. La medición propia excluye el panel privado y respeta las señales Do Not Track y Global Privacy Control. Los registros de infraestructura de los proveedores se gestionan por separado. Los datos por página se conservan un máximo de 90 días mediante la tarea de retención del servidor.
                   </p>
                 </div>
 
@@ -126,6 +127,8 @@ export default function CookiesPage() {
             {/* 4. Cómo gestionar cookies */}
             <section>
               <h2 className="text-lg font-bold text-slate-900 dark:text-white mb-2">4. ¿Cómo Administrar o Desactivar las Cookies?</h2>
+              <p>Puedes retirar la aceptación de la analítica opcional en cualquier momento. Al elegir «Solo necesarias» se detienen los siguientes envíos; los datos agregados ya registrados no identifican al visitante.</p>
+              <CookieSettingsButton />
               <p>
                 Usted puede permitir, bloquear o eliminar las cookies instaladas en su equipo mediante la configuración de las opciones del navegador web que utilice:
               </p>

@@ -75,7 +75,7 @@ export default function PrivacidadPage() {
               <ul className="list-disc pl-5 mt-2 space-y-1.5">
                 <li><strong>Datos de Fuentes de Acceso Público:</strong> Nombre comercial, dirección física pública, distrito, categoría de servicio y datos de contacto comercial expuestos públicamente por los propios titulares en plataformas públicas como Google Maps.</li>
                 <li><strong>Datos proporcionados directamente por el usuario:</strong> Nombre, número de teléfono celular / WhatsApp, correo electrónico y consultas técnicas que usted nos remita libremente a través de nuestros formularios o chats de WhatsApp.</li>
-                <li><strong>Datos técnicos y de navegación:</strong> Dirección IP anonimizada, tipo de navegador y cookies técnicas necesarias para el funcionamiento seguro de la plataforma en Cloudflare.</li>
+                <li><strong>Datos técnicos y de navegación:</strong> Cookies técnicas de seguridad y, solo al aceptar la analítica opcional, ruta de la página sin parámetros, tiempo activo, profundidad de desplazamiento y contadores de acciones. Nuestra analítica propia no guarda IP, textos buscados, valores de formularios ni datos de contacto. Usa un identificador aleatorio por página, sin seguimiento entre páginas. Consulta y modifica la preferencia en <Link href="/cookies" className="underline">Cookies</Link>. La infraestructura de seguridad de los proveedores puede tratar datos técnicos por separado.</li>
               </ul>
             </section>
 
