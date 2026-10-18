@@ -199,7 +199,7 @@ export default function CategoryAuditB2BPage({ params }) {
       </section>
 
       {/* Bloque 5: Plan de Acción 30-60-90 Días */}
-      <section className="editorial-card bg-slate-950 text-white border-slate-800">
+      <section className="editorial-card editorial-card-inverse">
         <h2 className="text-2xl font-bold mb-3">
           {hookStoryOffer.offer}
         </h2>
@@ -209,7 +209,7 @@ export default function CategoryAuditB2BPage({ params }) {
         <div className="flex flex-wrap gap-3">
           <a
             href={contactHref}
-            className="inline-block rounded-xl bg-sky-500 hover:bg-sky-400 text-white font-semibold px-5 py-3"
+            className="audit-primary-action inline-block rounded-xl font-semibold px-5 py-3"
           >
             Coordinar Diagnóstico MAPA por WhatsApp →
           </a>

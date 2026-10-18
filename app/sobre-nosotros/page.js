@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { BRAND_FOUNDATIONS } from '../../lib/brand.js';
 import EditorialShell from '../../components/EditorialShell.js';
 import JsonLd from '../../components/JsonLd.js';
 import {INSTITUTIONAL_IMAGES} from '../../lib/institutionalImages.js';
@@ -14,6 +15,7 @@ export default function AboutPage() {
       <div className="editorial-card space-y-4"><h2 className="text-2xl font-bold">Para qué existe Todo Lima</h2><p>Encontrar un servicio no debería empezar de cero. Organizamos opciones por categoría y ubicación, mostramos la información disponible y facilitamos el contacto directo con cada proveedor.</p><p>Complementamos el directorio con guías para comparar servicios, artículos sobre la vida local y herramientas para negocios. Nuestro propósito es hacer más fácil descubrir lo que Lima ofrece, sin sustituir las comprobaciones que necesitas hacer antes de contratar.</p></div>
       <aside className="editorial-card"><p className="text-4xl font-black text-sky-600">{CATEGORIES.length}</p><p className="mt-2 font-semibold">categorías de negocios y servicios</p><p className="mt-4 text-sm text-slate-500">Organizadas para explorar Lima Metropolitana. La ubicación de un negocio no garantiza que atienda a domicilio en todos los distritos.</p><Link href="/#directorios" className="editorial-chip mt-5">Explorar el directorio →</Link></aside>
     </section>
+    <section aria-labelledby="brand-foundations"><h2 id="brand-foundations" className="text-2xl font-bold mb-5">El rumbo de Todo Lima</h2><div className="grid md:grid-cols-3 gap-5">{BRAND_FOUNDATIONS.map(({title, text}) => <article className="editorial-card" key={title}><h3 className="text-xl font-bold mb-3">{title}</h3><p className="text-slate-700 dark:text-slate-300 leading-relaxed">{text}</p></article>)}</div></section>
     <section><h2 className="text-2xl font-bold mb-5">Qué puedes encontrar aquí</h2><div className="grid sm:grid-cols-2 gap-5">{[
       ['Negocios y servicios', 'Consulta categorías, direcciones, canales de contacto y fuentes disponibles.', '/#directorios'],
       ['Guías para elegir', 'Prepara preguntas y compara propuestas antes de contratar.', '/guias'],

@@ -29,6 +29,23 @@
 .editorial-chip { display: inline-flex; align-items: center; padding: .75rem 1rem; border: 1px solid #cbd5e1; border-radius: .85rem; background: #fff; color: #0369a1; font-weight: 600; }
 html.dark .editorial-card, html.dark .editorial-chip { background: #0f172a; border-color: #334155; }
 html.dark .editorial-chip { color: #7dd3fc; }
+
+/* Explicit surface variant: unlayered editorial backgrounds override utilities. */
+.editorial-card.editorial-card-inverse,
+html.dark .editorial-card.editorial-card-inverse {
+  background: #020617;
+  border-color: #334155;
+  color: #fff;
+}
+.editorial-card-inverse .audit-primary-action { background: #0369a1; color: #fff; }
+.editorial-card-inverse .audit-primary-action:hover { background: #075985; }
+.brand-purpose { background: #e0f2fe; border-block: 1px solid #bae6fd; }
+.brand-purpose .brand-copy { color: #334155; }
+.brand-purpose .brand-eyebrow { color: #075985; }
+html.dark .brand-purpose { background: #0c192d; border-color: #334155; }
+html.dark .brand-purpose .brand-copy { color: #cbd5e1; }
+html.dark .brand-purpose .brand-eyebrow { color: #7dd3fc; }
+input:focus-visible { outline: 3px solid #0ea5e9; outline-offset: 4px; }
 a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid #0ea5e9; outline-offset: 4px; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto !important; } *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
 

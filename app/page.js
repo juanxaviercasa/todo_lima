@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Navbar from '../components/Navbar.js';
 import Footer from '../components/Footer.js';
 import HomeExplorer from '../components/HomeExplorer.js';
+import BrandPurpose from '../components/BrandPurpose.js';
 import { getDirectory } from '../lib/directory.js';
 import { GUIDES } from '../lib/guides.js';
 import { pageMetadata } from '../lib/seo.js';
@@ -10,6 +11,7 @@ export const metadata = pageMetadata('Todo Lima | Encuentra y compara negocios y
 export default function HomePage() {
   const categories = getDirectory().map(c => ({ ...c.meta, description: categoryEditorial(c.meta).description, count: c.businesses.length, districtCounts: c.businesses.reduce((counts, b) => { counts[b.district] = (counts[b.district] || 0) + 1; return counts; }, {}) }));
   return <><Navbar /><main id="contenido" className="flex-grow"><section className="home-hero relative bg-slate-950 text-white overflow-hidden"><img src="/images/lima-hero.jpg" alt="" fetchPriority="high" width="1920" height="1080" className="absolute inset-0 w-full h-full object-cover" /><div className="category-hero-shade absolute inset-0" /><div className="relative w-full max-w-7xl mx-auto px-5 py-12 sm:py-20"><p className="text-sky-300 text-sm font-semibold mb-5">LIMA, A TU ALCANCE</p><h1 className="text-4xl sm:text-6xl font-black leading-tight max-w-3xl">Encuentra lo que necesitas.<br /><span className="text-sky-300">Elige con información.</span></h1><p className="mt-6 text-lg text-slate-300 max-w-2xl leading-relaxed">Negocios, especialistas y servicios de Lima en un solo lugar. Explora opciones, compara ubicaciones y consulta directamente con cada proveedor.</p><div className="flex flex-wrap gap-4 mt-8"><a className="rounded-xl bg-sky-500 px-6 py-3.5 font-bold text-white" href="#directorios">Explorar {categories.length} categorías →</a><Link className="rounded-xl border border-slate-500 px-6 py-3.5 font-semibold" href="/guias">Guías para elegir</Link></div><div className="flex flex-wrap gap-5 mt-10 text-sm text-slate-300"><span>Sin registro para consultar</span><span>Fuentes visibles</span><span>Contacto sin intermediación</span></div></div></section>
+    <BrandPurpose />
     <HomeExplorer categories={categories} />
     <section className="max-w-7xl mx-auto px-5 py-12"><div className="flex flex-wrap justify-between items-center gap-4 mb-6"><div><p className="text-sm font-semibold text-sky-600 mb-2">DESCUBRE LA CIUDAD</p><h2 className="text-3xl font-black">Lima, más allá de una búsqueda</h2></div><Link href="/blog" className="text-sky-600 font-semibold">Explorar el blog →</Link></div><div className="grid md:grid-cols-2 gap-6">{BLOG_POSTS.slice(0,2).map(post=><BlogCard key={post.slug} post={post}/>)}</div></section>
     <section className="max-w-7xl mx-auto px-5 py-6">

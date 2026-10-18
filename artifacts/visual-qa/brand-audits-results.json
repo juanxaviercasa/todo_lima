@@ -1,0 +1,150 @@
+{
+  "results": [
+    {
+      "route": "/",
+      "dark": false,
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "dark": false,
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "dark": false,
+      "width": 720,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "dark": true,
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "dark": true,
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "dark": true,
+      "width": 720,
+      "overflow": false
+    },
+    {
+      "route": "/sobre-nosotros",
+      "dark": false,
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/sobre-nosotros",
+      "dark": false,
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "route": "/sobre-nosotros",
+      "dark": false,
+      "width": 720,
+      "overflow": false
+    },
+    {
+      "route": "/sobre-nosotros",
+      "dark": true,
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/sobre-nosotros",
+      "dark": true,
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "route": "/sobre-nosotros",
+      "dark": true,
+      "width": 720,
+      "overflow": false
+    },
+    {
+      "route": "/auditoria/gasfiteros",
+      "dark": false,
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/auditoria/gasfiteros",
+      "dark": false,
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "route": "/auditoria/gasfiteros",
+      "dark": false,
+      "width": 720,
+      "overflow": false
+    },
+    {
+      "route": "/auditoria/gasfiteros",
+      "dark": true,
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/auditoria/gasfiteros",
+      "dark": true,
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "route": "/auditoria/gasfiteros",
+      "dark": true,
+      "width": 720,
+      "overflow": false
+    },
+    {
+      "route": "/auditoria/cerrajeros",
+      "dark": false,
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/auditoria/cerrajeros",
+      "dark": false,
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "route": "/auditoria/cerrajeros",
+      "dark": false,
+      "width": 720,
+      "overflow": false
+    },
+    {
+      "route": "/auditoria/cerrajeros",
+      "dark": true,
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/auditoria/cerrajeros",
+      "dark": true,
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "route": "/auditoria/cerrajeros",
+      "dark": true,
+      "width": 720,
+      "overflow": false
+    }
+  ],
+  "keyboardSlider": "passed",
+  "zoomEquivalent": "720 CSS px for 1440px at 200%"
+}
