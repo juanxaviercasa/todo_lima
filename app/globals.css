@@ -207,3 +207,15 @@ html.dark .article-toc-number { background: #1e293b; }
   text-shadow: 0 1px 3px rgba(2,6,23,.55);
 }
 .atlas-hero-copy a, .editorial-hero-copy a, .home-hero a { text-shadow: none; }
+
+/* Approved TL identity: live text inherits the site's Outfit font. */
+.brand-logo { display: inline-flex; align-items: center; gap: 10px; color: #0f172a; text-align: left; white-space: nowrap; }
+.brand-logo img { display: block; width: 48px; height: auto; flex-shrink: 0; }
+.brand-logo-copy { display: flex; flex-direction: column; gap: 3px; }
+.brand-logo-name { font-family: var(--font-heading); font-size: 25px; line-height: 1.05; font-weight: 800; letter-spacing: -.7px; }
+.brand-logo-tagline { color: #475569; font-family: var(--font-sans); font-size: 11px; line-height: 1.4; letter-spacing: 1px; }
+html.dark .brand-logo { color: #f8fafc; }
+.brand-logo-inverse { color: #fff; }
+.brand-logo-inverse .brand-logo-tagline, html.dark .brand-logo-tagline { color: #cbd5e1; }
+@media (max-width: 639px) { header .brand-logo { gap: 8px; } header .brand-logo img { width: 42px; } header .brand-logo-name { font-size: 22px; } header .brand-logo-tagline { font-size: 10px; letter-spacing: .5px; } }
+@media (max-width: 359px) { header .brand-logo { gap: 6px; } header .brand-logo img { width: 36px; } header .brand-logo-name { font-size: 20px; } }

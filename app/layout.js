@@ -11,6 +11,15 @@ export const metadata = {
   title: 'Todo Lima | Directorio de negocios y servicios en Lima',
   description: 'Explora negocios, compara ubicaciones y consulta directamente a proveedores de servicios en Lima.',
   keywords: 'directorio lima, doctores lima, dentistas lima, gasfiteros lima, abogados lima, servicios tecnicos lima, negocios lima peru',
+  manifest: '/site.webmanifest',
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '16x16 32x32 48x48' },
+      { url: '/favicon.svg', type: 'image/svg+xml', sizes: 'any' },
+      { url: '/brand/icon-32.png', type: 'image/png', sizes: '32x32' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
+  },
   authors: [{ name: 'Todo Lima Network' }],
 };
 
@@ -31,7 +40,7 @@ const globalSchema = {
       '@id': 'https://todolima.com/#organization',
       'name': 'Todo Lima',
       'url': 'https://todolima.com',
-      'logo': 'https://todolima.com/images/logo.jpg',
+      'logo': 'https://todolima.com/brand/logo-organization.png',
       'description': 'Directorio independiente y guías para elegir negocios y servicios en Lima.',
       'address': {
         '@type': 'PostalAddress',

@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
+import BrandLogo from './BrandLogo.js';
 import ShareMenu from './ShareMenu.js';
 import ThemeToggle from './ThemeToggle.js';
 const links = [['Categorías', '/categorias'], ['Conoce Lima', '/conoce-lima'], ['Herramientas', '/herramientas'], ['Guías', '/guias'], ['Blog', '/blog'], ['Para negocios', '/para-negocios']];
@@ -14,7 +15,7 @@ export default function Navbar() {
     return () => document.removeEventListener('keydown', close);
   }, []);
   return <header className="sticky top-0 z-40 bg-white/95 dark:bg-slate-950/95 backdrop-blur border-b border-slate-200 dark:border-slate-800"><div className="max-w-7xl mx-auto px-5 py-4 flex flex-wrap justify-between items-center gap-4">
-    <Link href="/" className="flex gap-3 items-center"><img src="/images/logo.jpg" alt="" width="40" height="40" className="rounded-xl" /><span><span className="block font-black text-xl">Todo<span className="text-sky-600">Lima</span></span><span className="block text-xs text-slate-500">Tu guía local</span></span></Link>
+    <Link href="/" aria-label="Todo Lima, inicio" className="shrink-0"><BrandLogo /></Link>
     <nav aria-label="Navegación principal" className="hidden xl:flex flex-wrap min-w-0 gap-5 items-center text-sm font-semibold">{links.map(([label, href]) => <Link className="hover:text-sky-600" key={href} href={href}>{label}</Link>)}<details className="relative"><summary className="cursor-pointer hover:text-sky-600">Todo Lima</summary><div className="absolute right-0 top-8 w-56 p-2 rounded-xl shadow-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950">{institutional.map(([label,href])=><Link key={href} href={href} className="block rounded-lg p-3 hover:bg-slate-100 dark:hover:bg-slate-800" onClick={event=>event.currentTarget.closest('details').removeAttribute('open')}>{label}</Link>)}</div></details></nav><div className="flex shrink-0 gap-3 items-center"><ShareMenu /><ThemeToggle /><button type="button" aria-label={open ? 'Cerrar menú' : 'Abrir menú'} aria-expanded={open} aria-controls="mobile-menu" className="xl:hidden p-2" onClick={() => setOpen(!open)}>{open ? <X /> : <Menu />}</button></div>
   </div>{open && <nav id="mobile-menu" aria-label="Navegación móvil" className="xl:hidden px-5 pb-5 space-y-2 max-h-[calc(100dvh-80px)] overflow-y-auto">{[...links,...institutional].map(([label, href]) => <Link className="block p-3 rounded-xl bg-slate-50 dark:bg-slate-900 font-semibold" key={href} href={href} onClick={() => setOpen(false)}>{label}</Link>)}</nav>}</header>;
 }

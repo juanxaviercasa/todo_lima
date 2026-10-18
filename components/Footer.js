@@ -13,6 +13,7 @@ import {
   Mail
 } from 'lucide-react';
 import { TODOLIMA_EMAIL, TODOLIMA_WHATSAPP_DISPLAY, buildWhatsAppLink } from '../lib/contact.js';
+import BrandLogo from './BrandLogo.js';
 import ThemeToggle from './ThemeToggle.js';
 
 export default function Footer() {
@@ -59,21 +60,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10">
           {/* Columna de Marca (2 columnas de ancho) */}
           <div className="lg:col-span-2">
-            <Link href="/" className="flex items-center gap-2.5 group">
-              <img 
-                src="/images/logo.jpg" 
-                alt="Todo Lima Logo" 
-                className="w-9 h-9 rounded-xl object-cover shadow-sm group-hover:scale-105 transition-transform"
-              />
-              <div className="flex flex-col">
-                <span className="font-black text-xl text-white tracking-tight">
-                  Todo<span className="text-sky-500">Lima</span>
-                </span>
-                <span className="text-[10px] uppercase tracking-wider font-bold text-slate-500">
-                  Guía local independiente
-                </span>
-              </div>
-            </Link>
+            <Link href="/" aria-label="Todo Lima, inicio" className="inline-flex"><BrandLogo inverse /></Link>
 
             <p className="mt-4 text-xs sm:text-sm text-slate-400 leading-relaxed max-w-sm">
               Explora negocios y servicios de Lima, compara información disponible y consulta directamente con cada proveedor.
