@@ -284,10 +284,10 @@
     "slug": "garagay-patrimonio-arqueologico-y-condiciones-de-acceso-a-verificar",
     "title": "Garagay: patrimonio arqueológico y condiciones de acceso a verificar",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-18",
+    "published_slot": "mañana",
+    "batch_day": 8
   },
   {
     "article_id": "TLB-030",

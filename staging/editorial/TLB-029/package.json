@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-029",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "garagay-patrimonio-arqueologico-y-condiciones-de-acceso-a-verificar",
     "title": "Garagay: patrimonio arqueológico y condiciones de acceso a verificar",
@@ -14,8 +14,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre garagay: patrimonio arqueológico y condiciones de acceso a verificar: historia, arquitectura, horarios de visita y recomendaciones o...",
-    "published": "2026-05-12",
-    "modified": "2026-10-10",
+    "published": "2026-10-18",
+    "modified": "2026-10-18",
     "cover": "garagay-patrimonio-arqueologico-y-condiciones-de-acceso-a-verificar-portada-patrimonio-arquitectura",
     "internal": [
       "garagay-patrimonio-arqueologico-y-condiciones-de-acceso-a-verificar-detalle-casona-historica",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-18",
+    "publication_slot": "mañana"
   }
 }
