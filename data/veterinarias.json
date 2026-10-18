@@ -1,55 +1,8 @@
 {
   "category": "veterinarias",
   "searchQuery": "veterinarias 24 horas en Lima",
-  "totalResults": 70,
-  "updatedAt": "2026-09-09T20:28:27.302Z",
-  "topBusinessContext": {
-    "id": "biz_7",
-    "name": "veterinaria 24 horas ALBORADA",
-    "rating": 5,
-    "reviewsCount": null,
-    "category": "Servicio de urgencias veterinarias",
-    "address": "Av. la Alborada 1441, Lima 15072",
-    "url": "https://www.google.com/maps/place/veterinaria+24+horas+ALBORADA/data=!4m7!3m6!1s0x9105c95c03db919f:0x497e61ef6be9493b!8m2!3d-12.0630851!4d-77.0665839!16s%2Fg%2F11nhknmydj!19sChIJn5HbA1zJBZERO0npa-9hfkk"
-  },
-  "pageContent": [
-    {
-      "id": "urgencia",
-      "headline": "¿Problemas urgentes? Encuentra VETERINARIAS en Lima en menos de 15 Minutos",
-      "subtitles": [
-        "No dejes tu necesidad al azar ni pierdas semanas buscando referencias en la ciudad.",
-        "Garantiza resultados rápidos con especialistas validados. Destaca veterinaria 24 horas ALBORADA ubicado en Av. la Alborada 1441, Lima 15072."
-      ],
-      "ctas": [
-        "Contactar al Especialista por WhatsApp",
-        "Ver Directorio Inmediato"
-      ]
-    },
-    {
-      "id": "autoridad",
-      "headline": "El Directorio Definitivo: El Top 1% de VETERINARIAS Validados en Lima",
-      "subtitles": [
-        "Contratar un servicio es una decisión crítica. Tomar una decisión equivocada sale muy caro.",
-        "Filtramos los negocios con mayor tasa de éxito. Conecta directo con líderes como veterinaria 24 horas ALBORADA (⭐ 5 estrellas)."
-      ],
-      "ctas": [
-        "Chatear con un Experto",
-        "Explorar Ranking de Especialistas"
-      ]
-    },
-    {
-      "id": "prueba-social",
-      "headline": "Protege tu Inversión con los VETERINARIAS Más Recomendados de Lima",
-      "subtitles": [
-        "Cientos de clientes en Lima ya validaron a estos profesionales. No seas el conejillo de indias de nadie.",
-        "Habla hoy mismo y sin intermediarios con los expertos mejor reseñados en Google Maps."
-      ],
-      "ctas": [
-        "Solicitar Evaluación Gratis",
-        "Ver Reseñas Verificadas"
-      ]
-    }
-  ],
+  "totalResults": 100,
+  "updatedAt": "2026-10-18T17:30:49.642Z",
   "businesses": [
     {
       "id": "biz_1",
@@ -680,6 +633,396 @@
       "category": "Servicio de urgencias veterinarias",
       "address": "ASOCIACIÓN DE VIVIENDA LA MENACHO II LA MENACHO 2, Los Algarrobos MZ G LT 08, El Agustino 15003",
       "url": "https://www.google.com/maps/place/VETERINARIA+SERVIVET/data=!4m7!3m6!1s0x9105c59494040ab5:0xdcc50fe8fba521d0!8m2!3d-12.0390971!4d-76.9970166!16s%2Fg%2F11s7sv6ntm!19sChIJtQoElJTFBZER0CGl--gPxdw"
+    },
+    {
+      "name": "Agrosuni",
+      "rating": 4.2,
+      "reviewsCount": 906,
+      "category": "Veterinario",
+      "address": "C. José Díaz 140, Lima 15033",
+      "phone": "tel:013328484",
+      "website": "http://www.agrosuni.com/",
+      "url": "https://www.google.com/maps/place/Agrosuni/data=!4m7!3m6!1s0x9105c8eac560f5ef:0x8bb32a239b32e02d!8m2!3d-12.0650281!4d-77.0341514!16s%2Fg%2F11b6gjhxqc!19sChIJ7_VgxerIBZERLeAymyMqs4s?hl=es",
+      "latitude": -12.0650281,
+      "longitude": -77.0341514,
+      "id": "biz_71"
+    },
+    {
+      "name": "ZOOFARMA PERU",
+      "rating": 4.3,
+      "reviewsCount": 244,
+      "category": "Farmacia veterinaria",
+      "address": "Av. Paseo de la República 668, Lima 15046",
+      "phone": "tel:980469381",
+      "website": "https://www.facebook.com/zoofarma.pe",
+      "url": "https://www.google.com/maps/place/ZOOFARMA+PERU/data=!4m7!3m6!1s0x9105c8eab636633d:0xd7c861911878991c!8m2!3d-12.0646662!4d-77.0338868!16s%2Fg%2F1pzs679zc!19sChIJPWM2turIBZERHJl4GJFhyNc?hl=es",
+      "latitude": -12.0646662,
+      "longitude": -77.0338868,
+      "id": "biz_72"
+    },
+    {
+      "name": "ConVet - 28 de Julio",
+      "rating": 4.8,
+      "reviewsCount": 24,
+      "category": "Farmacia veterinaria",
+      "address": "Av. 28 de Julio 1016, Lima 15046",
+      "phone": "tel:958594376",
+      "website": null,
+      "url": "https://www.google.com/maps/place/ConVet+-+28+de+Julio/data=!4m7!3m6!1s0x9105c9e0105aee1b:0x1c65dbae8c6ab09b!8m2!3d-12.0640474!4d-77.0350307!16s%2Fg%2F11nms91fwz!19sChIJG-5aEODJBZERm7BqjK7bZRw?hl=es",
+      "latitude": -12.0640474,
+      "longitude": -77.0350307,
+      "id": "biz_73"
+    },
+    {
+      "name": "Convet - Santa Beatriz",
+      "rating": 4.2,
+      "reviewsCount": 230,
+      "category": "Farmacia veterinaria",
+      "address": "Av. Paseo de la República 678, Lima 15046",
+      "phone": "tel:952602992",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Convet+-+Santa+Beatriz/data=!4m7!3m6!1s0x9105c8eac9983a35:0xc77c6f59245681e3!8m2!3d-12.0647668!4d-77.0338891!16s%2Fg%2F11gm7y2y35!19sChIJNTqYyerIBZER44FWJFlvfMc?hl=es",
+      "latitude": -12.0647668,
+      "longitude": -77.0338891,
+      "id": "biz_74"
+    },
+    {
+      "name": "Veterinaria María Auxiliadora",
+      "rating": 4.5,
+      "reviewsCount": 428,
+      "category": "Veterinario",
+      "address": "Jr. Varela 1410, Lima 15083",
+      "phone": "tel:014231237",
+      "website": "https://www.facebook.com/vemariamariaauxiliadora/",
+      "url": "https://www.google.com/maps/place/Veterinaria+Mar%C3%ADa+Auxiliadora/data=!4m7!3m6!1s0x9105c8dda5295b41:0xf5f5df985f4d155a!8m2!3d-12.0620157!4d-77.0485474!16s%2Fg%2F11c2lysdt_!19sChIJQVsppd3IBZERWhVNX5jf9fU?hl=es",
+      "latitude": -12.0620157,
+      "longitude": -77.0485474,
+      "id": "biz_75"
+    },
+    {
+      "name": "CENTRO VETERINARIO ALFA",
+      "rating": 4.1,
+      "reviewsCount": 48,
+      "category": "Hospital veterinario",
+      "address": "Jirón Juan Antonio Ribeyro 217, Jesús María 15072",
+      "phone": "tel:013311168",
+      "website": null,
+      "url": "https://www.google.com/maps/place/CENTRO+VETERINARIO+ALFA/data=!4m7!3m6!1s0x9105c8e628f1f8c5:0xcd91492e592a6d9b!8m2!3d-12.0671868!4d-77.0451255!16s%2Fg%2F11b6nwg_jq!19sChIJxfjxKObIBZERm20qWS5Jkc0?hl=es",
+      "latitude": -12.0671868,
+      "longitude": -77.0451255,
+      "id": "biz_76"
+    },
+    {
+      "name": "Veterinaria Patitas de Breña",
+      "rating": 4.6,
+      "reviewsCount": 161,
+      "category": "Veterinario",
+      "address": "Jr. Varela 386, Breña 15082",
+      "phone": "tel:963826132",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Veterinaria+Patitas+de+Bre%C3%B1a/data=!4m7!3m6!1s0x9105c8da97e73887:0x15016cafab82689f!8m2!3d-12.0535238!4d-77.0464645!16s%2Fg%2F11f5k1sgw9!19sChIJhzjnl9rIBZERn2iCq69sARU?hl=es",
+      "latitude": -12.0535238,
+      "longitude": -77.0464645,
+      "id": "biz_77"
+    },
+    {
+      "name": "Veterinaria Dasa",
+      "rating": 4.4,
+      "reviewsCount": 5,
+      "category": "Farmacia veterinaria",
+      "address": "15072, Lima 15072",
+      "phone": "tel:942805830",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Veterinaria+Dasa/data=!4m7!3m6!1s0x9105c9576f4d671f:0x77bca7428131945a!8m2!3d-12.0649794!4d-77.0337915!16s%2Fg%2F11xcn8qqnw!19sChIJH2dNb1fJBZERWpQxgUKnvHc?hl=es",
+      "latitude": -12.0649794,
+      "longitude": -77.0337915,
+      "id": "biz_78"
+    },
+    {
+      "name": "Veterinaria Bustamante",
+      "rating": 4.7,
+      "reviewsCount": 18,
+      "category": "Veterinario",
+      "address": "Av Horacio Urteaga, Jesús María 15046",
+      "phone": "tel:906002393",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Veterinaria+Bustamante/data=!4m7!3m6!1s0x9105c9a1474eb235:0x25db751b27bdd31a!8m2!3d-12.0649375!4d-77.0420911!16s%2Fg%2F11v3rgg22b!19sChIJNbJOR6HJBZERGtO9Jxt12yU?hl=es",
+      "latitude": -12.0649375,
+      "longitude": -77.0420911,
+      "id": "biz_79"
+    },
+    {
+      "name": "Clinica Veterinaria Aristocat Sede Jesús María",
+      "rating": 4.4,
+      "reviewsCount": 227,
+      "category": "Hospital veterinario",
+      "address": "Av. Brasil 1263, Jesús María 15072",
+      "phone": "tel:970153494",
+      "website": "http://aristocat.pe/",
+      "url": "https://www.google.com/maps/place/Clinica+Veterinaria+Aristocat+Sede+Jes%C3%BAs+Mar%C3%ADa/data=!4m7!3m6!1s0x9105c9472867dcef:0x2e9c1c33c52c84e6!8m2!3d-12.0719158!4d-77.0508634!16s%2Fg%2F11ts47s8ps!19sChIJ79xnKEfJBZER5oQsxTMcnC4?hl=es",
+      "latitude": -12.0719158,
+      "longitude": -77.0508634,
+      "id": "biz_80"
+    },
+    {
+      "name": "Multimascot Petshop",
+      "rating": 4,
+      "reviewsCount": 636,
+      "category": "Tienda de productos para mascotas",
+      "address": "Jr. Ayacucho 546, Lima 15001",
+      "phone": "tel:014281347",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Multimascot+Petshop/data=!4m7!3m6!1s0x9105c8b0b6a96de3:0x5cdc47725e4aacb7!8m2!3d-12.0508071!4d-77.0272596!16s%2Fg%2F11cjvwndj8!19sChIJ422ptrDIBZERt6xKXnJH3Fw?hl=es",
+      "latitude": -12.0508071,
+      "longitude": -77.0272596,
+      "id": "biz_81"
+    },
+    {
+      "name": "Veterinaria TotalPet",
+      "rating": 4.3,
+      "reviewsCount": 114,
+      "category": "Veterinario",
+      "address": "Av. Gral. Eugenio Garzón 1060, Jesús María 15084",
+      "phone": "tel:934443235",
+      "website": "https://totalpet.pe/",
+      "url": "https://www.google.com/maps/place/Veterinaria+TotalPet/data=!4m7!3m6!1s0x9105c9428b1a5c65:0x150e522ff81ab6eb!8m2!3d-12.070456!4d-77.0484907!16s%2Fg%2F11rfn46jb7!19sChIJZVwai0LJBZER67Ya-C9SDhU?hl=es",
+      "latitude": -12.070456,
+      "longitude": -77.0484907,
+      "id": "biz_82"
+    },
+    {
+      "name": "VETERINARIA PATAS Y COLITAS",
+      "rating": 4.6,
+      "reviewsCount": 480,
+      "category": "Veterinario",
+      "address": "Av. Gral. Eugenio Garzón 1699, Jesús María 15072",
+      "phone": "tel:975024680",
+      "website": "https://www.patasycolitas.pe/",
+      "url": "https://www.google.com/maps/place/VETERINARIA+PATAS+Y+COLITAS/data=!4m7!3m6!1s0x9105c8fce11a5ed3:0xf4d6e715d4f3b1ef!8m2!3d-12.0769144!4d-77.0533405!16s%2Fg%2F12hkfbt4_!19sChIJ014a4fzIBZER77Hz1BXn1vQ?hl=es",
+      "latitude": -12.0769144,
+      "longitude": -77.0533405,
+      "id": "biz_83"
+    },
+    {
+      "name": "Veterinaria Walac San Borja",
+      "rating": 3.7,
+      "reviewsCount": 48,
+      "category": "Hospital veterinario",
+      "address": "Av. Aviación 3187, San Borja 15037",
+      "phone": "tel:959246067",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Veterinaria+Walac+San+Borja/data=!4m7!3m6!1s0x9105c72591e4d089:0xf1c9cf1075eec846!8m2!3d-12.101837!4d-77.001358!16s%2Fg%2F11vjpkb0ky!19sChIJidDkkSXHBZERRsjudRDPyfE?hl=es",
+      "latitude": -12.101837,
+      "longitude": -77.001358,
+      "id": "biz_84"
+    },
+    {
+      "name": "Veterinaria 24 horas GRANDES MASCOTAS / Emergencias",
+      "rating": 3.8,
+      "reviewsCount": 114,
+      "category": "Hospital veterinario",
+      "address": "Av. Mariano H. Cornejo 1309, Pueblo Libre 15084",
+      "phone": "tel:976188519",
+      "website": "https://grandesmascotas.netlify.app/",
+      "url": "https://www.google.com/maps/place/Veterinaria+24+horas+GRANDES+MASCOTAS+%2F+Emergencias/data=!4m7!3m6!1s0x9105c941ba1fe43f:0x421e771873b84f81!8m2!3d-12.0678039!4d-77.0639601!16s%2Fg%2F11f7r66f8l!19sChIJP-QfukHJBZERgU-4cxh3HkI?hl=es",
+      "latitude": -12.0678039,
+      "longitude": -77.0639601,
+      "id": "biz_85"
+    },
+    {
+      "name": "Pet Shop Dogs Lovers",
+      "rating": 4.1,
+      "reviewsCount": 26,
+      "category": "Veterinario",
+      "address": "Av. Venezuela 1063, Lima 15082",
+      "phone": "tel:992019471",
+      "website": "https://m.facebook.com/PetShopDogsLovers/",
+      "url": "https://www.google.com/maps/place/Pet+Shop+Dogs+Lovers/data=!4m7!3m6!1s0x9105c8da4e13b75d:0x8ad5683ac38d9761!8m2!3d-12.0552446!4d-77.0485618!16s%2Fg%2F11dxk69nfm!19sChIJXbcTTtrIBZERYZeNwzpo1Yo?hl=es",
+      "latitude": -12.0552446,
+      "longitude": -77.0485618,
+      "id": "biz_86"
+    },
+    {
+      "name": "Pet Time Veterinaria - Jesús María",
+      "rating": 4.6,
+      "reviewsCount": 176,
+      "category": "Veterinario",
+      "address": "Jr. Huiracocha 1548, Jesús María 15072",
+      "phone": "tel:994963334",
+      "website": "http://www.pettime.pe/",
+      "url": "https://www.google.com/maps/place/Pet+Time+Veterinaria+-+Jes%C3%BAs+Mar%C3%ADa/data=!4m7!3m6!1s0x9105c8fb9fe73a0b:0xdfff329bc7ef046c!8m2!3d-12.0780001!4d-77.0493422!16s%2Fg%2F11g7_kztl7!19sChIJCzrnn_vIBZERbATvx5sy_98?hl=es",
+      "latitude": -12.0780001,
+      "longitude": -77.0493422,
+      "id": "biz_87"
+    },
+    {
+      "name": "Veterinaria Ama",
+      "rating": 4.6,
+      "reviewsCount": 263,
+      "category": "Hospital veterinario",
+      "address": "Parque Miguel Luna y Peralta 122-124, La Victoria 15034",
+      "phone": "tel:014713548",
+      "website": "http://www.facebook.com/veterinariaama",
+      "url": "https://www.google.com/maps/place/Veterinaria+Ama/data=!4m7!3m6!1s0x9105c888c517cd09:0xbd1bee1842f30811!8m2!3d-12.0803765!4d-77.0238261!16s%2Fg%2F11b6gf7ggk!19sChIJCc0XxYjIBZEREQjzQhjuG70?hl=es",
+      "latitude": -12.0803765,
+      "longitude": -77.0238261,
+      "id": "biz_88"
+    },
+    {
+      "name": "Veterinaria Huellitas del Rimac",
+      "rating": 4.5,
+      "reviewsCount": 107,
+      "category": "Veterinario",
+      "address": "Jirón Libertad 112, Lima 15093",
+      "phone": "tel:991153775",
+      "website": "https://huellitasdelrimac.com/",
+      "url": "https://www.google.com/maps/place/Veterinaria+Huellitas+del+Rimac/data=!4m7!3m6!1s0x9105c9e6cd89b9fd:0xf6db9d86fe699ef3!8m2!3d-12.0410991!4d-77.0291058!16s%2Fg%2F11h31zkf8q!19sChIJ_bmJzebJBZER855p_oad2_Y?hl=es",
+      "latitude": -12.0410991,
+      "longitude": -77.0291058,
+      "id": "biz_89"
+    },
+    {
+      "name": "Veterinaria Lolita Pet - La Victoria",
+      "rating": 4.9,
+      "reviewsCount": 120,
+      "category": "Veterinario",
+      "address": "Esteban Campodónico 189, La Victoria 15034",
+      "phone": "tel:939080995",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Veterinaria+Lolita+Pet+-+La+Victoria/data=!4m7!3m6!1s0x9105c94ab3a5d343:0x936f5bd3c9c27afd!8m2!3d-12.0823624!4d-77.0212767!16s%2Fg%2F11xdvyfrdc!19sChIJQ9Ols0rJBZER_XrCydNbb5M?hl=es",
+      "latitude": -12.0823624,
+      "longitude": -77.0212767,
+      "id": "biz_90"
+    },
+    {
+      "name": "Apache Rott",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "Tienda de alimentos para animales",
+      "address": "Jilcamarca 1182, Lima 15404",
+      "phone": "tel:991272450",
+      "website": "https://apache-rott-1.ueniweb.com/?utm_campaign=gmb",
+      "url": "https://www.google.com/maps/place/Apache+Rott/data=!4m7!3m6!1s0x9105c9641127849d:0xff04f55599f493a7!8m2!3d-12.0568575!4d-77.0384466!16s%2Fg%2F11fvpncw41!19sChIJnYQnEWTJBZERp5P0mVX1BP8?hl=es",
+      "latitude": -12.0568575,
+      "longitude": -77.0384466,
+      "id": "biz_91"
+    },
+    {
+      "name": "Veterinaria Pancanvet",
+      "rating": 4.7,
+      "reviewsCount": 427,
+      "category": "Cuidados veterinarios",
+      "address": "Av. Prol. Iquitos 1798, Lince 15046",
+      "phone": "tel:014716717",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Veterinaria+Pancanvet/data=!4m7!3m6!1s0x9105c88bc36d7f01:0x2c5c821a2a1bdc9c!8m2!3d-12.0814753!4d-77.0285514!16s%2Fg%2F11b6x9vrlx!19sChIJAX9tw4vIBZERnNwbKhqCXCw?hl=es",
+      "latitude": -12.0814753,
+      "longitude": -77.0285514,
+      "id": "biz_92"
+    },
+    {
+      "name": "Veterinary Sutures : Material Quirurgico Veterinario",
+      "rating": 4.3,
+      "reviewsCount": 6,
+      "category": "Hospital veterinario",
+      "address": "Jr. Napo 450, Lima 15082",
+      "phone": "tel:+12398887805",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Veterinary+Sutures+:+Material+Quirurgico+Veterinario/data=!4m7!3m6!1s0x9105c8d9bb4ab441:0xe3611261b45ec7e1!8m2!3d-12.0551303!4d-77.0526368!16s%2Fg%2F11f0wq_2ys!19sChIJQbRKu9nIBZER4cdetGESYeM?hl=es",
+      "latitude": -12.0551303,
+      "longitude": -77.0526368,
+      "id": "biz_93"
+    },
+    {
+      "name": "Veterinaria Petology",
+      "rating": 4.6,
+      "reviewsCount": 38,
+      "category": "Veterinario",
+      "address": "Av. Naciones Unidas 1611, Lima 15082",
+      "phone": "tel:947137831",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Veterinaria+Petology/data=!4m7!3m6!1s0x9105c928a2d714f7:0xd2da31592da38bd8!8m2!3d-12.0525317!4d-77.0607699!16s%2Fg%2F11g6m0f1s5!19sChIJ9xTXoijJBZER2IujLVkx2tI?hl=es",
+      "latitude": -12.0525317,
+      "longitude": -77.0607699,
+      "id": "biz_94"
+    },
+    {
+      "name": "Veterinaria Salazar",
+      "rating": 4.3,
+      "reviewsCount": 201,
+      "category": "Cuidados veterinarios",
+      "address": "Av. Talara 422, Jesús María 15072",
+      "phone": "tel:014233143",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Veterinaria+Salazar/data=!4m7!3m6!1s0x9105c8e5f4839dc7:0xf7590f25d6658b61!8m2!3d-12.0706833!4d-77.0452747!16s%2Fg%2F11b6p5t_rt!19sChIJx52D9OXIBZERYYtl1iUPWfc?hl=es",
+      "latitude": -12.0706833,
+      "longitude": -77.0452747,
+      "id": "biz_95"
+    },
+    {
+      "name": "Veterinaria Medi- Can´s",
+      "rating": 4.2,
+      "reviewsCount": 32,
+      "category": "Veterinario",
+      "address": "Jr. Carhuaz 697 BREÑA, Lima 15082",
+      "phone": "tel:014237503",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Veterinaria+Medi-+Can%C2%B4s/data=!4m7!3m6!1s0x9105c8da1fbc9949:0x8c0e33eccc82d48e!8m2!3d-12.0541957!4d-77.050518!16s%2Fg%2F11g6j7sqp4!19sChIJSZm8H9rIBZERjtSCzOwzDow?hl=es",
+      "latitude": -12.0541957,
+      "longitude": -77.050518,
+      "id": "biz_96"
+    },
+    {
+      "name": "Clínica Veterinaria House Pet (Zarumilla)",
+      "rating": 4.4,
+      "reviewsCount": 167,
+      "category": "Veterinario",
+      "address": "Av. Zarumilla 777, Lima 15101",
+      "phone": "tel:980500001",
+      "website": "https://www.facebook.com/VeterianiaZarumilla",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+House+Pet+%28Zarumilla%29/data=!4m7!3m6!1s0x9105cf284dfd978f:0x7b9e950f94d083ff!8m2!3d-12.0341855!4d-77.052277!16s%2Fg%2F11c2kdz5jz!19sChIJj5f9TSjPBZER_4PQlA-Vnns?hl=es",
+      "latitude": -12.0341855,
+      "longitude": -77.052277,
+      "id": "biz_97"
+    },
+    {
+      "name": "Veterinaria Francisco Pizarro",
+      "rating": 4.3,
+      "reviewsCount": 95,
+      "category": "Veterinario",
+      "address": "Av. Francisco Pizarro 735, Rímac 15094",
+      "phone": "tel:014829810",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Veterinaria+Francisco+Pizarro/data=!4m7!3m6!1s0x9105cf832b4a8c79:0x36bdc46d8a0d57bf!8m2!3d-12.034754!4d-77.0377536!16s%2Fg%2F11qpzgrh0z!19sChIJeYxKK4PPBZERv1cNim3EvTY?hl=es",
+      "latitude": -12.034754,
+      "longitude": -77.0377536,
+      "id": "biz_98"
+    },
+    {
+      "name": "Pet Time Veterinaria - Miraflores",
+      "rating": 4.5,
+      "reviewsCount": 205,
+      "category": "Veterinario",
+      "address": "C. 2 de Mayo Street 580, Miraflores 15074",
+      "phone": "tel:941520686",
+      "website": "https://www.pettime.pe/",
+      "url": "https://www.google.com/maps/place/Pet+Time+Veterinaria+-+Miraflores/data=!4m7!3m6!1s0x9105c9e707917b39:0x45713d784e3d01ea!8m2!3d-12.1178714!4d-77.0345112!16s%2Fg%2F11ll628slr!19sChIJOXuRB-fJBZER6gE9Tng9cUU?hl=es",
+      "latitude": -12.1178714,
+      "longitude": -77.0345112,
+      "id": "biz_99"
+    },
+    {
+      "name": "Acu Li - Clínica Veterinaria",
+      "rating": 5,
+      "reviewsCount": 1356,
+      "category": "Veterinario",
+      "address": "Av. Petit Thouars 3991, San Isidro 15012",
+      "phone": "tel:905438555",
+      "website": "https://aculi.pe/",
+      "url": "https://www.google.com/maps/place/Acu+Li+-+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0x9105c71d295c93c9:0x21c7459790b41f60!8m2!3d-12.1020709!4d-77.0305166!16s%2Fg%2F11s9gj6cqx!19sChIJyZNcKR3HBZERYB-0kJdFxyE?hl=es",
+      "latitude": -12.1020709,
+      "longitude": -77.0305166,
+      "id": "biz_100"
     }
   ]
 }

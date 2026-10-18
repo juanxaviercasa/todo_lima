@@ -27,9 +27,36 @@ const SECTOR_DISTRICTS = [
   'La Molina Magdalena del Mar'
 ];
 
+const CUSTOM_BASE_QUERIES = {
+  'veterinarias': 'veterinarias',
+  'tiendas-de-mascotas': 'tiendas de mascotas pet shop',
+  'hospedajes-para-mascotas': 'hospedaje para mascotas hotel canino',
+  'guarderias-caninas': 'guarderia canina',
+  'adiestramiento-canino': 'adiestramiento canino entrenamiento perros',
+  'paseadores-de-perros': 'paseadores de perros',
+  'electricistas': 'electricistas',
+  'empresas-de-limpieza': 'empresas de limpieza',
+  'limpieza-de-muebles': 'lavado de muebles y tapices',
+  'desatoros': 'desatoros y gasfiteria',
+  'limpieza-de-cisternas': 'limpieza de cisternas',
+  'impermeabilizacion': 'impermeabilizacion de techos',
+  'reparacion-de-calzado': 'reparacion de calzado renovadora',
+  'sastrerias': 'sastrerias arreglos de ropa',
+  'reparacion-de-bicicletas': 'taller de bicicletas reparacion',
+  'albanileria-y-remodelaciones': 'albanileria remodelaciones construccion',
+  'diseno-de-interiores': 'diseno de interiores',
+  'estructuras-metalicas': 'estructuras metalicas carpinteria metalica',
+  'jardineria': 'servicios de jardineria',
+  'fumigacion': 'fumigacion y control de plagas',
+  'talleres-mecanicos': 'taller mecanico automotriz',
+  'car-wash': 'car wash lavado de autos',
+  'auxilio-mecanico': 'auxilio mecanico gruas'
+};
+
 export async function expandCategory(browser, slug, targetTotal = 100) {
   const catConfig = CATEGORIES.find(c => c.slug === slug);
-  const baseQuery = catConfig ? catConfig.query : slug.replace(/-/g, ' ') + ' en Lima';
+  const baseKeyword = CUSTOM_BASE_QUERIES[slug] || (catConfig ? catConfig.query.replace(/\ben Lima\b/gi, '') : slug.replace(/-/g, ' '));
+  const baseQuery = `${baseKeyword.trim()} en Lima`;
   const filePath = path.join(DATA_DIR, `${slug}.json`);
   let existingBusinesses = [];
   let searchQuery = baseQuery;
