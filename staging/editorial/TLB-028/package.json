@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-028",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "malecon-de-miraflores-como-organizar-una-caminata",
     "title": "Malecón de Miraflores: cómo organizar una caminata",
@@ -14,8 +14,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre malecón de miraflores: cómo organizar una caminata en Lima: planificación, requisitos oficiales, accesibilidad y consejos para disfrutar sin ...",
-    "published": "2026-05-11",
-    "modified": "2026-10-10",
+    "published": "2026-10-18",
+    "modified": "2026-10-18",
     "cover": "malecon-de-miraflores-como-organizar-una-caminata-portada-malecon-miraflores",
     "internal": [
       "malecon-de-miraflores-como-organizar-una-caminata-parque-del-amor-senderos",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-18",
+    "publication_slot": "mañana"
   }
 }

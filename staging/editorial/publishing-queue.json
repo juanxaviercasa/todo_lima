@@ -274,10 +274,10 @@
     "slug": "malecon-de-miraflores-como-organizar-una-caminata",
     "title": "Malecón de Miraflores: cómo organizar una caminata",
     "category": "planes-y-bienestar",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-18",
+    "published_slot": "mañana",
+    "batch_day": 8
   },
   {
     "article_id": "TLB-029",
