@@ -58,6 +58,9 @@ jobs:
             node scripts/publish-daily-batch.mjs --count "$COUNT"
           fi
 
+      - name: Verificar portadas e imagenes internas publicadas en R2
+        run: node scripts/verify-blog-r2.mjs
+
       - name: Validar compilacion estatica de produccion
         run: npm run build
 

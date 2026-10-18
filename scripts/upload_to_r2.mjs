@@ -74,14 +74,10 @@ async function worker(workerId) {
         const head = await s3.send(new HeadObjectCommand({ Bucket: BUCKET_NAME, Key: key }));
         if (head.ContentLength === fileStats.size) {
           skipped++;
-          processed++;
-          if (processed % 50 === 0 || processed === files.length) {
-            console.log(`[Progreso ${processed}/${files.length}] Subidos: ${uploaded}, Omitidos: ${skipped}, Errores: ${errors}`);
-          }
           continue;
         }
       } catch (e) {
-        // No existe en R2, continuar a subir
+        if (e.$metadata?.httpStatusCode !== 404) throw e;
       }
 
       const fileBuffer = fs.readFileSync(filePath);
@@ -116,3 +112,4 @@ console.log(`- Ya existentes (omitidos): ${skipped}`);
 console.log(`- Errores: ${errors}`);
 console.log(`- Total procesados: ${processed}/${files.length}`);
 console.log(`======================================================\n`);
+if (errors) process.exitCode = 1;
