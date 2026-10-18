@@ -44,6 +44,7 @@ const CUSTOM_BASE_QUERIES = {
   'sastrerias': 'sastrerias arreglos de ropa',
   'reparacion-de-bicicletas': 'taller de bicicletas reparacion',
   'albanileria-y-remodelaciones': 'albanileria remodelaciones construccion',
+  'arquitectura': 'estudio de arquitectura',
   'diseno-de-interiores': 'diseno de interiores',
   'estructuras-metalicas': 'estructuras metalicas carpinteria metalica',
   'jardineria': 'servicios de jardineria',

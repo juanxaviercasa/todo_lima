@@ -1,55 +1,8 @@
 {
   "category": "talleres-mecanicos",
   "searchQuery": "talleres mecanicos automotriz en Lima",
-  "totalResults": 74,
-  "updatedAt": "2026-09-09T21:03:11.235Z",
-  "topBusinessContext": {
-    "id": "biz_3",
-    "name": "Mecánicos a Domicilio en Lima - 24 Horas",
-    "rating": 5,
-    "reviewsCount": null,
-    "category": "Taller mecánico",
-    "address": "Jirón Loreto 665, Lima 15082",
-    "url": "https://www.google.com/maps/place/Mec%C3%A1nicos+a+Domicilio+en+Lima+-+24+Horas/data=!4m7!3m6!1s0x9105b7d3a10f9227:0x33c44504e81577cb!8m2!3d-12.1137674!4d-77.0118908!16s%2Fg%2F11mw7m1k7m!19sChIJJ5IPodO3BZERy3cV6ARFxDM"
-  },
-  "pageContent": [
-    {
-      "id": "urgencia",
-      "headline": "¿Problemas urgentes? Encuentra TALLERES MECANICOS en Lima en menos de 15 Minutos",
-      "subtitles": [
-        "No dejes tu necesidad al azar ni pierdas semanas buscando referencias en la ciudad.",
-        "Garantiza resultados rápidos con especialistas validados. Destaca Mecánicos a Domicilio en Lima - 24 Horas ubicado en Jirón Loreto 665, Lima 15082."
-      ],
-      "ctas": [
-        "Contactar al Especialista por WhatsApp",
-        "Ver Directorio Inmediato"
-      ]
-    },
-    {
-      "id": "autoridad",
-      "headline": "El Directorio Definitivo: El Top 1% de TALLERES MECANICOS Validados en Lima",
-      "subtitles": [
-        "Contratar un servicio es una decisión crítica. Tomar una decisión equivocada sale muy caro.",
-        "Filtramos los negocios con mayor tasa de éxito. Conecta directo con líderes como Mecánicos a Domicilio en Lima - 24 Horas (⭐ 5 estrellas)."
-      ],
-      "ctas": [
-        "Chatear con un Experto",
-        "Explorar Ranking de Especialistas"
-      ]
-    },
-    {
-      "id": "prueba-social",
-      "headline": "Protege tu Inversión con los TALLERES MECANICOS Más Recomendados de Lima",
-      "subtitles": [
-        "Cientos de clientes en Lima ya validaron a estos profesionales. No seas el conejillo de indias de nadie.",
-        "Habla hoy mismo y sin intermediarios con los expertos mejor reseñados en Google Maps."
-      ],
-      "ctas": [
-        "Solicitar Evaluación Gratis",
-        "Ver Reseñas Verificadas"
-      ]
-    }
-  ],
+  "totalResults": 100,
+  "updatedAt": "2026-10-18T18:23:22.102Z",
   "businesses": [
     {
       "id": "biz_1",
@@ -800,6 +753,344 @@
       "category": "Taller de reparación de automóviles",
       "address": "Cieneguilla LIMA 40",
       "url": "https://www.google.com/maps/place/Taller+Soluci%C3%B3n+Automotriz+SA/data=!4m7!3m6!1s0x9105eb7b5478868b:0x29964c22dc567b1c!8m2!3d-12.1105403!4d-76.8223998!16s%2Fg%2F11lz5lc63b!19sChIJi4Z4VHvrBZERHHtW3CJMlik"
+    },
+    {
+      "name": "Maestro Pepe Mecánico",
+      "rating": 5,
+      "reviewsCount": 1,
+      "category": "Taller de reparación de automóviles",
+      "address": "Jirón Carlos de los Heros 100-186, Lima 15001",
+      "phone": "tel:953703553",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Maestro+Pepe+Mec%C3%A1nico/data=!4m7!3m6!1s0x9105c9004f073eb1:0x58c20dd8cbdb9a6a!8m2!3d-12.0584325!4d-77.0319591!16s%2Fg%2F11y_kvvcvm!19sChIJsT4HTwDJBZERaprby9gNwlg?hl=es",
+      "latitude": -12.0584325,
+      "longitude": -77.0319591,
+      "id": "biz_75"
+    },
+    {
+      "name": "TALLER AUTOMOTRIZ OXXO PERU",
+      "rating": 5,
+      "reviewsCount": 6,
+      "category": "Taller de reparación de vehículos todoterreno",
+      "address": "JR, Manuel del Pino 391, Lima 15046",
+      "phone": "tel:998188020",
+      "website": "https://www.oxxoperusac.com/",
+      "url": "https://www.google.com/maps/place/TALLER+AUTOMOTRIZ+OXXO+PERU/data=!4m7!3m6!1s0x9105c9628c06bbb5:0xe33661bd0f24ed6d!8m2!3d-12.0782742!4d-77.033589!16s%2Fg%2F11n9rrm4s0!19sChIJtbsGjGLJBZERbe0kD71hNuM?hl=es",
+      "latitude": -12.0782742,
+      "longitude": -77.033589,
+      "id": "biz_76"
+    },
+    {
+      "name": "Mecanica raul",
+      "rating": 4.5,
+      "reviewsCount": 4,
+      "category": "Taller de reparación de automóviles",
+      "address": "WXX3+CWF, Jirón Carhuaz, Lima 15082",
+      "phone": "tel:910605085",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Mecanica+raul/data=!4m7!3m6!1s0x9105c9758baeac2f:0x86daf9487b33614b!8m2!3d-12.0514378!4d-77.045192!16s%2Fg%2F11tmzqzk86!19sChIJL6yui3XJBZERS2Eze0j52oY?hl=es",
+      "latitude": -12.0514378,
+      "longitude": -77.045192,
+      "id": "biz_77"
+    },
+    {
+      "name": "MiMecanico",
+      "rating": null,
+      "reviewsCount": null,
+      "category": "talleres-mecanicos",
+      "address": "Av. Paseo de la República 32, La Victoria 15046",
+      "phone": "tel:999119172",
+      "website": null,
+      "url": "https://www.google.com/maps/place/MiMecanico/data=!4m7!3m6!1s0x9105c8116e43da8b:0x77b55725a9b505cc!8m2!3d-12.0635239!4d-77.0342348!16s%2Fg%2F11ssfmc5fp!19sChIJi9pDbhHIBZERzAW1qSVXtXc?hl=es",
+      "latitude": -12.0635239,
+      "longitude": -77.0342348,
+      "id": "biz_78"
+    },
+    {
+      "name": "JBR AUTOMOTRIZ E.I.R.L",
+      "rating": 3.3,
+      "reviewsCount": 7,
+      "category": "Taller de reparación de automóviles",
+      "address": "102, Jr. Sáenz Peña 169, Lima 15033",
+      "phone": "tel:980815353",
+      "website": "http://jbrautomotriz.com/",
+      "url": "https://www.google.com/maps/place/JBR+AUTOMOTRIZ+E.I.R.L/data=!4m7!3m6!1s0x9105c8be4c55d931:0x569b2e1658501441!8m2!3d-12.0611998!4d-77.0303342!16s%2Fg%2F11g8ktd6tr!19sChIJMdlVTL7IBZERQRRQWBYum1Y?hl=es",
+      "latitude": -12.0611998,
+      "longitude": -77.0303342,
+      "id": "biz_79"
+    },
+    {
+      "name": "Gamor",
+      "rating": 4.2,
+      "reviewsCount": 138,
+      "category": "Escuela técnica",
+      "address": "Plaza Bolognesi 445 Lima city center, Pl. Bolognesi 445, Lima 15046",
+      "phone": "tel:013320072",
+      "website": "http://www.gamor.edu.pe/",
+      "url": "https://www.google.com/maps/place/Gamor/data=!4m7!3m6!1s0x9105c8c18f6af3b9:0x8dfb52c9bb2ef78e!8m2!3d-12.0607217!4d-77.0408933!16s%2Fg%2F11cmy94tgq!19sChIJufNqj8HIBZERjvcuu8lS-40?hl=es",
+      "latitude": -12.0607217,
+      "longitude": -77.0408933,
+      "id": "biz_80"
+    },
+    {
+      "name": "Mecanica Oscar",
+      "rating": 5,
+      "reviewsCount": 5,
+      "category": "Taller de reparación de automóviles",
+      "address": "San Cristóbal 148, Lima 15033",
+      "phone": null,
+      "website": null,
+      "url": "https://www.google.com/maps/place/Mecanica+Oscar/data=!4m7!3m6!1s0x9105c9504994fd3b:0x92fc9c7f1ed6b126!8m2!3d-12.0693762!4d-77.0297957!16s%2Fg%2F11r48v_hgz!19sChIJO_2USVDJBZERJrHWHn-c_JI?hl=es",
+      "latitude": -12.0693762,
+      "longitude": -77.0297957,
+      "id": "biz_81"
+    },
+    {
+      "name": "Taller Automotriz Ex-Ganaja",
+      "rating": 4.5,
+      "reviewsCount": 2,
+      "category": "Taller de reparación de automóviles",
+      "address": "Jr. Luna Pizarro 93, Lima 15033",
+      "phone": "tel:987490802",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Taller+Automotriz+Ex-Ganaja/data=!4m7!3m6!1s0x9105c8938fb558f7:0xf47d70518215995c!8m2!3d-12.0593512!4d-77.0282349!16s%2Fg%2F11ddxndjx3!19sChIJ91i1j5PIBZERXJkVglFwffQ?hl=es",
+      "latitude": -12.0593512,
+      "longitude": -77.0282349,
+      "id": "biz_82"
+    },
+    {
+      "name": "JMC RACING Moreto sac",
+      "rating": 4.3,
+      "reviewsCount": 41,
+      "category": "Taller de reparación de automóviles",
+      "address": "Jirón Huaraz 1255, Breña 15083",
+      "phone": "tel:940151095",
+      "website": "http://jmcracing.com.pe/",
+      "url": "https://www.google.com/maps/place/JMC+RACING+Moreto+sac/data=!4m7!3m6!1s0x9105c8dd132c406f:0x37ac71bea12d5918!8m2!3d-12.0624255!4d-77.0468217!16s%2Fg%2F11b6_ms6zz!19sChIJb0AsE93IBZERGFktob5xrDc?hl=es",
+      "latitude": -12.0624255,
+      "longitude": -77.0468217,
+      "id": "biz_83"
+    },
+    {
+      "name": "SERVICIOS GOMEZ",
+      "rating": 4.7,
+      "reviewsCount": 15,
+      "category": "Taller mecánico",
+      "address": "Av. Gral. Eugenio Garzón 1501, Jesús María 15072",
+      "phone": "tel:014331281",
+      "website": null,
+      "url": "https://www.google.com/maps/place/SERVICIOS+GOMEZ/data=!4m7!3m6!1s0x9105c8e34b030087:0xa8ed5f8df6f81401!8m2!3d-12.0751999!4d-77.0519099!16s%2Fg%2F11b6hnrp3w!19sChIJhwADS-PIBZERART49o1f7ag?hl=es",
+      "latitude": -12.0751999,
+      "longitude": -77.0519099,
+      "id": "biz_84"
+    },
+    {
+      "name": "FACTORÍA CALDERÓN taller mecánico automotriz",
+      "rating": 5,
+      "reviewsCount": 2,
+      "category": "Taller de reparación de automóviles",
+      "address": "Av. Prol. Iquitos 2219, Lince 15046",
+      "phone": "tel:923249706",
+      "website": "https://www.facebook.com/Factoria-Calder%C3%B3n-117944113356213/?view_public_for=117944113356213",
+      "url": "https://www.google.com/maps/place/FACTOR%C3%8DA+CALDER%C3%93N+taller+mec%C3%A1nico+automotriz/data=!4m7!3m6!1s0x9105c973e62f523f:0x7ed550ae3ff2c1d7!8m2!3d-12.0860328!4d-77.0283347!16s%2Fg%2F11jx3mwhbk!19sChIJP1Iv5nPJBZER18HyP65Q1X4?hl=es",
+      "latitude": -12.0860328,
+      "longitude": -77.0283347,
+      "id": "biz_85"
+    },
+    {
+      "name": "Apunto Motors Taller Automotriz",
+      "rating": 5,
+      "reviewsCount": 3,
+      "category": "Taller de revisión de automóviles",
+      "address": "V3M7+PHG, Jr. Río Orinoco, La Molina 15024",
+      "phone": "tel:923508259",
+      "website": "https://apuntomotors.com/",
+      "url": "https://www.google.com/maps/place/Apunto+Motors+Taller+Automotriz/data=!4m7!3m6!1s0x9105c79cc6646f49:0x2c8dd3f7fd49e0e5!8m2!3d-12.115688!4d-76.936062!16s%2Fg%2F11pvbmz1tv!19sChIJSW9kxpzHBZER5eBJ_ffTjSw?hl=es",
+      "latitude": -12.115688,
+      "longitude": -76.936062,
+      "id": "biz_86"
+    },
+    {
+      "name": "JAC | Planeta Motors Derco Center | San Isidro",
+      "rating": 4.2,
+      "reviewsCount": 1090,
+      "category": "Concesionario de automóviles",
+      "address": "Av. República de Panamá 3671, San Isidro 15047",
+      "phone": "tel:992756886",
+      "website": "https://planetamotors.com.pe/",
+      "url": "https://www.google.com/maps/place/JAC+%7C+Planeta+Motors+Derco+Center+%7C+San+Isidro/data=!4m7!3m6!1s0x9105c873dae70a97:0x7f03da34b26b8bc8!8m2!3d-12.101186!4d-77.01861!16s%2Fg%2F1yhbksn_8!19sChIJlwrn2nPIBZERyItrsjTaA38?hl=es",
+      "latitude": -12.101186,
+      "longitude": -77.01861,
+      "id": "biz_87"
+    },
+    {
+      "name": "Mecánica Maximo",
+      "rating": 5,
+      "reviewsCount": 2,
+      "category": "Taller de reparación de automóviles",
+      "address": "15082, Jirón Huaraz 114, Lima",
+      "phone": "tel:999975988",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Mec%C3%A1nica+Maximo/data=!4m7!3m6!1s0x9105c8d018f0c197:0xc2e8c77ec00c68df!8m2!3d-12.0519647!4d-77.0453072!16s%2Fg%2F11b7kg445s!19sChIJl8HwGNDIBZER32gMwH7H6MI?hl=es",
+      "latitude": -12.0519647,
+      "longitude": -77.0453072,
+      "id": "biz_88"
+    },
+    {
+      "name": "TALLERES ARICA MML",
+      "rating": 4.3,
+      "reviewsCount": 8,
+      "category": "Taller mecánico",
+      "address": "Jirón Rebeca Oquendo 342, Breña 15083",
+      "phone": "tel:987756391",
+      "website": null,
+      "url": "https://www.google.com/maps/place/TALLERES+ARICA+MML/data=!4m7!3m6!1s0x9105c91effd98429:0x38d0e5064574592a!8m2!3d-12.0598136!4d-77.0456482!16s%2Fg%2F11sg_8fml9!19sChIJKYTZ_x7JBZERKll0RQbl0Dg?hl=es",
+      "latitude": -12.0598136,
+      "longitude": -77.0456482,
+      "id": "biz_89"
+    },
+    {
+      "name": "Los Inkas Garage - Limpieza Automotriz Profesional- Planchado y Pintura.",
+      "rating": 4.6,
+      "reviewsCount": 77,
+      "category": "Pintura de automóviles",
+      "address": "Av. Petit Thouars 1500, Lince 15003",
+      "phone": null,
+      "website": null,
+      "url": "https://www.google.com/maps/place/Los+Inkas+Garage+-+Limpieza+Automotriz+Profesional-+Planchado+y+Pintura./data=!4m7!3m6!1s0x9105c99533618fe7:0x69a87b4afc84929d!8m2!3d-12.079713!4d-77.0341639!16s%2Fg%2F11g0g2ds05!19sChIJ549hM5XJBZERnZKE_Ep7qGk?hl=es",
+      "latitude": -12.079713,
+      "longitude": -77.0341639,
+      "id": "biz_90"
+    },
+    {
+      "name": "AUTO SERVICE LA CARCOCHA MOTORS EIRL",
+      "rating": 4.3,
+      "reviewsCount": 53,
+      "category": "Pintura de automóviles",
+      "address": "Castrovirreyna 375, Breña 15083",
+      "phone": "tel:926921003",
+      "website": "https://www.facebook.com/LACARCOCHAAutoservice",
+      "url": "https://www.google.com/maps/place/AUTO+SERVICE+LA+CARCOCHA+MOTORS+EIRL/data=!4m7!3m6!1s0x9105c94285a396c5:0x32c3fea6ff7211cd!8m2!3d-12.0668845!4d-77.051945!16s%2Fg%2F11hykgymsr!19sChIJxZajhULJBZERzRFy_6b-wzI?hl=es",
+      "latitude": -12.0668845,
+      "longitude": -77.051945,
+      "id": "biz_91"
+    },
+    {
+      "name": "Mecánica Gómez",
+      "rating": 3,
+      "reviewsCount": 1,
+      "category": "Taller de reparación de automóviles",
+      "address": "Jirón Lloque Yupanqui 813, Jesús María 15072",
+      "phone": null,
+      "website": null,
+      "url": "https://www.google.com/maps/place/Mec%C3%A1nica+G%C3%B3mez/data=!4m7!3m6!1s0x9105c9622822a933:0xa254257ae1731e7c!8m2!3d-12.0704089!4d-77.0441382!16s%2Fg%2F11tk44qfk8!19sChIJM6kiKGLJBZERfB5z4XolVKI?hl=es",
+      "latitude": -12.0704089,
+      "longitude": -77.0441382,
+      "id": "biz_92"
+    },
+    {
+      "name": "Lubrispeed - Automotriz & offroad",
+      "rating": 4.8,
+      "reviewsCount": 4,
+      "category": "Taller de reparación de automóviles",
+      "address": "Jr. Sáenz Peña 803, La Victoria 15033",
+      "phone": "tel:907403040",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Lubrispeed+-+Automotriz+%26+offroad/data=!4m7!3m6!1s0x9105b7f291a2de65:0x76a4e839f4d1cfa8!8m2!3d-12.0694142!4d-77.0291622!16s%2Fg%2F11sk1jdrqv!19sChIJZd6ikfK3BZERqM_R9DnopHY?hl=es",
+      "latitude": -12.0694142,
+      "longitude": -77.0291622,
+      "id": "biz_93"
+    },
+    {
+      "name": "Autoline Mecánica Automotriz",
+      "rating": 4.5,
+      "reviewsCount": 2,
+      "category": "Taller de reparación de automóviles",
+      "address": "Jr, Sebastián Barranca 626, La Victoria 15034",
+      "phone": "tel:989162396",
+      "website": "https://www.facebook.com/autoline.mecanica/",
+      "url": "https://www.google.com/maps/place/Autoline+Mec%C3%A1nica+Automotriz/data=!4m7!3m6!1s0x9105c9b14bfdc62f:0xe6cf5762dbf7e16f!8m2!3d-12.0683029!4d-77.0260041!16s%2Fg%2F11fqsf6ym8!19sChIJL8b9S7HJBZERb-H322JXz-Y?hl=es",
+      "latitude": -12.0683029,
+      "longitude": -77.0260041,
+      "id": "biz_94"
+    },
+    {
+      "name": "Automotriz Cotrina",
+      "rating": 3.6,
+      "reviewsCount": 22,
+      "category": "Taller mecánico",
+      "address": "Av. Parinacochas 1714, Lima 15034",
+      "phone": "tel:946361995",
+      "website": "https://tallermec.net.pe/p/automotriz-cotrina/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "url": "https://www.google.com/maps/place/Automotriz+Cotrina/data=!4m7!3m6!1s0x9105c8848998338d:0xed8e64a79fde6806!8m2!3d-12.0763261!4d-77.0171605!16s%2Fg%2F11cm4hy2ns!19sChIJjTOYiYTIBZERBmjen6dkju0?hl=es",
+      "latitude": -12.0763261,
+      "longitude": -77.0171605,
+      "id": "biz_95"
+    },
+    {
+      "name": "Automotriz Chab",
+      "rating": 4.5,
+      "reviewsCount": 4,
+      "category": "Taller mecánico",
+      "address": "Pje. Pastaza 1055, Lima 15083",
+      "phone": null,
+      "website": null,
+      "url": "https://www.google.com/maps/place/Automotriz+Chab/data=!4m7!3m6!1s0x9105c920628eafc3:0x6cc51104e811df2f!8m2!3d-12.0617291!4d-77.0573266!16s%2Fg%2F11cn9z0mvh!19sChIJw6-OYiDJBZERL98R6AQRxWw?hl=es",
+      "latitude": -12.0617291,
+      "longitude": -77.0573266,
+      "id": "biz_96"
+    },
+    {
+      "name": "Mecánica y automotriz P&M",
+      "rating": 4.4,
+      "reviewsCount": 8,
+      "category": "Taller mecánico",
+      "address": "Jr. Yungay 1648, Lima 15082",
+      "phone": null,
+      "website": null,
+      "url": "https://www.google.com/maps/place/Mec%C3%A1nica+y+automotriz+P%26M/data=!4m7!3m6!1s0x9105c9b4ea2ade15:0xbd7bd6e74a71973b!8m2!3d-12.0529124!4d-77.0625952!16s%2Fg%2F11q878l8g2!19sChIJFd4q6rTJBZERO5dxSufWe70?hl=es",
+      "latitude": -12.0529124,
+      "longitude": -77.0625952,
+      "id": "biz_97"
+    },
+    {
+      "name": "Martin ( Mecánico)Pintor",
+      "rating": null,
+      "reviewsCount": 1,
+      "category": "Taller de reparación de automóviles",
+      "address": "Jirón Huaraz 71, Lima 15082",
+      "phone": "tel:999975988",
+      "website": null,
+      "url": "https://www.google.com/maps/place/Martin+%28+Mec%C3%A1nico%29Pintor/data=!4m7!3m6!1s0x9105c93255041ceb:0xa7f669f9a19def56!8m2!3d-12.0512925!4d-77.0451836!16s%2Fg%2F11t7r491tw!19sChIJ6xwEVTLJBZERVu-doflp9qc?hl=es",
+      "latitude": -12.0512925,
+      "longitude": -77.0451836,
+      "id": "biz_98"
+    },
+    {
+      "name": "Taller de Lucho Bernaola",
+      "rating": 4.9,
+      "reviewsCount": 19,
+      "category": "Taller de reparación de automóviles",
+      "address": "Alemania 2295, Lima 15082",
+      "phone": null,
+      "website": null,
+      "url": "https://www.google.com/maps/place/Taller+de+Lucho+Bernaola/data=!4m7!3m6!1s0x9105c92948386159:0xf132da7732d71a4f!8m2!3d-12.049101!4d-77.0614921!16s%2Fg%2F11gh2qwnh3!19sChIJWWE4SCnJBZERTxrXMnfaMvE?hl=es",
+      "latitude": -12.049101,
+      "longitude": -77.0614921,
+      "id": "biz_99"
+    },
+    {
+      "name": "ALENMOTORS RED DE TALLERES DE MECANICA",
+      "rating": 4.6,
+      "reviewsCount": 14,
+      "category": "Taller de reparación de automóviles",
+      "address": "Jr. Napo 650, Breña 15082",
+      "phone": "tel:980875250",
+      "website": "https://alenmotors.pe/",
+      "url": "https://www.google.com/maps/place/ALENMOTORS+RED+DE+TALLERES+DE+MECANICA/data=!4m7!3m6!1s0x9105c8d900b5bd1b:0x9b73eba7004da0e!8m2!3d-12.0563333!4d-77.0528986!16s%2Fg%2F11ffm1prmn!19sChIJG721ANnIBZERDtoEcLo-twk?hl=es",
+      "latitude": -12.0563333,
+      "longitude": -77.0528986,
+      "id": "biz_100"
     }
   ]
 }
