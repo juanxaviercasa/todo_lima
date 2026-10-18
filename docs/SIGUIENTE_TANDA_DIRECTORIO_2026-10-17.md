@@ -139,18 +139,36 @@ Los primeros cinco candidatos tienen fuentes iniciales consultadas; los de prior
 | 13 | `uniformes-empresariales` | 0 | 10 | Breña, La Victoria, Cercado de Lima |
 | 14 | `bordados-y-estampados` | 0 | 10 | Cercado de Lima, La Victoria |
 
-## Siguientes Bloques Pendientes (33 categorías restantes)
+## Resultado Tanda 4: Culminación Completa del Directorio (18 de octubre de 2026)
 
-1. **Bloque Turismo y Alojamiento (6 categorías):**
-   `tours-y-experiencias`, `guias-de-turismo`, `hoteles`, `hostales-y-alojamientos`, `alquiler-de-bicicletas`, `escuelas-de-surf`.
-2. **Bloque Educación, Arte y Formación (5 categorías):**
-   `academias-preuniversitarias`, `clases-particulares`, `escuelas-de-musica`, `escuelas-de-danza`, `talleres-de-arte`.
-3. **Bloque Deportes y Fitness (5 categorías):**
-   `estudios-de-yoga`, `estudios-de-pilates`, `academias-de-natacion`, `academias-de-futbol`, `academias-de-artes-marciales`.
-4. **Bloque Belleza y Cuidado Personal (5 categorías):**
-   `manicure-y-pedicure`, `estudios-de-maquillaje`, `centros-de-depilacion`, `estudios-de-tatuajes`, `estudios-de-piercing`.
-5. **Bloque Comercio Especializado y Mascotas (10 categorías):**
-   `penas-criollas`, `talleres-de-artesania`, `tiendas-de-artesania`, `librerias`, `tiendas-de-mascotas`, `tiendas-de-bicicletas`, `zapaterias`, `guarderias-caninas`, `adiestramiento-canino`, `paseadores-de-perros`.
-6. **Bloque Equipamiento Comercial (2 categorías):**
-   `refrigeracion-comercial`, `equipos-gastronomicos`.
+Se ejecutaron en secuencia continua las 33 categorías pendientes agrupadas en 3 fases:
+
+### 1. Tanda 4A: Educación, Arte, Deporte y Fitness (10 categorías)
+- `academias-preuniversitarias`, `clases-particulares`, `escuelas-de-musica`, `escuelas-de-danza`, `talleres-de-arte`, `estudios-de-yoga`, `estudios-de-pilates`, `academias-de-natacion`, `academias-de-futbol`, `academias-de-artes-marciales`.
+- **100 nuevos registros verificados e insertados** (10 por categoría). Snapshot actualizado a 5.541 registros (103 categorías activas).
+- Respaldo en Supabase: `directory_reconciliation_backup_20261012.businesses_20261018000600565`.
+
+### 2. Tanda 4B: Turismo, Hospedaje, Belleza y Cuidado Personal (11 categorías)
+- `tours-y-experiencias`, `guias-de-turismo`, `hoteles`, `hostales-y-alojamientos`, `alquiler-de-bicicletas`, `escuelas-de-surf`, `manicure-y-pedicure`, `estudios-de-maquillaje`, `centros-de-depilacion`, `estudios-de-tatuajes`, `estudios-de-piercing`.
+- **106 nuevos registros verificados e insertados** (con sanitización estricta de depilación láser). Snapshot actualizado a 5.647 registros (114 categorías activas).
+- Respaldo en Supabase: `directory_reconciliation_backup_20261012.businesses_20261018001057542`.
+
+### 3. Tanda 4C: Comercio Especializado, Mascotas y Equipamiento Comercial (12 categorías)
+- `penas-criollas`, `talleres-de-artesania`, `tiendas-de-artesania`, `librerias`, `tiendas-de-mascotas`, `tiendas-de-bicicletas`, `zapaterias`, `guarderias-caninas`, `adiestramiento-canino`, `paseadores-de-perros`, `refrigeracion-comercial`, `equipos-gastronomicos`.
+- **118 nuevos registros verificados e insertados** (filtrando parques públicos no comerciales). Snapshot final: 5.765 registros (126 categorías activas).
+- Respaldo en Supabase: `directory_reconciliation_backup_20261012.businesses_20261018001512724`.
+
+---
+
+## Estado Global del Directorio: 100% de Cobertura Alcanzada
+
+- **126 de 126 categorías activas** (100% de cobertura en `data/directory.snapshot.json` y la web pública).
+- **5.765 registros verificados de Google Maps** con identidad fuerte (`cid:` o `place:`), teléfonos o webs, coordenadas reales y distritos validados de Lima Metropolitana y Callao.
+- **0 registros pendientes por `missing_strong_identity`** en toda la base de datos de origen.
+- **SHA-256 canónico del snapshot final**: `474b229e4a09f95aec5b6a9f5386262d6ba8b94f29a7b23c5e47e237f61142ba`.
+- **Validaciones técnicas completadas**:
+  - `npm run test:directory`: 9/9 tests pasando.
+  - `npm run verify:seo`: 126/126 categorías y 14 macroáreas activas.
+  - `npm run build`: Compilación limpia de producción en Next.js (código de salida 0).
+
 
