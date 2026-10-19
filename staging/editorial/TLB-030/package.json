@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-030",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-organizar-una-mudanza-con-mascotas-sin-duplicar-el-checklist-del-traslado",
     "title": "Cómo organizar una mudanza con mascotas sin duplicar el checklist del traslado",
@@ -14,8 +14,8 @@
       "servicios-locales"
     ],
     "description": "Guía práctica sobre organizar una mudanza con mascotas sin duplicar el checklist del traslado en Lima: recomendaciones, pasos preventivos y fuentes ofic...",
-    "published": "2026-05-13",
-    "modified": "2026-10-10",
+    "published": "2026-10-19",
+    "modified": "2026-10-19",
     "cover": "como-organizar-una-mudanza-con-mascotas-sin-duplicar-el-checklist-del-traslado-portada-marinera-limena-pareja",
     "internal": [
       "como-organizar-una-mudanza-con-mascotas-sin-duplicar-el-checklist-del-traslado-clase-danza-postura-ensayo",
@@ -433,8 +433,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-19",
+    "publication_slot": "mañana"
   }
 }
