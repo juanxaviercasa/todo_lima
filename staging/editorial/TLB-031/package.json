@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-031",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "historia-de-lima-las-etapas-que-explican-la-ciudad-actual",
     "title": "Historia de Lima: las etapas que explican la ciudad actual",
@@ -14,8 +14,8 @@
       "identidad-limena"
     ],
     "description": "Estudio histórico sobre historia de lima: las etapas que explican la ciudad actual: contexto documental, hitos cronológicos y fuentes archivísticas en L...",
-    "published": "2026-05-14",
-    "modified": "2026-10-10",
+    "published": "2026-10-19",
+    "modified": "2026-10-19",
     "cover": "historia-de-lima-las-etapas-que-explican-la-ciudad-actual-portada-panoramica-historica-lima",
     "internal": [
       "historia-de-lima-las-etapas-que-explican-la-ciudad-actual-legajos-cartografia-antigua",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-19",
+    "publication_slot": "tarde"
   }
 }

@@ -304,10 +304,10 @@
     "slug": "historia-de-lima-las-etapas-que-explican-la-ciudad-actual",
     "title": "Historia de Lima: las etapas que explican la ciudad actual",
     "category": "historia-de-lima",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-19",
+    "published_slot": "tarde",
+    "batch_day": 9
   },
   {
     "article_id": "TLB-032",
