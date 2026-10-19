@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-032",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "cultura-limena-tradiciones-e-influencias-que-conviven-en-la-capital",
     "title": "Cultura limeña: tradiciones e influencias que conviven en la capital",
@@ -14,8 +14,8 @@
       "vida-cultural"
     ],
     "description": "Estudio cultural sobre cultura limeña: tradiciones e influencias que conviven en la capital en Lima: historia, expresiones vivas, espacios de difusión y...",
-    "published": "2026-05-15",
-    "modified": "2026-10-10",
+    "published": "2026-10-19",
+    "modified": "2026-10-19",
     "cover": "cultura-limena-tradiciones-e-influencias-que-conviven-en-la-capital-portada-feria-cultural-plaza",
     "internal": [
       "cultura-limena-tradiciones-e-influencias-que-conviven-en-la-capital-instrumentos-artesanias-muestra",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-19",
+    "publication_slot": "tarde"
   }
 }
