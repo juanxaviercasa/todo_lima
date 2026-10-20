@@ -334,10 +334,10 @@
     "slug": "costa-verde-diferencias-entre-paseo-por-el-malecon-y-visita-a-la-playa",
     "title": "Costa Verde: diferencias entre paseo por el malecón y visita a la playa",
     "category": "planes-y-bienestar",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-20",
+    "published_slot": "tarde",
+    "batch_day": 10
   },
   {
     "article_id": "TLB-035",

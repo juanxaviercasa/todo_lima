@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-034",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "costa-verde-diferencias-entre-paseo-por-el-malecon-y-visita-a-la-playa",
     "title": "Costa Verde: diferencias entre paseo por el malecón y visita a la playa",
@@ -14,8 +14,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre costa verde: diferencias entre paseo por el malecón y visita a la playa en Lima: planificación, requisitos oficiales, accesibilidad y consejo...",
-    "published": "2026-05-17",
-    "modified": "2026-10-10",
+    "published": "2026-10-20",
+    "modified": "2026-10-20",
     "cover": "costa-verde-diferencias-entre-paseo-por-el-malecon-y-visita-a-la-playa-portada-fin-semana-parque",
     "internal": [
       "costa-verde-diferencias-entre-paseo-por-el-malecon-y-visita-a-la-playa-agenda-cultural-parque",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-20",
+    "publication_slot": "tarde"
   }
 }
