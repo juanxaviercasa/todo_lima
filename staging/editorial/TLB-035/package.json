@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-035",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "maranga-y-la-huaca-san-marcos-historia-y-limites-de-acceso",
     "title": "Maranga y la Huaca San Marcos: historia y límites de acceso",
@@ -14,8 +14,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre maranga y la huaca san marcos: historia y límites de acceso: historia, arquitectura, horarios de visita y recomendaciones oficiales ...",
-    "published": "2026-05-18",
-    "modified": "2026-10-10",
+    "published": "2026-10-20",
+    "modified": "2026-10-20",
     "cover": "maranga-y-la-huaca-san-marcos-historia-y-limites-de-acceso-portada-huaca-prehispanica",
     "internal": [
       "maranga-y-la-huaca-san-marcos-historia-y-limites-de-acceso-detalle-adobitos-muro",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-20",
+    "publication_slot": "tarde"
   }
 }

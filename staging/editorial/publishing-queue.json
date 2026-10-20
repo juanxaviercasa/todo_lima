@@ -344,10 +344,10 @@
     "slug": "maranga-y-la-huaca-san-marcos-historia-y-limites-de-acceso",
     "title": "Maranga y la Huaca San Marcos: historia y límites de acceso",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-20",
+    "published_slot": "tarde",
+    "batch_day": 10
   },
   {
     "article_id": "TLB-036",
