@@ -75,6 +75,8 @@ jobs:
             echo "No se encontraron cambios pendientes para confirmar."
           else
             INFO=$(node -e "const h = new Intl.DateTimeFormat('en-GB', { timeZone: 'America/Lima', hour: '2-digit', hour12: false }).format(new Date()); const s = h < 12 ? 'manana' : (h < 18 ? 'tarde' : 'noche'); const d = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Lima' }).format(new Date()); console.log(d + ' | ' + s);")
-            git commit -m "feat(editorial): publicar 1 articulo en blog ($INFO) [skip ci]"
+            # Cloudflare Pages must build editorial commits to publish the articles.
+            # This workflow only runs on schedule or manual dispatch, so a push cannot loop it.
+            git commit -m "feat(editorial): publicar 1 articulo en blog ($INFO)"
             git push origin main
           fi
