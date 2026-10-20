@@ -324,10 +324,10 @@
     "slug": "picarones-ingredientes-e-historia-de-un-postre-limeno",
     "title": "Picarones: ingredientes e historia de un postre limeño",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-20",
+    "published_slot": "mañana",
+    "batch_day": 10
   },
   {
     "article_id": "TLB-034",
