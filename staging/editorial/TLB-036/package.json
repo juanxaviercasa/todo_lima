@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-036",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-preparar-una-caja-de-esenciales-para-el-primer-dia-en-una-nueva-vivienda",
     "title": "Cómo preparar una caja de esenciales para el primer día en una nueva vivienda",
@@ -14,8 +14,8 @@
       "servicios-locales"
     ],
     "description": "Guía práctica sobre preparar una caja de esenciales para el primer día en una nueva vivienda en Lima: recomendaciones, pasos preventivos y fuentes ofici...",
-    "published": "2026-05-19",
-    "modified": "2026-10-10",
+    "published": "2026-10-21",
+    "modified": "2026-10-21",
     "cover": "como-preparar-una-caja-de-esenciales-para-el-primer-dia-en-una-nueva-vivienda-portada-vivienda-servicios-hogar",
     "internal": [
       "como-preparar-una-caja-de-esenciales-para-el-primer-dia-en-una-nueva-vivienda-presupuesto-desglosado-garantia",
@@ -433,8 +433,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-21",
+    "publication_slot": "mañana"
   }
 }
