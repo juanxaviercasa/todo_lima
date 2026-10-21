@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-037",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "lima-antes-de-1535-valles-huacas-y-sociedades-prehispanicas",
     "title": "Lima antes de 1535: valles, huacas y sociedades prehispánicas",
@@ -14,8 +14,8 @@
       "valles-de-lima"
     ],
     "description": "Estudio histórico sobre lima antes de 1535: valles, huacas y sociedades prehispánicas: contexto documental, hitos cronológicos y fuentes archivísticas e...",
-    "published": "2026-05-20",
-    "modified": "2026-10-10",
+    "published": "2026-10-21",
+    "modified": "2026-10-21",
     "cover": "lima-antes-de-1535-valles-huacas-y-sociedades-prehispanicas-portada-huaca-prehispanica",
     "internal": [
       "lima-antes-de-1535-valles-huacas-y-sociedades-prehispanicas-detalle-adobitos-muro",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-21",
+    "publication_slot": "tarde"
   }
 }

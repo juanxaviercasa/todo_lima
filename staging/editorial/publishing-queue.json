@@ -364,10 +364,10 @@
     "slug": "lima-antes-de-1535-valles-huacas-y-sociedades-prehispanicas",
     "title": "Lima antes de 1535: valles, huacas y sociedades prehispánicas",
     "category": "historia-de-lima",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-21",
+    "published_slot": "tarde",
+    "batch_day": 11
   },
   {
     "article_id": "TLB-038",
