@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-038",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "musica-criolla-en-lima-historia-y-espacios-para-conocerla",
     "title": "Música criolla en Lima: historia y espacios para conocerla",
@@ -14,8 +14,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre música criolla en lima: historia y espacios para conocerla en Lima: historia, expresiones vivas, espacios de difusión y fuentes o...",
-    "published": "2026-05-21",
-    "modified": "2026-10-10",
+    "published": "2026-10-21",
+    "modified": "2026-10-21",
     "cover": "musica-criolla-en-lima-historia-y-espacios-para-conocerla-portada-panoramica-historica-lima",
     "internal": [
       "musica-criolla-en-lima-historia-y-espacios-para-conocerla-legajos-cartografia-antigua",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-21",
+    "publication_slot": "tarde"
   }
 }

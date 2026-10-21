@@ -374,10 +374,10 @@
     "slug": "musica-criolla-en-lima-historia-y-espacios-para-conocerla",
     "title": "Música criolla en Lima: historia y espacios para conocerla",
     "category": "cultura-y-tradiciones",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-21",
+    "published_slot": "tarde",
+    "batch_day": 11
   },
   {
     "article_id": "TLB-039",
