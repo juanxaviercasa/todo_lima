@@ -394,10 +394,10 @@
     "slug": "planes-en-lima-cuando-hay-garua-alternativas-bajo-techo",
     "title": "Planes en Lima cuando hay garúa: alternativas bajo techo",
     "category": "planes-y-bienestar",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-22",
+    "published_slot": "tarde",
+    "batch_day": 12
   },
   {
     "article_id": "TLB-041",

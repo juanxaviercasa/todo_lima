@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-040",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "planes-en-lima-cuando-hay-garua-alternativas-bajo-techo",
     "title": "Planes en Lima cuando hay garúa: alternativas bajo techo",
@@ -14,8 +14,8 @@
       "vida-urbana"
     ],
     "description": "Guía sobre planes en lima cuando hay garúa: alternativas bajo techo en Lima: planificación, requisitos oficiales, accesibilidad y consejos para disfruta...",
-    "published": "2026-05-23",
-    "modified": "2026-10-10",
+    "published": "2026-10-22",
+    "modified": "2026-10-22",
     "cover": "planes-en-lima-cuando-hay-garua-alternativas-bajo-techo-portada-fin-semana-parque",
     "internal": [
       "planes-en-lima-cuando-hay-garua-alternativas-bajo-techo-agenda-cultural-parque",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-22",
+    "publication_slot": "tarde"
   }
 }
