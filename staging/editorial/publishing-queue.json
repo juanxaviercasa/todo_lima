@@ -384,10 +384,10 @@
     "slug": "turron-de-dona-pepa-historia-y-relacion-con-el-mes-morado",
     "title": "Turrón de Doña Pepa: historia y relación con el mes morado",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-22",
+    "published_slot": "mañana",
+    "batch_day": 12
   },
   {
     "article_id": "TLB-040",

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-039",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "turron-de-dona-pepa-historia-y-relacion-con-el-mes-morado",
     "title": "Turrón de Doña Pepa: historia y relación con el mes morado",
@@ -14,8 +14,8 @@
       "patrimonio-culinario"
     ],
     "description": "Guía sobre turrón de doña pepa: historia y relación con el mes morado en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el come...",
-    "published": "2026-05-22",
-    "modified": "2026-10-10",
+    "published": "2026-10-22",
+    "modified": "2026-10-22",
     "cover": "turron-de-dona-pepa-historia-y-relacion-con-el-mes-morado-portada-panoramica-historica-lima",
     "internal": [
       "turron-de-dona-pepa-historia-y-relacion-con-el-mes-morado-legajos-cartografia-antigua",
@@ -418,8 +418,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-22",
+    "publication_slot": "mañana"
   }
 }
