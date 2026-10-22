@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-041",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "convento-de-san-francisco-y-catacumbas-historia-y-visita-respetuosa",
     "title": "Convento de San Francisco y catacumbas: historia y visita respetuosa",
@@ -14,8 +14,8 @@
       "turismo-responsable"
     ],
     "description": "Guía completa sobre convento de san francisco y catacumbas: historia y visita respetuosa: historia, arquitectura, horarios de visita y recomendaciones o...",
-    "published": "2026-05-24",
-    "modified": "2026-10-10",
+    "published": "2026-10-22",
+    "modified": "2026-10-22",
     "cover": "convento-de-san-francisco-y-catacumbas-historia-y-visita-respetuosa-portada-patrimonio-arquitectura",
     "internal": [
       "convento-de-san-francisco-y-catacumbas-historia-y-visita-respetuosa-detalle-casona-historica",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-22",
+    "publication_slot": "tarde"
   }
 }
