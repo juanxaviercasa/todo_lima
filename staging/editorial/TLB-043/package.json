@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-043",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "fundacion-espanola-de-lima-contexto-y-eleccion-del-lugar",
     "title": "Fundación española de Lima: contexto y elección del lugar",
@@ -14,8 +14,8 @@
       "damero-de-pizarro"
     ],
     "description": "Estudio histórico sobre fundación española de lima: contexto y elección del lugar: contexto documental, hitos cronológicos y fuentes archivísticas en Lima.",
-    "published": "2026-05-26",
-    "modified": "2026-10-10",
+    "published": "2026-10-23",
+    "modified": "2026-10-23",
     "cover": "fundacion-espanola-de-lima-contexto-y-eleccion-del-lugar-portada-vivienda-servicios-hogar",
     "internal": [
       "fundacion-espanola-de-lima-contexto-y-eleccion-del-lugar-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-23",
+    "publication_slot": "tarde"
   }
 }
