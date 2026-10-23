@@ -434,10 +434,10 @@
     "slug": "vals-criollo-y-marinera-limena-diferencias-y-contexto",
     "title": "Vals criollo y marinera limeña: diferencias y contexto",
     "category": "cultura-y-tradiciones",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-23",
+    "published_slot": "tarde",
+    "batch_day": 13
   },
   {
     "article_id": "TLB-045",

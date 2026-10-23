@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-044",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "vals-criollo-y-marinera-limena-diferencias-y-contexto",
     "title": "Vals criollo y marinera limeña: diferencias y contexto",
@@ -14,8 +14,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre vals criollo y marinera limeña: diferencias y contexto en Lima: historia, expresiones vivas, espacios de difusión y fuentes ofici...",
-    "published": "2026-05-27",
-    "modified": "2026-10-10",
+    "published": "2026-10-23",
+    "modified": "2026-10-23",
     "cover": "vals-criollo-y-marinera-limena-diferencias-y-contexto-portada-vivienda-servicios-hogar",
     "internal": [
       "vals-criollo-y-marinera-limena-diferencias-y-contexto-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-23",
+    "publication_slot": "tarde"
   }
 }
