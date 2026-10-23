@@ -393,9 +393,9 @@
     ],
     "consolidated_json": "staging/editorial/all-180-posts.json"
   },
-  "last_published_date": "2026-10-22",
-  "last_published_slot": "tarde",
-  "last_batch_day": 12,
-  "published_count": 41,
-  "queued_count": 139
+  "last_published_date": "2026-10-23",
+  "last_published_slot": "mañana",
+  "last_batch_day": 13,
+  "published_count": 42,
+  "queued_count": 138
 }
