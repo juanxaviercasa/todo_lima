@@ -444,10 +444,10 @@
     "slug": "mazamorra-morada-y-arroz-con-leche-la-tradicion-del-combinado",
     "title": "Mazamorra morada y arroz con leche: la tradición del combinado",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-24",
+    "published_slot": "mañana",
+    "batch_day": 14
   },
   {
     "article_id": "TLB-046",

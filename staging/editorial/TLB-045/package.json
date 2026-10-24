@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-045",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "mazamorra-morada-y-arroz-con-leche-la-tradicion-del-combinado",
     "title": "Mazamorra morada y arroz con leche: la tradición del combinado",
@@ -14,8 +14,8 @@
       "patrimonio-culinario"
     ],
     "description": "Guía sobre mazamorra morada y arroz con leche: la tradición del combinado en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el ...",
-    "published": "2026-05-28",
-    "modified": "2026-10-10",
+    "published": "2026-10-24",
+    "modified": "2026-10-24",
     "cover": "mazamorra-morada-y-arroz-con-leche-la-tradicion-del-combinado-portada-vivienda-servicios-hogar",
     "internal": [
       "mazamorra-morada-y-arroz-con-leche-la-tradicion-del-combinado-presupuesto-desglosado-garantia",
@@ -418,8 +418,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-24",
+    "publication_slot": "mañana"
   }
 }
