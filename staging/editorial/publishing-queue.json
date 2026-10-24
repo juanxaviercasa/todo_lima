@@ -464,10 +464,10 @@
     "slug": "plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno",
     "title": "Plaza Mayor de Lima: edificios y memoria de su entorno",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-24",
+    "published_slot": "tarde",
+    "batch_day": 14
   },
   {
     "article_id": "TLB-048",

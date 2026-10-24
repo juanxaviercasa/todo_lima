@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-047",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno",
     "title": "Plaza Mayor de Lima: edificios y memoria de su entorno",
@@ -14,8 +14,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre plaza mayor de lima: edificios y memoria de su entorno: historia, arquitectura, horarios de visita y recomendaciones oficiales en Lima.",
-    "published": "2026-05-30",
-    "modified": "2026-10-10",
+    "published": "2026-10-24",
+    "modified": "2026-10-24",
     "cover": "plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno-portada-plaza-san-martin",
     "internal": [
       "plaza-mayor-de-lima-edificios-y-memoria-de-su-entorno-portales-arquitectura-plaza",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-24",
+    "publication_slot": "tarde"
   }
 }
