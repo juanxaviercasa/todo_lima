@@ -474,10 +474,10 @@
     "slug": "como-registrar-pendientes-de-mantenimiento-del-departamento",
     "title": "Cómo registrar pendientes de mantenimiento del departamento",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-25",
+    "published_slot": "mañana",
+    "batch_day": 15
   },
   {
     "article_id": "TLB-049",
