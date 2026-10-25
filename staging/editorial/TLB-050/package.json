@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-050",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "expresiones-afroperuanas-en-lima-musica-memoria-y-comunidad",
     "title": "Expresiones afroperuanas en Lima: música, memoria y comunidad",
@@ -14,8 +14,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre expresiones afroperuanas en lima: música, memoria y comunidad en Lima: historia, expresiones vivas, espacios de difusión y fuente...",
-    "published": "2026-06-02",
-    "modified": "2026-10-10",
+    "published": "2026-10-25",
+    "modified": "2026-10-25",
     "cover": "expresiones-afroperuanas-en-lima-musica-memoria-y-comunidad-portada-vivienda-servicios-hogar",
     "internal": [
       "expresiones-afroperuanas-en-lima-musica-memoria-y-comunidad-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-25",
+    "publication_slot": "tarde"
   }
 }
