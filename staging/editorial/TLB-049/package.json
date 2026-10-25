@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-049",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "por-que-lima-recibio-el-nombre-de-ciudad-de-los-reyes",
     "title": "Por qué Lima recibió el nombre de Ciudad de los Reyes",
@@ -14,8 +14,8 @@
       "damero-de-pizarro"
     ],
     "description": "Estudio histórico sobre lima recibió el nombre de ciudad de los reyes: contexto documental, hitos cronológicos y fuentes archivísticas en Lima.",
-    "published": "2026-06-01",
-    "modified": "2026-10-10",
+    "published": "2026-10-25",
+    "modified": "2026-10-25",
     "cover": "por-que-lima-recibio-el-nombre-de-ciudad-de-los-reyes-portada-vivienda-servicios-hogar",
     "internal": [
       "por-que-lima-recibio-el-nombre-de-ciudad-de-los-reyes-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-25",
+    "publication_slot": "mañana"
   }
 }
