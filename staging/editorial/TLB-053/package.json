@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-053",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "plaza-san-martin-historia-y-lectura-del-espacio-urbano",
     "title": "Plaza San Martín: historia y lectura del espacio urbano",
@@ -14,8 +14,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre plaza san martín: historia y lectura del espacio urbano: historia, arquitectura, horarios de visita y recomendaciones oficiales en L...",
-    "published": "2026-06-05",
-    "modified": "2026-10-10",
+    "published": "2026-10-26",
+    "modified": "2026-10-26",
     "cover": "plaza-san-martin-historia-y-lectura-del-espacio-urbano-portada-plaza-san-martin",
     "internal": [
       "plaza-san-martin-historia-y-lectura-del-espacio-urbano-portales-arquitectura-plaza",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-26",
+    "publication_slot": "noche"
   }
 }
