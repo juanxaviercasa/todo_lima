@@ -504,10 +504,10 @@
     "slug": "suspiro-a-la-limena-historia-y-caracteristicas-del-postre",
     "title": "Suspiro a la limeña: historia y características del postre",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-26",
+    "published_slot": "mañana",
+    "batch_day": 16
   },
   {
     "article_id": "TLB-052",

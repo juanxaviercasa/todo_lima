@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-051",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "suspiro-a-la-limena-historia-y-caracteristicas-del-postre",
     "title": "Suspiro a la limeña: historia y características del postre",
@@ -14,8 +14,8 @@
       "patrimonio-culinario"
     ],
     "description": "Guía sobre suspiro a la limeña: historia y características del postre en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el come...",
-    "published": "2026-06-03",
-    "modified": "2026-10-10",
+    "published": "2026-10-26",
+    "modified": "2026-10-26",
     "cover": "suspiro-a-la-limena-historia-y-caracteristicas-del-postre-portada-pasteleria-limena",
     "internal": [
       "suspiro-a-la-limena-historia-y-caracteristicas-del-postre-suspiro-limena-merengue",
@@ -418,8 +418,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-26",
+    "publication_slot": "mañana"
   }
 }
