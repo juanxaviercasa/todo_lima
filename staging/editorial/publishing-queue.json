@@ -514,10 +514,10 @@
     "slug": "como-organizar-un-paseo-con-adultos-mayores-sin-asumir-accesibilidad",
     "title": "Cómo organizar un paseo con adultos mayores sin asumir accesibilidad",
     "category": "planes-y-bienestar",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-26",
+    "published_slot": "tarde",
+    "batch_day": 16
   },
   {
     "article_id": "TLB-053",
