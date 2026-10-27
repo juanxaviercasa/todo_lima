@@ -544,10 +544,10 @@
     "slug": "el-rio-rimac-y-la-formacion-de-la-ciudad-de-lima",
     "title": "El río Rímac y la formación de la ciudad de Lima",
     "category": "historia-de-lima",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-27",
+    "published_slot": "tarde",
+    "batch_day": 17
   },
   {
     "article_id": "TLB-056",
