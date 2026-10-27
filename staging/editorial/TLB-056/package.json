@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-056",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "el-cajon-peruano-historia-y-presencia-en-la-vida-cultural-limena",
     "title": "El cajón peruano: historia y presencia en la vida cultural limeña",
@@ -14,8 +14,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre cajón peruano: historia y presencia en la vida cultural limeña en Lima: historia, expresiones vivas, espacios de difusión y fuent...",
-    "published": "2026-06-08",
-    "modified": "2026-10-10",
+    "published": "2026-10-27",
+    "modified": "2026-10-27",
     "cover": "el-cajon-peruano-historia-y-presencia-en-la-vida-cultural-limena-portada-panoramica-historica-lima",
     "internal": [
       "el-cajon-peruano-historia-y-presencia-en-la-vida-cultural-limena-legajos-cartografia-antigua",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-27",
+    "publication_slot": "tarde"
   }
 }
