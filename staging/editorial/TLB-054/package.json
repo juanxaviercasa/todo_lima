@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-054",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-organizar-el-mantenimiento-de-areas-comunes-con-la-administracion",
     "title": "Cómo organizar el mantenimiento de áreas comunes con la administración",
@@ -14,8 +14,8 @@
       "servicios-locales"
     ],
     "description": "Guía práctica sobre organizar el mantenimiento de áreas comunes con la administración en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": "2026-06-06",
-    "modified": "2026-10-10",
+    "published": "2026-10-27",
+    "modified": "2026-10-27",
     "cover": "como-organizar-el-mantenimiento-de-areas-comunes-con-la-administracion-portada-administracion-edificio",
     "internal": [
       "como-organizar-el-mantenimiento-de-areas-comunes-con-la-administracion-checklist-mantenimiento-tecnico",
@@ -433,8 +433,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-27",
+    "publication_slot": "mañana"
   }
 }

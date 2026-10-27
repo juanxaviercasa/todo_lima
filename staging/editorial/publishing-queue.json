@@ -534,10 +534,10 @@
     "slug": "como-organizar-el-mantenimiento-de-areas-comunes-con-la-administracion",
     "title": "Cómo organizar el mantenimiento de áreas comunes con la administración",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-27",
+    "published_slot": "mañana",
+    "batch_day": 17
   },
   {
     "article_id": "TLB-055",
