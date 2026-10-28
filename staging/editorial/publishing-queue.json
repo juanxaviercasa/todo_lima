@@ -564,10 +564,10 @@
     "slug": "el-sanguche-limeno-panes-rellenos-y-costumbres",
     "title": "El sánguche limeño: panes, rellenos y costumbres",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-28",
+    "published_slot": "mañana",
+    "batch_day": 18
   },
   {
     "article_id": "TLB-058",
