@@ -574,10 +574,10 @@
     "slug": "planes-con-bebes-en-lima-servicios-y-condiciones-que-conviene-revisar",
     "title": "Planes con bebés en Lima: servicios y condiciones que conviene revisar",
     "category": "planes-y-bienestar",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-28",
+    "published_slot": "tarde",
+    "batch_day": 18
   },
   {
     "article_id": "TLB-059",
