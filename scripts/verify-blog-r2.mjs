@@ -1,4 +1,20 @@
 import fs from 'node:fs';
+import { setTimeout as delay } from 'node:timers/promises';
+
+async function verifyImage(url) {
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const response = await fetch(url, { method: 'HEAD', signal: AbortSignal.timeout(30000) });
+      if (response.ok && response.headers.get('content-type')?.startsWith('image/')) return;
+      const transient = [408, 429].includes(response.status) || response.status >= 500;
+      if (!transient || attempt === 3) return `${response.status}: ${url}`;
+    } catch (error) {
+      if (attempt === 3) return `${error.message}: ${url}`;
+    }
+    console.warn(`Retrying editorial image (${attempt}/3): ${url}`);
+    await delay(1000 * attempt);
+  }
+}
 
 const catalog = JSON.parse(fs.readFileSync('data/blog/images.json', 'utf8'));
 const posts = JSON.parse(fs.readFileSync('data/blog/posts.json', 'utf8'));
@@ -16,10 +32,8 @@ const entries = [...urls];
 await Promise.all(Array.from({ length: 12 }, async () => {
   while (cursor < entries.length) {
     const url = entries[cursor++];
-    try {
-      const response = await fetch(url, { method: 'HEAD', signal: AbortSignal.timeout(30000) });
-      if (!response.ok || !response.headers.get('content-type')?.startsWith('image/')) errors.push(`${response.status}: ${url}`);
-    } catch (error) { errors.push(`${error.message}: ${url}`); }
+    const error = await verifyImage(url);
+    if (error) errors.push(error);
   }
 }));
 if (errors.length) {
