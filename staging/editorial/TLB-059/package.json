@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-059",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "jiron-de-la-union-edificios-y-transformaciones-de-una-calle-emblematica",
     "title": "Jirón de la Unión: edificios y transformaciones de una calle emblemática",
@@ -14,8 +14,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre jirón de la unión: edificios y transformaciones de una calle emblemática: historia, arquitectura, horarios de visita y recomendacion...",
-    "published": "2026-06-11",
-    "modified": "2026-10-10",
+    "published": "2026-10-29",
+    "modified": "2026-10-29",
     "cover": "jiron-de-la-union-edificios-y-transformaciones-de-una-calle-emblematica-portada-patrimonio-arquitectura",
     "internal": [
       "jiron-de-la-union-edificios-y-transformaciones-de-una-calle-emblematica-detalle-casona-historica",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-29",
+    "publication_slot": "mañana"
   }
 }
