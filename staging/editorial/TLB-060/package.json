@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-060",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-describir-una-incidencia-del-hogar-sin-intentar-diagnosticarla",
     "title": "Cómo describir una incidencia del hogar sin intentar diagnosticarla",
@@ -14,8 +14,8 @@
       "servicios-locales"
     ],
     "description": "Guía práctica sobre describir una incidencia del hogar sin intentar diagnosticarla en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": "2026-06-12",
-    "modified": "2026-10-10",
+    "published": "2026-10-29",
+    "modified": "2026-10-29",
     "cover": "como-describir-una-incidencia-del-hogar-sin-intentar-diagnosticarla-portada-administracion-edificio",
     "internal": [
       "como-describir-una-incidencia-del-hogar-sin-intentar-diagnosticarla-checklist-mantenimiento-tecnico",
@@ -433,8 +433,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-29",
+    "publication_slot": "tarde"
   }
 }
