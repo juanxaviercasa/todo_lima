@@ -604,10 +604,10 @@
     "slug": "miraflores-en-un-dia-como-conectar-malecon-parques-y-vida-de-barrio",
     "title": "Miraflores en un día: cómo conectar malecón, parques y vida de barrio",
     "category": "barrios-y-distritos",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-29",
+    "published_slot": "noche",
+    "batch_day": 19
   },
   {
     "article_id": "TLB-062",
