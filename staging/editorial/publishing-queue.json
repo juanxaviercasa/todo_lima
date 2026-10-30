@@ -634,10 +634,10 @@
     "slug": "el-senor-de-los-milagros-historia-y-significado-de-la-tradicion",
     "title": "El Señor de los Milagros: historia y significado de la tradición",
     "category": "cultura-y-tradiciones",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-30",
+    "published_slot": "tarde",
+    "batch_day": 20
   },
   {
     "article_id": "TLB-065",
