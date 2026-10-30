@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-062",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "negocios-de-barrio-en-lima-oficios-y-servicios-en-la-vida-cotidiana",
     "title": "Negocios de barrio en Lima: oficios y servicios en la vida cotidiana",
@@ -14,8 +14,8 @@
       "buenas-practicas"
     ],
     "description": "Guía práctica sobre negocios de barrio en lima: oficios y servicios en la vida cotidiana en Lima: buenas prácticas, obligaciones legales y herramientas ...",
-    "published": "2026-06-14",
-    "modified": "2026-10-10",
+    "published": "2026-10-30",
+    "modified": "2026-10-30",
     "cover": "negocios-de-barrio-en-lima-oficios-y-servicios-en-la-vida-cotidiana-portada-distrito-limeno",
     "internal": [
       "negocios-de-barrio-en-lima-oficios-y-servicios-en-la-vida-cotidiana-arquitectura-barrio-casonas",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-30",
+    "publication_slot": "mañana"
   }
 }

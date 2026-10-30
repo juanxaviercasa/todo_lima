@@ -614,10 +614,10 @@
     "slug": "negocios-de-barrio-en-lima-oficios-y-servicios-en-la-vida-cotidiana",
     "title": "Negocios de barrio en Lima: oficios y servicios en la vida cotidiana",
     "category": "negocios-locales",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-30",
+    "published_slot": "mañana",
+    "batch_day": 20
   },
   {
     "article_id": "TLB-063",
