@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-063",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "los-ichma-territorio-y-legado-en-los-valles-de-lima",
     "title": "Los Ichma: territorio y legado en los valles de Lima",
@@ -14,8 +14,8 @@
       "valles-de-lima"
     ],
     "description": "Estudio histórico sobre los ichma: territorio y legado en los valles de lima: contexto documental, hitos cronológicos y fuentes archivísticas en Lima.",
-    "published": "2026-06-15",
-    "modified": "2026-10-10",
+    "published": "2026-10-30",
+    "modified": "2026-10-30",
     "cover": "los-ichma-territorio-y-legado-en-los-valles-de-lima-portada-vivienda-servicios-hogar",
     "internal": [
       "los-ichma-territorio-y-legado-en-los-valles-de-lima-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-30",
+    "publication_slot": "tarde"
   }
 }
