@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-065",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "pan-con-chicharron-tradicion-del-desayuno-y-decisiones-para-una-salida",
     "title": "Pan con chicharrón: tradición del desayuno y decisiones para una salida",
@@ -14,8 +14,8 @@
       "lima-metropolitana"
     ],
     "description": "Guía sobre pan con chicharrón: tradición del desayuno y decisiones para una salida en Lima: historia, ingredientes, recomendaciones y consejos prácticos...",
-    "published": "2026-06-17",
-    "modified": "2026-10-10",
+    "published": "2026-10-31",
+    "modified": "2026-10-31",
     "cover": "pan-con-chicharron-tradicion-del-desayuno-y-decisiones-para-una-salida-portada-sanguicheria-lima",
     "internal": [
       "pan-con-chicharron-tradicion-del-desayuno-y-decisiones-para-una-salida-pan-con-chicharron-detalle",
@@ -418,8 +418,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-31",
+    "publication_slot": "mañana"
   }
 }

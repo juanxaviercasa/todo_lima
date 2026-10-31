@@ -644,10 +644,10 @@
     "slug": "pan-con-chicharron-tradicion-del-desayuno-y-decisiones-para-una-salida",
     "title": "Pan con chicharrón: tradición del desayuno y decisiones para una salida",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-31",
+    "published_slot": "mañana",
+    "batch_day": 21
   },
   {
     "article_id": "TLB-066",
