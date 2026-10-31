@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-067",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "balcones-limenos-arquitectura-y-formas-de-observarlos",
     "title": "Balcones limeños: arquitectura y formas de observarlos",
@@ -14,8 +14,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre balcones limeños: arquitectura y formas de observarlos: historia, arquitectura, horarios de visita y recomendaciones oficiales en Lima.",
-    "published": "2026-06-19",
-    "modified": "2026-10-10",
+    "published": "2026-10-31",
+    "modified": "2026-10-31",
     "cover": "balcones-limenos-arquitectura-y-formas-de-observarlos-portada-balcones-centro",
     "internal": [
       "balcones-limenos-arquitectura-y-formas-de-observarlos-detalle-celosias-madera",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-10-31",
+    "publication_slot": "tarde"
   }
 }

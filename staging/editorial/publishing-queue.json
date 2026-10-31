@@ -664,10 +664,10 @@
     "slug": "balcones-limenos-arquitectura-y-formas-de-observarlos",
     "title": "Balcones limeños: arquitectura y formas de observarlos",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-10-31",
+    "published_slot": "tarde",
+    "batch_day": 21
   },
   {
     "article_id": "TLB-068",
