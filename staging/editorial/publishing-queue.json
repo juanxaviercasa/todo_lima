@@ -674,10 +674,10 @@
     "slug": "como-coordinar-trabajos-de-pintura-y-proteger-muebles-y-espacios",
     "title": "Cómo coordinar trabajos de pintura y proteger muebles y espacios",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-01",
+    "published_slot": "mañana",
+    "batch_day": 22
   },
   {
     "article_id": "TLB-069",
