@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-070",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente",
     "title": "Qué información debe tener una ficha de negocio para ayudar al cliente",
@@ -14,8 +14,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre qué información debe tener una ficha de negocio para ayudar al cliente en Lima: buenas prácticas, obligaciones legales y herramienta...",
-    "published": "2026-06-22",
-    "modified": "2026-10-10",
+    "published": "2026-11-01",
+    "modified": "2026-11-01",
     "cover": "que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente-portada-taller-negocio-barrio",
     "internal": [
       "que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente-herramientas-cotizaciones-taller",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-01",
+    "publication_slot": "tarde"
   }
 }

@@ -694,10 +694,10 @@
     "slug": "que-informacion-debe-tener-una-ficha-de-negocio-para-ayudar-al-cliente",
     "title": "Qué información debe tener una ficha de negocio para ayudar al cliente",
     "category": "negocios-locales",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-01",
+    "published_slot": "tarde",
+    "batch_day": 22
   },
   {
     "article_id": "TLB-071",
