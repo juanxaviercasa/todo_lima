@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-072",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "mes-morado-en-lima-como-consultar-recorridos-y-actividades-oficiales",
     "title": "Mes morado en Lima: cómo consultar recorridos y actividades oficiales",
@@ -14,8 +14,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre mes morado en lima: cómo consultar recorridos y actividades oficiales en Lima: historia, expresiones vivas, espacios de difusión ...",
-    "published": "2026-06-24",
-    "modified": "2026-10-10",
+    "published": "2026-11-02",
+    "modified": "2026-11-02",
     "cover": "mes-morado-en-lima-como-consultar-recorridos-y-actividades-oficiales-portada-vivienda-servicios-hogar",
     "internal": [
       "mes-morado-en-lima-como-consultar-recorridos-y-actividades-oficiales-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-02",
+    "publication_slot": "tarde"
   }
 }

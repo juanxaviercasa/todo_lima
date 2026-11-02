@@ -714,10 +714,10 @@
     "slug": "mes-morado-en-lima-como-consultar-recorridos-y-actividades-oficiales",
     "title": "Mes morado en Lima: cómo consultar recorridos y actividades oficiales",
     "category": "cultura-y-tradiciones",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-02",
+    "published_slot": "tarde",
+    "batch_day": 23
   },
   {
     "article_id": "TLB-073",
