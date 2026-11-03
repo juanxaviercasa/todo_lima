@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-073",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "causa-limena-historia-ingredientes-y-versiones",
     "title": "Causa limeña: historia, ingredientes y versiones",
@@ -14,8 +14,8 @@
       "lima-metropolitana"
     ],
     "description": "Guía sobre causa limeña: historia, ingredientes y versiones en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el comensal.",
-    "published": "2026-06-25",
-    "modified": "2026-10-10",
+    "published": "2026-11-02",
+    "modified": "2026-11-02",
     "cover": "causa-limena-historia-ingredientes-y-versiones-portada-panoramica-historica-lima",
     "internal": [
       "causa-limena-historia-ingredientes-y-versiones-legajos-cartografia-antigua",
@@ -418,8 +418,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-02",
+    "publication_slot": "noche"
   }
 }
