@@ -754,10 +754,10 @@
     "slug": "como-preparar-una-consulta-para-fabricar-muebles-a-medida",
     "title": "Cómo preparar una consulta para fabricar muebles a medida",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-03",
+    "published_slot": "noche",
+    "batch_day": 24
   },
   {
     "article_id": "TLB-077",
