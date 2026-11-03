@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-075",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "quinta-heeren-historia-y-situacion-actual-que-debe-comprobarse",
     "title": "Quinta Heeren: historia y situación actual que debe comprobarse",
@@ -14,8 +14,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre quinta heeren: historia y situación actual que debe comprobarse: historia, arquitectura, horarios de visita y recomendaciones oficia...",
-    "published": "2026-06-27",
-    "modified": "2026-10-10",
+    "published": "2026-11-03",
+    "modified": "2026-11-03",
     "cover": "quinta-heeren-historia-y-situacion-actual-que-debe-comprobarse-portada-panoramica-historica-lima",
     "internal": [
       "quinta-heeren-historia-y-situacion-actual-que-debe-comprobarse-legajos-cartografia-antigua",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-03",
+    "publication_slot": "tarde"
   }
 }

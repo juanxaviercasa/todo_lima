@@ -744,10 +744,10 @@
     "slug": "quinta-heeren-historia-y-situacion-actual-que-debe-comprobarse",
     "title": "Quinta Heeren: historia y situación actual que debe comprobarse",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-03",
+    "published_slot": "tarde",
+    "batch_day": 24
   },
   {
     "article_id": "TLB-076",
