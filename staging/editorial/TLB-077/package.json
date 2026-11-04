@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-077",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "pueblo-libre-como-conectar-museos-historia-y-espacios-del-barrio",
     "title": "Pueblo Libre: cómo conectar museos, historia y espacios del barrio",
@@ -14,8 +14,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer Pueblo Libre: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": "2026-06-29",
-    "modified": "2026-10-10",
+    "published": "2026-11-04",
+    "modified": "2026-11-04",
     "cover": "pueblo-libre-como-conectar-museos-historia-y-espacios-del-barrio-portada-galeria-museo",
     "internal": [
       "pueblo-libre-como-conectar-museos-historia-y-espacios-del-barrio-vitrina-orfebreria-arte",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-04",
+    "publication_slot": "mañana"
   }
 }
