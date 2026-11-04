@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-078",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-fotografiar-tu-local-sin-confundir-al-visitante",
     "title": "Cómo fotografiar tu local sin confundir al visitante",
@@ -14,8 +14,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre fotografiar tu local sin confundir al visitante en Lima: buenas prácticas, obligaciones legales y herramientas para una atención tra...",
-    "published": "2026-06-30",
-    "modified": "2026-10-10",
+    "published": "2026-11-04",
+    "modified": "2026-11-04",
     "cover": "como-fotografiar-tu-local-sin-confundir-al-visitante-portada-vivienda-servicios-hogar",
     "internal": [
       "como-fotografiar-tu-local-sin-confundir-al-visitante-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-04",
+    "publication_slot": "tarde"
   }
 }

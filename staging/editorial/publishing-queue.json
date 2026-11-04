@@ -774,10 +774,10 @@
     "slug": "como-fotografiar-tu-local-sin-confundir-al-visitante",
     "title": "Cómo fotografiar tu local sin confundir al visitante",
     "category": "negocios-locales",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-04",
+    "published_slot": "tarde",
+    "batch_day": 25
   },
   {
     "article_id": "TLB-079",
