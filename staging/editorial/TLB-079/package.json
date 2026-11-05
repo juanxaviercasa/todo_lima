@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-079",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "los-colli-y-la-historia-prehispanica-de-lima-norte",
     "title": "Los Colli y la historia prehispánica de Lima Norte",
@@ -14,8 +14,8 @@
       "valles-de-lima"
     ],
     "description": "Estudio histórico sobre los colli y la historia prehispánica de lima norte: contexto documental, hitos cronológicos y fuentes archivísticas en Lima.",
-    "published": "2026-07-01",
-    "modified": "2026-10-10",
+    "published": "2026-11-04",
+    "modified": "2026-11-04",
     "cover": "los-colli-y-la-historia-prehispanica-de-lima-norte-portada-panoramica-historica-lima",
     "internal": [
       "los-colli-y-la-historia-prehispanica-de-lima-norte-legajos-cartografia-antigua",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-04",
+    "publication_slot": "noche"
   }
 }
