@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-081",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "aji-de-gallina-contexto-e-identidad-en-la-mesa-limena",
     "title": "Ají de gallina: contexto e identidad en la mesa limeña",
@@ -14,8 +14,8 @@
       "lima-metropolitana"
     ],
     "description": "Guía sobre ají de gallina: contexto e identidad en la mesa limeña en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el comensal.",
-    "published": "2026-07-03",
-    "modified": "2026-10-10",
+    "published": "2026-11-05",
+    "modified": "2026-11-05",
     "cover": "aji-de-gallina-contexto-e-identidad-en-la-mesa-limena-portada-vivienda-servicios-hogar",
     "internal": [
       "aji-de-gallina-contexto-e-identidad-en-la-mesa-limena-presupuesto-desglosado-garantia",
@@ -418,8 +418,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-05",
+    "publication_slot": "tarde"
   }
 }

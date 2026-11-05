@@ -804,10 +804,10 @@
     "slug": "aji-de-gallina-contexto-e-identidad-en-la-mesa-limena",
     "title": "Ají de gallina: contexto e identidad en la mesa limeña",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-05",
+    "published_slot": "tarde",
+    "batch_day": 26
   },
   {
     "article_id": "TLB-082",
