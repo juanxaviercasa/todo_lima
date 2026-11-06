@@ -824,10 +824,10 @@
     "slug": "iglesias-de-barrios-altos-patrimonio-y-estado-de-conservacion",
     "title": "Iglesias de Barrios Altos: patrimonio y estado de conservación",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-06",
+    "published_slot": "mañana",
+    "batch_day": 27
   },
   {
     "article_id": "TLB-084",

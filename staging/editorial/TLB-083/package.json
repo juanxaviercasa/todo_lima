@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-083",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "iglesias-de-barrios-altos-patrimonio-y-estado-de-conservacion",
     "title": "Iglesias de Barrios Altos: patrimonio y estado de conservación",
@@ -14,8 +14,8 @@
       "lugares-y-patrimonio"
     ],
     "description": "Guía completa sobre iglesias de barrios altos: patrimonio y estado de conservación: historia, arquitectura, horarios de visita y recomendaciones oficial...",
-    "published": "2026-07-05",
-    "modified": "2026-10-10",
+    "published": "2026-11-06",
+    "modified": "2026-11-06",
     "cover": "iglesias-de-barrios-altos-patrimonio-y-estado-de-conservacion-portada-patrimonio-arquitectura",
     "internal": [
       "iglesias-de-barrios-altos-patrimonio-y-estado-de-conservacion-detalle-casona-historica",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-06",
+    "publication_slot": "mañana"
   }
 }
