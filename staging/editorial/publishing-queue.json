@@ -834,10 +834,10 @@
     "slug": "como-comparar-propuestas-de-cortinas-y-estores",
     "title": "Cómo comparar propuestas de cortinas y estores",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-06",
+    "published_slot": "tarde",
+    "batch_day": 27
   },
   {
     "article_id": "TLB-085",
