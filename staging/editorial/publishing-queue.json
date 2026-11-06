@@ -844,10 +844,10 @@
     "slug": "rimac-historico-como-organizar-un-recorrido-con-contexto",
     "title": "Rímac histórico: cómo organizar un recorrido con contexto",
     "category": "barrios-y-distritos",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-06",
+    "published_slot": "noche",
+    "batch_day": 27
   },
   {
     "article_id": "TLB-086",
