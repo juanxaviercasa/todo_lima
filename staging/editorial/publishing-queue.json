@@ -864,10 +864,10 @@
     "slug": "los-caminos-prehispanicos-de-lima-y-su-relacion-con-el-qhapaq-nan",
     "title": "Los caminos prehispánicos de Lima y su relación con el Qhapaq Ñan",
     "category": "historia-de-lima",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-07",
+    "published_slot": "tarde",
+    "batch_day": 28
   },
   {
     "article_id": "TLB-088",

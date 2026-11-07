@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-087",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "los-caminos-prehispanicos-de-lima-y-su-relacion-con-el-qhapaq-nan",
     "title": "Los caminos prehispánicos de Lima y su relación con el Qhapaq Ñan",
@@ -14,8 +14,8 @@
       "valles-de-lima"
     ],
     "description": "Estudio histórico sobre los caminos prehispánicos de lima y su relación con el qhapaq ñan: contexto documental, hitos cronológicos y fuentes archivístic...",
-    "published": "2026-07-09",
-    "modified": "2026-10-10",
+    "published": "2026-11-07",
+    "modified": "2026-11-07",
     "cover": "los-caminos-prehispanicos-de-lima-y-su-relacion-con-el-qhapaq-nan-portada-vivienda-servicios-hogar",
     "internal": [
       "los-caminos-prehispanicos-de-lima-y-su-relacion-con-el-qhapaq-nan-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-07",
+    "publication_slot": "tarde"
   }
 }
