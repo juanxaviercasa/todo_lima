@@ -854,10 +854,10 @@
     "slug": "como-comunicar-la-ubicacion-del-local-y-la-cobertura-a-domicilio",
     "title": "Cómo comunicar la ubicación del local y la cobertura a domicilio",
     "category": "negocios-locales",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-07",
+    "published_slot": "mañana",
+    "batch_day": 28
   },
   {
     "article_id": "TLB-087",

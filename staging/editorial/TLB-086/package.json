@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-086",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-comunicar-la-ubicacion-del-local-y-la-cobertura-a-domicilio",
     "title": "Cómo comunicar la ubicación del local y la cobertura a domicilio",
@@ -14,8 +14,8 @@
       "buenas-practicas"
     ],
     "description": "Guía práctica sobre comunicar la ubicación del local y la cobertura a domicilio en Lima: buenas prácticas, obligaciones legales y herramientas para una ...",
-    "published": "2026-07-08",
-    "modified": "2026-10-10",
+    "published": "2026-11-07",
+    "modified": "2026-11-07",
     "cover": "como-comunicar-la-ubicacion-del-local-y-la-cobertura-a-domicilio-portada-vivienda-servicios-hogar",
     "internal": [
       "como-comunicar-la-ubicacion-del-local-y-la-cobertura-a-domicilio-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-07",
+    "publication_slot": "mañana"
   }
 }
