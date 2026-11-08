@@ -904,10 +904,10 @@
     "slug": "parque-de-la-muralla-como-relacionar-el-paseo-con-la-historia",
     "title": "Parque de la Muralla: cómo relacionar el paseo con la historia",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-08",
+    "published_slot": "tarde",
+    "batch_day": 29
   },
   {
     "article_id": "TLB-092",
