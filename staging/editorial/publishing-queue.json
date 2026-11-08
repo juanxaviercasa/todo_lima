@@ -894,10 +894,10 @@
     "slug": "piscinas-recreativas-en-lima-que-verificar-antes-de-reservar",
     "title": "Piscinas recreativas en Lima: qué verificar antes de reservar",
     "category": "planes-y-bienestar",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-08",
+    "published_slot": "tarde",
+    "batch_day": 29
   },
   {
     "article_id": "TLB-091",
