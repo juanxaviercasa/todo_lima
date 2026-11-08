@@ -884,10 +884,10 @@
     "slug": "comida-de-mercado-en-lima-como-preparar-una-visita-gastronomica",
     "title": "Comida de mercado en Lima: cómo preparar una visita gastronómica",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-08",
+    "published_slot": "mañana",
+    "batch_day": 29
   },
   {
     "article_id": "TLB-090",
