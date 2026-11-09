@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-093",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "san-isidro-parques-patrimonio-y-vida-cotidiana",
     "title": "San Isidro: parques, patrimonio y vida cotidiana",
@@ -14,8 +14,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer San Isidro: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": "2026-07-15",
-    "modified": "2026-10-10",
+    "published": "2026-11-09",
+    "modified": "2026-11-09",
     "cover": "san-isidro-parques-patrimonio-y-vida-cotidiana-portada-patrimonio-arquitectura",
     "internal": [
       "san-isidro-parques-patrimonio-y-vida-cotidiana-detalle-casona-historica",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-09",
+    "publication_slot": "tarde"
   }
 }
