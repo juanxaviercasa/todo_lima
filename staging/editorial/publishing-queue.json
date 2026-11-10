@@ -954,10 +954,10 @@
     "slug": "santa-rosa-de-lima-memoria-lugares-y-tradiciones",
     "title": "Santa Rosa de Lima: memoria, lugares y tradiciones",
     "category": "cultura-y-tradiciones",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-10",
+    "published_slot": "tarde",
+    "batch_day": 31
   },
   {
     "article_id": "TLB-097",
