@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-094",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-mantener-horarios-y-contactos-del-negocio-actualizados",
     "title": "Cómo mantener horarios y contactos del negocio actualizados",
@@ -14,8 +14,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre mantener horarios y contactos del negocio actualizados en Lima: buenas prácticas, obligaciones legales y herramientas para una atenc...",
-    "published": "2026-07-16",
-    "modified": "2026-10-10",
+    "published": "2026-11-09",
+    "modified": "2026-11-09",
     "cover": "como-mantener-horarios-y-contactos-del-negocio-actualizados-portada-vivienda-servicios-hogar",
     "internal": [
       "como-mantener-horarios-y-contactos-del-negocio-actualizados-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-09",
+    "publication_slot": "noche"
   }
 }

@@ -934,10 +934,10 @@
     "slug": "como-mantener-horarios-y-contactos-del-negocio-actualizados",
     "title": "Cómo mantener horarios y contactos del negocio actualizados",
     "category": "negocios-locales",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-09",
+    "published_slot": "noche",
+    "batch_day": 30
   },
   {
     "article_id": "TLB-095",
