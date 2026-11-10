@@ -964,10 +964,10 @@
     "slug": "que-es-un-huarique-y-que-informacion-revisar-antes-de-visitarlo",
     "title": "Qué es un huarique y qué información revisar antes de visitarlo",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-10",
+    "published_slot": "noche",
+    "batch_day": 31
   },
   {
     "article_id": "TLB-098",
