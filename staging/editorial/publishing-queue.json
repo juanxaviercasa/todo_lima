@@ -944,10 +944,10 @@
     "slug": "las-acequias-que-transformaron-los-valles-de-lima",
     "title": "Las acequias que transformaron los valles de Lima",
     "category": "historia-de-lima",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-10",
+    "published_slot": "mañana",
+    "batch_day": 31
   },
   {
     "article_id": "TLB-096",
