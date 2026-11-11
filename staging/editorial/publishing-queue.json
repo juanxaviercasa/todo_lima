@@ -974,10 +974,10 @@
     "slug": "spa-en-lima-como-comparar-instalaciones-y-condiciones-sin-promesas-medicas",
     "title": "Spa en Lima: cómo comparar instalaciones y condiciones sin promesas médicas",
     "category": "planes-y-bienestar",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-11",
+    "published_slot": "mañana",
+    "batch_day": 32
   },
   {
     "article_id": "TLB-099",
