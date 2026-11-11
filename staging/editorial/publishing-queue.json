@@ -984,10 +984,10 @@
     "slug": "alameda-de-los-descalzos-historia-y-patrimonio-del-rimac",
     "title": "Alameda de los Descalzos: historia y patrimonio del Rímac",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-11",
+    "published_slot": "tarde",
+    "batch_day": 32
   },
   {
     "article_id": "TLB-100",
