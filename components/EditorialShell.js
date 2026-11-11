@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import Navbar from './Navbar.js';
 import Footer from './Footer.js';
+import { getResponsiveSiteImage } from '../lib/responsiveImages.js';
 
 export default function EditorialShell({ title, intro, children, trail = [], action, image }) {
+  const asset = typeof image === 'string' ? getResponsiveSiteImage(image) : image;
   return <><Navbar /><main id="contenido" className="min-w-0 [overflow-wrap:anywhere] flex-grow">
     <header className={`relative overflow-hidden bg-slate-950 text-white ${image ? 'editorial-hero' : 'px-5 py-14 sm:py-20'}`}>
-      {image && <div className="editorial-hero-media"><img src={typeof image === 'string' ? image : image.src} srcSet={image.srcSet} sizes={image.srcSet ? '100vw' : undefined} alt={image.alt || ''} width="1600" height="900" fetchPriority="high" className="block w-full h-auto object-contain" /><div className="category-hero-shade absolute inset-0" /></div>}
+      {image && <div className="editorial-hero-media"><img src={asset.src} srcSet={asset.srcSet} sizes={asset.srcSet ? "100vw" : undefined} alt={asset.alt || ""} width={asset.width || 1600} height={asset.height || 900} fetchPriority="high" loading="eager" decoding="async" className="block w-full h-auto object-contain" /><div className="category-hero-shade absolute inset-0" /></div>}
       <div className={`relative max-w-7xl mx-auto ${image ? 'editorial-hero-copy' : ''}`}>
       <nav aria-label="Ruta de navegación" className="flex flex-wrap gap-2 text-sm text-slate-300 mb-6"><Link href="/">Inicio</Link>{trail.map(([label, href]) => <span key={href}> / <Link href={href}>{label}</Link></span>)}</nav>
       <p className="text-sky-300 text-sm font-semibold mb-3">La ciudad, a tu alcance</p><h1 className="text-3xl sm:text-5xl font-black max-w-3xl lg:max-w-[60%]">{title}</h1>

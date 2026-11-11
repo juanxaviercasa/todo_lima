@@ -9,6 +9,7 @@ import { getDirectory } from '../../../lib/directory.js';
 import { categoryEditorial } from '../../../lib/categoryEditorial.js';
 import { pageMetadata, breadcrumbs, SITE_URL } from '../../../lib/seo.js';
 import { getMacroAreas, getAreaBySlug } from '../../../lib/areasTaxonomy.js';
+import { getResponsiveSiteImage } from '../../../lib/responsiveImages.js';
 
 export const dynamicParams = false;
 
@@ -143,7 +144,9 @@ export default function AreaPage({ params }) {
               >
                 <div className="aspect-[16/10] overflow-hidden bg-slate-100 dark:bg-slate-800 relative">
                   <img
-                    src={`/images/categories/${cat.slug.replace(/-/g, '_')}.webp`}
+                    src={getResponsiveSiteImage("/images/categories/" + cat.slug.replace(/-/g, "_") + ".webp").src}
+                    srcSet={getResponsiveSiteImage("/images/categories/" + cat.slug.replace(/-/g, "_") + ".webp").srcSet}
+                    sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw"
                     alt=""
                     width="640"
                     height="400"

@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { Search, ArrowUpRight, X, ChevronRight, Sparkles, Filter } from 'lucide-react';
 import AreaIcon from './AreaIcon.js';
+import { getResponsiveSiteImage } from '../lib/responsiveImages.js';
 import { MACRO_AREAS, CATEGORY_TO_AREA_SLUG, getAreaBySlug } from '../lib/areasTaxonomy.js';
 
 const normalize = text => (text || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
@@ -395,6 +396,7 @@ export default function HomeExplorer({ categories }) {
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
         {filteredCategories.map(c => {
           const bizCount = countBusinesses(c);
+          const cardImage = getResponsiveSiteImage('/images/categories/' + c.slug.replace(/-/g, '_') + '.webp');
           return (
             <Link
               key={c.slug}
@@ -403,7 +405,9 @@ export default function HomeExplorer({ categories }) {
             >
               <div className="aspect-[16/10] overflow-hidden bg-slate-100 dark:bg-slate-800 relative">
                 <img
-                  src={`/images/categories/${c.slug.replace(/-/g, '_')}.webp`}
+                  src={cardImage.src}
+                  srcSet={cardImage.srcSet}
+                  sizes="(min-width: 1280px) 280px, (min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                   alt=""
                   width="640"
                   height="400"

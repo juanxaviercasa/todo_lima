@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "predev": "node scripts/reconcile-directory.mjs --check && node scripts/prepare-blog-images.mjs",
-    "prebuild": "node scripts/reconcile-directory.mjs --check && node scripts/prepare-blog-images.mjs && node scripts/export-tool-tutorial-index.mjs",
+    "predev": "node scripts/reconcile-directory.mjs --check && node scripts/prepare-blog-images.mjs && node scripts/prepare-responsive-images.mjs",
+    "prebuild": "node scripts/reconcile-directory.mjs --check && node scripts/prepare-blog-images.mjs && node scripts/prepare-responsive-images.mjs && node scripts/test-responsive-images.mjs && node scripts/export-tool-tutorial-index.mjs",
     "build": "next build",
     "verify:seo": "node scripts/verify-seo.mjs",
     "test:seo": "node scripts/smoke-seo.mjs",
@@ -34,6 +34,7 @@
     "directory:reconcile": "node scripts/reconcile-directory.mjs",
     "directory:export": "node scripts/reconcile-directory.mjs --export",
     "test:directory": "node --test scripts/test-directory-reconciliation.mjs",
+    "test:images": "node scripts/prepare-blog-images.mjs && node scripts/prepare-responsive-images.mjs && node scripts/test-responsive-images.mjs",
     "db:sync:legacy": "node scripts/bulk-migration.js"
   },
   "dependencies": {

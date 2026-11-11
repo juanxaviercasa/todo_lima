@@ -23,7 +23,7 @@ export default function BlogArticle({params}){
     <div className="grid lg:grid-cols-[minmax(0,1fr)_17rem] gap-8"><article className="min-w-0">
       <header className="article-opening">
         <div className="article-title-hero">
-          <img {...BLOG_IMAGES[p.cover]} sizes="(min-width: 1024px) 850px, 100vw" width="1440" height="810" fetchPriority="high" loading="eager" className="article-title-image" />
+          <img {...BLOG_IMAGES[p.cover]} sizes="(min-width: 1024px) 850px, 100vw" width={BLOG_IMAGES[p.cover].width || 1440} height={BLOG_IMAGES[p.cover].height || 810} fetchPriority="high" loading="eager" decoding="async" className="article-title-image" />
           <div className="article-title-shade" aria-hidden="true" />
           <div className="article-title-copy">
             <Link href={'/blog/categoria/'+p.category} className="text-sm font-semibold text-sky-200">{categoryName(p.category)}</Link>

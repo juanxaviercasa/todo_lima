@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { getResponsiveSiteImage } from '../lib/responsiveImages.js';
 import { 
   PhoneCall, 
   ShieldCheck, 
@@ -36,7 +37,10 @@ export default function RandomHero({ category, pageContent, totalResults, update
       <div className="absolute inset-0 z-0">
         {category?.slug && (
           <img 
-            src={`/images/categories/${category.slug.replace(/-/g, '_')}.webp`}
+            src={getResponsiveSiteImage("/images/categories/" + category.slug.replace(/-/g, "_") + ".webp").src}
+            srcSet={getResponsiveSiteImage("/images/categories/" + category.slug.replace(/-/g, "_") + ".webp").srcSet}
+            sizes="100vw"
+            fetchPriority="high"
             alt={`Fondo de ${category.title}`}
             className="w-full h-full object-cover object-center opacity-40"
           />

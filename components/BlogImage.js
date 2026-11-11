@@ -8,8 +8,8 @@ export default function BlogImage({id, priority=false, caption=true, cover=false
       <img
         {...image}
         sizes={sizes}
-        width="1440"
-        height="810"
+        width={image.width || 1440}
+        height={image.height || 810}
         loading={priority ? 'eager' : 'lazy'}
         fetchPriority={priority ? 'high' : undefined}
         decoding="async"

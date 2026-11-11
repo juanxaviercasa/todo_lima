@@ -21,3 +21,13 @@ si falta alguna imagen, falla y evita publicar referencias rotas.
 Reparación del 18 de octubre de 2026: sincronizados 564 archivos, 27 subidos y 537
 ya presentes, sin errores. Catálogo público: 546 URL de imágenes válidas. Los tres
 objetos de Angamos devolvían 404 y ahora responden 200. No fue necesario regenerarlos.
+
+## Imágenes adaptables (noviembre de 2026)
+
+El proyecto es un Next.js con `output: export` y no depende del optimizador de imágenes del servidor de Next.js. En `predev` y `prebuild`, `scripts/prepare-responsive-images.mjs` genera versiones WebP adecuadas para las tarjetas (360/480/640/768/960 según uso), portadas (1200 px) y el hero principal (WebP a resolución nativa cuando aporta ahorro). Se validan las dimensiones y la existencia de los archivos con `scripts/test-responsive-images.mjs`.
+
+**Origen y entrega:** los originales editoriales continúan apuntando a `media.todolima.com/editorial/` (R2). Las variantes editoriales se publican de forma estática bajo `/editorial/` en el propio despliegue de la web y quedan accesibles por Cloudflare Pages o el alojamiento del dominio. Esto evita enlaces rotos a variantes que no se han subido todavía a R2 y no requiere cuota de Cloudflare Images. Las tarjetas de categorías y la portada usan variantes de `/images/` generadas durante la compilación.
+
+Los archivos generados quedan en `public/` y los manifiestos `data/blog/responsive-manifest.json` y `data/responsive-site-images.json` se regeneran antes de compilar. El HTML utiliza `srcset` + `sizes` con anchuras reales; las imágenes fuera del primer pantallazo mantienen carga diferida. Una imagen que cambie bajo la misma URL de R2 con caché `immutable` debe publicarse preferentemente con un nombre nuevo.
+
+Para comprobarlo, ejecutar `npm run test:images` y `npm run build`, y medir solicitudes, LCP y CLS en móvil con DevTools o PageSpeed Insights. No dar por comprobada la mejora de tiempos sin mediciones antes/después.
