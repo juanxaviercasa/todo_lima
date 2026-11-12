@@ -994,10 +994,10 @@
     "slug": "como-coordinar-fumigacion-preguntas-sobre-ocupacion-y-medidas-del-proveedor",
     "title": "Cómo coordinar fumigación: preguntas sobre ocupación y medidas del proveedor",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-11",
+    "published_slot": "noche",
+    "batch_day": 32
   },
   {
     "article_id": "TLB-101",
