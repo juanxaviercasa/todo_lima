@@ -1014,10 +1014,10 @@
     "slug": "como-responder-preguntas-frecuentes-antes-de-recibir-una-consulta",
     "title": "Cómo responder preguntas frecuentes antes de recibir una consulta",
     "category": "negocios-locales",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-12",
+    "published_slot": "tarde",
+    "batch_day": 33
   },
   {
     "article_id": "TLB-103",
