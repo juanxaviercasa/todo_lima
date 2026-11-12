@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-101",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "san-miguel-arqueologia-urbana-y-alternativas-para-un-dia-de-paseo",
     "title": "San Miguel: arqueología urbana y alternativas para un día de paseo",
@@ -14,8 +14,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer San Miguel: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": "2026-07-23",
-    "modified": "2026-10-10",
+    "published": "2026-11-12",
+    "modified": "2026-11-12",
     "cover": "san-miguel-arqueologia-urbana-y-alternativas-para-un-dia-de-paseo-portada-distrito-limeno",
     "internal": [
       "san-miguel-arqueologia-urbana-y-alternativas-para-un-dia-de-paseo-arquitectura-barrio-casonas",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-12",
+    "publication_slot": "mañana"
   }
 }
