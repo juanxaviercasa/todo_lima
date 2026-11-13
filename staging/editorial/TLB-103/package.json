@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-103",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "la-muralla-de-lima-por-que-se-construyo-y-que-queda-de-ella",
     "title": "La muralla de Lima: por qué se construyó y qué queda de ella",
@@ -14,8 +14,8 @@
       "damero-de-pizarro"
     ],
     "description": "Estudio histórico sobre muralla de lima: por qué se construyó y qué queda de ella: contexto documental, hitos cronológicos y fuentes archivísticas en Lima.",
-    "published": "2026-07-25",
-    "modified": "2026-10-10",
+    "published": "2026-11-12",
+    "modified": "2026-11-12",
     "cover": "la-muralla-de-lima-por-que-se-construyo-y-que-queda-de-ella-portada-parque-de-la-muralla",
     "internal": [
       "la-muralla-de-lima-por-que-se-construyo-y-que-queda-de-ella-mapa-historico-lima-amurallada",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-12",
+    "publication_slot": "noche"
   }
 }
