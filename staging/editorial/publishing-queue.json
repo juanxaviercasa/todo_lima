@@ -1044,10 +1044,10 @@
     "slug": "como-reservar-un-restaurante-en-lima-para-un-grupo",
     "title": "Cómo reservar un restaurante en Lima para un grupo",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-13",
+    "published_slot": "tarde",
+    "batch_day": 34
   },
   {
     "article_id": "TLB-106",

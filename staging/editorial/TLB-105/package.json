@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-105",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-reservar-un-restaurante-en-lima-para-un-grupo",
     "title": "Cómo reservar un restaurante en Lima para un grupo",
@@ -14,8 +14,8 @@
       "vida-practica"
     ],
     "description": "Guía sobre reservar un restaurante en lima para un grupo en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el comensal.",
-    "published": "2026-07-27",
-    "modified": "2026-10-10",
+    "published": "2026-11-13",
+    "modified": "2026-11-13",
     "cover": "como-reservar-un-restaurante-en-lima-para-un-grupo-portada-restaurante-limeno",
     "internal": [
       "como-reservar-un-restaurante-en-lima-para-un-grupo-emplatado-gastronomico",
@@ -418,8 +418,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-13",
+    "publication_slot": "tarde"
   }
 }
