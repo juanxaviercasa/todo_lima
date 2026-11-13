@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-104",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "la-flor-de-amancaes-y-su-presencia-en-la-identidad-limena",
     "title": "La flor de Amancaes y su presencia en la identidad limeña",
@@ -14,8 +14,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre flor de amancaes y su presencia en la identidad limeña en Lima: historia, expresiones vivas, espacios de difusión y fuentes ofici...",
-    "published": "2026-07-26",
-    "modified": "2026-10-10",
+    "published": "2026-11-13",
+    "modified": "2026-11-13",
     "cover": "la-flor-de-amancaes-y-su-presencia-en-la-identidad-limena-portada-feria-cultural-plaza",
     "internal": [
       "la-flor-de-amancaes-y-su-presencia-en-la-identidad-limena-instrumentos-artesanias-muestra",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-13",
+    "publication_slot": "mañana"
   }
 }
