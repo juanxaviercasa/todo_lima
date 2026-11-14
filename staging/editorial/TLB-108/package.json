@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-108",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-preparar-contactos-y-documentos-para-la-atencion-de-tu-mascota",
     "title": "Cómo preparar contactos y documentos para la atención de tu mascota",
@@ -14,8 +14,8 @@
       "bienestar-animal"
     ],
     "description": "Guía práctica sobre preparar contactos y documentos para la atención de tu mascota en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": "2026-07-30",
-    "modified": "2026-10-10",
+    "published": "2026-11-14",
+    "modified": "2026-11-14",
     "cover": "como-preparar-contactos-y-documentos-para-la-atencion-de-tu-mascota-portada-clinica-veterinaria-lima",
     "internal": [
       "como-preparar-contactos-y-documentos-para-la-atencion-de-tu-mascota-examen-veterinario-perro",
@@ -433,8 +433,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-14",
+    "publication_slot": "tarde"
   }
 }
