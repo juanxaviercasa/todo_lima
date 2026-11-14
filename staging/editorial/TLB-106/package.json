@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-106",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-elegir-un-taller-creativo-para-una-actividad-de-fin-de-semana",
     "title": "Cómo elegir un taller creativo para una actividad de fin de semana",
@@ -14,8 +14,8 @@
       "cultura-viva"
     ],
     "description": "Guía sobre elegir un taller creativo para una actividad de fin de semana en Lima: planificación, requisitos oficiales, accesibilidad y consejos para dis...",
-    "published": "2026-07-28",
-    "modified": "2026-10-10",
+    "published": "2026-11-13",
+    "modified": "2026-11-13",
     "cover": "como-elegir-un-taller-creativo-para-una-actividad-de-fin-de-semana-portada-fin-semana-parque",
     "internal": [
       "como-elegir-un-taller-creativo-para-una-actividad-de-fin-de-semana-agenda-cultural-parque",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-13",
+    "publication_slot": "noche"
   }
 }

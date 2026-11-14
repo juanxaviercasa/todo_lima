@@ -1054,10 +1054,10 @@
     "slug": "como-elegir-un-taller-creativo-para-una-actividad-de-fin-de-semana",
     "title": "Cómo elegir un taller creativo para una actividad de fin de semana",
     "category": "planes-y-bienestar",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-13",
+    "published_slot": "noche",
+    "batch_day": 34
   },
   {
     "article_id": "TLB-107",
