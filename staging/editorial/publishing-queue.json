@@ -1064,10 +1064,10 @@
     "slug": "paseo-de-aguas-memoria-urbana-y-preparacion-de-la-visita",
     "title": "Paseo de Aguas: memoria urbana y preparación de la visita",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-14",
+    "published_slot": "mañana",
+    "batch_day": 35
   },
   {
     "article_id": "TLB-108",
