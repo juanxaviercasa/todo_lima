@@ -1084,10 +1084,10 @@
     "slug": "magdalena-del-mar-patrimonio-y-espacios-de-encuentro-del-distrito",
     "title": "Magdalena del Mar: patrimonio y espacios de encuentro del distrito",
     "category": "barrios-y-distritos",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-14",
+    "published_slot": "tarde",
+    "batch_day": 35
   },
   {
     "article_id": "TLB-110",
