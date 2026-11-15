@@ -1104,10 +1104,10 @@
     "slug": "el-terremoto-de-1746-y-la-reconstruccion-de-lima",
     "title": "El terremoto de 1746 y la reconstrucción de Lima",
     "category": "historia-de-lima",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-15",
+    "published_slot": "tarde",
+    "batch_day": 36
   },
   {
     "article_id": "TLB-112",
