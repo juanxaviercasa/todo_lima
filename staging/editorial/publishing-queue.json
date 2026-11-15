@@ -1094,10 +1094,10 @@
     "slug": "como-presentar-condiciones-de-una-promocion-de-forma-clara",
     "title": "Cómo presentar condiciones de una promoción de forma clara",
     "category": "negocios-locales",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-15",
+    "published_slot": "mañana",
+    "batch_day": 36
   },
   {
     "article_id": "TLB-111",

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-110",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-presentar-condiciones-de-una-promocion-de-forma-clara",
     "title": "Cómo presentar condiciones de una promoción de forma clara",
@@ -14,8 +14,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre presentar condiciones de una promoción de forma clara en Lima: buenas prácticas, obligaciones legales y herramientas para una atenci...",
-    "published": "2026-08-01",
-    "modified": "2026-10-10",
+    "published": "2026-11-15",
+    "modified": "2026-11-15",
     "cover": "como-presentar-condiciones-de-una-promocion-de-forma-clara-portada-vivienda-servicios-hogar",
     "internal": [
       "como-presentar-condiciones-de-una-promocion-de-forma-clara-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-15",
+    "publication_slot": "mañana"
   }
 }
