@@ -1114,10 +1114,10 @@
     "slug": "las-penas-criollas-que-son-y-como-preparar-una-primera-visita",
     "title": "Las peñas criollas: qué son y cómo preparar una primera visita",
     "category": "cultura-y-tradiciones",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-15",
+    "published_slot": "noche",
+    "batch_day": 36
   },
   {
     "article_id": "TLB-113",
