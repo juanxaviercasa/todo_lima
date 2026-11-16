@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-114",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-consultar-actividades-culturales-para-un-domingo",
     "title": "Cómo consultar actividades culturales para un domingo",
@@ -14,8 +14,8 @@
       "vida-urbana"
     ],
     "description": "Guía sobre consultar actividades culturales para un domingo en Lima: planificación, requisitos oficiales, accesibilidad y consejos para disfrutar sin im...",
-    "published": "2026-08-05",
-    "modified": "2026-10-10",
+    "published": "2026-11-16",
+    "modified": "2026-11-16",
     "cover": "como-consultar-actividades-culturales-para-un-domingo-portada-feria-cultural-plaza",
     "internal": [
       "como-consultar-actividades-culturales-para-un-domingo-instrumentos-artesanias-muestra",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-16",
+    "publication_slot": "tarde"
   }
 }
