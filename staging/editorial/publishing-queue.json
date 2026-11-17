@@ -1154,10 +1154,10 @@
     "slug": "guarderia-de-mascotas-que-preguntar-sobre-alojamiento-y-comunicacion",
     "title": "Guardería de mascotas: qué preguntar sobre alojamiento y comunicación",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-17",
+    "published_slot": "mañana",
+    "batch_day": 38
   },
   {
     "article_id": "TLB-117",
