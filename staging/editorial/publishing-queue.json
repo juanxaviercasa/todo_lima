@@ -1144,10 +1144,10 @@
     "slug": "puente-de-los-suspiros-historia-y-entorno-de-barranco",
     "title": "Puente de los Suspiros: historia y entorno de Barranco",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-16",
+    "published_slot": "noche",
+    "batch_day": 37
   },
   {
     "article_id": "TLB-116",
