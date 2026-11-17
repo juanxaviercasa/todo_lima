@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-117",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "santiago-de-surco-como-combinar-historia-local-y-actividades",
     "title": "Santiago de Surco: cómo combinar historia local y actividades",
@@ -14,8 +14,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer Santiago de Surco: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": "2026-08-08",
-    "modified": "2026-10-10",
+    "published": "2026-11-17",
+    "modified": "2026-11-17",
     "cover": "santiago-de-surco-como-combinar-historia-local-y-actividades-portada-panoramica-historica-lima",
     "internal": [
       "santiago-de-surco-como-combinar-historia-local-y-actividades-legajos-cartografia-antigua",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-17",
+    "publication_slot": "tarde"
   }
 }
