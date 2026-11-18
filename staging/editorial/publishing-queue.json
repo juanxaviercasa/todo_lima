@@ -1194,10 +1194,10 @@
     "slug": "las-jaranas-limenas-musica-y-sociabilidad-a-traves-del-tiempo",
     "title": "Las jaranas limeñas: música y sociabilidad a través del tiempo",
     "category": "cultura-y-tradiciones",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-18",
+    "published_slot": "tarde",
+    "batch_day": 39
   },
   {
     "article_id": "TLB-121",
