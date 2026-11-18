@@ -1174,10 +1174,10 @@
     "slug": "libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio",
     "title": "Libro de Reclamaciones: fuentes oficiales y obligaciones que debe revisar un negocio",
     "category": "negocios-locales",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-17",
+    "published_slot": "noche",
+    "batch_day": 38
   },
   {
     "article_id": "TLB-119",

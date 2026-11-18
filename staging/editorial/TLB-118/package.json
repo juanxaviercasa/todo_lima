@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-118",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio",
     "title": "Libro de Reclamaciones: fuentes oficiales y obligaciones que debe revisar un negocio",
@@ -14,8 +14,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre libro de reclamaciones: fuentes oficiales y obligaciones que debe revisar un negocio en Lima: buenas prácticas, obligaciones legales...",
-    "published": "2026-08-09",
-    "modified": "2026-10-10",
+    "published": "2026-11-17",
+    "modified": "2026-11-17",
     "cover": "libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-portada-libro-reclamaciones-mostrador",
     "internal": [
       "libro-de-reclamaciones-fuentes-oficiales-y-obligaciones-que-debe-revisar-un-negocio-revision-garantias-comprobante",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-17",
+    "publication_slot": "noche"
   }
 }
