@@ -1184,10 +1184,10 @@
     "slug": "lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto",
     "title": "Lima y la proclamación de la independencia: escenarios y contexto",
     "category": "historia-de-lima",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-18",
+    "published_slot": "mañana",
+    "batch_day": 39
   },
   {
     "article_id": "TLB-120",

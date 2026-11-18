@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-119",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto",
     "title": "Lima y la proclamación de la independencia: escenarios y contexto",
@@ -14,8 +14,8 @@
       "memoria-historica"
     ],
     "description": "Estudio histórico sobre lima y la proclamación de la independencia: escenarios y contexto: contexto documental, hitos cronológicos y fuentes archivístic...",
-    "published": "2026-08-10",
-    "modified": "2026-10-10",
+    "published": "2026-11-18",
+    "modified": "2026-11-18",
     "cover": "lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-portada-plaza-independencia-lima",
     "internal": [
       "lima-y-la-proclamacion-de-la-independencia-escenarios-y-contexto-acta-independencia-documentos",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-18",
+    "publication_slot": "mañana"
   }
 }
