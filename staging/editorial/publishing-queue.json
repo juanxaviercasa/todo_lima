@@ -1204,10 +1204,10 @@
     "slug": "como-comunicar-restricciones-alimentarias-al-reservar-un-restaurante",
     "title": "Cómo comunicar restricciones alimentarias al reservar un restaurante",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-18",
+    "published_slot": "noche",
+    "batch_day": 39
   },
   {
     "article_id": "TLB-122",

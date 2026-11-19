@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-121",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-comunicar-restricciones-alimentarias-al-reservar-un-restaurante",
     "title": "Cómo comunicar restricciones alimentarias al reservar un restaurante",
@@ -14,8 +14,8 @@
       "vida-practica"
     ],
     "description": "Guía sobre comunicar restricciones alimentarias al reservar un restaurante en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el...",
-    "published": "2026-08-12",
-    "modified": "2026-10-10",
+    "published": "2026-11-18",
+    "modified": "2026-11-18",
     "cover": "como-comunicar-restricciones-alimentarias-al-reservar-un-restaurante-portada-restaurante-limeno",
     "internal": [
       "como-comunicar-restricciones-alimentarias-al-reservar-un-restaurante-emplatado-gastronomico",
@@ -418,8 +418,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-18",
+    "publication_slot": "noche"
   }
 }
