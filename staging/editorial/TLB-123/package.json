@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-123",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "museo-de-arte-de-lima-como-elegir-exposiciones-y-preparar-una-visita",
     "title": "Museo de Arte de Lima: cómo elegir exposiciones y preparar una visita",
@@ -14,8 +14,8 @@
       "recorridos-culturales"
     ],
     "description": "Guía completa sobre museo de arte de lima: cómo elegir exposiciones y preparar una visita: historia, arquitectura, horarios de visita y recomendaciones ...",
-    "published": "2026-08-14",
-    "modified": "2026-10-10",
+    "published": "2026-11-19",
+    "modified": "2026-11-19",
     "cover": "museo-de-arte-de-lima-como-elegir-exposiciones-y-preparar-una-visita-portada-galeria-museo",
     "internal": [
       "museo-de-arte-de-lima-como-elegir-exposiciones-y-preparar-una-visita-vitrina-orfebreria-arte",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-19",
+    "publication_slot": "tarde"
   }
 }

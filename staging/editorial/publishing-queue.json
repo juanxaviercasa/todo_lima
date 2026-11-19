@@ -1224,10 +1224,10 @@
     "slug": "museo-de-arte-de-lima-como-elegir-exposiciones-y-preparar-una-visita",
     "title": "Museo de Arte de Lima: cómo elegir exposiciones y preparar una visita",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-19",
+    "published_slot": "tarde",
+    "batch_day": 40
   },
   {
     "article_id": "TLB-124",
