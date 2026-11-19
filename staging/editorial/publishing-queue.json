@@ -1214,10 +1214,10 @@
     "slug": "como-planificar-una-salida-nocturna-y-coordinar-el-regreso",
     "title": "Cómo planificar una salida nocturna y coordinar el regreso",
     "category": "planes-y-bienestar",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-19",
+    "published_slot": "mañana",
+    "batch_day": 40
   },
   {
     "article_id": "TLB-123",
