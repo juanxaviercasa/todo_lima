@@ -1244,10 +1244,10 @@
     "slug": "los-olivos-como-consultar-espacios-y-actividades-del-distrito",
     "title": "Los Olivos: cómo consultar espacios y actividades del distrito",
     "category": "barrios-y-distritos",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-20",
+    "published_slot": "mañana",
+    "batch_day": 41
   },
   {
     "article_id": "TLB-126",
