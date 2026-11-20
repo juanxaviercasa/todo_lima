@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-126",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "ruc-de-persona-natural-y-persona-juridica-diferencias-que-deben-revisarse-con-asesoria",
     "title": "RUC de persona natural y persona jurídica: diferencias que deben revisarse con asesoría",
@@ -14,8 +14,8 @@
       "negocios-locales"
     ],
     "description": "Guía práctica sobre ruc de persona natural y persona jurídica: diferencias que deben revisarse con asesoría en Lima: buenas prácticas, obligaciones lega...",
-    "published": "2026-08-17",
-    "modified": "2026-10-10",
+    "published": "2026-11-20",
+    "modified": "2026-11-20",
     "cover": "ruc-de-persona-natural-y-persona-juridica-diferencias-que-deben-revisarse-con-asesoria-portada-vivienda-servicios-hogar",
     "internal": [
       "ruc-de-persona-natural-y-persona-juridica-diferencias-que-deben-revisarse-con-asesoria-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-20",
+    "publication_slot": "tarde"
   }
 }
