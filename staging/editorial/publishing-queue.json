@@ -1234,10 +1234,10 @@
     "slug": "peluqueria-para-mascotas-que-informacion-compartir-antes-de-reservar",
     "title": "Peluquería para mascotas: qué información compartir antes de reservar",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-19",
+    "published_slot": "noche",
+    "batch_day": 40
   },
   {
     "article_id": "TLB-125",
