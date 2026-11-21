@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-127",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "la-quinta-de-los-libertadores-y-su-lugar-en-la-historia-del-peru",
     "title": "La Quinta de los Libertadores y su lugar en la historia del Perú",
@@ -14,8 +14,8 @@
       "memoria-historica"
     ],
     "description": "Estudio histórico sobre quinta de los libertadores y su lugar en la historia del perú: contexto documental, hitos cronológicos y fuentes archivísticas e...",
-    "published": "2026-08-18",
-    "modified": "2026-10-10",
+    "published": "2026-11-20",
+    "modified": "2026-11-20",
     "cover": "la-quinta-de-los-libertadores-y-su-lugar-en-la-historia-del-peru-portada-panoramica-historica-lima",
     "internal": [
       "la-quinta-de-los-libertadores-y-su-lugar-en-la-historia-del-peru-legajos-cartografia-antigua",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-20",
+    "publication_slot": "noche"
   }
 }

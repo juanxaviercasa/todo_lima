@@ -1264,10 +1264,10 @@
     "slug": "la-quinta-de-los-libertadores-y-su-lugar-en-la-historia-del-peru",
     "title": "La Quinta de los Libertadores y su lugar en la historia del Perú",
     "category": "historia-de-lima",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-20",
+    "published_slot": "noche",
+    "batch_day": 41
   },
   {
     "article_id": "TLB-128",
