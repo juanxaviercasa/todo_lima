@@ -1284,10 +1284,10 @@
     "slug": "comer-con-ninos-en-lima-que-preguntar-antes-de-elegir-un-local",
     "title": "Comer con niños en Lima: qué preguntar antes de elegir un local",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-21",
+    "published_slot": "tarde",
+    "batch_day": 42
   },
   {
     "article_id": "TLB-130",

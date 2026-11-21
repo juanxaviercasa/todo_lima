@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-129",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "comer-con-ninos-en-lima-que-preguntar-antes-de-elegir-un-local",
     "title": "Comer con niños en Lima: qué preguntar antes de elegir un local",
@@ -14,8 +14,8 @@
       "vida-practica"
     ],
     "description": "Guía sobre comer con niños en lima: qué preguntar antes de elegir un local en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el...",
-    "published": "2026-08-20",
-    "modified": "2026-10-10",
+    "published": "2026-11-21",
+    "modified": "2026-11-21",
     "cover": "comer-con-ninos-en-lima-que-preguntar-antes-de-elegir-un-local-portada-parque-infantil-familiar",
     "internal": [
       "comer-con-ninos-en-lima-que-preguntar-antes-de-elegir-un-local-padres-coche-bebe-sendero",
@@ -418,8 +418,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-21",
+    "publication_slot": "tarde"
   }
 }
