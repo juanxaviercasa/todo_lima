@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-130",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "paseos-con-mascotas-como-confirmar-permisos-y-condiciones-del-espacio",
     "title": "Paseos con mascotas: cómo confirmar permisos y condiciones del espacio",
@@ -14,8 +14,8 @@
       "vida-urbana"
     ],
     "description": "Guía sobre paseos con mascotas: cómo confirmar permisos y condiciones del espacio en Lima: planificación, requisitos oficiales, accesibilidad y consejos...",
-    "published": "2026-08-21",
-    "modified": "2026-10-10",
+    "published": "2026-11-21",
+    "modified": "2026-11-21",
     "cover": "paseos-con-mascotas-como-confirmar-permisos-y-condiciones-del-espacio-portada-fin-semana-parque",
     "internal": [
       "paseos-con-mascotas-como-confirmar-permisos-y-condiciones-del-espacio-agenda-cultural-parque",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-21",
+    "publication_slot": "noche"
   }
 }
