@@ -1304,10 +1304,10 @@
     "slug": "museo-larco-colecciones-y-preguntas-para-organizar-el-recorrido",
     "title": "Museo Larco: colecciones y preguntas para organizar el recorrido",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-22",
+    "published_slot": "mañana",
+    "batch_day": 43
   },
   {
     "article_id": "TLB-132",
