@@ -1314,10 +1314,10 @@
     "slug": "lavanderia-por-encargo-inventario-de-prendas-y-condiciones-de-recepcion",
     "title": "Lavandería por encargo: inventario de prendas y condiciones de recepción",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-22",
+    "published_slot": "tarde",
+    "batch_day": 43
   },
   {
     "article_id": "TLB-133",
