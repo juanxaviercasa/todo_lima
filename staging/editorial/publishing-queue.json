@@ -1334,10 +1334,10 @@
     "slug": "licencia-de-funcionamiento-e-itse-como-ubicar-requisitos-oficiales-de-tu-municipio",
     "title": "Licencia de funcionamiento e ITSE: cómo ubicar requisitos oficiales de tu municipio",
     "category": "negocios-locales",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-23",
+    "published_slot": "mañana",
+    "batch_day": 44
   },
   {
     "article_id": "TLB-135",
