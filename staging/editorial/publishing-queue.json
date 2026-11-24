@@ -1364,10 +1364,10 @@
     "slug": "terrazas-gastronomicas-del-centro-de-lima-como-comprobar-locales-y-condiciones",
     "title": "Terrazas gastronómicas del Centro de Lima: cómo comprobar locales y condiciones",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-24",
+    "published_slot": "mañana",
+    "batch_day": 45
   },
   {
     "article_id": "TLB-138",

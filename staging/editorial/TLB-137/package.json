@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-137",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "terrazas-gastronomicas-del-centro-de-lima-como-comprobar-locales-y-condiciones",
     "title": "Terrazas gastronómicas del Centro de Lima: cómo comprobar locales y condiciones",
@@ -14,8 +14,8 @@
       "ocio-urbano"
     ],
     "description": "Guía sobre terrazas gastronómicas del centro de lima: cómo comprobar locales y condiciones en Lima: historia, ingredientes, recomendaciones y consejos p...",
-    "published": "2026-08-28",
-    "modified": "2026-10-10",
+    "published": "2026-11-24",
+    "modified": "2026-11-24",
     "cover": "terrazas-gastronomicas-del-centro-de-lima-como-comprobar-locales-y-condiciones-portada-vivienda-servicios-hogar",
     "internal": [
       "terrazas-gastronomicas-del-centro-de-lima-como-comprobar-locales-y-condiciones-presupuesto-desglosado-garantia",
@@ -418,8 +418,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-24",
+    "publication_slot": "mañana"
   }
 }
