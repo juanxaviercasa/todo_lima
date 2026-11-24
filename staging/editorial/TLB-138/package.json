@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-138",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-preparar-una-primera-salida-de-observacion-de-aves-en-lima",
     "title": "Cómo preparar una primera salida de observación de aves en Lima",
@@ -14,8 +14,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre preparar una primera salida de observación de aves en lima en Lima: planificación, requisitos oficiales, accesibilidad y consejos para disfru...",
-    "published": "2026-08-29",
-    "modified": "2026-10-10",
+    "published": "2026-11-24",
+    "modified": "2026-11-24",
     "cover": "como-preparar-una-primera-salida-de-observacion-de-aves-en-lima-portada-vivienda-servicios-hogar",
     "internal": [
       "como-preparar-una-primera-salida-de-observacion-de-aves-en-lima-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-24",
+    "publication_slot": "tarde"
   }
 }
