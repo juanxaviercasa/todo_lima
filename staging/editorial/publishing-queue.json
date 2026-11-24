@@ -1344,10 +1344,10 @@
     "slug": "ferrocarriles-y-tranvias-como-cambiaron-la-movilidad-de-lima",
     "title": "Ferrocarriles y tranvías: cómo cambiaron la movilidad de Lima",
     "category": "historia-de-lima",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-23",
+    "published_slot": "noche",
+    "batch_day": 44
   },
   {
     "article_id": "TLB-136",
