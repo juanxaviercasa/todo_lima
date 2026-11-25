@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-141",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos",
     "title": "Chorrillos: cómo distinguir humedal, litoral y recorridos urbanos",
@@ -14,8 +14,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer Chorrillos: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": "2026-09-01",
-    "modified": "2026-10-10",
+    "published": "2026-11-25",
+    "modified": "2026-11-25",
     "cover": "chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-portada-vivienda-servicios-hogar",
     "internal": [
       "chorrillos-como-distinguir-humedal-litoral-y-recorridos-urbanos-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-25",
+    "publication_slot": "tarde"
   }
 }
