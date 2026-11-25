@@ -1384,10 +1384,10 @@
     "slug": "museo-de-arte-contemporaneo-de-lima-como-consultar-exposiciones",
     "title": "Museo de Arte Contemporáneo de Lima: cómo consultar exposiciones",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-24",
+    "published_slot": "noche",
+    "batch_day": 45
   },
   {
     "article_id": "TLB-140",
