@@ -1434,10 +1434,10 @@
     "slug": "librerias-independientes-en-lima-como-organizar-una-ruta-de-lectura",
     "title": "Librerías independientes en Lima: cómo organizar una ruta de lectura",
     "category": "cultura-y-tradiciones",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-26",
+    "published_slot": "tarde",
+    "batch_day": 47
   },
   {
     "article_id": "TLB-145",

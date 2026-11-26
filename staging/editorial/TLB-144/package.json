@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-144",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "librerias-independientes-en-lima-como-organizar-una-ruta-de-lectura",
     "title": "Librerías independientes en Lima: cómo organizar una ruta de lectura",
@@ -14,8 +14,8 @@
       "cultura-y-tradiciones"
     ],
     "description": "Estudio cultural sobre librerías independientes en lima: cómo organizar una ruta de lectura en Lima: historia, expresiones vivas, espacios de difusión y...",
-    "published": "2026-09-04",
-    "modified": "2026-10-10",
+    "published": "2026-11-26",
+    "modified": "2026-11-26",
     "cover": "librerias-independientes-en-lima-como-organizar-una-ruta-de-lectura-portada-vivienda-servicios-hogar",
     "internal": [
       "librerias-independientes-en-lima-como-organizar-una-ruta-de-lectura-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-26",
+    "publication_slot": "tarde"
   }
 }
