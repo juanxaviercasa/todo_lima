@@ -1414,10 +1414,10 @@
     "slug": "registro-nacional-del-artesano-donde-consultar-requisitos-y-alcance",
     "title": "Registro Nacional del Artesano: dónde consultar requisitos y alcance",
     "category": "negocios-locales",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-25",
+    "published_slot": "noche",
+    "batch_day": 46
   },
   {
     "article_id": "TLB-143",
