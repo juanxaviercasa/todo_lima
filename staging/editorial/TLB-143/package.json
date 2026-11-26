@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-143",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "las-migraciones-y-la-transformacion-de-los-barrios-limenos",
     "title": "Las migraciones y la transformación de los barrios limeños",
@@ -14,8 +14,8 @@
       "memoria-historica"
     ],
     "description": "Estudio histórico sobre las migraciones y la transformación de los barrios limeños: contexto documental, hitos cronológicos y fuentes archivísticas en L...",
-    "published": "2026-09-03",
-    "modified": "2026-10-10",
+    "published": "2026-11-26",
+    "modified": "2026-11-26",
     "cover": "las-migraciones-y-la-transformacion-de-los-barrios-limenos-portada-distrito-limeno",
     "internal": [
       "las-migraciones-y-la-transformacion-de-los-barrios-limenos-arquitectura-barrio-casonas",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-26",
+    "publication_slot": "mañana"
   }
 }
