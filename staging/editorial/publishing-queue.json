@@ -1464,10 +1464,10 @@
     "slug": "casa-de-la-literatura-peruana-espacios-y-programacion-para-visitantes",
     "title": "Casa de la Literatura Peruana: espacios y programación para visitantes",
     "category": "lugares-y-patrimonio",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-27",
+    "published_slot": "tarde",
+    "batch_day": 48
   },
   {
     "article_id": "TLB-148",

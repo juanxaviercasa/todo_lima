@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-147",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "casa-de-la-literatura-peruana-espacios-y-programacion-para-visitantes",
     "title": "Casa de la Literatura Peruana: espacios y programación para visitantes",
@@ -14,8 +14,8 @@
       "recorridos-culturales"
     ],
     "description": "Guía completa sobre casa de la literatura peruana: espacios y programación para visitantes: historia, arquitectura, horarios de visita y recomendaciones...",
-    "published": "2026-09-07",
-    "modified": "2026-10-10",
+    "published": "2026-11-27",
+    "modified": "2026-11-27",
     "cover": "casa-de-la-literatura-peruana-espacios-y-programacion-para-visitantes-portada-vivienda-servicios-hogar",
     "internal": [
       "casa-de-la-literatura-peruana-espacios-y-programacion-para-visitantes-presupuesto-desglosado-garantia",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-27",
+    "publication_slot": "tarde"
   }
 }
