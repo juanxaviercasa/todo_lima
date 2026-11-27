@@ -1444,10 +1444,10 @@
     "slug": "como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking",
     "title": "Cómo organizar una ruta de postres sin convertirla en un ranking",
     "category": "gastronomia-limena",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-26",
+    "published_slot": "noche",
+    "batch_day": 47
   },
   {
     "article_id": "TLB-146",

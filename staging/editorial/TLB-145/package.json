@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-145",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking",
     "title": "Cómo organizar una ruta de postres sin convertirla en un ranking",
@@ -14,8 +14,8 @@
       "patrimonio-culinario"
     ],
     "description": "Guía sobre organizar una ruta de postres sin convertirla en un ranking en Lima: historia, ingredientes, recomendaciones y consejos prácticos para el com...",
-    "published": "2026-09-05",
-    "modified": "2026-10-10",
+    "published": "2026-11-26",
+    "modified": "2026-11-26",
     "cover": "como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking-portada-pasteleria-limena",
     "internal": [
       "como-organizar-una-ruta-de-postres-sin-convertirla-en-un-ranking-suspiro-limena-merengue",
@@ -418,8 +418,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-26",
+    "publication_slot": "noche"
   }
 }
