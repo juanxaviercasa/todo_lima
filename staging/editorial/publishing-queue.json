@@ -1454,10 +1454,10 @@
     "slug": "como-organizar-un-paseo-en-bicicleta-y-revisar-la-ruta-previamente",
     "title": "Cómo organizar un paseo en bicicleta y revisar la ruta previamente",
     "category": "planes-y-bienestar",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-27",
+    "published_slot": "mañana",
+    "batch_day": 48
   },
   {
     "article_id": "TLB-147",

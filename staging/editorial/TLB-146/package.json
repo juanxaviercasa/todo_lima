@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-146",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-organizar-un-paseo-en-bicicleta-y-revisar-la-ruta-previamente",
     "title": "Cómo organizar un paseo en bicicleta y revisar la ruta previamente",
@@ -14,8 +14,8 @@
       "planes-y-bienestar"
     ],
     "description": "Guía sobre organizar un paseo en bicicleta y revisar la ruta previamente en Lima: planificación, requisitos oficiales, accesibilidad y consejos para dis...",
-    "published": "2026-09-06",
-    "modified": "2026-10-10",
+    "published": "2026-11-27",
+    "modified": "2026-11-27",
     "cover": "como-organizar-un-paseo-en-bicicleta-y-revisar-la-ruta-previamente-portada-fin-semana-parque",
     "internal": [
       "como-organizar-un-paseo-en-bicicleta-y-revisar-la-ruta-previamente-agenda-cultural-parque",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-27",
+    "publication_slot": "mañana"
   }
 }
