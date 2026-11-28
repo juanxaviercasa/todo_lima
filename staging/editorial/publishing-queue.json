@@ -1474,10 +1474,10 @@
     "slug": "como-reservar-una-cita-de-barberia-y-explicar-el-servicio-que-necesitas",
     "title": "Cómo reservar una cita de barbería y explicar el servicio que necesitas",
     "category": "vida-practica",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-27",
+    "published_slot": "noche",
+    "batch_day": 48
   },
   {
     "article_id": "TLB-149",

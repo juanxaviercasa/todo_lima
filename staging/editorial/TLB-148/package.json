@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-148",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "como-reservar-una-cita-de-barberia-y-explicar-el-servicio-que-necesitas",
     "title": "Cómo reservar una cita de barbería y explicar el servicio que necesitas",
@@ -14,8 +14,8 @@
       "indecopi"
     ],
     "description": "Guía práctica sobre reservar una cita de barbería y explicar el servicio que necesitas en Lima: recomendaciones, pasos preventivos y fuentes oficiales.",
-    "published": "2026-09-08",
-    "modified": "2026-10-10",
+    "published": "2026-11-27",
+    "modified": "2026-11-27",
     "cover": "como-reservar-una-cita-de-barberia-y-explicar-el-servicio-que-necesitas-portada-vivienda-servicios-hogar",
     "internal": [
       "como-reservar-una-cita-de-barberia-y-explicar-el-servicio-que-necesitas-presupuesto-desglosado-garantia",
@@ -433,8 +433,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-27",
+    "publication_slot": "noche"
   }
 }
