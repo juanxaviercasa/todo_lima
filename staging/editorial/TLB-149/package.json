@@ -2,7 +2,7 @@
   "schema_version": 1,
   "template": false,
   "article_id": "TLB-149",
-  "stage": "en_cola",
+  "stage": "publicado",
   "content": {
     "slug": "lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica",
     "title": "Lurín y Pachacamac: cómo delimitar una visita cultural y gastronómica",
@@ -14,8 +14,8 @@
       "vida-local"
     ],
     "description": "Guía completa para recorrer Lurín: patrimonio, parques, gastronomía local, transporte y recomendaciones para un paseo sin prisas.",
-    "published": "2026-09-09",
-    "modified": "2026-10-10",
+    "published": "2026-11-28",
+    "modified": "2026-11-28",
     "cover": "lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica-portada-feria-cultural-plaza",
     "internal": [
       "lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica-instrumentos-artesanias-muestra",
@@ -429,8 +429,8 @@
     "all_claims_sourced": true,
     "links_verified": true,
     "ready_for_review": true,
-    "publication_approved": false,
-    "publication_date": null,
-    "publication_slot": null
+    "publication_approved": true,
+    "publication_date": "2026-11-28",
+    "publication_slot": "mañana"
   }
 }

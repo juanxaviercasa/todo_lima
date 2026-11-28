@@ -1484,10 +1484,10 @@
     "slug": "lurin-y-pachacamac-como-delimitar-una-visita-cultural-y-gastronomica",
     "title": "Lurín y Pachacamac: cómo delimitar una visita cultural y gastronómica",
     "category": "barrios-y-distritos",
-    "status": "en_cola",
-    "published_at": null,
-    "published_slot": null,
-    "batch_day": null
+    "status": "publicado",
+    "published_at": "2026-11-28",
+    "published_slot": "mañana",
+    "batch_day": 49
   },
   {
     "article_id": "TLB-150",
